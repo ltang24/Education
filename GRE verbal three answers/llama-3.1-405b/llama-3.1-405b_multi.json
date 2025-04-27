@@ -1,0 +1,3023 @@
+{
+    "zero-shot": {
+        "accuracy": 0.68,
+        "correct_count": 34,
+        "total_questions_processed": 50,
+        "details": [
+            {
+                "question_number": 1,
+                "expected": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "model_response": "origin, produce, eaten  \nExplanation: The first blank requires a word that indicates the source or beginning of the toxins, which is \"origin.\" The second blank needs a verb that indicates the frogs do not create the toxins, so \"produce\" is appropriate. The third blank needs a word that indicates the relationship between the frogs and the beetles, where the frogs consume the beetles, making \"eaten\" the correct choice.",
+                "runtime": 4.35,
+                "correct": true
+            },
+            {
+                "question_number": 2,
+                "expected": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "model_response": "competitive, wide-ranging, comprehensive  \nThe first blank describes the nature of auctions in the context of increased interest in photographic prints, suggesting that they are becoming more competitive due to the influx of new collectors. The second blank indicates that established collectors are expanding their interests, which aligns with the term \"wide-ranging.\" Finally, the third blank suggests that collectors are now aiming for collections that cover a broad spectrum, thus \"comprehensive\" fits well as it implies a thorough and inclusive approach to collecting.",
+                "runtime": 2.07,
+                "correct": true
+            },
+            {
+                "question_number": 3,
+                "expected": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "model_response": "rich, problem, augmented  \nThe first blank requires a word that indicates a variety or abundance of signals, making \"rich\" the best choice. The second blank needs a term that conveys a challenge or difficulty, which is best captured by \"problem.\" The third blank should indicate that the complexity of the signals is increased or made more difficult to understand, so \"augmented\" fits well, as it suggests that the situation is made more complicated by the context and developmental factors.",
+                "runtime": 1.77,
+                "correct": true
+            },
+            {
+                "question_number": 4,
+                "expected": [
+                    "an honorific",
+                    "established",
+                    "disputed"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "honorific",
+                    "established",
+                    "disputed"
+                ],
+                "model_response": "honorific, established, disputed  \nExplanation: The context suggests that the term \"scientific\" is used in a way that elevates its status (hence \"honorific\"), implying reliability that has been confirmed or \"established\" through rigorous methods. The results of these methods cannot reasonably be \"disputed,\" indicating that they are accepted as valid and reliable.",
+                "runtime": 1.43,
+                "correct": false
+            },
+            {
+                "question_number": 5,
+                "expected": [
+                    "slowdown",
+                    "gloomy",
+                    "temporary"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "slowdown",
+                    "ambitious",
+                    "temporary"
+                ],
+                "model_response": "slowdown, ambitious, temporary  \nThe context of the passage suggests that there was a decrease in the growth of atmospheric methane, which aligns with the word \"slowdown.\" The second blank refers to the scenarios for global warming being overly optimistic, which is best captured by \"ambitious.\" Finally, the third blank indicates that the observed phenomena were likely due to short-lived changes in emissions, making \"temporary\" the most fitting choice.",
+                "runtime": 2.05,
+                "correct": false
+            },
+            {
+                "question_number": 6,
+                "expected": [
+                    "censure",
+                    "demanding",
+                    "sifted from"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "compliment",
+                    "demanding",
+                    "sifted from"
+                ],
+                "model_response": "compliment, demanding, sifted from  \nThe first blank requires a word that contrasts with \"praise,\" and \"compliment\" fits well as it aligns with the positive aspect of reviewing. The second blank describes the reviewer's task when dealing with complex books, and \"demanding\" suggests that it requires more effort and thought. The third blank needs a phrase that indicates separating valuable insights from less useful content, and \"sifted from\" conveys the idea of carefully distinguishing between the two.",
+                "runtime": 2.22,
+                "correct": false
+            },
+            {
+                "question_number": 7,
+                "expected": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "model_response": "comprehend, allure, valid  \nExplanation: The first blank requires a word that indicates a positive action related to understanding, so \"comprehend\" fits best. The second blank needs a word that conveys an appealing quality, and \"allure\" captures the attractive nature of ambiguity. Lastly, the third blank should describe interpretations that can be accepted as true, making \"valid\" the most appropriate choice.",
+                "runtime": 2.27,
+                "correct": true
+            },
+            {
+                "question_number": 8,
+                "expected": [
+                    "empowering",
+                    "surrendering to",
+                    "glean precisely what you want from it"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "empowering",
+                    "surrendering to",
+                    "glean precisely what you want from it"
+                ],
+                "model_response": "empowering, surrendering to, glean precisely what you want from it  \nThe first blank should convey a positive feeling about the research process, making \"empowering\" the best choice. The second blank describes the relationship to the book's structure, where \"surrendering to\" indicates a passive acceptance of the author's organization. The third blank should reflect a selective approach to information retrieval, making \"glean precisely what you want from it\" the most fitting option.",
+                "runtime": 1.62,
+                "correct": true
+            },
+            {
+                "question_number": 9,
+                "expected": [
+                    "now common",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "vulnerable",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "model_response": "vulnerable, obligatory, jettisoned\n\nExplanation: The first blank refers to species that are at risk due to human impact, making \"vulnerable\" the most fitting choice. The second blank indicates the necessity of conservation efforts, so \"obligatory\" is appropriate as it suggests that ongoing management is essential. For the third blank, \"jettisoned\" implies that these responsibilities cannot be discarded, aligning with the context of the passage.",
+                "runtime": 1.69,
+                "correct": false
+            },
+            {
+                "question_number": 10,
+                "expected": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "model_response": "unavoidable, shy away, emerges victorious  \nMany fairy tales emphasize the inevitability of struggles in life, suggesting that facing difficulties is a fundamental aspect of human existence (i) unavoidable. The phrase \"if one does not (ii) shy away\" indicates that one should confront challenges rather than avoid them. Finally, the conclusion of these narratives often portrays a positive outcome, where the protagonist (iii) emerges victorious after overcoming obstacles.",
+                "runtime": 1.63,
+                "correct": true
+            },
+            {
+                "question_number": 11,
+                "expected": [
+                    "expensive",
+                    "useless",
+                    "serve no practical purpose"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "flawless",
+                    "irreplaceable",
+                    "serve no practical purpose"
+                ],
+                "model_response": "flawless, irreplaceable, serve no practical purpose  \nThe writer is discussing jewelry-grade diamonds, which are typically flawless and irreplaceable, highlighting their high value and desirability. The conclusion drawn suggests that these diamonds are purchased either for their monetary value or for the status they confer, which aligns with the idea that they serve no practical purpose beyond their symbolic value.",
+                "runtime": 2.25,
+                "correct": false
+            },
+            {
+                "question_number": 12,
+                "expected": [
+                    "profitable",
+                    "were suitable only for certain locations",
+                    "return on"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "were",
+                    "watermills",
+                    "profitable"
+                ],
+                "model_response": "profitable, were suitable only for certain locations, return on  \nIn the context of the sentence, \"profitable\" fits because it suggests that watermills were more economically advantageous compared to windmills. The second blank needs to indicate a limitation of watermills, and \"were suitable only for certain locations\" accurately describes the geographical constraints of watermills. Finally, \"return on\" is appropriate as it refers to the financial benefits gained from the investment in building a watermill, aligning with the idea of greater capacity and reliability leading to better returns.",
+                "runtime": 2.48,
+                "correct": false
+            },
+            {
+                "question_number": 13,
+                "expected": [
+                    "egalitarian",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "prestigious",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "model_response": "prestigious, aristocratic, atrophied into insignificance  \nExplanation: The first blank should be filled with \"prestigious\" to indicate that Japan's first university was more esteemed than its Chinese counterparts. The second blank is best filled with \"aristocratic,\" as it describes the highly elite nature of the Chinese Tang system. Finally, the third blank should be \"atrophied into insignificance,\" suggesting that as the Japanese examination system became more hereditary, it lost its effectiveness and relevance over time.",
+                "runtime": 2.02,
+                "correct": false
+            },
+            {
+                "question_number": 14,
+                "expected": [
+                    "questionable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "questionable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "model_response": "questionable, inherently implausible about, conjecture  \nExplanation: The historian's narrative is described as questionable, indicating doubts about its reliability. The second blank suggests that there is nothing inherently implausible about the account, which aligns with the idea that it may still have some merit despite being questionable. The third blank indicates that parts of the narrative rely on conjecture, which supports the notion that the historian's conclusions may not be firmly grounded in evidence.",
+                "runtime": 1.95,
+                "correct": true
+            },
+            {
+                "question_number": 15,
+                "expected": [
+                    "astonished",
+                    "Buoyed",
+                    "alacrity"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "astonished",
+                    "buoyed",
+                    "alacrity"
+                ],
+                "model_response": "astonished, Buoyed, alacrity  \nExplanation: The volunteers' unexpected speed and efficiency in classifying galaxies would likely astonish the organizers. The Galaxy Zoo team would feel buoyed by this impressive effort, which reflects the enthusiasm and eagerness (alacrity) of the volunteers, motivating them to explore new research avenues.",
+                "runtime": 1.51,
+                "correct": true
+            },
+            {
+                "question_number": 16,
+                "expected": [
+                    "stranger in",
+                    "alienation",
+                    "birthplace"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "citizen of",
+                    "alienation",
+                    "birthplace"
+                ],
+                "model_response": "citizen of, alienation, birthplace  \nExplanation: The context of the sentence suggests that Hamilton came to see himself as a \"citizen of\" the United States, despite being born outside of it. His \"alienation\" reflects the disconnect he felt, which was influenced by his \"birthplace\" rather than any ideological or professional factors. The use of \"alienation\" aligns with the idea of feeling estranged from a society, and \"birthplace\" directly relates to the reason for that alienation.",
+                "runtime": 2.23,
+                "correct": false
+            },
+            {
+                "question_number": 17,
+                "expected": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "model_response": "is interested in, document, aesthetics  \nFriedlander, as a photographer, focuses on places that are often overlooked or considered unattractive, indicating that he has a genuine interest in these subjects. His obligation to document suggests that he feels compelled to capture the reality of the American landscape, regardless of its aesthetic appeal, which aligns with the idea that he is not concerned with beauty but rather with the authenticity of what he sees.",
+                "runtime": 1.63,
+                "correct": true
+            },
+            {
+                "question_number": 18,
+                "expected": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "model_response": "physical activity, detract from, augmented  \nTrudeau and Shephard's conclusion suggests that incorporating physical activity into school curricula does not detract from academic achievement, indicating that it is beneficial rather than harmful. The context implies that more exercise can actually augment school performance, which aligns with the idea that it enhances rather than diminishes academic outcomes.",
+                "runtime": 1.51,
+                "correct": true
+            },
+            {
+                "question_number": 19,
+                "expected": [
+                    "breakdown",
+                    "promote",
+                    "undermining"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "breakdown",
+                    "distort",
+                    "undermining"
+                ],
+                "model_response": "breakdown, distort, undermining  \nExplanation: The first blank refers to the negative impact of using battle and sports metaphors, which suggests a \"breakdown\" of the argumentative process. The second blank indicates that such metaphors may \"distort\" adversarial conceptions of argument, leading to aggressive behavior. Finally, the third blank indicates that this aggressive behavior is \"undermining\" the process that should ideally lead to resolution.",
+                "runtime": 1.86,
+                "correct": false
+            },
+            {
+                "question_number": 20,
+                "expected": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "model_response": "make public, maladies, plague  \nExplanation: The Agriculture Department would \"make public\" its dietary guidelines, which aligns with the context of laying down a challenge. The second blank refers to the negative health outcomes associated with poor dietary habits, which are best described as \"maladies.\" Finally, the third blank requires a verb that indicates these health issues affect the developed world, and \"plague\" fits this context as it means to trouble or afflict persistently.",
+                "runtime": 3.11,
+                "correct": true
+            },
+            {
+                "question_number": 21,
+                "expected": [
+                    "ambivalent about",
+                    "excited by",
+                    "At the same time"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "ambivalent about",
+                    "excited by",
+                    "at the same time"
+                ],
+                "model_response": "ambivalent about, excited by, At the same time\n\nExplanation: The first blank suggests that governments have mixed feelings about the Internet, hence \"ambivalent about\" fits best. The second blank indicates that governments recognize the Internet's growth and opportunities, making \"excited by\" the appropriate choice. The third blank introduces a contrast, where \"At the same time\" effectively conveys that while they see the benefits, they also have concerns about its subversive nature.",
+                "runtime": 2.18,
+                "correct": true
+            },
+            {
+                "question_number": 22,
+                "expected": [
+                    "less one-sided",
+                    "disputable",
+                    "credibility"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "nebulous at best",
+                    "disputable",
+                    "credibility"
+                ],
+                "model_response": "nebulous at best, disputable, credibility  \nExplanation: The first blank suggests that the relationship between theory and data is not straightforward, which aligns with \"nebulous at best.\" The second blank indicates that empirical data can be questioned or debated, making \"disputable\" the best fit. The third blank refers to how a strong theory can influence the acceptance of new findings, where \"credibility\" fits well as it relates to the trustworthiness of the findings in light of established theories.",
+                "runtime": 2.43,
+                "correct": false
+            },
+            {
+                "question_number": 23,
+                "expected": [
+                    "originality",
+                    "conformity",
+                    "incremental"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "tradition",
+                    "persuasion",
+                    "incremental"
+                ],
+                "model_response": "tradition, persuasion, incremental  \nPolitical ads have remained consistent over time, suggesting that political advertisers value tradition over innovation. In contrast, consumer ads have evolved, indicating that consumer advertisers prioritize persuasion to adapt to changing markets. The final blank suggests that political ads resist change, which aligns with the idea of incremental change rather than controversial or popular shifts.",
+                "runtime": 1.73,
+                "correct": false
+            },
+            {
+                "question_number": 24,
+                "expected": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "model_response": "altruistic, illusory, contradicts  \nThe first blank requires a word that describes people who are more selfless or concerned for the well-being of others, which is best filled by \"altruistic.\" The second blank needs a term that suggests the differences in people's motivations are not real or are deceptive, making \"illusory\" the correct choice. Finally, the third blank must indicate that the claim about self-interest goes against our observations and moral evaluations, so \"contradicts\" fits perfectly.",
+                "runtime": 3.79,
+                "correct": true
+            },
+            {
+                "question_number": 25,
+                "expected": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "model_response": "implemented, can grow unchecked, doomed  \nExplanation: The first blank requires a word that indicates that policies aimed at limiting population growth have been put into action, which is best represented by \"implemented.\" The second blank suggests that despite these policies, human populations in areas where large carnivores exist are still increasing, which aligns with \"can grow unchecked.\" Finally, the third blank needs a word that conveys a negative outcome for the South China tiger due to human pressure, making \"doomed\" the most fitting choice.",
+                "runtime": 3.08,
+                "correct": true
+            },
+            {
+                "question_number": 26,
+                "expected": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "model_response": "rationale for, mentioned, energizes  \nThe first blank requires a phrase that supports the spending of public money on scientific projects, which is best filled by \"rationale for.\" The second blank needs a word that indicates the idea of science strengthening democracy is not often acknowledged, making \"mentioned\" the most suitable choice. Finally, the third blank should describe how scientific literacy affects democracy positively, and \"energizes\" fits well as it implies that scientific literacy invigorates or enhances democratic processes.",
+                "runtime": 2.49,
+                "correct": true
+            },
+            {
+                "question_number": 27,
+                "expected": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "model_response": "restrain, incursions of, corrupt  \nThe sentence discusses methods developed to mitigate distortions in research caused by the researcher. The first blank should indicate a method that limits or controls something, which is best filled by \"restrain.\" The second blank refers to what is being limited, which is \"incursions of\" subjectivity, as it suggests unwanted intrusions. Finally, the third blank should reflect a negative impact on research, which is accurately captured by \"corrupt,\" indicating that unchecked subjectivity can undermine the integrity of research.",
+                "runtime": 3.27,
+                "correct": true
+            },
+            {
+                "question_number": 28,
+                "expected": [
+                    "surfeit",
+                    "virtue",
+                    "forgo"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "surfeit",
+                    "virtue",
+                    "forgo"
+                ],
+                "model_response": "surfeit, virtue, forgo  \nExplanation: In the first blank, \"surfeit\" fits best as it indicates an excessive amount of choices, which aligns with the idea that too many options can lead to paralysis. For the second blank, \"virtue\" suggests that a lack of flexibility can be seen as a positive trait, which is supported by the context of the passage. Lastly, \"forgo\" in the third blank implies that people are willing to give up some advantages for the sake of having peace of mind, which is consistent with the overall theme of the text.",
+                "runtime": 2.79,
+                "correct": true
+            },
+            {
+                "question_number": 29,
+                "expected": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "model_response": "unconnected, superficial, isolationism  \nExplanation: The first blank requires a word that indicates the lack of connection between political events in different countries, making \"unconnected\" the best fit. The second blank suggests that the interrelationship was not very deep or significant, which aligns with \"superficial.\" The third blank refers to a political stance that is no longer viable, and \"isolationism\" fits well, as it implies a withdrawal from international relations, which is not an option in the context of increased interdependence.",
+                "runtime": 3.85,
+                "correct": true
+            },
+            {
+                "question_number": 30,
+                "expected": [
+                    "inert",
+                    "wonderfully enriched",
+                    "circumvent"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "inert",
+                    "inevitably circumscribed",
+                    "circumvent"
+                ],
+                "model_response": "inert, inevitably circumscribed, circumvent  \nExplanation: The first blank describes a quality of contemporary drawing that is negatively impacted by the use of photography, suggesting a lack of vitality or energy, which aligns with \"inert.\" The second blank indicates how photography affects modern arts, and \"inevitably circumscribed\" suggests that photography limits or constrains artistic expression. The third blank refers to overcoming challenges in achieving correct proportions, and \"circumvent\" means to find a way around difficulties, fitting the context of using photography as a shortcut.",
+                "runtime": 3.83,
+                "correct": false
+            },
+            {
+                "question_number": 31,
+                "expected": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "model_response": "master, deliberation, given import  \nExplanation: The first blank describes Joanna Scott as someone whose work is admirable, and \"master\" fits best as it conveys a high level of skill and expertise. The second blank requires a word that complements her skill in narration; \"deliberation\" suggests careful thought and precision, which aligns with the idea of skillful storytelling. The third blank indicates that elements introduced early in the story will be significant by the end, making \"given import\" the most appropriate choice, as it implies that those hints will be meaningful rather than forgotten or overwhelmed.",
+                "runtime": 3.71,
+                "correct": true
+            },
+            {
+                "question_number": 32,
+                "expected": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "model_response": "made demands on, alien to, misunderstood  \nExplanation: The first blank requires a phrase that indicates the performances require effort or engagement from the audience, thus \"made demands on\" fits best. The second blank needs a term that suggests the techniques are not familiar to those with a background in music or films, making \"alien to\" the correct choice. Finally, the third blank should convey that the critics did not grasp the essence of the company's work, so \"misunderstood\" is the most appropriate option.",
+                "runtime": 1.98,
+                "correct": true
+            },
+            {
+                "question_number": 33,
+                "expected": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "model_response": "lucrative, authoritative, a staleness  \nThe first blank requires a word that indicates the Review is financially successful, making \"lucrative\" the best fit. The second blank needs a word that describes the Review's scholarly nature, where \"authoritative\" fits well, as it suggests a high level of expertise. The third blank should reflect a negative quality that has persisted in the publication, and \"a staleness\" indicates a lack of freshness or innovation, which aligns with the context of the sentence discussing imperfections.",
+                "runtime": 1.83,
+                "correct": true
+            },
+            {
+                "question_number": 34,
+                "expected": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "model_response": "operate outside of, active, report  \nExplanation: The first blank requires a phrase that indicates how cultures influence attitudes without conscious awareness, making \"operate outside of\" the best fit. The second blank needs a word that suggests a lack of direct involvement, so \"active\" is appropriate as it contrasts with passive participation. Finally, the third blank should reflect something individuals may struggle to express or acknowledge, making \"report\" the most fitting choice, as it implies difficulty in articulating subconscious influences.",
+                "runtime": 2.23,
+                "correct": true
+            },
+            {
+                "question_number": 35,
+                "expected": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "model_response": "marketable artifacts, a commercial, consumption  \nExplanation: The context of the sentence suggests that anniversaries are transformed into items that can be sold or promoted, hence \"marketable artifacts\" fits well in the first blank. The second blank indicates the type of culture surrounding these events; \"a commercial\" culture aligns with the idea of anniversaries being exploited for profit. Finally, the third blank refers to what the manufactured historical narratives are intended for, and \"consumption\" fits as it implies that these narratives are created for public enjoyment and engagement.",
+                "runtime": 6.58,
+                "correct": true
+            },
+            {
+                "question_number": 36,
+                "expected": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "model_response": "languishing, extend, manages to thrive  \nThe first blank requires a word that indicates a negative outcome due to uncontrolled copying, which \"languishing\" fits well. The second blank needs a word that suggests an action to improve or support intellectual property law, and \"extend\" is appropriate as it implies broadening protections. The third blank should reflect a positive outcome in the absence of legal rules, and \"manages to thrive\" indicates that creative work can still succeed without legal protection.",
+                "runtime": 2.29,
+                "correct": true
+            },
+            {
+                "question_number": 37,
+                "expected": [
+                    "collaborative",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "collaborative",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "model_response": "collaborative, contributions, remain overlooked  \nExplanation: The first blank should be filled with \"collaborative\" to reflect the nature of contemporary science, which often involves teamwork and cooperation. The second blank is best filled with \"contributions,\" as it refers to the input of individuals in the scientific field. The third blank should be \"remain overlooked,\" indicating that the work of women and minority scientists has not received the recognition it deserves.",
+                "runtime": 1.67,
+                "correct": true
+            },
+            {
+                "question_number": 38,
+                "expected": [
+                    "an acquired",
+                    "advanced",
+                    "demands"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "an acquired",
+                    "practical",
+                    "demands"
+                ],
+                "model_response": "an acquired, practical, demands  \nExplanation: The first blank suggests that truthfulness is not something that comes naturally to children but is something they learn over time, hence \"an acquired\" is appropriate. The second blank indicates that lying is a more common or useful skill for children, making \"practical\" the best fit. Finally, the third blank indicates that lying requires significant cognitive effort and social skills, so \"demands\" is the most fitting choice.",
+                "runtime": 5.15,
+                "correct": false
+            },
+            {
+                "question_number": 39,
+                "expected": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "model_response": "celebrate, incommensurate with, stratification  \nExplanation: The first blank should be filled with \"celebrate\" as it aligns with the idea of founding myths promoting gender equality. The second blank requires \"incommensurate with\" to indicate that theoretical commitments do not match actual processes. Finally, \"stratification\" fits the third blank as it refers to the persistence of gender-based inequality, contrasting with the notion of equality.",
+                "runtime": 2.23,
+                "correct": true
+            },
+            {
+                "question_number": 40,
+                "expected": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "model_response": "access to, spontaneously emerge, construct  \nExplanation: The first blank requires a phrase that indicates the firms had superior resources, so \"access to\" fits best. The second blank needs a phrase that suggests the markets would not just appear without effort, making \"spontaneously emerge\" the correct choice. Finally, the third blank requires a verb that indicates the firms needed to create or build markets, so \"construct\" is the most appropriate option.",
+                "runtime": 1.78,
+                "correct": true
+            },
+            {
+                "question_number": 41,
+                "expected": [
+                    "peer",
+                    "cliquish social behavior",
+                    "clustering"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "peer",
+                    "cliquish social behavior",
+                    "alienation"
+                ],
+                "model_response": "peer, cliquish social behavior, alienation  \nIn adolescence, peer interactions are crucial for developing self-identity, as adolescents often engage in cliquish social behavior to define their sense of self. This behavior can lead to alienation from those outside their group, but if managed well, it can evolve into more mature friendships.",
+                "runtime": 1.98,
+                "correct": false
+            },
+            {
+                "question_number": 42,
+                "expected": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "model_response": "requires, debunked, predate that event  \nThe first blank needs a word that indicates the myth asserts a specific claim about the introduction of pasta, which \"requires\" fits. The second blank needs a word that indicates the myth can be disproven, and \"debunked\" is the most appropriate choice. The third blank should indicate that there are earlier references to pasta, which \"predate that event\" clearly conveys.",
+                "runtime": 2.0,
+                "correct": true
+            },
+            {
+                "question_number": 43,
+                "expected": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "model_response": "malady, healthful, funds  \nThe first blank requires a word that refers to a medical condition or illness, making \"malady\" the appropriate choice. The second blank needs a term that describes the therapies positively, so \"healthful\" fits well as it suggests that the treatments are beneficial. For the third blank, the context indicates that the German medical system supports or provides financial backing for these treatments, making \"funds\" the correct answer.",
+                "runtime": 2.19,
+                "correct": true
+            },
+            {
+                "question_number": 44,
+                "expected": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "model_response": "well-worked, find, new  \nThe context of the sentence suggests that Thaler's study is not presenting groundbreaking or original insights, as it is described as examining \"quite (i)_____ ground,\" indicating that the subject matter is already well-explored. Therefore, \"well-worked\" fits best in the first blank. In the second blank, \"find\" is appropriate because it suggests that readers familiar with the existing literature will discover little that is new or surprising in Thaler's work. Finally, \"new\" in the third blank aligns with the idea that there is nothing innovative or original in Thaler's study, as it is based on a well-established area of research.",
+                "runtime": 2.46,
+                "correct": true
+            },
+            {
+                "question_number": 45,
+                "expected": [
+                    "compunction about",
+                    "sociability",
+                    "cooperate"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "consensus regarding",
+                    "sociability",
+                    "cooperate"
+                ],
+                "model_response": "consensus regarding, sociability, cooperate  \nExplanation: The first blank requires a word that indicates agreement or a shared understanding among biologists about the connection between humanity's success and a specific human trait. \"Consensus regarding\" fits this context well. The second blank needs a term that reflects a characteristic of humans that contributes to their success; \"sociability\" is appropriate as it relates to social interactions and group dynamics. The third blank requires a verb that describes the action of working together for the benefit of the group, and \"cooperate\" is the best fit, as it directly relates to the idea of subordination of self-interest for group needs.",
+                "runtime": 2.77,
+                "correct": false
+            },
+            {
+                "question_number": 46,
+                "expected": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "model_response": "even more troubling, vanished, rapid  \nExplanation: The first blank suggests that the ethical implications of neuroscience are more concerning than those of genetics, making \"even more troubling\" the best fit. The second blank indicates a change in the constraints on genetic experimentation, and \"vanished\" implies that these constraints have disappeared, allowing for experimentation. The third blank describes the results of altering brain function, and \"rapid\" fits well as it suggests that changes can occur quickly compared to the long-term outcomes of genetic alterations.",
+                "runtime": 4.9,
+                "correct": true
+            },
+            {
+                "question_number": 47,
+                "expected": [
+                    "unclear",
+                    "has little effect on",
+                    "enhance"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "measurable",
+                    "tends to accentuate",
+                    "enhance"
+                ],
+                "model_response": "measurable, tends to accentuate, enhance  \nThe first blank requires a word that indicates the power of laughter can be quantified or assessed, making \"measurable\" the best fit. The second blank needs a phrase that suggests laughter improves the perception of humor, so \"tends to accentuate\" is appropriate. For the third blank, the context implies that laughter can improve or increase humor at certain moments, making \"enhance\" the correct choice.",
+                "runtime": 2.17,
+                "correct": false
+            },
+            {
+                "question_number": 48,
+                "expected": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "model_response": "adapted to, in the water, clumsy for  \nExplanation: The first blank requires a word that indicates how Maiacetus inuus was suited for life in the sea, so \"adapted to\" fits best. The second blank describes where the species likely spent much of its time, and \"in the water\" is the most logical choice given its adaptations. The third blank needs a phrase that suggests the feet were not well-suited for walking, and \"clumsy for\" accurately conveys that idea.",
+                "runtime": 2.03,
+                "correct": true
+            },
+            {
+                "question_number": 49,
+                "expected": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "model_response": "misconstrued, acquiescence, detestation  \nExplanation: The context suggests that people misunderstood Clark's compliance as obsequiousness, which aligns with \"misconstrued.\" The second blank describes his apparent behavior, which could be interpreted as \"acquiescence,\" indicating passive acceptance. The third blank refers to his true feelings towards authority, which is best captured by \"detestation,\" as he secretly sabotaged their projects, indicating strong dislike or hatred.",
+                "runtime": 2.59,
+                "correct": true
+            },
+            {
+                "question_number": 50,
+                "expected": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "model_response": "caused, feedback between, self-perpetuating  \nThe first blank requires a word that indicates a relationship where mountain building influences global cooling, making \"caused\" the correct choice. The second blank needs a term that describes the interaction between mountains and climate, and \"feedback between\" fits well as it suggests a reciprocal relationship. For the third blank, \"self-perpetuating\" describes how mountain glaciers, once formed, continue to promote conditions that lead to more ice and lower temperatures, aligning with the context of the sentence.",
+                "runtime": 2.42,
+                "correct": true
+            }
+        ]
+    },
+    "five-shot": {
+        "accuracy": 0.72,
+        "correct_count": 36,
+        "total_questions_processed": 50,
+        "details": [
+            {
+                "question_number": 1,
+                "expected": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "model_response": "origin, produce, eaten",
+                "runtime": 1.02,
+                "correct": true
+            },
+            {
+                "question_number": 2,
+                "expected": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "model_response": "competitive, wide-ranging, comprehensive",
+                "runtime": 0.68,
+                "correct": true
+            },
+            {
+                "question_number": 3,
+                "expected": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "model_response": "rich, problem, augmented",
+                "runtime": 0.71,
+                "correct": true
+            },
+            {
+                "question_number": 4,
+                "expected": [
+                    "an honorific",
+                    "established",
+                    "disputed"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "an honorific",
+                    "established",
+                    "disputed"
+                ],
+                "model_response": "an honorific, established, disputed",
+                "runtime": 0.66,
+                "correct": true
+            },
+            {
+                "question_number": 5,
+                "expected": [
+                    "slowdown",
+                    "gloomy",
+                    "temporary"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "slowdown",
+                    "ambitious",
+                    "temporary"
+                ],
+                "model_response": "slowdown, ambitious, temporary",
+                "runtime": 0.65,
+                "correct": false
+            },
+            {
+                "question_number": 6,
+                "expected": [
+                    "censure",
+                    "demanding",
+                    "sifted from"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "censure",
+                    "demanding",
+                    "sifted from"
+                ],
+                "model_response": "censure, demanding, sifted from",
+                "runtime": 0.7,
+                "correct": true
+            },
+            {
+                "question_number": 7,
+                "expected": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "model_response": "comprehend, allure, valid",
+                "runtime": 4.14,
+                "correct": true
+            },
+            {
+                "question_number": 8,
+                "expected": [
+                    "empowering",
+                    "surrendering to",
+                    "glean precisely what you want from it"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "empowering",
+                    "surrendering to",
+                    "glean precisely what you want from it"
+                ],
+                "model_response": "empowering, surrendering to, glean precisely what you want from it",
+                "runtime": 0.78,
+                "correct": true
+            },
+            {
+                "question_number": 9,
+                "expected": [
+                    "now common",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "vulnerable",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "model_response": "vulnerable, obligatory, jettisoned",
+                "runtime": 0.79,
+                "correct": false
+            },
+            {
+                "question_number": 10,
+                "expected": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "model_response": "unavoidable, shy away, emerges victorious",
+                "runtime": 0.73,
+                "correct": true
+            },
+            {
+                "question_number": 11,
+                "expected": [
+                    "expensive",
+                    "useless",
+                    "serve no practical purpose"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "expensive",
+                    "irreplaceable",
+                    "serve no practical purpose"
+                ],
+                "model_response": "expensive, irreplaceable, serve no practical purpose",
+                "runtime": 1.05,
+                "correct": false
+            },
+            {
+                "question_number": 12,
+                "expected": [
+                    "profitable",
+                    "were suitable only for certain locations",
+                    "return on"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "profitable",
+                    "were",
+                    "suitable"
+                ],
+                "model_response": "profitable, were suitable only for certain locations, return on",
+                "runtime": 0.77,
+                "correct": false
+            },
+            {
+                "question_number": 13,
+                "expected": [
+                    "egalitarian",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "egalitarian",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "model_response": "egalitarian, aristocratic, atrophied into insignificance",
+                "runtime": 0.8,
+                "correct": true
+            },
+            {
+                "question_number": 14,
+                "expected": [
+                    "questionable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "questionable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "model_response": "questionable, inherently implausible about, conjecture",
+                "runtime": 0.87,
+                "correct": true
+            },
+            {
+                "question_number": 15,
+                "expected": [
+                    "astonished",
+                    "Buoyed",
+                    "alacrity"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "astonished",
+                    "buoyed",
+                    "alacrity"
+                ],
+                "model_response": "astonished, Buoyed, alacrity",
+                "runtime": 0.69,
+                "correct": true
+            },
+            {
+                "question_number": 16,
+                "expected": [
+                    "stranger in",
+                    "alienation",
+                    "birthplace"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "citizen of",
+                    "alienation",
+                    "birthplace"
+                ],
+                "model_response": "citizen of, alienation, birthplace",
+                "runtime": 0.95,
+                "correct": false
+            },
+            {
+                "question_number": 17,
+                "expected": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "model_response": "is interested in, document, aesthetics",
+                "runtime": 2.05,
+                "correct": true
+            },
+            {
+                "question_number": 18,
+                "expected": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "model_response": "physical activity, detract from, augmented",
+                "runtime": 0.84,
+                "correct": true
+            },
+            {
+                "question_number": 19,
+                "expected": [
+                    "breakdown",
+                    "promote",
+                    "undermining"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "breakdown",
+                    "promote",
+                    "undermining"
+                ],
+                "model_response": "breakdown, promote, undermining",
+                "runtime": 0.71,
+                "correct": true
+            },
+            {
+                "question_number": 20,
+                "expected": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "model_response": "make public, maladies, plague",
+                "runtime": 0.99,
+                "correct": true
+            },
+            {
+                "question_number": 21,
+                "expected": [
+                    "ambivalent about",
+                    "excited by",
+                    "At the same time"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "ambivalent about",
+                    "excited by",
+                    "at the same time"
+                ],
+                "model_response": "ambivalent about, excited by, At the same time",
+                "runtime": 0.84,
+                "correct": true
+            },
+            {
+                "question_number": 22,
+                "expected": [
+                    "less one-sided",
+                    "disputable",
+                    "credibility"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "nebulous at best",
+                    "disputable",
+                    "credibility"
+                ],
+                "model_response": "nebulous at best, disputable, credibility",
+                "runtime": 0.76,
+                "correct": false
+            },
+            {
+                "question_number": 23,
+                "expected": [
+                    "originality",
+                    "conformity",
+                    "incremental"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "originality",
+                    "persuasion",
+                    "incremental"
+                ],
+                "model_response": "originality, persuasion, incremental",
+                "runtime": 1.34,
+                "correct": false
+            },
+            {
+                "question_number": 24,
+                "expected": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "model_response": "altruistic, illusory, contradicts",
+                "runtime": 0.67,
+                "correct": true
+            },
+            {
+                "question_number": 25,
+                "expected": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "model_response": "implemented, can grow unchecked, doomed",
+                "runtime": 1.44,
+                "correct": true
+            },
+            {
+                "question_number": 26,
+                "expected": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "model_response": "rationale for, mentioned, energizes",
+                "runtime": 1.04,
+                "correct": true
+            },
+            {
+                "question_number": 27,
+                "expected": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "model_response": "restrain, incursions of, corrupt",
+                "runtime": 1.02,
+                "correct": true
+            },
+            {
+                "question_number": 28,
+                "expected": [
+                    "surfeit",
+                    "virtue",
+                    "forgo"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "surfeit",
+                    "conundrum",
+                    "forgo"
+                ],
+                "model_response": "surfeit, conundrum, forgo",
+                "runtime": 0.96,
+                "correct": false
+            },
+            {
+                "question_number": 29,
+                "expected": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "model_response": "unconnected, superficial, isolationism",
+                "runtime": 0.58,
+                "correct": true
+            },
+            {
+                "question_number": 30,
+                "expected": [
+                    "inert",
+                    "wonderfully enriched",
+                    "circumvent"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "inert",
+                    "inevitably circumscribed",
+                    "circumvent"
+                ],
+                "model_response": "inert, inevitably circumscribed, circumvent",
+                "runtime": 0.78,
+                "correct": false
+            },
+            {
+                "question_number": 31,
+                "expected": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "model_response": "master, deliberation, given import",
+                "runtime": 0.99,
+                "correct": true
+            },
+            {
+                "question_number": 32,
+                "expected": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "model_response": "made demands on, alien to, misunderstood",
+                "runtime": 0.75,
+                "correct": true
+            },
+            {
+                "question_number": 33,
+                "expected": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "model_response": "lucrative, authoritative, a staleness",
+                "runtime": 0.8,
+                "correct": true
+            },
+            {
+                "question_number": 34,
+                "expected": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "model_response": "operate outside of, active, report",
+                "runtime": 0.84,
+                "correct": true
+            },
+            {
+                "question_number": 35,
+                "expected": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "model_response": "marketable artifacts, a commercial, consumption",
+                "runtime": 0.78,
+                "correct": true
+            },
+            {
+                "question_number": 36,
+                "expected": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "model_response": "languishing, extend, manages to thrive",
+                "runtime": 0.94,
+                "correct": true
+            },
+            {
+                "question_number": 37,
+                "expected": [
+                    "collaborative",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "controversial",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "model_response": "controversial, contributions, remain overlooked",
+                "runtime": 0.99,
+                "correct": false
+            },
+            {
+                "question_number": 38,
+                "expected": [
+                    "an acquired",
+                    "advanced",
+                    "demands"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "an acquired",
+                    "practical",
+                    "demands"
+                ],
+                "model_response": "an acquired, practical, demands",
+                "runtime": 0.73,
+                "correct": false
+            },
+            {
+                "question_number": 39,
+                "expected": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "model_response": "celebrate, incommensurate with, stratification",
+                "runtime": 0.69,
+                "correct": true
+            },
+            {
+                "question_number": 40,
+                "expected": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "model_response": "access to, spontaneously emerge, construct",
+                "runtime": 0.65,
+                "correct": true
+            },
+            {
+                "question_number": 41,
+                "expected": [
+                    "peer",
+                    "cliquish social behavior",
+                    "clustering"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "peer",
+                    "cliquish social behavior",
+                    "clustering"
+                ],
+                "model_response": "peer, cliquish social behavior, clustering",
+                "runtime": 1.09,
+                "correct": true
+            },
+            {
+                "question_number": 42,
+                "expected": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "demonstrated",
+                    "debunked",
+                    "predate that event"
+                ],
+                "model_response": "demonstrated, debunked, predate that event",
+                "runtime": 1.02,
+                "correct": false
+            },
+            {
+                "question_number": 43,
+                "expected": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "model_response": "malady, healthful, funds",
+                "runtime": 1.23,
+                "correct": true
+            },
+            {
+                "question_number": 44,
+                "expected": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "model_response": "well-worked, find, new",
+                "runtime": 0.81,
+                "correct": true
+            },
+            {
+                "question_number": 45,
+                "expected": [
+                    "compunction about",
+                    "sociability",
+                    "cooperate"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "consensus regarding",
+                    "sociability",
+                    "cooperate"
+                ],
+                "model_response": "consensus regarding, sociability, cooperate",
+                "runtime": 1.19,
+                "correct": false
+            },
+            {
+                "question_number": 46,
+                "expected": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "model_response": "even more troubling, vanished, rapid",
+                "runtime": 0.68,
+                "correct": true
+            },
+            {
+                "question_number": 47,
+                "expected": [
+                    "unclear",
+                    "has little effect on",
+                    "enhance"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "measurable",
+                    "tends to accentuate",
+                    "enhance"
+                ],
+                "model_response": "measurable, tends to accentuate, enhance",
+                "runtime": 1.06,
+                "correct": false
+            },
+            {
+                "question_number": 48,
+                "expected": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "model_response": "adapted to, in the water, clumsy for",
+                "runtime": 1.01,
+                "correct": true
+            },
+            {
+                "question_number": 49,
+                "expected": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "model_response": "misconstrued, acquiescence, detestation",
+                "runtime": 0.66,
+                "correct": true
+            },
+            {
+                "question_number": 50,
+                "expected": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "model_response": "caused, feedback between, self-perpetuating",
+                "runtime": 0.93,
+                "correct": true
+            }
+        ]
+    },
+    "chain-of-thought": {
+        "accuracy": 0.68,
+        "correct_count": 34,
+        "total_questions_processed": 50,
+        "details": [
+            {
+                "question_number": 1,
+                "expected": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "model_response": "origin, produce, eaten  \nExplanation: The passage discusses the source of the toxins in poison dart frogs. The first blank should refer to the source of the toxins, which is best described as \"origin.\" The second blank indicates that the frogs do not create or \"produce\" the toxins themselves. The third blank implies that the frogs acquire the toxins by consuming the beetles, so \"eaten\" fits best, suggesting that the frogs are consuming the beetles that contain the toxins.",
+                "runtime": 2.03,
+                "correct": true
+            },
+            {
+                "question_number": 2,
+                "expected": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "model_response": "competitive, wide-ranging, comprehensive  \nExplanation: The passage discusses the increasing popularity of photographic prints and how this is affecting auctions and collectors. For the first blank, \"competitive\" fits well as it suggests that auctions are becoming more intense due to increased interest. For the second blank, \"wide-ranging\" is appropriate because it indicates that established collectors are expanding their interests beyond a narrow focus. Finally, \"comprehensive\" in the third blank suggests that collectors are now aiming for collections that cover a broad spectrum, aligning with the idea of expanding interests.",
+                "runtime": 1.78,
+                "correct": true
+            },
+            {
+                "question_number": 3,
+                "expected": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "model_response": "rich, problem, augmented  \nExplanation: The passage discusses the complexity of capuchin monkey communication, indicating that their signals are varied and intricate, which aligns with \"rich\" for the first blank. The second blank refers to the difficulty researchers face in understanding these signals, which is best described as a \"problem.\" Lastly, the third blank suggests that the complexity is made even more challenging, which is best captured by \"augmented,\" meaning increased or intensified.",
+                "runtime": 4.8,
+                "correct": true
+            },
+            {
+                "question_number": 4,
+                "expected": [
+                    "an honorific",
+                    "established",
+                    "disputed"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "an honorific",
+                    "established",
+                    "disputed"
+                ],
+                "model_response": "an honorific, established, disputed  \nExplanation: The passage discusses the perception of the term \"scientific\" within culture, suggesting that it is often used in a way that elevates or honors certain ideas or practices, hence \"an honorific\" fits best for the first blank. For the second blank, \"established\" makes sense because it implies that the reliability of something labeled as \"scientific\" is confirmed or validated by scientific methods. Lastly, \"disputed\" fits the third blank as it indicates that the results of these methods are not reasonably questioned or challenged, aligning with the idea of reliability.",
+                "runtime": 3.22,
+                "correct": true
+            },
+            {
+                "question_number": 5,
+                "expected": [
+                    "slowdown",
+                    "gloomy",
+                    "temporary"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "slowdown",
+                    "gloomy",
+                    "temporary"
+                ],
+                "model_response": "slowdown, gloomy, temporary  \nExplanation: The passage discusses a change in the growth of atmospheric methane and suggests that previous assessments of global warming may have been overly pessimistic. The word \"slowdown\" fits in the first blank as it indicates a decrease in growth, which aligns with the context of the passage. The second blank requires a word that conveys an overly negative outlook, and \"gloomy\" fits well as it suggests a pessimistic view. Finally, the third blank needs a word that indicates the nature of the declines in emissions; \"temporary\" suggests that the declines were not lasting, which aligns with the idea that the initial celebration was premature.",
+                "runtime": 3.6,
+                "correct": true
+            },
+            {
+                "question_number": 6,
+                "expected": [
+                    "censure",
+                    "demanding",
+                    "sifted from"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "censure",
+                    "demanding",
+                    "sifted from"
+                ],
+                "model_response": "censure, demanding, sifted from  \nExplanation: The passage discusses the challenges of reviewing books that have both positive and negative qualities. For the first blank, \"censure\" fits well as it contrasts with \"praise,\" indicating that both positive and negative evaluations are easy for clear-cut books. For the second blank, \"demanding\" suggests that the reviewer's task becomes more complex when dealing with mixed-quality books. Finally, \"sifted from\" indicates the need to separate the valuable insights from the less useful content, which aligns with the context of evaluating a muddled book.",
+                "runtime": 2.72,
+                "correct": true
+            },
+            {
+                "question_number": 7,
+                "expected": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "model_response": "comprehend, allure, valid  \nExplanation: The passage discusses how unambiguous texts allow for quick understanding, which fits with \"comprehend\" for the first blank. The second blank refers to the appealing nature of ambiguous texts, which aligns with \"allure.\" Finally, the third blank describes the interpretations of ambiguous texts as being equally acceptable, making \"valid\" the best choice.",
+                "runtime": 1.92,
+                "correct": true
+            },
+            {
+                "question_number": 8,
+                "expected": [
+                    "empowering",
+                    "surrendering to",
+                    "glean precisely what you want from it"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "empowering",
+                    "surrendering to",
+                    "glean precisely what you want from it"
+                ],
+                "model_response": "empowering, surrendering to, glean precisely what you want from it  \nExplanation: The passage discusses how computers facilitate targeted research, suggesting a sense of control and empowerment for the user. Thus, \"empowering\" fits the first blank. The second blank contrasts with the idea of being in control, so \"surrendering to\" aligns with the notion of giving up the organizing logic of the book. Finally, the third blank should reflect the ability to extract specific information, making \"glean precisely what you want from it\" the most fitting choice.",
+                "runtime": 2.67,
+                "correct": true
+            },
+            {
+                "question_number": 9,
+                "expected": [
+                    "now common",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "vulnerable",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "model_response": "vulnerable, obligatory, jettisoned  \nExplanation: The passage discusses the impact of human activity on biodiversity, suggesting that even species that are currently stable may become endangered due to human influence. The word \"vulnerable\" fits well in the first blank as it indicates that species are at risk. The second blank requires a word that emphasizes the necessity of conservation management, and \"obligatory\" conveys that it is essential. Finally, the third blank needs a word that suggests responsibilities cannot be discarded, and \"jettisoned\" fits this context as it means to abandon or discard something.",
+                "runtime": 3.07,
+                "correct": false
+            },
+            {
+                "question_number": 10,
+                "expected": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "model_response": "unavoidable, shy away, emerges victorious  \nExplanation: The passage discusses the nature of fairy tales and their themes of struggle and overcoming difficulties. For blank (i), \"unavoidable\" fits best as it suggests that struggles are a natural part of life. For blank (ii), \"shy away\" makes sense because it indicates that one should not avoid challenges. Finally, for blank (iii), \"emerges victorious\" aligns with the idea that after facing hardships, one ultimately succeeds.",
+                "runtime": 3.17,
+                "correct": true
+            },
+            {
+                "question_number": 11,
+                "expected": [
+                    "expensive",
+                    "useless",
+                    "serve no practical purpose"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "flawless",
+                    "irreplaceable",
+                    "serve no practical purpose"
+                ],
+                "model_response": "flawless, irreplaceable, serve no practical purpose  \nExplanation: The passage discusses the nature of jewelry-grade diamonds and their implications regarding wealth and social status. For Blank (i), \"flawless\" fits well because it suggests a high quality that is desirable in jewelry-grade diamonds. For Blank (ii), \"irreplaceable\" aligns with the idea that these diamonds are unique and valuable, further emphasizing their desirability. For Blank (iii), \"serve no practical purpose\" is appropriate because it highlights the notion that such diamonds are often purchased for status rather than utility, supporting the argument about the motivations of their buyers.",
+                "runtime": 3.98,
+                "correct": false
+            },
+            {
+                "question_number": 12,
+                "expected": [
+                    "profitable",
+                    "were suitable only for certain locations",
+                    "return on"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "watermills",
+                    "windmills",
+                    "were"
+                ],
+                "model_response": "profitable, were suitable only for certain locations, return on  \n\nExplanation: \n\n1. **Understanding the Passage**: The passage compares watermills and windmills, emphasizing the advantages of watermills in medieval Europe.\n\n2. **Key Words**: \n   - \"more\" indicates a comparison.\n   - \"whereas\" signals a contrast between the locations of windmills and watermills.\n   - \"greater capacity and reliability\" suggests that watermills are superior in some aspects.\n\n3. **Filling in the Blanks**:\n   - **Blank (i)**: \"profitable\" fits because it suggests that watermills were more economically beneficial compared to windmills.\n   - **Blank (ii)**: \"were suitable only for certain locations\" logically follows since it contrasts with the versatility of windmills.\n   - **Blank (iii)**: \"return on\" is appropriate as it relates to the financial benefits gained from the investment in watermills. \n\nThus, the answers logically complete the passage.",
+                "runtime": 4.02,
+                "correct": false
+            },
+            {
+                "question_number": 13,
+                "expected": [
+                    "egalitarian",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "prestigious",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "model_response": "prestigious, aristocratic, atrophied into insignificance  \nExplanation: The passage discusses the comparison between Japan's first university and its Chinese counterparts, indicating that Japan's university was more prestigious than the Chinese Tang system, which was characterized as aristocratic. Over time, as Japan's examination system became less inclusive due to hereditary court offices, it suggests that the examination system diminished in importance, hence \"atrophied into insignificance\" fits best for the third blank.",
+                "runtime": 3.39,
+                "correct": false
+            },
+            {
+                "question_number": 14,
+                "expected": [
+                    "questionable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "questionable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "model_response": "questionable, inherently implausible about, conjecture  \nExplanation: The passage discusses the historian's narrative of a dynasty's decline, suggesting that it may not be entirely reliable. The word \"questionable\" fits in the first blank as it indicates doubt about the narrative's validity. In the second blank, \"inherently implausible about\" suggests that there are fundamental issues with the account, which aligns with the idea of it being questionable. Finally, \"conjecture\" in the third blank indicates that parts of the narrative are based on speculation rather than solid evidence, reinforcing the overall skepticism about the historian's account.",
+                "runtime": 2.76,
+                "correct": true
+            },
+            {
+                "question_number": 15,
+                "expected": [
+                    "astonished",
+                    "Buoyed",
+                    "alacrity"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "astonished",
+                    "buoyed",
+                    "alacrity"
+                ],
+                "model_response": "astonished, Buoyed, alacrity\n\nExplanation: The passage describes how volunteers contributed significantly to the Galaxy Zoo project. For the first blank, \"astonished\" fits well because it conveys that the project's organizers were surprised by the volunteers' ability to classify galaxies ahead of schedule. In the second blank, \"Buoyed\" is appropriate as it suggests that the Galaxy Zoo team felt uplifted or encouraged by the volunteers' efforts. Finally, \"alacrity\" in the third blank indicates that the volunteers' eagerness and enthusiasm inspired the team to explore new research avenues. Together, these choices maintain a logical flow and coherence in the passage.",
+                "runtime": 3.52,
+                "correct": true
+            },
+            {
+                "question_number": 16,
+                "expected": [
+                    "stranger in",
+                    "alienation",
+                    "birthplace"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "citizen of",
+                    "alienation",
+                    "birthplace"
+                ],
+                "model_response": "citizen of, alienation, birthplace  \nExplanation: The passage discusses Hamilton's identity in relation to the United States. The first blank should indicate his belief about belonging to the nation, which aligns with \"citizen of.\" The second blank refers to his feelings about his connection to the nation, and \"alienation\" fits as it suggests a sense of disconnection despite his belief. The third blank should refer to the reason for his feelings of alienation, and \"birthplace\" makes sense as it highlights that he was born outside the U.S., contributing to his sense of being an outsider.",
+                "runtime": 2.85,
+                "correct": false
+            },
+            {
+                "question_number": 17,
+                "expected": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "model_response": "is interested in, document, aesthetics  \nExplanation: The passage discusses Friedlander's approach to photography, indicating that he captures places deemed ugly without aiming to beautify them. Therefore, \"is interested in\" fits the first blank as it suggests a neutral engagement with these places. For the second blank, \"document\" aligns with the idea of capturing reality as it is, which is consistent with the obligation to represent what is seen. Lastly, \"aesthetics\" fits the third blank, as it refers to the visual appeal or beauty of the subjects he photographs, which is what he is not focused on in his work.",
+                "runtime": 3.7,
+                "correct": true
+            },
+            {
+                "question_number": 18,
+                "expected": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "model_response": "physical activity, detract from, augmented  \nExplanation: The passage discusses the impact of reserving time for an activity in school curricula and its relationship with academic achievement. The first blank should logically refer to an activity that can be reserved in school, which is \"physical activity.\" The second blank needs to indicate the relationship between this activity and academic achievement; \"detract from\" fits well, as it suggests that reserving time for physical activity does not negatively affect academic performance. Lastly, the third blank should indicate a positive effect on school performance, and \"augmented\" fits perfectly, suggesting that more exercise improves school performance despite the time taken from traditional subjects.",
+                "runtime": 3.12,
+                "correct": true
+            },
+            {
+                "question_number": 19,
+                "expected": [
+                    "breakdown",
+                    "promote",
+                    "undermining"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "breakdown",
+                    "distort",
+                    "undermining"
+                ],
+                "model_response": "breakdown, distort, undermining  \nExplanation: The passage discusses how metaphors from battle and sports can negatively impact the argumentative process. For the first blank, \"breakdown\" fits best as it suggests a failure or deterioration of the argumentative process. In the second blank, \"distort\" is appropriate because it indicates that these metaphors can misrepresent the nature of arguments, reinforcing adversarial views. Finally, \"undermining\" in the third blank implies that this aggressive behavior detracts from the goal of reaching a resolution, which aligns with the overall negative impact described in the passage.",
+                "runtime": 2.55,
+                "correct": false
+            },
+            {
+                "question_number": 20,
+                "expected": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "model_response": "make public, maladies, plague  \nExplanation: The Agriculture Department is likely to \"make public\" its dietary guidelines, indicating a formal announcement. The \"or else\" suggests serious consequences, which aligns with \"maladies,\" referring to diseases or health issues. Finally, \"plague\" fits well as it describes how these diseases affect or trouble the developed world, indicating a widespread problem.",
+                "runtime": 4.06,
+                "correct": true
+            },
+            {
+                "question_number": 21,
+                "expected": [
+                    "ambivalent about",
+                    "excited by",
+                    "At the same time"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "ambivalent about",
+                    "excited by",
+                    "at the same time"
+                ],
+                "model_response": "ambivalent about, excited by, At the same time\n\nExplanation: The passage discusses how governments view the Internet. For the first blank, \"ambivalent about\" fits best as it suggests a mixed feeling towards the Internet, which aligns with the context of governments being cautious yet recognizing its importance. For the second blank, \"excited by\" is appropriate because it indicates that governments acknowledge the growth and opportunities presented by the Internet. Finally, \"At the same time\" serves as a transition that introduces the contrasting idea that despite their excitement, governments also find the Internet's culture subversive and terrifying. This maintains the logical flow of the passage.",
+                "runtime": 3.0,
+                "correct": true
+            },
+            {
+                "question_number": 22,
+                "expected": [
+                    "less one-sided",
+                    "disputable",
+                    "credibility"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "nebulous at best",
+                    "disputable",
+                    "credibility"
+                ],
+                "model_response": "nebulous at best, disputable, credibility  \nExplanation: The passage discusses the evolving understanding of the relationship between theories and empirical data, suggesting that it is not as straightforward as previously thought. For the first blank, \"nebulous at best\" fits because it implies uncertainty in the relationship. The second blank requires a word that indicates the nature of empirical data; \"disputable\" suggests that data can be questioned, similar to theories. Finally, in the third blank, \"credibility\" is appropriate because a theory's strength can influence how new findings are perceived, particularly in terms of their trustworthiness or validity.",
+                "runtime": 3.01,
+                "correct": false
+            },
+            {
+                "question_number": 23,
+                "expected": [
+                    "originality",
+                    "conformity",
+                    "incremental"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "tradition",
+                    "persuasion",
+                    "incremental"
+                ],
+                "model_response": "tradition, persuasion, incremental  \nExplanation: The passage contrasts political ads with consumer ads, indicating that political ads have not evolved much since the 1950s. For the first blank, \"tradition\" fits because it suggests that political advertisers value established norms over innovation. For the second blank, \"persuasion\" is appropriate as political ads aim to influence voters, unlike consumer ads that may focus on originality. Finally, \"incremental\" change fits in the last blank, as it implies that political ads only undergo small, gradual changes rather than dramatic shifts, aligning with the idea that they are resistant to change.",
+                "runtime": 2.41,
+                "correct": false
+            },
+            {
+                "question_number": 24,
+                "expected": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "model_response": "altruistic, illusory, contradicts  \nExplanation: The passage discusses differences among people, suggesting that some are more selfless or caring (altruistic) than others. The second blank implies that the claim about these differences being merely a facade or not real (illusory) fits the context. Finally, the third blank indicates that the idea that everyone acts solely in their own interest goes against (contradicts) our observations of moral behavior, which aligns with the overall theme of the passage.",
+                "runtime": 2.71,
+                "correct": true
+            },
+            {
+                "question_number": 25,
+                "expected": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "model_response": "implemented, can grow unchecked, doomed  \nExplanation: The passage discusses the challenges posed by China's growing population to large carnivores. For the first blank, \"implemented\" fits best as it suggests that policies to limit population growth have been put into action. The second blank requires a phrase that indicates the human populations in areas with large carnivores are not being controlled, so \"can grow unchecked\" is appropriate. Lastly, the context implies that the South China tiger is facing severe threats due to human pressures, making \"doomed\" the most fitting choice, as it conveys a sense of impending extinction or severe decline.",
+                "runtime": 2.52,
+                "correct": true
+            },
+            {
+                "question_number": 26,
+                "expected": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "rationale for",
+                    "denied",
+                    "energizes"
+                ],
+                "model_response": "rationale for, denied, energizes  \nExplanation: The passage discusses the justification for spending public money on scientific projects, which aligns with \"rationale for\" in the first blank. The second blank indicates that the strengthening of democracy through science is not often acknowledged, making \"denied\" a fitting choice. Finally, the third blank suggests that scientific literacy should enhance democracy, so \"energizes\" is the most appropriate word to convey that idea.",
+                "runtime": 1.85,
+                "correct": false
+            },
+            {
+                "question_number": 27,
+                "expected": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "model_response": "restrain, incursions of, corrupt  \nExplanation: The passage discusses methods developed to minimize distortions in research caused by the researcher. The first blank should indicate a method that limits or controls subjectivity, so \"restrain\" fits best. The second blank needs a phrase that indicates something that intrudes or interferes with objectivity, so \"incursions of\" is appropriate. Finally, the third blank should describe the negative impact of unchecked subjectivity on research, and \"corrupt\" effectively conveys that meaning.",
+                "runtime": 1.94,
+                "correct": true
+            },
+            {
+                "question_number": 28,
+                "expected": [
+                    "surfeit",
+                    "virtue",
+                    "forgo"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "surfeit",
+                    "conundrum",
+                    "forgo"
+                ],
+                "model_response": "surfeit, conundrum, forgo  \nExplanation: The passage discusses how having too many choices can lead to paralysis in decision-making, which aligns with the word \"surfeit\" for the first blank. The second blank suggests that a lack of flexibility could be problematic, which fits with \"conundrum.\" Lastly, the context implies that people might willingly give up some options (\"forgo\") for the sake of simplicity and peace of mind.",
+                "runtime": 1.95,
+                "correct": false
+            },
+            {
+                "question_number": 29,
+                "expected": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "model_response": "unconnected, superficial, isolationism  \nExplanation: The passage discusses the interrelationship of political events in the 19th century compared to the present. For the first blank, \"unconnected\" fits best as it suggests that while events were not directly linked, they still had some relationship. For the second blank, \"superficial\" indicates that the interrelationship was not deep or significant, which aligns with the context of the passage. Finally, for the third blank, \"isolationism\" makes sense as it refers to a policy of remaining apart from the affairs or interests of other groups, which is no longer a viable option in today's interconnected world.",
+                "runtime": 2.67,
+                "correct": true
+            },
+            {
+                "question_number": 30,
+                "expected": [
+                    "inert",
+                    "wonderfully enriched",
+                    "circumvent"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "inert",
+                    "inevitably circumscribed",
+                    "circumvent"
+                ],
+                "model_response": "inert, inevitably circumscribed, circumvent  \nExplanation: The first blank requires a word that describes the quality of contemporary drawing negatively, suggesting a lack of vitality or energy, which fits with \"inert.\" The second blank needs a phrase that indicates how photography affects modern arts, and \"inevitably circumscribed\" suggests limitations imposed by photography, which aligns with the context of the passage. The third blank should indicate a way to avoid difficulties in achieving correct proportions, and \"circumvent\" means to find a way around something, which fits the context of using photography as a shortcut.",
+                "runtime": 2.5,
+                "correct": false
+            },
+            {
+                "question_number": 31,
+                "expected": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "model_response": "master, deliberation, given import  \nExplanation: The passage describes Joanna Scott's narrative skill, suggesting she is highly skilled, which fits with \"master\" for the first blank. The second blank requires a word that indicates a thoughtful approach to storytelling, making \"deliberation\" the best choice. Finally, the third blank implies that earlier details in the story will be significant by the end, so \"given import\" is the most logical fit.",
+                "runtime": 2.59,
+                "correct": true
+            },
+            {
+                "question_number": 32,
+                "expected": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "model_response": "made demands on, alien to, misunderstood  \nExplanation: The passage discusses the experimental theater company's performances and how they challenge the audience. For the first blank, \"made demands on\" fits best, as it suggests that the performances require active engagement from the audience. For the second blank, \"alien to\" is appropriate because it indicates that the techniques used would not be familiar or comfortable for those expecting traditional plays. Finally, for the third blank, \"misunderstood\" aligns with the idea that critics' negative comments stem from a lack of comprehension of the company's innovative work.",
+                "runtime": 3.42,
+                "correct": true
+            },
+            {
+                "question_number": 33,
+                "expected": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "model_response": "lucrative, authoritative, a staleness\n\nExplanation: \n\n1. **Blank (i)**: The passage discusses how the Review is different from other journals that \"drain money.\" The word \"lucrative\" fits well here, indicating that the Review generates profit rather than losing money.\n\n2. **Blank (ii)**: The phrase \"always been erudite and _____ but not always lively\" suggests that the second word should describe a positive quality that aligns with being knowledgeable. \"Authoritative\" fits this context, as it implies a strong command of the subject matter.\n\n3. **Blank (iii)**: The phrase \"accompanied by a certain aversion to risk taking\" indicates a negative quality. \"A staleness\" suggests a lack of freshness or innovation, which aligns with the idea of being risk-averse and fits the context of the passage.",
+                "runtime": 4.25,
+                "correct": true
+            },
+            {
+                "question_number": 34,
+                "expected": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "model_response": "operate outside of, active, report\n\nExplanation: \n\n1. **Understanding the Passage**: The passage discusses how cultures influence individuals in ways that may not be consciously recognized or controlled. \n\n2. **Blank (i)**: The phrase \"in ways that _____ conscious awareness or control\" suggests that cultures can influence people without their conscious realization. The option \"operate outside of\" fits this context well, as it implies that cultural influences occur beyond conscious awareness.\n\n3. **Blank (ii)**: The phrase \"processes that do not entail _____ participation\" indicates that cultural orientations can develop without active involvement from individuals. The word \"active\" fits best here, as it suggests a lack of conscious engagement.\n\n4. **Blank (iii)**: The phrase \"individuals may not be able to _____\" implies that there are limitations to what individuals can recognize or articulate about their cultural influences. The word \"report\" is appropriate here, as it suggests that individuals may not be able to express or acknowledge these influences.\n\nThus, the selected words logically complete the passage and maintain its intended meaning.",
+                "runtime": 4.88,
+                "correct": true
+            },
+            {
+                "question_number": 35,
+                "expected": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "model_response": "marketable artifacts, a commercial, consumption  \nExplanation: The passage discusses how anniversaries are utilized by publishers, publicists, and broadcasters to create a celebratory culture around historical events. The first blank should refer to something that can be sold or promoted, which \"marketable artifacts\" fits well. The second blank should describe the nature of this culture, where \"a commercial\" culture aligns with the idea of promoting and profiting from these events. Finally, the third blank should relate to how this manufactured past is used, and \"consumption\" fits as it refers to the public's engagement with these artifacts for enjoyment or use.",
+                "runtime": 3.09,
+                "correct": true
+            },
+            {
+                "question_number": 36,
+                "expected": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "model_response": "languishing, extend, manages to thrive  \nExplanation: The passage discusses the impact of intellectual property laws on creativity. For blank (i), \"languishing\" fits best because it suggests that creative work is suffering due to uncontrolled copying. For blank (ii), \"extend\" is appropriate as it implies that if certain creative endeavors are suffering, we might consider broadening the protections of intellectual property law. For blank (iii), \"manages to thrive\" indicates that unprotected creative work can still succeed without legal restrictions, which aligns with the idea of understanding how such success occurs.",
+                "runtime": 3.79,
+                "correct": true
+            },
+            {
+                "question_number": 37,
+                "expected": [
+                    "collaborative",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "controversial",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "model_response": "controversial, contributions, remain overlooked  \nExplanation: The passage discusses the challenges faced by women and minority scientists in being recognized within the field of contemporary science. The first blank should describe the nature of contemporary science, which is often debated and contested, making \"controversial\" the best fit. The second blank refers to what individuals are contributing, and \"contributions\" aligns with the context of the passage. Finally, the third blank indicates the status of these contributions, and \"remain overlooked\" accurately reflects the idea that their work has not received the recognition it deserves.",
+                "runtime": 1.89,
+                "correct": false
+            },
+            {
+                "question_number": 38,
+                "expected": [
+                    "an acquired",
+                    "advanced",
+                    "demands"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "an acquired",
+                    "practical",
+                    "demands"
+                ],
+                "model_response": "an acquired, practical, demands  \nExplanation: The passage discusses the complexity of lying in children compared to truthfulness. For the first blank, \"an acquired\" fits best because truthfulness is often taught rather than instinctive. For the second blank, \"practical\" suggests that lying is a useful skill in social interactions, which aligns with the context. Finally, \"demands\" fits the third blank as it indicates that lying requires cognitive development and social skills, which is a more active process than simply being honest.",
+                "runtime": 1.85,
+                "correct": false
+            },
+            {
+                "question_number": 39,
+                "expected": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "model_response": "celebrate, incommensurate with, stratification  \nExplanation: The passage discusses the promotion of gender equality in traditional Vietnamese culture, suggesting that founding myths \"celebrate\" the equal division of labor. The second blank indicates a contrast between theoretical commitments and reality, which is best captured by \"incommensurate with.\" Finally, the third blank refers to the ongoing issue of gender-based inequality, which is best described as \"stratification.\"",
+                "runtime": 1.85,
+                "correct": true
+            },
+            {
+                "question_number": 40,
+                "expected": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "model_response": "access to, spontaneously emerge, construct  \nExplanation: The passage discusses pulp and paper firms with superior resources that could not simply dominate the region, indicating they had \"access to\" resources but faced challenges. The second blank suggests that these markets for land, labor, and timber would not just \"spontaneously emerge,\" implying a need for active development. Finally, the firms had to \"construct\" markets that aligned with regional politics, indicating a proactive approach to market development.",
+                "runtime": 2.16,
+                "correct": true
+            },
+            {
+                "question_number": 41,
+                "expected": [
+                    "peer",
+                    "cliquish social behavior",
+                    "clustering"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "peer",
+                    "cliquish social behavior",
+                    "alienation"
+                ],
+                "model_response": "peer, cliquish social behavior, alienation  \nExplanation: The passage discusses the importance of interactions during adolescence in forming self-identity. The first blank should refer to interactions that are relevant to this age group, making \"peer\" the best fit. The second blank describes the behavior that occurs during this identity formation, and \"cliquish social behavior\" accurately captures the tendency of adolescents to form exclusive groups. Finally, the third blank refers to the evolution of these interactions; \"alienation\" fits as it suggests that the initial in-group behavior can lead to feelings of exclusion or separation from others, which is a common theme in adolescent social dynamics.",
+                "runtime": 2.02,
+                "correct": false
+            },
+            {
+                "question_number": 42,
+                "expected": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "model_response": "requires, debunked, predate that event\n\nExplanation: \n\n1. **Understanding the Passage**: The passage discusses the myth that Marco Polo introduced pasta to Italy and suggests that this idea is incorrect.\n\n2. **Analyzing Blank (i)**: The phrase \"this durable myth, which (i)_____\" indicates that the blank should describe the myth's assertion. \"Requires\" fits well, as it implies that the myth demands a certain belief about the timeline of pasta in Italy.\n\n3. **Analyzing Blank (ii)**: The phrase \"can easily be (ii)_____\" suggests that the myth can be disproven. \"Debunked\" is the most suitable choice here, as it means to expose the falseness of a myth.\n\n4. **Analyzing Blank (iii)**: The phrase \"that (iii)_____\" indicates that there are references to pasta that exist prior to Marco Polo's return. \"Predate that event\" is the best fit, as it directly states that these references existed before 1295.\n\nThus, the answers logically fit the context of the passage.",
+                "runtime": 3.5,
+                "correct": true
+            },
+            {
+                "question_number": 43,
+                "expected": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "model_response": "malady, healthful, funds  \nExplanation: The first blank requires a word that refers to a health issue, making \"malady\" the best fit. The second blank needs a word that indicates the treatments are recognized positively, so \"healthful\" is appropriate. Finally, the third blank should indicate that the German medical system supports these treatments, which aligns with \"funds.\"",
+                "runtime": 6.56,
+                "correct": true
+            },
+            {
+                "question_number": 44,
+                "expected": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "model_response": "well-worked, find, new  \nExplanation: The passage discusses Thaler's study as an examination of a well-known area of research, indicating that it is not unfamiliar or groundbreaking. Therefore, \"well-worked\" fits best in the first blank. The second blank requires a verb that suggests what familiar scholars will do with Thaler's study; \"find\" is appropriate as it implies they will discover something in it. Finally, since the passage suggests that Thaler's work does not present anything novel, \"new\" fits best in the third blank, indicating that there is nothing innovative in his study.",
+                "runtime": 4.07,
+                "correct": true
+            },
+            {
+                "question_number": 45,
+                "expected": [
+                    "compunction about",
+                    "sociability",
+                    "cooperate"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "consensus regarding",
+                    "sociability",
+                    "cooperate"
+                ],
+                "model_response": "consensus regarding, sociability, cooperate  \nExplanation: The passage discusses the connection between humanity's success and a specific human attribute. For the first blank, \"consensus regarding\" fits best as it indicates that biologists agree on the link. For the second blank, \"sociability\" aligns with the theme of human interaction and group dynamics. Lastly, \"cooperate\" is the most fitting choice for the third blank, as it directly relates to the ability to prioritize group needs over individual self-interest, which is central to the passage's argument.",
+                "runtime": 4.81,
+                "correct": false
+            },
+            {
+                "question_number": 46,
+                "expected": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "model_response": "even more troubling, vanished, rapid  \nExplanation: The passage discusses the ethical implications of neuroscience compared to genetics, suggesting that neuroscience may raise more serious concerns (\"even more troubling\"). The second blank indicates a scenario where constraints on genetic experimentation have disappeared, which aligns with \"vanished.\" The third blank describes the results of altering brain function, which can be \"rapid,\" indicating quick changes in behavior compared to the long-term outcomes of genetic alterations.",
+                "runtime": 1.81,
+                "correct": true
+            },
+            {
+                "question_number": 47,
+                "expected": [
+                    "unclear",
+                    "has little effect on",
+                    "enhance"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "measurable",
+                    "tends to accentuate",
+                    "enhance"
+                ],
+                "model_response": "measurable, tends to accentuate, enhance  \nExplanation: The passage discusses the impact of laughter on the perception of humor in television programming. For the first blank, \"measurable\" fits best as it suggests that researchers can quantify the effect of laughter. In the second blank, \"tends to accentuate\" logically follows, indicating that laughter enhances the perception of humor. Finally, \"enhance\" in the third blank aligns with the idea that laughter can improve humor at specific moments, thus increasing the overall comic appeal.",
+                "runtime": 3.22,
+                "correct": false
+            },
+            {
+                "question_number": 48,
+                "expected": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "model_response": "adapted to, in the water, clumsy for  \nExplanation: The first blank requires a word that indicates how Maiacetus inuus was suited for life in the sea, so \"adapted to\" fits best. The second blank needs to describe where the animal likely spent much of its time, and \"in the water\" is the most logical choice given its adaptations. The third blank should describe the feet of Maiacetus inuus in relation to walking; \"clumsy for\" suggests that the flipper-like feet were not well-suited for efficient walking, which aligns with the context of the passage.",
+                "runtime": 2.19,
+                "correct": true
+            },
+            {
+                "question_number": 49,
+                "expected": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "model_response": "misconstrued, acquiescence, detestation  \nExplanation: The passage describes how Clark's compliance is misinterpreted by others. The first blank should indicate a misunderstanding of his behavior, making \"misconstrued\" the best fit. For the second blank, \"acquiescence\" suggests a passive acceptance that aligns with the idea of compliance. Finally, the third blank needs a word that indicates a strong negative feeling towards authority, which \"detestation\" captures perfectly, as it contrasts with the outward appearance of compliance.",
+                "runtime": 2.12,
+                "correct": true
+            },
+            {
+                "question_number": 50,
+                "expected": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "models_tried": [
+                    "llama-3.1-405b"
+                ],
+                "model_used": "llama-3.1-405b",
+                "model_answer": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "model_response": "caused, feedback between, self-perpetuating  \nExplanation: The passage discusses two theories about mountain formation and climate, indicating a cause-and-effect relationship. The first blank should indicate that mountain building \"caused\" global cooling, which fits the context. For the second blank, \"feedback between\" suggests a reciprocal relationship between mountains and climate, which aligns with the theory being presented. Lastly, mountain glaciers are described as \"self-perpetuating\" because once they form, they continue to promote conditions for more ice and cooling, which fits the description of their impact on climate.",
+                "runtime": 8.93,
+                "correct": true
+            }
+        ]
+    }
+}

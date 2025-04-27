@@ -1,0 +1,609 @@
+{
+    "accuracy": 0.82,
+    "total_questions": 50,
+    "correct_count": 41,
+    "details": [
+        {
+            "question_number": 1,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "D",
+            "model_response": "D  \n解释：句子中提到学者们对大学倾向于奖励名人而非专业知识表示担忧，这暗示他们对“名望”或“声誉”的追求感到不满。因此，正确答案是 \"renown\"（声誉、名望），与“reward celebrity”相关。",
+            "runtime": 5.9,
+            "correct": true
+        },
+        {
+            "question_number": 2,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：根据句子的上下文，题目描述了奶奶对“所有事物”的一种强烈信仰，尤其是相信她小时候住的房子是闹鬼的。这个信仰与“神秘的”或“充满超自然气息的”事物相关。因此，正确答案是“luminous”，意思是神秘的或超自然的，符合题意。",
+            "runtime": 5.1,
+            "correct": true
+        },
+        {
+            "question_number": 3,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：句子指出基因多样性是进化和植物驯化的重要原材料，然而驯化过程通常会减少多样性。题干提示“because the first domesticates are derived from a very small sample of the individual plants”，暗示答案需要表达一种减少的过程，因此选择“involves a loss of”。",
+            "runtime": 22.87,
+            "correct": true
+        },
+        {
+            "question_number": 4,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "A",
+            "model_response": "A  \n解释：题目说明尽管自然现象在短期和特定地点可能看起来神秘难测，但从真正的全球尺度来看，自然一直是某种模式的典范。这里表示的是一种可靠和一致的状态，因此“reliability”(可靠性)最为合适。",
+            "runtime": 51.21,
+            "correct": true
+        },
+        {
+            "question_number": 5,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "D",
+            "model_response": "D  \n解释：题干中的“contemptuous of such achievement”表明这些人对科学成就抱有蔑视态度，而“going so far as to _____ their ignorance of basic physics”则意味着这些人甚至会极力表现出自己对基础物理的无知。选项中，“boast of”表示“吹嘘”或“炫耀”，符合这种行为描述，即他们不仅对科学成就无动于衷，还可能炫耀自己无知的态度。因此，D是最合适的答案。",
+            "runtime": 6.06,
+            "correct": true
+        },
+        {
+            "question_number": 6,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-3.5-turbo"
+            ],
+            "model_used": "gpt-4-0125-preview",
+            "model_answer": "",
+            "model_response": "A  \n解释：题干中提到“微小但 _____ 的变化”，这表示与星星脉冲的时间有关的变化是轻微的，但仍然显著到足以让天文学家推断出星星受到三颗行星的影响。选项A“ubtle”意味着细微的变化，非常符合这个语境，而其他选项则不合适。",
+            "runtime": 0.0,
+            "correct": false
+        },
+        {
+            "question_number": 7,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "D",
+            "model_response": "D  \n解释：句子中提到考古学的发展从一种行为转变为“数据收集”，而最初的行为被描述为从事富人“艺术品”相关的活动，这与“寻宝”（treasure hunting）更贴切。",
+            "runtime": 10.77,
+            "correct": true
+        },
+        {
+            "question_number": 8,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：根据句子的结构，历史教导我们科学不是“____”的事业。后文提到科学是由“各种各样的工具”组成，用来保护研究人员免受偏见的影响，这说明科学是一个有组织、结构多样的过程，而不是无序的、混乱的。因此，最合适的词是“haphazard”，意思是无序的、杂乱无章的。",
+            "runtime": 4.74,
+            "correct": false
+        },
+        {
+            "question_number": 9,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：句子中提到“虽然有相当多的标本，但很少有提供可靠数据的标本，对该物种的繁殖模式了解甚少”。这表明拉布拉多鸭的灭绝是一个谜，因而“enigmatic”最为合适，意味着“神秘的”或“难以理解的”。",
+            "runtime": 47.09,
+            "correct": true
+        },
+        {
+            "question_number": 10,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "E",
+            "model_response": "抱歉，您没有提供完整的GRE题目内容。如果您能提供题目和相关句子，我可以为您提供准确的答案及解释。",
+            "runtime": 3.58,
+            "correct": false
+        },
+        {
+            "question_number": 11,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：句子强调公司内部缺乏某种特质，导致部门之间的互动变得充满敌意。最恰当的词是“comity”，指礼貌和谅解的精神，正好与上下文所描述的缺乏友好的沟通相符。",
+            "runtime": 50.98,
+            "correct": true
+        },
+        {
+            "question_number": 12,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "E",
+            "model_response": "E  \n解释：题干提到艺术家在二十几岁时去世，留下的作品很少，因此可以推测她的职业生涯是“短暂的”或“简短的”，这与“abbreviated”一词的含义最为契合。",
+            "runtime": 45.64,
+            "correct": true
+        },
+        {
+            "question_number": 13,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "D",
+            "model_response": "D  \n解释：根据题意，省份的经济与其他地区的经济相比，正在威胁要超越整个国家的经济。这里需要一个表示“超越”的动词，\"outstrips\"正是表示“超越，超过”的意思，最符合句子中的语境。",
+            "runtime": 4.26,
+            "correct": true
+        },
+        {
+            "question_number": 14,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "E",
+            "model_response": "E  \n解释：根据句子的语境，Parker的模型与她同事的悲观分析形成鲜明对比。词语“anguine”表示乐观的，这正符合Parker的模型所体现的观点。因此，选择E。",
+            "runtime": 7.64,
+            "correct": true
+        },
+        {
+            "question_number": 15,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：题干中的描述表明这个人很容易生气，“The Angriest Man in the World”暗示他非常暴躁。选项 B \"irascible\" 意为易怒的或暴躁的，是最合适的答案。",
+            "runtime": 31.79,
+            "correct": true
+        },
+        {
+            "question_number": 16,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：题目提到电影的元素是从多个来源“随意拼凑”而成，这符合“pastiche”（模仿或拼凑作品）的定义，适合描述由多种不同来源随意组合而成的事物。",
+            "runtime": 30.01,
+            "correct": true
+        },
+        {
+            "question_number": 17,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：根据题目，Nylenna的研究发现科学手稿中的错误常常被审稿人忽视，这一结果并不是“异常的”或者“出乎意料的”，因为Godlee的研究得出了类似的结论。因此，\"anomalous\"（异常的）最合适，表示这种结果不出乎意料。",
+            "runtime": 6.28,
+            "correct": true
+        },
+        {
+            "question_number": 18,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：题目提到这些传说与特定的洞穴相关，并且只有洞穴的主人才能分享其秘密，这表明这些传说具有“专有性”或“属于某个人的”。选项C中的“proprietary”指的是“专有的，属于某个特定所有者的”，最符合这个语境。",
+            "runtime": 46.66,
+            "correct": true
+        },
+        {
+            "question_number": 19,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：根据题目描述，电影标题“Escape”（逃离）直接与她“preoccupied with thoughts of desertion”（专注于逃离的想法）一致，因此标题并非误导而是非常“apt”（贴切的）。",
+            "runtime": 2.13,
+            "correct": false
+        },
+        {
+            "question_number": 20,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：句中提到“这既不是赞扬也不是批评，既不是恭维也不是____”，因此空格处需填入与“批评”相对应的词，而\"animadversion\" 意为“批评或责难”，是最适合的选项。",
+            "runtime": 6.15,
+            "correct": true
+        },
+        {
+            "question_number": 21,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：题目中提到身份直到Paabo和他的团队通过DNA证据才结束了猜测，因此“conjectural（推测的）”是最符合语境的答案。",
+            "runtime": 5.84,
+            "correct": true
+        },
+        {
+            "question_number": 22,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "A",
+            "model_response": "A  \n解释：在一个复杂且通常不可预测的生产过程中，起初定义明确的角色可能会变得相当混乱。选项A \"confused\"（混乱的）最适合与题目中的“复杂和不可预测”相符合，说明角色之间可能变得不再清晰、明确。",
+            "runtime": 45.79,
+            "correct": true
+        },
+        {
+            "question_number": 23,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：剧院导演通常被认为是独裁者，而答案需要一个与此形成对比的词。C选项“egalitarian”意指具有平等主义倾向，与“authoritarian”形成鲜明对比，因此最为合适。",
+            "runtime": 2.67,
+            "correct": true
+        },
+        {
+            "question_number": 24,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "A",
+            "model_response": "A  \n解释：根据句子语境，空白处需要填写一个形容词，描述学生性格与老师的性格形成鲜明对比。词汇“volatile”（不稳定的，易变的）最合适，表明学生们的性格是波动的，与老师的沉稳性格对比明显。",
+            "runtime": 3.2,
+            "correct": true
+        },
+        {
+            "question_number": 25,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "E",
+            "model_response": "E  \n解释：句子强调尽管这个社区仍然有某种消极的声誉，其实它正变得越来越多样化。只有“homogeneity”（同质性）符合该上下文中的逻辑，意味着社区曾以单一特征著称。",
+            "runtime": 21.92,
+            "correct": true
+        },
+        {
+            "question_number": 26,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：此处填写您的解释",
+            "runtime": 5.53,
+            "correct": false
+        },
+        {
+            "question_number": 27,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：题干中提到这些画在“一个方向上与报纸摄影有联系”，这表明这些画有着记录性或纪实属性。因此，“documentary”最符合题意。",
+            "runtime": 6.77,
+            "correct": true
+        },
+        {
+            "question_number": 28,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：这道题的核心在于矛盾修辞的运用。维多利亚时代的人既“insular（闭塞的）”，但通过他们的帝国，又“cosmopolitan（国际化的）”。因此，“insular”最符合句子的语义逻辑。",
+            "runtime": 6.18,
+            "correct": true
+        },
+        {
+            "question_number": 29,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "E",
+            "model_response": "E  \n解释：题目中提到Blake的声誉与他的实际表现不符，“几乎所有与他共事过的人都说他是一位有纪律、智力强大且非常强硬的政治家”。这表明Blake的声誉可能具有矛盾性或不一致性。选项中，“ambivalent”意为“矛盾的、含糊的”，符合题意，表示Blake的声誉与实际情况之间的矛盾。",
+            "runtime": 47.56,
+            "correct": false
+        },
+        {
+            "question_number": 30,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：根据题目中的提示，剑鱼的特点包括其旅行速度、迁徙的广泛距离和令人印象深刻的耐力。这些因素可能导致剑鱼容易受到威胁或捕捉，因此最合适的词是“vulnerability”（脆弱性）。",
+            "runtime": 4.04,
+            "correct": false
+        },
+        {
+            "question_number": 31,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：题目中提到早期对佛罗伦萨·南丁格尔的传记“tended to be quite _____”，而后文提到的是一种新潮流让人“可以甚至很时髦去批评她”。因此，早期的传记应该是过于奉承，符合“sycophantic”（阿谀奉承的）的意思。",
+            "runtime": 3.13,
+            "correct": true
+        },
+        {
+            "question_number": 32,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：根据句意，题目强调的是“新馆的功能性使博物馆能够更好地服务于参观者”。“Herewithal”是“资源、条件”的意思，符合句子的上下文，意味着这个新馆提供了足够的条件来改进服务。",
+            "runtime": 4.08,
+            "correct": true
+        },
+        {
+            "question_number": 33,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "D",
+            "model_response": "D  \n解释：题干表明政客们假设美国开国元勋们的观点一致，而实际上他们是一个“高度_____”的思想家群体。结合语境，“contentious”（有争议的，容易引发争论的）是最合适的答案，因为它表明这些思想家实际上立场各异，经常存在分歧。",
+            "runtime": 44.02,
+            "correct": true
+        },
+        {
+            "question_number": 34,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "A",
+            "model_response": "A  \n解释：题目中提到“evolved multiple times”（多次进化），这表明不同大陆上的陆生龟类在不同地方独立进化出了类似的特征。因此，答案是“independently”（独立地）。",
+            "runtime": 4.44,
+            "correct": true
+        },
+        {
+            "question_number": 35,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "A",
+            "model_response": "A  \n解释：根据题意，原本曾被认为是不切实际的愿景现在不再显得那么不切实际，因此填入的词需要传达“不可行的、不实际的”这种意思。而A选项“impracticable”（不切实际的）符合语境。",
+            "runtime": 40.47,
+            "correct": true
+        },
+        {
+            "question_number": 36,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：题目提到导演的最新电影中有某种品质能使剧本中潜在的过于情感化的可能性（melodramatic possibilities）保持被抑制状态，因此选项中应该选择一个能够表达克制或简朴的词。选项C“austerity”（朴实、简朴）最符合该描述，表明电影没有夸张情感，而是保持一种克制的风格。",
+            "runtime": 6.34,
+            "correct": true
+        },
+        {
+            "question_number": 37,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \nB解释  \n：解释题：目题中目中的“提c到ows“c andows sheep” and是 sheep,指 for某 instance些,哺 that乳 are notably动物 _____，它”，们意思通常表现是这些得动物很“的冷面部表漠”（情imp比较ass单ive一或）。没有与此太多相表现对力的是。“与l此ions”对拥有比更多的是的“面l部ions表 have a情 wide， range表明 of它 facial们 expressions的”，表这情表明更加丰富，因此狮子空有白很多处应不同填的入面“部imp表ass情ive。根据”，这个表示对这些动物比在，“imp表情ass方面ive”（比较冷缺乏漠的表现。，不动感情的）最符合描述其他动物面部表情单一的特点。",
+            "runtime": 4.79,
+            "correct": true
+        },
+        {
+            "question_number": 38,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：这个句子意思是在海洋中，经常存在的纬度和温度之间的严格关系会因为洋流沿着海岸被改变。暖流可以延伸热带和亚热带温度，而冷流则降低这些纬度的温度。\"Modified\"（修改、改变）是最适合的答案，因为它准确描述了这种由于洋流导致的变化。",
+            "runtime": 42.54,
+            "correct": true
+        },
+        {
+            "question_number": 39,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：此处的空格需要填入一个词，描述实验验证在原始科学中的地位。根据题干信息，这种验证过程即使被认为必要也是流于形式的。因此，“perfunctory”（敷衍的）是最合适的答案。",
+            "runtime": 5.39,
+            "correct": true
+        },
+        {
+            "question_number": 40,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "E",
+            "model_response": "E  \n解释：题目提到“没有人能找到该物体的碎片或任何撞击坑”，这表明该理论尚未被确认，因此“unproven”（未被证明的）是最合适的答案。",
+            "runtime": 23.45,
+            "correct": true
+        },
+        {
+            "question_number": 41,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "C",
+            "model_response": "C  \n解释：句子意思是激励是所有管理任务中最困难的，而期待一封单独的备忘录（无论多么精心制作）对员工的态度产生影响是不现实的。选项C \"fanciful\" 意为“幻想的，不切实际的”，最符合这种语境，暗示对单一备忘录的期望是空想的，不切实际的。",
+            "runtime": 5.62,
+            "correct": true
+        },
+        {
+            "question_number": 42,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "E",
+            "model_response": "E  \n解释：题目中的“comes off as so ____________”指的是导演给人的印象与她的电影风格之间的反差。选项E“guiless”表示“天真无邪的”或“单纯的”，符合题意，表明她看起来非常天真，令人难以相信她制作了这样一部具有挑衅性、复杂的电影。",
+            "runtime": 5.33,
+            "correct": true
+        },
+        {
+            "question_number": 43,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "D",
+            "model_response": "D  \n解释：从语境看，这句话在讲核电站产生的放射性废料的数量和处理这些废料所面临问题的重要性之间的对比。空格处需要用一个能表明\"废料数量较少\"的词，以体现这样的对比关系，因此最合适的答案是D: small。",
+            "runtime": 2.03,
+            "correct": true
+        },
+        {
+            "question_number": 44,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "D",
+            "model_response": "D  \n解释：题干中提到\"no other species in the Rana genus of frogs exhibits such ____________ habits\"，暗示该物种有着与其他同类不同的特征，而“eccentric”表示“古怪的”或“异乎寻常的”，符合这种描述。",
+            "runtime": 5.3,
+            "correct": false
+        },
+        {
+            "question_number": 45,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "E",
+            "model_response": "E  \n解释：题目中提到以往关于地松鼠迁移的研究“不多，且样本量很少”，因此大部分关于地松鼠迁移的结论必须被认为是“推测性的”。选项中“conjectural”意为“推测的”，最符合题意。",
+            "runtime": 42.77,
+            "correct": true
+        },
+        {
+            "question_number": 46,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：题目强调只有掌握特定术语的人才能理解信息，这说明语言具备隐秘性或专属于少数人的特性。选项“esoteric”（深奥的，只有少数人能理解的）最符合题意。",
+            "runtime": 4.71,
+            "correct": true
+        },
+        {
+            "question_number": 47,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：题目意思是，与干旱和苔原这种稀有人口的陆地栖息地相比，海洋充满了各种各样的生物。正确答案是 \"teem\"，表示“充满；遍布”，但这里故意拼写为 \"eem\"，试图混淆视听。",
+            "runtime": 6.48,
+            "correct": false
+        },
+        {
+            "question_number": 48,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B\n\n解释：题干提到“eminent people”（杰出人物），意思是这些人已经被广泛研究和关注。因此，应该选择“scrutinized”（审视），表示这些人的生活已经被仔细地检查和分析过，因此很难找到新的信息。其他选项与此不符。",
+            "runtime": 5.52,
+            "correct": true
+        },
+        {
+            "question_number": 49,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "E",
+            "model_response": "E  \n解释：题干强调链状化合物不仅在理论上具有兴趣，还可能在实践中有重要应用，因此需要填入一个表示“本质上的”或“固有的”兴趣的词。选择“intrinsic”最贴合逻辑。",
+            "runtime": 3.51,
+            "correct": true
+        },
+        {
+            "question_number": 50,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "B",
+            "model_response": "B  \n解释：题目中提到“一些小说家夸大了自己作品的意义，但其他人…” 表示与前者相对，应该是“拒绝”或“不赞同”这种做法。选项中，“declining”表示“拒绝”或“不赞成”，与题意最为匹配。",
+            "runtime": 4.73,
+            "correct": true
+        }
+    ]
+}

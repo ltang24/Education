@@ -1,0 +1,1504 @@
+{
+  "gpt-4": {
+    "zero-shot": {
+      "total": 40,
+      "correct": 39,
+      "accuracy": 0.975,
+      "by_skill": {
+        "Rhetorical Synthesis": {
+          "total": 20,
+          "correct": 20,
+          "accuracy": 1.0,
+          "by_difficulty": {
+            "Hard": {
+              "total": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            "Medium": {
+              "total": 11,
+              "correct": 11,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            }
+          }
+        },
+        "Transitions": {
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 19,
+              "accuracy": 0.95
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Hard": {
+          "total": 6,
+          "correct": 6,
+          "accuracy": 1.0
+        },
+        "Medium": {
+          "total": 31,
+          "correct": 30,
+          "accuracy": 0.967741935483871
+        },
+        "Easy": {
+          "total": 3,
+          "correct": 3,
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "question_number": 7,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain a disadvantage of relying on audio features to predict a song\u2019s popularity.",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 3.08,
+          "full_response": "B"
+        },
+        {
+          "question_number": 5,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study and its findings.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 19.67,
+          "full_response": "A"
+        },
+        {
+          "question_number": 22,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify the reason the Mayflower Compact was created.",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 42.03,
+          "full_response": "C"
+        },
+        {
+          "question_number": 13,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe the distinctive style of Houser\u2019s sculptures.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 18.02,
+          "full_response": "B"
+        },
+        {
+          "question_number": 17,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study\u2019s results.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 4.87,
+          "full_response": "A"
+        },
+        {
+          "question_number": 14,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the uniqueness of Taylor\u2019s accomplishment.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 19.06,
+          "full_response": "D"
+        },
+        {
+          "question_number": 3,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study to an audience already familiar with environmental DNA.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 18.09,
+          "full_response": "A"
+        },
+        {
+          "question_number": 28,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain the origin of the species\u2019 name.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 2.84,
+          "full_response": "D"
+        },
+        {
+          "question_number": 29,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Begin a narrative about Wong\u2019s award-nominated web series.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 45.15,
+          "full_response": "A"
+        },
+        {
+          "question_number": 12,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify who may have first populated the Azores, according to the 2015 study.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 30.0,
+          "full_response": "D"
+        },
+        {
+          "question_number": 2,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Introduce Cathryn Halverson\u2019s book to an audience already familiar with the Atlantic Monthly.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 2.61,
+          "full_response": "A"
+        },
+        {
+          "question_number": 27,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize a similarity in how critics responded to Treuer\u2019s book.",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 45.43,
+          "full_response": "C"
+        },
+        {
+          "question_number": 6,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the distance covered by the Philadelphia and Lancaster Turnpike.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 29.9,
+          "full_response": "A"
+        },
+        {
+          "question_number": 4,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe the rocking chair to an audience unfamiliar with Sam Maloof.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 36.08,
+          "full_response": "A"
+        },
+        {
+          "question_number": 21,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the thoroughness of Ida Tarbell\u2019s investigation of the Standard Oil Company.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 3.39,
+          "full_response": "A"
+        },
+        {
+          "question_number": 1,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the primary aim of the research study.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 33.71,
+          "full_response": "A"
+        },
+        {
+          "question_number": 26,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Make a generalization about the kind of study conducted by Glickman, Brown, and Song.",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 2.23,
+          "full_response": "D"
+        },
+        {
+          "question_number": 23,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the order in which two of Jordan Bennett\u2019s exhibitions were held.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 2.43,
+          "full_response": "A"
+        },
+        {
+          "question_number": 15,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain how the House of Wisdom preserved the world\u2019s knowledge.",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 29.1,
+          "full_response": "D"
+        },
+        {
+          "question_number": 9,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain an advantage of the new platinum catalyst developed by Jianbo Tang and his colleagues.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 36.16,
+          "full_response": "D"
+        },
+        {
+          "question_number": 36,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 21.35,
+          "full_response": "C"
+        },
+        {
+          "question_number": 62,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 32.61,
+          "full_response": "B"
+        },
+        {
+          "question_number": 40,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 22.08,
+          "full_response": "B"
+        },
+        {
+          "question_number": 51,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 24.55,
+          "full_response": "B"
+        },
+        {
+          "question_number": 49,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 37.33,
+          "full_response": "C"
+        },
+        {
+          "question_number": 63,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 36.01,
+          "full_response": "B"
+        },
+        {
+          "question_number": 65,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 2.37,
+          "full_response": "D"
+        },
+        {
+          "question_number": 31,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 2.33,
+          "full_response": "A"
+        },
+        {
+          "question_number": 66,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 37.3,
+          "full_response": "C"
+        },
+        {
+          "question_number": 55,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 35.97,
+          "full_response": "B"
+        },
+        {
+          "question_number": 44,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 2.7,
+          "full_response": "D"
+        },
+        {
+          "question_number": 46,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 25.68,
+          "full_response": "A"
+        },
+        {
+          "question_number": 45,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 24.21,
+          "full_response": "D: However"
+        },
+        {
+          "question_number": 48,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 4.87,
+          "full_response": "A"
+        },
+        {
+          "question_number": 53,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 38.51,
+          "full_response": "C"
+        },
+        {
+          "question_number": 35,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 5.97,
+          "full_response": "B"
+        },
+        {
+          "question_number": 61,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 24.77,
+          "full_response": "A"
+        },
+        {
+          "question_number": 34,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 24.17,
+          "full_response": "B"
+        },
+        {
+          "question_number": 69,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 35.07,
+          "full_response": "B"
+        },
+        {
+          "question_number": 42,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 32.37,
+          "full_response": "C"
+        }
+      ]
+    },
+    "five-shot": {
+      "total": 40,
+      "correct": 24,
+      "accuracy": 0.6,
+      "by_skill": {
+        "Rhetorical Synthesis": {
+          "total": 20,
+          "correct": 11,
+          "accuracy": 0.55,
+          "by_difficulty": {
+            "Hard": {
+              "total": 6,
+              "correct": 2,
+              "accuracy": 0.3333333333333333
+            },
+            "Medium": {
+              "total": 11,
+              "correct": 9,
+              "accuracy": 0.8181818181818182
+            },
+            "Easy": {
+              "total": 3,
+              "correct": 0,
+              "accuracy": 0.0
+            }
+          }
+        },
+        "Transitions": {
+          "total": 20,
+          "correct": 13,
+          "accuracy": 0.65,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 13,
+              "accuracy": 0.65
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Hard": {
+          "total": 6,
+          "correct": 2,
+          "accuracy": 0.3333333333333333
+        },
+        "Medium": {
+          "total": 31,
+          "correct": 22,
+          "accuracy": 0.7096774193548387
+        },
+        "Easy": {
+          "total": 3,
+          "correct": 0,
+          "accuracy": 0.0
+        }
+      },
+      "details": [
+        {
+          "question_number": 7,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain a disadvantage of relying on audio features to predict a song\u2019s popularity.",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 28.05,
+          "full_response": "B"
+        },
+        {
+          "question_number": 5,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study and its findings.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 3.94,
+          "full_response": "A"
+        },
+        {
+          "question_number": 22,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify the reason the Mayflower Compact was created.",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 5.24,
+          "full_response": "C"
+        },
+        {
+          "question_number": 13,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe the distinctive style of Houser\u2019s sculptures.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 2.45,
+          "full_response": "B"
+        },
+        {
+          "question_number": 17,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study\u2019s results.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 54.13,
+          "full_response": "A"
+        },
+        {
+          "question_number": 14,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the uniqueness of Taylor\u2019s accomplishment.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 60.17,
+          "full_response": "D"
+        },
+        {
+          "question_number": 3,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study to an audience already familiar with environmental DNA.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 53.73,
+          "full_response": "A"
+        },
+        {
+          "question_number": 28,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain the origin of the species\u2019 name.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 23.49,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 29,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Begin a narrative about Wong\u2019s award-nominated web series.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 48.42,
+          "full_response": "A"
+        },
+        {
+          "question_number": 12,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify who may have first populated the Azores, according to the 2015 study.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.96,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 2,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Introduce Cathryn Halverson\u2019s book to an audience already familiar with the Atlantic Monthly.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.09,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 27,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize a similarity in how critics responded to Treuer\u2019s book.",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 21.91,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 6,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the distance covered by the Philadelphia and Lancaster Turnpike.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.14,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 4,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe the rocking chair to an audience unfamiliar with Sam Maloof.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "D",
+          "is_correct": false,
+          "runtime": 61.06,
+          "full_response": "D"
+        },
+        {
+          "question_number": 21,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the thoroughness of Ida Tarbell\u2019s investigation of the Standard Oil Company.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 65.85,
+          "full_response": "A"
+        },
+        {
+          "question_number": 1,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the primary aim of the research study.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 22.15,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 26,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Make a generalization about the kind of study conducted by Glickman, Brown, and Song.",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.14,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 23,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the order in which two of Jordan Bennett\u2019s exhibitions were held.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 37.97,
+          "full_response": "A"
+        },
+        {
+          "question_number": 15,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain how the House of Wisdom preserved the world\u2019s knowledge.",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.12,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 9,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain an advantage of the new platinum catalyst developed by Jianbo Tang and his colleagues.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 7.77,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 36,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.09,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 62,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.09,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 40,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 23.25,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 51,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 22.44,
+          "full_response": "B"
+        },
+        {
+          "question_number": 49,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 25.94,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 63,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 34.09,
+          "full_response": "A"
+        },
+        {
+          "question_number": 65,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.45,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 31,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 35.64,
+          "full_response": "A"
+        },
+        {
+          "question_number": 66,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 22.83,
+          "full_response": "C"
+        },
+        {
+          "question_number": 55,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 31.67,
+          "full_response": "B"
+        },
+        {
+          "question_number": 44,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.53,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 46,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 20.83,
+          "full_response": "A"
+        },
+        {
+          "question_number": 45,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 29.18,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 48,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 2.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 53,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 19.84,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 35,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.22,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 61,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 16.26,
+          "full_response": "A"
+        },
+        {
+          "question_number": 34,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 42.18,
+          "full_response": "B"
+        },
+        {
+          "question_number": 69,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 35.82,
+          "full_response": "B"
+        },
+        {
+          "question_number": 42,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 18.03,
+          "full_response": "C"
+        }
+      ]
+    },
+    "chain-of-thought": {
+      "total": 40,
+      "correct": 23,
+      "accuracy": 0.575,
+      "by_skill": {
+        "Rhetorical Synthesis": {
+          "total": 20,
+          "correct": 12,
+          "accuracy": 0.6,
+          "by_difficulty": {
+            "Hard": {
+              "total": 6,
+              "correct": 2,
+              "accuracy": 0.3333333333333333
+            },
+            "Medium": {
+              "total": 11,
+              "correct": 8,
+              "accuracy": 0.7272727272727273
+            },
+            "Easy": {
+              "total": 3,
+              "correct": 2,
+              "accuracy": 0.6666666666666666
+            }
+          }
+        },
+        "Transitions": {
+          "total": 20,
+          "correct": 11,
+          "accuracy": 0.55,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 11,
+              "accuracy": 0.55
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Hard": {
+          "total": 6,
+          "correct": 2,
+          "accuracy": 0.3333333333333333
+        },
+        "Medium": {
+          "total": 31,
+          "correct": 19,
+          "accuracy": 0.6129032258064516
+        },
+        "Easy": {
+          "total": 3,
+          "correct": 2,
+          "accuracy": 0.6666666666666666
+        }
+      },
+      "details": [
+        {
+          "question_number": 7,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain a disadvantage of relying on audio features to predict a song\u2019s popularity.",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 5,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study and its findings.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 22,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify the reason the Mayflower Compact was created.",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 29.54,
+          "full_response": "Let's go through the problem step-by-step.\n\n### 1. Understand the given notes and the student's goal\n- **Notes:**  \n  - John Carver was one of the 41 signatories of the Mayflower Compact.  \n  - The Mayflower Compact was a legal agreement among the pilgrims who immigrated to Plymouth Colony.  \n  - It was created in 1620 to establish a common government.  \n  - It states that the pilgrims wanted to \"plant the first colony in the northern parts of Virginia\" under King James.  \n  - John Carver became the first governor of Plymouth Colony.\n\n- **Student's goal:**  \n  - Specify the reason the Mayflower Compact was created.\n\n### 2. Analyze each answer choice in relation to the notes and goal\n\n- **A:** \"Stating that its signatories wanted to 'plant the first colony in the northern parts of Virginia,' the Mayflower Compact was a legal agreement among the pilgrims that immigrated to Plymouth Colony.\"  \n  - This explains what the Compact states (the goal of planting a colony) and that it was a lega..."
+        },
+        {
+          "question_number": 13,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe the distinctive style of Houser\u2019s sculptures.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 17.39,
+          "full_response": "Let's go through the problem step-by-step as requested.\n\n---\n\n### 1. Understand the given notes and the student's goal\n\n**Notes:**\n- Allan Houser was a Chiricahua Warm Springs Apache sculptor, illustrator, and painter.\n- Many of his sculptures featured Native American figures.\n- He used abstract, modernist forms to depict these figures.\n- He developed a distinctive style that influenced many other artists.\n- His sculpture *Sacred Rain Arrow* is well-known and appeared on the Oklahoma license plate.\n\n**Student's Goal:**\n- To describe the **distinctive style** of Houser\u2019s sculptures.\n\n---\n\n### 2. Analyze each answer choice in relation to the notes and goal\n\n**A:** \"A sculptor, illustrator, and painter, Houser developed a distinctive style for portraying Native American figures.\"\n\n- This mentions that he developed a distinctive style, which is relevant.\n- However, it does not describe the style itself.\n- It is more general and biographical.\n\n**B:** \"Houser\u2019s sculptures employ abstract, mo..."
+        },
+        {
+          "question_number": 17,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study\u2019s results.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 28.6,
+          "full_response": "Let's work through the problem step-by-step.\n\n### Step 1: Understand the given notes and the student's goal\n- **Notes:** Researchers observed wild macaques calling out and gesturing at humans, especially those holding food. They designed a study to test if macaques intentionally tried to persuade humans to share food. The study found macaques called out and gestured more frequently at humans holding food than at empty-handed humans.\n- **Student's Goal:** Present the study\u2019s results.\n\n### Step 2: Analyze each answer choice in relation to the notes and goal\n\n- **A:** \"Macaques in the study called out to and gestured more frequently at humans holding food than at empty-handed humans.\"\n  - This directly states the study's results, matching the goal perfectly.\n  \n- **B:** \"In 2018, researchers who had observed macaques in India\u2019s Bandipur National Park calling out to and gesturing at humans designed a study.\"\n  - This describes the background and study design but does not present the result..."
+        },
+        {
+          "question_number": 14,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the uniqueness of Taylor\u2019s accomplishment.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.14,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 3,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study to an audience already familiar with environmental DNA.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 31.7,
+          "full_response": "Let's carefully work through the problem step-by-step.\n\n---\n\n### Step 1: Understand the given notes and the student's goal\n\n- **Notes:**\n  - Organisms release cellular material (hair, skin).\n  - DNA from these materials is called environmental DNA (eDNA).\n  - Researchers use eDNA to detect species that are hard to observe.\n  - Sara Oyler-McCance\u2019s team analyzed eDNA in Florida Everglades water samples.\n  - They detected invasive constrictor snakes, specifically Burmese pythons.\n  - The study found a 91% probability of detecting Burmese python eDNA at a location.\n\n- **Student's goal:**\n  - Present the study to an audience **already familiar with environmental DNA**.\n  - This means the audience **does not need a definition or explanation of eDNA**.\n  - The focus should be on the study specifics and findings, not on explaining what eDNA is.\n\n---\n\n### Step 2: Analyze each answer choice in relation to the notes and goal\n\n**A:**  \n\"Sara Oyler-McCance\u2019s researchers analyzed eDNA in water samp..."
+        },
+        {
+          "question_number": 28,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain the origin of the species\u2019 name.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 29,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Begin a narrative about Wong\u2019s award-nominated web series.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 55.25,
+          "full_response": "Let's work through this step-by-step.\n\n### 1. Understand the given notes and the student's goal\n- **Notes:** Freddie Wong is a director and special effects artist, known for the action-comedy web series *Video Game High School* (VGHS). VGHS premiered in 2012 on RocketJump, a YouTube channel Wong co-created. The series was praised for its inventive video game\u2013centric world and high-quality special effects. It was nominated for a Producers Guild Award for Outstanding Digital Series.\n- **Student's Goal:** Begin a narrative about Wong\u2019s award-nominated web series.\n\nThe key here is that the student wants to **start a narrative** about the web series, which means the opening sentence should introduce the series in a way that sets the stage for further discussion.\n\n### 2. Analyze each answer choice in relation to the notes and goal\n\n**A:** \"In 2012, director and visual effects artist Freddie Wong launched a new action-comedy web series: Video Game High School.\"\n\n- This introduces Freddie Wong..."
+        },
+        {
+          "question_number": 12,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify who may have first populated the Azores, according to the 2015 study.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 34.73,
+          "full_response": "Let's go through the problem step-by-step:\n\n### 1. Understand the given notes and the student's goal\n\n- **Notes:**  \n  - The Azores are islands about 870 miles off Portugal.  \n  - Historians traditionally believed Portuguese mariners first populated the Azores in the 15th century.  \n  - A 2015 study by Sofia Gabriel and Maria da Luz Mathias suggests Vikings from Scandinavia may have populated the Azores as early as the 9th century.  \n  - This conclusion is based on a genetic connection found between house mice in the Azores and those in Scandinavia, implying mice traveled on Viking ships.\n\n- **Student's goal:**  \n  - Specify who may have first populated the Azores according to the 2015 study.\n\n### 2. Analyze each answer choice in relation to the notes and goal\n\n- **A:** \"Historians have long believed that the first humans to populate the Azores, a group of islands about 870 miles off the coast of Portugal, arrived in the fifteenth century.\"  \n  - This states the traditional belief but ..."
+        },
+        {
+          "question_number": 2,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Introduce Cathryn Halverson\u2019s book to an audience already familiar with the Atlantic Monthly.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 22.87,
+          "full_response": "Let's work through this step-by-step.\n\n### 1. Understand the given notes and the student's goal\n\n- **Notes:**\n  - The Atlantic Monthly magazine started in 1857.\n  - It focused on politics, art, and literature.\n  - Cathryn Halverson published *Faraway Women and the \u201cAtlantic Monthly\u201d* in 2019.\n  - The book discusses female authors whose autobiographies appeared in the magazine in the early 1900s.\n  - Juanita Harrison is one such author discussed in the book.\n\n- **Student's Goal:**\n  - Introduce Cathryn Halverson\u2019s book to an audience **already familiar with the Atlantic Monthly**.\n\n### 2. Analyze each answer choice in relation to the notes and goal\n\n- **A:** \"Cathryn Halverson\u2019s Faraway Women and the \u201cAtlantic Monthly\u201d discusses female authors whose autobiographies appeared in the magazine in the early 1900s.\"\n  - This directly introduces the book and its subject.\n  - It assumes the audience knows the Atlantic Monthly already (does not explain what the magazine is).\n  - Clear, concise, ..."
+        },
+        {
+          "question_number": 27,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize a similarity in how critics responded to Treuer\u2019s book.",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 6,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the distance covered by the Philadelphia and Lancaster Turnpike.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 23.05,
+          "full_response": "Let's work through the problem step-by-step.\n\n### Step 1: Understand the given notes and the student's goal\n- **Notes:**  \n  - The Philadelphia and Lancaster Turnpike was built between 1792 and 1794.  \n  - It was the first private turnpike in the United States.  \n  - It connected Philadelphia and Lancaster in Pennsylvania.  \n  - It was 62 miles long.\n\n- **Student's Goal:**  \n  Emphasize the **distance covered** by the Philadelphia and Lancaster Turnpike.\n\n### Step 2: Analyze each answer choice in relation to the notes and goal\n\n- **A:** \"The sixty-two-mile-long Philadelphia and Lancaster Turnpike connected the Pennsylvania cities of Philadelphia and Lancaster.\"  \n  - This sentence explicitly mentions the **distance (sixty-two miles)** and the cities connected.  \n  - It directly emphasizes the distance, which aligns with the student's goal.\n\n- **B:** \"The Philadelphia and Lancaster Turnpike was the first private turnpike in the United States.\"  \n  - This emphasizes the historical signif..."
+        },
+        {
+          "question_number": 4,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe the rocking chair to an audience unfamiliar with Sam Maloof.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 25.87,
+          "full_response": "Let's work through this step-by-step.\n\n### 1. Understand the given notes and the student's goal\n\n- **Notes:**  \n  - Sam Maloof was an American woodworker and furniture designer, son of Lebanese immigrants.  \n  - He received a MacArthur \u201cgenius grant\u201d in 1985.  \n  - The Museum of Fine Arts in Boston owns a rocking chair made by Maloof.  \n  - The chair is made of walnut wood.  \n  - The chair features sleek, contoured armrests and seat, and a back with seven spindle-like slats.\n\n- **Student's goal:**  \n  Describe the rocking chair to an audience unfamiliar with Sam Maloof.  \n  So the focus is on describing the chair itself, not Maloof\u2019s biography or achievements.\n\n### 2. Analyze each answer choice in relation to the notes and goal\n\n- **A:**  \n  \"With its sleek, contoured armrests and seat, the walnut rocking chair in Boston\u2019s Museum of Fine Arts is just one piece of furniture created by American woodworker Sam Maloof.\"  \n  - This describes the chair\u2019s features (sleek, contoured armrests a..."
+        },
+        {
+          "question_number": 21,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the thoroughness of Ida Tarbell\u2019s investigation of the Standard Oil Company.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 23.29,
+          "full_response": "Let's go through the problem step-by-step.\n\n### 1. Understand the given notes and the student's goal\n\n- **Notes:** Ida Tarbell was a muckraker who investigated the Standard Oil Company. She:\n  - Interviewed Standard Oil executives, oil industry workers, and public officials.\n  - Examined thousands of pages of internal communications (letters, financial records).\n  - Wrote *The History of the Standard Oil Company* (1904), exposing unfair business practices.\n\n- **Student's Goal:** Emphasize the **thoroughness** of Ida Tarbell\u2019s investigation.\n\n### 2. Analyze each answer choice in relation to the notes and goal\n\n- **A:** \"Ida Tarbell not only interviewed Standard Oil executives, oil industry workers, and public officials but also examined thousands of pages of the company\u2019s internal communications.\"\n  - This highlights multiple methods of investigation (interviews + document examination).\n  - Shows depth and breadth \u2192 emphasizes thoroughness.\n\n- **B:** \"Ida Tarbell, who investigated the S..."
+        },
+        {
+          "question_number": 1,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the primary aim of the research study.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.23,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 26,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Make a generalization about the kind of study conducted by Glickman, Brown, and Song.",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 28.13,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 23,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the order in which two of Jordan Bennett\u2019s exhibitions were held.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 27.05,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 15,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain how the House of Wisdom preserved the world\u2019s knowledge.",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 9,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain an advantage of the new platinum catalyst developed by Jianbo Tang and his colleagues.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 26.78,
+          "full_response": "Let's carefully work through the problem step-by-step.\n\n### Step 1: Understand the given notes and the student's goal\n- **Notes:**  \n  - Platinum is rare and expensive.  \n  - Platinum catalysts usually require a large amount of platinum to be effective.  \n  - Jianbo Tang and colleagues created a new catalyst combining platinum with liquid gallium.  \n  - This new catalyst is highly effective but uses only trace amounts of platinum (0.0001% of atoms).  \n\n- **Student's goal:**  \n  - Explain an advantage of the new platinum catalyst developed by Jianbo Tang and colleagues.\n\n### Step 2: Analyze each answer choice in relation to the notes and goal\n\n- **A:** \"Researcher Jianbo Tang and his colleagues created a platinum catalyst that combines platinum, a rare and expensive metal, with liquid gallium.\"  \n  - This statement describes what the researchers did but does **not** explain an advantage of the new catalyst. It merely states a fact about its composition.\n\n- **B:** \"Like other platinum ca..."
+        },
+        {
+          "question_number": 36,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 35.36,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 62,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 7.09,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 40,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 38.54,
+          "full_response": "Let's analyze the problem step-by-step:\n\n### 1. Understand the context and meaning of the passage\nThe passage discusses biologists experimenting with grime-eating bacteria as an alternative to harsh chemicals for cleaning artworks. The first sentence states that the results have been impressive overall. The second sentence, after the blank, describes these bacterial strains as effective at metabolizing impurities without harmful byproducts and claims they have proven more effective than traditional chemical methods.\n\n### 2. Identify the relationship between the sentences before and after the blank\nThe first sentence introduces a general positive outcome (\"impressive overall\") from using bacteria instead of chemicals. The second sentence elaborates on the bacteria's capabilities and effectiveness compared to traditional methods.\n\nThe relationship seems to be one of elaboration or reinforcement: the second sentence provides specific evidence or examples supporting the positive results me..."
+        },
+        {
+          "question_number": 51,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 23.53,
+          "full_response": "Let's analyze the problem step-by-step:\n\n### 1. Understand the context and meaning of the passage\nThe passage discusses the difficulty of planetary formation in binary star systems, implying that it should be nearly impossible. It then states that the existence of planets in such systems has lacked some kind of explanation. Following this, it mentions that Roman Rafikov and Kedron Silsbee used modeling to shed light on the subject by identifying factors that could support planet development.\n\n### 2. Identify the relationship between the sentences before and after the blank\nThe first sentence sets up a problem: planetary formation in binary star systems should be nearly impossible, so the existence of planets there has lacked some kind of explanation. The second sentence presents a solution or new insight provided by researchers.\n\nThe blank is in the phrase \"has lacked ______ explanation,\" so the missing word should describe the type of explanation that was missing before the researcher..."
+        },
+        {
+          "question_number": 49,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.13,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 63,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.09,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 65,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 27.94,
+          "full_response": "Let's analyze the problem step-by-step:\n\n1. **Understand the context and meaning of the passage:**\n\nThe passage describes a physical feature of spiders: spatulae on their leg hairs that temporarily bond with atoms of surfaces they touch. This is a cause or mechanism explaining a spider's ability to cling and climb surfaces.\n\n2. **Identify the relationship between the sentences before and after the blank:**\n\nThe first sentence explains the mechanism (spatulae bonding with atoms). The second sentence states the effect or result: spiders can cling and climb almost any surface.\n\nSo, the relationship is cause (mechanism) \u2192 effect (ability).\n\n3. **Consider each transition option and how it affects the flow and logic of the passage:**\n\n- A: \"For instance,\"  \n  This phrase introduces an example. The first sentence is about spatulae, and the second sentence talks about spiders' ability. The second sentence is not an example of the first sentence but a consequence of it. So \"For instance,\" doesn..."
+        },
+        {
+          "question_number": 31,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 28.82,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 66,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 55.94,
+          "full_response": "Let's analyze the problem step-by-step:\n\n1. **Understand the context and meaning of the passage:**\n\nThe passage talks about Alixa Naff, a young historian in the 1950s, who conducted over 450 oral history interviews with Arab American immigrants. The sentence after the blank mentions that she collected photographs and other artifacts representing her subjects' experiences.\n\n2. **Identify the relationship between the sentences before and after the blank:**\n\nThe first sentence describes one activity (interviewing immigrants), and the second sentence describes an additional activity (collecting photographs and artifacts). The relationship seems to be additive: she did interviews and also collected physical items related to those experiences.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage:**\n\n- A: \"In other words,\" \u2014 This phrase is used to restate or clarify the previous idea in different words. Here, the second sentence is not a restatement but a..."
+        },
+        {
+          "question_number": 55,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 22.89,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 44,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 42.98,
+          "full_response": "Let's analyze the problem step-by-step:\n\n1. **Understand the context and meaning of the passage**\n\nThe passage discusses Alexander Lawrence Posey's writing style, noting that he varied his focus and tone depending on the genre. Specifically, in his poetry, he used heartfelt language to evoke beauty and peacefulness. Then, the passage moves to his journalism, where he employed humor and satire to comment on political issues.\n\n2. **Identify the relationship between the sentences before and after the blank**\n\nThe first part describes a gentle, heartfelt tone in poetry. The second part contrasts this with a different tone in journalism\u2014humor and satire, which is a different approach from the poetry's tone.\n\nThus, the relationship between the two parts is one of contrast: the tone and focus differ between poetry and journalism.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**\n\n- A: **that is,**  \n  This phrase is used to clarify or restate somethi..."
+        },
+        {
+          "question_number": 46,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 13.25,
+          "full_response": "Let's go through the problem step-by-step as requested.\n\n---\n\n### 1. Understand the context and meaning of the passage\n\nThe passage talks about a parasitic dodder plant that increases its reproductive success by flowering at the same time as the host plant it is attached to. The passage then mentions that researchers found that the dodder achieves something with its host by absorbing and using a protein produced by the host when it is about to flower.\n\nSo, the key idea is that the dodder coordinates its flowering time with the host plant\u2019s flowering time.\n\n---\n\n### 2. Identify the relationship between the sentences before and after the blank\n\nThe first sentence sets up the idea that the dodder flowers simultaneously with the host to increase reproductive success. The second sentence explains *how* the dodder achieves this simultaneous flowering: by absorbing a protein from the host.\n\nThe blank is a noun that describes what the dodder achieves with the host. The relationship is about ti..."
+        },
+        {
+          "question_number": 45,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 16.4,
+          "full_response": "Let's analyze the problem step-by-step:\n\n1. **Understand the context and meaning of the passage:**\n\n- The first sentence states that Mauna Loa has long been considered Earth's largest shield volcano by volume (74,000 cubic kilometers).\n- The second sentence introduces a 2020 study by Michael Garcia, which claims that P\u016bh\u0101honu is significantly larger, with a volume of about 148,000 cubic kilometers.\n\n2. **Identify the relationship between the sentences before and after the blank:**\n\n- The second sentence presents new information that contrasts with or updates the previous belief.\n- The first sentence states a widely held belief.\n- The second sentence challenges or revises that belief by presenting evidence that P\u016bh\u0101honu is actually larger.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage:**\n\n- **A: Secondly,**  \n  This implies a sequence or addition of points. The second sentence is not simply adding another example or point; it is contradicting..."
+        },
+        {
+          "question_number": 48,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 11.83,
+          "full_response": "Let's analyze the question step-by-step:\n\n1. **Understand the context and meaning of the passage**\n\nThe passage talks about Joseph Weber's work in gravitational wave research during the 1960s and 1970s. It says he conducted key experiments that later scientists used as the basis for their investigations, which eventually led to the first verified detection of a gravitational wave in 2015.\n\n2. **Identify the relationship between the sentences before and after the blank**\n\nThe blank describes the nature of Weber's work. The second part of the sentence says that scientists later used his experiments as a basis for their own investigations. This implies that Weber's work was important and contributed significantly to the field.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**\n\n- **A: foundational**  \n  This means Weber's work was the groundwork or basis for later research. Fits well with \"scientists later used as the basis for their own investiga..."
+        },
+        {
+          "question_number": 53,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 2.91,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 35,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 8.43,
+          "full_response": "Let's analyze the problem step-by-step:\n\n### 1. Understand the context and meaning of the passage\n\nThe passage discusses Sim\u00f3n Bol\u00edvar writing a letter in 1815 while in exile, praising England\u2019s republican government and expressing hope for Latin American independence. The letter was addressed to a local merchant, Henry Cullen. The blank introduces a statement about Bol\u00edvar\u2019s goal: persuading political leaders from England and Europe to support his cause.\n\n### 2. Identify the relationship between the sentences before and after the blank\n\nThe first part says Bol\u00edvar wrote a letter praising England\u2019s government and expressing hope for Latin American nations. The next part clarifies Bol\u00edvar\u2019s actual goal: to persuade political leaders in England and Europe to support independence efforts.\n\nThe transition should indicate a contrast or clarification between the letter\u2019s addressee (a local merchant) and Bol\u00edvar\u2019s broader political goal (influencing leaders).\n\n### 3. Consider each transition ..."
+        },
+        {
+          "question_number": 61,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 6.89,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 34,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.07,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 69,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 42,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 20.41,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        }
+      ]
+    }
+  }
+}

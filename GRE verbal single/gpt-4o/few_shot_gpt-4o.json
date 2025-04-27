@@ -1,0 +1,608 @@
+{
+    "strategy": "3-shot",
+    "accuracy": 0.6,
+    "total_questions": 50,
+    "correct_count": 30,
+    "details": [
+        {
+            "question_number": 1,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "D",
+            "model_response": "Final Answer: D",
+            "runtime": 6.31,
+            "correct": true
+        },
+        {
+            "question_number": 2,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "C",
+            "model_response": "Final Answer: C",
+            "runtime": 32.56,
+            "correct": true
+        },
+        {
+            "question_number": 3,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "C",
+            "model_response": "Final Answer: C",
+            "runtime": 3.27,
+            "correct": true
+        },
+        {
+            "question_number": 4,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "A",
+            "model_response": "To solve the question, we need to determine which word best fits the context of the sentence. The sentence suggests that while natural phenomena like rainfall may seem unpredictable in the short term, they are actually consistent on a global scale. \n\nThe options are:\nA: reliability\nB: diversity\nC: complexity\nD: elasticity\nE: discontinuity\n\nThe word \"reliability\" (A) fits best as it implies that nature is dependable and consistent when viewed globally, contrasting with the initial perception of unpredictability.\n\nFinal Answer: A",
+            "runtime": 6.89,
+            "correct": true
+        },
+        {
+            "question_number": 5,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "D",
+            "model_response": "Final Answer: D",
+            "runtime": 5.32,
+            "correct": true
+        },
+        {
+            "question_number": 6,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "A",
+            "model_response": "Final Answer: A",
+            "runtime": 34.48,
+            "correct": false
+        },
+        {
+            "question_number": 7,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "D",
+            "model_response": "Final Answer: D",
+            "runtime": 4.49,
+            "correct": true
+        },
+        {
+            "question_number": 8,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "E",
+            "model_response": "Final Answer: E",
+            "runtime": 6.4,
+            "correct": true
+        },
+        {
+            "question_number": 9,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "C",
+            "model_response": "Final Answer: C",
+            "runtime": 5.97,
+            "correct": true
+        },
+        {
+            "question_number": 10,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "C",
+            "model_response": "Final Answer: C",
+            "runtime": 5.6,
+            "correct": false
+        },
+        {
+            "question_number": 11,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 6.23,
+            "correct": false
+        },
+        {
+            "question_number": 12,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "E",
+            "model_response": "Final Answer: E",
+            "runtime": 5.99,
+            "correct": true
+        },
+        {
+            "question_number": 13,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 14.75,
+            "correct": false
+        },
+        {
+            "question_number": 14,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 1.71,
+            "correct": false
+        },
+        {
+            "question_number": 15,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 1.59,
+            "correct": false
+        },
+        {
+            "question_number": 16,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 1.64,
+            "correct": false
+        },
+        {
+            "question_number": 17,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 1.39,
+            "correct": false
+        },
+        {
+            "question_number": 18,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 1.54,
+            "correct": false
+        },
+        {
+            "question_number": 19,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 1.9,
+            "correct": false
+        },
+        {
+            "question_number": 20,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "C",
+            "model_response": "To solve the question, we need to find a word that fits the context of \"neither a compliment nor _____.\" The options provided are:\n\nA: n exposition  \nB: n elucidation  \nC: n animadversion  \nD: culmination  \nE: divination  \n\nThe phrase \"neither a compliment nor\" suggests we are looking for a word that represents a negative or critical remark, which aligns with \"animadversion.\" \n\nThus, the final answer is:\n\nFinal Answer: C",
+            "runtime": 4.27,
+            "correct": true
+        },
+        {
+            "question_number": 21,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 22.44,
+            "correct": false
+        },
+        {
+            "question_number": 22,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "A",
+            "model_response": "Final Answer: A",
+            "runtime": 24.48,
+            "correct": true
+        },
+        {
+            "question_number": 23,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "C",
+            "model_response": "Final Answer: C",
+            "runtime": 12.16,
+            "correct": true
+        },
+        {
+            "question_number": 24,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "A",
+            "model_response": "Final Answer: A",
+            "runtime": 29.36,
+            "correct": true
+        },
+        {
+            "question_number": 25,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "E",
+            "model_response": "Final Answer: E",
+            "runtime": 3.59,
+            "correct": true
+        },
+        {
+            "question_number": 26,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "[{'Текст с описанием клинической картины': 'Мужчина, 54 года, жалуется на хроническую ноющую боль в нижней части спины, которая усиливается к вечеру и при физической нагрузке, особенно после длительного сидения или ходьбы. Боль периодически иррадиирует в область ягодицы, реже в бедро, не сопровождается онемением или слабостью в ногах. Из анамнеза известно: около 5 лет назад появились первые эпизоды дискомфорта в поясничной области, связывал с активной физической работой. В анамнезе жизни — гиподинамия, курение более 20 лет, нерегулярная физическая активность. Утром отмечает скованность в пояснице, которая проходит через 20–30 минут после движения. Локальная пальпаторная болезненность выявлена в паравертебральной зоне на уровне L4-L5. При рентгенографии поясничного отдела позвоночника — снижение высоты межпозвоночных дисков на уровне L3-L5, единичные остеофиты. Лабораторные исследования: СОЭ и С-реактивный белок в пределах нормы, ревматоидный фактор отрицателен.', 'Дифференциальные диагнозы': ['Спондилоартроз', 'Радикулопатия']}]",
+            "runtime": 1.58,
+            "correct": false
+        },
+        {
+            "question_number": 27,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "B",
+            "model_response": "Final Answer: B",
+            "runtime": 6.12,
+            "correct": true
+        },
+        {
+            "question_number": 28,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "B",
+            "model_response": "Final Answer: B",
+            "runtime": 10.71,
+            "correct": true
+        },
+        {
+            "question_number": 29,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "B",
+            "model_response": "Final Answer: B",
+            "runtime": 35.79,
+            "correct": false
+        },
+        {
+            "question_number": 30,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "E",
+            "model_response": "Final Answer: E",
+            "runtime": 6.75,
+            "correct": true
+        },
+        {
+            "question_number": 31,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "B",
+            "model_response": "Final Answer: B",
+            "runtime": 11.38,
+            "correct": true
+        },
+        {
+            "question_number": 32,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "B",
+            "model_response": "To solve the given GRE question, we need to find a word that fits the context of the sentence. The sentence indicates that the new wing of the museum provides something that allows it to serve its visitors properly.\n\nLet's analyze the options:\n\nA: visibility - This does not fit the context of serving visitors.\nB: wherewithal - This means the means or resources to do something, which fits well with the context of serving visitors properly.\nC: reputation - This refers to the perception of the museum, not directly related to serving visitors.\nD: solemnity - This refers to seriousness, which does not fit the context.\nE: panache - This refers to flamboyant confidence, which does not relate to serving visitors.\n\nThe best fit is option B, \"wherewithal,\" as it suggests that the new wing provides the necessary means to serve visitors properly.\n\nFinal Answer: B",
+            "runtime": 5.58,
+            "correct": true
+        },
+        {
+            "question_number": 33,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 4.49,
+            "correct": false
+        },
+        {
+            "question_number": 34,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "A",
+            "model_response": "Final Answer: A",
+            "runtime": 5.89,
+            "correct": true
+        },
+        {
+            "question_number": 35,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "A",
+            "model_response": "Final Answer: A",
+            "runtime": 6.01,
+            "correct": true
+        },
+        {
+            "question_number": 36,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "C",
+            "model_response": "To solve the question:\n\nQuestion: There is _____ in the director's most recent film that keeps the melodramatic possibilities latent in its script safely at bay.\nOptions:\nA: mawkishness\nB: predictability\nC: n austerity\nD: n ostentatiousness\nE: n emotiveness\n\nThe correct answer is \"C: austerity,\" as it suggests a lack of excess or embellishment, which aligns with keeping melodramatic possibilities at bay.\n\nFinal Answer: C",
+            "runtime": 31.59,
+            "correct": true
+        },
+        {
+            "question_number": 37,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "B",
+            "model_response": "To solve the question, we need to find a word that describes cows and sheep in a way that contrasts with lions having a wide range of facial expressions. \n\nThe options provided are:\nA: ractable\nB: mpassive\nC: olitary\nD: ocial\nE: luggish\n\nThe correct answer should imply that cows and sheep are not expressive or are limited in their facial expressions. The word \"impassive\" (B) fits this description as it means not showing emotion or feeling.\n\nFinal Answer: B",
+            "runtime": 5.09,
+            "correct": true
+        },
+        {
+            "question_number": 38,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 5.55,
+            "correct": false
+        },
+        {
+            "question_number": 39,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 5.69,
+            "correct": false
+        },
+        {
+            "question_number": 40,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "E",
+            "model_response": "Final Answer: E",
+            "runtime": 29.04,
+            "correct": true
+        },
+        {
+            "question_number": 41,
+            "expected": "C",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "C",
+            "model_response": "To solve the question, we need to find a word that fits the context of the sentence regarding managerial tasks and motivation. The sentence implies that it is unrealistic to expect a single memo to have a significant impact on staff attitude.\n\nLooking at the options:\nA: ngenious - suggests cleverness, which doesn't fit the context.\nB: easonable - implies that it is logical or rational, which could fit.\nC: anciful - suggests being unrealistic or imaginative, which fits well with the context of expecting too much from a single memo.\nD: crupulous - refers to being meticulous or careful, which doesn't fit.\nE: adical - implies something extreme or revolutionary, which doesn't fit the context.\n\nThe best fit here is \"C: anciful,\" as it aligns with the idea that expecting a single memo to have a significant effect is unrealistic.\n\nFinal Answer: C",
+            "runtime": 28.92,
+            "correct": true
+        },
+        {
+            "question_number": 42,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "A",
+            "model_response": "To solve the question, we need to find a word that describes the filmmaker's demeanor in interviews, which contrasts with the provocative and sophisticated nature of her movie. \n\nLooking at the options:\nA: urbane - meaning sophisticated or elegant\nB: precocious - meaning advanced for one's age\nC: heterodox - meaning not conforming with accepted or orthodox standards\nD: fervent - meaning having or displaying a passionate intensity\nE: guileless - meaning innocent and without deception\n\nThe word \"urbane\" fits best as it suggests sophistication, which would be surprising given the provocative nature of her movie.\n\nFinal Answer: A",
+            "runtime": 2.89,
+            "correct": false
+        },
+        {
+            "question_number": 43,
+            "expected": "D",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "D",
+            "model_response": "Final Answer: D",
+            "runtime": 5.07,
+            "correct": true
+        },
+        {
+            "question_number": 44,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "D",
+            "model_response": "Final Answer: D",
+            "runtime": 6.02,
+            "correct": false
+        },
+        {
+            "question_number": 45,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "E",
+            "model_response": "To solve the question:\n\nQuestion: Few studies have been published on ground-squirrel dispersal, and most of them have involved very small sample sizes, thus most statements regarding ground-squirrel dispersal must be considered _____.\nOptions:\nA: nvaluable\nB: nexceptional\nC: nveterate\nD: outine\nE: onjectural\n\nThe context suggests that due to the limited studies and small sample sizes, the statements made about ground-squirrel dispersal are likely to be uncertain or based on conjecture. Therefore, the most fitting answer is:\n\nFinal Answer: E",
+            "runtime": 7.03,
+            "correct": true
+        },
+        {
+            "question_number": 46,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 5.58,
+            "correct": false
+        },
+        {
+            "question_number": 47,
+            "expected": "A",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "A",
+            "model_response": "Final Answer: A",
+            "runtime": 33.68,
+            "correct": true
+        },
+        {
+            "question_number": 48,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "B",
+            "model_response": "Final Answer: B",
+            "runtime": 29.53,
+            "correct": true
+        },
+        {
+            "question_number": 49,
+            "expected": "E",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "",
+            "model_response": "",
+            "runtime": 3.24,
+            "correct": false
+        },
+        {
+            "question_number": 50,
+            "expected": "B",
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": "B",
+            "model_response": "Final Answer: B",
+            "runtime": 6.14,
+            "correct": true
+        }
+    ]
+}

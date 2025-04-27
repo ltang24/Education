@@ -1,0 +1,1504 @@
+{
+  "gemini-1.5-flash": {
+    "zero-shot": {
+      "total": 40,
+      "correct": 36,
+      "accuracy": 0.9,
+      "by_skill": {
+        "Rhetorical Synthesis": {
+          "total": 20,
+          "correct": 20,
+          "accuracy": 1.0,
+          "by_difficulty": {
+            "Medium": {
+              "total": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 4,
+              "correct": 4,
+              "accuracy": 1.0
+            }
+          }
+        },
+        "Transitions": {
+          "total": 20,
+          "correct": 16,
+          "accuracy": 0.8,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 16,
+              "accuracy": 0.8
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 30,
+          "correct": 26,
+          "accuracy": 0.8666666666666667
+        },
+        "Easy": {
+          "total": 6,
+          "correct": 6,
+          "accuracy": 1.0
+        },
+        "Hard": {
+          "total": 4,
+          "correct": 4,
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "question_number": 3,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study to an audience already familiar with environmental DNA.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.24,
+          "full_response": "A"
+        },
+        {
+          "question_number": 5,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study and its findings.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.11,
+          "full_response": "A"
+        },
+        {
+          "question_number": 8,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe how fabric is used in the painting Assertion of Will.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.35,
+          "full_response": "A"
+        },
+        {
+          "question_number": 23,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the order in which two of Jordan Bennett\u2019s exhibitions were held.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.1,
+          "full_response": "A"
+        },
+        {
+          "question_number": 13,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe the distinctive style of Houser\u2019s sculptures.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 3.54,
+          "full_response": "B"
+        },
+        {
+          "question_number": 28,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain the origin of the species\u2019 name.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.92,
+          "full_response": "D"
+        },
+        {
+          "question_number": 19,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the Quanhucun study and its conclusions.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.09,
+          "full_response": "B"
+        },
+        {
+          "question_number": 1,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the primary aim of the research study.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.02,
+          "full_response": "A"
+        },
+        {
+          "question_number": 9,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain an advantage of the new platinum catalyst developed by Jianbo Tang and his colleagues.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.99,
+          "full_response": "D"
+        },
+        {
+          "question_number": 14,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the uniqueness of Taylor\u2019s accomplishment.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.27,
+          "full_response": "D"
+        },
+        {
+          "question_number": 15,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain how the House of Wisdom preserved the world\u2019s knowledge.",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.71,
+          "full_response": "D"
+        },
+        {
+          "question_number": 24,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Introduce the scientist and her field of study to a new audience.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.03,
+          "full_response": "B"
+        },
+        {
+          "question_number": 17,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study\u2019s results.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 0.87,
+          "full_response": "A"
+        },
+        {
+          "question_number": 20,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Identify the setting of Cather\u2019s novel My \u00c1ntonia.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 0.79,
+          "full_response": "A"
+        },
+        {
+          "question_number": 21,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the thoroughness of Ida Tarbell\u2019s investigation of the Standard Oil Company.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.49,
+          "full_response": "A"
+        },
+        {
+          "question_number": 7,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain a disadvantage of relying on audio features to predict a song\u2019s popularity.",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.9,
+          "full_response": "B"
+        },
+        {
+          "question_number": 18,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify the number of gray wolves in Yellowstone.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.94,
+          "full_response": "D"
+        },
+        {
+          "question_number": 25,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Provide an explanation and an example of Oliveros\u2019s Sonic Meditations.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 0.87,
+          "full_response": "A"
+        },
+        {
+          "question_number": 12,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify who may have first populated the Azores, according to the 2015 study.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.03,
+          "full_response": "D"
+        },
+        {
+          "question_number": 10,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize a difference between the two types of muslin.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.21,
+          "full_response": "A"
+        },
+        {
+          "question_number": 55,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.13,
+          "full_response": "B"
+        },
+        {
+          "question_number": 38,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.79,
+          "full_response": "D"
+        },
+        {
+          "question_number": 42,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 1.0,
+          "full_response": "C"
+        },
+        {
+          "question_number": 35,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.97,
+          "full_response": "B"
+        },
+        {
+          "question_number": 31,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 4.38,
+          "full_response": "A"
+        },
+        {
+          "question_number": 56,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.9,
+          "full_response": "B"
+        },
+        {
+          "question_number": 43,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.14,
+          "full_response": "B"
+        },
+        {
+          "question_number": 54,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.05,
+          "full_response": "B"
+        },
+        {
+          "question_number": 64,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 0.83,
+          "full_response": "B"
+        },
+        {
+          "question_number": 57,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.89,
+          "full_response": "C"
+        },
+        {
+          "question_number": 46,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 0.73,
+          "full_response": "A"
+        },
+        {
+          "question_number": 37,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 1.0,
+          "full_response": "A"
+        },
+        {
+          "question_number": 33,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 1.05,
+          "full_response": "B"
+        },
+        {
+          "question_number": 39,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.09,
+          "full_response": "B"
+        },
+        {
+          "question_number": 60,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 0.94,
+          "full_response": "A"
+        },
+        {
+          "question_number": 32,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 0.89,
+          "full_response": "A"
+        },
+        {
+          "question_number": 58,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.95,
+          "full_response": "D"
+        },
+        {
+          "question_number": 34,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.88,
+          "full_response": "B"
+        },
+        {
+          "question_number": 53,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.94,
+          "full_response": "C"
+        },
+        {
+          "question_number": 61,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.47,
+          "full_response": "A"
+        }
+      ]
+    },
+    "five-shot": {
+      "total": 40,
+      "correct": 39,
+      "accuracy": 0.975,
+      "by_skill": {
+        "Rhetorical Synthesis": {
+          "total": 20,
+          "correct": 20,
+          "accuracy": 1.0,
+          "by_difficulty": {
+            "Medium": {
+              "total": 10,
+              "correct": 10,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 4,
+              "correct": 4,
+              "accuracy": 1.0
+            }
+          }
+        },
+        "Transitions": {
+          "total": 20,
+          "correct": 19,
+          "accuracy": 0.95,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 19,
+              "accuracy": 0.95
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 30,
+          "correct": 29,
+          "accuracy": 0.9666666666666667
+        },
+        "Easy": {
+          "total": 6,
+          "correct": 6,
+          "accuracy": 1.0
+        },
+        "Hard": {
+          "total": 4,
+          "correct": 4,
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "question_number": 3,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study to an audience already familiar with environmental DNA.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.22,
+          "full_response": "A"
+        },
+        {
+          "question_number": 5,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study and its findings.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.15,
+          "full_response": "A"
+        },
+        {
+          "question_number": 8,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe how fabric is used in the painting Assertion of Will.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.32,
+          "full_response": "A"
+        },
+        {
+          "question_number": 23,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the order in which two of Jordan Bennett\u2019s exhibitions were held.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.08,
+          "full_response": "A"
+        },
+        {
+          "question_number": 13,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe the distinctive style of Houser\u2019s sculptures.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.1,
+          "full_response": "B"
+        },
+        {
+          "question_number": 28,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain the origin of the species\u2019 name.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.39,
+          "full_response": "D"
+        },
+        {
+          "question_number": 19,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the Quanhucun study and its conclusions.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.36,
+          "full_response": "B"
+        },
+        {
+          "question_number": 1,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the primary aim of the research study.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.47,
+          "full_response": "A"
+        },
+        {
+          "question_number": 9,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain an advantage of the new platinum catalyst developed by Jianbo Tang and his colleagues.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.56,
+          "full_response": "D"
+        },
+        {
+          "question_number": 14,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the uniqueness of Taylor\u2019s accomplishment.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.08,
+          "full_response": "D"
+        },
+        {
+          "question_number": 15,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain how the House of Wisdom preserved the world\u2019s knowledge.",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 7.83,
+          "full_response": "D"
+        },
+        {
+          "question_number": 24,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Introduce the scientist and her field of study to a new audience.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.05,
+          "full_response": "B"
+        },
+        {
+          "question_number": 17,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study\u2019s results.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.07,
+          "full_response": "A"
+        },
+        {
+          "question_number": 20,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Identify the setting of Cather\u2019s novel My \u00c1ntonia.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.08,
+          "full_response": "A"
+        },
+        {
+          "question_number": 21,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the thoroughness of Ida Tarbell\u2019s investigation of the Standard Oil Company.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.31,
+          "full_response": "A"
+        },
+        {
+          "question_number": 7,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain a disadvantage of relying on audio features to predict a song\u2019s popularity.",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.25,
+          "full_response": "B"
+        },
+        {
+          "question_number": 18,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify the number of gray wolves in Yellowstone.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.09,
+          "full_response": "D"
+        },
+        {
+          "question_number": 25,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Provide an explanation and an example of Oliveros\u2019s Sonic Meditations.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.25,
+          "full_response": "A"
+        },
+        {
+          "question_number": 12,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify who may have first populated the Azores, according to the 2015 study.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.97,
+          "full_response": "D"
+        },
+        {
+          "question_number": 10,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize a difference between the two types of muslin.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.06,
+          "full_response": "A"
+        },
+        {
+          "question_number": 55,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.16,
+          "full_response": "B"
+        },
+        {
+          "question_number": 38,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.09,
+          "full_response": "D"
+        },
+        {
+          "question_number": 42,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 1.15,
+          "full_response": "C"
+        },
+        {
+          "question_number": 35,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.0,
+          "full_response": "B"
+        },
+        {
+          "question_number": 31,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.05,
+          "full_response": "A"
+        },
+        {
+          "question_number": 56,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.25,
+          "full_response": "B"
+        },
+        {
+          "question_number": 43,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.99,
+          "full_response": "B"
+        },
+        {
+          "question_number": 54,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 4.9,
+          "full_response": "B"
+        },
+        {
+          "question_number": 64,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.87,
+          "full_response": "C"
+        },
+        {
+          "question_number": 57,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 1.27,
+          "full_response": "C"
+        },
+        {
+          "question_number": 46,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.18,
+          "full_response": "A"
+        },
+        {
+          "question_number": 37,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 1.07,
+          "full_response": "A"
+        },
+        {
+          "question_number": 33,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.34,
+          "full_response": "D"
+        },
+        {
+          "question_number": 39,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.9,
+          "full_response": "B"
+        },
+        {
+          "question_number": 60,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.12,
+          "full_response": "A"
+        },
+        {
+          "question_number": 32,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.17,
+          "full_response": "D"
+        },
+        {
+          "question_number": 58,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.0,
+          "full_response": "D"
+        },
+        {
+          "question_number": 34,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.02,
+          "full_response": "B"
+        },
+        {
+          "question_number": 53,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 1.34,
+          "full_response": "C"
+        },
+        {
+          "question_number": 61,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.74,
+          "full_response": "A"
+        }
+      ]
+    },
+    "chain-of-thought": {
+      "total": 40,
+      "correct": 33,
+      "accuracy": 0.825,
+      "by_skill": {
+        "Rhetorical Synthesis": {
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9,
+          "by_difficulty": {
+            "Medium": {
+              "total": 10,
+              "correct": 8,
+              "accuracy": 0.8
+            },
+            "Easy": {
+              "total": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 4,
+              "correct": 4,
+              "accuracy": 1.0
+            }
+          }
+        },
+        "Transitions": {
+          "total": 20,
+          "correct": 15,
+          "accuracy": 0.75,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 15,
+              "accuracy": 0.75
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 30,
+          "correct": 23,
+          "accuracy": 0.7666666666666667
+        },
+        "Easy": {
+          "total": 6,
+          "correct": 6,
+          "accuracy": 1.0
+        },
+        "Hard": {
+          "total": 4,
+          "correct": 4,
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "question_number": 3,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study to an audience already familiar with environmental DNA.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "D",
+          "is_correct": false,
+          "runtime": 9.38,
+          "full_response": "**Step 1: Understand the Given Notes and the Student's Goal**\n\n- **Notes Summary**:\n  - Environmental DNA (eDNA) is DNA from cellular materials released by organisms.\n  - Researchers, led by Sara Oyler-McCance, analyzed eDNA in water samples from the Florida Everglades to detect invasive constrictor snakes.\n  - The study found a 91% probability of detecting Burmese python eDNA in specific locations.\n\n- **Student's Goal**:\n  - Present the study to an audience already familiar with environmental DNA.\n\n  \n\n**Step 2: Analyze Each Answer Choice in Relation to the Notes and Goal**\n\n- **Option A**: \n  - States the analysis of eDNA for invasive constrictor snakes.\n  - Focuses on the difficulty of observing these species.\n  \n- **Option B**: \n  - Generalizes the ability of eDNA to detect invasive species.\n  - Mentions constrictor snakes but lacks specificity to the study.\n  \n- **Option C**: \n  - Describes the finding of Burmese python eDNA.\n  - Provides a definition of eDNA but may be too basic ..."
+        },
+        {
+          "question_number": 5,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study and its findings.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 8.75,
+          "full_response": "**Step 1: Understand the Given Notes and the Student's Goal**\n\n- The notes provide information about the Orchidaceae family, emphasizing that while they are found in various environments, the diversity in temperate forests, specifically in Oaxaca, Mexico, has not been well studied.\n- Arelee Estefan\u00eda Mu\u00f1oz-Hern\u00e1ndez conducted a study to determine the number of Orchidaceae species in these forests and found 74 species over a year of monthly collections.\n\n- The student's goal is to present the study and its findings, which means the answer should clearly summarize the study's purpose and its results.\n\n  \n\n**Step 2: Analyze Each Answer Choice in Relation to the Notes and Goal**\n\n- **A:** A study led by Arelee Estefan\u00eda Mu\u00f1oz-Hern\u00e1ndez identified a total of 74 Orchidaceae species in the temperate forests of Oaxaca, Mexico.\n  \n- **B:** There are orchids in many environments, but there are 74 Orchidaceae species in Oaxaca, Mexico.\n  \n- **C:** Oaxaca, Mexico, is home to temperate forests cont..."
+        },
+        {
+          "question_number": 8,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe how fabric is used in the painting Assertion of Will.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 8.48,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes provide information about the exhibition \"Oracles of the Pink Universe,\" which featured the painting \"Assertion of Will\" by Simphiwe Ndzube. The student\u2019s goal is to describe how fabric is used in the painting.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: This choice states that the figures\u2019 clothing is made of fabric pieces stitched to the painting\u2019s canvas. This directly addresses the student's goal by describing the use of fabric in the painting.\n   - **B**: This choice mentions the exhibition and the artist but does not provide any information about the fabric or the clothing of the figures, thus not fulfilling the student's goal.\n   - **C**: This choice describes the painting and its subject matter but does not mention fabric or how it is used, so it does not meet the student's goal.\n   - **D**: This choice provides context about the exhibition and the painting but lacks any me..."
+        },
+        {
+          "question_number": 23,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the order in which two of Jordan Bennett\u2019s exhibitions were held.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 8.65,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes provide information about Jordan Bennett, a Mi\u2019Kmaq visual artist, and detail two specific exhibitions he held: Wije\u2019wi in 2017 and Ketu\u2019elmita\u2019jik in 2018. The student's goal is to emphasize the chronological order of these two exhibitions.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: \"Jordan Bennett\u2019s 2017 exhibition Wije\u2019wi was followed a year later by his exhibition Ketu\u2019elmita\u2019jik.\" This choice explicitly states the order of the exhibitions, highlighting that Wije\u2019wi occurred first in 2017 and Ketu\u2019elmita\u2019jik followed in 2018.\n   - **B**: \"Jordan Bennett\u2019s paintings, some of which appeared in 2017 and 2018 exhibitions, pay homage to traditional Mi\u2019Kmaq craftsmanship.\" This choice mentions the years of the exhibitions but does not emphasize the order in which they occurred.\n   - **C**: \"Mi\u2019Kmaq visual artist Jordan Bennett has displayed his work in over 75 exhibitions, including..."
+        },
+        {
+          "question_number": 13,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Describe the distinctive style of Houser\u2019s sculptures.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 8.83,
+          "full_response": "**Step 1: Understand the Given Notes and the Student's Goal**\n\n- **Notes Summary**:\n  - Allan Houser was a Chiricahua Warm Springs Apache artist.\n  - His work included sculptures, illustrations, and paintings.\n  - He focused on Native American figures using abstract, modernist forms.\n  - His style has influenced many artists.\n  - The sculpture \"Sacred Rain Arrow\" is a notable example of his work.\n\n- **Student's Goal**: Describe the distinctive style of Houser\u2019s sculptures.\n\n  \n\n**Step 2: Analyze Each Answer Choice in Relation to the Notes and Goal**\n\n- **A**: A sculptor, illustrator, and painter, Houser developed a distinctive style for portraying Native American figures.\n  \n- **B**: Houser\u2019s sculptures employ abstract, modernist forms to depict Native American figures.\n  \n- **C**: Many other artists have been influenced by the style of Houser\u2019s sculptures.\n  \n- **D**: The sculpture Sacred Rain Arrow is a well-known example of Houser\u2019s style.\n\n  \n\n**Step 3: Determine Which Answer Choic..."
+        },
+        {
+          "question_number": 28,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain the origin of the species\u2019 name.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 7.97,
+          "full_response": "**Step 1: Understand the Given Notes and the Student's Goal**\n\n- The notes provide information about the discovery of a dinosaur species named Mansourasaurus by Hesham Sallam and his students in Egypt.\n- The student's goal is to explain the origin of the species\u2019 name.\n\n**Step 2: Analyze Each Answer Choice in Relation to the Notes and Goal**\n\n- **A:** Mansourasaurus, a new species discovered in Egypt in 2013, lived approximately 80 million years ago.\n  - This choice provides information about the species and its time period but does not explain the origin of the name.\n\n- **B:** A partial dinosaur skeleton found in Egypt\u2019s Dakhla Oasis belonged to a species named Mansourasaurus.\n  - This choice states where the skeleton was found and the name of the species but does not explain why it was named Mansourasaurus.\n\n- **C:** Mansourasaurus, a species that lived approximately 80 million years ago, was discovered in 2013 by Egyptian paleontologist Hesham Sallam and a team of university student..."
+        },
+        {
+          "question_number": 19,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the Quanhucun study and its conclusions.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 9.89,
+          "full_response": "To solve the rhetorical synthesis question, we will follow the steps outlined.\n\n### Step 1: Understand the given notes and the student's goal\nThe notes provide information about a 2013 study of cat bone fragments in Quanhucun, China, which were found to be 5,300 years old. The significant finding is that these cats had consumed large amounts of grain, suggesting that they may have been domesticated. The student's goal is to present the Quanhucun study and its conclusions.\n\n### Step 2: Analyze each answer choice in relation to the notes and goal\n- **A:** \"As part of a 2013 study of cat domestication, a chemical analysis was conducted on cat bone fragments found in Quanhucun, China.\"\n  - This choice mentions the study and the chemical analysis but does not explicitly state the conclusion about domestication.\n\n- **B:** \"A 2013 analysis of cat bone fragments found in Quanhucun, China, suggests that cats there may have been domesticated 5,300 years ago.\"\n  - This option clearly states the y..."
+        },
+        {
+          "question_number": 1,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the primary aim of the research study.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 8.53,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes describe a research study led by Yashraj Bhosale that investigates the structural properties of bird nests, specifically their flexibility and cohesiveness. The student's goal is to present the primary aim of this research study.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: \"Bhosale\u2019s team wanted to better understand the mechanics behind bird nests\u2019 uniquely flexible yet cohesive structural properties.\" This directly addresses the primary aim of the research as stated in the notes.\n   - **B**: \"The researchers used laboratory models that simulated the arrangement of flexible sticks and analyzed the points where sticks touched one another.\" This describes the method used but does not capture the primary aim of the research.\n   - **C**: \"After analyzing the points where sticks touched, the researchers found that the structures became stiffer when pressure was applied.\" This describes ..."
+        },
+        {
+          "question_number": 9,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain an advantage of the new platinum catalyst developed by Jianbo Tang and his colleagues.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 9.15,
+          "full_response": "**Step 1: Understand the Given Notes and the Student's Goal**\n\n- **Notes Summary:**\n  - Platinum is rare and expensive.\n  - Traditional platinum catalysts require a large amount of platinum to be effective.\n  - Jianbo Tang and colleagues developed a new platinum catalyst that combines platinum with liquid gallium, requiring only trace amounts (0.0001% of the atoms).\n\n- **Student's Goal:**\n  - Explain an advantage of the new platinum catalyst developed by Jianbo Tang and his colleagues.\n\n  \n\n**Step 2: Analyze Each Answer Choice**\n\n- **A:** Researcher Jianbo Tang and his colleagues created a platinum catalyst that combines platinum, a rare and expensive metal, with liquid gallium.\n  - *Analysis:* This statement describes the catalyst but does not highlight an advantage.\n\n- **B:** Like other platinum catalysts, the new platinum catalyst requires a particular amount of the metal to be effective.\n  - *Analysis:* This statement is misleading as it implies the new catalyst requires a signific..."
+        },
+        {
+          "question_number": 14,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the uniqueness of Taylor\u2019s accomplishment.",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 12.89,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes provide a brief overview of Susie Taylor's life, emphasizing her escape from slavery, her work with an all-Black army regiment during the Civil War, and the publication of her memoir, which is notable for being the only Civil War memoir published by a Black woman. The student's goal is to emphasize the uniqueness of Taylor\u2019s accomplishment.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: This choice mentions Taylor's escape to St. Simons Island and her work for the Union army. While this is a significant part of her story, it does not highlight the uniqueness of her accomplishment as a published author.\n   - **B**: This choice focuses on her work as a nurse and teacher for an all-Black army regiment. Again, while this is important, it does not directly address the uniqueness of her memoir.\n   - **C**: This choice states that her book is still available in print and online. While this i..."
+        },
+        {
+          "question_number": 15,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain how the House of Wisdom preserved the world\u2019s knowledge.",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 10.98,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes provide information about the House of Wisdom, its founding, its purpose of preserving knowledge, the collection of texts from various cultures, and the use of Chinese papermaking technology. The student's goal is to explain how the House of Wisdom preserved the world\u2019s knowledge.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: This choice states that the House of Wisdom brought together knowledge from around the world, including Greece, India, and China. While it captures the essence of the library's purpose, it does not specifically mention the preservation aspect or the method of preservation.\n   - **B**: This choice mentions that the House of Wisdom employed many scholars as translators. While this is true and relates to the preservation of knowledge, it does not encompass the broader actions taken by the House of Wisdom to preserve knowledge.\n   - **C**: This choice specifically m..."
+        },
+        {
+          "question_number": 24,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Introduce the scientist and her field of study to a new audience.",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 8.92,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes provide information about marine biologist Camille Jazmin Gaynus and her focus on coral reefs, which are essential ecosystems supporting a significant portion of marine biodiversity. The student's goal is to introduce Camille and her field of study to a new audience.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: This choice introduces the Amazon Reef but does not mention Camille Jazmin Gaynus or her role as a marine biologist. It focuses solely on the reef itself.\n   - **B**: This option introduces Camille Jazmin Gaynus and her focus on coral reefs, emphasizing their importance as ecosystems. It directly addresses the student's goal of introducing the scientist and her field of study.\n   - **C**: This choice discusses the importance of coral reefs and their biodiversity but does not mention Camille Jazmin Gaynus at all. It focuses on the reefs rather than the scientist.\n   - **D**: T..."
+        },
+        {
+          "question_number": 17,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Present the study\u2019s results.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 7.34,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes describe a study conducted by researchers observing wild macaques in India. The goal of the student is to present the results of this study, specifically focusing on the behavior of macaques towards humans holding food versus those who are empty-handed.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: This choice states that macaques called out to and gestured more frequently at humans holding food than at empty-handed humans. This directly reflects the findings of the study.\n   - **B**: This choice summarizes the background of the researchers and their initial observations but does not present the results of the study.\n   - **C**: This choice discusses the researchers' intentions behind the study but does not provide the actual results.\n   - **D**: This choice describes the scope of the study but does not convey the specific results regarding macaque behavior.\n\n3. **Determine which ans..."
+        },
+        {
+          "question_number": 20,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Identify the setting of Cather\u2019s novel My \u00c1ntonia.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 7.4,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes provide background information about Willa Cather, her upbringing in Nebraska, her education, and the themes of her novels, particularly focusing on the setting of her work. The student's goal is to identify the setting of Cather\u2019s novel \"My \u00c1ntonia.\"\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: \"My \u00c1ntonia is set in Nebraska, where Cather grew up.\" This choice directly addresses the setting of \"My \u00c1ntonia\" and ties it to Cather's background.\n   - **B**: \"Cather, author of My \u00c1ntonia, described the experiences of immigrants in her novels.\" This choice discusses the themes of Cather's work but does not specify the setting of \"My \u00c1ntonia.\"\n   - **C**: \"Among Cather\u2019s best-known novels are O Pioneers! (1913) and My \u00c1ntonia (1918).\" This choice mentions \"My \u00c1ntonia\" but does not provide information about its setting.\n   - **D**: \"Cather attended the University of Nebraska-Lincoln and se..."
+        },
+        {
+          "question_number": 21,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize the thoroughness of Ida Tarbell\u2019s investigation of the Standard Oil Company.",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 7.83,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes provide background on muckrakers, specifically focusing on Ida Tarbell and her investigation of the Standard Oil Company. The student's goal is to emphasize the thoroughness of Tarbell's investigation.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: This choice highlights the comprehensive nature of Tarbell's investigation by mentioning both her interviews and her examination of thousands of pages of internal communications. This aligns well with the goal of emphasizing thoroughness.\n   - **B**: While it provides context about Tarbell being a muckraker and the time period, it does not specifically emphasize the thoroughness of her investigation.\n   - **C**: This choice mentions that Tarbell conducted interviews but does not elaborate on the extent or thoroughness of her investigation, making it less effective in achieving the goal.\n   - **D**: This choice focuses on the outcome of her ..."
+        },
+        {
+          "question_number": 7,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Explain a disadvantage of relying on audio features to predict a song\u2019s popularity.",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 7.92,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes explain that while algorithms based on audio features can predict a song's popularity, they may struggle with songs that have varying acoustic traits. In contrast, algorithms based on descriptive tags (which describe fixed traits like genre) are considered more reliable predictors of popularity. The student's goal is to explain a disadvantage of relying on audio features to predict a song\u2019s popularity.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: This choice states that many algorithms are based on audio features. While this is true, it does not directly address the disadvantage of relying on these features.\n   - **B**: This choice explains that algorithms based on audio features may misidentify the main features of a song with varying acoustic traits, making them less reliable than those based on fixed traits. This directly addresses the disadvantage of relying on audio features.\n ..."
+        },
+        {
+          "question_number": 18,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify the number of gray wolves in Yellowstone.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 9.4,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes indicate that gray wolves were reintroduced to Yellowstone in 1995 and that their population has stabilized at roughly 100 wolves, which is considered the park's carrying capacity. The student's goal is to specify the number of gray wolves in Yellowstone.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: States that gray wolves were reintroduced into Yellowstone in 1995. This is a factual statement but does not specify the current number of gray wolves.\n   - **B**: Claims that as of 1995, there were gray wolves living in Yellowstone. This is also a factual statement but does not provide the current number of wolves.\n   - **C**: Defines carrying capacity and explains it in relation to environments like Yellowstone. While informative, it does not specify the number of gray wolves.\n   - **D**: States that Yellowstone has roughly 100 gray wolves living in it. This directly answers the studen..."
+        },
+        {
+          "question_number": 25,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Provide an explanation and an example of Oliveros\u2019s Sonic Meditations.",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 7.72,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes explain that Sonic Meditations, created by Pauline Oliveros in 1971, are sound-based exercises rather than traditional music. They involve various instructions for participants to engage with sounds in different ways. The student's goal is to provide an explanation of Sonic Meditations along with an example.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: This choice explains that Sonic Meditations consists of instructions and provides an example from Meditation XVIII. It aligns well with the goal.\n   - **B**: This choice gives a general overview of Sonic Meditations and mentions that they consist of instructions. However, it does not provide a specific example, which is a key part of the student's goal.\n   - **C**: This choice provides a specific example from Meditation V, but it lacks a broader explanation of what Sonic Meditations are overall.\n   - **D**: This choice contrasts the t..."
+        },
+        {
+          "question_number": 12,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Specify who may have first populated the Azores, according to the 2015 study.",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 10.92,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes provide information about the historical belief that Portuguese mariners were the first to populate the Azores in the fifteenth century. However, a 2015 study suggests that Vikings may have arrived as early as the ninth century, supported by genetic evidence linking house mice in the Azores to those in Scandinavia. The student's goal is to specify who may have first populated the Azores according to the 2015 study.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: This choice states the long-held belief that the first humans to populate the Azores arrived in the fifteenth century. While it is true, it does not address the findings of the 2015 study, which is what the student is interested in.\n   - **B**: This option suggests that Portuguese mariners may not have been the first humans to populate the Azores. While this aligns with the findings of the 2015 study, it does not specify who th..."
+        },
+        {
+          "question_number": 10,
+          "skill": "Rhetorical Synthesis",
+          "question_text": "Emphasize a difference between the two types of muslin.",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 11.48,
+          "full_response": "1. **Understand the given notes and the student's goal**: The notes provide information about two types of muslin: Dhaka muslin, which is handmade, has an extremely fine weave, and is used for luxury clothing; and sheeting muslin, which is machine-made, has a coarse weave, and is used for upholstering furniture and theater backdrops. The student's goal is to emphasize a difference between these two types of muslin.\n\n2. **Analyze each answer choice in relation to the notes and goal**:\n   - **A**: \"Dhaka muslin is a handmade fabric with an extremely fine weave, while sheeting muslin is machine made with a coarse weave.\" This choice directly contrasts the two types of muslin by highlighting their production methods (handmade vs. machine-made) and their weave quality (fine vs. coarse).\n   - **B**: \"Dhaka muslin and sheeting muslin are two different types of woven cotton fabrics.\" This choice states that they are different types but does not provide any specific differences, thus failing to..."
+        },
+        {
+          "question_number": 55,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 7.77,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses a significant observation made by Santiago Ram\u00f3n y Cajal regarding the structure of brain fibers. His finding indicates that brain fibers have distinct boundaries, which contradicts the previous belief held by scientists.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the passage presents Cajal's finding, while the second part (after the blank) describes the previous assumption made by scientists about the brain being a continuous web of fibers. The relationship here is that Cajal's discovery is in contrast to the earlier belief.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: However,** - This option suggests a contrast between Cajal's findings and the previous assumptions. It indicates that Cajal's observation contradicts what was previously believed.\n   - **B: Previously,** - This option indicat..."
+        },
+        {
+          "question_number": 38,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 11.01,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses Linda Watanabe McFerrin, a travel writer, and her perspective on the research she does for her travel books. It suggests that she finds the research phase rewarding and equally interesting as visiting the destinations.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the passage indicates that McFerrin values the research she conducts. The sentence following the blank emphasizes that she finds the research phase just as captivating as the actual exploration of the locations. This indicates a positive correlation between her feelings about research and exploration.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: By contrast** - This suggests a difference or opposition, which does not fit since both sentences express a positive view of research.\n   - **B: Likewise** - This indicates similarity or agree..."
+        },
+        {
+          "question_number": 42,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 9.41,
+          "full_response": "**1. Understand the context and meaning of the passage**\n\nThe passage discusses the timeline of human migration into the Americas. It mentions the long-held belief that humans crossed a land bridge around 13,000 years ago, and then introduces new research suggesting an earlier arrival of over 30,000 years ago based on radiocarbon dating.\n\n  \n\n**2. Identify the relationship between the sentences before and after the blank**\n\n- The first part of the passage presents a widely accepted idea about human migration.\n- The second part introduces new evidence that contradicts this idea, suggesting that humans arrived much earlier than previously thought.\n\n  \n\n**3. Consider each transition option and how it affects the flow and logic of the passage**\n\n- **A: As a result,** - This implies a cause-and-effect relationship, suggesting that the new evidence is a direct consequence of the earlier belief, which does not fit the context.\n\n- **B: Similarly,** - This indicates a comparison or similarity b..."
+        },
+        {
+          "question_number": 35,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 11.28,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses Sim\u00f3n Bol\u00edvar's letter written in 1815, where he praises England's republican government and expresses hope for Latin American independence. The blank indicates a transition to Bol\u00edvar's underlying goal of persuading political leaders in England and Europe to support his cause.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the sentence describes Bol\u00edvar's admiration for England's government and his hopes for Latin America. The second part indicates that he had a specific goal in mind, which is to persuade political leaders. The transition should connect these two ideas logically.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: additionally** - This suggests that Bol\u00edvar's admiration for England's government is an extra point, but it doesn't emphasize the goal of persuasion effectively.\n   - **B: u..."
+        },
+        {
+          "question_number": 31,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 11.86,
+          "full_response": "**Step 1: Understand the context and meaning of the passage**\n\n- The passage discusses Samuel Coleridge-Taylor, a classical music composer with a mixed-race background.\n- It highlights his pride in his ancestry and mentions that he incorporated traditional African music into his classical compositions.\n\n**Step 2: Identify the relationship between the sentences before and after the blank**\n\n- The first part of the passage indicates Coleridge-Taylor's mixed-race identity and his pride in it.\n- The sentence following the blank states that he incorporated traditional African music into his compositions, suggesting a connection between his identity and his musical style.\n\n**Step 3: Consider each transition option and how it affects the flow and logic of the passage**\n\n- **A: In addition,** \n  - This implies that the incorporation of African music is an additional point related to his identity.\n  \n- **B: Actually,** \n  - This suggests a clarification or correction, which does not fit the con..."
+        },
+        {
+          "question_number": 56,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 10.47,
+          "full_response": "1. **Understanding the context and meaning of the passage**: The passage discusses Okot p\u2019Bitek\u2019s poem \"Song of Lawino,\" highlighting its impact on East African literature and specifically mentioning that those who adopted its style are referred to as \"Okot School poets.\" The passage suggests a connection between the poem's influence and the emergence of a group of poets.\n\n2. **Identifying the relationship between the sentences before and after the blank**: The first part of the passage describes the poem's characteristics and its inspirational role. The second part states that those who adopted its style are known as Okot School poets. This indicates a cause-and-effect relationship where the poem's influence leads to the formation of a group of poets.\n\n3. **Considering each transition option**:\n   - **A: Nevertheless**: This implies a contrast or contradiction, which does not fit the context since the second sentence is a continuation of the thought about the poem's influence.\n   - **..."
+        },
+        {
+          "question_number": 43,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 11.27,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses the discovery of hull pieces off the Oregon coast, believed to be from a Spanish cargo ship lost in 1697. It mentions that stories from the Confederated Tribes of Siletz Indians support this belief, specifically mentioning the washing ashore of beeswax blocks that the ship was carrying.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the passage establishes a connection between the researchers' belief and the Siletz stories. The sentence after the blank provides a specific example of how these stories support the researchers' belief, specifically mentioning the beeswax.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: For this reason,** - This suggests a cause-and-effect relationship, implying the stories are a direct result of the researchers' belief. This does not fit well since the stories are not..."
+        },
+        {
+          "question_number": 54,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 8.47,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses the perspective of Nassim Nicholas Taleb regarding the prediction of how long nonperishable entities will last. He suggests that the best predictor of longevity is the age of the entity itself.\n\n2. **Identify the relationship between the sentences before and after the blank**: The passage states that an item\u2019s age is the strongest something regarding how much longer it will last. The blank requires a word or phrase that logically connects the concept of age with its predictive power about future longevity.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: uncertainty about** - This does not fit logically because age does not create uncertainty; rather, it provides information.\n   - **B: indicator of** - This fits well because it suggests that age serves as a sign or measure of how much longer the entity might last.\n   - **C: motivation for** - This does ..."
+        },
+        {
+          "question_number": 64,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 7.99,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses Jhumpa Lahiri\u2019s story collection \"Interpreter of Maladies,\" specifically mentioning two stories: \"This Blessed House,\" which involves a conflict between newlyweds over the previous owners' belongings, and \"A Temporary Matter,\" where a couple tries to reconnect during a blackout. The blank needs a transition that logically connects the two stories in terms of their themes or situations.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the passage describes a conflict in a newlywed couple's relationship, while the second part discusses an attempt to rekindle a relationship during a challenging situation (the blackout). Both stories involve couples navigating difficulties in their relationships, but they do so in different contexts.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: Granted,** - This sugge..."
+        },
+        {
+          "question_number": 57,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 7.39,
+          "full_response": "**1. Understand the context and meaning of the passage**\n\nThe passage discusses the system of postage before the introduction of the US postage stamp in 1847. It highlights that the recipient, rather than the sender, typically paid for postage, which led to complications in mail delivery when recipients were unable or unwilling to pay.\n\n**2. Identify the relationship between the sentences before and after the blank**\n\n- The first part of the passage indicates that collecting postage fees from recipients was problematic.\n- The second part mentions that this issue resulted in a backlog of undeliverable mail in post offices.\n\n**3. Consider each transition option and how it affects the flow and logic of the passage**\n\n- **A: Regardless,** \n  - This suggests that the situation is unaffected by previous statements, which does not logically connect the ideas.\n\n- **B: On the contrary,** \n  - This implies a contradiction to the previous statement, which is not the case here.\n\n- **C: Consequentl..."
+        },
+        {
+          "question_number": 46,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 8.56,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses how the dodder plant, a parasitic plant, increases its reproductive success by flowering simultaneously with its host plant. This synchronization is achieved by the dodder absorbing a specific protein from the host that signals when the host is about to flower.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the sentence indicates that the dodder plant has a strategy for increasing reproductive success, and the second part explains how it achieves this by utilizing a protein from the host plant. The blank needs to be filled with a word that logically connects these two ideas.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: synchronization**: This word means to occur at the same time or to coordinate timing. It fits perfectly with the idea of the dodder flowering at the same time as its host.\n   - **..."
+        },
+        {
+          "question_number": 37,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 10.88,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses the concerns of some US Supreme Court justices regarding the potential negative effects of televising court proceedings. They fear that participants might act differently in front of cameras, which could degrade the quality of discussions. The blank is followed by a statement about the justices' worries regarding how viewers would engage with the televised content.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the passage presents the justices' concerns about the quality of discourse being affected by the presence of cameras. The sentence after the blank elaborates on this concern, specifically mentioning that the justices worry about viewers not engaging with the full deliberations, leading to potential misinterpretations. This indicates a continuation of the same line of thought regarding the negative implications of televising the court.\n\n3. **Consi..."
+        },
+        {
+          "question_number": 33,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 8.66,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses a debate in biogeography between two groups: dispersalists, who believe that dispersal is the key factor in species distribution, and vicariancists, who argue that geographic barriers (vicariance) are more important. The passage then introduces Isabel Sanmart\u00edn, who does not align with either group.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the passage presents two opposing views regarding species distribution. The second part introduces Isabel Sanmart\u00edn, indicating that she does not belong to either camp. The blank needs a transition that reflects this contrast or distinction.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: Furthermore** - This suggests an addition to the previous statement, which does not fit since Sanmart\u00edn is not adding to the debate but rather distancing herself from it.\n..."
+        },
+        {
+          "question_number": 39,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 8.53,
+          "full_response": "**Step 1: Understand the context and meaning of the passage**\n\nThe passage discusses a significant observation made by Santiago Ram\u00f3n y Cajal regarding the structure of brain fibers. It highlights a shift in understanding from a previous belief about the brain's structure.\n\n**Step 2: Identify the relationship between the sentences before and after the blank**\n\n- The first part of the passage states that Cajal observed distinct boundaries in brain fibers.\n- The blank is followed by a statement about earlier assumptions regarding the brain being a continuous web of fibers.\n\nThis indicates that the sentence after the blank is providing context for the previous statement, contrasting Cajal's findings with the earlier beliefs.\n\n**Step 3: Consider each transition option and how it affects the flow and logic of the passage**\n\n- **A: However,** \n  - This implies a contrast between Cajal's findings and the previous assumptions, which fits the context well.\n  \n- **B: Previously,** \n  - This sugg..."
+        },
+        {
+          "question_number": 60,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 10.44,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses the significance of Tyrian purple dye to the Phoenicians and suggests that the name 'Phoenicia' may relate to this dye, implying a connection between the dye and the identity of the civilization.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the passage establishes the importance of Tyrian purple to the Phoenicians. The blank is followed by a statement about the name 'Phoenicia' possibly meaning 'land of purple,' which indicates a direct relationship to the previous sentence about the dye.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: In fact,** - This option suggests that the statement about the name 'Phoenicia' is a supporting fact that reinforces the previous statement about the dye's significance. This creates a logical flow.\n   - **B: Regardless,** - This implies that the following statemen..."
+        },
+        {
+          "question_number": 32,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 9.13,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses Rita Dove's poetry collection \"Thomas and Beulah,\" highlighting how she connects the personal stories of the characters Thomas and Beulah with significant historical events. It specifically mentions Thomas's journey in the context of the Great Migration and indicates that Beulah's experiences are set against the backdrop of the Civil Rights Movement.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the passage describes Thomas's journey and its historical context. The second part, which follows the blank, discusses Beulah's personal life in relation to the Civil Rights Movement. The relationship here is that both characters' stories are intertwined with important historical events, suggesting a parallel or similar thematic connection.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: Specifically** - T..."
+        },
+        {
+          "question_number": 58,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 12.0,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses a potter's considerations when choosing clay, focusing on the aesthetic and functional aspects of different types of clay. It specifically mentions earthenware clay, which is noted for its rustic appearance and is primarily used for decorative purposes rather than industrial applications due to its lower durability.\n\n2. **Identify the relationship between the sentences before and after the blank**: The sentence before the blank introduces earthenware clay and its common use for decorative pieces. The sentence after the blank explains why earthenware clay is not suitable for industrial settings. This indicates a contrast between the decorative use of earthenware clay and its limitations in durability for practical applications.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: In other words,** - This phrase typically restates or clarifies a previous stat..."
+        },
+        {
+          "question_number": 34,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 8.86,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses the discovery of exoplanets, specifically focusing on KELT-9b, which orbits a B-type star. It contrasts this with the general trend that most discovered exoplanets orbit G-type stars, like our Sun.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the passage indicates that most exoplanets orbit G-type stars, which sets a general expectation. The second part introduces a specific case where researchers found a planet orbiting a different type of star (B-type), which is an exception to the general trend mentioned.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: likewise** - This suggests similarity, which does not fit because KELT-9b orbits a different type of star than most exoplanets.\n   - **B: however** - This indicates a contrast or exception to the previous statement, which aligns with the idea th..."
+        },
+        {
+          "question_number": 53,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 12.01,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses the surprising discovery of a carved wooden figure that dates back 2,000 years. It highlights that wooden objects typically do not survive for long periods due to their tendency to rot. However, in this case, the figure was preserved because of the conditions in which it was found.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the sentence states that wooden objects \"______blank survive for so long due to their high susceptibility to rot.\" The second part explains that the figure was preserved because of the oxygen-free environment created by sediment. This indicates that the blank should logically convey that wooden objects do not survive for long periods.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - A: sturdily - This does not fit because it implies strength and durability, which contradicts the i..."
+        },
+        {
+          "question_number": 61,
+          "skill": "Transitions",
+          "question_text": "Transitions question",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 9.47,
+          "full_response": "1. **Understand the context and meaning of the passage**: The passage discusses the Nazca lines in Peru and mentions that archaeologists have been studying these markings since their discovery in the 1920s. The blank suggests a continuation of this thought, specifically about how modern technology, like drones, aids in the study of these lines.\n\n2. **Identify the relationship between the sentences before and after the blank**: The first part of the passage indicates a historical context of studying the Nazca lines, while the second part introduces a modern advancement (drones) that enhances the study of these lines. The relationship is one of progression from traditional methods to modern technology.\n\n3. **Consider each transition option and how it affects the flow and logic of the passage**:\n   - **A: Currently,** - This suggests a present situation that aligns with the idea of modern technology being used now.\n   - **B: In comparison,** - This implies a comparison between two differe..."
+        }
+      ]
+    }
+  }
+}

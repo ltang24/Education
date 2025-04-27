@@ -1,0 +1,2065 @@
+{
+  "gpt-4": {
+    "zero-shot": {
+      "total": 55,
+      "correct": 39,
+      "accuracy": 0.7090909090909091,
+      "by_skill": {
+        "Cross-Text Connections": {
+          "total": 20,
+          "correct": 11,
+          "accuracy": 0.55,
+          "by_difficulty": {
+            "Medium": {
+              "total": 5,
+              "correct": 2,
+              "accuracy": 0.4
+            },
+            "Easy": {
+              "total": 6,
+              "correct": 4,
+              "accuracy": 0.6666666666666666
+            },
+            "Hard": {
+              "total": 9,
+              "correct": 5,
+              "accuracy": 0.5555555555555556
+            }
+          }
+        },
+        "Text Structure and Purpose": {
+          "total": 16,
+          "correct": 9,
+          "accuracy": 0.5625,
+          "by_difficulty": {
+            "Medium": {
+              "total": 5,
+              "correct": 2,
+              "accuracy": 0.4
+            },
+            "Hard": {
+              "total": 4,
+              "correct": 3,
+              "accuracy": 0.75
+            },
+            "Easy": {
+              "total": 7,
+              "correct": 4,
+              "accuracy": 0.5714285714285714
+            }
+          }
+        },
+        "Words in Context": {
+          "total": 19,
+          "correct": 19,
+          "accuracy": 1.0,
+          "by_difficulty": {
+            "Medium": {
+              "total": 19,
+              "correct": 19,
+              "accuracy": 1.0
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 29,
+          "correct": 23,
+          "accuracy": 0.7931034482758621
+        },
+        "Easy": {
+          "total": 13,
+          "correct": 8,
+          "accuracy": 0.6153846153846154
+        },
+        "Hard": {
+          "total": 13,
+          "correct": 8,
+          "accuracy": 0.6153846153846154
+        }
+      },
+      "details": [
+        {
+          "question_number": 33,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the claims of the author of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 1.87,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 18,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 23.29,
+          "full_response": "D"
+        },
+        {
+          "question_number": 32,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined claim in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 5.99,
+          "full_response": "D"
+        },
+        {
+          "question_number": 42,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Behrenfeld and colleagues (Text 2) most likely respond to the 'conventional wisdom' discussed in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 23.14,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 3,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the assertion in the underlined portion of Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 3.46,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 4,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Chris Brierley (Text 2) most likely respond to the discussion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.16,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 39,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the two texts, how would the author of Text 1 most likely regard the situation presented in the underlined sentence in Text 2?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 3.59,
+          "full_response": "B"
+        },
+        {
+          "question_number": 40,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 6.04,
+          "full_response": "A"
+        },
+        {
+          "question_number": 10,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Putirka and Xu (Text 2) most likely characterize the conclusion presented in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 21.5,
+          "full_response": "C"
+        },
+        {
+          "question_number": 1,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 6.02,
+          "full_response": "A"
+        },
+        {
+          "question_number": 7,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, Fierer\u2019s team and the author of Text 2 would most likely agree with which statement about microbes?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 3.67,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 35,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined portion of Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.22,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 15,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the underlined portion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 20.57,
+          "full_response": "C"
+        },
+        {
+          "question_number": 22,
+          "skill": "Cross-Text Connections",
+          "question_text": "Which choice best describes a difference in how the author of Text 1 and the author of Text 2 view the evidence for the formation of the moon?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 22.57,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 2,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Singh and Roy (Text 2) most likely respond to the research discussed in Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 1.01,
+          "full_response": "C"
+        },
+        {
+          "question_number": 6,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 6.06,
+          "full_response": "B"
+        },
+        {
+          "question_number": 36,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Dubey and colleagues (Text 2) most likely respond to the consensus view discussed in Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.09,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 45,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the conclusion presented in the underlined portion of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 31,
+          "skill": "Cross-Text Connections",
+          "question_text": "Which choice best describes a difference in how the authors of Text 1 and Text 2 view Barbara Tuchman\u2019s The Guns of August?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 25.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 5,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, if Ishii and O\u2019Mahony (Text 1) and J\u00fcnger et al. (Text 2) were aware of the findings of both experiments, they would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 22.86,
+          "full_response": "D"
+        },
+        {
+          "question_number": 60,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined phrase in the text as a whole?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 6.01,
+          "full_response": "A"
+        },
+        {
+          "question_number": 83,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 6.05,
+          "full_response": "C"
+        },
+        {
+          "question_number": 82,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.03,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 76,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall purpose of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 5.0,
+          "full_response": "D"
+        },
+        {
+          "question_number": 98,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined question in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.16,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 54,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the function of the underlined portion in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 5.75,
+          "full_response": "D"
+        },
+        {
+          "question_number": 102,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 6.0,
+          "full_response": "B"
+        },
+        {
+          "question_number": 81,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states how the researchers in the 2021 study explained the discrepancy between the fossil record and eDNA evidence?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 24.38,
+          "full_response": "A"
+        },
+        {
+          "question_number": 103,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 3.52,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 87,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 2.42,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 71,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.77,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 53,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.0,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 58,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 10.28,
+          "full_response": "B"
+        },
+        {
+          "question_number": 99,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 11.77,
+          "full_response": "D"
+        },
+        {
+          "question_number": 84,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 21.0,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 93,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 30.08,
+          "full_response": "B"
+        },
+        {
+          "question_number": 206,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 12.25,
+          "full_response": "A"
+        },
+        {
+          "question_number": 187,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 3.54,
+          "full_response": "A"
+        },
+        {
+          "question_number": 141,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 2.08,
+          "full_response": "C"
+        },
+        {
+          "question_number": 177,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 12.15,
+          "full_response": "B"
+        },
+        {
+          "question_number": 180,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the word 'endure' most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 36.23,
+          "full_response": "C"
+        },
+        {
+          "question_number": 133,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 3.53,
+          "full_response": "A"
+        },
+        {
+          "question_number": 122,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 32.59,
+          "full_response": "B"
+        },
+        {
+          "question_number": 166,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 5.81,
+          "full_response": "A"
+        },
+        {
+          "question_number": 192,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase describing what OSIRIS-REx did?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 4.99,
+          "full_response": "B"
+        },
+        {
+          "question_number": 144,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 39.6,
+          "full_response": "A"
+        },
+        {
+          "question_number": 138,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the word \u201ccontracted\u201d most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 36.35,
+          "full_response": "C"
+        },
+        {
+          "question_number": 140,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 3.74,
+          "full_response": "A"
+        },
+        {
+          "question_number": 162,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.67,
+          "full_response": "A"
+        },
+        {
+          "question_number": 151,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 12.62,
+          "full_response": "D"
+        },
+        {
+          "question_number": 210,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 18.17,
+          "full_response": "C"
+        },
+        {
+          "question_number": 200,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 17.76,
+          "full_response": "B"
+        },
+        {
+          "question_number": 173,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 23.04,
+          "full_response": "A"
+        },
+        {
+          "question_number": 128,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 16.3,
+          "full_response": "B"
+        },
+        {
+          "question_number": 183,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 14.67,
+          "full_response": "B"
+        }
+      ]
+    },
+    "five-shot": {
+      "total": 55,
+      "correct": 55,
+      "accuracy": 1.0,
+      "by_skill": {
+        "Cross-Text Connections": {
+          "total": 20,
+          "correct": 20,
+          "accuracy": 1.0,
+          "by_difficulty": {
+            "Medium": {
+              "total": 5,
+              "correct": 5,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 9,
+              "correct": 9,
+              "accuracy": 1.0
+            }
+          }
+        },
+        "Text Structure and Purpose": {
+          "total": 16,
+          "correct": 16,
+          "accuracy": 1.0,
+          "by_difficulty": {
+            "Medium": {
+              "total": 5,
+              "correct": 5,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 4,
+              "correct": 4,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 7,
+              "correct": 7,
+              "accuracy": 1.0
+            }
+          }
+        },
+        "Words in Context": {
+          "total": 19,
+          "correct": 19,
+          "accuracy": 1.0,
+          "by_difficulty": {
+            "Medium": {
+              "total": 19,
+              "correct": 19,
+              "accuracy": 1.0
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 29,
+          "correct": 29,
+          "accuracy": 1.0
+        },
+        "Easy": {
+          "total": 13,
+          "correct": 13,
+          "accuracy": 1.0
+        },
+        "Hard": {
+          "total": 13,
+          "correct": 13,
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "question_number": 33,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the claims of the author of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 36.19,
+          "full_response": "C"
+        },
+        {
+          "question_number": 18,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 18.02,
+          "full_response": "D"
+        },
+        {
+          "question_number": 32,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined claim in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 17.95,
+          "full_response": "D"
+        },
+        {
+          "question_number": 42,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Behrenfeld and colleagues (Text 2) most likely respond to the 'conventional wisdom' discussed in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 18.02,
+          "full_response": "A"
+        },
+        {
+          "question_number": 3,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the assertion in the underlined portion of Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 36.09,
+          "full_response": "D"
+        },
+        {
+          "question_number": 4,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Chris Brierley (Text 2) most likely respond to the discussion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 35.9,
+          "full_response": "A"
+        },
+        {
+          "question_number": 39,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the two texts, how would the author of Text 1 most likely regard the situation presented in the underlined sentence in Text 2?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 36.01,
+          "full_response": "B"
+        },
+        {
+          "question_number": 40,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 18.0,
+          "full_response": "A"
+        },
+        {
+          "question_number": 10,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Putirka and Xu (Text 2) most likely characterize the conclusion presented in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 17.99,
+          "full_response": "C"
+        },
+        {
+          "question_number": 1,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 30.0,
+          "full_response": "A"
+        },
+        {
+          "question_number": 7,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, Fierer\u2019s team and the author of Text 2 would most likely agree with which statement about microbes?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 35.83,
+          "full_response": "D"
+        },
+        {
+          "question_number": 35,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined portion of Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 18.19,
+          "full_response": "D"
+        },
+        {
+          "question_number": 15,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the underlined portion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 30.79,
+          "full_response": "C"
+        },
+        {
+          "question_number": 22,
+          "skill": "Cross-Text Connections",
+          "question_text": "Which choice best describes a difference in how the author of Text 1 and the author of Text 2 view the evidence for the formation of the moon?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 36.93,
+          "full_response": "D"
+        },
+        {
+          "question_number": 2,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Singh and Roy (Text 2) most likely respond to the research discussed in Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 35.67,
+          "full_response": "C"
+        },
+        {
+          "question_number": 6,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 18.09,
+          "full_response": "B"
+        },
+        {
+          "question_number": 36,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Dubey and colleagues (Text 2) most likely respond to the consensus view discussed in Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 29.91,
+          "full_response": "A"
+        },
+        {
+          "question_number": 45,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the conclusion presented in the underlined portion of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 42.11,
+          "full_response": "A"
+        },
+        {
+          "question_number": 31,
+          "skill": "Cross-Text Connections",
+          "question_text": "Which choice best describes a difference in how the authors of Text 1 and Text 2 view Barbara Tuchman\u2019s The Guns of August?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 41.83,
+          "full_response": "B"
+        },
+        {
+          "question_number": 5,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, if Ishii and O\u2019Mahony (Text 1) and J\u00fcnger et al. (Text 2) were aware of the findings of both experiments, they would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 18.2,
+          "full_response": "D"
+        },
+        {
+          "question_number": 60,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined phrase in the text as a whole?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 21.22,
+          "full_response": "A"
+        },
+        {
+          "question_number": 83,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 26.75,
+          "full_response": "C"
+        },
+        {
+          "question_number": 82,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 23.42,
+          "full_response": "D"
+        },
+        {
+          "question_number": 76,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall purpose of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 24.51,
+          "full_response": "D"
+        },
+        {
+          "question_number": 98,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined question in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 2.4,
+          "full_response": "A"
+        },
+        {
+          "question_number": 54,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the function of the underlined portion in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.66,
+          "full_response": "D"
+        },
+        {
+          "question_number": 102,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 2.15,
+          "full_response": "B"
+        },
+        {
+          "question_number": 81,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states how the researchers in the 2021 study explained the discrepancy between the fossil record and eDNA evidence?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 53.74,
+          "full_response": "A"
+        },
+        {
+          "question_number": 103,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 41.97,
+          "full_response": "D"
+        },
+        {
+          "question_number": 87,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 29.19,
+          "full_response": "D"
+        },
+        {
+          "question_number": 71,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 23.65,
+          "full_response": "A"
+        },
+        {
+          "question_number": 53,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 23.65,
+          "full_response": "B"
+        },
+        {
+          "question_number": 58,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 4.33,
+          "full_response": "B"
+        },
+        {
+          "question_number": 99,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 56.27,
+          "full_response": "D"
+        },
+        {
+          "question_number": 84,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 36.02,
+          "full_response": "B"
+        },
+        {
+          "question_number": 93,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 3.75,
+          "full_response": "B"
+        },
+        {
+          "question_number": 206,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 32.21,
+          "full_response": "A"
+        },
+        {
+          "question_number": 187,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 60.03,
+          "full_response": "A"
+        },
+        {
+          "question_number": 141,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 41.84,
+          "full_response": "C"
+        },
+        {
+          "question_number": 177,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 22.53,
+          "full_response": "B"
+        },
+        {
+          "question_number": 180,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the word 'endure' most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 1.22,
+          "full_response": "C"
+        },
+        {
+          "question_number": 133,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 36.53,
+          "full_response": "A"
+        },
+        {
+          "question_number": 122,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 35.79,
+          "full_response": "B"
+        },
+        {
+          "question_number": 166,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 42.13,
+          "full_response": "A"
+        },
+        {
+          "question_number": 192,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase describing what OSIRIS-REx did?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 29.95,
+          "full_response": "B"
+        },
+        {
+          "question_number": 144,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 26.66,
+          "full_response": "A"
+        },
+        {
+          "question_number": 138,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the word \u201ccontracted\u201d most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 33.32,
+          "full_response": "C"
+        },
+        {
+          "question_number": 140,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 53.86,
+          "full_response": "A"
+        },
+        {
+          "question_number": 162,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 2.5,
+          "full_response": "A"
+        },
+        {
+          "question_number": 151,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.45,
+          "full_response": "D"
+        },
+        {
+          "question_number": 210,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 1.52,
+          "full_response": "C"
+        },
+        {
+          "question_number": 200,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 36.53,
+          "full_response": "B"
+        },
+        {
+          "question_number": 173,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 42.12,
+          "full_response": "A"
+        },
+        {
+          "question_number": 128,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 54.05,
+          "full_response": "B"
+        },
+        {
+          "question_number": 183,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 2.65,
+          "full_response": "B"
+        }
+      ]
+    },
+    "chain-of-thought": {
+      "total": 55,
+      "correct": 32,
+      "accuracy": 0.5818181818181818,
+      "by_skill": {
+        "Cross-Text Connections": {
+          "total": 20,
+          "correct": 12,
+          "accuracy": 0.6,
+          "by_difficulty": {
+            "Medium": {
+              "total": 5,
+              "correct": 3,
+              "accuracy": 0.6
+            },
+            "Easy": {
+              "total": 6,
+              "correct": 4,
+              "accuracy": 0.6666666666666666
+            },
+            "Hard": {
+              "total": 9,
+              "correct": 5,
+              "accuracy": 0.5555555555555556
+            }
+          }
+        },
+        "Text Structure and Purpose": {
+          "total": 16,
+          "correct": 9,
+          "accuracy": 0.5625,
+          "by_difficulty": {
+            "Medium": {
+              "total": 5,
+              "correct": 2,
+              "accuracy": 0.4
+            },
+            "Hard": {
+              "total": 4,
+              "correct": 3,
+              "accuracy": 0.75
+            },
+            "Easy": {
+              "total": 7,
+              "correct": 4,
+              "accuracy": 0.5714285714285714
+            }
+          }
+        },
+        "Words in Context": {
+          "total": 19,
+          "correct": 11,
+          "accuracy": 0.5789473684210527,
+          "by_difficulty": {
+            "Medium": {
+              "total": 19,
+              "correct": 11,
+              "accuracy": 0.5789473684210527
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 29,
+          "correct": 16,
+          "accuracy": 0.5517241379310345
+        },
+        "Easy": {
+          "total": 13,
+          "correct": 8,
+          "accuracy": 0.6153846153846154
+        },
+        "Hard": {
+          "total": 13,
+          "correct": 8,
+          "accuracy": 0.6153846153846154
+        }
+      },
+      "details": [
+        {
+          "question_number": 33,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the claims of the author of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 56.87,
+          "full_response": "Let's carefully work through the problem step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks: *How would the author of Text 2 most likely respond to the claims of the author of Text 1?*  \nWe need to compare the viewpoints in both texts and determine which option best reflects the response from Text 2's perspective to the criticism or claims made in Text 1.\n\n---\n\n### 2. Analyze key information from Text 1\n- Digital art \"isn't really art at all.\"\n- It \"doesn't require as much skill as creating physical art.\"\n- Painting with a tablet and stylus is \"much easier\" than using paint and brush.\n- The technology \"is doing most of the work.\"\n\n**Summary:** Text 1 dismisses digital art as less skillful and easier, implying it is inferior or less legitimate than traditional art.\n\n---\n\n### 3. Analyze key information from Text 2\n- Painting programs involve more than just pressing buttons.\n- Digital artists need to know fundamentals of art and be familiar with sophisticated s..."
+        },
+        {
+          "question_number": 18,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 43.2,
+          "full_response": "Let's break this down step by step:\n\n### Step 1: Understand what the question is asking\nThe question asks for a statement with which both authors (from Text 1 and Text 2) would most likely agree. To answer this, we need to identify a common point between the two texts. \n\n### Step 2: Analyze key information from Text 1\n- Sybil Ludington is celebrated for her 40-mile ride to rally local militia during the American Revolution.\n- She is portrayed as a hero of the American Revolution, and her story has inspired stamps, statues, and TV series.\n- The text highlights her bravery and widespread admiration.\n\n### Step 3: Analyze key information from Text 2\n- Historian Paula D. Hunt conducted research and found no evidence of Sybil Ludington\u2019s famous ride.\n- Hunt suggests that many of the stories about Ludington may have been fabricated or exaggerated over time.\n- The text does not dispute Ludington\u2019s existence, but it casts doubt on the specifics of her heroic ride.\n\n### Step 4: Identify connecti..."
+        },
+        {
+          "question_number": 32,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined claim in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.13,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 42,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Behrenfeld and colleagues (Text 2) most likely respond to the 'conventional wisdom' discussed in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 52.14,
+          "full_response": "Let's carefully work through the problem step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how Behrenfeld and colleagues (Text 2) would most likely respond to the \"conventional wisdom\" described in Text 1. The \"conventional wisdom\" is that among competing phytoplankton species, one species should outcompete the others, leading to fewer species coexisting. The question wants us to infer Behrenfeld's stance or critique of this conventional wisdom based on the information in Text 2.\n\n### 2. Analyze key information from Text 1\n- Ecologists have been puzzled by how thousands of phytoplankton species coexist despite competing for the same resources.\n- Conventional wisdom suggests that competition should lead to one species dominating.\n- Attempts to explain this coexistence have been unsatisfactory.\n\n### 3. Analyze key information from Text 2\n- Behrenfeld and colleagues link phytoplankton diversity to their microscopic size.\n- Because they are tiny, they are space..."
+        },
+        {
+          "question_number": 3,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the assertion in the underlined portion of Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.87,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 4,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Chris Brierley (Text 2) most likely respond to the discussion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 27.88,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 39,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the two texts, how would the author of Text 1 most likely regard the situation presented in the underlined sentence in Text 2?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 60.73,
+          "full_response": "Let's carefully work through the problem step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks: How would the author of Text 1 most likely regard the situation described in the underlined sentence in Text 2? The underlined sentence in Text 2 says that Edna Lewis's cookbook, despite its literary value, has received almost no attention from literary scholars.\n\nSo, the question is about the perspective of the author of Text 1 on the lack of scholarly attention to a well-written, regionally focused cookbook like Lewis\u2019s.\n\n---\n\n### 2. Analyze key information from Text 1\n- Food writing is widely read but neglected by literary scholars.\n- Cookbooks receive the least scholarly attention within food writing.\n- Regional US cuisines, despite their complexity and historical significance, are often overlooked.\n- The tone suggests this neglect is a known pattern or problem.\n\n---\n\n### 3. Analyze key information from Text 2\n- Edna Lewis\u2019s 1976 cookbook is a refined Southern co..."
+        },
+        {
+          "question_number": 40,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 35.07,
+          "full_response": "Let's go through the problem step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks: Based on the two texts, which statement would both authors most likely agree with? So, we need to find a statement that aligns with the views or information provided in both Text 1 and Text 2.\n\n### 2. Analyze key information from Text 1\n- Some animals like leopards live in many kinds of areas.\n- Tropical mountain bird species tend to be limited in the types of spaces they live in.\n- This limitation is because many mountain birds survive only at very specific elevations.\n- They have adapted to specific temperatures, so they struggle outside those temperature ranges.\n\n### 3. Analyze key information from Text 2\n- A study reviewed observations of nearly 3,000 bird species.\n- It found that tropical mountain birds living in areas with many other bird species tend to inhabit smaller geographic areas.\n- The study suggests that competition for resources, not temperature, limits where the..."
+        },
+        {
+          "question_number": 10,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Putirka and Xu (Text 2) most likely characterize the conclusion presented in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.2,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 1,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 43.1,
+          "full_response": "Let's carefully work through the problem step-by-step.\n\n---\n\n### 1. Understand what the question is asking\n\nThe question asks: Based on the two texts, what statement would **both** Sykes (Text 1) and the scholars (Text 2) most likely agree with?\n\nSo, we need to find a statement that aligns with the views expressed in both texts.\n\n---\n\n### 2. Analyze key information from Text 1\n\n- Sykes disputes that Shakespeare coauthored *The Two Noble Kinsmen* with Fletcher.\n- Sykes believes Fletcher\u2019s contributions are obvious because Fletcher has a distinct style.\n- Sykes uses the distinctiveness of Fletcher\u2019s style as evidence for Fletcher\u2019s authorship.\n- For the parts not by Fletcher, Sykes thinks the depiction of women points to Philip Massinger, not Shakespeare.\n\nKey takeaway: Sykes believes Fletcher\u2019s style is distinct and identifiable.\n\n---\n\n### 3. Analyze key information from Text 2\n\n- Since the 1970s, scholars accept *The Two Noble Kinsmen* as coauthored by Shakespeare and Fletcher.\n- Schol..."
+        },
+        {
+          "question_number": 7,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, Fierer\u2019s team and the author of Text 2 would most likely agree with which statement about microbes?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.17,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 35,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined portion of Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.21,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 15,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the underlined portion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 23.77,
+          "full_response": "Let's work through the problem step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how the researchers in Text 2 would most likely respond to the underlined portion in Text 1. The underlined portion says:  \n*\"...assigning an age to the fossils is challenging because of the unreliability of dating methods in this context.\"*\n\nSo, the question is about the researchers' reaction or counterpoint to the claim that dating the fossils is difficult and unreliable due to geological complications.\n\n---\n\n### 2. Analyze key information from Text 1\n- Fossils of *Australopithecus africanus* found in Sterkfontein Caves.\n- Assigning age to these fossils is challenging.\n- Reasons for difficulty:\n  - Soil layers from different periods are mixed, making stratigraphic dating unreliable.\n  - Dates cannot be reliably inferred from nearby animal bones because flooding may have relocated bones.\n  \nThe main point: traditional dating methods (stratigraphy, associated bones) are unrelia..."
+        },
+        {
+          "question_number": 22,
+          "skill": "Cross-Text Connections",
+          "question_text": "Which choice best describes a difference in how the author of Text 1 and the author of Text 2 view the evidence for the formation of the moon?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.26,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 2,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Singh and Roy (Text 2) most likely respond to the research discussed in Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 35.13,
+          "full_response": "Let's work through the problem step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how Singh and Roy (Text 2) would most likely respond to the research discussed by Fowler (Text 1). Essentially, it wants us to compare the perspectives in the two texts and determine Singh and Roy\u2019s likely stance on Fowler\u2019s argument.\n\n### 2. Analyze key information from Text 1\n- Anthony Fowler studied elections in Australia, where voting is mandatory.\n- He argues that requiring citizens to vote increases participation, especially among those who might not otherwise vote.\n- Because more people vote, election results better reflect the preferences of the entire country.\n\n### 3. Analyze key information from Text 2\n- Singh and Roy acknowledge that democratic governments function better when more people vote.\n- However, they caution that forcing people to vote can have negative effects.\n- Specifically, forced voters tend to spend less time researching their choices.\n- Consequently,..."
+        },
+        {
+          "question_number": 6,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 25.56,
+          "full_response": "Let's carefully work through the problem step-by-step.\n\n---\n\n### 1. Understand what the question is asking\n\nThe question asks which statement both authors (from Text 1 and Text 2) would most likely agree with, based on the information provided.\n\n---\n\n### 2. Analyze key information from Text 1\n\n- Alvin Ailey had a deep admiration for jazz music.\n- His works were set to jazz rhythms and beats.\n- He collaborated with famous jazz musicians like Charles Mingus, Charlie Parker, and Duke Ellington.\n- His choice of music helped bring jazz to life for audiences.\n\n**Summary:** Text 1 emphasizes Ailey's strong connection to jazz music, especially through the music he chose for his choreography.\n\n---\n\n### 3. Analyze key information from Text 2\n\n- Jazz is present throughout Ailey\u2019s work, especially visible in his choreography style.\n- He incorporated improvisation, a key characteristic of jazz.\n- He allowed dancers freedom to shape their performances, similar to how jazz musicians improvise.\n- He d..."
+        },
+        {
+          "question_number": 36,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Dubey and colleagues (Text 2) most likely respond to the consensus view discussed in Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 47.7,
+          "full_response": "Let's go through the problem step-by-step.\n\n---\n\n### 1. Understand what the question is asking\n\nThe question wants to know how Dubey and colleagues (from Text 2) would most likely respond to the consensus view about curiosity presented in Text 1.\n\nIn other words, given what Text 1 says about curiosity and what Dubey et al. found in their experiment, which option best captures Dubey et al.'s likely stance toward the consensus view?\n\n---\n\n### 2. Analyze key information from Text 1\n\n- Text 1 states that many psychology studies show people seek information even when it has no immediate use or direct benefit.\n- This supports the consensus view that curiosity is **not instrumental** (not goal-directed or utility-driven).\n- Instead, curiosity is a drive to acquire information **for its own sake**.\n\nSo, the consensus view is: curiosity is an intrinsic motivation, independent of practical usefulness.\n\n---\n\n### 3. Analyze key information from Text 2\n\n- Dubey and colleagues acknowledge that acqui..."
+        },
+        {
+          "question_number": 45,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the conclusion presented in the underlined portion of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 20.01,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 31,
+          "skill": "Cross-Text Connections",
+          "question_text": "Which choice best describes a difference in how the authors of Text 1 and Text 2 view Barbara Tuchman\u2019s The Guns of August?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 34.46,
+          "full_response": "Let's carefully work through the problem step-by-step.\n\n---\n\n### 1. Understand what the question is asking\n\nThe question asks: **Which choice best describes a difference in how the authors of Text 1 and Text 2 view Barbara Tuchman\u2019s *The Guns of August*?**\n\nSo, we need to identify how the two authors differ in their perspectives on Tuchman\u2019s book.\n\n---\n\n### 2. Analyze key information from Text 1\n\n- Text 1 acknowledges the book\u2019s \"beautiful prose.\"\n- It critiques the book for **failing to address events in Eastern Europe** before WWI.\n- This omission leads to an impression that Germany was the principal instigator.\n- The author suggests that if Tuchman had used secondary sources (like Luigi Albertini), she would have included Eastern European influences.\n- Overall, the critique focuses on **the scope and sources of Tuchman\u2019s research** and how that affects her interpretation.\n\n---\n\n### 3. Analyze key information from Text 2\n\n- Text 2 calls the book \"engrossing if dated,\" so it acknowled..."
+        },
+        {
+          "question_number": 5,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, if Ishii and O\u2019Mahony (Text 1) and J\u00fcnger et al. (Text 2) were aware of the findings of both experiments, they would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 6.1,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 60,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined phrase in the text as a whole?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 35.01,
+          "full_response": "Let's carefully analyze the question and the text step-by-step.\n\n---\n\n### Step 1: Understand what the question is asking\n\nThe question asks: *Which choice best describes the function of the underlined phrase in the text as a whole?*\n\nThe underlined phrase is: **\"steady like a rock\u2014a soft kind of rock\"**\n\nWe need to determine what role this phrase plays in the passage overall.\n\n---\n\n### Step 2: Examine the structure and purpose of the text\n\nThe passage describes Mr. Verloc walking through London streets on his way to a meeting. It contrasts the busy, noisy thoroughfare with a quieter, more private street. The description of Mr. Verloc includes details about his appearance (hat, hair) and his demeanor (\"steady like a rock\u2014a soft kind of rock\").\n\nThe purpose seems to be to set the scene and characterize Mr. Verloc as calm, steady, and perhaps somewhat reserved or subtle, as he moves toward an important meeting.\n\n---\n\n### Step 3: Identify how different parts of the text function\n\n- The fir..."
+        },
+        {
+          "question_number": 83,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 8.26,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 82,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 22.42,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 76,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall purpose of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 36.55,
+          "full_response": "Let's analyze the question step-by-step.\n\n---\n\n### 1. Understand what the question is asking\n\nThe question asks: **Which choice best describes the overall purpose of the text?**\n\nThis means we need to figure out the main goal or intent of the entire passage, not just a part of it.\n\n---\n\n### 2. Examine the structure and purpose of the text\n\nThe text is a short passage about the Nuyorican Poets Cafe. It starts with the origin story:\n\n- In 1973, Miguel Algar\u00edn invited other Nuyorican writers to his apartment.\n- The gatherings grew, so he rented a cafe space.\n- This led to the founding of the Nuyorican Poets Cafe.\n- In 1981, it moved to a permanent location.\n- The cafe expanded beyond poetry to art and music.\n- It continues to support emerging Nuyorican talent after 50 years.\n\n---\n\n### 3. Identify how different parts of the text function\n\n- The first part explains the **origin** of the cafe.\n- The middle shows **growth and expansion** (moving location, adding art and music).\n- The last par..."
+        },
+        {
+          "question_number": 98,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined question in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 22.83,
+          "full_response": "Let's analyze the question step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks: What is the function of the underlined question in the text as a whole? The underlined question is:  \n\"Who can calculate the orbit of his own soul?\"\n\nWe need to determine how this question functions within the entire passage.\n\n### 2. Examine the structure and purpose of the text\nThe passage discusses the idea of self-knowledge and self-realization. It starts by saying people who desire only self-realization don't know where they are going. Then it says knowing oneself is the first achievement of knowledge, but recognizing that the soul is unknowable is the ultimate wisdom. The passage ends with the rhetorical question about who can calculate the orbit of his own soul, emphasizing the mystery and unknowability of the self.\n\n### 3. Identify how different parts of the text function\n- The first sentence sets up a problem: people who seek only self-realization lack direction.\n- The mid..."
+        },
+        {
+          "question_number": 54,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the function of the underlined portion in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 31.67,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 102,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 47.04,
+          "full_response": "Let's analyze the question step-by-step:\n\n1. **Understand what the question is asking:**  \n   The question asks for the main purpose of the text. That means we need to identify the primary reason the author included this passage\u2014what the author wants the reader to understand or feel after reading it.\n\n2. **Examine the structure and purpose of the text:**  \n   The passage is a short excerpt from a novel, narrated in the first person. It begins by describing how the parents bought a piano as a Christmas gift for the narrator and their brothers. Then it shifts to the narrator's feelings about the piano\u2014they had to pretend to be happy but actually hated it from the moment it arrived. The piano is described metaphorically as a \"songbird in a cage\" that \"wanted to be set free.\"\n\n3. **Identify how different parts of the text function:**  \n   - The first sentence sets the context: parents bought a piano for Christmas.  \n   - The second sentence reveals the narrator's forced happiness.  \n   - T..."
+        },
+        {
+          "question_number": 81,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states how the researchers in the 2021 study explained the discrepancy between the fossil record and eDNA evidence?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 9.0,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 103,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.09,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 87,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 20.99,
+          "full_response": "Let's work through the problem step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks about the function of the **underlined sentence** in the text as a whole. The underlined sentence is:\n\n*\"The trees, like people, have their individual characters; some were ready to yield up their life-blood, while others were more reluctant.\"*\n\nWe need to determine what role this sentence plays in the passage about women harvesting maple syrup.\n\n### 2. Examine the structure and purpose of the text\nThe passage describes the process of harvesting maple syrup by the women in the tribe. It starts with them testing the trees by striking them with an axe, then setting basins to collect sap, and finally the sap trickling into the dishes.\n\nThe overall purpose is to describe the method and experience of collecting sap from the trees.\n\n### 3. Identify how different parts of the text function\n- The first sentence introduces the women testing the trees.\n- The underlined sentence compares ..."
+        },
+        {
+          "question_number": 71,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 28.87,
+          "full_response": "Let's work through the problem step-by-step.\n\n1. **Understand what the question is asking**  \nThe question asks: \"Which choice best states the main purpose of the text?\"  \nSo, we need to identify the primary reason the author wrote this passage or what the passage mainly conveys.\n\n2. **Examine the structure and purpose of the text**  \nThe passage describes Polly's feelings and reactions when she is around Fanny\u2019s friends. It mentions Polly\u2019s fear, her sense of being out of place, the fact that the friends seem older and wiser, and that their conversations are confusing or even shocking to Polly.\n\n3. **Identify how different parts of the text function**  \n- \"Fanny\u2019s friends did not interest Polly much\" \u2014 introduces Polly\u2019s disinterest.  \n- \"she was rather afraid of them because they seemed so much older and wiser\" \u2014 explains Polly\u2019s fear and sense of inferiority.  \n- \"They talked about things of which she knew nothing\" \u2014 shows Polly\u2019s lack of understanding.  \n- \"when Fanny tried to expl..."
+        },
+        {
+          "question_number": 53,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 49.76,
+          "full_response": "Let's carefully analyze the question and the text step-by-step.\n\n---\n\n**Step 1: Understand what the question is asking**\n\nThe question asks: *Which choice best describes the overall structure of the text?* \n\nThis means we need to identify how the text is organized\u2014what it talks about first, what it talks about next, and how these parts relate to each other.\n\n---\n\n**Step 2: Examine the structure and purpose of the text**\n\nThe text says:\n\n- Researchers used the James Webb Space Telescope (JWST) to measure wavelengths of light through the atmosphere of an exoplanet (WASP-39b).\n- Different molecules absorb different wavelengths; the measurements showed carbon dioxide (CO\u2082) in the atmosphere.\n- This is the first decisive evidence of CO\u2082 in an exoplanet\u2019s atmosphere.\n- It also highlights the potential for future scientific breakthroughs with JWST.\n\nSo, the text first describes the method used by researchers (using JWST to measure light wavelengths), then states the discovery (CO\u2082 found), and..."
+        },
+        {
+          "question_number": 58,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 45.21,
+          "full_response": "Let's work through the problem step-by-step.\n\n---\n\n### 1. Understand what the question is asking\n\nThe question asks: **\"Which choice best states the main purpose of the text?\"**  \nSo, we need to identify the primary reason why this passage was written or what it is mainly trying to convey.\n\n---\n\n### 2. Examine the structure and purpose of the text\n\nThe text tells a brief story about an American savant in London who initially looks down on a man (calling him a \"coxcombical fellow\" with an \"absurd ribbon in his lapel\"). The savant is disdainful but then ends up talking to the man and is surprised to learn that the man is actually Sir Humphry Davy, a well-known and respected figure.\n\n---\n\n### 3. Identify how different parts of the text function\n\n- The first part sets up the savant's negative impression of the man based on superficial appearances.\n- The middle part describes the interaction between the savant and the man.\n- The last part reveals the twist: the man is actually a famous and ..."
+        },
+        {
+          "question_number": 99,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 31.95,
+          "full_response": "Let's work through this question step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks: **\"Which choice best states the main purpose of the text?\"**  \nThis means we need to determine the overall reason the author included this passage\u2014what is the main point or function of this excerpt?\n\n---\n\n### 2. Examine the structure and purpose of the text\nThe passage describes Julius, the carriage driver, and lists various ways he is knowledgeable and helpful after the narrator and his wife move to a new residence. The text is a series of statements about Julius\u2019s skills and knowledge related to the neighborhood, roads, soils, hunting, fishing, and animal management.\n\n---\n\n### 3. Identify how different parts of the text function\n- The first sentence introduces Julius as very useful after the move.\n- The following sentences list specific areas of Julius\u2019s expertise: knowledge of the neighborhood, roads, watercourses, soil qualities, hunting and fishing spots, and managing h..."
+        },
+        {
+          "question_number": 84,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.66,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 93,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 25.61,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 206,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 49.69,
+          "full_response": "Let's go through the problem step-by-step:\n\n1. **Understand what the question is asking**  \nThe question asks us to find the most logical and precise word or phrase to complete the sentence: \"without clear evidence, archaeologists are left to ______blank what happened.\"\n\n2. **Analyze the context in which the word or phrase is used**  \nThe context is about archaeologists finding a rare set of ancient glass game pieces. Because the pieces are small and easily lost, finding a complete set is unusual, leading some experts to suggest intentional burial. However, since there is no clear evidence, archaeologists cannot be certain about the reason or circumstances. The sentence implies that archaeologists have to do something in the absence of clear evidence.\n\n3. **Consider the meaning and nuance of each option**  \n- A: **speculate about** \u2013 to form a theory or conjecture without firm evidence.  \n- B: **dismiss** \u2013 to reject or disregard something.  \n- C: **expand on** \u2013 to elaborate or add mo..."
+        },
+        {
+          "question_number": 187,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 23.23,
+          "full_response": "Let's go through the problem step-by-step:\n\n1. **Understand what the question is asking**  \nThe question asks us to find the word or phrase that best completes the sentence in a logical and precise way. The sentence is about telling Osage stories through ballet, and it gives a reason related to two famous Osage ballet dancers.\n\n2. **Analyze the context in which the word or phrase is used**  \nThe sentence says: \"Telling Osage stories through ballet is ______ because two of the foremost ballet dancers of the twentieth century were Osage: sisters Maria and Marjorie Tallchief.\"  \nThis suggests that the choice should reflect that telling stories through ballet makes sense or is appropriate due to the cultural connection with these famous Osage ballet dancers.\n\n3. **Consider the meaning and nuance of each option**  \n- A: **a suitable** \u2014 means appropriate or fitting.  \n- B: **a determined** \u2014 means decided or fixed, often implying effort or resolve.  \n- C: **an arbitrary** \u2014 means random or ..."
+        },
+        {
+          "question_number": 141,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 25.71,
+          "full_response": "Let's work through this step-by-step:\n\n1. **Understand what the question is asking**  \nThe question asks us to find the word or phrase that best completes the sentence in a way that makes the most logical and precise sense. The sentence is about a brief book review and what it cannot fully convey about Olga Tokarczuk\u2019s novel.\n\n2. **Analyze the context in which the word or phrase is used**  \nThe sentence says: \"A brief book review cannot fully convey the ______blank of Olga Tokarczuk\u2019s novel The Books of Jacob, with its enormous cast of characters, its complicated, wandering plot, and its page numbers that count backward (beginning at 965 and ending at 1).\"  \nThe clues here are:  \n- \"enormous cast of characters\"  \n- \"complicated, wandering plot\"  \n- \"page numbers that count backward\"  \nThese suggest the novel is intricate, detailed, and perhaps challenging to summarize briefly.\n\n3. **Consider the meaning and nuance of each option**  \n- **A: accuracy** \u2014 means correctness or precision in..."
+        },
+        {
+          "question_number": 177,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 180,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the word 'endure' most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 4.11,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 133,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 29.77,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 122,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 24.79,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 166,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 192,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase describing what OSIRIS-REx did?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 38.44,
+          "full_response": "Let's go through the steps carefully:\n\n1. **Understand what the question is asking**  \nThe question asks which word or phrase best completes the sentence describing what the OSIRIS-REx spacecraft did during its encounter with asteroid Bennu. The sentence mentions that despite problems, the spacecraft was able to do something related to a sample to return to Earth.\n\n2. **Analyze the context in which the word or phrase is used**  \nThe context is about a spacecraft mission to an asteroid, where the spacecraft's goal was to obtain a sample from the asteroid's surface and bring it back to Earth. The text notes that there were unforeseen problems due to boulders, but the spacecraft succeeded in some action involving the sample.\n\n3. **Consider the meaning and nuance of each option**  \n- **A: attached** \u2014 This means to fasten or join something to another object. It implies physically sticking or fixing something, which doesn't quite fit the idea of obtaining a sample.  \n- **B: collected** \u2014 Th..."
+        },
+        {
+          "question_number": 144,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 29.07,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 138,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the word \u201ccontracted\u201d most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 140,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.08,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 162,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 30.1,
+          "full_response": "Let's work through this step-by-step:\n\n1. **Understand what the question is asking**  \nThe question asks us to find the word or phrase that best completes the sentence describing the kind of artworks Gabriela Alem\u00e1n produces, based on her passion for bold colors and Latinx culture.\n\n2. **Analyze the context in which the word or phrase is used**  \nThe sentence says Gabriela Alem\u00e1n is fascinated by \"bold colors of comics, pop art, and Latinx culture,\" and this passion \"translates into the ______ artworks she produces.\" The blank should describe the nature or quality of her artworks, likely related to the boldness and richness mentioned.\n\n3. **Consider the meaning and nuance of each option**  \n- **A: vivid** \u2014 means bright, intense, and striking in color or detail. Fits well with \"bold colors.\"  \n- **B: unknown** \u2014 means not known or familiar. Doesn't connect logically with the context of passion and color.  \n- **C: definite** \u2014 means clearly defined or certain. While it could fit, it doe..."
+        },
+        {
+          "question_number": 151,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 43.61,
+          "full_response": "Let's go through the problem step-by-step:\n\n1. **Understand what the question is asking**  \nThe question asks us to fill in the blank with the most logical and precise word or phrase that fits the context of the sentence describing the sounds produced by the g\u00fciro.\n\n2. **Analyze the context in which the word or phrase is used**  \nThe sentence says: \"Players use a wooden stick to scrape along ridges cut into the side of the gourd, creating sounds that are highly ______blank: the sounds produced by g\u00fciros can differ based on the distance between the ridges, the types of strokes the player uses, and the thickness of the gourd.\"  \nThis suggests that the blank should describe a quality of the sounds that relates to how they can differ or vary depending on physical characteristics and playing technique.\n\n3. **Consider the meaning and nuance of each option**  \n- A: *overlooked* \u2014 means ignored or not noticed. This doesn't seem to fit because the sentence is describing a characteristic of the ..."
+        },
+        {
+          "question_number": 210,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 2.98,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 200,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 19.78,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 173,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.12,
+          "full_response": "\u8be5ip\u8bf7\u6c42\u8fc7\u591a\u5df2\u88ab\u6682\u65f6\u9650\u6d41 \u8fc7\u4e24\u5206\u949f\u518d\u8bd5\u8bd5\u5427(\u76ee\u524d\u9650\u5236\u4e86\u6bcf\u5c0f\u65f660\u6b21 \u6b63\u5e38\u4eba\u5b8c\u5168\u591f\u7528,\u5b66\u6821\u7f51\u7edc\u548c\u516c\u53f8\u7f51\u7edc\u7b49\u540c\u7f51\u7edc\u4e0b\u5171\u7528\u989d\u5ea6,\u5982\u679c\u9650\u5236\u4e86\u53ef\u4ee5\u5c1d\u8bd5\u5207\u6362\u7f51\u7edc\u4f7f\u7528 ),\u672c\u7f51\u7ad9\u6b63\u7248\u5730\u5740\u662f https://chat19.aichatos.xyz \u5982\u679c\u4f60\u5728\u5176\u4ed6\u7f51\u7ad9\u9047\u5230\u6b64\u62a5\u9519\uff0c\u8bf7\u8bbf\u95eehttps://chat19.aichatos.xyz/ \uff0c\u5982\u679c\u4f60\u5df2\u7ecf\u5728\u672c\u7f51\u7ad9\uff0c\u8bf7\u5173\u95ed\u4ee3\u7406\uff0c\u4e0d\u8981\u4f7f\u7528\u516c\u5171\u7f51\u7edc\u8bbf\u95ee,\u5982\u9700\u5408\u4f5c\u63a5\u53e3\u8c03\u7528\u8bf7\u8054\u7cfb\u5fae\u4fe1kelemm220 \u6216\u8005\u524d\u5f80 https://cat.chatavx.com/  \u6ce8\u518c\u4f7f\u7528\uff08\u53ef\u4ed8\u8d39\u4f7f\u7528gpt4 \u6ce8\u518c\u53ef\u514d\u8d39\u4f7f\u75283.5\uff09"
+        },
+        {
+          "question_number": 128,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 23.86,
+          "full_response": "Let's go through the problem step-by-step:\n\n1. **Understand what the question is asking**  \nThe question asks us to find the word or phrase that best completes the sentence. The sentence discusses a discovery that may influence researchers who have a certain belief about Bronze Age societies being ruled by men. The blank is where the sentence indicates what the researchers might do in light of the new evidence suggesting women might have held leadership roles.\n\n2. **Analyze the context in which the word or phrase is used**  \nThe sentence says: \"This finding may persuade researchers who have argued that Bronze Age societies were ruled by men to ______blank that women may have also held leadership roles.\"  \nThe researchers previously believed only men ruled. Now, the discovery suggests women might have ruled too. So the blank should be a word that means the researchers might change or adjust their previous stance because of new evidence.\n\n3. **Consider the meaning and nuance of each opti..."
+        },
+        {
+          "question_number": 183,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 30.58,
+          "full_response": "Let's work through the problem step-by-step.\n\n1. **Understand what the question is asking**  \nThe question asks us to find the word or phrase that best completes the sentence about Lady Elizabeth Rigby Eastlake's essay. The sentence says she questioned the idea of photography as fine art, and in the essay, she ______ that photographs' value was informational rather than creative. We need a word that fits logically and precisely in that blank.\n\n2. **Analyze the context in which the word or phrase is used**  \nThe context is that Eastlake wrote a divisive essay questioning photography as fine art. The sentence says she did not hesitate to publish reviews against popular opinion, so she took a clear stance. The blank describes what she did regarding the value of photographs \u2014 she expressed an opinion that their value was informational, not creative.\n\n3. **Consider the meaning and nuance of each option**  \n- **A: exposed** \u2014 to expose something usually means to reveal something hidden or se..."
+        }
+      ]
+    }
+  }
+}

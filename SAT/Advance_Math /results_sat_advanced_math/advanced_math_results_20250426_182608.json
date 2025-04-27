@@ -1,0 +1,1219 @@
+{
+  "gpt-4": {
+    "zero-shot": {
+      "total": 27,
+      "correct": 18,
+      "by_skill": {
+        "Equivalent expressions": {
+          "total": 10,
+          "correct": 6,
+          "by_difficulty": {
+            "Hard": {
+              "total": 1,
+              "correct": 0,
+              "accuracy": 0.0
+            },
+            "Medium": {
+              "total": 4,
+              "correct": 3,
+              "accuracy": 0.75
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 3,
+              "accuracy": 0.6
+            }
+          },
+          "accuracy": 0.6
+        },
+        "Simplifying algebraic expressions": {
+          "total": 1,
+          "correct": 0,
+          "by_difficulty": {
+            "Easy": {
+              "total": 1,
+              "correct": 0,
+              "accuracy": 0.0
+            }
+          },
+          "accuracy": 0.0
+        },
+        "Nonlinear equations in one variable and systems of equations in two variables": {
+          "total": 10,
+          "correct": 7,
+          "by_difficulty": {
+            "Medium": {
+              "total": 5,
+              "correct": 3,
+              "accuracy": 0.6
+            },
+            "Hard": {
+              "total": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 1,
+              "accuracy": 0.5
+            }
+          },
+          "accuracy": 0.7
+        },
+        "Nonlinear functions": {
+          "total": 6,
+          "correct": 5,
+          "by_difficulty": {
+            "Medium": {
+              "total": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 4,
+              "correct": 3,
+              "accuracy": 0.75
+            },
+            "Easy": {
+              "total": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            }
+          },
+          "accuracy": 0.8333333333333334
+        }
+      },
+      "by_difficulty": {
+        "Hard": {
+          "total": 8,
+          "correct": 6,
+          "accuracy": 0.75
+        },
+        "Medium": {
+          "total": 10,
+          "correct": 7,
+          "accuracy": 0.7
+        },
+        "Easy": {
+          "total": 9,
+          "correct": 5,
+          "accuracy": 0.5555555555555556
+        }
+      },
+      "details": [
+        {
+          "number": 19,
+          "skill": "Equivalent expressions",
+          "difficulty": "Hard",
+          "question": "The expression \\((3x - 23)(19x + 6)\\) is equivalent to the expression \\(ax^2 + bx + c\\), where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(b\\)?",
+          "correct_answer": "-419",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.64
+        },
+        {
+          "number": 11,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "Which of the following expressions is equivalent to x² − 5?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 3.49
+        },
+        {
+          "number": 3,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.81
+        },
+        {
+          "number": 10,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "Which of the following is equivalent to the expression x⁴ − x² − 6?",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.0
+        },
+        {
+          "number": 6,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 5.97
+        },
+        {
+          "number": 4,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.5
+        },
+        {
+          "number": 1,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 23.91
+        },
+        {
+          "number": 14,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "The expression 90y⁵ − 54y⁴ is equivalent to ry⁴(15y − 9), where r is a constant. What is the value of r?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.83
+        },
+        {
+          "number": 16,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "Which of the following is an equivalent form of \\((1.5x - 2.4)^2 - (5.2x^2 - 6.4)\\)?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.26
+        },
+        {
+          "number": 2,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.83
+        },
+        {
+          "number": 20,
+          "skill": "Simplifying algebraic expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to \\( 20w - (4w + 3w) \\)?",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 23.74
+        },
+        {
+          "number": 40,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "If the ordered pair (x, y) satisfies the system of equations below, what is one possible value of x?\n\ny = x² − 4x + 4\ny = 4 − x",
+          "correct_answer": [
+            "A",
+            "D"
+          ],
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.67
+        },
+        {
+          "number": 35,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Hard",
+          "question": "In the xy-plane, a line with equation 2y = c for some constant c intersects a parabola at exactly one point. If the parabola has equation y = −2x² + 9x, what is the value of c?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 3.61
+        },
+        {
+          "number": 31,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Hard",
+          "question": "If x is a solution to the given equation, which of the following is a possible value of x + 5?\n\n1 / (x² + 10x + 25) = 4",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 2.77
+        },
+        {
+          "number": 21,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "A system of equations consists of a quadratic equation and a linear equation. The equations in this system are graphed in the xy-plane shown in img123.png. How many solutions does this system have?",
+          "correct_answer": "C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 3.47
+        },
+        {
+          "number": 33,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "The given equation relates the positive numbers m, n, and p. Which equation correctly gives n in terms of m and p?\n\n7m = 5(n + p)",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.91
+        },
+        {
+          "number": 23,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "If (x, y) is a solution to the system of equations below, which of the following could be the value of x?\n\ny = x + 1\ny = x² + x",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 24.57
+        },
+        {
+          "number": 41,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "An oceanographer uses the equation s = (3/2)p to model the speed s, in knots, of an ocean wave, where p represents the period of the wave, in seconds. Which of the following represents the period of the wave in terms of the speed of the wave?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 12.01
+        },
+        {
+          "number": 30,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Easy",
+          "question": "The given equation relates the variables r, s, and t. Which equation correctly expresses s in terms of r and t?\n\n6r = 7s + t",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 23.48
+        },
+        {
+          "number": 36,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Easy",
+          "question": "The graph of a system of a linear equation and a nonlinear equation is shown. What is the solution (x, y) to this system?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 37.13
+        },
+        {
+          "number": 39,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Hard",
+          "question": "What is the smallest solution to the given equation?\n\n√((x − 2)²) = √(3x + 34)",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 24.09
+        },
+        {
+          "number": 42,
+          "skill": "Nonlinear functions",
+          "difficulty": "Medium",
+          "question": "A rectangle has a length that is 15 times its width. The function y = (15w)(w) represents this situation, where y is the area, in square feet, of the rectangle and y > 0. Which of the following is the best interpretation of 15w in this context?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 30.51
+        },
+        {
+          "number": 43,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The quadratic function h is defined as shown. In the xy-plane, the graph of y = h(x) intersects the x-axis at the points (0, 0) and (t, 0), where t is a constant. What is the value of t?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 22.93
+        },
+        {
+          "number": 44,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The function f is defined by f(x) = (-8)(2)^x + 22. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+          "correct_answer": "A",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.52
+        },
+        {
+          "number": 45,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The function f is defined by f(x) = (-8)(2)^x + 22. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 11.48
+        },
+        {
+          "number": 46,
+          "skill": "Nonlinear functions",
+          "difficulty": "Easy",
+          "question": "The graph shows the height above ground, in meters, of a ball x seconds after the ball was launched upward from a platform. Which statement is the best interpretation of the marked point (1.0, 4.8) in this context?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.51
+        },
+        {
+          "number": 47,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The given function ( f(x) = 9,000(0.66)^x ) models the number of advertisements a company sent to its clients each year, where ( x ) represents the number of years since 1997, and ( 0 leq x leq 5 ). If ( y = f(x) ) is graphed in the xy-plane, which of the following is the best interpretation of the y-intercept of the graph in this context?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 22.65
+        }
+      ],
+      "accuracy": 0.6666666666666666,
+      "summary_text": "gpt-4 with zero-shot strategy summary:\nOverall accuracy: 66.67% (18/27)\n\n  Equivalent expressions accuracy: 60.00% (6/10)\n    Easy difficulty: 60.00% (3/5)\n    Hard difficulty: 0.00% (0/1)\n    Medium difficulty: 75.00% (3/4)\n\n  Nonlinear equations in one variable and systems of equations in two variables accuracy: 70.00% (7/10)\n    Easy difficulty: 50.00% (1/2)\n    Hard difficulty: 100.00% (3/3)\n    Medium difficulty: 60.00% (3/5)\n\n  Nonlinear functions accuracy: 83.33% (5/6)\n    Easy difficulty: 100.00% (1/1)\n    Hard difficulty: 75.00% (3/4)\n    Medium difficulty: 100.00% (1/1)\n\n  Simplifying algebraic expressions accuracy: 0.00% (0/1)\n    Easy difficulty: 0.00% (0/1)\n"
+    },
+    "five-shot": {
+      "total": 27,
+      "correct": 20,
+      "by_skill": {
+        "Equivalent expressions": {
+          "total": 10,
+          "correct": 6,
+          "by_difficulty": {
+            "Hard": {
+              "total": 1,
+              "correct": 0,
+              "accuracy": 0.0
+            },
+            "Medium": {
+              "total": 4,
+              "correct": 1,
+              "accuracy": 0.25
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5,
+              "accuracy": 1.0
+            }
+          },
+          "accuracy": 0.6
+        },
+        "Simplifying algebraic expressions": {
+          "total": 1,
+          "correct": 1,
+          "by_difficulty": {
+            "Easy": {
+              "total": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            }
+          },
+          "accuracy": 1.0
+        },
+        "Nonlinear equations in one variable and systems of equations in two variables": {
+          "total": 10,
+          "correct": 7,
+          "by_difficulty": {
+            "Medium": {
+              "total": 5,
+              "correct": 4,
+              "accuracy": 0.8
+            },
+            "Hard": {
+              "total": 3,
+              "correct": 2,
+              "accuracy": 0.6666666666666666
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 1,
+              "accuracy": 0.5
+            }
+          },
+          "accuracy": 0.7
+        },
+        "Nonlinear functions": {
+          "total": 6,
+          "correct": 6,
+          "by_difficulty": {
+            "Medium": {
+              "total": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 4,
+              "correct": 4,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            }
+          },
+          "accuracy": 1.0
+        }
+      },
+      "by_difficulty": {
+        "Hard": {
+          "total": 8,
+          "correct": 6,
+          "accuracy": 0.75
+        },
+        "Medium": {
+          "total": 10,
+          "correct": 6,
+          "accuracy": 0.6
+        },
+        "Easy": {
+          "total": 9,
+          "correct": 8,
+          "accuracy": 0.8888888888888888
+        }
+      },
+      "details": [
+        {
+          "number": 19,
+          "skill": "Equivalent expressions",
+          "difficulty": "Hard",
+          "question": "The expression \\((3x - 23)(19x + 6)\\) is equivalent to the expression \\(ax^2 + bx + c\\), where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(b\\)?",
+          "correct_answer": "-419",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 5.37
+        },
+        {
+          "number": 11,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "Which of the following expressions is equivalent to x² − 5?",
+          "correct_answer": "C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 33.75
+        },
+        {
+          "number": 3,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 5.87
+        },
+        {
+          "number": 10,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "Which of the following is equivalent to the expression x⁴ − x² − 6?",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 5.46
+        },
+        {
+          "number": 6,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 14.15
+        },
+        {
+          "number": 4,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 18.08
+        },
+        {
+          "number": 1,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 4.74
+        },
+        {
+          "number": 14,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "The expression 90y⁵ − 54y⁴ is equivalent to ry⁴(15y − 9), where r is a constant. What is the value of r?",
+          "correct_answer": "D",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 21.4
+        },
+        {
+          "number": 16,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "Which of the following is an equivalent form of \\((1.5x - 2.4)^2 - (5.2x^2 - 6.4)\\)?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 24.09
+        },
+        {
+          "number": 2,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.89
+        },
+        {
+          "number": 20,
+          "skill": "Simplifying algebraic expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to \\( 20w - (4w + 3w) \\)?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 2.42
+        },
+        {
+          "number": 40,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "If the ordered pair (x, y) satisfies the system of equations below, what is one possible value of x?\n\ny = x² − 4x + 4\ny = 4 − x",
+          "correct_answer": [
+            "A",
+            "D"
+          ],
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.09
+        },
+        {
+          "number": 35,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Hard",
+          "question": "In the xy-plane, a line with equation 2y = c for some constant c intersects a parabola at exactly one point. If the parabola has equation y = −2x² + 9x, what is the value of c?",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.39
+        },
+        {
+          "number": 31,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Hard",
+          "question": "If x is a solution to the given equation, which of the following is a possible value of x + 5?\n\n1 / (x² + 10x + 25) = 4",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 19.66
+        },
+        {
+          "number": 21,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "A system of equations consists of a quadratic equation and a linear equation. The equations in this system are graphed in the xy-plane shown in img123.png. How many solutions does this system have?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 21.68
+        },
+        {
+          "number": 33,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "The given equation relates the positive numbers m, n, and p. Which equation correctly gives n in terms of m and p?\n\n7m = 5(n + p)",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 26.83
+        },
+        {
+          "number": 23,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "If (x, y) is a solution to the system of equations below, which of the following could be the value of x?\n\ny = x + 1\ny = x² + x",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 5.7
+        },
+        {
+          "number": 41,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "An oceanographer uses the equation s = (3/2)p to model the speed s, in knots, of an ocean wave, where p represents the period of the wave, in seconds. Which of the following represents the period of the wave in terms of the speed of the wave?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 3.68
+        },
+        {
+          "number": 30,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Easy",
+          "question": "The given equation relates the variables r, s, and t. Which equation correctly expresses s in terms of r and t?\n\n6r = 7s + t",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 4.11
+        },
+        {
+          "number": 36,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Easy",
+          "question": "The graph of a system of a linear equation and a nonlinear equation is shown. What is the solution (x, y) to this system?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 13.8
+        },
+        {
+          "number": 39,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Hard",
+          "question": "What is the smallest solution to the given equation?\n\n√((x − 2)²) = √(3x + 34)",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 30.62
+        },
+        {
+          "number": 42,
+          "skill": "Nonlinear functions",
+          "difficulty": "Medium",
+          "question": "A rectangle has a length that is 15 times its width. The function y = (15w)(w) represents this situation, where y is the area, in square feet, of the rectangle and y > 0. Which of the following is the best interpretation of 15w in this context?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 5.53
+        },
+        {
+          "number": 43,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The quadratic function h is defined as shown. In the xy-plane, the graph of y = h(x) intersects the x-axis at the points (0, 0) and (t, 0), where t is a constant. What is the value of t?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 17.68
+        },
+        {
+          "number": 44,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The function f is defined by f(x) = (-8)(2)^x + 22. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 22.94
+        },
+        {
+          "number": 45,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The function f is defined by f(x) = (-8)(2)^x + 22. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 13.39
+        },
+        {
+          "number": 46,
+          "skill": "Nonlinear functions",
+          "difficulty": "Easy",
+          "question": "The graph shows the height above ground, in meters, of a ball x seconds after the ball was launched upward from a platform. Which statement is the best interpretation of the marked point (1.0, 4.8) in this context?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 24.47
+        },
+        {
+          "number": 47,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The given function ( f(x) = 9,000(0.66)^x ) models the number of advertisements a company sent to its clients each year, where ( x ) represents the number of years since 1997, and ( 0 leq x leq 5 ). If ( y = f(x) ) is graphed in the xy-plane, which of the following is the best interpretation of the y-intercept of the graph in this context?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 5.51
+        }
+      ],
+      "accuracy": 0.7407407407407407,
+      "summary_text": "gpt-4 with five-shot strategy summary:\nOverall accuracy: 74.07% (20/27)\n\n  Equivalent expressions accuracy: 60.00% (6/10)\n    Easy difficulty: 100.00% (5/5)\n    Hard difficulty: 0.00% (0/1)\n    Medium difficulty: 25.00% (1/4)\n\n  Nonlinear equations in one variable and systems of equations in two variables accuracy: 70.00% (7/10)\n    Easy difficulty: 50.00% (1/2)\n    Hard difficulty: 66.67% (2/3)\n    Medium difficulty: 80.00% (4/5)\n\n  Nonlinear functions accuracy: 100.00% (6/6)\n    Easy difficulty: 100.00% (1/1)\n    Hard difficulty: 100.00% (4/4)\n    Medium difficulty: 100.00% (1/1)\n\n  Simplifying algebraic expressions accuracy: 100.00% (1/1)\n    Easy difficulty: 100.00% (1/1)\n"
+    },
+    "chain-of-thought": {
+      "total": 27,
+      "correct": 20,
+      "by_skill": {
+        "Equivalent expressions": {
+          "total": 10,
+          "correct": 6,
+          "by_difficulty": {
+            "Hard": {
+              "total": 1,
+              "correct": 0,
+              "accuracy": 0.0
+            },
+            "Medium": {
+              "total": 4,
+              "correct": 3,
+              "accuracy": 0.75
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 3,
+              "accuracy": 0.6
+            }
+          },
+          "accuracy": 0.6
+        },
+        "Simplifying algebraic expressions": {
+          "total": 1,
+          "correct": 1,
+          "by_difficulty": {
+            "Easy": {
+              "total": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            }
+          },
+          "accuracy": 1.0
+        },
+        "Nonlinear equations in one variable and systems of equations in two variables": {
+          "total": 10,
+          "correct": 8,
+          "by_difficulty": {
+            "Medium": {
+              "total": 5,
+              "correct": 3,
+              "accuracy": 0.6
+            },
+            "Hard": {
+              "total": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 2,
+              "accuracy": 1.0
+            }
+          },
+          "accuracy": 0.8
+        },
+        "Nonlinear functions": {
+          "total": 6,
+          "correct": 5,
+          "by_difficulty": {
+            "Medium": {
+              "total": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 4,
+              "correct": 3,
+              "accuracy": 0.75
+            },
+            "Easy": {
+              "total": 1,
+              "correct": 1,
+              "accuracy": 1.0
+            }
+          },
+          "accuracy": 0.8333333333333334
+        }
+      },
+      "by_difficulty": {
+        "Hard": {
+          "total": 8,
+          "correct": 6,
+          "accuracy": 0.75
+        },
+        "Medium": {
+          "total": 10,
+          "correct": 7,
+          "accuracy": 0.7
+        },
+        "Easy": {
+          "total": 9,
+          "correct": 7,
+          "accuracy": 0.7777777777777778
+        }
+      },
+      "details": [
+        {
+          "number": 19,
+          "skill": "Equivalent expressions",
+          "difficulty": "Hard",
+          "question": "The expression \\((3x - 23)(19x + 6)\\) is equivalent to the expression \\(ax^2 + bx + c\\), where \\(a\\), \\(b\\), and \\(c\\) are constants. What is the value of \\(b\\)?",
+          "correct_answer": "-419",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 35.5
+        },
+        {
+          "number": 11,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "Which of the following expressions is equivalent to x² − 5?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 34.54
+        },
+        {
+          "number": 3,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 5.24
+        },
+        {
+          "number": 10,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "Which of the following is equivalent to the expression x⁴ − x² − 6?",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 11.42
+        },
+        {
+          "number": 6,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 5.75
+        },
+        {
+          "number": 4,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 27.74
+        },
+        {
+          "number": 1,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.57
+        },
+        {
+          "number": 14,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "The expression 90y⁵ − 54y⁴ is equivalent to ry⁴(15y − 9), where r is a constant. What is the value of r?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 11.75
+        },
+        {
+          "number": 16,
+          "skill": "Equivalent expressions",
+          "difficulty": "Medium",
+          "question": "Which of the following is an equivalent form of \\((1.5x - 2.4)^2 - (5.2x^2 - 6.4)\\)?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 18.78
+        },
+        {
+          "number": 2,
+          "skill": "Equivalent expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to (m⁴q⁴z⁻¹)(mq⁵z³), where m, q, and z are positive?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 20.87
+        },
+        {
+          "number": 20,
+          "skill": "Simplifying algebraic expressions",
+          "difficulty": "Easy",
+          "question": "Which expression is equivalent to \\( 20w - (4w + 3w) \\)?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.44
+        },
+        {
+          "number": 40,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "If the ordered pair (x, y) satisfies the system of equations below, what is one possible value of x?\n\ny = x² − 4x + 4\ny = 4 − x",
+          "correct_answer": [
+            "A",
+            "D"
+          ],
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.06
+        },
+        {
+          "number": 35,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Hard",
+          "question": "In the xy-plane, a line with equation 2y = c for some constant c intersects a parabola at exactly one point. If the parabola has equation y = −2x² + 9x, what is the value of c?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 16.94
+        },
+        {
+          "number": 31,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Hard",
+          "question": "If x is a solution to the given equation, which of the following is a possible value of x + 5?\n\n1 / (x² + 10x + 25) = 4",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 19.72
+        },
+        {
+          "number": 21,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "A system of equations consists of a quadratic equation and a linear equation. The equations in this system are graphed in the xy-plane shown in img123.png. How many solutions does this system have?",
+          "correct_answer": "C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 36.68
+        },
+        {
+          "number": 33,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "The given equation relates the positive numbers m, n, and p. Which equation correctly gives n in terms of m and p?\n\n7m = 5(n + p)",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 14.09
+        },
+        {
+          "number": 23,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "If (x, y) is a solution to the system of equations below, which of the following could be the value of x?\n\ny = x + 1\ny = x² + x",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.13
+        },
+        {
+          "number": 41,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Medium",
+          "question": "An oceanographer uses the equation s = (3/2)p to model the speed s, in knots, of an ocean wave, where p represents the period of the wave, in seconds. Which of the following represents the period of the wave in terms of the speed of the wave?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.79
+        },
+        {
+          "number": 30,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Easy",
+          "question": "The given equation relates the variables r, s, and t. Which equation correctly expresses s in terms of r and t?\n\n6r = 7s + t",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 33.36
+        },
+        {
+          "number": 36,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Easy",
+          "question": "The graph of a system of a linear equation and a nonlinear equation is shown. What is the solution (x, y) to this system?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 22.14
+        },
+        {
+          "number": 39,
+          "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+          "difficulty": "Hard",
+          "question": "What is the smallest solution to the given equation?\n\n√((x − 2)²) = √(3x + 34)",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 14.25
+        },
+        {
+          "number": 42,
+          "skill": "Nonlinear functions",
+          "difficulty": "Medium",
+          "question": "A rectangle has a length that is 15 times its width. The function y = (15w)(w) represents this situation, where y is the area, in square feet, of the rectangle and y > 0. Which of the following is the best interpretation of 15w in this context?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 25.79
+        },
+        {
+          "number": 43,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The quadratic function h is defined as shown. In the xy-plane, the graph of y = h(x) intersects the x-axis at the points (0, 0) and (t, 0), where t is a constant. What is the value of t?",
+          "correct_answer": "D",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 21.65
+        },
+        {
+          "number": 44,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The function f is defined by f(x) = (-8)(2)^x + 22. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 30.4
+        },
+        {
+          "number": 45,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The function f is defined by f(x) = (-8)(2)^x + 22. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.39
+        },
+        {
+          "number": 46,
+          "skill": "Nonlinear functions",
+          "difficulty": "Easy",
+          "question": "The graph shows the height above ground, in meters, of a ball x seconds after the ball was launched upward from a platform. Which statement is the best interpretation of the marked point (1.0, 4.8) in this context?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 4.53
+        },
+        {
+          "number": 47,
+          "skill": "Nonlinear functions",
+          "difficulty": "Hard",
+          "question": "The given function ( f(x) = 9,000(0.66)^x ) models the number of advertisements a company sent to its clients each year, where ( x ) represents the number of years since 1997, and ( 0 leq x leq 5 ). If ( y = f(x) ) is graphed in the xy-plane, which of the following is the best interpretation of the y-intercept of the graph in this context?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 31.25
+        }
+      ],
+      "accuracy": 0.7407407407407407,
+      "summary_text": "gpt-4 with chain-of-thought strategy summary:\nOverall accuracy: 74.07% (20/27)\n\n  Equivalent expressions accuracy: 60.00% (6/10)\n    Easy difficulty: 60.00% (3/5)\n    Hard difficulty: 0.00% (0/1)\n    Medium difficulty: 75.00% (3/4)\n\n  Nonlinear equations in one variable and systems of equations in two variables accuracy: 80.00% (8/10)\n    Easy difficulty: 100.00% (2/2)\n    Hard difficulty: 100.00% (3/3)\n    Medium difficulty: 60.00% (3/5)\n\n  Nonlinear functions accuracy: 83.33% (5/6)\n    Easy difficulty: 100.00% (1/1)\n    Hard difficulty: 75.00% (3/4)\n    Medium difficulty: 100.00% (1/1)\n\n  Simplifying algebraic expressions accuracy: 100.00% (1/1)\n    Easy difficulty: 100.00% (1/1)\n"
+    }
+  }
+}

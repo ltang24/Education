@@ -1,0 +1,4958 @@
+{
+  "llama-3.1-8b": {
+    "zero-shot": {
+      "total": 25,
+      "correct": 18,
+      "by_conversation": {
+        "3": {
+          "title": "Transcript of the Audio of Botany Class Discussion",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "3-1",
+              "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+              "correct_answer": "D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.52
+            },
+            {
+              "index": 0,
+              "question_id": "3-2",
+              "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+              "correct_answer": "B",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 5.92
+            },
+            {
+              "index": 0,
+              "question_id": "3-3",
+              "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+              "correct_answer": "A",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.66
+            },
+            {
+              "index": 0,
+              "question_id": "3-4",
+              "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+              "correct_answer": "C",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.68
+            },
+            {
+              "index": 0,
+              "question_id": "3-5",
+              "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+              "correct_answer": "B D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.65
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "10": {
+          "title": "Discussing Funding Options for a Student",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "10-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.01
+            },
+            {
+              "index": 1,
+              "question_id": "10-2",
+              "question_text": "According to Tom, where should James start looking for scholarships?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.42
+            },
+            {
+              "index": 1,
+              "question_id": "10-3",
+              "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.41
+            },
+            {
+              "index": 1,
+              "question_id": "10-4",
+              "question_text": "What is Tom's attitude towards student loans?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.42
+            },
+            {
+              "index": 1,
+              "question_id": "10-5",
+              "question_text": "What does Tom suggest James should do to stay organised?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.6
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "17": {
+          "title": "Asking About Resources for Improving Academic Writing Skills",
+          "total": 5,
+          "correct": 3,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "17-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.6
+            },
+            {
+              "index": 2,
+              "question_id": "17-2",
+              "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 7.89
+            },
+            {
+              "index": 2,
+              "question_id": "17-3",
+              "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.64
+            },
+            {
+              "index": 2,
+              "question_id": "17-4",
+              "question_text": "What is Sam's attitude towards the writing centre workshops?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.6
+            },
+            {
+              "index": 2,
+              "question_id": "17-5",
+              "question_text": "What specific workshop does Sam recommend to Oliver?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.78
+            }
+          ],
+          "accuracy": 0.6
+        },
+        "14": {
+          "title": "Seeking Advice on Effective Study Techniques",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "14-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.63
+            },
+            {
+              "index": 3,
+              "question_id": "14-2",
+              "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.59
+            },
+            {
+              "index": 3,
+              "question_id": "14-3",
+              "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.36
+            },
+            {
+              "index": 3,
+              "question_id": "14-4",
+              "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.61
+            },
+            {
+              "index": 3,
+              "question_id": "14-5",
+              "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.84
+            }
+          ],
+          "accuracy": 1.0
+        },
+        "8": {
+          "title": "Asking About Recommendations for Campus Jobs During the Semester ",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "8-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.98
+            },
+            {
+              "index": 4,
+              "question_id": "8-2",
+              "question_text": "According to Tom, what is one benefit of working at the library?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.43
+            },
+            {
+              "index": 4,
+              "question_id": "8-3",
+              "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.89
+            },
+            {
+              "index": 4,
+              "question_id": "8-4",
+              "question_text": "What is Tom's attitude towards tutoring as a job option?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.71
+            },
+            {
+              "index": 4,
+              "question_id": "8-5",
+              "question_text": "What type of roles does the student union typically hire for?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.9
+            }
+          ],
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "3-1",
+          "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.52
+        },
+        {
+          "index": 0,
+          "question_id": "3-2",
+          "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+          "correct_answer": "B",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 5.92
+        },
+        {
+          "index": 0,
+          "question_id": "3-3",
+          "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+          "correct_answer": "A",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.66
+        },
+        {
+          "index": 0,
+          "question_id": "3-4",
+          "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.68
+        },
+        {
+          "index": 0,
+          "question_id": "3-5",
+          "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+          "correct_answer": "B D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.65
+        },
+        {
+          "index": 1,
+          "question_id": "10-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.01
+        },
+        {
+          "index": 1,
+          "question_id": "10-2",
+          "question_text": "According to Tom, where should James start looking for scholarships?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.42
+        },
+        {
+          "index": 1,
+          "question_id": "10-3",
+          "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.41
+        },
+        {
+          "index": 1,
+          "question_id": "10-4",
+          "question_text": "What is Tom's attitude towards student loans?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.42
+        },
+        {
+          "index": 1,
+          "question_id": "10-5",
+          "question_text": "What does Tom suggest James should do to stay organised?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.6
+        },
+        {
+          "index": 2,
+          "question_id": "17-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.6
+        },
+        {
+          "index": 2,
+          "question_id": "17-2",
+          "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 7.89
+        },
+        {
+          "index": 2,
+          "question_id": "17-3",
+          "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.64
+        },
+        {
+          "index": 2,
+          "question_id": "17-4",
+          "question_text": "What is Sam's attitude towards the writing centre workshops?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.6
+        },
+        {
+          "index": 2,
+          "question_id": "17-5",
+          "question_text": "What specific workshop does Sam recommend to Oliver?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.78
+        },
+        {
+          "index": 3,
+          "question_id": "14-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.63
+        },
+        {
+          "index": 3,
+          "question_id": "14-2",
+          "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.59
+        },
+        {
+          "index": 3,
+          "question_id": "14-3",
+          "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.36
+        },
+        {
+          "index": 3,
+          "question_id": "14-4",
+          "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.61
+        },
+        {
+          "index": 3,
+          "question_id": "14-5",
+          "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.84
+        },
+        {
+          "index": 4,
+          "question_id": "8-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.98
+        },
+        {
+          "index": 4,
+          "question_id": "8-2",
+          "question_text": "According to Tom, what is one benefit of working at the library?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.43
+        },
+        {
+          "index": 4,
+          "question_id": "8-3",
+          "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.89
+        },
+        {
+          "index": 4,
+          "question_id": "8-4",
+          "question_text": "What is Tom's attitude towards tutoring as a job option?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.71
+        },
+        {
+          "index": 4,
+          "question_id": "8-5",
+          "question_text": "What type of roles does the student union typically hire for?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.9
+        }
+      ],
+      "accuracy": 0.72,
+      "summary_text": "llama-3.1-8b with zero-shot strategy summary:\nOverall accuracy: 72.00% (18/25)\n\n  Conversation 3 - Transcript of the Audio of Botany Class Discussion: 20.00% (1/5)\n  Conversation 8 - Asking About Recommendations for Campus Jobs During the Semester : 100.00% (5/5)\n  Conversation 10 - Discussing Funding Options for a Student: 80.00% (4/5)\n  Conversation 14 - Seeking Advice on Effective Study Techniques: 100.00% (5/5)\n  Conversation 17 - Asking About Resources for Improving Academic Writing Skills: 60.00% (3/5)"
+    },
+    "five-shot": {
+      "total": 25,
+      "correct": 18,
+      "by_conversation": {
+        "3": {
+          "title": "Transcript of the Audio of Botany Class Discussion",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "3-1",
+              "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+              "correct_answer": "D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.65
+            },
+            {
+              "index": 0,
+              "question_id": "3-2",
+              "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+              "correct_answer": "B",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.91
+            },
+            {
+              "index": 0,
+              "question_id": "3-3",
+              "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+              "correct_answer": "A",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 3.66
+            },
+            {
+              "index": 0,
+              "question_id": "3-4",
+              "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+              "correct_answer": "C",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 5.86
+            },
+            {
+              "index": 0,
+              "question_id": "3-5",
+              "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+              "correct_answer": "B D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.37
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "10": {
+          "title": "Discussing Funding Options for a Student",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "10-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 5.65
+            },
+            {
+              "index": 1,
+              "question_id": "10-2",
+              "question_text": "According to Tom, where should James start looking for scholarships?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.57
+            },
+            {
+              "index": 1,
+              "question_id": "10-3",
+              "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.49
+            },
+            {
+              "index": 1,
+              "question_id": "10-4",
+              "question_text": "What is Tom's attitude towards student loans?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 10.91
+            },
+            {
+              "index": 1,
+              "question_id": "10-5",
+              "question_text": "What does Tom suggest James should do to stay organised?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.25
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "17": {
+          "title": "Asking About Resources for Improving Academic Writing Skills",
+          "total": 5,
+          "correct": 3,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "17-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.77
+            },
+            {
+              "index": 2,
+              "question_id": "17-2",
+              "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.73
+            },
+            {
+              "index": 2,
+              "question_id": "17-3",
+              "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.17
+            },
+            {
+              "index": 2,
+              "question_id": "17-4",
+              "question_text": "What is Sam's attitude towards the writing centre workshops?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.8
+            },
+            {
+              "index": 2,
+              "question_id": "17-5",
+              "question_text": "What specific workshop does Sam recommend to Oliver?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 3.18
+            }
+          ],
+          "accuracy": 0.6
+        },
+        "14": {
+          "title": "Seeking Advice on Effective Study Techniques",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "14-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.98
+            },
+            {
+              "index": 3,
+              "question_id": "14-2",
+              "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.86
+            },
+            {
+              "index": 3,
+              "question_id": "14-3",
+              "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.95
+            },
+            {
+              "index": 3,
+              "question_id": "14-4",
+              "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.84
+            },
+            {
+              "index": 3,
+              "question_id": "14-5",
+              "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.61
+            }
+          ],
+          "accuracy": 1.0
+        },
+        "8": {
+          "title": "Asking About Recommendations for Campus Jobs During the Semester ",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "8-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.05
+            },
+            {
+              "index": 4,
+              "question_id": "8-2",
+              "question_text": "According to Tom, what is one benefit of working at the library?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.86
+            },
+            {
+              "index": 4,
+              "question_id": "8-3",
+              "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.42
+            },
+            {
+              "index": 4,
+              "question_id": "8-4",
+              "question_text": "What is Tom's attitude towards tutoring as a job option?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.68
+            },
+            {
+              "index": 4,
+              "question_id": "8-5",
+              "question_text": "What type of roles does the student union typically hire for?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.68
+            }
+          ],
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "3-1",
+          "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.65
+        },
+        {
+          "index": 0,
+          "question_id": "3-2",
+          "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+          "correct_answer": "B",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.91
+        },
+        {
+          "index": 0,
+          "question_id": "3-3",
+          "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+          "correct_answer": "A",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 3.66
+        },
+        {
+          "index": 0,
+          "question_id": "3-4",
+          "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 5.86
+        },
+        {
+          "index": 0,
+          "question_id": "3-5",
+          "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+          "correct_answer": "B D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.37
+        },
+        {
+          "index": 1,
+          "question_id": "10-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 5.65
+        },
+        {
+          "index": 1,
+          "question_id": "10-2",
+          "question_text": "According to Tom, where should James start looking for scholarships?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.57
+        },
+        {
+          "index": 1,
+          "question_id": "10-3",
+          "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.49
+        },
+        {
+          "index": 1,
+          "question_id": "10-4",
+          "question_text": "What is Tom's attitude towards student loans?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 10.91
+        },
+        {
+          "index": 1,
+          "question_id": "10-5",
+          "question_text": "What does Tom suggest James should do to stay organised?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.25
+        },
+        {
+          "index": 2,
+          "question_id": "17-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.77
+        },
+        {
+          "index": 2,
+          "question_id": "17-2",
+          "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.73
+        },
+        {
+          "index": 2,
+          "question_id": "17-3",
+          "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.17
+        },
+        {
+          "index": 2,
+          "question_id": "17-4",
+          "question_text": "What is Sam's attitude towards the writing centre workshops?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.8
+        },
+        {
+          "index": 2,
+          "question_id": "17-5",
+          "question_text": "What specific workshop does Sam recommend to Oliver?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 3.18
+        },
+        {
+          "index": 3,
+          "question_id": "14-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.98
+        },
+        {
+          "index": 3,
+          "question_id": "14-2",
+          "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.86
+        },
+        {
+          "index": 3,
+          "question_id": "14-3",
+          "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.95
+        },
+        {
+          "index": 3,
+          "question_id": "14-4",
+          "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.84
+        },
+        {
+          "index": 3,
+          "question_id": "14-5",
+          "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.61
+        },
+        {
+          "index": 4,
+          "question_id": "8-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.05
+        },
+        {
+          "index": 4,
+          "question_id": "8-2",
+          "question_text": "According to Tom, what is one benefit of working at the library?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.86
+        },
+        {
+          "index": 4,
+          "question_id": "8-3",
+          "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.42
+        },
+        {
+          "index": 4,
+          "question_id": "8-4",
+          "question_text": "What is Tom's attitude towards tutoring as a job option?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.68
+        },
+        {
+          "index": 4,
+          "question_id": "8-5",
+          "question_text": "What type of roles does the student union typically hire for?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.68
+        }
+      ],
+      "accuracy": 0.72,
+      "summary_text": "llama-3.1-8b with five-shot strategy summary:\nOverall accuracy: 72.00% (18/25)\n\n  Conversation 3 - Transcript of the Audio of Botany Class Discussion: 20.00% (1/5)\n  Conversation 8 - Asking About Recommendations for Campus Jobs During the Semester : 100.00% (5/5)\n  Conversation 10 - Discussing Funding Options for a Student: 80.00% (4/5)\n  Conversation 14 - Seeking Advice on Effective Study Techniques: 100.00% (5/5)\n  Conversation 17 - Asking About Resources for Improving Academic Writing Skills: 60.00% (3/5)"
+    },
+    "chain-of-thought": {
+      "total": 25,
+      "correct": 15,
+      "by_conversation": {
+        "3": {
+          "title": "Transcript of the Audio of Botany Class Discussion",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "3-1",
+              "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+              "correct_answer": "D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 8.82
+            },
+            {
+              "index": 0,
+              "question_id": "3-2",
+              "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+              "correct_answer": "B",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 9.79
+            },
+            {
+              "index": 0,
+              "question_id": "3-3",
+              "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+              "correct_answer": "A",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 9.6
+            },
+            {
+              "index": 0,
+              "question_id": "3-4",
+              "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+              "correct_answer": "C",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 9.81
+            },
+            {
+              "index": 0,
+              "question_id": "3-5",
+              "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+              "correct_answer": "B D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 8.94
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "10": {
+          "title": "Discussing Funding Options for a Student",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "10-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 8.02
+            },
+            {
+              "index": 1,
+              "question_id": "10-2",
+              "question_text": "According to Tom, where should James start looking for scholarships?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 9.57
+            },
+            {
+              "index": 1,
+              "question_id": "10-3",
+              "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 5.17
+            },
+            {
+              "index": 1,
+              "question_id": "10-4",
+              "question_text": "What is Tom's attitude towards student loans?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 5.87
+            },
+            {
+              "index": 1,
+              "question_id": "10-5",
+              "question_text": "What does Tom suggest James should do to stay organised?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 9.28
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "17": {
+          "title": "Asking About Resources for Improving Academic Writing Skills",
+          "total": 5,
+          "correct": 2,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "17-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.75
+            },
+            {
+              "index": 2,
+              "question_id": "17-2",
+              "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 10.01
+            },
+            {
+              "index": 2,
+              "question_id": "17-3",
+              "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 4.55
+            },
+            {
+              "index": 2,
+              "question_id": "17-4",
+              "question_text": "What is Sam's attitude towards the writing centre workshops?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 10.75
+            },
+            {
+              "index": 2,
+              "question_id": "17-5",
+              "question_text": "What specific workshop does Sam recommend to Oliver?",
+              "correct_answer": "B",
+              "model_answer": "D, B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 3.64
+            }
+          ],
+          "accuracy": 0.4
+        },
+        "14": {
+          "title": "Seeking Advice on Effective Study Techniques",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "14-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.21
+            },
+            {
+              "index": 3,
+              "question_id": "14-2",
+              "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+              "correct_answer": "B",
+              "model_answer": "C, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 6.06
+            },
+            {
+              "index": 3,
+              "question_id": "14-3",
+              "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 9.77
+            },
+            {
+              "index": 3,
+              "question_id": "14-4",
+              "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 10.76
+            },
+            {
+              "index": 3,
+              "question_id": "14-5",
+              "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 13.81
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "8": {
+          "title": "Asking About Recommendations for Campus Jobs During the Semester ",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "8-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 9.76
+            },
+            {
+              "index": 4,
+              "question_id": "8-2",
+              "question_text": "According to Tom, what is one benefit of working at the library?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.36
+            },
+            {
+              "index": 4,
+              "question_id": "8-3",
+              "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+              "correct_answer": "B",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 2.87
+            },
+            {
+              "index": 4,
+              "question_id": "8-4",
+              "question_text": "What is Tom's attitude towards tutoring as a job option?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 6.61
+            },
+            {
+              "index": 4,
+              "question_id": "8-5",
+              "question_text": "What type of roles does the student union typically hire for?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 8.54
+            }
+          ],
+          "accuracy": 0.8
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "3-1",
+          "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.82
+        },
+        {
+          "index": 0,
+          "question_id": "3-2",
+          "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+          "correct_answer": "B",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 9.79
+        },
+        {
+          "index": 0,
+          "question_id": "3-3",
+          "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+          "correct_answer": "A",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 9.6
+        },
+        {
+          "index": 0,
+          "question_id": "3-4",
+          "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 9.81
+        },
+        {
+          "index": 0,
+          "question_id": "3-5",
+          "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+          "correct_answer": "B D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 8.94
+        },
+        {
+          "index": 1,
+          "question_id": "10-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.02
+        },
+        {
+          "index": 1,
+          "question_id": "10-2",
+          "question_text": "According to Tom, where should James start looking for scholarships?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.57
+        },
+        {
+          "index": 1,
+          "question_id": "10-3",
+          "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 5.17
+        },
+        {
+          "index": 1,
+          "question_id": "10-4",
+          "question_text": "What is Tom's attitude towards student loans?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 5.87
+        },
+        {
+          "index": 1,
+          "question_id": "10-5",
+          "question_text": "What does Tom suggest James should do to stay organised?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.28
+        },
+        {
+          "index": 2,
+          "question_id": "17-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.75
+        },
+        {
+          "index": 2,
+          "question_id": "17-2",
+          "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 10.01
+        },
+        {
+          "index": 2,
+          "question_id": "17-3",
+          "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 4.55
+        },
+        {
+          "index": 2,
+          "question_id": "17-4",
+          "question_text": "What is Sam's attitude towards the writing centre workshops?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 10.75
+        },
+        {
+          "index": 2,
+          "question_id": "17-5",
+          "question_text": "What specific workshop does Sam recommend to Oliver?",
+          "correct_answer": "B",
+          "model_answer": "D, B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 3.64
+        },
+        {
+          "index": 3,
+          "question_id": "14-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.21
+        },
+        {
+          "index": 3,
+          "question_id": "14-2",
+          "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+          "correct_answer": "B",
+          "model_answer": "C, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.06
+        },
+        {
+          "index": 3,
+          "question_id": "14-3",
+          "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.77
+        },
+        {
+          "index": 3,
+          "question_id": "14-4",
+          "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 10.76
+        },
+        {
+          "index": 3,
+          "question_id": "14-5",
+          "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 13.81
+        },
+        {
+          "index": 4,
+          "question_id": "8-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.76
+        },
+        {
+          "index": 4,
+          "question_id": "8-2",
+          "question_text": "According to Tom, what is one benefit of working at the library?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.36
+        },
+        {
+          "index": 4,
+          "question_id": "8-3",
+          "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 2.87
+        },
+        {
+          "index": 4,
+          "question_id": "8-4",
+          "question_text": "What is Tom's attitude towards tutoring as a job option?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.61
+        },
+        {
+          "index": 4,
+          "question_id": "8-5",
+          "question_text": "What type of roles does the student union typically hire for?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.54
+        }
+      ],
+      "accuracy": 0.6,
+      "summary_text": "llama-3.1-8b with chain-of-thought strategy summary:\nOverall accuracy: 60.00% (15/25)\n\n  Conversation 3 - Transcript of the Audio of Botany Class Discussion: 20.00% (1/5)\n  Conversation 8 - Asking About Recommendations for Campus Jobs During the Semester : 80.00% (4/5)\n  Conversation 10 - Discussing Funding Options for a Student: 80.00% (4/5)\n  Conversation 14 - Seeking Advice on Effective Study Techniques: 80.00% (4/5)\n  Conversation 17 - Asking About Resources for Improving Academic Writing Skills: 40.00% (2/5)"
+    }
+  },
+  "llama-3.1-70b": {
+    "zero-shot": {
+      "total": 25,
+      "correct": 18,
+      "by_conversation": {
+        "3": {
+          "title": "Transcript of the Audio of Botany Class Discussion",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "3-1",
+              "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+              "correct_answer": "D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.53
+            },
+            {
+              "index": 0,
+              "question_id": "3-2",
+              "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+              "correct_answer": "B",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.43
+            },
+            {
+              "index": 0,
+              "question_id": "3-3",
+              "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+              "correct_answer": "A",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 2.48
+            },
+            {
+              "index": 0,
+              "question_id": "3-4",
+              "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+              "correct_answer": "C",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.91
+            },
+            {
+              "index": 0,
+              "question_id": "3-5",
+              "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+              "correct_answer": "B D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.62
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "10": {
+          "title": "Discussing Funding Options for a Student",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "10-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.83
+            },
+            {
+              "index": 1,
+              "question_id": "10-2",
+              "question_text": "According to Tom, where should James start looking for scholarships?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.87
+            },
+            {
+              "index": 1,
+              "question_id": "10-3",
+              "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.7
+            },
+            {
+              "index": 1,
+              "question_id": "10-4",
+              "question_text": "What is Tom's attitude towards student loans?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.07
+            },
+            {
+              "index": 1,
+              "question_id": "10-5",
+              "question_text": "What does Tom suggest James should do to stay organised?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.9
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "17": {
+          "title": "Asking About Resources for Improving Academic Writing Skills",
+          "total": 5,
+          "correct": 3,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "17-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.68
+            },
+            {
+              "index": 2,
+              "question_id": "17-2",
+              "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.99
+            },
+            {
+              "index": 2,
+              "question_id": "17-3",
+              "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.91
+            },
+            {
+              "index": 2,
+              "question_id": "17-4",
+              "question_text": "What is Sam's attitude towards the writing centre workshops?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.45
+            },
+            {
+              "index": 2,
+              "question_id": "17-5",
+              "question_text": "What specific workshop does Sam recommend to Oliver?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.47
+            }
+          ],
+          "accuracy": 0.6
+        },
+        "14": {
+          "title": "Seeking Advice on Effective Study Techniques",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "14-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.93
+            },
+            {
+              "index": 3,
+              "question_id": "14-2",
+              "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.62
+            },
+            {
+              "index": 3,
+              "question_id": "14-3",
+              "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.43
+            },
+            {
+              "index": 3,
+              "question_id": "14-4",
+              "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.7
+            },
+            {
+              "index": 3,
+              "question_id": "14-5",
+              "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.85
+            }
+          ],
+          "accuracy": 1.0
+        },
+        "8": {
+          "title": "Asking About Recommendations for Campus Jobs During the Semester ",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "8-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.1
+            },
+            {
+              "index": 4,
+              "question_id": "8-2",
+              "question_text": "According to Tom, what is one benefit of working at the library?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.94
+            },
+            {
+              "index": 4,
+              "question_id": "8-3",
+              "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.56
+            },
+            {
+              "index": 4,
+              "question_id": "8-4",
+              "question_text": "What is Tom's attitude towards tutoring as a job option?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.93
+            },
+            {
+              "index": 4,
+              "question_id": "8-5",
+              "question_text": "What type of roles does the student union typically hire for?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.12
+            }
+          ],
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "3-1",
+          "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.53
+        },
+        {
+          "index": 0,
+          "question_id": "3-2",
+          "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+          "correct_answer": "B",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.43
+        },
+        {
+          "index": 0,
+          "question_id": "3-3",
+          "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+          "correct_answer": "A",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 2.48
+        },
+        {
+          "index": 0,
+          "question_id": "3-4",
+          "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.91
+        },
+        {
+          "index": 0,
+          "question_id": "3-5",
+          "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+          "correct_answer": "B D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.62
+        },
+        {
+          "index": 1,
+          "question_id": "10-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.83
+        },
+        {
+          "index": 1,
+          "question_id": "10-2",
+          "question_text": "According to Tom, where should James start looking for scholarships?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.87
+        },
+        {
+          "index": 1,
+          "question_id": "10-3",
+          "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.7
+        },
+        {
+          "index": 1,
+          "question_id": "10-4",
+          "question_text": "What is Tom's attitude towards student loans?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.07
+        },
+        {
+          "index": 1,
+          "question_id": "10-5",
+          "question_text": "What does Tom suggest James should do to stay organised?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.9
+        },
+        {
+          "index": 2,
+          "question_id": "17-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.68
+        },
+        {
+          "index": 2,
+          "question_id": "17-2",
+          "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.99
+        },
+        {
+          "index": 2,
+          "question_id": "17-3",
+          "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.91
+        },
+        {
+          "index": 2,
+          "question_id": "17-4",
+          "question_text": "What is Sam's attitude towards the writing centre workshops?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.45
+        },
+        {
+          "index": 2,
+          "question_id": "17-5",
+          "question_text": "What specific workshop does Sam recommend to Oliver?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.47
+        },
+        {
+          "index": 3,
+          "question_id": "14-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.93
+        },
+        {
+          "index": 3,
+          "question_id": "14-2",
+          "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.62
+        },
+        {
+          "index": 3,
+          "question_id": "14-3",
+          "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.43
+        },
+        {
+          "index": 3,
+          "question_id": "14-4",
+          "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.7
+        },
+        {
+          "index": 3,
+          "question_id": "14-5",
+          "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.85
+        },
+        {
+          "index": 4,
+          "question_id": "8-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.1
+        },
+        {
+          "index": 4,
+          "question_id": "8-2",
+          "question_text": "According to Tom, what is one benefit of working at the library?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.94
+        },
+        {
+          "index": 4,
+          "question_id": "8-3",
+          "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.56
+        },
+        {
+          "index": 4,
+          "question_id": "8-4",
+          "question_text": "What is Tom's attitude towards tutoring as a job option?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.93
+        },
+        {
+          "index": 4,
+          "question_id": "8-5",
+          "question_text": "What type of roles does the student union typically hire for?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.12
+        }
+      ],
+      "accuracy": 0.72,
+      "summary_text": "llama-3.1-70b with zero-shot strategy summary:\nOverall accuracy: 72.00% (18/25)\n\n  Conversation 3 - Transcript of the Audio of Botany Class Discussion: 20.00% (1/5)\n  Conversation 8 - Asking About Recommendations for Campus Jobs During the Semester : 100.00% (5/5)\n  Conversation 10 - Discussing Funding Options for a Student: 80.00% (4/5)\n  Conversation 14 - Seeking Advice on Effective Study Techniques: 100.00% (5/5)\n  Conversation 17 - Asking About Resources for Improving Academic Writing Skills: 60.00% (3/5)"
+    },
+    "five-shot": {
+      "total": 25,
+      "correct": 18,
+      "by_conversation": {
+        "3": {
+          "title": "Transcript of the Audio of Botany Class Discussion",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "3-1",
+              "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+              "correct_answer": "D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.96
+            },
+            {
+              "index": 0,
+              "question_id": "3-2",
+              "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+              "correct_answer": "B",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.74
+            },
+            {
+              "index": 0,
+              "question_id": "3-3",
+              "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+              "correct_answer": "A",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.44
+            },
+            {
+              "index": 0,
+              "question_id": "3-4",
+              "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+              "correct_answer": "C",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.38
+            },
+            {
+              "index": 0,
+              "question_id": "3-5",
+              "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+              "correct_answer": "B D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.33
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "10": {
+          "title": "Discussing Funding Options for a Student",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "10-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.9
+            },
+            {
+              "index": 1,
+              "question_id": "10-2",
+              "question_text": "According to Tom, where should James start looking for scholarships?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.84
+            },
+            {
+              "index": 1,
+              "question_id": "10-3",
+              "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.95
+            },
+            {
+              "index": 1,
+              "question_id": "10-4",
+              "question_text": "What is Tom's attitude towards student loans?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.08
+            },
+            {
+              "index": 1,
+              "question_id": "10-5",
+              "question_text": "What does Tom suggest James should do to stay organised?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.92
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "17": {
+          "title": "Asking About Resources for Improving Academic Writing Skills",
+          "total": 5,
+          "correct": 3,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "17-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.62
+            },
+            {
+              "index": 2,
+              "question_id": "17-2",
+              "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.78
+            },
+            {
+              "index": 2,
+              "question_id": "17-3",
+              "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.75
+            },
+            {
+              "index": 2,
+              "question_id": "17-4",
+              "question_text": "What is Sam's attitude towards the writing centre workshops?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.8
+            },
+            {
+              "index": 2,
+              "question_id": "17-5",
+              "question_text": "What specific workshop does Sam recommend to Oliver?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.77
+            }
+          ],
+          "accuracy": 0.6
+        },
+        "14": {
+          "title": "Seeking Advice on Effective Study Techniques",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "14-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.0
+            },
+            {
+              "index": 3,
+              "question_id": "14-2",
+              "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.82
+            },
+            {
+              "index": 3,
+              "question_id": "14-3",
+              "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.62
+            },
+            {
+              "index": 3,
+              "question_id": "14-4",
+              "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.68
+            },
+            {
+              "index": 3,
+              "question_id": "14-5",
+              "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.79
+            }
+          ],
+          "accuracy": 1.0
+        },
+        "8": {
+          "title": "Asking About Recommendations for Campus Jobs During the Semester ",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "8-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.38
+            },
+            {
+              "index": 4,
+              "question_id": "8-2",
+              "question_text": "According to Tom, what is one benefit of working at the library?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.8
+            },
+            {
+              "index": 4,
+              "question_id": "8-3",
+              "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.86
+            },
+            {
+              "index": 4,
+              "question_id": "8-4",
+              "question_text": "What is Tom's attitude towards tutoring as a job option?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.64
+            },
+            {
+              "index": 4,
+              "question_id": "8-5",
+              "question_text": "What type of roles does the student union typically hire for?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.6
+            }
+          ],
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "3-1",
+          "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.96
+        },
+        {
+          "index": 0,
+          "question_id": "3-2",
+          "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+          "correct_answer": "B",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.74
+        },
+        {
+          "index": 0,
+          "question_id": "3-3",
+          "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+          "correct_answer": "A",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.44
+        },
+        {
+          "index": 0,
+          "question_id": "3-4",
+          "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.38
+        },
+        {
+          "index": 0,
+          "question_id": "3-5",
+          "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+          "correct_answer": "B D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.33
+        },
+        {
+          "index": 1,
+          "question_id": "10-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.9
+        },
+        {
+          "index": 1,
+          "question_id": "10-2",
+          "question_text": "According to Tom, where should James start looking for scholarships?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.84
+        },
+        {
+          "index": 1,
+          "question_id": "10-3",
+          "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.95
+        },
+        {
+          "index": 1,
+          "question_id": "10-4",
+          "question_text": "What is Tom's attitude towards student loans?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.08
+        },
+        {
+          "index": 1,
+          "question_id": "10-5",
+          "question_text": "What does Tom suggest James should do to stay organised?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.92
+        },
+        {
+          "index": 2,
+          "question_id": "17-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.62
+        },
+        {
+          "index": 2,
+          "question_id": "17-2",
+          "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.78
+        },
+        {
+          "index": 2,
+          "question_id": "17-3",
+          "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.75
+        },
+        {
+          "index": 2,
+          "question_id": "17-4",
+          "question_text": "What is Sam's attitude towards the writing centre workshops?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.8
+        },
+        {
+          "index": 2,
+          "question_id": "17-5",
+          "question_text": "What specific workshop does Sam recommend to Oliver?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.77
+        },
+        {
+          "index": 3,
+          "question_id": "14-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.0
+        },
+        {
+          "index": 3,
+          "question_id": "14-2",
+          "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.82
+        },
+        {
+          "index": 3,
+          "question_id": "14-3",
+          "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.62
+        },
+        {
+          "index": 3,
+          "question_id": "14-4",
+          "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.68
+        },
+        {
+          "index": 3,
+          "question_id": "14-5",
+          "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.79
+        },
+        {
+          "index": 4,
+          "question_id": "8-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.38
+        },
+        {
+          "index": 4,
+          "question_id": "8-2",
+          "question_text": "According to Tom, what is one benefit of working at the library?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.8
+        },
+        {
+          "index": 4,
+          "question_id": "8-3",
+          "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.86
+        },
+        {
+          "index": 4,
+          "question_id": "8-4",
+          "question_text": "What is Tom's attitude towards tutoring as a job option?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.64
+        },
+        {
+          "index": 4,
+          "question_id": "8-5",
+          "question_text": "What type of roles does the student union typically hire for?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.6
+        }
+      ],
+      "accuracy": 0.72,
+      "summary_text": "llama-3.1-70b with five-shot strategy summary:\nOverall accuracy: 72.00% (18/25)\n\n  Conversation 3 - Transcript of the Audio of Botany Class Discussion: 20.00% (1/5)\n  Conversation 8 - Asking About Recommendations for Campus Jobs During the Semester : 100.00% (5/5)\n  Conversation 10 - Discussing Funding Options for a Student: 80.00% (4/5)\n  Conversation 14 - Seeking Advice on Effective Study Techniques: 100.00% (5/5)\n  Conversation 17 - Asking About Resources for Improving Academic Writing Skills: 60.00% (3/5)"
+    },
+    "chain-of-thought": {
+      "total": 25,
+      "correct": 15,
+      "by_conversation": {
+        "3": {
+          "title": "Transcript of the Audio of Botany Class Discussion",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "3-1",
+              "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+              "correct_answer": "D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 6.53
+            },
+            {
+              "index": 0,
+              "question_id": "3-2",
+              "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+              "correct_answer": "B",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.24
+            },
+            {
+              "index": 0,
+              "question_id": "3-3",
+              "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+              "correct_answer": "A",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 6.39
+            },
+            {
+              "index": 0,
+              "question_id": "3-4",
+              "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+              "correct_answer": "C",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 7.24
+            },
+            {
+              "index": 0,
+              "question_id": "3-5",
+              "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+              "correct_answer": "B D",
+              "model_answer": "C, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 10.37
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "10": {
+          "title": "Discussing Funding Options for a Student",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "10-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 6.34
+            },
+            {
+              "index": 1,
+              "question_id": "10-2",
+              "question_text": "According to Tom, where should James start looking for scholarships?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.01
+            },
+            {
+              "index": 1,
+              "question_id": "10-3",
+              "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 8.83
+            },
+            {
+              "index": 1,
+              "question_id": "10-4",
+              "question_text": "What is Tom's attitude towards student loans?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 5.84
+            },
+            {
+              "index": 1,
+              "question_id": "10-5",
+              "question_text": "What does Tom suggest James should do to stay organised?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.0
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "17": {
+          "title": "Asking About Resources for Improving Academic Writing Skills",
+          "total": 5,
+          "correct": 2,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "17-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 5.68
+            },
+            {
+              "index": 2,
+              "question_id": "17-2",
+              "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 6.01
+            },
+            {
+              "index": 2,
+              "question_id": "17-3",
+              "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.87
+            },
+            {
+              "index": 2,
+              "question_id": "17-4",
+              "question_text": "What is Sam's attitude towards the writing centre workshops?",
+              "correct_answer": "B",
+              "model_answer": "A, B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.77
+            },
+            {
+              "index": 2,
+              "question_id": "17-5",
+              "question_text": "What specific workshop does Sam recommend to Oliver?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.2
+            }
+          ],
+          "accuracy": 0.4
+        },
+        "14": {
+          "title": "Seeking Advice on Effective Study Techniques",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "14-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+              "correct_answer": "B",
+              "model_answer": "D, C",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 8.45
+            },
+            {
+              "index": 3,
+              "question_id": "14-2",
+              "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.91
+            },
+            {
+              "index": 3,
+              "question_id": "14-3",
+              "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.15
+            },
+            {
+              "index": 3,
+              "question_id": "14-4",
+              "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 6.79
+            },
+            {
+              "index": 3,
+              "question_id": "14-5",
+              "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.67
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "8": {
+          "title": "Asking About Recommendations for Campus Jobs During the Semester ",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "8-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.06
+            },
+            {
+              "index": 4,
+              "question_id": "8-2",
+              "question_text": "According to Tom, what is one benefit of working at the library?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.11
+            },
+            {
+              "index": 4,
+              "question_id": "8-3",
+              "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 6.49
+            },
+            {
+              "index": 4,
+              "question_id": "8-4",
+              "question_text": "What is Tom's attitude towards tutoring as a job option?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.95
+            },
+            {
+              "index": 4,
+              "question_id": "8-5",
+              "question_text": "What type of roles does the student union typically hire for?",
+              "correct_answer": "B",
+              "model_answer": "D, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 6.52
+            }
+          ],
+          "accuracy": 0.8
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "3-1",
+          "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.53
+        },
+        {
+          "index": 0,
+          "question_id": "3-2",
+          "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+          "correct_answer": "B",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.24
+        },
+        {
+          "index": 0,
+          "question_id": "3-3",
+          "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+          "correct_answer": "A",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.39
+        },
+        {
+          "index": 0,
+          "question_id": "3-4",
+          "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 7.24
+        },
+        {
+          "index": 0,
+          "question_id": "3-5",
+          "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+          "correct_answer": "B D",
+          "model_answer": "C, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 10.37
+        },
+        {
+          "index": 1,
+          "question_id": "10-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.34
+        },
+        {
+          "index": 1,
+          "question_id": "10-2",
+          "question_text": "According to Tom, where should James start looking for scholarships?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.01
+        },
+        {
+          "index": 1,
+          "question_id": "10-3",
+          "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.83
+        },
+        {
+          "index": 1,
+          "question_id": "10-4",
+          "question_text": "What is Tom's attitude towards student loans?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 5.84
+        },
+        {
+          "index": 1,
+          "question_id": "10-5",
+          "question_text": "What does Tom suggest James should do to stay organised?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.0
+        },
+        {
+          "index": 2,
+          "question_id": "17-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 5.68
+        },
+        {
+          "index": 2,
+          "question_id": "17-2",
+          "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.01
+        },
+        {
+          "index": 2,
+          "question_id": "17-3",
+          "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.87
+        },
+        {
+          "index": 2,
+          "question_id": "17-4",
+          "question_text": "What is Sam's attitude towards the writing centre workshops?",
+          "correct_answer": "B",
+          "model_answer": "A, B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.77
+        },
+        {
+          "index": 2,
+          "question_id": "17-5",
+          "question_text": "What specific workshop does Sam recommend to Oliver?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.2
+        },
+        {
+          "index": 3,
+          "question_id": "14-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+          "correct_answer": "B",
+          "model_answer": "D, C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 8.45
+        },
+        {
+          "index": 3,
+          "question_id": "14-2",
+          "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.91
+        },
+        {
+          "index": 3,
+          "question_id": "14-3",
+          "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.15
+        },
+        {
+          "index": 3,
+          "question_id": "14-4",
+          "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.79
+        },
+        {
+          "index": 3,
+          "question_id": "14-5",
+          "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.67
+        },
+        {
+          "index": 4,
+          "question_id": "8-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.06
+        },
+        {
+          "index": 4,
+          "question_id": "8-2",
+          "question_text": "According to Tom, what is one benefit of working at the library?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.11
+        },
+        {
+          "index": 4,
+          "question_id": "8-3",
+          "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.49
+        },
+        {
+          "index": 4,
+          "question_id": "8-4",
+          "question_text": "What is Tom's attitude towards tutoring as a job option?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.95
+        },
+        {
+          "index": 4,
+          "question_id": "8-5",
+          "question_text": "What type of roles does the student union typically hire for?",
+          "correct_answer": "B",
+          "model_answer": "D, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.52
+        }
+      ],
+      "accuracy": 0.6,
+      "summary_text": "llama-3.1-70b with chain-of-thought strategy summary:\nOverall accuracy: 60.00% (15/25)\n\n  Conversation 3 - Transcript of the Audio of Botany Class Discussion: 20.00% (1/5)\n  Conversation 8 - Asking About Recommendations for Campus Jobs During the Semester : 80.00% (4/5)\n  Conversation 10 - Discussing Funding Options for a Student: 80.00% (4/5)\n  Conversation 14 - Seeking Advice on Effective Study Techniques: 80.00% (4/5)\n  Conversation 17 - Asking About Resources for Improving Academic Writing Skills: 40.00% (2/5)"
+    }
+  },
+  "llama-3.1-405b": {
+    "zero-shot": {
+      "total": 25,
+      "correct": 18,
+      "by_conversation": {
+        "3": {
+          "title": "Transcript of the Audio of Botany Class Discussion",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "3-1",
+              "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+              "correct_answer": "D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.78
+            },
+            {
+              "index": 0,
+              "question_id": "3-2",
+              "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+              "correct_answer": "B",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.84
+            },
+            {
+              "index": 0,
+              "question_id": "3-3",
+              "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+              "correct_answer": "A",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.59
+            },
+            {
+              "index": 0,
+              "question_id": "3-4",
+              "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+              "correct_answer": "C",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.95
+            },
+            {
+              "index": 0,
+              "question_id": "3-5",
+              "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+              "correct_answer": "B D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.79
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "10": {
+          "title": "Discussing Funding Options for a Student",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "10-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.57
+            },
+            {
+              "index": 1,
+              "question_id": "10-2",
+              "question_text": "According to Tom, where should James start looking for scholarships?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.62
+            },
+            {
+              "index": 1,
+              "question_id": "10-3",
+              "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.82
+            },
+            {
+              "index": 1,
+              "question_id": "10-4",
+              "question_text": "What is Tom's attitude towards student loans?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.02
+            },
+            {
+              "index": 1,
+              "question_id": "10-5",
+              "question_text": "What does Tom suggest James should do to stay organised?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.6
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "17": {
+          "title": "Asking About Resources for Improving Academic Writing Skills",
+          "total": 5,
+          "correct": 3,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "17-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.6
+            },
+            {
+              "index": 2,
+              "question_id": "17-2",
+              "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.63
+            },
+            {
+              "index": 2,
+              "question_id": "17-3",
+              "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.53
+            },
+            {
+              "index": 2,
+              "question_id": "17-4",
+              "question_text": "What is Sam's attitude towards the writing centre workshops?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.78
+            },
+            {
+              "index": 2,
+              "question_id": "17-5",
+              "question_text": "What specific workshop does Sam recommend to Oliver?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.53
+            }
+          ],
+          "accuracy": 0.6
+        },
+        "14": {
+          "title": "Seeking Advice on Effective Study Techniques",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "14-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.89
+            },
+            {
+              "index": 3,
+              "question_id": "14-2",
+              "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.8
+            },
+            {
+              "index": 3,
+              "question_id": "14-3",
+              "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.91
+            },
+            {
+              "index": 3,
+              "question_id": "14-4",
+              "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.62
+            },
+            {
+              "index": 3,
+              "question_id": "14-5",
+              "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.0
+            }
+          ],
+          "accuracy": 1.0
+        },
+        "8": {
+          "title": "Asking About Recommendations for Campus Jobs During the Semester ",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "8-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.63
+            },
+            {
+              "index": 4,
+              "question_id": "8-2",
+              "question_text": "According to Tom, what is one benefit of working at the library?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.85
+            },
+            {
+              "index": 4,
+              "question_id": "8-3",
+              "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.76
+            },
+            {
+              "index": 4,
+              "question_id": "8-4",
+              "question_text": "What is Tom's attitude towards tutoring as a job option?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.85
+            },
+            {
+              "index": 4,
+              "question_id": "8-5",
+              "question_text": "What type of roles does the student union typically hire for?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.63
+            }
+          ],
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "3-1",
+          "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.78
+        },
+        {
+          "index": 0,
+          "question_id": "3-2",
+          "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+          "correct_answer": "B",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.84
+        },
+        {
+          "index": 0,
+          "question_id": "3-3",
+          "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+          "correct_answer": "A",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.59
+        },
+        {
+          "index": 0,
+          "question_id": "3-4",
+          "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.95
+        },
+        {
+          "index": 0,
+          "question_id": "3-5",
+          "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+          "correct_answer": "B D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.79
+        },
+        {
+          "index": 1,
+          "question_id": "10-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.57
+        },
+        {
+          "index": 1,
+          "question_id": "10-2",
+          "question_text": "According to Tom, where should James start looking for scholarships?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.62
+        },
+        {
+          "index": 1,
+          "question_id": "10-3",
+          "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.82
+        },
+        {
+          "index": 1,
+          "question_id": "10-4",
+          "question_text": "What is Tom's attitude towards student loans?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.02
+        },
+        {
+          "index": 1,
+          "question_id": "10-5",
+          "question_text": "What does Tom suggest James should do to stay organised?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.6
+        },
+        {
+          "index": 2,
+          "question_id": "17-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.6
+        },
+        {
+          "index": 2,
+          "question_id": "17-2",
+          "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.63
+        },
+        {
+          "index": 2,
+          "question_id": "17-3",
+          "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.53
+        },
+        {
+          "index": 2,
+          "question_id": "17-4",
+          "question_text": "What is Sam's attitude towards the writing centre workshops?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.78
+        },
+        {
+          "index": 2,
+          "question_id": "17-5",
+          "question_text": "What specific workshop does Sam recommend to Oliver?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.53
+        },
+        {
+          "index": 3,
+          "question_id": "14-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.89
+        },
+        {
+          "index": 3,
+          "question_id": "14-2",
+          "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.8
+        },
+        {
+          "index": 3,
+          "question_id": "14-3",
+          "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.91
+        },
+        {
+          "index": 3,
+          "question_id": "14-4",
+          "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.62
+        },
+        {
+          "index": 3,
+          "question_id": "14-5",
+          "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.0
+        },
+        {
+          "index": 4,
+          "question_id": "8-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.63
+        },
+        {
+          "index": 4,
+          "question_id": "8-2",
+          "question_text": "According to Tom, what is one benefit of working at the library?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.85
+        },
+        {
+          "index": 4,
+          "question_id": "8-3",
+          "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.76
+        },
+        {
+          "index": 4,
+          "question_id": "8-4",
+          "question_text": "What is Tom's attitude towards tutoring as a job option?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.85
+        },
+        {
+          "index": 4,
+          "question_id": "8-5",
+          "question_text": "What type of roles does the student union typically hire for?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.63
+        }
+      ],
+      "accuracy": 0.72,
+      "summary_text": "llama-3.1-405b with zero-shot strategy summary:\nOverall accuracy: 72.00% (18/25)\n\n  Conversation 3 - Transcript of the Audio of Botany Class Discussion: 20.00% (1/5)\n  Conversation 8 - Asking About Recommendations for Campus Jobs During the Semester : 100.00% (5/5)\n  Conversation 10 - Discussing Funding Options for a Student: 80.00% (4/5)\n  Conversation 14 - Seeking Advice on Effective Study Techniques: 100.00% (5/5)\n  Conversation 17 - Asking About Resources for Improving Academic Writing Skills: 60.00% (3/5)"
+    },
+    "five-shot": {
+      "total": 25,
+      "correct": 18,
+      "by_conversation": {
+        "3": {
+          "title": "Transcript of the Audio of Botany Class Discussion",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "3-1",
+              "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+              "correct_answer": "D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.82
+            },
+            {
+              "index": 0,
+              "question_id": "3-2",
+              "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+              "correct_answer": "B",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.73
+            },
+            {
+              "index": 0,
+              "question_id": "3-3",
+              "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+              "correct_answer": "A",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.72
+            },
+            {
+              "index": 0,
+              "question_id": "3-4",
+              "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+              "correct_answer": "C",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.67
+            },
+            {
+              "index": 0,
+              "question_id": "3-5",
+              "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+              "correct_answer": "B D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.86
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "10": {
+          "title": "Discussing Funding Options for a Student",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "10-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.67
+            },
+            {
+              "index": 1,
+              "question_id": "10-2",
+              "question_text": "According to Tom, where should James start looking for scholarships?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 2.2
+            },
+            {
+              "index": 1,
+              "question_id": "10-3",
+              "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.67
+            },
+            {
+              "index": 1,
+              "question_id": "10-4",
+              "question_text": "What is Tom's attitude towards student loans?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.77
+            },
+            {
+              "index": 1,
+              "question_id": "10-5",
+              "question_text": "What does Tom suggest James should do to stay organised?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.64
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "17": {
+          "title": "Asking About Resources for Improving Academic Writing Skills",
+          "total": 5,
+          "correct": 3,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "17-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.87
+            },
+            {
+              "index": 2,
+              "question_id": "17-2",
+              "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.66
+            },
+            {
+              "index": 2,
+              "question_id": "17-3",
+              "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.81
+            },
+            {
+              "index": 2,
+              "question_id": "17-4",
+              "question_text": "What is Sam's attitude towards the writing centre workshops?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.64
+            },
+            {
+              "index": 2,
+              "question_id": "17-5",
+              "question_text": "What specific workshop does Sam recommend to Oliver?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.94
+            }
+          ],
+          "accuracy": 0.6
+        },
+        "14": {
+          "title": "Seeking Advice on Effective Study Techniques",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "14-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.62
+            },
+            {
+              "index": 3,
+              "question_id": "14-2",
+              "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.57
+            },
+            {
+              "index": 3,
+              "question_id": "14-3",
+              "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.01
+            },
+            {
+              "index": 3,
+              "question_id": "14-4",
+              "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.81
+            },
+            {
+              "index": 3,
+              "question_id": "14-5",
+              "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.0
+            }
+          ],
+          "accuracy": 1.0
+        },
+        "8": {
+          "title": "Asking About Recommendations for Campus Jobs During the Semester ",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "8-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.66
+            },
+            {
+              "index": 4,
+              "question_id": "8-2",
+              "question_text": "According to Tom, what is one benefit of working at the library?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.72
+            },
+            {
+              "index": 4,
+              "question_id": "8-3",
+              "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.76
+            },
+            {
+              "index": 4,
+              "question_id": "8-4",
+              "question_text": "What is Tom's attitude towards tutoring as a job option?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.72
+            },
+            {
+              "index": 4,
+              "question_id": "8-5",
+              "question_text": "What type of roles does the student union typically hire for?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.64
+            }
+          ],
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "3-1",
+          "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.82
+        },
+        {
+          "index": 0,
+          "question_id": "3-2",
+          "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+          "correct_answer": "B",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.73
+        },
+        {
+          "index": 0,
+          "question_id": "3-3",
+          "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+          "correct_answer": "A",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.72
+        },
+        {
+          "index": 0,
+          "question_id": "3-4",
+          "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.67
+        },
+        {
+          "index": 0,
+          "question_id": "3-5",
+          "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+          "correct_answer": "B D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.86
+        },
+        {
+          "index": 1,
+          "question_id": "10-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.67
+        },
+        {
+          "index": 1,
+          "question_id": "10-2",
+          "question_text": "According to Tom, where should James start looking for scholarships?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 2.2
+        },
+        {
+          "index": 1,
+          "question_id": "10-3",
+          "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.67
+        },
+        {
+          "index": 1,
+          "question_id": "10-4",
+          "question_text": "What is Tom's attitude towards student loans?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.77
+        },
+        {
+          "index": 1,
+          "question_id": "10-5",
+          "question_text": "What does Tom suggest James should do to stay organised?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.64
+        },
+        {
+          "index": 2,
+          "question_id": "17-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.87
+        },
+        {
+          "index": 2,
+          "question_id": "17-2",
+          "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.66
+        },
+        {
+          "index": 2,
+          "question_id": "17-3",
+          "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.81
+        },
+        {
+          "index": 2,
+          "question_id": "17-4",
+          "question_text": "What is Sam's attitude towards the writing centre workshops?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.64
+        },
+        {
+          "index": 2,
+          "question_id": "17-5",
+          "question_text": "What specific workshop does Sam recommend to Oliver?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.94
+        },
+        {
+          "index": 3,
+          "question_id": "14-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.62
+        },
+        {
+          "index": 3,
+          "question_id": "14-2",
+          "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.57
+        },
+        {
+          "index": 3,
+          "question_id": "14-3",
+          "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.01
+        },
+        {
+          "index": 3,
+          "question_id": "14-4",
+          "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.81
+        },
+        {
+          "index": 3,
+          "question_id": "14-5",
+          "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.0
+        },
+        {
+          "index": 4,
+          "question_id": "8-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.66
+        },
+        {
+          "index": 4,
+          "question_id": "8-2",
+          "question_text": "According to Tom, what is one benefit of working at the library?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.72
+        },
+        {
+          "index": 4,
+          "question_id": "8-3",
+          "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.76
+        },
+        {
+          "index": 4,
+          "question_id": "8-4",
+          "question_text": "What is Tom's attitude towards tutoring as a job option?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.72
+        },
+        {
+          "index": 4,
+          "question_id": "8-5",
+          "question_text": "What type of roles does the student union typically hire for?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.64
+        }
+      ],
+      "accuracy": 0.72,
+      "summary_text": "llama-3.1-405b with five-shot strategy summary:\nOverall accuracy: 72.00% (18/25)\n\n  Conversation 3 - Transcript of the Audio of Botany Class Discussion: 20.00% (1/5)\n  Conversation 8 - Asking About Recommendations for Campus Jobs During the Semester : 100.00% (5/5)\n  Conversation 10 - Discussing Funding Options for a Student: 80.00% (4/5)\n  Conversation 14 - Seeking Advice on Effective Study Techniques: 100.00% (5/5)\n  Conversation 17 - Asking About Resources for Improving Academic Writing Skills: 60.00% (3/5)"
+    },
+    "chain-of-thought": {
+      "total": 25,
+      "correct": 11,
+      "by_conversation": {
+        "3": {
+          "title": "Transcript of the Audio of Botany Class Discussion",
+          "total": 5,
+          "correct": 2,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "3-1",
+              "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+              "correct_answer": "D",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 14.61
+            },
+            {
+              "index": 0,
+              "question_id": "3-2",
+              "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+              "correct_answer": "B",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 7.29
+            },
+            {
+              "index": 0,
+              "question_id": "3-3",
+              "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+              "correct_answer": "A",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 11.22
+            },
+            {
+              "index": 0,
+              "question_id": "3-4",
+              "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+              "correct_answer": "C",
+              "model_answer": "D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 8.54
+            },
+            {
+              "index": 0,
+              "question_id": "3-5",
+              "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+              "correct_answer": "B D",
+              "model_answer": "A, C",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 9.27
+            }
+          ],
+          "accuracy": 0.4
+        },
+        "10": {
+          "title": "Discussing Funding Options for a Student",
+          "total": 5,
+          "correct": 3,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "10-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 10.87
+            },
+            {
+              "index": 1,
+              "question_id": "10-2",
+              "question_text": "According to Tom, where should James start looking for scholarships?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.47
+            },
+            {
+              "index": 1,
+              "question_id": "10-3",
+              "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+              "correct_answer": "B",
+              "model_answer": "D, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 6.86
+            },
+            {
+              "index": 1,
+              "question_id": "10-4",
+              "question_text": "What is Tom's attitude towards student loans?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 5.9
+            },
+            {
+              "index": 1,
+              "question_id": "10-5",
+              "question_text": "What does Tom suggest James should do to stay organised?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.77
+            }
+          ],
+          "accuracy": 0.6
+        },
+        "17": {
+          "title": "Asking About Resources for Improving Academic Writing Skills",
+          "total": 5,
+          "correct": 0,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "17-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+              "correct_answer": "B",
+              "model_answer": "D, C",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 9.91
+            },
+            {
+              "index": 2,
+              "question_id": "17-2",
+              "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 7.51
+            },
+            {
+              "index": 2,
+              "question_id": "17-3",
+              "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 5.68
+            },
+            {
+              "index": 2,
+              "question_id": "17-4",
+              "question_text": "What is Sam's attitude towards the writing centre workshops?",
+              "correct_answer": "B",
+              "model_answer": "D, D",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 6.61
+            },
+            {
+              "index": 2,
+              "question_id": "17-5",
+              "question_text": "What specific workshop does Sam recommend to Oliver?",
+              "correct_answer": "B",
+              "model_answer": "D, C",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 6.63
+            }
+          ],
+          "accuracy": 0.0
+        },
+        "14": {
+          "title": "Seeking Advice on Effective Study Techniques",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "14-1",
+              "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.67
+            },
+            {
+              "index": 3,
+              "question_id": "14-2",
+              "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+              "correct_answer": "B",
+              "model_answer": "D, B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 6.97
+            },
+            {
+              "index": 3,
+              "question_id": "14-3",
+              "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 10.63
+            },
+            {
+              "index": 3,
+              "question_id": "14-4",
+              "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.36
+            },
+            {
+              "index": 3,
+              "question_id": "14-5",
+              "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 9.13
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "8": {
+          "title": "Asking About Recommendations for Campus Jobs During the Semester ",
+          "total": 5,
+          "correct": 2,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "8-1",
+              "question_text": "What is the main purpose of James's conversation with Tom?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 11.24
+            },
+            {
+              "index": 4,
+              "question_id": "8-2",
+              "question_text": "According to Tom, what is one benefit of working at the library?",
+              "correct_answer": "B",
+              "model_answer": "D, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 8.86
+            },
+            {
+              "index": 4,
+              "question_id": "8-3",
+              "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.2
+            },
+            {
+              "index": 4,
+              "question_id": "8-4",
+              "question_text": "What is Tom's attitude towards tutoring as a job option?",
+              "correct_answer": "B",
+              "model_answer": "D, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 12.87
+            },
+            {
+              "index": 4,
+              "question_id": "8-5",
+              "question_text": "What type of roles does the student union typically hire for?",
+              "correct_answer": "B",
+              "model_answer": "D, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 8.85
+            }
+          ],
+          "accuracy": 0.4
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "3-1",
+          "question_text": "What is the primary focus of the professor's lecture regarding Manila hemp fibers?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 14.61
+        },
+        {
+          "index": 0,
+          "question_id": "3-2",
+          "question_text": "What is the professor's implication regarding the term \"Manila hemp\"?",
+          "correct_answer": "B",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 7.29
+        },
+        {
+          "index": 0,
+          "question_id": "3-3",
+          "question_text": "Why did the professor bring up the Golden Gate Bridge?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 11.22
+        },
+        {
+          "index": 0,
+          "question_id": "3-4",
+          "question_text": "According to the professor, what was the primary factor leading many ships to use Manila hemp ropes instead of steel cables?",
+          "correct_answer": "C",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 8.54
+        },
+        {
+          "index": 0,
+          "question_id": "3-5",
+          "question_text": "According to the lecture, what are two methods suggested for enhancing the durability of rope crafted from Manila hemp fibers?  - Choose 2 answers.",
+          "correct_answer": "B D",
+          "model_answer": "A, C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 9.27
+        },
+        {
+          "index": 1,
+          "question_id": "10-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 10.87
+        },
+        {
+          "index": 1,
+          "question_id": "10-2",
+          "question_text": "According to Tom, where should James start looking for scholarships?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.47
+        },
+        {
+          "index": 1,
+          "question_id": "10-3",
+          "question_text": "What does Tom mean when he says, “Just make sure you find a job that’s flexible enough to accommodate your class schedule”?",
+          "correct_answer": "B",
+          "model_answer": "D, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.86
+        },
+        {
+          "index": 1,
+          "question_id": "10-4",
+          "question_text": "What is Tom's attitude towards student loans?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 5.9
+        },
+        {
+          "index": 1,
+          "question_id": "10-5",
+          "question_text": "What does Tom suggest James should do to stay organised?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.77
+        },
+        {
+          "index": 2,
+          "question_id": "17-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Sam?  ",
+          "correct_answer": "B",
+          "model_answer": "D, C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 9.91
+        },
+        {
+          "index": 2,
+          "question_id": "17-2",
+          "question_text": "According to Sam, what resource does he recommend for improving essay structure? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 7.51
+        },
+        {
+          "index": 2,
+          "question_id": "17-3",
+          "question_text": "What does Sam mean when he says, “The instructors provide practical tips and even offer one-on-one feedback on your writing”?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 5.68
+        },
+        {
+          "index": 2,
+          "question_id": "17-4",
+          "question_text": "What is Sam's attitude towards the writing centre workshops?",
+          "correct_answer": "B",
+          "model_answer": "D, D",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.61
+        },
+        {
+          "index": 2,
+          "question_id": "17-5",
+          "question_text": "What specific workshop does Sam recommend to Oliver?",
+          "correct_answer": "B",
+          "model_answer": "D, C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.63
+        },
+        {
+          "index": 3,
+          "question_id": "14-1",
+          "question_text": "What is the main purpose of Oliver's conversation with Jake?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.67
+        },
+        {
+          "index": 3,
+          "question_id": "14-2",
+          "question_text": "According to Jake, what study technique does he recommend to help with focus? ",
+          "correct_answer": "B",
+          "model_answer": "D, B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.97
+        },
+        {
+          "index": 3,
+          "question_id": "14-3",
+          "question_text": "What does Jake mean when he says, “Just remember to stay consistent with your study schedule”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 10.63
+        },
+        {
+          "index": 3,
+          "question_id": "14-4",
+          "question_text": "What is Oliver's attitude towards the study tips provided by Jake?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.36
+        },
+        {
+          "index": 3,
+          "question_id": "14-5",
+          "question_text": "What does Jake suggest doing after each study session to reinforce learning?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.13
+        },
+        {
+          "index": 4,
+          "question_id": "8-1",
+          "question_text": "What is the main purpose of James's conversation with Tom?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 11.24
+        },
+        {
+          "index": 4,
+          "question_id": "8-2",
+          "question_text": "According to Tom, what is one benefit of working at the library?",
+          "correct_answer": "B",
+          "model_answer": "D, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 8.86
+        },
+        {
+          "index": 4,
+          "question_id": "8-3",
+          "question_text": "What does Tom mean when he says, “It can be challenging, but it’s all about time management”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.2
+        },
+        {
+          "index": 4,
+          "question_id": "8-4",
+          "question_text": "What is Tom's attitude towards tutoring as a job option?",
+          "correct_answer": "B",
+          "model_answer": "D, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 12.87
+        },
+        {
+          "index": 4,
+          "question_id": "8-5",
+          "question_text": "What type of roles does the student union typically hire for?",
+          "correct_answer": "B",
+          "model_answer": "D, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 8.85
+        }
+      ],
+      "accuracy": 0.44,
+      "summary_text": "llama-3.1-405b with chain-of-thought strategy summary:\nOverall accuracy: 44.00% (11/25)\n\n  Conversation 3 - Transcript of the Audio of Botany Class Discussion: 40.00% (2/5)\n  Conversation 8 - Asking About Recommendations for Campus Jobs During the Semester : 40.00% (2/5)\n  Conversation 10 - Discussing Funding Options for a Student: 60.00% (3/5)\n  Conversation 14 - Seeking Advice on Effective Study Techniques: 80.00% (4/5)\n  Conversation 17 - Asking About Resources for Improving Academic Writing Skills: 0.00% (0/5)"
+    }
+  }
+}

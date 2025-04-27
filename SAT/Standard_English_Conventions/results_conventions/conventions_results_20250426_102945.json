@@ -1,0 +1,1414 @@
+{
+  "gemini-1.5-flash": {
+    "zero-shot": {
+      "total": 40,
+      "correct": 23,
+      "by_skill": {
+        "Boundaries": {
+          "total": 20,
+          "correct": 9,
+          "by_difficulty": {
+            "Easy": {
+              "total": 8,
+              "correct": 3,
+              "accuracy": 0.375
+            },
+            "Hard": {
+              "total": 8,
+              "correct": 4,
+              "accuracy": 0.5
+            },
+            "Medium": {
+              "total": 4,
+              "correct": 2,
+              "accuracy": 0.5
+            }
+          },
+          "accuracy": 0.45
+        },
+        "Form, Structure, and Sense": {
+          "total": 20,
+          "correct": 14,
+          "by_difficulty": {
+            "Easy": {
+              "total": 12,
+              "correct": 11,
+              "accuracy": 0.9166666666666666
+            },
+            "Hard": {
+              "total": 5,
+              "correct": 2,
+              "accuracy": 0.4
+            },
+            "Medium": {
+              "total": 3,
+              "correct": 1,
+              "accuracy": 0.3333333333333333
+            }
+          },
+          "accuracy": 0.7
+        }
+      },
+      "by_difficulty": {
+        "Easy": {
+          "total": 20,
+          "correct": 14,
+          "accuracy": 0.7
+        },
+        "Hard": {
+          "total": 13,
+          "correct": 6,
+          "accuracy": 0.46153846153846156
+        },
+        "Medium": {
+          "total": 7,
+          "correct": 3,
+          "accuracy": 0.42857142857142855
+        }
+      },
+      "details": [
+        {
+          "number": 23,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 1.25
+        },
+        {
+          "number": 17,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.11
+        },
+        {
+          "number": 14,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.69
+        },
+        {
+          "number": 6,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 1.07
+        },
+        {
+          "number": 18,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.92
+        },
+        {
+          "number": 27,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.9
+        },
+        {
+          "number": 16,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.87
+        },
+        {
+          "number": 24,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.63
+        },
+        {
+          "number": 2,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "D",
+          "is_correct": false,
+          "runtime": 1.11
+        },
+        {
+          "number": 20,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 1.06
+        },
+        {
+          "number": 5,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.01
+        },
+        {
+          "number": 1,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 0.91
+        },
+        {
+          "number": 21,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "D",
+          "is_correct": false,
+          "runtime": 0.82
+        },
+        {
+          "number": 9,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.64
+        },
+        {
+          "number": 19,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 1.6
+        },
+        {
+          "number": 28,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 0.95
+        },
+        {
+          "number": 3,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.99
+        },
+        {
+          "number": 15,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.0
+        },
+        {
+          "number": 8,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.91
+        },
+        {
+          "number": 26,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.91
+        },
+        {
+          "number": 31,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 0.8
+        },
+        {
+          "number": 32,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 1.27
+        },
+        {
+          "number": 33,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.86
+        },
+        {
+          "number": 34,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.01
+        },
+        {
+          "number": 35,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 2.15
+        },
+        {
+          "number": 36,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 1.15
+        },
+        {
+          "number": 37,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 0.95
+        },
+        {
+          "number": 38,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.07
+        },
+        {
+          "number": 39,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.11
+        },
+        {
+          "number": 40,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.23
+        },
+        {
+          "number": 41,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.13
+        },
+        {
+          "number": 42,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.93
+        },
+        {
+          "number": 43,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.94
+        },
+        {
+          "number": 44,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.18
+        },
+        {
+          "number": 45,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.01
+        },
+        {
+          "number": 46,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.06
+        },
+        {
+          "number": 47,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 0.95
+        },
+        {
+          "number": 48,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 1.05
+        },
+        {
+          "number": 49,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.21
+        },
+        {
+          "number": 50,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 1.26
+        }
+      ],
+      "accuracy": 0.575
+    },
+    "five-shot": {
+      "total": 40,
+      "correct": 23,
+      "by_skill": {
+        "Boundaries": {
+          "total": 20,
+          "correct": 8,
+          "by_difficulty": {
+            "Easy": {
+              "total": 8,
+              "correct": 3,
+              "accuracy": 0.375
+            },
+            "Hard": {
+              "total": 8,
+              "correct": 4,
+              "accuracy": 0.5
+            },
+            "Medium": {
+              "total": 4,
+              "correct": 1,
+              "accuracy": 0.25
+            }
+          },
+          "accuracy": 0.4
+        },
+        "Form, Structure, and Sense": {
+          "total": 20,
+          "correct": 15,
+          "by_difficulty": {
+            "Easy": {
+              "total": 12,
+              "correct": 12,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 5,
+              "correct": 3,
+              "accuracy": 0.6
+            },
+            "Medium": {
+              "total": 3,
+              "correct": 0,
+              "accuracy": 0.0
+            }
+          },
+          "accuracy": 0.75
+        }
+      },
+      "by_difficulty": {
+        "Easy": {
+          "total": 20,
+          "correct": 15,
+          "accuracy": 0.75
+        },
+        "Hard": {
+          "total": 13,
+          "correct": 7,
+          "accuracy": 0.5384615384615384
+        },
+        "Medium": {
+          "total": 7,
+          "correct": 1,
+          "accuracy": 0.14285714285714285
+        }
+      },
+      "details": [
+        {
+          "number": 23,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.86
+        },
+        {
+          "number": 17,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.14
+        },
+        {
+          "number": 14,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.45
+        },
+        {
+          "number": 6,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "D",
+          "is_correct": false,
+          "runtime": 1.03
+        },
+        {
+          "number": 18,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.94
+        },
+        {
+          "number": 27,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.85
+        },
+        {
+          "number": 16,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.36
+        },
+        {
+          "number": 24,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.14
+        },
+        {
+          "number": 2,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 1.05
+        },
+        {
+          "number": 20,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 0.88
+        },
+        {
+          "number": 5,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.55
+        },
+        {
+          "number": 1,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 1.84
+        },
+        {
+          "number": 21,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "D",
+          "is_correct": false,
+          "runtime": 1.02
+        },
+        {
+          "number": 9,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.12
+        },
+        {
+          "number": 19,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 0.81
+        },
+        {
+          "number": 28,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 1.01
+        },
+        {
+          "number": 3,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.81
+        },
+        {
+          "number": 15,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 1.06
+        },
+        {
+          "number": 8,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.97
+        },
+        {
+          "number": 26,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 0.87
+        },
+        {
+          "number": 31,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.13
+        },
+        {
+          "number": 32,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 1.17
+        },
+        {
+          "number": 33,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 1.14
+        },
+        {
+          "number": 34,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 2.16
+        },
+        {
+          "number": 35,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.07
+        },
+        {
+          "number": 36,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 0.91
+        },
+        {
+          "number": 37,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 0.88
+        },
+        {
+          "number": 38,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.93
+        },
+        {
+          "number": 39,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.82
+        },
+        {
+          "number": 40,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.13
+        },
+        {
+          "number": 41,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 1.07
+        },
+        {
+          "number": 42,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 2.6
+        },
+        {
+          "number": 43,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 3.08
+        },
+        {
+          "number": 44,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.87
+        },
+        {
+          "number": 45,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 0.88
+        },
+        {
+          "number": 46,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 0.84
+        },
+        {
+          "number": 47,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 3.38
+        },
+        {
+          "number": 48,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 0.69
+        },
+        {
+          "number": 49,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 0.85
+        },
+        {
+          "number": 50,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 1.32
+        }
+      ],
+      "accuracy": 0.575
+    },
+    "chain-of-thought": {
+      "total": 40,
+      "correct": 21,
+      "by_skill": {
+        "Boundaries": {
+          "total": 20,
+          "correct": 7,
+          "by_difficulty": {
+            "Easy": {
+              "total": 8,
+              "correct": 3,
+              "accuracy": 0.375
+            },
+            "Hard": {
+              "total": 8,
+              "correct": 2,
+              "accuracy": 0.25
+            },
+            "Medium": {
+              "total": 4,
+              "correct": 2,
+              "accuracy": 0.5
+            }
+          },
+          "accuracy": 0.35
+        },
+        "Form, Structure, and Sense": {
+          "total": 20,
+          "correct": 14,
+          "by_difficulty": {
+            "Easy": {
+              "total": 12,
+              "correct": 9,
+              "accuracy": 0.75
+            },
+            "Hard": {
+              "total": 5,
+              "correct": 2,
+              "accuracy": 0.4
+            },
+            "Medium": {
+              "total": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            }
+          },
+          "accuracy": 0.7
+        }
+      },
+      "by_difficulty": {
+        "Easy": {
+          "total": 20,
+          "correct": 12,
+          "accuracy": 0.6
+        },
+        "Hard": {
+          "total": 13,
+          "correct": 4,
+          "accuracy": 0.3076923076923077
+        },
+        "Medium": {
+          "total": 7,
+          "correct": 5,
+          "accuracy": 0.7142857142857143
+        }
+      },
+      "details": [
+        {
+          "number": 23,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 5.41
+        },
+        {
+          "number": 17,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 6.62
+        },
+        {
+          "number": 14,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 5.17
+        },
+        {
+          "number": 6,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 5.07
+        },
+        {
+          "number": 18,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 8.07
+        },
+        {
+          "number": 27,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 8.1
+        },
+        {
+          "number": 16,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 6.86
+        },
+        {
+          "number": 24,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "D",
+          "is_correct": false,
+          "runtime": 9.65
+        },
+        {
+          "number": 2,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 5.75
+        },
+        {
+          "number": 20,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 8.67
+        },
+        {
+          "number": 5,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 6.34
+        },
+        {
+          "number": 1,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 8.06
+        },
+        {
+          "number": 21,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "D",
+          "is_correct": false,
+          "runtime": 7.57
+        },
+        {
+          "number": 9,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 7.79
+        },
+        {
+          "number": 19,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 7.22
+        },
+        {
+          "number": 28,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 5.71
+        },
+        {
+          "number": 3,
+          "skill": "Boundaries",
+          "difficulty": "Hard",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 5.53
+        },
+        {
+          "number": 15,
+          "skill": "Boundaries",
+          "difficulty": "Easy",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 6.1
+        },
+        {
+          "number": 8,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 5.82
+        },
+        {
+          "number": 26,
+          "skill": "Boundaries",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 9.76
+        },
+        {
+          "number": 31,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 7.37
+        },
+        {
+          "number": 32,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 7.36
+        },
+        {
+          "number": 33,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 8.97
+        },
+        {
+          "number": 34,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 9.49
+        },
+        {
+          "number": 35,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 6.21
+        },
+        {
+          "number": 36,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 5.72
+        },
+        {
+          "number": 37,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 7.92
+        },
+        {
+          "number": 38,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 5.05
+        },
+        {
+          "number": 39,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 5.35
+        },
+        {
+          "number": 40,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 8.16
+        },
+        {
+          "number": 41,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 6.04
+        },
+        {
+          "number": 42,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Medium",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 4.91
+        },
+        {
+          "number": 43,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 5.16
+        },
+        {
+          "number": 44,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 7.16
+        },
+        {
+          "number": 45,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "D",
+          "is_correct": false,
+          "runtime": 6.21
+        },
+        {
+          "number": 46,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "b",
+          "correct_letter": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 4.76
+        },
+        {
+          "number": 47,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 5.05
+        },
+        {
+          "number": 48,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "c",
+          "correct_letter": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 6.41
+        },
+        {
+          "number": 49,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Hard",
+          "correct_answer": "d",
+          "correct_letter": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 6.08
+        },
+        {
+          "number": 50,
+          "skill": "Form, Structure, and Sense",
+          "difficulty": "Easy",
+          "correct_answer": "a",
+          "correct_letter": "A",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 5.88
+        }
+      ],
+      "accuracy": 0.525
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Model,Strategy,Overall Accuracy,Rhetorical Synthesis Accuracy,Transitions Accuracy
+llama-3.1-8b,zero-shot,82.50%,95.00%,70.00%
+llama-3.1-8b,five-shot,87.50%,100.00%,75.00%
+llama-3.1-8b,chain-of-thought,82.50%,90.00%,75.00%
+llama-3.1-70b,zero-shot,87.50%,95.00%,80.00%
+llama-3.1-70b,five-shot,92.50%,100.00%,85.00%
+llama-3.1-70b,chain-of-thought,90.00%,95.00%,85.00%
+llama-3.1-405b,zero-shot,92.50%,100.00%,85.00%
+llama-3.1-405b,five-shot,95.00%,100.00%,90.00%
+llama-3.1-405b,chain-of-thought,87.50%,90.00%,85.00%

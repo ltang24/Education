@@ -1,0 +1,2017 @@
+{
+  "gpt-4o": {
+    "zero-shot": {
+      "total": 48,
+      "correct": 43,
+      "accuracy": 0.8958333333333334,
+      "by_skill": {
+        "Cross-Text Connections": {
+          "total": 15,
+          "correct": 15,
+          "accuracy": 1.0,
+          "by_difficulty": {
+            "Easy": {
+              "total": 4,
+              "correct": 4,
+              "accuracy": 1.0
+            },
+            "Medium": {
+              "total": 4,
+              "correct": 4,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 7,
+              "correct": 7,
+              "accuracy": 1.0
+            }
+          }
+        },
+        "Text Structure and Purpose": {
+          "total": 13,
+          "correct": 12,
+          "accuracy": 0.9230769230769231,
+          "by_difficulty": {
+            "Medium": {
+              "total": 5,
+              "correct": 5,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 3,
+              "correct": 2,
+              "accuracy": 0.6666666666666666
+            }
+          }
+        },
+        "Words in Context": {
+          "total": 20,
+          "correct": 16,
+          "accuracy": 0.8,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 16,
+              "accuracy": 0.8
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Easy": {
+          "total": 9,
+          "correct": 9,
+          "accuracy": 1.0
+        },
+        "Medium": {
+          "total": 29,
+          "correct": 25,
+          "accuracy": 0.8620689655172413
+        },
+        "Hard": {
+          "total": 10,
+          "correct": 9,
+          "accuracy": 0.9
+        }
+      },
+      "details": [
+        {
+          "question_number": 18,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 1.8,
+          "full_response": "D"
+        },
+        {
+          "question_number": 45,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the conclusion presented in the underlined portion of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nChatGptEs: IndexError: list index out of range\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nPollinationsAI: ResponseStatusError: Response 429: 429 Too Many Requests\nOpenaiChat: NoValidHarFileError: No .har file found"
+        },
+        {
+          "question_number": 16,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 1 most likely respond to the discussion in Text 2?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nOpenaiChat: NoValidHarFileError: No .har file found\nChatGptEs: IndexError: list index out of range\nPollinationsAI: ResponseStatusError: Response 429: 429 Too Many Requests\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]"
+        },
+        {
+          "question_number": 9,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined claim in Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 4.15,
+          "full_response": "D"
+        },
+        {
+          "question_number": 12,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would C\u00e1ceres and colleagues (Text 2) most likely describe the view of the theorists presented in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 11.95,
+          "full_response": "C"
+        },
+        {
+          "question_number": 19,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Hull\u2019s team (Text 2) most likely respond to the argument in the underlined portion of Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nOpenaiChat: NoValidHarFileError: No .har file found\nPollinationsAI: ResponseStatusError: Response 429: 429 Too Many Requests\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nChatGptEs: IndexError: list index out of range\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]"
+        },
+        {
+          "question_number": 3,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the assertion in the underlined portion of Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nChatGptEs: IndexError: list index out of range\nOpenaiChat: NoValidHarFileError: No .har file found\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nPollinationsAI: ResponseStatusError: Response 429: 429 Too Many Requests"
+        },
+        {
+          "question_number": 5,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, if Ishii and O\u2019Mahony (Text 1) and J\u00fcnger et al. (Text 2) were aware of the findings of both experiments, they would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 6.22,
+          "full_response": "D"
+        },
+        {
+          "question_number": 13,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Maddux (Text 2) most likely respond to the conclusion Sharif (Text 1) reached after her further research?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 5.95,
+          "full_response": "C"
+        },
+        {
+          "question_number": 15,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the underlined portion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 6.02,
+          "full_response": "C"
+        },
+        {
+          "question_number": 6,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 5.99,
+          "full_response": "B"
+        },
+        {
+          "question_number": 2,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Singh and Roy (Text 2) most likely respond to the research discussed in Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 6.01,
+          "full_response": "C"
+        },
+        {
+          "question_number": 33,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the claims of the author of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 6.0,
+          "full_response": "C"
+        },
+        {
+          "question_number": 42,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Behrenfeld and colleagues (Text 2) most likely respond to the 'conventional wisdom' discussed in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 12.03,
+          "full_response": "A"
+        },
+        {
+          "question_number": 36,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Dubey and colleagues (Text 2) most likely respond to the consensus view discussed in Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 12.02,
+          "full_response": "A"
+        },
+        {
+          "question_number": 1,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nOpenaiChat: NoValidHarFileError: No .har file found\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nChatGptEs: IndexError: list index out of range\nPollinationsAI: ResponseStatusError: Response 429: 429 Too Many Requests"
+        },
+        {
+          "question_number": 10,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Putirka and Xu (Text 2) most likely characterize the conclusion presented in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 12.38,
+          "full_response": "C"
+        },
+        {
+          "question_number": 4,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Chris Brierley (Text 2) most likely respond to the discussion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 12.11,
+          "full_response": "A"
+        },
+        {
+          "question_number": 32,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined claim in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 17.91,
+          "full_response": "D"
+        },
+        {
+          "question_number": 35,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined portion of Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 12.13,
+          "full_response": "D"
+        },
+        {
+          "question_number": 68,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nPollinationsAI: ResponseStatusError: Response 429: 429 Too Many Requests\nChatGptEs: IndexError: list index out of range\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nOpenaiChat: NoValidHarFileError: No .har file found\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]"
+        },
+        {
+          "question_number": 49,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 11.97,
+          "full_response": "A"
+        },
+        {
+          "question_number": 103,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 12.02,
+          "full_response": "D"
+        },
+        {
+          "question_number": 84,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 2.54,
+          "full_response": "B"
+        },
+        {
+          "question_number": 85,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the main purpose of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 5.96,
+          "full_response": "A"
+        },
+        {
+          "question_number": 100,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 17.96,
+          "full_response": "A"
+        },
+        {
+          "question_number": 93,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 12.01,
+          "full_response": "B"
+        },
+        {
+          "question_number": 63,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 6.41,
+          "full_response": "B"
+        },
+        {
+          "question_number": 107,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 18.09,
+          "full_response": "C"
+        },
+        {
+          "question_number": 70,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the function of the underlined sentence in the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 17.92,
+          "full_response": "A"
+        },
+        {
+          "question_number": 78,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined question in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 17.94,
+          "full_response": "A"
+        },
+        {
+          "question_number": 105,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 18.0,
+          "full_response": "A"
+        },
+        {
+          "question_number": 96,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 12.01,
+          "full_response": "B"
+        },
+        {
+          "question_number": 99,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 12.0,
+          "full_response": "D"
+        },
+        {
+          "question_number": 129,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 18.09,
+          "full_response": "D"
+        },
+        {
+          "question_number": 210,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 17.91,
+          "full_response": "C"
+        },
+        {
+          "question_number": 172,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 11.98,
+          "full_response": "A"
+        },
+        {
+          "question_number": 192,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase describing what OSIRIS-REx did?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 18.0,
+          "full_response": "B"
+        },
+        {
+          "question_number": 188,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 19.79,
+          "full_response": "The search results confirm that \"intricate\" means something that is complex, detailed, and involves many small parts or elements arranged in a delicate or complicated way. Given the context of the sentence, the word \"intricate\" best describes the web of relations among the crops in the Three Sisters system, emphasizing the complexity and interconnectedness of their relationships.\n\nSo, the most logical and precise choice to complete the sentence is:\n\nD: intricate"
+        },
+        {
+          "question_number": 130,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the word \u201cassumed\u201d most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 16.33,
+          "full_response": "A"
+        },
+        {
+          "question_number": 137,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 17.87,
+          "full_response": "C"
+        },
+        {
+          "question_number": 152,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 12.05,
+          "full_response": "A"
+        },
+        {
+          "question_number": 124,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 11.98,
+          "full_response": "B"
+        },
+        {
+          "question_number": 161,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 18.06,
+          "full_response": "C"
+        },
+        {
+          "question_number": 162,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 13.02,
+          "full_response": "A"
+        },
+        {
+          "question_number": 139,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 16.9,
+          "full_response": "A"
+        },
+        {
+          "question_number": 146,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 12.05,
+          "full_response": "D"
+        },
+        {
+          "question_number": 123,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the phrase \u201ca singular\u201d most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 11.95,
+          "full_response": "D"
+        },
+        {
+          "question_number": 153,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 18.01,
+          "full_response": "A"
+        },
+        {
+          "question_number": 154,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 18.02,
+          "full_response": "C"
+        },
+        {
+          "question_number": 173,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 18.15,
+          "full_response": "A"
+        },
+        {
+          "question_number": 205,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 11.88,
+          "full_response": "B"
+        },
+        {
+          "question_number": 204,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 17.98,
+          "full_response": "D"
+        },
+        {
+          "question_number": 178,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 13.78,
+          "full_response": "The search results indicate that \"intricate\" means \"having many small parts that are arranged in a complicated or delicate way\" or \"complexly interrelated parts.\" Given the context of the Three Sisters system, which involves a sophisticated understanding of plant relationships and ecosystem management, the most fitting word should reflect this complexity.\n\n\"Intricate\" best captures the idea of a web of relations that is complex and delicately balanced, aligning perfectly with the description of the intercropping system.\n\nTherefore, the most logical and precise choice to complete the sentence is:\n\nD: intricate"
+        }
+      ]
+    },
+    "five-shot": {
+      "total": 49,
+      "correct": 44,
+      "accuracy": 0.8979591836734694,
+      "by_skill": {
+        "Cross-Text Connections": {
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9,
+          "by_difficulty": {
+            "Easy": {
+              "total": 4,
+              "correct": 4,
+              "accuracy": 1.0
+            },
+            "Medium": {
+              "total": 5,
+              "correct": 5,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 11,
+              "correct": 9,
+              "accuracy": 0.8181818181818182
+            }
+          }
+        },
+        "Text Structure and Purpose": {
+          "total": 9,
+          "correct": 8,
+          "accuracy": 0.8888888888888888,
+          "by_difficulty": {
+            "Medium": {
+              "total": 4,
+              "correct": 4,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 3,
+              "correct": 3,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 2,
+              "correct": 1,
+              "accuracy": 0.5
+            }
+          }
+        },
+        "Words in Context": {
+          "total": 20,
+          "correct": 18,
+          "accuracy": 0.9,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 18,
+              "accuracy": 0.9
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Easy": {
+          "total": 7,
+          "correct": 7,
+          "accuracy": 1.0
+        },
+        "Medium": {
+          "total": 29,
+          "correct": 27,
+          "accuracy": 0.9310344827586207
+        },
+        "Hard": {
+          "total": 13,
+          "correct": 10,
+          "accuracy": 0.7692307692307693
+        }
+      },
+      "details": [
+        {
+          "question_number": 18,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 16.64,
+          "full_response": "D"
+        },
+        {
+          "question_number": 45,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the conclusion presented in the underlined portion of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 17.71,
+          "full_response": "A"
+        },
+        {
+          "question_number": 16,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 1 most likely respond to the discussion in Text 2?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 11.9,
+          "full_response": "D"
+        },
+        {
+          "question_number": 9,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined claim in Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 0.94,
+          "full_response": "D"
+        },
+        {
+          "question_number": 12,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would C\u00e1ceres and colleagues (Text 2) most likely describe the view of the theorists presented in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 5.97,
+          "full_response": "C"
+        },
+        {
+          "question_number": 19,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Hull\u2019s team (Text 2) most likely respond to the argument in the underlined portion of Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 18.0,
+          "full_response": "B"
+        },
+        {
+          "question_number": 3,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the assertion in the underlined portion of Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 6.55,
+          "full_response": "D"
+        },
+        {
+          "question_number": 5,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, if Ishii and O\u2019Mahony (Text 1) and J\u00fcnger et al. (Text 2) were aware of the findings of both experiments, they would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 12.02,
+          "full_response": "C"
+        },
+        {
+          "question_number": 13,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Maddux (Text 2) most likely respond to the conclusion Sharif (Text 1) reached after her further research?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 17.96,
+          "full_response": "C"
+        },
+        {
+          "question_number": 15,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the underlined portion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 12.02,
+          "full_response": "C"
+        },
+        {
+          "question_number": 6,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 18.04,
+          "full_response": "B"
+        },
+        {
+          "question_number": 2,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Singh and Roy (Text 2) most likely respond to the research discussed in Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 23.99,
+          "full_response": "C"
+        },
+        {
+          "question_number": 33,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the claims of the author of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 11.96,
+          "full_response": "C"
+        },
+        {
+          "question_number": 42,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Behrenfeld and colleagues (Text 2) most likely respond to the 'conventional wisdom' discussed in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 18.04,
+          "full_response": "A"
+        },
+        {
+          "question_number": 36,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Dubey and colleagues (Text 2) most likely respond to the consensus view discussed in Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 12.46,
+          "full_response": "A"
+        },
+        {
+          "question_number": 1,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 23.5,
+          "full_response": "A"
+        },
+        {
+          "question_number": 10,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Putirka and Xu (Text 2) most likely characterize the conclusion presented in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 18.04,
+          "full_response": "C"
+        },
+        {
+          "question_number": 4,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Chris Brierley (Text 2) most likely respond to the discussion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 23.99,
+          "full_response": "A"
+        },
+        {
+          "question_number": 32,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined claim in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 20.16,
+          "full_response": "The evidence from the genetic studies indicates that the shared markers between South American and Polynesian chickens are more likely to be significant in supporting a Polynesian origin, especially considering the recent findings by Luzuriaga-Neira's team. The fact that European breeds lack these specific markers and that other genetic markers support Polynesian connections strengthens this argument.\n\nTherefore, the author of Text 2 would most likely respond by emphasizing that, despite some earlier doubts, the current genetic evidence\u2014particularly the findings of Luzuriaga-Neira\u2014provides stronger support for a Polynesian origin than the initial claim based solely on Storey's mutation analysis.\n\nThe best answer is:\n\n**D**"
+        },
+        {
+          "question_number": 35,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined portion of Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 21.85,
+          "full_response": "D"
+        },
+        {
+          "question_number": 68,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 30.01,
+          "full_response": "C"
+        },
+        {
+          "question_number": 49,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 24.0,
+          "full_response": "A"
+        },
+        {
+          "question_number": 103,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 30.01,
+          "full_response": "D"
+        },
+        {
+          "question_number": 84,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 29.99,
+          "full_response": "B"
+        },
+        {
+          "question_number": 85,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the main purpose of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 35.98,
+          "full_response": "A"
+        },
+        {
+          "question_number": 100,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nChatGptEs: IndexError: list index out of range\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nPollinationsAI: ResponseStatusError: Response 502: Bad gateway\nOpenaiChat: NoValidHarFileError: No .har file found"
+        },
+        {
+          "question_number": 93,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nChatGptEs: IndexError: list index out of range\nOpenaiChat: NoValidHarFileError: No .har file found\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nPollinationsAI: ResponseStatusError: Response 502: Bad gateway"
+        },
+        {
+          "question_number": 63,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nPollinationsAI: ResponseStatusError: Response 502: Bad gateway\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nOpenaiChat: NoValidHarFileError: No .har file found\nChatGptEs: IndexError: list index out of range"
+        },
+        {
+          "question_number": 107,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "C",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nPollinationsAI: ResponseStatusError: Response 502: Bad gateway\nOpenaiChat: NoValidHarFileError: No .har file found\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nChatGptEs: IndexError: list index out of range"
+        },
+        {
+          "question_number": 70,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the function of the underlined sentence in the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nChatGptEs: IndexError: list index out of range\nOpenaiChat: NoValidHarFileError: No .har file found\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nPollinationsAI: ResponseStatusError: Response 502: Bad gateway\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]"
+        },
+        {
+          "question_number": 78,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined question in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 23.47,
+          "full_response": "A"
+        },
+        {
+          "question_number": 105,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 30.1,
+          "full_response": "A"
+        },
+        {
+          "question_number": 96,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "D",
+          "is_correct": false,
+          "runtime": 35.98,
+          "full_response": "D"
+        },
+        {
+          "question_number": 99,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 41.99,
+          "full_response": "D"
+        },
+        {
+          "question_number": 129,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 30.02,
+          "full_response": "D"
+        },
+        {
+          "question_number": 210,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 41.97,
+          "full_response": "C"
+        },
+        {
+          "question_number": 172,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 36.02,
+          "full_response": "A"
+        },
+        {
+          "question_number": 192,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase describing what OSIRIS-REx did?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 42.01,
+          "full_response": "B"
+        },
+        {
+          "question_number": 188,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 35.99,
+          "full_response": "D"
+        },
+        {
+          "question_number": 130,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the word \u201cassumed\u201d most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 30.01,
+          "full_response": "A"
+        },
+        {
+          "question_number": 137,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 36.02,
+          "full_response": "C"
+        },
+        {
+          "question_number": 152,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 41.96,
+          "full_response": "A"
+        },
+        {
+          "question_number": 124,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 29.99,
+          "full_response": "B"
+        },
+        {
+          "question_number": 161,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 36.03,
+          "full_response": "C"
+        },
+        {
+          "question_number": 162,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 35.98,
+          "full_response": "A"
+        },
+        {
+          "question_number": 139,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 30.0,
+          "full_response": "A"
+        },
+        {
+          "question_number": 146,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 36.01,
+          "full_response": "D"
+        },
+        {
+          "question_number": 123,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the phrase \u201ca singular\u201d most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 38.02,
+          "full_response": "D"
+        },
+        {
+          "question_number": 153,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 33.98,
+          "full_response": "A"
+        },
+        {
+          "question_number": 154,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 36.09,
+          "full_response": "C"
+        },
+        {
+          "question_number": 173,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 29.92,
+          "full_response": "A"
+        },
+        {
+          "question_number": 205,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 30.01,
+          "full_response": "B"
+        },
+        {
+          "question_number": 204,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 23.97,
+          "full_response": "D"
+        },
+        {
+          "question_number": 178,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 30.02,
+          "full_response": "D"
+        }
+      ]
+    },
+    "chain-of-thought": {
+      "total": 50,
+      "correct": 45,
+      "accuracy": 0.9,
+      "by_skill": {
+        "Cross-Text Connections": {
+          "total": 20,
+          "correct": 17,
+          "accuracy": 0.85,
+          "by_difficulty": {
+            "Easy": {
+              "total": 4,
+              "correct": 4,
+              "accuracy": 1.0
+            },
+            "Medium": {
+              "total": 5,
+              "correct": 4,
+              "accuracy": 0.8
+            },
+            "Hard": {
+              "total": 11,
+              "correct": 9,
+              "accuracy": 0.8181818181818182
+            }
+          }
+        },
+        "Text Structure and Purpose": {
+          "total": 14,
+          "correct": 13,
+          "accuracy": 0.9285714285714286,
+          "by_difficulty": {
+            "Medium": {
+              "total": 6,
+              "correct": 6,
+              "accuracy": 1.0
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5,
+              "accuracy": 1.0
+            },
+            "Hard": {
+              "total": 3,
+              "correct": 2,
+              "accuracy": 0.6666666666666666
+            }
+          }
+        },
+        "Words in Context": {
+          "total": 16,
+          "correct": 15,
+          "accuracy": 0.9375,
+          "by_difficulty": {
+            "Medium": {
+              "total": 16,
+              "correct": 15,
+              "accuracy": 0.9375
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Easy": {
+          "total": 9,
+          "correct": 9,
+          "accuracy": 1.0
+        },
+        "Medium": {
+          "total": 27,
+          "correct": 25,
+          "accuracy": 0.9259259259259259
+        },
+        "Hard": {
+          "total": 14,
+          "correct": 11,
+          "accuracy": 0.7857142857142857
+        }
+      },
+      "details": [
+        {
+          "question_number": 18,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 27.07,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks which statement both authors would most likely agree with, based on the information in their texts. Essentially, we're looking for a statement that aligns with both perspectives\u2014one that recognizes Ludington's cultural significance but also considers the historical uncertainty.\n\n### 2. Analyze key information from Text 1\n- Sybil Ludington rode 40 miles to gather militia during the American Revolution.\n- She was only 16, and her bravery made her a hero.\n- She has been celebrated with stamps, statues, and TV series.\n- The tone suggests she is widely regarded as a hero and an important figure in American history.\n\n### 3. Analyze key information from Text 2\n- Historian Paula D. Hunt researched Ludington's life and found no evidence for her famous ride.\n- Many articles and books have been written about her, but these may contain invented details.\n- There is no strong historical record confir..."
+        },
+        {
+          "question_number": 45,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the conclusion presented in the underlined portion of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 30.03,
+          "full_response": "Let's walk through this step-by-step.\n\n### 1. What is the question asking?\nThe question asks how the researchers in Text 2 would most likely respond to the conclusion in the underlined portion of Text 1. The underlined portion in Text 1 states that many polar bear populations are at great risk of extinction due to sea-ice loss caused by rising ocean temperatures.\n\n### 2. Key information from Text 1:\n- Polar bears primarily hunt seals on sea ice.\n- Rising ocean temperatures are reducing sea ice.\n- This reduction threatens polar bear populations, with a 2020 study predicting potential extinction by the end of the 21st century.\n- The conclusion suggests that sea-ice loss is a major threat to most polar bear populations.\n\n### 3. Key information from Text 2:\n- The population on Svalbard remains stable and well nourished despite declining sea ice.\n- The researchers attribute this resilience partly to a dietary shift: in addition to seals, they now eat reindeer meat and birds\u2019 eggs.\n- This in..."
+        },
+        {
+          "question_number": 16,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 1 most likely respond to the discussion in Text 2?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 35.95,
+          "full_response": "Let's carefully work through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how the author of Text 1 would most likely respond to the discussion in Text 2. Essentially, it\u2019s about predicting the author's perspective or attitude toward the problem faced in the video game industry (lack of consistent crediting) based on their views about credits in film and television.\n\n### 2. Analyze key information from Text 1\n- Credits in film/TV are long, standardized, and serve to acknowledge contributions.\n- They are valuable for researching careers and contributions.\n- The process is highly standardized, making credits reliable for research.\n\n### 3. Analyze key information from Text 2\n- Video game industry struggles with inconsistent crediting.\n- This makes it hard to trace contributions and development history.\n- The problem is that credits are not reliably recorded or standardized in video games.\n\n### 4. Identify connections or contrasts between the two texts..."
+        },
+        {
+          "question_number": 9,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined claim in Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 31.28,
+          "full_response": "Let's carefully work through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks: Based on Text 2, how would the author of Text 2 most likely respond to the underlined claim in Text 1?  \n*Note:* The underlined claim in Text 1 is that Carracci was the first artist in Bologna to depict himself painting, showing himself with an easel and palette.\n\n### 2. Analyze key information from Text 1\n- Italian painters in the 1500s rarely depicted themselves.\n- Self-portraits that show the artist as a painter are even rarer.\n- In Bologna, Annibale Carracci was the first to depict himself painting, around 1585, with an easel and palette.\n- Painting was not highly respected at the time, so self-portraits often emphasized qualities like intellect or social status, not the act of painting itself.\n\n### 3. Analyze key information from Text 2\n- Bolognese artists generally avoided referencing painting in their self-portraits until the mid-1600s.\n- Lavinia Fontana\u2019s 1577 self-..."
+        },
+        {
+          "question_number": 12,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would C\u00e1ceres and colleagues (Text 2) most likely describe the view of the theorists presented in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 35.14,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how C\u00e1ceres and colleagues (Text 2) would most likely describe the view of the theorists presented in Text 1. Essentially, it's about interpreting the researchers' perspective on the idea that historical diversity influences current species diversity, based on their experimental findings.\n\n### 2. Analyze key information from Text 1\n- Theorists argue that **historical diversity** is a **major driver** of how diverse an ecological community becomes.\n- Differences in community diversity across habitats are **strongly affected by the number of species** present earlier in time.\n- This suggests a **causal or influential relationship** between past diversity and present diversity.\n\n### 3. Analyze key information from Text 2\n- Researchers created artificial pools with varying initial diversity (some with multiple species, some with one).\n- Over four years, they measured species diversity and f..."
+        },
+        {
+          "question_number": 19,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Hull\u2019s team (Text 2) most likely respond to the argument in the underlined portion of Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 29.71,
+          "full_response": "Let's walk through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how Hull\u2019s team (from Text 2) would most likely respond to the argument in the underlined portion of Text 1. The underlined portion in Text 1 suggests that the Deccan Traps volcanic activity might be the true cause of the K-Pg extinction, noting that the event coincided with a long period of volcanic eruptions and that other extinctions have coincided with volcanic activity, but only the K-Pg event coincides with an asteroid impact.\n\n### 2. Analyze key information from Text 1\n- The traditional view attributes the K-Pg extinction mainly to an asteroid impact near Chicxulub.\n- Some scientists argue volcanic activity (Deccan Traps) was the main cause, citing the timing and other extinctions linked to volcanic eruptions.\n- The argument implies that the asteroid impact might not be the sole or primary cause, given the timing of volcanic activity.\n\n### 3. Analyze key information from Text 2..."
+        },
+        {
+          "question_number": 3,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the assertion in the underlined portion of Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 42.64,
+          "full_response": "Let's carefully work through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how the author of Text 2 would most likely respond to the assertion in the underlined portion of Text 1. The underlined portion in Text 1 states that risk evaluations based on constituents are unreliable because conjugation can alter properties, potentially making harmless materials dangerous.\n\n### 2. Analyze key information from Text 1\n- The growth of nanohybrid use has outpaced risk studies.\n- Risk evaluations based on individual nanomaterials are unreliable because conjugation can change properties.\n- Conjugation might turn harmless nanomaterials into harmful nanohybrids.\n\n### 3. Analyze key information from Text 2\n- The potential for increased toxicity of nanohybrids compared to individual nanomaterials is acknowledged.\n- Effects of conjugation vary; in some cases, conjugation mitigates risks (e.g., zinc oxide nanohybrids preserve optical transparency and reduce DNA dama..."
+        },
+        {
+          "question_number": 5,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, if Ishii and O\u2019Mahony (Text 1) and J\u00fcnger et al. (Text 2) were aware of the findings of both experiments, they would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "is_correct": false,
+          "runtime": 24.11,
+          "full_response": "Let's carefully work through this problem step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks: If Ishii and O\u2019Mahony (Text 1) and J\u00fcnger et al. (Text 2) were aware of both experiments' findings, which statement would they most likely agree with? Essentially, we're looking for a statement that synthesizes the insights from both texts.\n\n### 2. Analyze key information from Text 1\n- Soy sauce is made from fermented soybeans, with a notable umami flavor.\n- Umami was formally classified in the 2000s, with taste receptors discovered then.\n- In 2007, Ishii and O\u2019Mahony used broths made from shiitake mushrooms and kombu seaweed to describe umami.\n- The description was based on taste panels, indicating a focus on sensory perception and the chemical basis of umami.\n\n### 3. Analyze key information from Text 2\n- In 2022, J\u00fcnger et al. studied soy sauce\u2019s flavor profile.\n- They found that compounds with low molecular weight were not as salty or bitter as real soy sauce.\n- ..."
+        },
+        {
+          "question_number": 13,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Maddux (Text 2) most likely respond to the conclusion Sharif (Text 1) reached after her further research?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 34.84,
+          "full_response": "Let's go through this systematically.\n\n**1. What is the question asking?**  \nIt asks how Maddux (Text 2) would most likely respond to Sharif's (Text 1) conclusion after her research. Essentially, we're looking for the answer choice that best reflects Maddux's perspective based on his caution about defining productivity and individual differences.\n\n---\n\n**2. Key information from Text 1:**  \n- Sharif found that life satisfaction plateaus at 2 hours of free time and declines at 5 hours.  \n- The decline is mainly linked to unproductive activities like watching TV or playing games.  \n- Her conclusion suggests that unproductiveness in free time reduces life satisfaction.\n\n**3. Key information from Text 2:**  \n- Maddux warns against suggesting a universal ideal amount of free time.  \n- He emphasizes that people's needs for free time and productivity are individual.  \n- There\u2019s no objective way to define what counts as productivity; it varies by person.\n\n---\n\n**4. Connections or contrasts:**  ..."
+        },
+        {
+          "question_number": 15,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the researchers in Text 2 most likely respond to the underlined portion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 37.06,
+          "full_response": "Let's carefully work through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how the researchers in Text 2 would most likely respond to the underlined portion in Text 1. The underlined part in Text 1 states that \"dates cannot be reliably imputed from those of nearby animal bones since the bones may have been relocated by flooding.\" Essentially, it highlights a problem with using animal bones for dating because of potential relocation and unreliability.\n\n### 2. Analyze key information from Text 1\n- Fossils are difficult to date accurately due to geological issues.\n- Soil layers are mixed, impeding stratigraphic dating.\n- Animal bones nearby may have been moved by flooding, making their dating unreliable.\n- The main concern: traditional dating methods (soil layers, bones) are unreliable in this context.\n\n### 3. Analyze key information from Text 2\n- Researchers used **cosmogenic nuclide dating** on the breccia surrounding the fossils.\n- This method anal..."
+        },
+        {
+          "question_number": 6,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both authors would most likely agree with which statement?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 35.59,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe question asks which statement both authors would most likely agree with, based on the information in the two texts. Essentially, we're looking for a statement that aligns with the ideas and themes presented in both passages.\n\n---\n\n**2. Analyze key information from Text 1:**  \n- Alvin Ailey admired jazz music deeply.\n- His works reflect jazz rhythms and beats.\n- He collaborated with jazz legends like Mingus, Parker, and Ellington.\n- His choice of music helped bring jazz to life for audiences.\n\n**Key takeaway:** Ailey's work is heavily influenced by jazz, and he actively integrated jazz music into his choreography.\n\n---\n\n**3. Analyze key information from Text 2:**  \n- Jazz is present throughout Ailey\u2019s work, especially in his approach to choreography.\n- He incorporated improvisation, a hallmark of jazz.\n- He encouraged dancers to improvise and bring their own skills into performances, similar to jaz..."
+        },
+        {
+          "question_number": 2,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Singh and Roy (Text 2) most likely respond to the research discussed in Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 23.45,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe question asks how Singh and Roy (Text 2) would most likely respond to the research discussed in Text 1. Essentially, it\u2019s about contrasting or aligning their view with Fowler\u2019s findings about mandatory voting.\n\n**2. Analyze key information from Text 1:**  \n- Fowler studied Australia, which requires voting.  \n- He argues that mandatory voting increases voter turnout, especially among those who wouldn\u2019t vote otherwise.  \n- As a result, election outcomes better reflect the preferences of the entire population.  \n- The implication is that mandatory voting improves the representativeness of election results.\n\n**3. Analyze key information from Text 2:**  \n- Singh and Roy studied the effects of mandatory voting.  \n- They found that when people are forced to vote, they tend to spend less time researching their choices.  \n- Consequently, their votes may not truly reflect their preferences.  \n- This suggest..."
+        },
+        {
+          "question_number": 33,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the claims of the author of Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 29.99,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how the author of Text 2 would most likely respond to the claims made by the author of Text 1. Essentially, we're looking for the perspective or rebuttal that aligns with the content and tone of Text 2, in relation to the claims in Text 1.\n\n### 2. Analyze key information from Text 1\n- The author of Text 1 claims that digital art isn\u2019t really art.\n- They argue that digital art requires less skill because technology does most of the work.\n- The tone suggests skepticism about the artistic value or skill involved in digital art.\n\n### 3. Analyze key information from Text 2\n- The author of Text 2 emphasizes that creating digital art involves more than just pressing buttons.\n- They highlight that digital artists need to understand traditional art fundamentals and sophisticated software.\n- They mention that digital artists often start with traditional drawing before transforming their work digi..."
+        },
+        {
+          "question_number": 42,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Behrenfeld and colleagues (Text 2) most likely respond to the 'conventional wisdom' discussed in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 24.41,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. What is the question asking?\nThe question asks how Behrenfeld and colleagues (Text 2) would most likely respond to the 'conventional wisdom' about phytoplankton competition discussed in Text 1. Essentially, we're looking for their perspective or critique based on their findings.\n\n### 2. Key information from Text 1\n- Ecologists wonder why so many phytoplankton species coexist near ocean surfaces, despite competition for resources.\n- Conventional wisdom suggests that one species should dominate after outcompeting others.\n- Despite efforts, this explanation remains unsatisfactory, implying that competition might not be the only or main factor.\n\n### 3. Key information from Text 2\n- Behrenfeld and colleagues link phytoplankton diversity to their tiny size.\n- Because they are so small, they are spaced far apart and experience dense water, making movement and interaction difficult.\n- They suggest that direct competition among phytoplankton is probab..."
+        },
+        {
+          "question_number": 36,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Dubey and colleagues (Text 2) most likely respond to the consensus view discussed in Text 1?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 25.43,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe question asks how Dubey and colleagues (Text 2) would most likely respond to the consensus view about curiosity discussed in Text 1. Essentially, it\u2019s about whether they would agree, challenge, or nuance that view based on their findings.\n\n**2. Analyze key information from Text 1:**  \n- People seek out information even when they know they won't benefit from it immediately.  \n- This supports the idea that curiosity is driven by a desire to acquire information for its own sake, not just for instrumental or practical purposes.  \n- The consensus view: curiosity is non-instrumental, driven by an intrinsic desire.\n\n**3. Analyze key information from Text 2:**  \n- Dubey and colleagues tested whether emphasizing usefulness (e.g., medical applications) increases curiosity.  \n- They found that when research was framed as useful, participants showed greater interest.  \n- This suggests that the perceived usefu..."
+        },
+        {
+          "question_number": 1,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, both Sykes in Text 1 and the scholars in Text 2 would most likely agree with which statement?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 7.23,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks us to identify which statement both Sykes (from Text 1) and the scholars (from Text 2) would most likely agree with, based on their perspectives on authorship of *The Two Noble Kinsmen*. Essentially, we're looking for a statement that aligns with both their views.\n\n---\n\n### 2. Analyze key information from Text 1\n- Sykes (1916) believed Fletcher\u2019s contributions were stylistically obvious, and lines with Fletcher\u2019s style were evidence of his authorship.\n- For lines not attributed to Fletcher, Sykes thought the depiction of women suggested they were not by Shakespeare but by Philip Massinger.\n- Sykes focused on style as a key indicator of authorship, especially Fletcher\u2019s distinctive style.\n- Sykes did not accept Shakespeare\u2019s involvement in the play.\n\n### 3. Analyze key information from Text 2\n- Since the 1970s, scholars have accepted *The Two Noble Kinsmen* as a Shakespearean coauthored ..."
+        },
+        {
+          "question_number": 10,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Putirka and Xu (Text 2) most likely characterize the conclusion presented in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 22.36,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how Putirka and Xu (Text 2) would most likely characterize the conclusion in Text 1. Essentially, it\u2019s about their perspective or critique of the findings reported by Holland and colleagues in Text 1.\n\n### 2. Analyze key information from Text 1\n- Researchers examined white dwarfs to infer the composition of former exoplanets.\n- They found traces of elements like lithium and sodium.\n- These traces support the idea that the exoplanets had continental crusts similar to Earth's.\n\n### 3. Analyze key information from Text 2\n- Putirka and Xu critique previous studies that concluded exoplanets had continental crusts based on atmospheric traces.\n- They argue that these studies overemphasize the significance of lithium and other elements.\n- They point out that such studies don't consider:\n  - Different minerals made of various ratios of these elements.\n  - The possibility of rock types not found ..."
+        },
+        {
+          "question_number": 4,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would Chris Brierley (Text 2) most likely respond to the discussion in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 25.06,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks how Chris Brierley's research (Text 2) would most likely influence or respond to the discussion in Text 1 regarding the causes of Sahara desertification, specifically the role of Neolithic peoples and their pastoralism.\n\n### 2. Analyze key information from Text 1\n- The Sahara was once lush but began drying out about 8,000 years ago.\n- A change in Earth's orbit is one proposed cause.\n- Archaeologist David Wright suggests Neolithic peoples contributed to desertification by adopting pastoralism, which depleted vegetation and contributed to the drying process.\n\n### 3. Analyze key information from Text 2\n- Brierley's research challenges the idea that Neolithic peoples caused desertification.\n- Using climate-vegetation models, they found the end of the humid period occurred 500 years earlier than previously thought.\n- The timing indicates that Neolithic peoples may not have caused the deserti..."
+        },
+        {
+          "question_number": 32,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined claim in Text 1?",
+          "difficulty": "Hard",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 29.81,
+          "full_response": "Let's carefully walk through this step-by-step.\n\n### 1. What is the question asking?\nThe question asks how the author of Text 2 would most likely respond to the *underlined claim* in Text 1. The core of this is understanding the stance of Text 2's author regarding the claim in Text 1 about Polynesian peoples, not Europeans, first introducing chickens to South America.\n\n### 2. Key information from Text 1:\n- A chicken bone from El Arenal, Chile, dates back to 1321\u20131407 CE\u2014before Europeans arrived.\n- The bone shares a genetic mutation with Polynesian chickens.\n- This suggests Polynesian peoples, not Europeans, probably introduced chickens to South America.\n\n### 3. Key information from Text 2:\n- A different team weakened the Polynesian origin claim by showing that the mutation found by Storey is present in breeds worldwide.\n- However, a more recent study by Luzuriaga-Neira found that South American and Polynesian breeds share other genetic markers that Europeans lack.\n- The overall conclus..."
+        },
+        {
+          "question_number": 35,
+          "skill": "Cross-Text Connections",
+          "question_text": "Based on the texts, how would the author of Text 2 most likely respond to the underlined portion of Text 1?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 17.76,
+          "full_response": "Let's go through this step-by-step.\n\n**1. What is the question asking?**  \nThe question asks how the author of Text 2 would most likely respond to the underlined portion of Text 1, which states: \"The bees simply appeared to be playing\u2014and for no other reason than because they were having fun.\"  \nIn essence, we're looking for the perspective of Text 2's author regarding the idea that bees are playing \"for no other reason than because they were having fun.\"\n\n---\n\n**2. Analyze key information from Text 1**  \n- Bees are engaging with objects in a playful manner (clinging, rolling, dragging).  \n- No external rewards are provided, implying the behavior isn't driven by immediate practical benefits like food.  \n- The behavior appears to be play, and the reason given is \"because they were having fun,\" suggesting some form of positive emotional state or at least an analogy to human play.\n\n---\n\n**3. Analyze key information from Text 2**  \n- Insects lack brain structures associated with human emot..."
+        },
+        {
+          "question_number": 68,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 17.52,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks us to determine the function of the underlined sentence within the entire text. Essentially, it wants to know what role that sentence plays in the overall paragraph.\n\n### 2. Examine the structure and purpose of the text\nThe paragraph explains a behavior of some bird species, especially cuckoos, which lay their eggs in other birds' nests. It describes:\n- The behavior of laying eggs in other nests\n- The quickness of females laying eggs when other birds are away\n- The fact that, after hatching, the noncuckoo parents raise the cuckoo chicks as their own, despite differences in appearance\n\nThe paragraph provides information about the behavior and the process involved in brood parasitism (cuckoo egg-laying and raising).\n\n### 3. Identify how different parts of the text function\n- The first part introduces the behavior: some birds don't raise their own chicks but lay eggs in others' nests.\n- Th..."
+        },
+        {
+          "question_number": 49,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 18.11,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe question asks us to determine the main purpose of the given text. Essentially, what is the primary message or goal the author is trying to communicate through this passage?\n\n**2. Examine the structure and purpose of the text:**  \nThe passage provides a brief overview of Fannie Barrier Williams's role during the Great Migration, emphasizing her efforts in helping Black women find employment in the North. It mentions the broader context of the migration, the reasons women sought to move (better employment opportunities, less competition for domestic work), and Barrier Williams's specific contribution (helping women secure jobs before they traveled).\n\n**3. Identify how different parts of the text function:**  \n- The first part introduces the Great Migration and Fannie Barrier Williams's role.  \n- The second part explains why women wanted to migrate (better job opportunities, less competition).  \n- Th..."
+        },
+        {
+          "question_number": 103,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 24.57,
+          "full_response": "Let's carefully analyze this question step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks us to identify which choice best describes the overall structure of the given excerpt from Gilman's poem. Essentially, we need to determine the main pattern or progression in the text: what is the speaker doing, and what is the overall message about their attitude toward nature?\n\n### 2. Examine the structure and purpose of the text\nThe poem discusses human efforts to manipulate and control the land\u2014cultivating, taming, irrigating, and making the desert blossom. However, it concludes with a reminder that no matter how much humans try, they must leave the \"borders of the sea,\" which are vast and uncontrollable.\n\nThe structure seems to move from describing human efforts to control nature to acknowledging a boundary that cannot be crossed\u2014implying a limit to human power over nature.\n\n### 3. Identify how different parts of the text function\n- The first part (\"No matter how we..."
+        },
+        {
+          "question_number": 84,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 22.81,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe question asks for the main purpose of the given text. Essentially, it wants to know what the author is trying to communicate or achieve with this excerpt.\n\n**2. Examine the structure and purpose of the text:**  \nThe excerpt describes a specific event: the purchase of a piano by the narrator\u2019s parents, given as a Christmas gift, and the narrator\u2019s feelings about it. The tone suggests a personal reflection, especially emphasizing the narrator's dislike of the piano and how it \"glared\" at her, comparing it to a caged songbird.\n\n**3. Identify how different parts of the text function:**  \n- The first part explains the origin of the piano (bought from people moving to Utah, given as a Christmas gift).  \n- The middle part reveals the narrator's feelings\u2014she had to pretend to be happy but actually hated the piano.  \n- The last part uses imagery (\"glared,\" \"songbird in a cage\") to express her negative feel..."
+        },
+        {
+          "question_number": 85,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the main purpose of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 29.99,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe question wants us to identify the main purpose of the provided excerpt from Sugimoto\u2019s memoir. Essentially, what is the author trying to communicate or achieve through this passage?\n\n**2. Examine the structure and purpose of the text:**  \nThe passage describes Sugimoto\u2019s feelings as she navigates life between two cultures\u2014Japanese and American. She talks about the wide differences in standards, her love for both lands, and her experience of observing unfamiliar customs. She mentions her initial attempts to explain these customs using Japanese standards, highlighting her process of understanding and adapting.\n\n**3. Identify how different parts of the text function:**  \n- The metaphor of \"standing upon a cloud in space\" suggests a sense of detachment or being caught between two worlds.  \n- The description of trying to explain customs indicates her effort to understand and reconcile cultural differen..."
+        },
+        {
+          "question_number": 100,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 25.7,
+          "full_response": "Let's walk through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks about the function of the underlined sentence within the entire text. Essentially, it wants to know what role that sentence plays in the overall passage.\n\n### 2. Examine the structure and purpose of the text\nThe passage describes:\n- The discovery of ancient oak planks during subway construction in Rome.\n- Mauro Bernabei and his team analyzing the growth rings to trace the origin of the wood.\n- The finding that the wood came from the Jura region of France.\n- The implication that transporting timber from Jura to Rome by boat indicates complex Roman trade routes.\n\nThe core purpose of the passage is to show how scientific analysis (growth rings) can reveal historical trade routes, illustrating the complexity of Roman trade.\n\n### 3. Identify how different parts of the text function\n- The first part introduces the discovery and the team\u2019s analysis.\n- The second part explains how the analysi..."
+        },
+        {
+          "question_number": 93,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined portion in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 23.61,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks about the function of the underlined portion in the text as a whole. Essentially, it wants to know what role that part plays within the entire passage.\n\n### 2. Examine the structure and purpose of the text\nThe passage:\n- Starts by explaining how soil and rocks are usually moved (by streams and rivers).\n- Introduces a different method called \"aeolian transport,\" where wind moves small particles.\n- Describes a scientific study by Melisa Diaz that investigated dust in Antarctica.\n- Explains the finding: the dust matches material from Australia, indicating it was transported across oceans by wind.\n\nThe key part in question is the underlined portion: *\"Scientists call this process 'aeolian transport.'\"* \n\nThis sentence introduces a specific term, \"aeolian transport,\" which is then used to describe the process in more detail.\n\n### 3. Identify how different parts of the text function\n- The fir..."
+        },
+        {
+          "question_number": 63,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 16.91,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks us to identify which choice best describes the overall structure of the given poem. Essentially, we're looking for the overarching pattern or flow of ideas in the poem: does it move from observation to questioning, from description to interpretation, or something else?\n\n### 2. Examine the structure and purpose of the text\nThe poem has two main parts:\n- **First part:** The speaker describes seeing a \"most beautiful thing,\" specifically a black cypress against a golden sky. The description emphasizes the visual qualities\u2014\"slim and still,\" \"sensitive,\" \"exquisite,\" and \"a black finger pointing upwards.\"\n- **Second part:** The speaker then asks two questions: *\"Why, beautiful still finger, are you black? And why are you pointing upwards?\"* These questions suggest the speaker is pondering the meaning or significance of the sight.\n\nThe structure appears to be: **Observation of a natural objec..."
+        },
+        {
+          "question_number": 107,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 27.56,
+          "full_response": "Let's carefully analyze this question step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks us to identify the overall structure of the provided text. Essentially, it's asking us to determine how the information is organized\u2014what pattern or format the author uses to present the ideas.\n\n### 2. Examine the structure and purpose of the text\nThe text discusses the fact that many early 1900s films, especially those by Black women filmmakers, have been lost. It then provides specific examples of these lost films, mentioning the evidence that remains, such as advertisements, magazine references, letters, newspaper articles, and images.\n\n### 3. Identify how different parts of the text function\n- **First part:** States a broad situation\u2014many films from the early 1900s are lost, including those by Black women filmmakers.\n- **Second part:** Provides specific examples of these lost films, illustrating the general situation with concrete evidence.\n\nThis pattern suggests a g..."
+        },
+        {
+          "question_number": 70,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the function of the underlined sentence in the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "is_correct": false,
+          "runtime": 32.62,
+          "full_response": "Let's carefully analyze this question step-by-step.\n\n### Step 1: Understand what the question is asking\nThe question asks about the function of the underlined sentence within the overall structure of the text. Essentially, it wants to know *why* that sentence is included and what role it plays in the paragraph.\n\n### Step 2: Examine the structure and purpose of the text\nThe paragraph describes a study:\n- It mentions the researchers involved, including Madhu Veeraraghavan.\n- It states the main finding: sunshine exposure correlates with overly optimistic forecasts.\n- It provides details about the data (from 1994 to 2010, over 29,000 forecasts).\n- It explains the key result: more sunshine exposure before submitting forecasts leads to forecasts exceeding actual earnings.\n\nThe paragraph is primarily informative, presenting the study's purpose, data, and key findings.\n\n### Step 3: Identify how different parts of the text function\n- The first part introduces the study and its main hypothesis (..."
+        },
+        {
+          "question_number": 78,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the function of the underlined question in the text as a whole?",
+          "difficulty": "Easy",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 24.68,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**\n\nThe question asks us to determine the function of the underlined question in the context of the entire text. The question is: \"Who can calculate the orbit of his own soul?\" \n\nWe need to analyze how this question contributes to the overall purpose or message of the passage.\n\n---\n\n**2. Examine the structure and purpose of the text:**\n\nThe passage discusses self-knowledge and the limits of understanding oneself. It states that knowing oneself is important but ultimately, the soul is unknowable\u2014\"the final mystery.\" Wilde uses imagery of celestial bodies and measurements to illustrate human attempts at understanding, culminating in the idea that the true mystery remains oneself.\n\nThe passage builds toward emphasizing that, despite all efforts, the core of one's being\u2014the soul\u2014is beyond full comprehension.\n\n---\n\n**3. Identify how different parts of the text function:**\n\n- The initial statement: \"People whose..."
+        },
+        {
+          "question_number": 105,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 23.75,
+          "full_response": "Let's work through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe question asks us to identify which choice best describes the overall structure of the provided text. Essentially, we're looking for the best summary of how the information in the paragraph is organized.\n\n---\n\n**2. Examine the structure and purpose of the text:**  \nThe paragraph discusses:\n- Raymond Antrobus releasing his debut spoken word album, *The First Time I Wore Hearing Aids*, with producer Ian Brennan.\n- The content and style of the album: autobiographical and reflective pieces, combining spoken words, audio fragments, and music.\n- The purpose or theme: to convey how deaf people experience sound, highlighting its multifaceted nature.\n- A note that some critics suggest the album questions the function of sound.\n\nThe structure appears to be:\n- Introduction of the project (who, what, collaboration)\n- Description of the content and approach\n- Mention of critical interpretation or critique\n\n--..."
+        },
+        {
+          "question_number": 96,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best describes the overall structure of the text?",
+          "difficulty": "Hard",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 17.7,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks us to identify the overall structure of the given text. In other words, we need to determine what kind of pattern or organization the text follows\u2014does it introduce a concept, describe research, give an example, or summarize findings, etc.\n\n### 2. Examine the structure and purpose of the text\nThe text describes a scientific achievement:\n- It mentions the use of NASA\u2019s JWST.\n- It explains what was measured (wavelengths of light through an exoplanet\u2019s atmosphere).\n- It states the significance of the measurement (presence of CO\u2082).\n- It highlights the importance of this discovery (first decisive evidence of CO\u2082 on an exoplanet and potential for future breakthroughs).\n\nThe structure appears to:\n- Introduce a scientific tool (JWST).\n- Describe a specific scientific activity or experiment (measuring light wavelengths).\n- Present the key findings (detection of CO\u2082).\n- Conclude with the signific..."
+        },
+        {
+          "question_number": 99,
+          "skill": "Text Structure and Purpose",
+          "question_text": "Which choice best states the main purpose of the text?",
+          "difficulty": "Easy",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 23.42,
+          "full_response": "Let's go through this step-by-step:\n\n**1. Understand what the question is asking:**  \nThe question asks for the main purpose of the given text. Essentially, what is the author trying to communicate or achieve with this passage? Is it to compare reactions, give an example, show a relationship, or explain Julius\u2019s helpfulness?\n\n**2. Examine the structure and purpose of the text:**  \nThe passage describes Julius\u2019s various skills and knowledge\u2014about the neighborhood, roads, watercourses, soils, hunting, fishing, and managing horses and dogs. It emphasizes his usefulness and versatility.\n\n**3. Identify how different parts of the text function:**  \n- The first part lists Julius\u2019s knowledge of the neighborhood, roads, watercourses, and soils, highlighting his familiarity with the land and environment.  \n- The second part mentions his skills in hunting and fishing, suggesting outdoor skills.  \n- The final part notes his ability to manage horses and dogs, emphasizing his practical skills.\n\nAll ..."
+        },
+        {
+          "question_number": 129,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 23.64,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks us to select the phrase that best completes the sentence:  \n*Dance choreographer Jawole Willa Jo Zollar aims to give people the opportunity to be ______ her creative process.*\n\n### 2. Analyze the context in which the word or phrase is used\nThe sentence suggests that Zollar wants to involve or include people in her creative process, giving them an opportunity to be part of it. The example provided talks about her dance *HairStories* and how it involved videos and pictures of people's hair, implying participation or engagement.\n\n### 3. Consider the meaning and nuance of each option\n- **A: nervous about** \u2014 This implies anxiety or concern, which doesn't fit the context of giving people an opportunity to be involved or part of her process.\n- **B: completed by** \u2014 This suggests that people finish or finish off her process, which doesn't align with the idea of giving an opportunity to partici..."
+        },
+        {
+          "question_number": 210,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 24.08,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking:\nThe question asks us to choose a word or phrase that best completes the sentence, which describes an unusual or noteworthy characteristic of elkhorn coral in the context of genetic inheritance.\n\n### 2. Analyze the context:\nThe sentence states that most animals cannot pass somatic mutations to their offspring, but elkhorn coral is an exception. The phrase \"presents an intriguing ______\" suggests that what follows is something unusual, noteworthy, or unexpected about elkhorn coral's reproductive genetics.\n\n### 3. Consider the meaning and nuance of each option:\n\n- **A: hypothesis**  \n  A hypothesis is a proposed explanation or idea. The sentence seems to describe a fact or phenomenon, not a proposed explanation. So \"hypothesis\" doesn't fit well here.\n\n- **B: affinity**  \n  Affinity refers to a natural liking or connection, or a similarity. It doesn't seem to describe a phenomenon or characteristic relevant..."
+        },
+        {
+          "question_number": 172,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 12.22,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe question asks us to choose the word or phrase that best completes the sentence in a way that makes sense and is logical. The sentence discusses abolitionist newspapers in the mid-19th century and how they influenced westward migration, specifically referencing Frederick Douglass\u2019s North Star newspaper and its role in inspiring readers to move to California during the Gold Rush.\n\n**2. Analyze the context in which the word or phrase is used:**  \nThe sentence states:  \n\"In the mid-nineteenth century, some abolitionist newspapers _______ westward migration in the United States; by printing a letter that described the easy fortunes and high salaries miners could make in California during the Gold Rush, Frederick Douglass\u2019s newspaper North Star was one such publication that inspired readers to relocate.\"\n\nThe key idea: abolitionist newspapers had an effect on westward migration. The phrase \"inspired rea..."
+        },
+        {
+          "question_number": 192,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase describing what OSIRIS-REx did?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 23.63,
+          "full_response": "Let's go through this step-by-step:\n\n1. **Understand what the question is asking:**  \nThe question asks us to select the most logical and precise word or phrase that completes the sentence about what OSIRIS-REx did with the asteroid sample. The sentence mentions that despite unforeseen problems, the spacecraft was able to do something related to the asteroid's surface and then return to Earth.\n\n2. **Analyze the context in which the word or phrase is used:**  \nThe key part of the sentence is: \"the spacecraft was able to gather a sample to return to Earth.\" This indicates that the spacecraft's action involved obtaining or collecting something from the asteroid.\n\n3. **Consider the meaning and nuance of each option:**\n\n- **A: attached** \u2014 implies physically affixing something to itself or another object. Not quite fitting because the focus is on the act of obtaining a sample, not just attaching it.\n- **B: collected** \u2014 means to gather or take in samples or materials. This fits well with th..."
+        },
+        {
+          "question_number": 188,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nChatGptEs: IndexError: list index out of range\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nOpenaiChat: NoValidHarFileError: No .har file found\nPollinationsAI: ResponseStatusError: Response 502: Bad gateway"
+        },
+        {
+          "question_number": 130,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the word \u201cassumed\u201d most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nPollinationsAI: ResponseStatusError: Response 502: Bad gateway\nOpenaiChat: NoValidHarFileError: No .har file found\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nChatGptEs: IndexError: list index out of range\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi"
+        },
+        {
+          "question_number": 137,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nOpenaiChat: NoValidHarFileError: No .har file found\nPollinationsAI: ResponseStatusError: Response 502: Bad gateway\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nChatGptEs: IndexError: list index out of range"
+        },
+        {
+          "question_number": 152,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": null,
+          "is_correct": false,
+          "error": "RetryProvider failed:\nJmuz: ClientConnectorSSLError: Cannot connect to host jmuz.me:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)]\nPollinationsAI: ResponseStatusError: Response 502: Bad gateway\nChatGptEs: IndexError: list index out of range\nOpenaiChat: NoValidHarFileError: No .har file found\nCopilot: MissingRequirementsError: Install or update \"curl_cffi\" package | pip install -U curl_cffi"
+        },
+        {
+          "question_number": 124,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 5.75,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe sentence compares Charles S. Johnson's editorial approach to that of W.E.B. Du Bois and Alain Locke. Johnson promoted diversity and autonomy among contributors, implying he was modest or self-effacing. The blank describes the editorial stance of Du Bois and Locke, which is more ______.\n\n**2. Analyze the context in which the word or phrase is used:**  \nJohnson's self-effacement diverged from the more **decisive** or **assertive** editorial stances of Du Bois and Locke. The key idea is that Johnson was modest, while Du Bois and Locke's approaches were different\u2014likely more rigid, dogmatic, or authoritative.\n\n**3. Consider the meaning and nuance of each option:**\n\n- **A: proficient** \u2014 relates to skill or competence. Not relevant to editorial stance or attitude.\n- **B: dogmatic** \u2014 means inclined to lay down principles as incontrovertibly true, often rigid or inflexible.\n- **C: ambiguous** \u2014 means un..."
+        },
+        {
+          "question_number": 161,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 11.41,
+          "full_response": "Let's carefully analyze this question step-by-step.\n\n**1. Understand what the question is asking:**\nThe sentence discusses recent archaeological findings at Tikal that show evidence of influence from Teotihuac\u00e1n, specifically architectural similarities. The blank should be filled with a phrase that logically and precisely describes the relationship between Tikal's architecture and Teotihuac\u00e1n's architecture, based on the evidence.\n\n**2. Analyze the context in which the word or phrase is used:**\nThe sentence states that the excavations \"show\" something related to Teotihuac\u00e1n architecture, including a near replica of a temple, which provides \"tangible evidence of outside influence.\" The phrase before the blank should connect to the idea of influence or relationship, emphasizing the nature of the architectural similarities.\n\n**3. Consider the meaning and nuance of each option:**\n\n- **A: refinements of**  \n  *Refinements* suggests improvements or modifications made to something. \"Refinemen..."
+        },
+        {
+          "question_number": 162,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 11.76,
+          "full_response": "Let's go through the problem step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks us to select the most appropriate word or phrase to complete the sentence:  \n*\"This passion for the rich history and colors of her Latinx community translates into the _______ artworks she produces.\"*  \nThe blank should be filled with a word that describes the nature or quality of Gabriela Alem\u00e1n's artworks, based on her passion for bold colors and Latinx culture.\n\n### 2. Analyze the context in which the word or phrase is used\nThe context emphasizes her fascination with bold colors, comics, pop art, and Latinx culture. Her passion influences her artwork, suggesting her art is likely vibrant, expressive, and colorful. The phrase \"translates into the ______ artworks\" indicates the word should describe the style or characteristic of her art, which is inspired by her cultural and artistic interests.\n\n### 3. Consider the meaning and nuance of each option\n- **A: vivid** \u2014 means bright,..."
+        },
+        {
+          "question_number": 139,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 25.18,
+          "full_response": "Let's go through this step-by-step:\n\n### 1. Understand what the question is asking\nThe question asks us to choose a word or phrase that best completes the sentence:\n> \"Although science fiction was dominated mostly by white male authors when Octavia Butler, a Black woman, began writing, she did not view the genre as ______.\"\n\nThe blank should be filled with a word that reflects Butler's perception of the genre, especially considering her background and the context of her breaking into the field.\n\n---\n\n### 2. Analyze the context in which the word or phrase is used\nThe sentence suggests that Butler's view of the genre was different from the norm or the common perception held by others, given her identity and the historical dominance of white male authors. The phrase \"did not view the genre as ______\" indicates she saw it differently\u2014likely as something more inclusive, valid, or accessible.\n\n---\n\n### 3. Consider the meaning and nuance of each option\n- **A: legitimate** \u2014 means lawful, vali..."
+        },
+        {
+          "question_number": 146,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 22.61,
+          "full_response": "Let's go through this step-by-step:\n\n### 1. Understand what the question is asking\nThe question asks us to choose the word or phrase that best completes the sentence, which describes the relationship between the Crow Tribe and Montana State University in the context of a community-based participatory research model.\n\n### 2. Analyze the context\nThe sentence states that the collaboration involves tribal citizens working alongside scientists, designing methodology, and assisting with data collection. This suggests a partnership characterized by cooperation, shared goals, and mutual involvement. The key phrase is \"this model,\" implying the word should describe how the model functions or is exemplified by this collaboration.\n\n### 3. Consider the meaning and nuance of each option\n- **A: circumvents** \u2014 means to bypass or avoid. Not fitting because the context suggests working together openly, not avoiding or bypassing anything.\n- **B: eclipses** \u2014 means to overshadow or surpass. Not quite fi..."
+        },
+        {
+          "question_number": 123,
+          "skill": "Words in Context",
+          "question_text": "As used in the text, what does the phrase \u201ca singular\u201d most nearly mean?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 30.68,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe question asks for the meaning of the phrase \u201ca singular\u201d as used in the text. Specifically, it wants us to interpret what \u201ca singular change\u201d most nearly means in the context of the story.\n\n**2. Analyze the context in which the word or phrase is used:**  \nThe phrase appears in a paragraph describing a transformation in a dried flower. Initially, the flower appears to absorb no moisture, but then a noticeable change occurs: the petals stir and turn a deeper crimson, as if the flower is reviving. The phrase \u201ca singular change\u201d is used to describe this transformation.\n\n**3. Consider the meaning and nuance of each option:**  \n- **A: a lonely** \u2014 This suggests solitude or being alone. It doesn\u2019t seem to fit the context of a change or transformation.\n- **B: a disagreeable** \u2014 This suggests something unpleasant or unpleasantly surprising. The context describes a positive, almost miraculous change, so thi..."
+        },
+        {
+          "question_number": 153,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "is_correct": false,
+          "runtime": 23.98,
+          "full_response": "Let's go through this step-by-step:\n\n### 1. Understand what the question is asking\nThe question asks us to select the most logical and precise word or phrase to complete the sentence. The sentence discusses how different external stimuli affect the relief of itching caused by an allergic response. The key part is the contrast between stimuli that provide relief and those that do not.\n\n### 2. Analyze the context in which the word or phrase is used\nThe sentence states that harmless stimuli like vibration or warming only provide temporary distraction. It then contrasts these with stimuli that seem less benign but actually offer *less* relief. The blank describes stimuli that are less benign but paradoxically less effective at providing relief than seemingly harmless stimuli.\n\n### 3. Consider the meaning and nuance of each option\n- **A: deceptive** \u2014 implies that the stimuli appear harmless but are not. It suggests trickery or illusion.\n- **B: innocuous** \u2014 means harmless, benign, not caus..."
+        },
+        {
+          "question_number": 154,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "is_correct": true,
+          "runtime": 23.28,
+          "full_response": "Let's go through this step-by-step:\n\n### 1. Understand what the question is asking\nThe question asks us to select the word or phrase that best completes the sentence about Annie Dodge Wauneka's effort in promoting public health among the Navajo Nation. The completed sentence should logically and precisely describe the nature of her effort.\n\n### 2. Analyze the context in which the word or phrase is used\nThe sentence describes Annie Dodge Wauneka's work starting in the 1950s, involving traveling throughout the Navajo homeland and writing a medical dictionary for Din\u00e9 bizaad speakers. The phrase in question is describing her effort\u2014what kind of effort it was.\n\n### 3. Consider the meaning and nuance of each option\n- **A: impartial** \u2014 Means unbiased or neutral. This doesn't quite fit because the effort described is active and purposeful, not neutral or unbiased.\n- **B: offhand** \u2014 Means casual or informal, often implying a lack of seriousness. This seems unlikely because her work was clear..."
+        },
+        {
+          "question_number": 173,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "is_correct": true,
+          "runtime": 18.74,
+          "full_response": "Let's go through this step-by-step:\n\n### 1. Understand what the question is asking\nThe question asks us to find the most logical and precise word or phrase to complete the sentence:  \n\"...the principal chief and cabinet officials _______ those laws by devising policies and administering services in accordance with them.\"\n\nThe sentence describes a process where officials are working with laws that are already generated by the National Council. The key action they perform involves working with or acting upon those laws.\n\n### 2. Analyze the context in which the word or phrase is used\nThe context indicates that the officials are working within the framework of laws created by the council. They are devising policies and administering services \"in accordance with\" those laws, which suggests they are following or executing the laws.\n\n### 3. Consider the meaning and nuance of each option\n- **A: implement** \u2014 to put into effect or carry out. This fits well with the idea of officials acting in a..."
+        },
+        {
+          "question_number": 205,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "is_correct": true,
+          "runtime": 29.26,
+          "full_response": "Let's go through this step-by-step.\n\n**1. Understand what the question is asking:**  \nThe sentence describes an exhibition called \"Sue\u00f1o de Familia\" that features works by multiple generations of Gonz\u00e1lez's family. The blank is meant to be filled with a word or phrase that logically and precisely describes the relationship between the exhibition and these multiple generations.\n\n**2. Analyze the context in which the word or phrase is used:**  \nThe phrase is: \"The exhibition _______ five generations, featuring works by Gonz\u00e1lez\u2019s great-grandfather, grandmother, mother, and niece as well as Gonz\u00e1lez herself.\"  \nThe key idea is that the exhibition covers or includes works spanning five generations. The word should convey the idea of a range or extent over time or generations.\n\n**3. Consider the meaning and nuance of each option:**\n\n- **A: borrows**  \n  \"Borrows\" suggests taking something temporarily or using something from another source. It doesn't fit the context of spanning or covering ..."
+        },
+        {
+          "question_number": 204,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 24.39,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks us to choose the word or phrase that best completes the sentence, making it logical and precise. The sentence discusses how Shakespeare\u2019s comedies often feature characters rebelling against certain societal expectations, which are described as being \"______ by Elizabethan society.\"\n\n### 2. Analyze the context\nThe phrase \"rigid expectations ______blank by Elizabethan society\" suggests that Elizabethan society set certain strict rules or norms regarding gender roles, and the characters in the plays rebel against these norms. The blank should be filled with a word that indicates these expectations are imposed, dictated, or established by society.\n\n### 3. Consider the meaning and nuance of each option\n- **A: interjected** \u2014 means \"inserted\" or \"interrupted.\" It doesn't fit well because expectations aren't something inserted or interrupted; they are more like rules or norms.\n- **B: committed..."
+        },
+        {
+          "question_number": 178,
+          "skill": "Words in Context",
+          "question_text": "Which choice completes the text with the most logical and precise word or phrase?",
+          "difficulty": "Medium",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "is_correct": true,
+          "runtime": 19.16,
+          "full_response": "Let's go through this step-by-step.\n\n### 1. Understand what the question is asking\nThe question asks for a word or phrase that best completes the sentence describing the relationship among maize, squash, and beans in the \"Three Sisters\" intercropping system. The sentence emphasizes the interconnectedness and mutual support among these plants.\n\n### 2. Analyze the context in which the word or phrase is used\nThe sentence describes a \"web of relations\" among the three plants, highlighting how they support and benefit each other. The phrase \"web of relations\" suggests a complex, interconnected system. The word chosen should reflect this idea of interconnectedness and complexity.\n\n### 3. Consider the meaning and nuance of each option\n- **A: indecipherable** \u2014 means impossible to understand or interpret. This doesn't fit because the sentence describes a clear, functional relationship, not something confusing or incomprehensible.\n- **B: ornamental** \u2014 means decorative or aesthetic. This doesn'..."
+        }
+      ]
+    }
+  }
+}

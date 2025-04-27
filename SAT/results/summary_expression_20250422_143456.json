@@ -1,0 +1,200 @@
+{
+  "timestamp": "20250422_143456",
+  "models_tested": [
+    "gpt-4o"
+  ],
+  "strategies_tested": [
+    "zero-shot",
+    "five-shot",
+    "chain-of-thought"
+  ],
+  "skill_types": [
+    "Rhetorical Synthesis",
+    "Transitions"
+  ],
+  "questions_per_type": 20,
+  "model_summaries": {
+    "gpt-4o": {
+      "zero-shot": {
+        "overall": {
+          "accuracy": 0.8571428571428571,
+          "correct": 30,
+          "total": 35
+        },
+        "by_skill": {
+          "Rhetorical Synthesis": {
+            "accuracy": 0.9333333333333333,
+            "correct": 14,
+            "total": 15,
+            "by_difficulty": {
+              "Medium": {
+                "total": 9,
+                "correct": 8,
+                "accuracy": 0.8888888888888888
+              },
+              "Hard": {
+                "total": 2,
+                "correct": 2,
+                "accuracy": 1.0
+              },
+              "Easy": {
+                "total": 4,
+                "correct": 4,
+                "accuracy": 1.0
+              }
+            }
+          },
+          "Transitions": {
+            "accuracy": 0.8,
+            "correct": 16,
+            "total": 20,
+            "by_difficulty": {
+              "Medium": {
+                "total": 20,
+                "correct": 16,
+                "accuracy": 0.8
+              }
+            }
+          }
+        },
+        "by_difficulty": {
+          "Medium": {
+            "accuracy": 0.8275862068965517,
+            "correct": 24,
+            "total": 29
+          },
+          "Hard": {
+            "accuracy": 1.0,
+            "correct": 2,
+            "total": 2
+          },
+          "Easy": {
+            "accuracy": 1.0,
+            "correct": 4,
+            "total": 4
+          }
+        }
+      },
+      "five-shot": {
+        "overall": {
+          "accuracy": 0.9166666666666666,
+          "correct": 33,
+          "total": 36
+        },
+        "by_skill": {
+          "Rhetorical Synthesis": {
+            "accuracy": 0.9,
+            "correct": 18,
+            "total": 20,
+            "by_difficulty": {
+              "Medium": {
+                "total": 11,
+                "correct": 10,
+                "accuracy": 0.9090909090909091
+              },
+              "Hard": {
+                "total": 5,
+                "correct": 4,
+                "accuracy": 0.8
+              },
+              "Easy": {
+                "total": 4,
+                "correct": 4,
+                "accuracy": 1.0
+              }
+            }
+          },
+          "Transitions": {
+            "accuracy": 0.9375,
+            "correct": 15,
+            "total": 16,
+            "by_difficulty": {
+              "Medium": {
+                "total": 16,
+                "correct": 15,
+                "accuracy": 0.9375
+              }
+            }
+          }
+        },
+        "by_difficulty": {
+          "Medium": {
+            "accuracy": 0.9259259259259259,
+            "correct": 25,
+            "total": 27
+          },
+          "Hard": {
+            "accuracy": 0.8,
+            "correct": 4,
+            "total": 5
+          },
+          "Easy": {
+            "accuracy": 1.0,
+            "correct": 4,
+            "total": 4
+          }
+        }
+      },
+      "chain-of-thought": {
+        "overall": {
+          "accuracy": 0.8717948717948718,
+          "correct": 34,
+          "total": 39
+        },
+        "by_skill": {
+          "Rhetorical Synthesis": {
+            "accuracy": 0.8421052631578947,
+            "correct": 16,
+            "total": 19,
+            "by_difficulty": {
+              "Medium": {
+                "total": 10,
+                "correct": 8,
+                "accuracy": 0.8
+              },
+              "Hard": {
+                "total": 5,
+                "correct": 4,
+                "accuracy": 0.8
+              },
+              "Easy": {
+                "total": 4,
+                "correct": 4,
+                "accuracy": 1.0
+              }
+            }
+          },
+          "Transitions": {
+            "accuracy": 0.9,
+            "correct": 18,
+            "total": 20,
+            "by_difficulty": {
+              "Medium": {
+                "total": 20,
+                "correct": 18,
+                "accuracy": 0.9
+              }
+            }
+          }
+        },
+        "by_difficulty": {
+          "Medium": {
+            "accuracy": 0.8666666666666667,
+            "correct": 26,
+            "total": 30
+          },
+          "Hard": {
+            "accuracy": 0.8,
+            "correct": 4,
+            "total": 5
+          },
+          "Easy": {
+            "accuracy": 1.0,
+            "correct": 4,
+            "total": 4
+          }
+        }
+      }
+    }
+  }
+}

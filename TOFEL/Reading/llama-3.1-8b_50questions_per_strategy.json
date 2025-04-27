@@ -1,0 +1,1528 @@
+{
+    "1": {
+        "title": "The Creators of Grammar",
+        "results": {
+            "zero-shot": {
+                "overall_accuracy": 0.8,
+                "questions_with_answers": 10,
+                "total_questions": 10,
+                "details": [
+                    {
+                        "question_id": "1-1",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.47,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 2.62,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-3",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.69,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-4",
+                        "expected": "D",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.53,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-5",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.88,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-6",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.53,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-7",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.6,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-8",
+                        "expected": "D",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.52,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-9",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.64,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-10",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 1.89,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            },
+            "five-shot": {
+                "overall_accuracy": 0.8,
+                "questions_with_answers": 10,
+                "total_questions": 10,
+                "details": [
+                    {
+                        "question_id": "1-1",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 1.22,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.43,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-3",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.75,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-4",
+                        "expected": "D",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 1.34,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-5",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.44,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-6",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 23.57,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-7",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.37,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-8",
+                        "expected": "D",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.66,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-9",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 29.07,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-10",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.67,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            },
+            "chain-of-thought": {
+                "overall_accuracy": 0.8,
+                "questions_with_answers": 10,
+                "total_questions": 10,
+                "details": [
+                    {
+                        "question_id": "1-1",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.98,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.96,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-3",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.57,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-4",
+                        "expected": "D",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 21.41,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-5",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.73,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-6",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.56,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-7",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.87,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-8",
+                        "expected": "D",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.55,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-9",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.78,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "1-10",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 20.48,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            }
+        }
+    },
+    "2": {
+        "title": "Smart Energy",
+        "results": {
+            "zero-shot": {
+                "overall_accuracy": 0.8888888888888888,
+                "questions_with_answers": 9,
+                "total_questions": 9,
+                "details": [
+                    {
+                        "question_id": "2-1",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 11.81,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.74,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-3",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 1.0,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-4",
+                        "expected": "C",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 1.25,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-5",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 6.0,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-6",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.72,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-7",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.46,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-8",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 10.79,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-9",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.83,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            },
+            "five-shot": {
+                "overall_accuracy": 1.0,
+                "questions_with_answers": 9,
+                "total_questions": 9,
+                "details": [
+                    {
+                        "question_id": "2-1",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 1.01,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.73,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-3",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.75,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-4",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 2.57,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-5",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 18.29,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-6",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.86,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-7",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.75,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-8",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.72,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-9",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.7,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            },
+            "chain-of-thought": {
+                "overall_accuracy": 0.8888888888888888,
+                "questions_with_answers": 9,
+                "total_questions": 9,
+                "details": [
+                    {
+                        "question_id": "2-1",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.63,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 17.38,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-3",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 18.01,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-4",
+                        "expected": "C",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 24.34,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-5",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 1.28,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-6",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.61,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-7",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 15.61,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-8",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 12.0,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "2-9",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.89,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            }
+        }
+    },
+    "3": {
+        "title": "Risk-Taking and the Monkey Economy",
+        "results": {
+            "zero-shot": {
+                "overall_accuracy": 0.8333333333333334,
+                "questions_with_answers": 6,
+                "total_questions": 6,
+                "details": [
+                    {
+                        "question_id": "3-1",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 7.49,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.85,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-3",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 11.19,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-4",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 1.6,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-5",
+                        "expected": "A",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.44,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-6",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.9,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            },
+            "five-shot": {
+                "overall_accuracy": 0.6666666666666666,
+                "questions_with_answers": 6,
+                "total_questions": 6,
+                "details": [
+                    {
+                        "question_id": "3-1",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.55,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-2",
+                        "expected": "C",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.62,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-3",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.59,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-4",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.55,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-5",
+                        "expected": "A",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.44,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-6",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.41,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            },
+            "chain-of-thought": {
+                "overall_accuracy": 0.8333333333333334,
+                "questions_with_answers": 6,
+                "total_questions": 6,
+                "details": [
+                    {
+                        "question_id": "3-1",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 23.13,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 24.17,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-3",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.75,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-4",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 1.16,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-5",
+                        "expected": "A",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.52,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "3-6",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.42,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            }
+        }
+    },
+    "4": {
+        "title": "Robert Capa",
+        "results": {
+            "zero-shot": {
+                "overall_accuracy": 0.6,
+                "questions_with_answers": 10,
+                "total_questions": 10,
+                "details": [
+                    {
+                        "question_id": "4-1",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.8,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-2",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 3.84,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-3",
+                        "expected": "D",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 5.99,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-4",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.7,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-5",
+                        "expected": "B",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.43,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-6",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.8,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-7",
+                        "expected": "C",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 3.99,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-8",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.7,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-9",
+                        "expected": "B",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 11.33,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-10",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.57,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            },
+            "five-shot": {
+                "overall_accuracy": 0.7,
+                "questions_with_answers": 10,
+                "total_questions": 10,
+                "details": [
+                    {
+                        "question_id": "4-1",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.46,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-2",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.61,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-3",
+                        "expected": "D",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 22.75,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-4",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.65,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-5",
+                        "expected": "B",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 23.32,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-6",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 30.04,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-7",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.94,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-8",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 28.99,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-9",
+                        "expected": "B",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.91,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-10",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 23.18,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            },
+            "chain-of-thought": {
+                "overall_accuracy": 0.8,
+                "questions_with_answers": 10,
+                "total_questions": 10,
+                "details": [
+                    {
+                        "question_id": "4-1",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.86,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-2",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.57,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-3",
+                        "expected": "D",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 1.01,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-4",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.89,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-5",
+                        "expected": "B",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.53,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-6",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.45,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-7",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.62,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-8",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.55,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-9",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.45,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "4-10",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.98,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            }
+        }
+    },
+    "5": {
+        "title": "para 5",
+        "results": {
+            "zero-shot": {
+                "overall_accuracy": 0.6666666666666666,
+                "questions_with_answers": 9,
+                "total_questions": 9,
+                "details": [
+                    {
+                        "question_id": "5-1",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.64,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-2",
+                        "expected": "D",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.54,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-3",
+                        "expected": "C",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 16.32,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-4",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.83,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-5",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 11.03,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-6",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 18.21,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-7",
+                        "expected": "B",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.78,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-8",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 17.15,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-9",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 4.65,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            },
+            "five-shot": {
+                "overall_accuracy": 0.5555555555555556,
+                "questions_with_answers": 9,
+                "total_questions": 9,
+                "details": [
+                    {
+                        "question_id": "5-1",
+                        "expected": "A",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 23.87,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-2",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 1.12,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-3",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.96,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-4",
+                        "expected": "B",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.71,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-5",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.56,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-6",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 14.71,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-7",
+                        "expected": "B",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.6,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-8",
+                        "expected": "A",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.64,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-9",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.76,
+                        "correct": true,
+                        "skipped": false
+                    }
+                ]
+            },
+            "chain-of-thought": {
+                "overall_accuracy": 0.5555555555555556,
+                "questions_with_answers": 9,
+                "total_questions": 9,
+                "details": [
+                    {
+                        "question_id": "5-1",
+                        "expected": "A",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.5,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-2",
+                        "expected": "D",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 19.78,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-3",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 17.94,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-4",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 1.22,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-5",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 1.23,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-6",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 15.63,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-7",
+                        "expected": "B",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 0.66,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-8",
+                        "expected": "A",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 23.19,
+                        "correct": false,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "5-9",
+                        "expected": "D",
+                        "model_answer": "B",
+                        "model_response": "B",
+                        "runtime": 18.13,
+                        "correct": false,
+                        "skipped": false
+                    }
+                ]
+            }
+        }
+    },
+    "6": {
+        "title": "para 6",
+        "results": {
+            "zero-shot": {
+                "overall_accuracy": 0.8333333333333334,
+                "questions_with_answers": 6,
+                "total_questions": 6,
+                "details": [
+                    {
+                        "question_id": "6-1",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.63,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 12.7,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-3",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.66,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-4",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.8,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-5",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.38,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-6",
+                        "expected": "A",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.38,
+                        "correct": false,
+                        "skipped": false
+                    }
+                ]
+            },
+            "five-shot": {
+                "overall_accuracy": 0.8333333333333334,
+                "questions_with_answers": 6,
+                "total_questions": 6,
+                "details": [
+                    {
+                        "question_id": "6-1",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 15.91,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 24.19,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-3",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.76,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-4",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 29.12,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-5",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 18.09,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-6",
+                        "expected": "A",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 18.02,
+                        "correct": false,
+                        "skipped": false
+                    }
+                ]
+            },
+            "chain-of-thought": {
+                "overall_accuracy": 0.8333333333333334,
+                "questions_with_answers": 6,
+                "total_questions": 6,
+                "details": [
+                    {
+                        "question_id": "6-1",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.47,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-2",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 0.92,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-3",
+                        "expected": "A",
+                        "model_answer": "A",
+                        "model_response": "A",
+                        "runtime": 0.57,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-4",
+                        "expected": "C",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 15.96,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-5",
+                        "expected": "D",
+                        "model_answer": "D",
+                        "model_response": "D",
+                        "runtime": 0.86,
+                        "correct": true,
+                        "skipped": false
+                    },
+                    {
+                        "question_id": "6-6",
+                        "expected": "A",
+                        "model_answer": "C",
+                        "model_response": "C",
+                        "runtime": 17.13,
+                        "correct": false,
+                        "skipped": false
+                    }
+                ]
+            }
+        }
+    },
+    "overall_strategy_results": {
+        "zero-shot": {
+            "overall_accuracy": 0.76,
+            "questions_with_answers": 50,
+            "total_questions": 50,
+            "correct_answers": 38
+        },
+        "five-shot": {
+            "overall_accuracy": 0.76,
+            "questions_with_answers": 50,
+            "total_questions": 50,
+            "correct_answers": 38
+        },
+        "chain-of-thought": {
+            "overall_accuracy": 0.78,
+            "questions_with_answers": 50,
+            "total_questions": 50,
+            "correct_answers": 39
+        }
+    }
+}

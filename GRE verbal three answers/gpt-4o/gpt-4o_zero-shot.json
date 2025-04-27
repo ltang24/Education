@@ -1,0 +1,1039 @@
+{
+    "accuracy": 0.84,
+    "total_questions": 50,
+    "correct_count": 42,
+    "details": [
+        {
+            "question_number": 1,
+            "expected": [
+                "origin",
+                "produce",
+                "eaten"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "origin",
+                "produce",
+                "eaten"
+            ],
+            "model_response": "origin, produce, eaten  \nExplanation: The first blank requires a word that relates to where the toxins come from, hence \"origin\" is appropriate. The second blank needs a word that fits with the frog's lack of toxin production, making \"produce\" the correct choice. Finally, the third blank refers to the relationship between the frogs and the beetles, indicating that the frogs consume the beetles, so \"eaten\" fits best.",
+            "runtime": 2.46,
+            "correct": true
+        },
+        {
+            "question_number": 2,
+            "expected": [
+                "competitive",
+                "wide-ranging",
+                "comprehensive"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "competitive",
+                "wide-ranging",
+                "comprehensive"
+            ],
+            "model_response": "competitive, wide-ranging, comprehensive  \nExplanation: The first blank needs a word that suggests increased activity or intensity in auctions, which would be \"competitive.\" The second blank should reflect a change in the focus of established collectors, where \"wide-ranging\" indicates their interests have broadened. The third blank should conclude that these collectors are seeking \"comprehensive\" collections, suggesting a desire for a complete and diverse array of photographic prints.",
+            "runtime": 5.89,
+            "correct": true
+        },
+        {
+            "question_number": 3,
+            "expected": [
+                "rich",
+                "problem",
+                "augmented"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "rich",
+                "problem",
+                "augmented"
+            ],
+            "model_response": "rich, problem, augmented  \nExplanation: The first blank describes the variety of signals used by capuchin monkeys; \"rich\" best captures the complexity. The second blank indicates that the complexity of gestures poses a challenge for researchers, making \"problem\" the most fitting choice. For the third blank, \"augmented\" suggests that the difficulty is increased by the changing meanings of signals, aligning well with the context provided.",
+            "runtime": 6.09,
+            "correct": true
+        },
+        {
+            "question_number": 4,
+            "expected": [
+                "an honorific",
+                "established",
+                "disputed"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "an honorific",
+                "established",
+                "disputed"
+            ],
+            "model_response": "an honorific, established, disputed  \nExplanation: The term \"scientific\" is often viewed with high regard, thus it would be used in an \"honorific\" manner. This implies that when something is termed scientific, its reliability is often assumed to be \"established,\" indicating it has been verified through rigorous methods. Finally, the results of these methods cannot reasonably be \"disputed,\" as this would undermine the assumed reliability of scientifically labeled claims.",
+            "runtime": 5.94,
+            "correct": true
+        },
+        {
+            "question_number": 5,
+            "expected": [
+                "slowdown",
+                "gloomy",
+                "temporary"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o-mini",
+            "model_answer": [
+                "slowdown",
+                "gloomy",
+                "temporary"
+            ],
+            "model_response": "slowdown, gloomy, temporary  \nExplanation: The context of the sentence suggests that in 1998, the observations indicated a decline or slowdown in the growth of atmospheric methane, which would imply that earlier predictions about global warming could have been overly gloomy or pessimistic. The subsequent research mentioned refers to the observed phenomena being caused by temporary declines in emissions rather than permanent changes.",
+            "runtime": 2.88,
+            "correct": true
+        },
+        {
+            "question_number": 6,
+            "expected": [
+                "censure",
+                "demanding",
+                "sifted from"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "censure",
+                "demanding",
+                "sifted from"
+            ],
+            "model_response": "censure, demanding, sifted from  \nExplanation: The sentence structure contrasts the ease of reviewing very good and very bad books with the difficulty of reviewing muddled books, where praise and censure (i.e., criticism) are straightforward. The adjective \"demanding\" fits well for the reviewer's task, which is more challenging. Finally, \"sifted from\" appropriately captures the process of separating useful observations from the useless ones.",
+            "runtime": 6.36,
+            "correct": true
+        },
+        {
+            "question_number": 7,
+            "expected": [
+                "comprehend",
+                "allure",
+                "valid"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "comprehend",
+                "allure",
+                "valid"
+            ],
+            "model_response": "comprehend, allure, valid  \nExplanation: The first blank requires a word that indicates a positive action towards understanding texts, making \"comprehend\" the best fit. The second blank describes the appealing quality of ambiguous texts, so \"allure\" is appropriate. Finally, the third blank seeks a word that conveys acceptability of interpretations, thus \"valid\" fits best, indicating that all interpretations are reasonable.",
+            "runtime": 6.05,
+            "correct": true
+        },
+        {
+            "question_number": 8,
+            "expected": [
+                "empowering",
+                "surrendering to",
+                "glean precisely what you want from it"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "empowering",
+                "surrendering to",
+                "glean precisely"
+            ],
+            "model_response": "empowering, surrendering to, glean precisely what you want from it\n\nExplanation: The passage emphasizes how computers facilitate research by allowing individuals to focus on their specific inquiries rather than conforming to the author's narrative. \"Empowering\" fits as it suggests the reader gains control and confidence in their research approach. \"Surrendering to\" indicates that the reader is not letting the author's organization dictate their understanding. Finally, \"glean precisely what you want from it\" aligns with the reader's ability to extract targeted information, reinforcing the idea of mastery over the text.",
+            "runtime": 4.43,
+            "correct": false
+        },
+        {
+            "question_number": 9,
+            "expected": [
+                "now common",
+                "obligatory",
+                "jettisoned"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "vulnerable",
+                "obligatory",
+                "jettisoned"
+            ],
+            "model_response": "vulnerable, obligatory, jettisoned  \nExplanation: The context suggests that even species that are not currently endangered will face risks due to human activity and climate change, making \"vulnerable\" the correct choice for blank (i). For blank (ii), it emphasizes the necessity of ongoing conservation efforts, making \"obligatory\" the best fit. For blank (iii), the responsibilities cannot be \"jettisoned,\" meaning they cannot be discarded, which fits the overall message that we must act to preserve biodiversity.",
+            "runtime": 2.49,
+            "correct": false
+        },
+        {
+            "question_number": 10,
+            "expected": [
+                "unavoidable",
+                "shy away",
+                "emerges victorious"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "unavoidable",
+                "shy away",
+                "emerges victorious"
+            ],
+            "model_response": "unavoidable, shy away, emerges victorious  \nExplanation: In the context of the sentence, \"unavoidable\" fits the idea that struggle is an essential part of life, while \"shy away\" suggests avoiding difficulties rather than confronting them, which aligns with the idea of mastering obstacles. Finally, \"emerges victorious\" concludes the narrative of overcoming hardships successfully.",
+            "runtime": 6.72,
+            "correct": true
+        },
+        {
+            "question_number": 11,
+            "expected": [
+                "expensive",
+                "useless",
+                "serve no practical purpose"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "expensive",
+                "useless",
+                "serve no practical purpose"
+            ],
+            "model_response": "expensive, useless, serve no practical purpose  \nExplanation: The context of the sentence suggests that jewelry-grade diamonds are being critiqued as luxury items that lack practical utility. For Blank (i), \"expensive\" fits because the writer emphasizes the high cost of diamonds. For Blank (ii), \"useless\" aligns with the suggestion that these diamonds serve no meaningful function. Finally, for Blank (iii), \"serve no practical purpose\" underscores the idea that diamonds are purchased either for status or perception of wealth, rather than for any functional use.",
+            "runtime": 6.18,
+            "correct": true
+        },
+        {
+            "question_number": 12,
+            "expected": [
+                "profitable",
+                "were suitable only for certain locations",
+                "return on"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "watermills",
+                "profitable",
+                "were"
+            ],
+            "model_response": "profitable, were suitable only for certain locations, return on  \nExplanation: Watermills were more profitable than windmills due to their superior capacity and reliability. Unlike windmills, which could be built anywhere, watermills had specific location requirements, needing a water source to function effectively. Ultimately, the benefits of watermills justify the investment, indicating a better return on the money spent to build them.",
+            "runtime": 3.87,
+            "correct": false
+        },
+        {
+            "question_number": 13,
+            "expected": [
+                "egalitarian",
+                "aristocratic",
+                "atrophied into insignificance"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "egalitarian",
+                "aristocratic",
+                "atrophied into insignificance"
+            ],
+            "model_response": "egalitarian, aristocratic, atrophied into insignificance\n\nExplanation: The first blank refers to the nature of Japan’s university system in comparison to its Chinese counterpart. The Japanese system was more \"egalitarian,\" meaning it allowed broader access across social classes. The second blank describes the Tang system of China, which was \"aristocratic,\" indicating that it was more exclusive and limited to the elite. Finally, the third blank discusses the decline of Japan’s university system over time, where the examination system \"atrophied into insignificance,\" meaning it became ineffective or irrelevant as court offices became hereditary and social mobility decreased.",
+            "runtime": 5.27,
+            "correct": true
+        },
+        {
+            "question_number": 14,
+            "expected": [
+                "questionable",
+                "inherently implausible about",
+                "conjecture"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "questionable",
+                "inherently implausible about",
+                "conjecture"
+            ],
+            "model_response": "questionable, inherently implausible about, conjecture  \nExplanation: The historian's narrative is described as 'questionable' to indicate doubt regarding its reliability. 'Inherently implausible about' fits well as it suggests that there is a fundamental lack of credibility in the account. Finally, 'conjecture' is suitable as it implies that parts of the narrative are based on speculation rather than solid evidence.",
+            "runtime": 1.33,
+            "correct": true
+        },
+        {
+            "question_number": 15,
+            "expected": [
+                "astonished",
+                "Buoyed",
+                "alacrity"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "astonished",
+                "buoyed",
+                "alacrity"
+            ],
+            "model_response": "astonished, Buoyed, alacrity  \nExplanation: The sentence describes how the volunteers exceeded expectations, so \"astonished\" fits as it indicates surprise at their performance. \"Buoyed\" suggests that the organizers were uplifted by the volunteers' efforts, which aligns with the positive tone of the sentence. \"Alacrity,\" meaning eagerness or briskness, reflects the quick and enthusiastic involvement of the volunteers, motivating the Galaxy Zoo team to explore new research avenues.",
+            "runtime": 6.12,
+            "correct": true
+        },
+        {
+            "question_number": 16,
+            "expected": [
+                "stranger in",
+                "alienation",
+                "birthplace"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "stranger in",
+                "alienation",
+                "birthplace"
+            ],
+            "model_response": "stranger in, alienation, birthplace  \nExplanation: The sentence discusses how Hamilton was labeled a \"foreigner,\" which aligns with describing him as a \"stranger in\" the United States (Blank i). The next part of the sentence says Hamilton’s feelings were due to his confrontation with American democracy, which points to \"alienation,\" as it implies a sense of estrangement or disconnection (Blank ii). Finally, since Hamilton’s estrangement stems not from his origins but from his experience with democracy, \"birthplace\" is the logical choice for Blank iii.",
+            "runtime": 6.99,
+            "correct": true
+        },
+        {
+            "question_number": 17,
+            "expected": [
+                "is interested in",
+                "document",
+                "aesthetics"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "is interested in",
+                "document",
+                "aesthetics"
+            ],
+            "model_response": "is interested in, document, aesthetics\n\nExplanation: In the context of the sentence, \"is interested in\" fits well because it implies that Friedlander engages with places that are often overlooked rather than dismissing them as ugly. The second blank fits \"document\" as it suggests that he captures and presents what exists around us, regardless of its inherent qualities. Lastly, \"aesthetics\" in the third blank aligns with the idea that the beauty of these places is not the primary concern; rather, he acknowledges their existence without an emphasis on their visual appeal.",
+            "runtime": 7.07,
+            "correct": true
+        },
+        {
+            "question_number": 18,
+            "expected": [
+                "physical activity",
+                "detract from",
+                "augmented"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "physical activity",
+                "detract from",
+                "augmented"
+            ],
+            "model_response": "physical activity, detract from, augmented  \nExplanation: The context of the studies shows that including physical activity in school curricula is beneficial and does not detract from academic achievement. Instead, the studies suggest that more exercise often augmented school performance, even when it took time away from traditional subjects.",
+            "runtime": 3.81,
+            "correct": true
+        },
+        {
+            "question_number": 19,
+            "expected": [
+                "breakdown",
+                "promote",
+                "undermining"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o-mini",
+            "model_answer": [
+                "breakdown",
+                "promote",
+                "undermining"
+            ],
+            "model_response": "breakdown, promote, undermining  \nExplanation: The first blank suggests that the metaphors cause a deterioration in the argument process, leading us to choose \"breakdown.\" The second blank implies that such metaphors encourage or enhance confrontational views, hence \"promote\" fits well. Finally, the third blank indicates that this adversarial behavior disrupts the process of reaching a resolution, making \"undermining\" the best choice.",
+            "runtime": 1.95,
+            "correct": true
+        },
+        {
+            "question_number": 20,
+            "expected": [
+                "make public",
+                "maladies",
+                "plague"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "make public",
+                "maladies",
+                "plague"
+            ],
+            "model_response": "make public, maladies, plague  \nExplanation: The first blank (i) requires a phrase that indicates the Agriculture Department's action of releasing or announcing something significant, hence \"make public\" is appropriate. The second blank (ii) refers to the negative health issues that are prevalent, which \"maladies\" fits perfectly. Finally, the third blank (iii) should describe a condition that affects the developed world negatively, and \"plague\" accurately conveys that these diseases are widespread and problematic.",
+            "runtime": 6.02,
+            "correct": true
+        },
+        {
+            "question_number": 21,
+            "expected": [
+                "ambivalent about",
+                "excited by",
+                "At the same time"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "ambivalent about",
+                "excited by",
+                "at the same time"
+            ],
+            "model_response": "ambivalent about, excited by, At the same time  \nExplanation: The first blank describes the general feeling of governments towards the internet, which is often mixed (ambivalent). The second blank highlights their recognition of the internet's potential, indicating a positive response (excited by). The third blank connects the governments' feelings of fear toward the internet's culture, suggesting these feelings coexist (At the same time).",
+            "runtime": 7.34,
+            "correct": true
+        },
+        {
+            "question_number": 22,
+            "expected": [
+                "less one-sided",
+                "disputable",
+                "credibility"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "nebulous at best",
+                "disputable",
+                "credibility"
+            ],
+            "model_response": "nebulous at best, disputable, credibility\nExplanation: The relationship between theory and data is considered complex and not strictly defined, hence \"nebulous at best.\" Empirical data can be influenced by interpretations, making it \"disputable,\" similarly to how theories are subject to scrutiny. A theory with strong prior confirmation may lower the \"credibility\" of a conflicting finding, illustrating the tense dynamics between established theories and new data.",
+            "runtime": 2.21,
+            "correct": false
+        },
+        {
+            "question_number": 23,
+            "expected": [
+                "originality",
+                "conformity",
+                "incremental"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "tradition",
+                "persuasion",
+                "incremental"
+            ],
+            "model_response": "tradition, persuasion, incremental  \nExplanation: In the first blank, \"tradition\" fits because political ads adhere to longstanding conventions. In the second blank, \"persuasion\" is appropriate, as political ads aim to convince voters. Lastly, \"incremental\" works for the third blank since political ads tend to change slowly and gradually rather than through abrupt shifts.",
+            "runtime": 2.43,
+            "correct": false
+        },
+        {
+            "question_number": 24,
+            "expected": [
+                "altruistic",
+                "illusory",
+                "contradicts"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "altruistic",
+                "illusory",
+                "contradicts"
+            ],
+            "model_response": "altruistic, illusory, contradicts  \nExplanation: The context suggests that some people are more altruistic than others (i), and the claim that these differences are illusory (ii) implies that they do not truly exist. Finally, this claim contradicts (iii) our everyday observations and the moral evaluations we make about others, suggesting that our perception of morality is at odds with the idea that everyone acts solely out of self-interest.",
+            "runtime": 2.73,
+            "correct": true
+        },
+        {
+            "question_number": 25,
+            "expected": [
+                "implemented",
+                "can grow unchecked",
+                "doomed"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "implemented",
+                "can grow unchecked",
+                "doomed"
+            ],
+            "model_response": "implemented, can grow unchecked, doomed  \nExplanation: The context of the passage indicates that policies to limit population growth have been implemented, but due to the country's vast size and isolation, human populations where large carnivores still occur can grow unchecked. This unchecked growth leads to increased human pressure on wildlife, resulting in the doom of the South China tiger.",
+            "runtime": 5.8,
+            "correct": true
+        },
+        {
+            "question_number": 26,
+            "expected": [
+                "rationale for",
+                "mentioned",
+                "energizes"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "rationale for",
+                "mentioned",
+                "energizes"
+            ],
+            "model_response": "rationale for, mentioned, energizes  \nExplanation: The first blank requires a phrase that explains why public money is spent on scientific projects, so \"rationale for\" fits best. The second blank refers to the fact that the connection between science and democracy is not often recognized, so \"mentioned\" is appropriate. The third blank emphasizes that scientific literacy has a positive effect on democracy, making \"energizes\" the correct choice.",
+            "runtime": 4.29,
+            "correct": true
+        },
+        {
+            "question_number": 27,
+            "expected": [
+                "restrain",
+                "incursions of",
+                "corrupt"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "restrain",
+                "incursions of",
+                "corrupt"
+            ],
+            "model_response": "restrain, incursions of, corrupt  \nExplanation: The key to this text completion question lies in understanding the context in which methods in natural sciences are discussed. The word \"restrain\" fits best in blank (i), as it suggests methods are designed to control or limit something. For blank (ii), \"incursions of\" fits well because it implies disturbances caused by subjectivity, which the methods aim to mitigate. Lastly, \"corrupt\" in blank (iii) indicates that uncontrolled subjectivity can compromise the integrity of research, aligning with the negative connotation of the unbridled expression of subjectivity.",
+            "runtime": 8.44,
+            "correct": true
+        },
+        {
+            "question_number": 28,
+            "expected": [
+                "surfeit",
+                "virtue",
+                "forgo"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "surfeit",
+                "virtue",
+                "forgo"
+            ],
+            "model_response": "surfeit, virtue, forgo  \nExplanation:  \n- Blank (i): \"Surfeit\" means an excessive amount, which fits the context of the passage where too many choices cause paralysis in decision-making.  \n- Blank (ii): \"Virtue\" refers to something beneficial or positive. The passage implies that a lack of flexibility might be considered a good thing in certain contexts.  \n- Blank (iii): \"Forgo\" means to give up or do without something. In the context, people are willing to forgo some advantages for peace of mind.",
+            "runtime": 47.17,
+            "correct": true
+        },
+        {
+            "question_number": 29,
+            "expected": [
+                "unconnected",
+                "superficial",
+                "isolationism"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "unconnected",
+                "superficial",
+                "isolationism"
+            ],
+            "model_response": "unconnected, superficial, isolationism  \nExplanation: The first blank suggests that political events were not \"unconnected,\" indicating that while they may have occurred separately, they still influenced each other. The second blank implies that their interrelationship was \"superficial,\" meaning it was not deep or profound compared to today's greater interdependence. The third blank indicates that \"isolationism\" is no longer an option, which aligns with the idea that countries today cannot afford to remain isolated given the level of interdependence.",
+            "runtime": 2.58,
+            "correct": true
+        },
+        {
+            "question_number": 30,
+            "expected": [
+                "inert",
+                "wonderfully enriched",
+                "circumvent"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "inert",
+                "inevitably circumscribed",
+                "circumvent"
+            ],
+            "model_response": "inert, inevitably circumscribed, circumvent  \nExplanation: The first blank describes a quality of contemporary drawing that is unattractive or lacking vitality, which aligns with \"inert.\" The second blank suggests that photography has a limiting influence on modern arts, so \"inevitably circumscribed\" fits well. The third blank implies a way to avoid difficulties, and \"circumvent\" means to bypass difficulties, making it the correct choice.",
+            "runtime": 3.83,
+            "correct": false
+        },
+        {
+            "question_number": 31,
+            "expected": [
+                "master",
+                "deliberation",
+                "given import"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "master",
+                "deliberation",
+                "given import"
+            ],
+            "model_response": "master, deliberation, given import  \nExplanation: Joanna Scott's writing is characterized by skill, suggesting she is a \"master\" of her craft. The term \"deliberation\" indicates thoughtful and careful narration, which aligns with the skill implied. Finally, the phrase \"given import\" means that earlier details become significant by the end, reinforcing the idea that her stories are crafted cohesively and thoughtfully.",
+            "runtime": 1.53,
+            "correct": true
+        },
+        {
+            "question_number": 32,
+            "expected": [
+                "made demands on",
+                "alien to",
+                "misunderstood"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "made demands on",
+                "alien to",
+                "misunderstood"
+            ],
+            "model_response": "made demands on, alien to, misunderstood\nExplanation: The first blank should imply that the performances require effort or attention from the audience, so \"made demands on\" fits best. The second blank implies that the techniques used would not be easily understood or accepted by some people; therefore, \"alien to\" is the appropriate choice. For the third blank, it suggests the critics did not appreciate the company’s work correctly, which aligns with \"misunderstood.\"",
+            "runtime": 7.92,
+            "correct": true
+        },
+        {
+            "question_number": 33,
+            "expected": [
+                "lucrative",
+                "authoritative",
+                "a staleness"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "lucrative",
+                "authoritative",
+                "a staleness"
+            ],
+            "model_response": "lucrative, authoritative, a staleness  \nExplanation: The context of the passage suggests that the Review is financially successful, indicated by the first blank being \"lucrative.\" The second blank is filled with \"authoritative,\" as it aligns with being erudite and suggests credibility. The third blank, \"a staleness,\" fits with the notion that the publication has a lack of freshness or innovation, which would reflect an aversion to risk-taking.",
+            "runtime": 4.0,
+            "correct": true
+        },
+        {
+            "question_number": 34,
+            "expected": [
+                "operate outside of",
+                "active",
+                "report"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "operate outside of",
+                "active",
+                "report"
+            ],
+            "model_response": "operate outside of, active, report  \nExplanation: The first blank should indicate a relationship where cultural influences operate without requiring conscious awareness or intent, making \"operate outside of\" the correct choice. The second blank requires a term that reflects non-participative engagement, so \"active\" fits, as it suggests that participation is not actively required. For the third blank, \"report\" is appropriate because individuals may not be able to accurately report the subtle influences of culture on their beliefs and attitudes.",
+            "runtime": 6.09,
+            "correct": true
+        },
+        {
+            "question_number": 35,
+            "expected": [
+                "marketable artifacts",
+                "a commercial",
+                "consumption"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "marketable artifacts",
+                "a commercial",
+                "consumption"
+            ],
+            "model_response": "marketable artifacts, a commercial, consumption  \nExplanation: The text describes how anniversaries turn historical events into objects of celebration. \"Marketable artifacts\" fits well as it indicates events that can be turned into products for commercialization. \"A commercial\" culture aligns with the idea of profit-driven celebrations, while \"consumption\" refers to how the public engages with these events, often in a consumerist manner.",
+            "runtime": 6.22,
+            "correct": true
+        },
+        {
+            "question_number": 36,
+            "expected": [
+                "languishing",
+                "extend",
+                "manages to thrive"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o-mini",
+            "model_answer": [
+                "languishing",
+                "extend",
+                "manages to thrive"
+            ],
+            "model_response": "languishing, extend, manages to thrive  \nExplanation: In the first blank, \"languishing\" fits because it suggests that certain forms of creative work are suffering due to uncontrolled copying. The second blank requires a verb that indicates a positive action towards intellectual property law, hence \"extend\" is appropriate as it suggests broadening the scope of protections. For the third blank, \"manages to thrive\" indicates that unprotected creative work can still succeed despite the absence of legal protections, which is an important aspect to understand in this context.",
+            "runtime": 1.88,
+            "correct": true
+        },
+        {
+            "question_number": 37,
+            "expected": [
+                "collaborative",
+                "contributions",
+                "remain overlooked"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "collaborative",
+                "contributions",
+                "remain overlooked"
+            ],
+            "model_response": "collaborative, contributions, remain overlooked  \nExplanation:  \n- Blank (i): \"Collaborative\" fits best because contemporary science often involves teamwork and collaboration, aligning with the idea of science being a joint effort.\n- Blank (ii): \"Contributions\" makes sense as the passage is discussing the role of individuals in science and their impact, which are typically referred to as \"contributions.\"\n- Blank (iii): \"Remain overlooked\" is the most fitting phrase as it suggests that despite the contributions of women and minority scientists, their work has not received adequate recognition, remaining neglected in history.",
+            "runtime": 44.22,
+            "correct": true
+        },
+        {
+            "question_number": 38,
+            "expected": [
+                "an acquired",
+                "advanced",
+                "demands"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "an acquired",
+                "advanced",
+                "demands"
+            ],
+            "model_response": "an acquired, advanced, demands  \nExplanation: In the context of the sentence, \"an acquired\" suggests that truthfulness is a virtue that children develop over time rather than something they naturally possess. \"Advanced\" fits well in the second blank, as it implies that lying is a more complex skill requiring higher cognitive abilities. Finally, \"demands\" in the last blank indicates that lying requires children to engage their cognitive development and social skills, highlighting the complexity of the skill compared to honesty.",
+            "runtime": 3.23,
+            "correct": true
+        },
+        {
+            "question_number": 39,
+            "expected": [
+                "celebrate",
+                "incommensurate with",
+                "stratification"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "celebrate",
+                "incommensurate with",
+                "stratification"
+            ],
+            "model_response": "celebrate, incommensurate with, stratification  \nExplanation: The first blank refers to how founding myths illustrate or promote the idea of equal labor division, so \"celebrate\" is the most fitting choice. The second blank discusses the gap between theoretical commitments and reality, where \"incommensurate with\" indicates that theoretical ideas don't match reality. The third blank refers to the opposite of equality, making \"stratification\" the best choice as it suggests the continued existence of inequality.",
+            "runtime": 4.99,
+            "correct": true
+        },
+        {
+            "question_number": 40,
+            "expected": [
+                "access to",
+                "spontaneously emerge",
+                "construct"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "access to",
+                "spontaneously emerge",
+                "construct"
+            ],
+            "model_response": "access to, spontaneously emerge, construct  \nExplanation: In this context, \"access to\" is the most fitting phrase to describe the resources that pulp and paper firms had. \"Spontaneously emerge\" suggests that the firms cannot assume that the markets would simply form without their input. Finally, \"construct\" indicates that these firms would need to create or develop these markets in a way that fits the existing political landscape, which aligns with the overall message of the passage.",
+            "runtime": 8.92,
+            "correct": true
+        },
+        {
+            "question_number": 41,
+            "expected": [
+                "peer",
+                "cliquish social behavior",
+                "clustering"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "peer",
+                "cliquish social behavior",
+                "clustering"
+            ],
+            "model_response": "peer, cliquish social behavior, clustering  \nExplanation: The passage discusses how interactions during adolescence are important for self-identity, particularly with like-minded peers, suggesting \"peer\" is the best fit for Blank (i). The text then refers to behaviors like seeking and excluding others, actions characteristic of \"cliquish social behavior,\" making it the appropriate choice for Blank (ii). Finally, this behavior evolves into a different, more mature pattern, and the term \"clustering\" (grouping together) aligns with the idea of forming more refined and stable friendships, fitting Blank (iii).",
+            "runtime": 6.7,
+            "correct": true
+        },
+        {
+            "question_number": 42,
+            "expected": [
+                "requires",
+                "debunked",
+                "predate that event"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "requires",
+                "debunked",
+                "predate that event"
+            ],
+            "model_response": "requires, debunked, predate that event\n\nExplanation: The first blank must indicate that the myth assumes something about pasta’s history in Italy, so \"requires\" fits well. The second blank involves showing how the myth can be disproven, so \"debunked\" is the correct choice. The third blank requires an option that suggests Italian references to pasta existed before Marco Polo’s return, so \"predate that event\" is the appropriate answer.",
+            "runtime": 5.15,
+            "correct": true
+        },
+        {
+            "question_number": 43,
+            "expected": [
+                "malady",
+                "healthful",
+                "funds"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "malady",
+                "healthful",
+                "funds"
+            ],
+            "model_response": "malady, healthful, funds  \nExplanation: The first blank needs a term for a wide range of ailments, making \"malady\" the correct choice. For the second blank, \"healthful\" fits best as it indicates that the therapies are beneficial, which aligns with the German medical system's recognition of them. Finally, \"funds\" is appropriate for the third blank, suggesting that the German medical system supports and finances these treatments.",
+            "runtime": 3.99,
+            "correct": true
+        },
+        {
+            "question_number": 44,
+            "expected": [
+                "well-worked",
+                "find",
+                "new"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "well-worked",
+                "find",
+                "new"
+            ],
+            "model_response": "well-worked, find, new  \nExplanation: In this context, \"well-worked\" suggests that the ground Thaler is examining has been thoroughly explored by other scholars. The use of \"find\" indicates that the reader will only discover what has already been discussed, and \"new\" suggests that Thaler's study does not introduce any novel insights.",
+            "runtime": 5.89,
+            "correct": true
+        },
+        {
+            "question_number": 45,
+            "expected": [
+                "compunction about",
+                "sociability",
+                "cooperate"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "consensus regarding",
+                "sociability",
+                "cooperate"
+            ],
+            "model_response": "consensus regarding, sociability, cooperate  \nExplanation: In the first blank, \"consensus regarding\" fits best as it suggests that biologists have a general agreement about the link. For the second blank, \"sociability\" is the most appropriate as it relates directly to how humans interact in a group setting. Lastly, \"cooperate\" fits perfectly in the third blank as it directly aligns with the idea of individuals subordinating their self-interest to support the group, which is central to the argument about human achievement.",
+            "runtime": 4.02,
+            "correct": false
+        },
+        {
+            "question_number": 46,
+            "expected": [
+                "even more troubling",
+                "vanished",
+                "rapid"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "even more troubling",
+                "vanished",
+                "rapid"
+            ],
+            "model_response": "even more troubling, vanished, rapid  \nExplanation: The first blank (i) is best filled with \"even more troubling\" because the text discusses the ethical implications of neuroscience and suggests these may be more significant than those of genetics, making \"even more troubling\" the appropriate choice. For the second blank (ii), \"vanished\" makes sense because if ethical and practical constraints on genetic experimentation disappear, the hypothetical scenario described in the passage would make sense. And finally, for the third blank (iii), \"rapid\" fits logically because the passage contrasts the decades required for genetic experimentation with the immediate and dramatic effects of altering brain function.",
+            "runtime": 6.24,
+            "correct": true
+        },
+        {
+            "question_number": 47,
+            "expected": [
+                "unclear",
+                "has little effect on",
+                "enhance"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "measurable",
+                "tends to accentuate",
+                "enhance"
+            ],
+            "model_response": "measurable, tends to accentuate, enhance  \nThe passage discusses the impact of laughter on the perception of humor in television programming. For the first blank, \"measurable\" fits because it implies researchers can quantify the effect of laughter. For the second blank, \"tends to accentuate\" is appropriate as it suggests that laughter enhances the perception of humor. Finally, \"enhance\" in the third blank indicates that laughter can improve humor at specific moments, aligning with the overall theme of boosting comic appeal.",
+            "runtime": 5.84,
+            "correct": false
+        },
+        {
+            "question_number": 48,
+            "expected": [
+                "adapted to",
+                "in the water",
+                "clumsy for"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "adapted to",
+                "in the water",
+                "clumsy for"
+            ],
+            "model_response": "adapted to,in the water,clumsy for  \nExplanation: The first blank requires a word that indicates how Maiacetus inuus was suited for living in the sea, which is best captured by \"adapted to.\" The second blank implies where this species likely spent most of its time, and \"in the water\" directly supports that idea. Lastly, for the third blank, \"clumsy for\" suggests that while Maiacetus inuus had features suited for aquatic life, its feet were not well suited for efficient movement on land.",
+            "runtime": 5.89,
+            "correct": true
+        },
+        {
+            "question_number": 49,
+            "expected": [
+                "misconstrued",
+                "acquiescence",
+                "detestation"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "misconstrued",
+                "acquiescence",
+                "detestation"
+            ],
+            "model_response": "misconstrued, acquiescence, detestation  \nExplanation: The context suggests that people misunderstood Clark's compliance as obsequiousness, which aligns with \"misconstrued\" for (i). His apparent compliance likely came off as submissiveness, fitting \"acquiescence\" for (ii). However, underneath this compliance lay a strong dislike or detestation for the authority over him, which is expressed through his actions of sabotage, making \"detestation\" the correct choice for (iii).",
+            "runtime": 6.08,
+            "correct": true
+        },
+        {
+            "question_number": 50,
+            "expected": [
+                "caused",
+                "feedback between",
+                "self-perpetuating"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "caused",
+                "feedback between",
+                "self-perpetuating"
+            ],
+            "model_response": "caused, feedback between, self-perpetuating  \nExplanation: The first blank \"caused\" fits best since the context discusses two opposing theories regarding whether mountain building triggered global cooling or the opposite. The second blank \"feedback between\" effectively conveys the interaction between mountains and climate in the theory that mountain building influences climate. The third blank \"self-perpetuating\" describes mountain glaciers, which, once established, enhance their own existence by increasing surface reflectivity and thus promoting further cooling and ice formation.",
+            "runtime": 7.5,
+            "correct": true
+        }
+    ]
+}

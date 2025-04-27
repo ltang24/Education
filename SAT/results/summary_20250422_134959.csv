@@ -1,0 +1,10 @@
+Model,Strategy,Overall Accuracy,Cross-Text Connections Accuracy,Text Structure and Purpose Accuracy,Words in Context Accuracy
+llama-3.1-8b,zero-shot,90.91%,85.00%,93.33%,95.00%
+llama-3.1-8b,five-shot,94.55%,95.00%,93.33%,95.00%
+llama-3.1-8b,chain-of-thought,94.55%,90.00%,93.33%,100.00%
+llama-3.1-70b,zero-shot,94.55%,95.00%,86.67%,100.00%
+llama-3.1-70b,five-shot,92.73%,95.00%,86.67%,95.00%
+llama-3.1-70b,chain-of-thought,89.09%,85.00%,93.33%,90.00%
+llama-3.1-405b,zero-shot,94.55%,95.00%,86.67%,100.00%
+llama-3.1-405b,five-shot,94.55%,95.00%,86.67%,100.00%
+llama-3.1-405b,chain-of-thought,92.73%,95.00%,80.00%,100.00%

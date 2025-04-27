@@ -1,0 +1,1139 @@
+[
+  {
+    "number": 1,
+    "skill": "Linear equations in one variable",
+    "question": "What value of p satisfies the equation 5p + 180 = 250?",
+    "choices": {
+      "A": "14",
+      "B": "65",
+      "C": "86",
+      "D": "250"
+    },
+    "correct_answer": "A",
+    "rationale": "Subtracting 180 from both sides yields 5p = 70. Dividing both sides by 5 gives p = 14. Thus, the correct value is 14. Other choices result in incorrect values of the equation.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 2,
+    "skill": "Linear equations in one variable",
+    "question": "Hector used a tool called an auger to remove corn from a storage bin at a constant rate. The bin contained 24,000 bushels of corn when Hector began to use the auger. After 5 hours of using the auger, 19,350 bushels of corn remained in the bin. If the auger continues to remove corn at this rate, what is the total number of hours Hector will have been using the auger when 12,840 bushels of corn remain in the bin?",
+    "choices": {
+      "A": "3",
+      "B": "7",
+      "C": "8",
+      "D": "12"
+    },
+    "correct_answer": "D",
+    "rationale": "In 5 hours, Hector removed 4,650 bushels. The rate is 930 bushels/hour. Solving 24,000 – 930x = 12,840 gives x = 12. Other choices lead to different remaining amounts not equal to 12,840.",
+    "question_difficulty": "Hard"
+  },
+  {
+    "number": 3,
+    "skill": "Linear equations in one variable",
+    "question": "4x + 5 = 165. What is the solution to the given equation?",
+    "correct_answer": 40,
+    "rationale": "The correct answer is 40. Subtracting 5 from both sides of the given equation yields 4x = 160. Dividing both sides of this equation by 4 yields x = 40. Therefore, the solution to the given equation is 40.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 4,
+    "skill": "Linear equations in one variable",
+    "question": "John paid a total of $165 for a microscope by making a down payment of $37 plus p monthly payments of $16 each. Which of the following equations represents this situation?",
+    "choices": {
+      "A": "16p - 37 = 165",
+      "B": "37p - 16 = 165",
+      "C": "16p + 37 = 165",
+      "D": "37p + 16 = 165"
+    },
+    "correct_answer": "C",
+    "rationale": "Choice C is correct. It’s given that John made a $16 payment each month for p months. The total amount of these payments can be represented by the expression 16p. The down payment can be added to that amount to find the total amount John paid, yielding the expression 16p + 37. It’s given that John paid a total of $165. Therefore, the expression for the total amount John paid can be set equal to that amount, yielding the equation 16p + 37 = 165. Choices A, B, and D are incorrect and may result from conceptual or calculation errors.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 5,
+    "skill": "Linear equations in one variable",
+    "question": "In the given equation 3x + 21 = 3x + k, k is a constant. The equation has infinitely many solutions. What is the value of k?",
+    "correct_answer": 21,
+    "rationale": "The correct answer is 21. For the equation 3x + 21 = 3x + k to hold for all x, the constant terms must be equal. Subtracting 3x from both sides yields k = 21.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 6,
+    "skill": "Linear equations in one variable",
+    "question": "3(2x – 6) – 11 = 4(x – 3) + 6. If x is the solution to the equation above, what is the value of x – 3?",
+    "choices": {
+      "A": "23/2",
+      "B": "17/2",
+      "C": "15/2",
+      "D": "-15/2"
+    },
+    "correct_answer": "B",
+    "rationale": "Choice B is correct. Factoring 2x – 6 as 2(x – 3) on the left gives 3·2(x – 3) – 11 = 4(x – 3) + 6 ⇒ 6(x – 3) – 11 = 4(x – 3) + 6. Subtracting 4(x – 3) and adding 11 yields 2(x – 3) = 17, so x – 3 = 17/2. Choices A, C, and D are incorrect.",
+    "question_difficulty": "Medium"
+  },
+  {
+    "number": 7,
+    "skill": "Linear equations in one variable",
+    "question": "Alan drives an average of 100 miles each week. His car can travel an average of 25 miles per gallon of gasoline. Alan would like to reduce his weekly expenditure on gasoline by $5. Assuming gasoline costs $4 per gallon, which equation can Alan use to determine how many fewer average miles, m, he should drive each week?",
+    "choices": {
+      "A": "(25/4) m = 95",
+      "B": "(25/4) m = 5",
+      "C": "(4/25) m = 95",
+      "D": "(4/25) m = 5"
+    },
+    "correct_answer": "D",
+    "rationale": "Choice D is correct. Since gasoline costs $4 per gallon and the car travels 25 miles per gallon, the cost per mile is 4/25 dollars. Multiplying (4/25) by m gives the dollars saved by driving m fewer miles. To reduce weekly gasoline spending by $5, set (4/25) m = 5. Choices A and B invert the fraction (yielding miles per dollar), and choices A and C set the expression equal to 95 instead of 5.",
+    "question_difficulty": "Hard"
+  }, 
+  {
+    "number": 8,
+    "skill": "Linear equations in one variable",
+    "question": "A tree had a height of 6 feet when it was planted. The equation 2n + 6 = 14 can be used to find how many years n it took the tree to reach a height of 14 feet. Which of the following is the best interpretation of the number 2 in this context?",
+    "choices": {
+      "A": "The number of years it took the tree to double its height",
+      "B": "The average number of feet that the tree grew per year",
+      "C": "The height, in feet, of the tree when the tree was 1 year old",
+      "D": "The average number of years it takes similar trees to grow 14 feet"
+    },
+    "correct_answer": "B",
+    "rationale": "Choice B is correct. In 2n + 6 = 14, the term 6 represents the initial height and n represents the number of years. The coefficient 2 must therefore represent the average number of feet the tree grew each year. Choices A, C, and D misinterpret the role of the coefficient.",
+    "question_difficulty": "Medium"
+  },
+  {
+    "number": 9,
+    "skill": "Linear equations in one variable",
+    "question": "In the given equation 2x + 16 = a(x + 8), a is a constant. If the equation has infinitely many solutions, what is the value of a?",
+    "correct_answer": 2,
+    "rationale": "The correct answer is 2. An equation in one variable has infinitely many solutions only when both sides are identical for every x. Rewriting 2x + 16 as 2(x + 8) gives 2(x + 8) = a(x + 8), so a must equal 2 for the sides to match for all x.",
+    "question_difficulty": "Medium"
+  },
+  {
+    "number": 10,
+    "skill": "Linear equations in one variable",
+    "question": "If \\(\\frac{x}{8} = 5\\), what is the value of \\(\\frac{8}{x}\\)?",
+    "correct_answer": "1/5",
+    "rationale": "Since \\(x/8 = 5\\), multiplying both sides by 8 gives \\(x = 40\\). Substituting into \\(8/x\\) yields \\(8/40 = 1/5\\), which is also 0.2.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 11,
+    "skill": "Linear equations in one variable",
+    "question": "The perimeter of an isosceles triangle is 83 inches. Each of the two congruent sides of the triangle has a length of 24 inches. What is the length, in inches, of the third side?",
+    "correct_answer": 35,
+    "rationale": "Let x be the length of the third side. The perimeter is 24 + 24 + x = 83, so 48 + x = 83. Subtracting 48 from both sides gives x = 35.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 12,
+    "skill": "Linear equations in one variable",
+    "question": "In the given equation \\((b - 2)x = 8\\), \\(b\\) is a constant. If the equation has no solution, what is the value of \\(b\\)?",
+    "choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "10"
+    },
+    "correct_answer": "A",
+    "rationale": "The equation \\((b - 2)x = 8\\) has no solution precisely when the coefficient of \\(x\\) is zero (so the left side is always zero) but the right side is nonzero. Setting \\(b - 2 = 0\\) gives \\(b = 2\\), yielding \\(0 \\cdot x = 8\\), which is impossible.",
+    "question_difficulty": "Medium"
+  },
+  {
+    "number": 13,
+    "skill": "Linear equations in one variable",
+    "question": "How many solutions does the equation 10(15x – 9) = –15(6 – 10x) have?",
+    "choices": {
+      "A": "Exactly one",
+      "B": "Exactly two",
+      "C": "Infinitely many",
+      "D": "Zero"
+    },
+    "correct_answer": "C",
+    "rationale": "Choice C is correct. Distributing gives 150x – 90 = –90 + 150x, which simplifies to 150x – 90 = 150x – 90, an identity true for every x. Therefore, there are infinitely many solutions.",
+    "question_difficulty": "Hard"
+  },
+  {
+    "number": 14,
+    "skill": "Linear equations in one variable",
+    "question": "In the equation \\(\\frac{4x}{5} = 20\\), what is the value of x?",
+    "choices": {
+      "A": "25",
+      "B": "24",
+      "C": "16",
+      "D": "15"
+    },
+    "correct_answer": "A",
+    "rationale": "Multiplying both sides of \\(\\tfrac{4x}{5} = 20\\) by 5 gives \\(4x = 100\\). Dividing both sides by 4 yields \\(x = 25\\). Choices B, C, and D arise from common arithmetic errors (mis‐ordering operations or incorrect division).",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 15,
+    "skill": "Linear equations in one variable",
+    "question": "In the given equation \\(3(kx + 13) = \\tfrac{48}{17}x + 36\\), \\(k\\) is a constant. The equation has no solution. What is the value of \\(k\\)?",
+    "correct_answer": "16/17",
+    "rationale": "The correct answer is \\(\\tfrac{16}{17}\\). A linear equation of the form \\(ax + b = cx + d\\) has no solution only when the coefficients of \\(x\\) on both sides are equal but the constant terms differ. Dividing both sides of the given equation by 3 gives \\(kx + 13 = \\tfrac{48}{51}x + 12\\), which simplifies to \\(kx + 13 = \\tfrac{16}{17}x + 12\\). Equating coefficients of \\(x\\) yields \\(k = \\tfrac{16}{17}\\).",
+    "question_difficulty": "Hard"
+  },
+  {
+    "number": 16,
+    "skill": "Linear equations in one variable",
+    "question": "Which of the following is equivalent to 4x + 6 = 12?",
+    "choices": {
+      "A": "2x + 4 = 6",
+      "B": "x + 3 = 3",
+      "C": "3x + 2 = 4",
+      "D": "2x + 3 = 6"
+    },
+    "correct_answer": "D",
+    "rationale": "Dividing both sides of 4x + 6 = 12 by 2 yields 2x + 3 = 6, which is equivalent to the original equation. Choices A, B, and C result from dividing by the wrong factor or mis‐applying the distributive property.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 17,
+    "skill": "Linear equations in one variable",
+    "question": "One pound of grapes costs $2. At this rate, how many dollars will c pounds of grapes cost?",
+    "choices": {
+      "A": "2c",
+      "B": "2 + c",
+      "C": "2/c",
+      "D": "c/2"
+    },
+    "correct_answer": "A",
+    "rationale": "Choice A is correct. If one pound costs $2, then c pounds cost 2 × c = 2c dollars. Choice B adds instead of multiplies, and choices C and D divide incorrectly.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 18,
+    "skill": "Linear equations in one variable",
+    "question": "A principal used a total of 25 flags that were either blue or yellow for field day. The principal used 20 blue flags. How many yellow flags were used?",
+    "choices": {
+      "A": "5",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correct_answer": "A",
+    "rationale": "Choice A is correct. Since the total number of flags is 25 and 20 of them are blue, the number of yellow flags is 25 − 20 = 5. Choices B, C, and D do not satisfy this relationship.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 19,
+    "skill": "Linear equations in one variable",
+    "question": "What value of x is the solution to the equation 8x = 88?",
+    "choices": {
+      "A": "11",
+      "B": "80",
+      "C": "96",
+      "D": "704"
+    },
+    "correct_answer": "A",
+    "rationale": "Choice A is correct. Dividing both sides of 8x = 88 by 8 gives x = 11. Choices B, C, and D result from incorrect operations.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 20,
+    "skill": "Linear equations in one variable",
+    "question": "A certain product costs a company $65 to make. The product is sold by a salesperson who earns a commission that is equal to 20% of the sales price of the product. The profit the company makes for each unit is equal to the sales price minus the combined cost of making the product and the commission. If the sales price of the product is $100, which of the following equations gives the number of units, u, of the product the company sold to make a profit of $6,840?",
+    "choices": {
+      "A": "(100(1 - 0.2) - 65)u = 6840",
+      "B": "(100 - 65)(1 - 0.8)u = 6840",
+      "C": "0.8(100) - 65u = 6840",
+      "D": "(0.2(100) + 65)u = 6840"
+    },
+    "correct_answer": "A",
+    "rationale": "Choice A is correct. The commission is 20% of the $100 sales price, so the company retains 100(1 - 0.2) per unit after commission. Subtracting the $65 cost yields a profit of 100(1 - 0.2) - 65 per unit. To reach a total profit of $6,840 for u units, set (100(1 - 0.2) - 65)u = 6840. The other choices misapply the commission or cost operations.",
+    "question_difficulty": "Hard"
+  },
+  {
+    "number": 21,
+    "skill": "Linear functions",
+    "question": "The total cost f(x), in dollars, to lease a car for 36 months from a particular car dealership is given by f(x) = 36x + 1,000, where x is the monthly payment, in dollars. What is the total cost to lease a car when the monthly payment is $400?",
+    "choices": {
+      "A": "$13,400",
+      "B": "$13,000",
+      "C": "$15,400",
+      "D": "$37,400"
+    },
+    "correct_answer": "C",
+    "rationale": "Substitute x = 400 into f(x) = 36x + 1,000 to get f(400) = 36·400 + 1,000 = 14,400 + 1,000 = 15,400.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 21,
+    "skill": "Linear functions",
+    "question": "A window repair specialist charges $220 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 5 hours of repair is $400. Which function f gives the total cost, in dollars, for x hours of repair, where x ≥ 2?",
+    "choices": {
+      "A": "f(x) = 60x + 100",
+      "B": "f(x) = 60x + 220",
+      "C": "f(x) = 80x",
+      "D": "f(x) = 80x + 220"
+    },
+    "correct_answer": "A",
+    "rationale": "Let n be the hourly fee after the first two hours. Since f(5) = 220 + n·(5–2) = 400, we have 220 + 3n = 400 ⇒ 3n = 180 ⇒ n = 60. Thus for x ≥ 2, f(x) = 220 + 60(x – 2) = 60x + 100.",
+    "question_difficulty": "Hard"
+  },
+  {
+    "number": 22,
+    "skill": "Linear functions",
+    "question": "A window repair specialist charges $220 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 5 hours of repair is $400. Which function f gives the total cost, in dollars, for x hours of repair, where x ≥ 2?",
+    "choices": {
+      "A": "f(x) = 60x + 100",
+      "B": "f(x) = 60x + 220",
+      "C": "f(x) = 80x",
+      "D": "f(x) = 80x + 220"
+    },
+    "correct_answer": "A",
+    "rationale": "Let n be the hourly fee after the first two hours. Since f(5) = 220 + n·(5–2) = 400, we have 220 + 3n = 400 ⇒ 3n = 180 ⇒ n = 60. Thus for x ≥ 2, f(x) = 220 + 60(x – 2) = 60x + 100.",
+    "question_difficulty": "Hard"
+  },
+  {
+    "number": 23,
+    "skill": "Linear functions",
+    "question": "The function h is defined by h(x) = 4x + 28. The graph of y = h(x) in the xy‑plane has an x‑intercept at (a, 0) and a y‑intercept at (0, b), where a and b are constants. What is the value of a + b?",
+    "choices": {
+      "A": "21",
+      "B": "28",
+      "C": "32",
+      "D": "35"
+    },
+    "correct_answer": "A",
+    "rationale": "To find the x‑intercept, set y = 0: 0 = 4x + 28 → x = –7, so a = –7. To find the y‑intercept, set x = 0: y = 4·0 + 28 = 28, so b = 28. Thus a + b = –7 + 28 = 21.",
+    "question_difficulty": "Medium"
+  },
+  {
+    "number": 24,
+    "skill": "Linear functions",
+    "question": "An economist modeled the demand Q for a certain product as a linear function of the selling price P. The demand was 20,000 units when the selling price was $40 per unit, and the demand was 15,000 units when the selling price was $60 per unit. Based on the model, what is the demand, in units, when the selling price is $55 per unit?",
+    "choices": {
+      "A": "16,250",
+      "B": "16,500",
+      "C": "16,750",
+      "D": "17,500"
+    },
+    "correct_answer": "A",
+    "rationale": "First compute the slope: m = (15,000 − 20,000)/(60 − 40) = −5,000/20 = −250.  The linear model is Q = mP + b, so Q = −250P + b.  Use the point (P, Q) = (40, 20,000) to find b: 20,000 = −250·40 + b ⇒ 20,000 = −10,000 + b ⇒ b = 30,000.  Thus Q = −250P + 30,000.  Substituting P = 55 gives Q = −250·55 + 30,000 = −13,750 + 30,000 = 16,250.",
+    "question_difficulty": "Hard"
+  },
+  {
+    "number": 25,
+    "skill": "Linear functions",
+    "question": "The cost of renting a backhoe for up to 10 days is $270 for the first day and $135 for each additional day. Which of the following equations gives the cost y, in dollars, of renting the backhoe for x days, where x is a positive integer and x ≤ 10?",
+    "choices": {
+      "A": "y = 270x - 135",
+      "B": "y = 270x + 135",
+      "C": "y = 135x + 270",
+      "D": "y = 135x + 135"
+    },
+    "correct_answer": "D",
+    "rationale": "You pay $270 on day 1 plus $135 for each additional day, i.e. y = 270 + 135(x − 1).  Simplifying gives y = 135x + 135.",
+    "question_difficulty": "Hard"
+  },
+  {
+    "number": 26,
+    "skill": "Linear functions",
+    "question": "The front of a roller‑coaster car is at the bottom of a hill and is 15 feet above the ground. If the front of the roller‑coaster car rises at a constant rate of 8 feet per second, which of the following equations gives the height h, in feet, of the front of the roller‑coaster car s seconds after it starts up the hill?",
+    "choices": {
+      "A": "h = 8s + 15",
+      "B": "h = 15s + 335/8",
+      "C": "h = 8s + 335/15",
+      "D": "h = 15s + 8"
+    },
+    "correct_answer": "A",
+    "rationale": "The car starts 15 ft above ground and gains 8 ft each second, so its height after s seconds is initial height + rate·time = 15 + 8s, i.e. h = 8s + 15.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number": 27,
+    "skill": "Linear functions",
+    "question": "According to a model, the head width, in millimeters, of a worker bumblebee can be estimated by adding 0.6 to four times the body weight of the bee, in grams. According to the model, what would be the head width, in millimeters, of a worker bumblebee that has a body weight of 0.5 grams?",
+    "choices": null,
+    "correct_answer": "2.6",
+    "rationale": "Let x be the body weight in grams and y the head width in millimeters. The model is y = 0.6 + 4x. Substituting x = 0.5 gives y = 0.6 + 4(0.5) = 0.6 + 2 = 2.6.",
+    "question_difficulty": "Medium"
+  },
+  {
+    "number": 28,
+    "skill": "Linear functions",
+    "question": "The given equation represents the distance d, in inches, where t represents the number of seconds since an object started moving: d = 16t. Which of the following is the best interpretation of 16 in this context?",
+    "choices": [
+      "A. The object moved a total of 16 inches.",
+      "B. The object moved a total of 16t inches.",
+      "C. The object is moving at a rate of 16 inches per second.",
+      "D. The object is moving at a rate of 1/16 inches per second."
+    ],
+    "correct_answer": "The object is moving at a rate of 16 inches per second.",
+    "rationale": "In the equation d = 16t, the coefficient 16 multiplies the time t in seconds, indicating that for each second the object moves 16 inches. Therefore, 16 represents the speed of the object: 16 inches per second.",
+    "question_difficulty": "Easy"
+  },
+  {
+    "number":29,
+    "skill": "Linear functions",
+    "question": "For the given linear function f, f(x) = 39, which table gives three values of x and their corresponding values of f(x)?",
+    "choices": [
+      "A. x: 0 → f(x): 0; 1 → 0; 2 → 0",
+      "B. x: 0 → f(x): 39; 1 → 39; 2 → 39",
+      "C. x: 0 → f(x): 0; 1 → 39; 2 → 78",
+      "D. x: 0 → f(x): 39; 1 → 0; 2 → –39"
+    ],
+    "correct_answer": "x: 0 → 39; 1 → 39; 2 → 39",
+    "rationale": "Since f(x) is the constant function 39 for all x, the correct table is the one that lists f(x)=39 at x=0, x=1, and x=2.",
+    "question_difficulty": "Medium"
+  },
+  {
+    "number": 30,
+    "skill": "Linear functions",
+    "question": "The function g is defined by g(x) = 6x. For what value of x is g(x) = 54?",
+    "correct_answer": "9",
+    "rationale": "Since g(x) = 6x, substituting 54 for g(x) gives 54 = 6x. Dividing both sides by 6 yields x = 9."
+  },
+  {
+    "number": 31,
+    "skill": "Linear functions",
+    "question": "In the xy-plane, the graph of the linear function f contains the points (0, 3) and (7, 31). Which equation defines f, where y = f(x)?",
+    "correct_answer": "C",
+    "rationale": "The slope is (31 − 3)/(7 − 0) = 28/7 = 4, and since f(0) = 3, the y-intercept is 3. Thus f(x) = 4x + 3."
+  },
+  {
+    "number": 32,
+    "skill": "Linear functions",
+    "question": "The number y is 84 less than the number x. Which equation represents the relationship between x and y?",
+    "correct_answer": "D",
+    "rationale": "If y is 84 less than x, then you subtract 84 from x to get y. Thus the equation is y = x − 84."
+  },
+  {
+    "number": 33,
+    "skill": "Linear functions",
+    "question": "The function f is defined by the equation f(x) = 7x + 2. What is the value of f(x) when x = 4?",
+    "correct_answer": "30",
+    "rationale": "Substituting x = 4 into f(x) = 7x + 2 gives f(4) = 7·4 + 2 = 28 + 2 = 30."
+  },
+  {
+    "number": 34,
+    "skill": "Linear functions",
+    "question": "A model predicts that a certain animal weighed 241 pounds when it was born and that the animal gained 3 pounds per day in its first year of life. This model is defined by an equation in the form f(x) = a + bx, where f(x) is the predicted weight, in pounds, of the animal x days after it was born, and a and b are constants. What is the value of a?",
+    "correct_answer": "241",
+    "rationale": "In the form f(x) = a + bx, the constant a represents the value of f(0), i.e. the weight at birth (x = 0), which is given as 241 pounds."
+  },
+  {
+    "number": 35,
+    "skill": "Linear functions",
+    "question": "The function g is defined by g(x) = -x + 8. What is the value of g(0)?",
+    "options": {
+      "A": "-8",
+      "B": "0",
+      "C": "4",
+      "D": "8"
+    },
+    "correct_answer": "8",
+    "rationale": "To find g(0), substitute x = 0 into g(x): g(0) = -0 + 8 = 8."
+  },
+  {
+    "number": 36,
+    "skill": "Linear functions",
+    "question": "The function f is defined by f(x) = 4x. For what value of x does f(x) = 8?",
+    "correct_answer": "2",
+    "rationale": "Substitute f(x)=8 into the equation: 8 = 4x. Dividing both sides by 4 gives x = 2."
+  },
+  {
+    "number": 37,
+    "skill": "Linear functions",
+    "question": "The line graphed in the xy‑plane below models the total cost, in dollars, for a cab ride, y, in a certain city during nonpeak hours based on the number of miles traveled, x. According to the graph, what is the cost for each additional mile traveled, in dollars, of a cab ride?",
+    "correct_answer": "2.00",
+    "rationale": "The cost per mile is given by the slope of the line. Pick two clear points on the line—e.g. (1, 5) and (2, 7)—and compute slope = (7 − 5)/(2 − 1) = 2. Thus the cost for each additional mile is $2.00."
+  },
+  {
+    "number": 38,
+    "skill": "Linear functions",
+    "question": "A team of workers has been moving cargo off of a ship. The equation below models the approximate number of tons of cargo, y, that remains to be moved x hours after the team started working.\n\ny = 120 − 25x\n\nThe graph of this equation in the xy‑plane is a line. What is the best interpretation of the x‑intercept in this context?",
+    "choices": {
+      "A": "The team will have moved all the cargo in about 4.8 hours.",
+      "B": "The team has been moving about 4.8 tons of cargo per hour.",
+      "C": "The team has been moving about 25 tons of cargo per hour.",
+      "D": "The team started with 120 tons of cargo to move."
+    },
+    "correct_answer": "A",
+    "rationale": "Setting y = 0 gives 0 = 120 − 25x ⇒ x = 120/25 = 4.8. Since y measures the tons remaining, at x = 4.8 there are 0 tons left, i.e. all cargo is moved after about 4.8 hours.",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 39,
+    "skill": "Linear functions",
+    "question": "The function \\(F(x) = \\frac{9}{5}(x - 273.15) + 32\\) gives the temperature, in degrees Fahrenheit, that corresponds to a temperature of \\(x\\) kelvins. If a temperature increased by 9.10 kelvins, by how much did the temperature increase, in degrees Fahrenheit?",
+    "choices": {
+      "A": "16.38",
+      "B": "48.38",
+      "C": "475.29",
+      "D": "507.29"
+    },
+    "correct_answer": "A",
+    "rationale": "An increase of 9.10 kelvins means \\(x\\) increases by 9.10.  The change in \\(F(x)\\) is \\(\\frac{9}{5} \\cdot 9.10 = 16.38\\).  Therefore the temperature increased by 16.38 °F.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 39,
+    "skill": "Linear functions",
+    "question": "The function f is defined by f(x) = 7x - 84. What is the x‑intercept of the graph of y = f(x) in the xy‑plane?",
+    "choices": {
+      "A": "(-12, 0)",
+      "B": "(-7, 0)",
+      "C": "(7, 0)",
+      "D": "(12, 0)"
+    },
+    "correct_answer": "D",
+    "rationale": "To find the x‑intercept, set y = f(x) = 0 and solve: 0 = 7x - 84 ⇒ 7x = 84 ⇒ x = 12. Thus the x‑intercept is (12, 0).",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 40,
+    "skill": "Linear functions",
+    "question": "The table shows four values of x and their corresponding values of f(x). There is a linear relationship between x and f(x) that is defined by the equation f(x) = m x − 28, where m is a constant. What is the value of m?",
+    "data": {
+      "table": [
+        { "x": 10, "f(x)": 82 },
+        { "x": 15, "f(x)": 137 },
+        { "x": 20, "f(x)": 192 },
+        { "x": 25, "f(x)": 247 }
+      ]
+    },
+    "model": "f(x) = m x − 28",
+    "correct_answer": 11,
+    "rationale": "Substitute x = 10 and f(x) = 82 into f(x) = m x − 28: 82 = 10m − 28 ⇒ 10m = 110 ⇒ m = 11.",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 41,
+    "skill": "Linear equations in two variables",
+    "question": "Line k is defined by y = -\\frac{17}{3}x + 5. Line j is perpendicular to line k in the xy‑plane. What is the slope of line j?",
+    "model": "y = -17/3 x + 5",
+    "correct_answer": "3/17",
+    "rationale": "The slope of line k is -17/3. A line perpendicular to k must have slope equal to the negative reciprocal of -17/3, which is 3/17.",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 42,
+    "skill": "Linear equations in two variables",
+    "question": "The table gives the coordinates of two points on a line in the xy‑plane: (k, 13) and (k + 7, −15). The y‑intercept of the line is given as (k − 5, b), where k and b are constants. What is the value of b?",
+    "given_points": [
+      { "x": "k",     "y": 13 },
+      { "x": "k + 7", "y": -15 }
+    ],
+    "y_intercept": { "x": "k - 5", "y": "b" },
+    "correct_answer": 33,
+    "rationale": "First compute the slope m = (−15 − 13)/[(k + 7) − k] = −28/7 = −4. Then use the slope between (k − 5, b) and (k, 13):\n\nm = (13 − b)/[k − (k − 5)] = (13 − b)/5 = −4\n\nMultiply both sides by 5: 13 − b = −20 ⇒ b = 33.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 43,
+    "skill": "Linear equations in two variables",
+    "question": "The graph of the equation ax + ky = 6 is a line in the xy‑plane, where a and k are constants. If the line contains the points (–2, –6) and (0, –3), what is the value of k?",
+    "equation": "a x + k y = 6",
+    "given_points": [
+      { "x": -2, "y": -6 },
+      { "x": 0,  "y": -3 }
+    ],
+    "correct_answer": -2,
+    "rationale": "Substitute (0,–3) into ax + ky = 6: a·0 + k·(–3) = 6 ⇒ –3k = 6 ⇒ k = –2.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 44,
+    "skill": "Linear equations in two variables",
+    "question": "For line h, the table shows three values of x and their corresponding values of y. Line k is the result of translating line h down 5 units in the xy‑plane. What is the x‑intercept of line k?",
+    "table": [
+      { "x": 18, "y": 130 },
+      { "x": 23, "y": 160 },
+      { "x": 26, "y": 178 }
+    ],
+    "transformation": "Translate down 5 units",
+    "correct_answer": { "x": -17, "y": 0 },
+    "rationale": "First compute the slope of line h using any two points: (160−130)/(23−18)=30/5=6. So h has equation y=6x+b. Substituting (18,130) gives 130=6·18+b ⇒ b=22. Thus h: y=6x+22. Translating down 5 units yields k: y=6x+17. Setting y=0 gives 0=6x+17 ⇒ x=−17/6.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 45,
+    "skill": "Linear equations in two variables",
+    "question": "A certain apprentice has enrolled in 85 hours of training courses. The equation 10x + 15y = 85 represents this situation, where x is the number of on‑site training courses and y is the number of online training courses this apprentice has enrolled in. How many more hours does each online training course take than each on‑site training course?",
+    "equation": "10x + 15y = 85",
+    "variables": {
+      "x": "number of on‑site training courses",
+      "y": "number of online training courses"
+    },
+    "ask": "Difference in hours per course (online minus on‑site)",
+    "correct_answer": 5,
+    "rationale": "10x represents hours for on‑site courses (10 hours each), 15y represents hours for online courses (15 hours each). The difference per course is 15 − 10 = 5 hours.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 46,
+    "skill": "Linear equations in two variables",
+    "question": "A store sells two different-sized containers of a certain Greek yogurt. The store’s sales of this Greek yogurt totaled 1,277.94 last month. The equation 5.48x + 7.30y = 1,277.94 represents this situation, where x is the number of smaller containers sold and y is the number of larger containers sold. According to the equation, which of the following represents the price, in dollars, of each smaller container?",
+    "equation": "5.48x + 7.30y = 1277.94",
+    "variables": {
+      "x": "number of smaller containers sold",
+      "y": "number of larger containers sold"
+    },
+    "options": {
+      "A": "5.48",
+      "B": "7.30y",
+      "C": "7.30",
+      "D": "5.48x"
+    },
+    "ask": "Price of each smaller container",
+    "correct_answer": "A",
+    "rationale": "Since x represents the number of smaller containers sold and the term 5.48x represents total sales from those smaller containers, the coefficient 5.48 must be the price in dollars of each smaller container.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 47,
+    "skill": "Linear equations in two variables",
+    "question": "Line k is defined by y = 3x + 15. Line j is perpendicular to line k in the xy‑plane. What is the slope of line j?",
+    "equation_of_k": "y = 3x + 15",
+    "ask": "slope of line j",
+    "options": {
+      "A": "−1/3",
+      "B": "−1/12",
+      "C": "−1/18",
+      "D": "−1/45"
+    },
+    "correct_answer": {
+      "choice": "A",
+      "value": "−1/3"
+    },
+    "rationale": "Since line j is perpendicular to line k and line k has slope 3, the slope of j must be the negative reciprocal of 3, which is −1/3.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 48,
+    "skill": "Linear equations in two variables",
+    "question": "Line p is defined by 4y + 8x = 6. Line r is perpendicular to line p in the xy‑plane. What is the slope of line r?",
+    "equation": "4y + 8x = 6",
+    "ask": "Slope of line r",
+    "correct_answer": ["1/2", "0.5"],
+    "rationale": "First rewrite 4y + 8x = 6 in slope‑intercept form: 4y = –8x + 6 ⇒ y = –2x + 3/2, so the slope of p is –2. A line perpendicular to p must have slope equal to the negative reciprocal of –2, which is 1/2 (or 0.5).",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 49,
+    "skill": "Linear equations in two variables",
+    "question": "Line p is defined by 2y + 18x = 9. Line r is perpendicular to line p in the xy‑plane. What is the slope of line r?",
+    "equation": "2y + 18x = 9",
+    "options": {
+      "A": "-9",
+      "B": "-1/9",
+      "C": "1/9",
+      "D": "9"
+    },
+    "ask": "Slope of line r",
+    "correct_answer": "C",
+    "rationale": "First rewrite 2y + 18x = 9 in slope–intercept form: 2y = –18x + 9 ⇒ y = –9x + 9/2, so the slope of p is –9. A line perpendicular to p has slope equal to the negative reciprocal of –9, which is 1/9.",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 50,
+    "skill": "Linear equations in two variables",
+    "question": "Which table gives three values of x and their corresponding values of y for the equation y = x + 4?",
+    "equation": "y = x + 4",
+    "options": {
+      "A": { "0": 4, "1": 5, "2": 6 },
+      "B": { "0": 6, "1": 5, "2": 4 },
+      "C": { "0": 2, "1": 1, "2": 0 },
+      "D": { "0": 0, "1": 1, "2": 2 }
+    },
+    "ask": "Table matching the function",
+    "correct_answer": "A",
+    "rationale": "Substitute x = 0, 1, 2 into y = x + 4 to get y = 4, 5, 6 respectively. Only choice A lists those pairs.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 51,
+    "skill": "Linear equations in two variables",
+    "question": "A store sells two different-sized containers of a certain Greek yogurt. The store’s sales of this Greek yogurt totaled $1,277.94 last month. The equation 5.48x + 7.30y = 1277.94 represents this situation, where x is the number of smaller containers sold and y is the number of larger containers sold. According to the equation, which of the following represents the price, in dollars, of each smaller container?",
+    "equation": "5.48x + 7.30y = 1277.94",
+    "variables": {
+      "x": "number of smaller containers sold",
+      "y": "number of larger containers sold"
+    },
+    "options": {
+      "A": "5.48",
+      "B": "7.30y",
+      "C": "7.30",
+      "D": "5.48x"
+    },
+    "ask": "price of each smaller container",
+    "correct_answer": "A",
+    "rationale": "Since x represents the number of smaller containers sold and the term 5.48x represents total sales from those smaller containers, the coefficient 5.48 must be the price in dollars of each smaller container.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 52,
+    "skill": "Linear equations in two variables",
+    "question": "What is the equation of the line that passes through the point (0, 5) and is parallel to the graph of y = 7x + 4 in the xy‑plane?",
+    "reference_equation": "y = 7x + 4",
+    "variables": {
+      "point": "(0, 5)"
+    },
+    "options": {
+      "A": "y = 5x",
+      "B": "y = 7x + 5",
+      "C": "y = 7x",
+      "D": "y = 5x + 7"
+    },
+    "ask": "equation of the line",
+    "correct_answer": "B",
+    "rationale": "A line parallel to y = 7x + 4 must have the same slope, 7. Since it passes through (0, 5), its y‑intercept is 5, giving the equation y = 7x + 5.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 53,
+    "skill": "Linear equations in two variables",
+    "question": "The equation above relates the number of minutes, x, Maria spends running each day and the number of minutes, y, she spends biking each day. In the equation, what does the number 75 represent?",
+    "equation": "x + y = 75",
+    "variables": {
+      "x": "minutes Maria spends running each day",
+      "y": "minutes Maria spends biking each day"
+    },
+    "options": {
+      "A": "The number of minutes spent running each day",
+      "B": "The number of minutes spent biking each day",
+      "C": "The total number of minutes spent running and biking each day",
+      "D": "The number of minutes spent biking for each minute spent running"
+    },
+    "ask": "Meaning of the constant term",
+    "correct_answer": "C",
+    "rationale": "Since x + y represents the total number of minutes Maria spends running and biking each day, the equation x + y = 75 tells us that this total is 75 minutes.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 54,
+    "skill": "Linear equations in two variables",
+    "question": "Line t in the xy-plane has a slope of -\\tfrac{1}{3} and passes through the point (9, 10). Which equation defines line t?",
+    "given": {
+      "slope": "-1/3",
+      "point": "(9, 10)"
+    },
+    "options": {
+      "A": "y = 13x - 1/3",
+      "B": "y = 9x + 10",
+      "C": "y = -x/3 + 10",
+      "D": "y = -x/3 + 13"
+    },
+    "ask": "Equation of line t in slope–intercept form",
+    "correct_answer": "D",
+    "rationale": "Write the line in the form y = mx + b with m = -1/3. Substitute (x,y) = (9,10): 10 = - (9)/3 + b = -3 + b, so b = 13. Therefore the equation is y = -x/3 + 13.",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 55,
+    "skill": "Linear equations in two variables",
+    "question": "A machine makes large boxes or small boxes, one at a time, for a total of 700 minutes each day. It takes the machine 10 minutes to make a large box or 5 minutes to make a small box. Which equation represents the possible number of large boxes, x, and small boxes, y, the machine can make each day?",
+    "given": {
+      "total_time_per_day": "700 minutes",
+      "time_per_large_box": "10 minutes",
+      "time_per_small_box": "5 minutes"
+    },
+    "options": {
+      "A": "5x + 10y = 700",
+      "B": "10x + 5y = 700",
+      "C": "(x + y)(10 + 5) = 700",
+      "D": "(10 + x)(5 + y) = 700"
+    },
+    "ask": "Equation representing the time constraint for making x large boxes and y small boxes",
+    "correct_answer": "B",
+    "rationale": "Let x be the number of large boxes and y the number of small boxes. Each large box takes 10 minutes (10×x) and each small box takes 5 minutes (5×y). The machine runs a total of 700 minutes per day, so the time spent must satisfy 10x + 5y = 700.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 56,
+    "skill": "Linear equations in two variables",
+    "question": "A total of 364 paper straws of equal length were used to construct two types of polygons: triangles and rectangles. The triangles and rectangles were constructed so that no two polygons had a common side. The equation 3x + 4y = 364 represents this situation, where x is the number of triangles constructed and y is the number of rectangles constructed. What is the best interpretation of (x, y) = (24, 73) in this context?",
+    "equation": "3x + 4y = 364",
+    "variables": {
+      "x": "number of triangles constructed",
+      "y": "number of rectangles constructed"
+    },
+    "options": {
+      "A": "If 24 triangles were constructed, then 73 rectangles were constructed.",
+      "B": "If 24 triangles were constructed, then 73 paper straws were used.",
+      "C": "If 73 triangles were constructed, then 24 rectangles were constructed.",
+      "D": "If 73 triangles were constructed, then 24 paper straws were used."
+    },
+    "ask": "Interpretation of the ordered pair (24, 73)",
+    "correct_answer": "A",
+    "rationale": "Substituting x = 24 and y = 73 into 3x + 4y = 364 yields 3(24) + 4(73) = 364, so the ordered pair means that if 24 triangles were constructed, then 73 rectangles were constructed.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 57,
+    "skill": "Linear equations in two variables",
+    "question": "The equation y = 0.1x models the relationship between the number of different pieces of music a certain pianist practices, y, and the number of minutes in a practice session, x. How many pieces did the pianist practice if the session lasted 30 minutes?",
+    "equation": "y = 0.1x",
+    "variables": {
+      "x": "number of minutes in the practice session",
+      "y": "number of different pieces practiced"
+    },
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "10",
+      "D": "30"
+    },
+    "ask": "Number of pieces practiced",
+    "correct_answer": "B",
+    "rationale": "Substituting x = 30 into y = 0.1x gives y = 0.1 × 30 = 3, so the pianist practiced 3 different pieces.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 58,
+    "skill": "Linear equations in two variables",
+    "question": "In the xy-plane, line k intersects the y-axis at the point (0, –6) and passes through the point (2, 2). If the point (20, w) lies on line k, what is the value of w?",
+    "equation": "y = 4x – 6",
+    "variables": {
+      "x": "x-coordinate of a point on line k",
+      "w": "y-coordinate of the point on line k when x = 20"
+    },
+    "ask": "Value of w",
+    "options": null,
+    "correct_answer": 74,
+    "rationale": "First find the slope m using the two given points: m = (2 – (–6)) / (2 – 0) = 8 / 2 = 4. Thus the line has equation y = 4x + b. Since it passes through (0, –6), b = –6 and the equation is y = 4x – 6. Substituting x = 20 gives y = 4·20 – 6 = 80 – 6 = 74, so w = 74.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 59,
+    "skill": "Linear equations in two variables",
+    "question": "Which of the following is an equation of the graph shown in the xy‑plane above?",
+    "image": "img.png",
+    "options": {
+      "A": "y = -1/4 x - 1",
+      "B": "y = -x - 4",
+      "C": "y = -x - 1/4",
+      "D": "y = -4x - 1"
+    },
+    "correct_answer": "A",
+    "rationale": "The line passes through (0, -1) and (4, -2). The slope is (–2 - (–1)) / (4 - 0) = -1/4, and the y-intercept is -1. Therefore the equation in slope-intercept form is y = -1/4 x - 1.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 60,
+    "skill": "Linear equations in two variables",
+    "question": "An employee at a restaurant prepares sandwiches and salads. It takes the employee 1.5 minutes to prepare a sandwich and 1.9 minutes to prepare a salad. The employee spends a total of 46.1 minutes preparing x sandwiches and y salads. Which equation represents this situation?",
+    "options": {
+      "A": "1.9x + 1.5y = 46.1",
+      "B": "1.5x + 1.9y = 46.1",
+      "C": "x + y = 46.1",
+      "D": "30.7x + 24.3y = 46.1"
+    },
+    "correct_answer": "B",
+    "rationale": "Since it takes 1.5 minutes per sandwich (x) and 1.9 minutes per salad (y), the total time is 1.5x + 1.9y. Setting that equal to the 46.1 total minutes gives 1.5x + 1.9y = 46.1.",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 61,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "If (x, y) satisfies the system of equations below, what is the value of y?\n\n  -x + y = -3.5\n   x + 3y = 9.5",
+    "equations": [
+      "-x + y = -3.5",
+      "x + 3y = 9.5"
+    ],
+    "ask": "value of y",
+    "correct_answer": "3/2",
+    "rationale": "Adding the two equations eliminates x:  (-x + y) + (x + 3y) = -3.5 + 9.5  ⟹ 4y = 6  ⟹ y = 6/4 = 3/2.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 62,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "If \\((x, y)\\) satisfies the system of equations below, what is the value of \\(y\\)?\n\n  \n  -x + y = -3.5  \n   x + 3y = 9.5",
+    "equations": [
+      "-x + y = -3.5",
+      "x + 3y = 9.5"
+    ],
+    "ask": "value of y",
+    "correct_answer": "3/2",
+    "rationale": "Add the two equations to eliminate \\(x\\):  \n(-x + y) + (x + 3y) = -3.5 + 9.5  \n⟹ 4y = 6  \n⟹ y = 6/4 = 3/2.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 63,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "If \\((x, y)\\) satisfies the system of equations below, what is the value of \\(y\\)?\n\n  -x + y = -3.5  \n   x + 3y = 9.5",
+    "equations": [
+      "-x + y = -3.5",
+      "x + 3y = 9.5"
+    ],
+    "ask": "value of y",
+    "correct_answer": "3/2",
+    "rationale": "Add the two equations to eliminate \\(x\\):  \n(-x + y) + (x + 3y) = -3.5 + 9.5  \n⟹ 4y = 6  \n⟹ y = 6/4 = 3/2.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 64,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "If \\((x, y)\\) satisfies the system of equations below, what is the value of \\(y\\)?\n\n  -x + y = -3.5  \n   x + 3y = 9.5",
+    "equations": [
+      "-x + y = -3.5",
+      "x + 3y = 9.5"
+    ],
+    "variables": {
+      "x": "first variable",
+      "y": "second variable"
+    },
+    "ask": "value of y",
+    "correct_answer": "3/2",
+    "rationale": "Adding the two equations eliminates x:  \n(-x + y) + (x + 3y) = -3.5 + 9.5 → 4y = 6 → y = 6/4 = 3/2.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 65,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "If \\((x, y)\\) satisfies the system of equations below, what is the value of \\(y\\)?\n\n  -x + y = -3.5  \n   x + 3y = 9.5",
+    "equations": [
+      "-x + y = -3.5",
+      "x + 3y = 9.5"
+    ],
+    "variables": {
+      "x": "first variable",
+      "y": "second variable"
+    },
+    "ask": "value of y",
+    "correct_answer": "3/2",
+    "rationale": "Adding the two equations eliminates x:  \n(-x + y) + (x + 3y) = -3.5 + 9.5 → 4y = 6 → y = 6/4 = 3/2.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 66,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "The graph of a system of linear equations is shown. What is the solution (x, y) to the system?",
+    "img": "img2.png",
+    "ask": "solution (x, y) to the system",
+    "options": {
+      "A": "(0, 3)",
+      "B": "(1, 3)",
+      "C": "(2, 3)",
+      "D": "(3, 3)"
+    },
+    "correct_answer": "C",
+    "rationale": "The solution to the system is the point where the two lines intersect. According to the graph, they intersect at (2, 3).",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 67,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "At how many points do the graphs of the equations y = x + 20 and y = 8x intersect in the xy‑plane?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "8"
+    },
+    "correct_answer": "B",
+    "rationale": "These are two non‑parallel lines (slopes 1 and 8), so they intersect in exactly one point.",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 68,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "The solution to the given system of equations\n\ny = 3x\n2x + y = 12\n\nis (x, y). What is the value of 5x?",
+    "options": {
+      "A": "24",
+      "B": "15",
+      "C": "12",
+      "D": "5"
+    },
+    "correct_answer": "C",
+    "rationale": "Substitute y = 3x into 2x + y = 12 to get 2x + 3x = 12, so 5x = 12.",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 69,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "A group of 202 people went on an overnight camping trip, taking 60 tents with them. Some of the tents held 2 people each, and the rest held 4 people each. Assuming all of the tents were filled to capacity and every person got to sleep in a tent, exactly how many of the tents were 2-person tents?",
+    "options": {
+      "A": "30",
+      "B": "20",
+      "C": "19",
+      "D": "18"
+    },
+    "correct_answer": "C",
+    "rationale": "Let x = number of 2‑person tents and y = number of 4‑person tents. Then\n\nx + y = 60  (total tents)\n2x + 4y = 202  (total people)\n\nSolve: y = 60 − x, substitute into 2x + 4(60 − x) = 202 → 2x + 240 − 4x = 202 → −2x = −38 → x = 19.",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 70,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "Solve the system of equations:\n\nx + y = 18\n5y = x\n\nWhat is the solution (x, y)?",
+    "options": {
+      "A": "(15, 3)",
+      "B": "(16, 2)",
+      "C": "(17, 1)",
+      "D": "(18, 0)"
+    },
+    "correct_answer": "A",
+    "rationale": "From 5y = x, substitute x = 5y into x + y = 18 to get 5y + y = 18 → 6y = 18 → y = 3. Then x = 5·3 = 15. Thus the solution is (15, 3).",
+    "difficulty": "Easy"
+  },
+  {
+    "number": 71,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "At how many points do the graphs of the given equations intersect in the xy‑plane?\n\ny = 2x + 10\n\ny = 2x – 1",
+    "options": {
+      "A": "Zero",
+      "B": "Exactly one",
+      "C": "Exactly two",
+      "D": "Infinitely many"
+    },
+    "correct_answer": "A",
+    "rationale": "Both lines have the same slope (2) but different y‑intercepts (10 and –1), so they are parallel and never intersect.",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 72,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "In the given system of equations, t is a constant:\n\n4x − 6y = 10y + 2\n\nt y = ½ + 2x\n\nIf the system has no solution, what is the value of t?",
+    "correct_answer": "8",
+    "rationale": "Rewriting the first equation as 4x − 16y = 2 and the second as −2x + t y = ½ shows two lines whose slopes will be equal (parallel) exactly when −2/4 = −t/16, which simplifies to t = 8.",
+    "difficulty": "Hard"
+  },
+  {
+    "number": 73,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "The system of equations\n\nx + 5y = 5  \n2x − y = −4\n\ncan be solved by graphing each line and finding their intersection. Which of the following four graphs in the xy‑plane correctly represents those two lines?",
+    "options": {
+      "A": {
+        "type": "image",
+        "src": "img_4.png"
+      },
+      "B": {
+        "type": "image",
+        "src": "img_4.png"
+      },
+      "C": {
+        "type": "image",
+        "src": "img_4.png"
+      },
+      "D": {
+        "type": "image",
+        "src": "img_4.png"
+      }
+    },
+    "correct_answer": "C",
+    "rationale": "To graph x + 5y = 5, note its x‑intercept is (5,0) and its y‑intercept is (0,1). To graph 2x − y = −4, rewrite as y = 2x + 4 so its x‑intercept is (−2,0) and its y‑intercept is (0,4). Only the pair of lines shown in option C passes through those four intercepts, so choice C is correct.",
+    "difficulty": "Medium"
+  },
+  {
+    "number": 74,
+    "skill": "Systems of two linear equations in two variables",
+    "question": "The solution to the given system of equations is \\((x,y)\\). What is the value of \\(y\\)?",
+    "options": {
+      "A": "2.1",
+      "B": "10",
+      "C": "21",
+      "D": "31"
+    },
+    "correct_answer": "D",
+    "rationale": "It's given by the first equation that \\(x=10\\). Substituting \\(x=10\\) into the second equation \\(y = x + 21\\) gives \\(y = 10 + 21 = 31\\). Thus choice D is correct.",
+    "difficulty": "Easy"
+  },
+{
+  "number": 75,
+    "skill": "Systems of two linear equations in two variables",
+  "question": "The solution to the given system of equations is \\((x,y)\\). What is the value of \\(x\\)?\n\ny = -\\tfrac{1}{9}x\n\ny = \\tfrac{1}{2}x",
+  "options": {
+    "A": "-9",
+    "B": "-7",
+    "C": "0",
+    "D": "2"
+  },
+  "correct_answer": "C",
+  "rationale": "Setting the two expressions for \\(y\\) equal gives:\n\n\\(-\\tfrac{1}{9}x = \\tfrac{1}{2}x\\).\n\nAdd \\(\\tfrac{1}{9}x\\) to both sides:\n\n\\(0 = \\tfrac{1}{2}x + \\tfrac{1}{9}x = \\tfrac{9}{18}x + \\tfrac{2}{18}x = \\tfrac{11}{18}x.\\)\n\nThus \\(\\tfrac{11}{18}x = 0\\) implies \\(x = 0\\). Therefore choice C is correct.",
+  "difficulty": "Medium"
+},
+{
+  "number": 76,
+  "skill": "Systems of two linear equations in two variables",
+  "question": "A bus traveled on the highway and on local roads to complete a trip of 160 miles. The trip took 4 hours. The bus traveled at an average speed of 55 miles per hour (mph) on the highway and an average speed of 25 mph on local roads. If x is the time, in hours, the bus traveled on the highway and y is the time, in hours, it traveled on local roads, which system of equations represents this situation?",
+  "options": {
+    "A": "55x + 25y = 4\nx + y = 160",
+    "B": "55x + 25y = 160\nx + y = 4",
+    "C": "25x + 55y = 4\nx + y = 160",
+    "D": "25x + 55y = 160\nx + y = 4"
+  },
+  "correct_answer": "B",
+  "rationale": "If the bus travels on the highway for x hours at 55 mph, it covers 55x miles; on local roads for y hours at 25 mph, it covers 25y miles. The total distance is 160 miles, so 55x + 25y = 160. Since the total time is 4 hours, x + y = 4. Only choice B matches those two equations.",
+  "difficulty": "Medium"
+},
+{
+  "number": 77,
+  "skill": "Systems of two linear equations in two variables",
+  "question": "Given the system of equations\n\ny = 2x + 3  \nx = 1\n\nwhat is the solution (x, y)?",
+  "options": {
+    "A": "(1, 2)",
+    "B": "(1, 5)",
+    "C": "(2, 3)",
+    "D": "(2, 7)"
+  },
+  "correct_answer": "B",
+  "rationale": "Since x is given to be 1, substitute x = 1 into y = 2x + 3 to get y = 2·1 + 3 = 5. Therefore the solution is (1, 5).",
+  "difficulty": "Easy"
+},
+{
+  "number": 78,
+  "skill": "Systems of two linear equations in two variables",
+  "question": "During a month, Morgan ran r miles at 5 mph and biked b miles at 10 mph. She ran and biked a total of 200 miles that month, and she biked for twice as many hours as she ran. What is the total number of miles that Morgan biked during the month?",
+  "options": {
+    "A": "80",
+    "B": "100",
+    "C": "120",
+    "D": "160"
+  },
+  "correct_answer": "D",
+  "rationale": "Let the hours spent running be r/5 and the hours spent biking be b/10. We're told b/10 = 2 (r/5), which simplifies to b = 4r. We also know r + b = 200. Substituting b = 4r gives r + 4r = 200 → 5r = 200 → r = 40. Then b = 4·40 = 160. Therefore Morgan biked 160 miles.",
+  "difficulty": "Hard"
+},
+{
+  "number": 79,
+  "skill": "Systems of two linear equations in two variables",
+  "question": "The solution to the system of equations\n\nx + 3 = −2y + 5\nx − 3 = 2y + 7\n\nis (x, y). What is the value of 2x?",
+  "options": {
+    "A": "−2",
+    "B": "6",
+    "C": "12",
+    "D": "24"
+  },
+  "correct_answer": "C",
+  "rationale": "Adding the two equations eliminates y:\n\n(x + 3) + (x − 3) = (−2y + 5) + (2y + 7)  \n2x = 12\n\nHence 2x = 12, so choice C is correct.",
+  "difficulty": "Medium"
+},
+{
+  "number": 80,
+  "skill": "Systems of two linear equations in two variables",
+  "question": "The solution to the system of equations\n\nx + 3 = −2y + 5\nx − 3 = 2y + 7\n\nis (x, y). What is the value of 2x?",
+  "options": {
+    "A": "−2",
+    "B": "6",
+    "C": "12",
+    "D": "24"
+  },
+  "correct_answer": "C",
+  "rationale": "Adding the two equations eliminates y:\n\n(x + 3) + (x − 3) = (−2y + 5) + (2y + 7)  \n2x = 12\n\nHence 2x = 12, so choice C is correct.",
+  "difficulty": "Medium"
+},
+{
+  "number": 81,
+  "skill": "Systems of two linear equations in two variables",
+  "question": "If the system of equations\n\n4x + 5y = 100  \n5x + 4y = 62\n\nhas solution (x, y), what is the value of x + y?",
+  "options": {
+    "A": "0",
+    "B": "9",
+    "C": "18",
+    "D": "38"
+  },
+  "correct_answer": "C",
+  "rationale": "Choice C is correct.  Adding the two equations gives\n\n(4x + 5y) + (5x + 4y) = 100 + 62  \n9x + 9y = 162\n\nDividing both sides by 9 yields x + y = 18.",
+  "difficulty": "Medium"
+}
+
+
+
+
+  
+    
+]

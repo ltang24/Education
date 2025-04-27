@@ -1,0 +1,1880 @@
+{
+    "accuracy": 0.75,
+    "total_questions": 100,
+    "correct_count": 75,
+    "details": [
+        {
+            "question_number": 1,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o-mini",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: C, E  \nExplanation: The sentence discusses how the scientific approach allows for correction of bias or partiality by others using a shared framework of evidence. \"Succumb to\" (C) fits in this context, as it implies that researchers may yield to their biases. \"Yield to\" (E) can similarly indicate surrendering to bias. Both options convey the notion of giving in to bias, thus correctly completing the sentence. The other options do not fit contextually with the meaning of the sentence.",
+            "runtime": 6.45,
+            "correct": true
+        },
+        {
+            "question_number": 2,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "E"
+            ],
+            "model_response": "Options: B, E  \nExplanation: The sentence suggests that the work is notable and unique due to its rarity, as it is the only Hebrew verse written by a woman. \"B: unique\" fits because it emphasizes the singularity of the work, while \"E: valuable\" fits because the rarity of the work likely makes it important and significant. Both options align with the tone of the sentence.",
+            "runtime": 3.59,
+            "correct": false
+        },
+        {
+            "question_number": 3,
+            "expected": [
+                "E",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "E",
+                "F"
+            ],
+            "model_response": "Options: E, F  \nExplanation: The sentence describes an epilogue making an overstatement about ballet being dead. The two words that best fit this context are \"exaggeration\" (E) and \"hyperbole\" (F), both of which refer to overstating or stretching the truth for emphasis, which aligns with the notion of the epilogue being an \"overstatement.\"",
+            "runtime": 3.56,
+            "correct": true
+        },
+        {
+            "question_number": 4,
+            "expected": [
+                "B",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: E, C  \nExplanation: The sentence suggests that some commentators had been warning about the political upheaval, but it hadn't seemed imminent. Therefore, the warnings were likely either repetitive or prophetic. \"Repeated\" (E) fits well because it implies the warnings were made more than once, and \"prophetic\" (C) fits because it refers to predictions of future events, which would align with the notion of warnings about something imminent. Other options are either irrelevant or don't fit the context.",
+            "runtime": 17.11,
+            "correct": false
+        },
+        {
+            "question_number": 5,
+            "expected": [
+                "C",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "D"
+            ],
+            "model_response": "Options: A, D  \nExplanation: The correct phrase is \"Members of the union's negotiating team insisted on several changes to the company's proposal before they would support it, making it clear that they would tolerate no compromise.\" The word \"tolerate\" matches the context and fits logically into the sentence, meaning they would not accept any compromise. Option A (\"isclose\") also fits as a potential answer grammatically and semantically—suggesting the union would not reveal or accept a compromise. Thus, the two correct options are A and D.",
+            "runtime": 12.17,
+            "correct": false
+        },
+        {
+            "question_number": 6,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "B"
+            ],
+            "model_response": "Options: A, B  \nExplanation: The text describes Wilson's emphasis on the selfless and cooperative behavior of ants, such as ants sharing food and older ants sacrificing for the young. These behaviors highlight kindness and selflessness, which align with the meanings of \"beneficence\" (A) and \"altruism\" (B). Beneficence refers to acts of kindness or charity, while altruism denotes selfless concern for the well-being of others.",
+            "runtime": 40.73,
+            "correct": true
+        },
+        {
+            "question_number": 7,
+            "expected": [
+                "D",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "D",
+                "F"
+            ],
+            "model_response": "Options: D, F  \nExplanation: The sentence discusses how optical lenses helped artists accurately observe and depict the external world, which implies that the lenses contributed to a more realistic or true-to-life representation. The correct terms to fit this context are \"realism\" (Option D) and \"verisimilitude\" (Option F), which both refer to the quality of being lifelike or true to reality. The other options do not fit the context.",
+            "runtime": 2.73,
+            "correct": true
+        },
+        {
+            "question_number": 8,
+            "expected": [
+                "B",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "F"
+            ],
+            "model_response": "Options: B, F  \nExplanation: The sentence describes the professor as having a misleading front, suggesting that his outward demeanor is not reflective of his true nature. \"Rascality\" (B) refers to being irritable or easily angered, and \"Exasperation\" (F) implies frustration, both of which could be misleading as they would hide his true patience and commitment. The other options do not fit the context as well.",
+            "runtime": 2.92,
+            "correct": true
+        },
+        {
+            "question_number": 9,
+            "expected": [
+                "D",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "D",
+                "F"
+            ],
+            "model_response": "Options: D, F  \nExplanation: The sentence describes Peggy Guggenheim as being for \"the strangest, the most surprising, the most satisfying, the best, the unique.\" This implies that she was extreme in her taste, seeking things that stood out in an unconventional or unique way. The correct options are \"extremist\" (D) and \"zealot\" (F), both of which describe someone who holds extreme or passionate views about something, fitting the context of her unique and bold taste in art.",
+            "runtime": 10.95,
+            "correct": true
+        },
+        {
+            "question_number": 10,
+            "expected": [
+                "A",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "D"
+            ],
+            "model_response": "Options: A, D  \nExplanation: The sentence implies that the laboratory maze has become simpler over time. \"Intricate\" (Option A) and \"convoluted\" (Option D) both describe something complex or complicated, which contrasts with the shift to simpler designs in modern mazes. Thus, these two options correctly describe the maze's evolution from being complicated to less so.",
+            "runtime": 3.14,
+            "correct": true
+        },
+        {
+            "question_number": 11,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: C, E  \nExplanation: The sentence describes a process designed to ensure that judgments about the validity of mathematical proofs are unbiased and impartial. This aligns with the concepts of \"fairness\" (C) and \"objectivity\" (E). These two qualities are crucial in peer review to maintain the integrity of the evaluation process. The other options (A: timelessness, B: originality, D: comprehensiveness, F: novelty) do not directly relate to the stated purpose of ensuring impartial judgments.",
+            "runtime": 2.39,
+            "correct": true
+        },
+        {
+            "question_number": 12,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o-mini",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The sentence indicates that some contemporary Western dieticians view the emphasis on the aesthetic dimension of the culinary arts as unnecessary or unjustified, which aligns with both \"unwarranted\" (B) and \"groundless\" (D). These words both suggest that the aesthetic aspect is seen as lacking a solid basis or reason according to these dieticians. The other options do not fit the context of being critical or dismissive of the aesthetic dimension.",
+            "runtime": 9.57,
+            "correct": true
+        },
+        {
+            "question_number": 13,
+            "expected": [
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "E"
+            ],
+            "model_response": "Options: B, E  \nExplanation: The word \"hodgepodge\" (B) and \"patchwork\" (E) both imply something that is made up of different, often incongruous, parts without a clear structure. These terms effectively describe the mixed narration style in *To Kill a Mockingbird*, where the narrative shifts between an adult's and a child's perspective based on the needs of the plot. Neither \"paradigm\" (A), \"model\" (C), nor \"innovation\" (D) would convey this sense of randomness or disorganization, and \"embarrassment\" (F) is unrelated to the context of narrative style.",
+            "runtime": 45.15,
+            "correct": true
+        },
+        {
+            "question_number": 14,
+            "expected": [
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "E"
+            ],
+            "model_response": "Options: B, E  \nExplanation: The word \"fractiousness\" means being easily irritable or quarrelsome. The phrase \"on the contrary\" signals that the workers found the employee to exhibit opposite traits. Therefore, the correct answer options must describe someone who is pleasant, agreeable, or good-natured. \"Affable\" (Option B) means friendly, easy to talk to, and \"Easygoing\" (Option E) means relaxed and not prone to irritability, which are the opposite traits of fractiousness.",
+            "runtime": 56.52,
+            "correct": true
+        },
+        {
+            "question_number": 15,
+            "expected": [
+                "A",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "F"
+            ],
+            "model_response": "Options: A, F  \nExplanation: The sentence suggests that during the nineteenth century, feminist goals, such as married women’s rights to control property, were being progressively accomplished, even though the right to vote was not achieved until later. Therefore, the correct words to fill the blank are those that convey a sense of success or progress being made. \"Realized\" (A) and \"Achieved\" (F) both fit this context, as they imply that feminist objectives were gradually coming to fruition. The other options (B, C, D, E) suggest a lack of progress or changes of a different kind, which are inconsistent with the sentence's meaning.",
+            "runtime": 51.62,
+            "correct": true
+        },
+        {
+            "question_number": 16,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The clue in the sentence is the expression \"somewhat uneven,\" which describes the inconsistency in edited collections of scholarly essays. Specifically, the subject matter is described as non-uniform, lacking a coherent theme. \"Heterogeneous\" (Option B) and \"disparate\" (Option D) both refer to diversity or differences, making these terms the correct choices to indicate the uneven and varied subject matter. The other options, such as \"mediocre,\" \"intriguing,\" \"comprehensive,\" or \"engaging,\" do not directly address the described unevenness or variability of the essays’ subject matter.",
+            "runtime": 41.32,
+            "correct": true
+        },
+        {
+            "question_number": 17,
+            "expected": [
+                "A",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A",
+                "D"
+            ],
+            "model_response": "Options: A, D  \nExplanation: The sentence discusses the conflicting interests between business owners and employees, suggesting a relationship characterized by conflict. Both \"adversarial\" (A) and \"antagonistic\" (D) indicate a hostile or oppositional relationship, making them suitable choices to fill the blank. The other options do not accurately convey this inherent conflict.",
+            "runtime": 7.17,
+            "correct": true
+        },
+        {
+            "question_number": 18,
+            "expected": [
+                "A",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A",
+                "D"
+            ],
+            "model_response": "Options: A, D  \nExplanation: The sentence states that progressive and reactionary populist movements can possess features of each other, suggesting that they are not strictly different or opposing. The word \"dichotomous\" means divided into two parts or contrasting, which fits the context that these movements are not necessarily opposing. The word \"contradictory\" implies that the movements would deny each other, which also aligns with the idea that each may possess features of the other. Thus, both A and D are the correct choices.",
+            "runtime": 9.18,
+            "correct": true
+        },
+        {
+            "question_number": 19,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 6.15,
+            "correct": false
+        },
+        {
+            "question_number": 20,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "F"
+            ],
+            "model_response": "Options: C, F  \nExplanation: The sentence contrasts the effects of inbreeding with the more severe impacts of \"crushing blows from weather changes,\" suggesting that inbreeding is less important or impactful in comparison. Words that align with this idea are \"trivial\" (C) and \"inconsequential\" (F), both of which suggest a lack of significance as a factor.",
+            "runtime": 5.81,
+            "correct": true
+        },
+        {
+            "question_number": 21,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 11.07,
+            "correct": false
+        },
+        {
+            "question_number": 22,
+            "expected": [
+                "D",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "D",
+                "E"
+            ],
+            "model_response": "Options: D, E  \nExplanation: The question implies that the Roman numeral names of coagulation factors do not fully represent their importance or their specific functions in blood clotting and thinning. The correct answer choices must align with this idea. \"Belie\" (D) means to give a false impression of or contradict, which matches the idea that the simple names undermine the importance and specificity of the proteins. Similarly, \"Mask\" (E) means to obscure or conceal, suggesting the names hide their true significance and role. Both D and E correctly capture the intended meaning of the sentence.",
+            "runtime": 2.02,
+            "correct": true
+        },
+        {
+            "question_number": 23,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "Options: A, C  \nExplanation: The sentence describes Moreland as making choices that were \"neither rebellious\" nor \"out of the ordinary.\" This suggests her choices were unusual but not viewed as extraordinary or radical. \"Unconventional\" (Option A) fits because it implies nontraditional choices, while \"quirky\" (Option C) fits because it suggests peculiar or unusual choices that are not extreme. The other options—\"impractical,\" \"flamboyant,\" \"successful,\" and \"lucrative\"—either do not match the context or lack relevance to describing her choices.",
+            "runtime": 32.91,
+            "correct": true
+        },
+        {
+            "question_number": 24,
+            "expected": [
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "D",
+                "E"
+            ],
+            "model_response": "Options: E, D  \nExplanation: The sentence contrasts the cultural and social significance, rapid growth, and widespread appearance of video games in China with the level of attention they have received from international communication researchers. This implies that video games have not been given the attention they deserve. \"Limited\" (E) fits because it suggests the attention they have received is insufficient, and \"focused\" (D) aligns with the idea that the attention might lack depth or concentration. The other choices, such as \"undue\" (A) or \"excessive\" (C), do not make sense in context, as they would imply too much attention, which contradicts the stated contrast.",
+            "runtime": 11.22,
+            "correct": false
+        },
+        {
+            "question_number": 25,
+            "expected": [
+                "A",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "C"
+            ],
+            "model_response": "Options: B, C  \nExplanation: The text emphasizes that Ramachandran is comfortable with bold speculations, even if these ideas seem unconventional or outside traditional boundaries. \"Premature\" (Option B) fits because it suggests ideas presented before sufficient evidence is available, aligning with the notion of risky conjecture. \"Controversial\" (Option C) fits because bold ideas often challenge established norms, creating debates. Both terms align with the spirit of proposing unconventional and risky ideas in science.",
+            "runtime": 7.07,
+            "correct": false
+        },
+        {
+            "question_number": 26,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "Options: A, C  \nExplanation: The question describes features of the concert hall designed to enhance sound distribution. The angled and shaped wall surfaces are intended to spread the sound from the stage to the audience effectively. “Diffuse” (Option A) and “Spread” (Option C) both align with this concept, as they describe actions that distribute sound energy across a space. The other options—“Amplify,” “Dampen,” “Eclipse,” and “Deaden”—do not match the intended purpose of distributing sound throughout the audience area.",
+            "runtime": 11.85,
+            "correct": true
+        },
+        {
+            "question_number": 27,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 46.34,
+            "correct": true
+        },
+        {
+            "question_number": 28,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: C, E  \nExplanation: The sentence suggests that the process of issuing permits is difficult to understand or unclear, especially since agencies use scientific terminology to mask their decisions. The word \"obscure\" (C) means not clear or hard to understand, and \"opaque\" (E) indicates something that is not transparent or not able to be seen through, both of which fit the context of the sentence well.",
+            "runtime": 5.25,
+            "correct": true
+        },
+        {
+            "question_number": 29,
+            "expected": [
+                "B",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B",
+                "C"
+            ],
+            "model_response": "Options: B, C  \nExplanation: The context of the sentence suggests that legislators have expressed an intention or stated a desire to find a compromise. The word \"reclaimed\" (B) fits this context, meaning to assert or declare. Similarly, \"professed\" (C) also fits, as it means to claim or affirm openly. Both words imply a declaration of desire, while the other options do not convey this meaning related to expressing a desire.",
+            "runtime": 2.77,
+            "correct": true
+        },
+        {
+            "question_number": 30,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 49.67,
+            "correct": true
+        },
+        {
+            "question_number": 31,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "F"
+            ],
+            "model_response": "Options: C, F  \nExplanation: The sentence discusses the challenge of collecting sufficient data to identify biologically meaningful changes in marine mammals. Therefore, the correct words should convey an ability to recognize or observe such changes. \"Discern\" (C) means to perceive or recognize something, and \"detect\" (F) means to discover or notice something, both of which align with the idea of identifying meaningful changes. Other options like \"effect\" (A), \"tolerate\" (B), \"envisage\" (D), and \"withstand\" (E) do not fit the context of identifying changes.",
+            "runtime": 2.35,
+            "correct": true
+        },
+        {
+            "question_number": 32,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "Options: A, C  \nExplanation: The sentence suggests that scientists should hope their peers identify problems in their theories, as this allows them to refine and develop better hypotheses. Therefore, the correct choices must imply that the faults are identified or revealed by peers. \"Discerned by\" (A) means identified or recognized, and \"discovered by\" (C) means uncovered or found. Both fit logically with the idea of peers identifying faults, so these are the correct answers.",
+            "runtime": 5.44,
+            "correct": true
+        },
+        {
+            "question_number": 33,
+            "expected": [
+                "A",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "F"
+            ],
+            "model_response": "Options: A, F  \nExplanation: The sentence describes Edmurd as initially making a dignified and impressive first impression but later revealed to have a contrasting nature. The blank needs to be filled with words indicating a negative and combative personality. Option A (\"pugnacious\") means combative or belligerent, and Option F (\"truculent\") means aggressively defiant or hostile, both of which align well with the idea of an \"essentially _____ nature.\" The other options do not fit this context: B (\"deliberate\") refers to careful consideration, C (\"punctilious\") means showing great attention to detail or formalities, D (\"courteous\") means polite, and E (\"complacent\") means self-satisfied, none of which suggest a nature contrasting with a dignified bearing.",
+            "runtime": 47.39,
+            "correct": true
+        },
+        {
+            "question_number": 34,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The context of the sentence indicates that the life of a double agent is more dangerous and fraught with risks due to the potential consequences of a mistake. The word \"precarious\" (B) means unsafe or unstable, which fits this context. Additionally, \"perilous\" (D) also means hazardous or dangerous, reinforcing the idea of a high level of risk associated with being a double agent.",
+            "runtime": 6.1,
+            "correct": true
+        },
+        {
+            "question_number": 35,
+            "expected": [
+                "B",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 7.73,
+            "correct": false
+        },
+        {
+            "question_number": 36,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The prompt suggests that creativity is no longer considered a fleeting or short-lived phenomenon tied solely to the creation of specific artistic works, like poems or paintings. Instead, it is viewed as pervasive, affecting all aspects of a person's life. Both \"momentary\" (Option B) and \"evanescent\" (Option D) align with the idea of impermanence or fleeting inspiration, which the sentence contrasts with the broader, more enduring view of creativity. Thus, these are the two correct choices.",
+            "runtime": 9.65,
+            "correct": true
+        },
+        {
+            "question_number": 37,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 7.55,
+            "correct": false
+        },
+        {
+            "question_number": 38,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: C, E  \nExplanation: The sentence describes climate science as dealing with \"shifting, interrelated, and sometimes paradoxical patterns,\" which suggests that the material is complex and challenging to understand. \"Complicated\" (Option C) and \"knotty\" (Option E) both align with this description, as they convey intricacy and difficulty. The other options, such as \"disheartening,\" \"pedestrian,\" \"depressing,\" and \"mundane,\" do not accurately capture the analytical complexity of the subject matter in this context.",
+            "runtime": 44.89,
+            "correct": true
+        },
+        {
+            "question_number": 39,
+            "expected": [
+                "B",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B",
+                "F"
+            ],
+            "model_response": "Options: B, F  \nExplanation: The context of the sentence suggests that the insights in the essay are difficult for many readers to understand due to the complexity of the translation. Option B, \"inaccessible,\" fits well as it indicates that the insights are not easily obtained or understood. Option F, \"opaque,\" also aligns with the idea of something being unclear or muddled, making it hard for readers to grasp. Both words convey the challenge readers might face with the dense translation.",
+            "runtime": 3.19,
+            "correct": true
+        },
+        {
+            "question_number": 40,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C",
+                "F"
+            ],
+            "model_response": "Options: C, F  \nExplanation: The correct answers are C (irrelevant) and F (extraneous) because both terms describe sounds that do not contribute meaningfully to the signal and can therefore lead to wasted bandwidth when transmitted over cellphone networks. \"Irrelevant\" indicates that the sounds have no bearing on the meaningful signal, while \"extraneous\" suggests that the sounds are unnecessary or unrelated, making both options suitable in the context of the sentence.",
+            "runtime": 5.66,
+            "correct": true
+        },
+        {
+            "question_number": 41,
+            "expected": [
+                "E",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "E",
+                "F"
+            ],
+            "model_response": "Options: E, F  \nExplanation: The sentence discusses how changes to ecosystems aimed at achieving specific goals lead to \"significant unforeseen trade-offs\" regarding other services provided by the ecosystems. The correct words need to convey the idea that these changes bring about or result in these trade-offs. \"Yield\" (Option E) and \"Engender\" (Option F) both match this context because \"yield\" means to produce or result in, and \"engender\" means to cause or bring about. The other options either do not fit the context or imply prediction (e.g., \"foretell\"), which is inconsistent with the notion of trade-offs being \"unforeseen.\"",
+            "runtime": 6.85,
+            "correct": true
+        },
+        {
+            "question_number": 42,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C",
+                "F"
+            ],
+            "model_response": "Options: C, F  \nExplanation: The sentence describes a situation where corporations are taking part-time workers to cut wages and benefits, which suggests a negative connotation. The word \"capacious\" (option C) implies that corporations are greedy or taking in as much as possible, which fits well with the context of replacing full-time workers with part-time ones for profit. Similarly, \"voracious\" (option F) denotes an insatiable greed, aligning with the idea of corporations trying to maximize benefits at the expense of workers. Both words highlight the exploitative nature of the corporations in the scenario presented.",
+            "runtime": 7.81,
+            "correct": true
+        },
+        {
+            "question_number": 43,
+            "expected": [
+                "A",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "F"
+            ],
+            "model_response": "Options: A, F  \nExplanation: The sentence describes the atmosphere at its best as being peculiarly clear, with a clarity that enhances the beauty of the place. The word \"peculiarly\" suggests an unusual degree of calmness and transparency. Therefore, \"limpid\" (A), which means clear or transparent, and \"tranquil\" (F), which means calm or serene, are the two correct choices. The other options do not align with the idea of clarity or calmness: \"cute\" (B) is unrelated, \"calm\" (C) is misspelled, \"sharp\" (D) contrasts with the described clarity, and \"ellucid\" (E) appears to be a misspelled or non-existent word.",
+            "runtime": 12.06,
+            "correct": false
+        },
+        {
+            "question_number": 44,
+            "expected": [
+                "D",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D",
+                "F"
+            ],
+            "model_response": "Options: D, F  \nExplanation: The sentence indicates that the contributions to the book come primarily from the same state, leading to a lack of geographical diversity in the case studies. The words \"circumscribed\" (D) and \"restricted\" (F) both imply limitations or boundaries, which aligns with the idea that the geographical variety is limited due to the concentration of contributions from a single state.",
+            "runtime": 5.8,
+            "correct": true
+        },
+        {
+            "question_number": 45,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "F"
+            ],
+            "model_response": "Options: C, F  \nExplanation: The sentence discusses fascination with mathematics and questions why this fascination is not more common. The correct words should convey the idea that the admiration for mathematics is not widespread or prevalent. Thus, “prevalent” (Option C) and “widespread” (Option F) fit the context, as both words suggest the idea of broad popularity or commonality.",
+            "runtime": 21.37,
+            "correct": true
+        },
+        {
+            "question_number": 46,
+            "expected": [
+                "C",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C",
+                "D"
+            ],
+            "model_response": "Options: C, D  \nExplanation: The sentence highlights how the nation's economic performance is negatively affected by flaws within its economic institutions, suggesting that the correct answers should convey a sense of harm or detriment. \"Undermined\" (C) means to weaken or damage something, which fits well in this context. \"Impaired\" (D) also indicates a reduction in quality or strength, aligning with the idea of the economic performance suffering due to flaws. The other options, such as \"neutralized\" and \"obscured,\" do not convey the intended meaning of harm or detriment effectively.",
+            "runtime": 9.71,
+            "correct": true
+        },
+        {
+            "question_number": 47,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 6.27,
+            "correct": false
+        },
+        {
+            "question_number": 48,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A",
+                "B"
+            ],
+            "model_response": "Options: B, A  \nExplanation: The context of the sentence suggests that artists are seeking something positive from nature to escape the chaos of society. \"Stability\" (B) implies a sense of reliability and order that contrasts with the turmoil of human society, fitting well in the context of seeking serenity. \"In order\" (A) complements the idea of creating a sense of organization or harmony among the chaos, making it an appropriate choice.",
+            "runtime": 6.19,
+            "correct": true
+        },
+        {
+            "question_number": 49,
+            "expected": [
+                "B",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "F"
+            ],
+            "model_response": "Options: B, F  \nExplanation: The correct answers are \"iddle\" and \"onundrum,\" giving \"riddle\" and \"conundrum,\" respectively. Both words appropriately convey the idea that the Great Lakes wolf is a puzzling or mysterious subject for scientists. The question suggests ambiguity and difficulty in classification, making these two options the best fit for the blank.",
+            "runtime": 40.39,
+            "correct": true
+        },
+        {
+            "question_number": 50,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C",
+                "F"
+            ],
+            "model_response": "Options: C, F  \nExplanation: The sentence suggests that science has transformed the meaning of nothingness from a concept that was previously unclear or difficult to define into something that can be observed or analyzed. Both \"nebulous\" (which implies something that is hazy or unclear) and \"vague\" (which also suggests a lack of clarity) fit this context, as they describe a philosophical concept that is not easily grasped. Therefore, options C and F are the correct answers.",
+            "runtime": 6.42,
+            "correct": true
+        },
+        {
+            "question_number": 51,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: C, E  \nExplanation: The sentence describes *Lawd Today!* as inconsistent with readers' expectations of Richard Wright's work, which suggests it deviates from the norm. Both \"anomaly\" (C) and \"aberration\" (E) fit this context, as they indicate something unusual or out of the ordinary. Other choices like \"artifact\" (A), \"prototype\" (B), \"mainstay\" (D), and \"model\" (F) imply qualities that are not aligned with the described inconsistency.",
+            "runtime": 41.15,
+            "correct": true
+        },
+        {
+            "question_number": 52,
+            "expected": [
+                "B",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "C"
+            ],
+            "model_response": "Options: B, C  \nExplanation: The sentence discusses how today's films attempt to blur the boundaries between the moral and the immoral, and points out that this practice is not new, as Hollywood has been doing it since at least the 1960s. This implies that such attempts are neither \"original\" nor \"novel,\" so these two words (B and C) are correct as they fit the intended meaning. Other options, such as \"entertaining,\" \"pertinent,\" \"relevant,\" or \"insightful,\" do not align with the idea that the practice described is old and therefore unremarkable in terms of originality.",
+            "runtime": 33.96,
+            "correct": true
+        },
+        {
+            "question_number": 53,
+            "expected": [
+                "D",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "D",
+                "E"
+            ],
+            "model_response": "Options: D, E  \nExplanation: The sentence discusses a trend regarding earth's surface brightness and mentions that scientists are reporting it has become brighter since 1990, reversing a previous trend. The correct options must relate to the idea of diminished brightness being reversed. \"Dimming\" (Option D) refers to a reduction in brightness, while \"Darkening\" (Option E) reflects an increase in darkness—both are consistent with a trend that could describe decreasing brightness being reversed. Thus, these two options fit the context of the reversal trend in question.",
+            "runtime": 6.3,
+            "correct": true
+        },
+        {
+            "question_number": 54,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 3.19,
+            "correct": false
+        },
+        {
+            "question_number": 55,
+            "expected": [
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "E"
+            ],
+            "model_response": "Options: B, E  \nExplanation: The sentence suggests that Moynihan's social analysis from the 1960s is now seen as foundational to discussions of social pathology. Words that align with the concept of being a fundamental basis are **\"bedrock\"** (B) and **\"foundations\"** (E). These two options correctly convey the idea that his analysis serves as a strong and essential underpinning for subsequent discussions.",
+            "runtime": 2.95,
+            "correct": true
+        },
+        {
+            "question_number": 56,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C",
+                "F"
+            ],
+            "model_response": "Options: C, F  \nExplanation: In the given sentence, the context suggests that the grazing of sea turtles on sea grass is less hindered or restricted near Bermuda because of the protection of sea turtles from hunting but not their predators. Thus, \"inhabited\" (C) implies that their grazing is less limited, while \"constrained\" (F) suggests that there are fewer restrictions on their grazing activities. Both options correctly fit the context of the sentence.",
+            "runtime": 6.01,
+            "correct": true
+        },
+        {
+            "question_number": 57,
+            "expected": [
+                "C",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "F"
+            ],
+            "model_response": "Options: B, F  \nExplanation: The sentence indicates that bebop faced challenges in its early reception before resonating widely. Words like \"hostile\" (F) and \"warm\" (B) fit most plausibly to describe contrasting reactions.",
+            "runtime": 2.96,
+            "correct": false
+        },
+        {
+            "question_number": 58,
+            "expected": [
+                "A",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "D",
+                "F"
+            ],
+            "model_response": "Options: D, F  \nExplanation: The sentence highlights that although there is a substantial amount of medical information available through electronic means, patients are not fully utilizing this resource. The word that fits best in the blank should convey the idea of a large quantity of information. Both \"profusion\" (D) and \"overload\" (F) appropriately describe the abundance of medical information available, aligning with the rest of the sentence's context. Other options like \"complexity\" and \"intricacy\" focus on the challenging nature or detail of the information but do not emphasize the quantity, making them less suitable for this specific context.",
+            "runtime": 2.0,
+            "correct": false
+        },
+        {
+            "question_number": 59,
+            "expected": [
+                "B",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B",
+                "C"
+            ],
+            "model_response": "Options: B, C  \nExplanation: The sentence discusses James Baldwin's criticism of politically charged fiction while he himself supports progressive political aims. The word \"awkwardness\" (B) indicates a sense of discomfort or clumsiness in this criticism, which fits the context. The word \"discomfiture\" (C) refers to a feeling of unease or embarrassment, which also aligns with the contradiction of being critical of something he is committed to. Both options capture the complexity of Baldwin's position.",
+            "runtime": 3.64,
+            "correct": true
+        },
+        {
+            "question_number": 60,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The blank in the sentence describes the method used by motorcycle riders as clever but unethical, as implied by their tactic of parking illegally to avoid tickets. \"Unscrupulous\" (B) aligns with the idea of lacking moral principles, while \"dishonest\" (D) emphasizes the unethical nature of the method. Both terms appropriately capture the idea of a morally questionable way to achieve their goal.",
+            "runtime": 5.59,
+            "correct": true
+        },
+        {
+            "question_number": 61,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 2.46,
+            "correct": false
+        },
+        {
+            "question_number": 62,
+            "expected": [
+                "C",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "D"
+            ],
+            "model_response": "Options: C, D  \nExplanation: The sentence implies that railroad literature celebrates individuals, as it contains praise for entrepreneurs and managers. Therefore, the correct answers must align with the idea of elevating or glorifying someone. \"Exalt\" (Option C) means to praise or elevate in rank, and \"Valorize\" (Option D) means to assign value to or glorify. Both fit the context of praising individuals.",
+            "runtime": 3.03,
+            "correct": true
+        },
+        {
+            "question_number": 63,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: C, E  \nExplanation: The sentence suggests that the writer actively enjoyed misleading her audience by providing clues that were deliberately misleading. The correct choices must align with this sense of enjoyment in her trickster behavior, which is conveyed through words like \"relished\" and \"delighted in.\" These options indicate that she embraced the role of misdirection, rather than rejecting, disdaining, or merely participating passively.",
+            "runtime": 5.54,
+            "correct": true
+        },
+        {
+            "question_number": 64,
+            "expected": [
+                "B",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "F"
+            ],
+            "model_response": "Options: B, F  \nExplanation: The sentence discusses a negative aspect of popular history: it fails to show an interest in contributing intellectually to understanding an issue. Words like \"shortcoming\" (B) and \"fault\" (F) appropriately match this criticism, as they both convey a flaw or deficiency. The other options—\"characteristic\" (A), \"dilemma\" (C), \"quandary\" (D), and \"ploy\" (E)—either do not fit the context or do not convey the intended meaning of a major flaw or defect. Therefore, the correct answers are B and F.",
+            "runtime": 54.29,
+            "correct": true
+        },
+        {
+            "question_number": 65,
+            "expected": [
+                "E",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "E",
+                "F"
+            ],
+            "model_response": "Options: E, F  \nExplanation: The sentence discusses commodity prices falling after a period of increase, followed by speculation about whether this decline is a significant trend reversal or something temporary before demand rises again. Both \"lull\" (Option E) and \"respite\" (Option F) fit the context, as they refer to a temporary pause or slowdown, which aligns with analysts questioning whether the downward trend will persist or if it is only temporary. The other options either do not make sense in context or are not real words.",
+            "runtime": 13.18,
+            "correct": true
+        },
+        {
+            "question_number": 66,
+            "expected": [
+                "A",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 7.09,
+            "correct": false
+        },
+        {
+            "question_number": 67,
+            "expected": [
+                "C",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "D"
+            ],
+            "model_response": "Options: C, D  \nExplanation: The sentence emphasizes the importance of explorers trusting the records of predecessors to build knowledge. This trust would rely on the precision and accuracy of those records. Option C, \"exactitude,\" directly refers to precision or correctness, which is vital for reliable records. Option D, \"meticulousness,\" conveys careful attention to detail, which is necessary for ensuring accuracy in documentation. Both options align with the concept of trustworthy records in the context of exploration.",
+            "runtime": 6.71,
+            "correct": true
+        },
+        {
+            "question_number": 68,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 45.91,
+            "correct": true
+        },
+        {
+            "question_number": 69,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: C, E  \nExplanation: The sentence highlights that while science is typically seen as a high-minded pursuit, some scientists might not be above criticism, especially in light of allegations about undue influence from pharmaceutical companies. Thus, the missing word describes practitioners who might be criticized or morally flawed. \"C: unimpeachable\" and \"E: blameless\" both refer to being above reproach or criticism, which fits the argument that not all scientists meet these standards. The other options do not align with the context of moral or ethical scrutiny.",
+            "runtime": 47.14,
+            "correct": true
+        },
+        {
+            "question_number": 70,
+            "expected": [
+                "A",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "F"
+            ],
+            "model_response": "Options: A, F  \nExplanation: The sentence describes Bloomfield as someone who stands out among egotists due to her behavior, which includes praising competitors and making self-deprecating remarks. These qualities suggest humility and modesty. \"Unassuming\" (A) fits because it means not arrogant or pretentious, and \"modest\" (F) fits because it means showing humility or a lack of ego. The other options do not align with the described behavior: \"complimentary\" (B) might seem plausible, but it doesn't capture the broader notion of humility; \"acerbic\" (C) and \"cutting\" (E) suggest harshness—opposite to the tone of the sentence; and \"ingenuous\" (D) implies being naive or overly trusting, which is unrelated to the context.",
+            "runtime": 26.45,
+            "correct": true
+        },
+        {
+            "question_number": 71,
+            "expected": [
+                "C",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "F"
+            ],
+            "model_response": "Options: A, F  \nExplanation: The sentence implies that the group's previously held beliefs had become widely accepted or incorporated into mainstream politics, leading to the group's disbandment. \"Arcane\" (A) means something that is mysterious or known only to a few, which fits the context of the group's beliefs being once obscure but now mainstream. \"Conventional\" (F) means conforming to established practices or standards, which also fits since the beliefs became part of mainstream politics, a conventional stance. The other options like \"seditious\" (B), \"quixotic\" (C), and \"idealistic\" (D) do not match the sense of the beliefs becoming mainstream or widely accepted. \"Popular\" (E) would suggest that the beliefs had become widely accepted, but it is not as fitting as \"conventional\" in this context.",
+            "runtime": 12.39,
+            "correct": false
+        },
+        {
+            "question_number": 72,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "C"
+            ],
+            "model_response": "Options: B, C  \nExplanation: The sentence suggests that the observation about the large number of insect species has remained constant and noteworthy over the years. \"Significant\" (B) fits because it implies that the observation is important or meaningful. \"Strong\" (C) fits because it suggests that the observation has been a reliable or enduring fact over time. Neither \"obscure\" (F), \"perplexing\" (D), \"confounding\" (E), nor \"obust\" (A) makes sense in this context, as they do not align with the idea of a constant and notable observation.",
+            "runtime": 3.04,
+            "correct": false
+        },
+        {
+            "question_number": 73,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The context of the sentence suggests that Anne Carson's book Nox is a tangible and substantial literary object, which contrasts with the ephemeral and unobtrusive nature of an e-reader. The words \"cumbersome\" and \"unwieldy\" both imply that the book is large, heavy, or difficult to handle, emphasizing its physical presence. The other options, such as \"evanescent\" and \"ephemeral,\" suggest fleetingness, which would not fit the idea of the book being a deliberate object to engage with.",
+            "runtime": 7.29,
+            "correct": true
+        },
+        {
+            "question_number": 74,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The blank in the sentence requires words that convey a tendency or inclination, as it describes humans irrationally gravitating toward predictable and risk-averse behavior. \"Predilection\" (Option B) means a preference or a bias toward something, and \"proclivity\" (Option D) refers to a natural tendency or inclination toward a particular behavior. Both fit the context of explaining humans' predictable and risk-avoidant tendencies. Other options, such as \"eccentricity\" (A), \"vacillation\" (C), \"wavering\" (E), and \"cowardice\" (F), do not align well semantically with the sentence's context.",
+            "runtime": 7.53,
+            "correct": true
+        },
+        {
+            "question_number": 75,
+            "expected": [
+                "B",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "C"
+            ],
+            "model_response": "Options: B, C  \nExplanation: The context of the sentence suggests that Williamson was dealing with a group that was difficult to manage or unruly, as he was trying to forge consensus in a challenging situation. \"Fractious\" (B) means irritable, quarrelsome, or difficult to manage, which fits well. Similarly, \"restive\" (C) means restless or resisting control, which also aligns with the description of the assembly. These two words accurately describe the challenging nature of the group.",
+            "runtime": 47.94,
+            "correct": true
+        },
+        {
+            "question_number": 76,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 5.35,
+            "correct": false
+        },
+        {
+            "question_number": 77,
+            "expected": [
+                "B",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o-mini",
+            "model_answer": [
+                "B",
+                "F"
+            ],
+            "model_response": "Options: B, F  \nExplanation: The sentence discusses the new director's desire to preserve an attribute of her predecessor while rejecting rigid policies. \"Adaptability\" (B) and \"flexibility\" (F) both suggest a responsive and dynamic approach to monetary policy, contrasting with rigidness.",
+            "runtime": 5.56,
+            "correct": true
+        },
+        {
+            "question_number": 78,
+            "expected": [
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "E"
+            ],
+            "model_response": "Options: B, E  \nExplanation: The sentence suggests that the famous fairy tales, despite seeming implausible and irrelevant to contemporary life, continue to endure over time. Words that capture the idea of endurance or continued existence are \"persistence\" (B) and \"survival\" (E). These fit the context of questioning how such stories continue to exist or endure despite appearing implausible or irrelevant.",
+            "runtime": 49.46,
+            "correct": true
+        },
+        {
+            "question_number": 79,
+            "expected": [
+                "A",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: E, C  \nExplanation: The sentence discusses how patenting gene sequences hinders innovation instead of promoting it, as the patent system is intended to do. The correct answers should reflect actions related to promoting innovation. \"Fostering\" (Option E) aligns with encouraging or promoting innovation, while \"modifying\" (Option C) could relate to driving improvements or changes in ideas. These choices make sense in the context of the critique of the patent system.",
+            "runtime": 9.78,
+            "correct": false
+        },
+        {
+            "question_number": 80,
+            "expected": [
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B",
+                "E"
+            ],
+            "model_response": "Options: B, E  \nExplanation: The sentence indicates that the strategy could lead to a successful enhancement of the movement for labor rights. The words \"galvanize\" (B) and \"animate\" (E) both suggest energizing or inspiring action, which aligns well with the context of strengthening the movement for labor rights in American democracy. The other options do not fit the positive outcome implied in the sentence.",
+            "runtime": 5.83,
+            "correct": true
+        },
+        {
+            "question_number": 81,
+            "expected": [
+                "C",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "D"
+            ],
+            "model_response": "Options: C, D  \nExplanation: The question suggests that the activist group originally held beliefs that were not widely accepted but later became mainstream. For this to make sense, the correct words must describe beliefs that were ambitious, visionary, or not initially practical or widely held. \"Quixotic\" (C) means exceedingly idealistic or impractical, and \"Idealistic\" (D) implies a focus on high ideals or perfection. Both align with the initial state of the group's beliefs, which later became widely accepted, resulting in the group disbanding.",
+            "runtime": 5.92,
+            "correct": true
+        },
+        {
+            "question_number": 82,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 0.08,
+            "correct": true
+        },
+        {
+            "question_number": 83,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The context of the sentence suggests that Anne Carson's book Nox is a tangible and substantial literary object, which contrasts with the ephemeral and unobtrusive nature of an e-reader. The words \"cumbersome\" and \"unwieldy\" both imply that the book is large, heavy, or difficult to handle, emphasizing its physical presence. The other options, such as \"evanescent\" and \"ephemeral,\" suggest fleetingness, which would not fit the idea of the book being a deliberate object to engage with.",
+            "runtime": 0.7,
+            "correct": true
+        },
+        {
+            "question_number": 84,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The blank in the sentence requires words that convey a tendency or inclination, as it describes humans irrationally gravitating toward predictable and risk-averse behavior. \"Predilection\" (Option B) means a preference or a bias toward something, and \"proclivity\" (Option D) refers to a natural tendency or inclination toward a particular behavior. Both fit the context of explaining humans' predictable and risk-avoidant tendencies. Other options, such as \"eccentricity\" (A), \"vacillation\" (C), \"wavering\" (E), and \"cowardice\" (F), do not align well semantically with the sentence's context.",
+            "runtime": 0.37,
+            "correct": true
+        },
+        {
+            "question_number": 85,
+            "expected": [
+                "B",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "C"
+            ],
+            "model_response": "Options: B, C  \nExplanation: The context of the sentence suggests that Williamson was dealing with a group that was difficult to manage or unruly, as he was trying to forge consensus in a challenging situation. \"Fractious\" (B) means irritable, quarrelsome, or difficult to manage, which fits well. Similarly, \"restive\" (C) means restless or resisting control, which also aligns with the description of the assembly. These two words accurately describe the challenging nature of the group.",
+            "runtime": 19.89,
+            "correct": true
+        },
+        {
+            "question_number": 86,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 11.12,
+            "correct": false
+        },
+        {
+            "question_number": 87,
+            "expected": [
+                "B",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "F"
+            ],
+            "model_response": "Options: B, F  \nExplanation: The question highlights the new director's emphasis on preserving a characteristic of her predecessor, specifically avoiding rigid or mechanistic rules in monetary policy making. This suggests a focus on adaptability and flexibility as the hallmark traits of the predecessor's tenure. Therefore, the correct answers are **B: adaptability** and **F: flexibility**, as they align with this description.",
+            "runtime": 2.06,
+            "correct": true
+        },
+        {
+            "question_number": 88,
+            "expected": [
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: C, E  \nExplanation: The sentence describes fairy tales that initially seem implausible and irrelevant, suggesting that their continued existence or relevance is surprising. \"Appeal\" (Option C) makes sense as it refers to the attraction or interest that fairy tales continue to hold, despite seeming out of place. \"Survival\" (Option E) also fits because it refers to the continued existence of these fairy tales over time, which might be puzzling given their initial irrelevance. Both options make sense in the context of the sentence.",
+            "runtime": 13.7,
+            "correct": false
+        },
+        {
+            "question_number": 89,
+            "expected": [
+                "A",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "E",
+                "F"
+            ],
+            "model_response": "Options: E, F  \nExplanation: The sentence suggests that the patent system should be promoting or supporting innovation, but instead, it is giving individuals or corporations excessive control over ideas. \"Fostering\" (E) means encouraging or promoting growth, which fits the context of the sentence. \"Cataloging\" (F) refers to organizing or listing, which could also apply to the concept of documenting ideas, thus contributing to the negative view of the patenting of concepts.",
+            "runtime": 2.8,
+            "correct": false
+        },
+        {
+            "question_number": 90,
+            "expected": [
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "E"
+            ],
+            "model_response": "Options: B, E  \nExplanation: The blank in the sentence is describing the potential impact of the new strategy on a movement to bolster labor rights. Words like \"considerable ingenuity\" and the positive framing of making labor rights an \"unassailable feature\" of American democracy suggest that the blank should convey a positive or energizing effect. \"Galvanize\" (B) means to stimulate or excite into action, and \"animate\" (E) means to bring to life or energize. These both align with the intended tone of the sentence. In contrast, negative options like \"frustrate\" (A) or \"thwart\" (F) are inconsistent with the sentence's positive context, and neutral terms like \"resume\" (C) and \"affect\" (D) do not fit the required intensity or specificity.",
+            "runtime": 9.65,
+            "correct": true
+        },
+        {
+            "question_number": 91,
+            "expected": [
+                "A",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The sentence suggests that microbes are widespread and make up a significant portion of Earth's living protoplasm compared to humans, animals, and plants. The words \"omnipresent\" (Option B) and \"ubiquitous\" (Option D) both mean \"present everywhere,\" which fits the context of the sentence describing the extensive presence of microbes. Other options, such as \"invisible\" (A), \"minuscule\" (E), and \"thereal\" (F), don't convey the idea of being widespread or abundant. \"Inminutive\" seems like a typographical error for \"minute,\" which means small, and doesn't fit well with the intended meaning either.",
+            "runtime": 6.93,
+            "correct": false
+        },
+        {
+            "question_number": 92,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "B"
+            ],
+            "model_response": "Options: A, B  \nExplanation: The sentence describes how Inuit culture traditionally incorporates elaborate carvings to enhance objects like harpoon heads and other tools, which are primarily items used for practical purposes. Therefore, the correct words to fill in the blank must convey this idea of practicality or utility. \"Utilitarian\" (A) and \"Functional\" (B) are the two correct choices because both terms relate to objects being practical or serving a specific useful purpose. The other options do not align with the context of the sentence: \"Domestic\" (C) refers to the home, \"Decorative\" (D) and \"Ornamental\" (F) imply adornment rather than function, and \"Manufactured\" (E) refers to production rather than usage.",
+            "runtime": 5.7,
+            "correct": true
+        },
+        {
+            "question_number": 93,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The sentence discusses Benjamin Franklin's reputation for commonsense empirical investigation and then contrasts this with how his mentoring is described in a surprising way. Words like \"speculative\" and \"conjectural,\" which suggest a more abstract or theoretical approach, create this contrast effectively. Both B and D align with this interpretation of the sentence, while other choices like \"reasonable,\" \"pragmatic,\" and \"judicious\" do not convey the sense of surprise or theoretical nature indicated in the text.",
+            "runtime": 5.09,
+            "correct": true
+        },
+        {
+            "question_number": 94,
+            "expected": [
+                "A",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "D"
+            ],
+            "model_response": "Options: A, D  \nExplanation: The question describes the solar wind's diminished activity, suggesting a period of reduced intensity or activity. \"Quiescence\" (Option A) refers to a state of inactivity or quietness, which fits the context of relative solar calm. Similarly, \"calm\" (Option D) directly conveys the idea of reduced activity or turbulence. These two options accurately describe the observed conditions.",
+            "runtime": 5.6,
+            "correct": true
+        },
+        {
+            "question_number": 95,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The blank in the sentence requires a verb that suggests celebrities' donations lead to or elicit other donations. \"Licit\" (Option B) means to actively encourage or promote, while \"Draw\" (Option D) means to attract or cause something to happen, both of which appropriately fit the context of encouraging further donations. The other options either don't fit the context or have meanings that do not align with the idea of promoting donations.",
+            "runtime": 23.61,
+            "correct": true
+        },
+        {
+            "question_number": 96,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "F"
+            ],
+            "model_response": "Options: B, F  \nExplanation: The sentence suggests that aerial viewings do not demonstrate or show the considerable artistry of the stone horse. \"Justify\" means to show something to be right or reasonable, which fits this context, as the view from above fails to validate the intricate craftsmanship. \"Undercut\" means to undermine or weaken something, which fits because the aerial view weakens or diminishes the perception of the artistry. Therefore, \"justify\" and \"undercut\" are the correct choices.",
+            "runtime": 2.21,
+            "correct": false
+        },
+        {
+            "question_number": 97,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "F"
+            ],
+            "model_response": "Options: C, F  \nExplanation: The sentence contrasts human culture and speech with their existence in lesser primates. The correct words should suggest that these functions exist in a simpler or less developed form in lesser primates. \"Primitive\" (C) refers to something being basic or underdeveloped, and \"rudimentary\" (F) also suggests something that is in its simplest or initial stage. Both words fit the context of describing a less complex form in lesser primates.",
+            "runtime": 44.25,
+            "correct": true
+        },
+        {
+            "question_number": 98,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "Options: C, E  \nExplanation: The sentence suggests that Jackie Wullschlager's biography of Hans Christian Andersen does the opposite of glossing over or preserving the \"insipid sweetness\" in Andersen's life—it delves deeper to reveal a more complex and vulnerable person beneath that facade. Therefore, the correct answers are **\"strips away\" (C)** and **\"removes\" (E)**, as both options convey the idea of exposing the truth and eliminating the sugary external layer. Other options, such as \"imagines\" (B) or \"conjures up\" (A), do not fit the context of revealing truth by removing something superficial, while \"overlooks\" (D) and \"ignores\" (F) are contrary to the biography's intent.",
+            "runtime": 46.07,
+            "correct": true
+        },
+        {
+            "question_number": 99,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Options: B, D  \nExplanation: The phrase \"becomes more _____ toward the end\" implies that the book improves in terms of clarity or readability as it progresses. \"Intelligible\" (B) means something that can be understood, which fits the context of the sentence suggesting improvement. \"Readable\" (D) also fits, indicating that the book becomes easier to read. Both options suggest an improvement in the book’s style or presentation by the end.",
+            "runtime": 10.93,
+            "correct": true
+        },
+        {
+            "question_number": 100,
+            "expected": [
+                "A",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "F"
+            ],
+            "model_response": "Options: A, F  \nExplanation: The sentence describes a diplomatic strategy where one party induces the other to propose their preference. The key part of the sentence is that the other party's actions should seem like a concession, implying that the other party gives in to the first party's desires.  \n- Option A: \"concession to\" fits perfectly as it indicates yielding or granting something, which aligns with the concept of a diplomatic concession.  \n- Option F: \"acquiescence to\" also fits well, as it means the other party agrees or gives in to the request, which aligns with the idea of granting a concession in a subtle way.  \n\nOptions B, C, D, and E do not fit the context because they either do not convey the sense of yielding or granting a concession or introduce negative or unrelated meanings.",
+            "runtime": 45.59,
+            "correct": true
+        }
+    ]
+}

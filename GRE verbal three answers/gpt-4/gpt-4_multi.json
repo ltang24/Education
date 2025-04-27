@@ -1,0 +1,3023 @@
+{
+    "zero-shot": {
+        "accuracy": 0.76,
+        "correct_count": 38,
+        "total_questions_processed": 50,
+        "details": [
+            {
+                "question_number": 1,
+                "expected": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "model_response": "origin, produce, eaten  \nExplanation: The first blank refers to the mystery surrounding where the toxins come from, so \"origin\" is the correct choice. The second blank indicates that the frog does not create the toxins itself, so \"produce\" fits best. The third blank implies that the frogs likely consume the beetles to acquire the toxins, making \"eaten\" the correct answer.",
+                "runtime": 7.18,
+                "correct": true
+            },
+            {
+                "question_number": 2,
+                "expected": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "model_response": "competitive, wide-ranging, comprehensive  \nExplanation: The context suggests that auctions are increasing in frequency and intensity due to a rising interest in photographic prints. \"Competitive\" fits as it implies that auctions are becoming more intense. Established collectors' interests are broadening, which makes \"wide-ranging\" the best choice for describing this expansion. Lastly, collectors who are now keen on having more complete collections align with \"comprehensive,\" meaning they want collections that are all-encompassing.",
+                "runtime": 12.54,
+                "correct": true
+            },
+            {
+                "question_number": 3,
+                "expected": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "model_response": "rich, problem, augmented\n\nExplanation: The passage discusses the complexity of capuchin monkey conflict involving a variety of signals, making it difficult to distinguish meanings. \"Rich\" fits here as it implies a variety of signals. The second blank refers to the difficulty researchers face, so \"problem\" is the most fitting option. Lastly, the fact that signals change in meaning depending on context and development suggests that this complexity is \"augmented\" (increased or made more difficult).",
+                "runtime": 4.63,
+                "correct": true
+            },
+            {
+                "question_number": 4,
+                "expected": [
+                    "an honorific",
+                    "established",
+                    "disputed"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "honorific",
+                    "established",
+                    "disputed"
+                ],
+                "model_response": "honorific, established, disputed\n\nExplanation: The phrase \"the word 'scientific' is often used in (i) _____ manner\" suggests that the word \"scientific\" is used in a way that adds prestige or respect. This points to \"honorific,\" meaning the term is used to elevate the status of something. In the second blank, \"reliability has been (ii) _____ by methods\" implies that the reliability of something has been confirmed or validated, which fits with \"established.\" Lastly, \"results cannot reasonably be (iii) _____\" suggests that the results cannot be reasonably questioned or doubted, so \"disputed\" is the most appropriate choice.",
+                "runtime": 8.47,
+                "correct": false
+            },
+            {
+                "question_number": 5,
+                "expected": [
+                    "slowdown",
+                    "gloomy",
+                    "temporary"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "slowdown",
+                    "gloomy",
+                    "temporary"
+                ],
+                "model_response": "slowdown, gloomy, temporary  \nExplanation: The sentence discusses a decrease in the growth of atmospheric methane, so \"slowdown\" fits best for Blank (i). The scenarios for global warming are described as being overly pessimistic, so \"gloomy\" is the appropriate choice for Blank (ii). Finally, the declines in emissions are later found to be short-lived, making \"temporary\" the correct choice for Blank (iii).",
+                "runtime": 2.85,
+                "correct": true
+            },
+            {
+                "question_number": 6,
+                "expected": [
+                    "censure",
+                    "demanding",
+                    "sifted from"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "censure",
+                    "demanding",
+                    "sifted from"
+                ],
+                "model_response": "censure, demanding, sifted from  \nExplanation: In the first blank, \"censure\" is the opposite of praise, which fits the idea of reviewing both good and bad books. For the second blank, \"demanding\" fits the context, as it describes a more challenging review process when dealing with books that have both virtues and vices. In the third blank, \"sifted from\" implies the careful separation of valuable insights from the less useful parts of the book.",
+                "runtime": 4.48,
+                "correct": true
+            },
+            {
+                "question_number": 7,
+                "expected": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "model_response": "comprehend, allure, valid  \nExplanation: Unambiguous texts are straightforward, allowing readers to comprehend them quickly (Blank i). Ambiguous texts, on the other hand, can be appealing due to their allure (Blank ii) of multiple interpretations. These interpretations are considered equally valid (Blank iii), as there is no single true meaning.",
+                "runtime": 41.22,
+                "correct": true
+            },
+            {
+                "question_number": 8,
+                "expected": [
+                    "empowering",
+                    "surrendering to",
+                    "glean precisely what you want from it"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "empowering",
+                    "disregarding",
+                    "glean precisely"
+                ],
+                "model_response": "empowering, disregarding, glean precisely what you want from it  \nExplanation: The context of the passage describes how computers make searching for information easier and more efficient. \"Empowering\" fits as it suggests feeling more in control while researching. The second blank suggests the opposite of engaging deeply with the book's structure, so \"disregarding\" fits, indicating that the reader does not follow the book’s logic. The third blank involves what the reader does with the information, and \"glean precisely what you want from it\" makes the most sense as it suggests extracting specific, desired information.",
+                "runtime": 8.05,
+                "correct": false
+            },
+            {
+                "question_number": 9,
+                "expected": [
+                    "now common",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "vulnerable",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "model_response": "vulnerable, obligatory, jettisoned  \nExplanation:  \nBlank (i) requires a word that suggests species under threat due to human activity and climate change. \"Vulnerable\" fits best as it describes species at risk of becoming endangered.  \nBlank (ii) needs a word that implies the necessity of conservation management. \"Obligatory\" fits because it indicates something that is required or essential.  \nBlank (iii) calls for a word that suggests something cannot be discarded or ignored. \"Jettisoned\" fits because it means to be thrown away or abandoned, which aligns with the idea of neglecting responsibilities.",
+                "runtime": 48.76,
+                "correct": false
+            },
+            {
+                "question_number": 10,
+                "expected": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "model_response": "unavoidable, shy away, emerges victorious  \nExplanation: The sentence describes fairy tales as teaching readers that struggles are an intrinsic part of life, implying that they are \"unavoidable.\" It then emphasizes the importance of not \"shying away\" from hardships but facing them steadfastly. Finally, the narrative concludes with the idea that overcoming obstacles leads one to \"emerge victorious.\"",
+                "runtime": 10.77,
+                "correct": true
+            },
+            {
+                "question_number": 11,
+                "expected": [
+                    "expensive",
+                    "useless",
+                    "serve no practical purpose"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "expensive",
+                    "useless",
+                    "serve no practical purpose"
+                ],
+                "model_response": "expensive, useless, serve no practical purpose  \nExplanation: The argument centers on the idea that jewelry-grade diamonds are purchased either as a display of wealth or as a way to appear wealthy, even at the cost of going into debt. For this reasoning to hold, the diamonds must be \"expensive\" (Blank i) and \"useless\" (Blank ii), as their lack of practical utility underscores the notion that they are bought for appearances rather than function. Finally, the goods must \"serve no practical purpose\" (Blank iii) to align with the argument that their value lies solely in their symbolic status rather than any functional benefit.",
+                "runtime": 14.08,
+                "correct": true
+            },
+            {
+                "question_number": 12,
+                "expected": [
+                    "profitable",
+                    "were suitable only for certain locations",
+                    "return on"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "watermills",
+                    "were",
+                    "return"
+                ],
+                "model_response": "profitable, were suitable only for certain locations, return on\n\nExplanation: The first blank requires a word that contrasts with the idea that windmills could be built anywhere, but also aligns with the idea that watermills were advantageous in some way. \"Profitable\" fits because it highlights the economic benefit of watermills. The second blank must explain a limitation of watermills compared to windmills, and \"were suitable only for certain locations\" fits because watermills depend on the presence of water. For the third blank, the phrase \"a better _____ the money required to build the mill\" suggests a financial return, making \"return on\" the correct choice.",
+                "runtime": 8.21,
+                "correct": false
+            },
+            {
+                "question_number": 13,
+                "expected": [
+                    "egalitarian",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "egalitarian",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "model_response": "egalitarian, aristocratic, atrophied into insignificance  \nExplanation: The first blank requires a word that contrasts with the hierarchical nature of the Chinese Tang system, so \"egalitarian\" fits best. The second blank describes the Tang system as being highly structured and dominated by the elite, making \"aristocratic\" the correct choice. For the third blank, the passage indicates that the examination system declined as court offices became hereditary, so \"atrophied into insignificance\" is the most appropriate option.",
+                "runtime": 11.51,
+                "correct": true
+            },
+            {
+                "question_number": 14,
+                "expected": [
+                    "questionable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "questionable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "model_response": "questionable, inherently implausible about, conjecture\n\nExplanation: The historian’s narrative of the dynasty’s decline is described as \"questionable\" because it relies on aspects that are not fully substantiated. The second blank indicates that while the narrative is questionable, there is \"nothing inherently implausible about\" the account, meaning it isn't completely out of the realm of possibility, but its reliability is still in doubt. The third blank is \"conjecture,\" meaning the historian's conclusions are based on speculation or unverified assumptions, contributing to the questionable nature of the account.",
+                "runtime": 31.44,
+                "correct": true
+            },
+            {
+                "question_number": 15,
+                "expected": [
+                    "astonished",
+                    "Buoyed",
+                    "alacrity"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "astonished",
+                    "buoyed",
+                    "alacrity"
+                ],
+                "model_response": "astonished, Buoyed, alacrity  \nExplanation: The first blank requires a word that conveys the organizers' reaction to the volunteers' unexpected success. \"Astonished\" fits best, as it suggests surprise and amazement. The second blank needs a word that reflects the positive impact of the volunteers' enthusiasm on the team. \"Buoyed\" works well, as it means uplifted or encouraged. The third blank calls for a word that captures the volunteers' eagerness and promptness. \"Alacrity\" is the most appropriate choice, as it denotes cheerful readiness and enthusiasm.",
+                "runtime": 26.9,
+                "correct": true
+            },
+            {
+                "question_number": 16,
+                "expected": [
+                    "stranger in",
+                    "alienation",
+                    "birthplace"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "stranger in",
+                    "alienation",
+                    "birthplace"
+                ],
+                "model_response": "stranger in, alienation, birthplace  \nExplanation: The sentence discusses how labeling Hamilton a foreigner is an anachronistic assumption. The first blank must describe Hamilton's perception of himself in relation to the United States, and \"stranger in\" fits best as it aligns with the idea of alienation. The second blank refers to what caused his sense of separation, and \"alienation\" is the most appropriate choice. The third blank explains the source of this alienation, which is not his ideology or profession but his \"birthplace,\" as the text emphasizes his being born outside the future United States.",
+                "runtime": 13.26,
+                "correct": true
+            },
+            {
+                "question_number": 17,
+                "expected": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "model_response": "is interested in, document, aesthetics  \nExplanation: Friedlander is described as a photographer who engages with places most people consider ugly, which implies he is \"interested in\" such places rather than avoiding or criticizing them. His work is said to \"document\" the built American landscape, indicating he records or captures it rather than emulating or discrediting it. Finally, the phrase \"regardless of aesthetics\" fits the context, as it suggests he does not prioritize beauty in his photographic choices.",
+                "runtime": 10.29,
+                "correct": true
+            },
+            {
+                "question_number": 18,
+                "expected": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "model_response": "physical activity, detract from, augmented  \nExplanation: The sentence discusses reserving time for a specific activity in school curricula and its impact on academic achievement. \"Physical activity\" fits Blank (i) because the studies are about exercise. \"Detract from\" fits Blank (ii) because the sentence states that reserving time for exercise does not negatively affect academic achievement. \"Augmented\" fits Blank (iii) because the studies found that more exercise often improved school performance.",
+                "runtime": 11.09,
+                "correct": true
+            },
+            {
+                "question_number": 19,
+                "expected": [
+                    "breakdown",
+                    "promote",
+                    "undermining"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "breakdown",
+                    "distort",
+                    "undermining"
+                ],
+                "model_response": "breakdown, distort, undermining  \nExplanation: The passage suggests that using metaphors from battle and sports negatively impacts arguments, implying a detrimental effect. The word \"breakdown\" fits the idea that these metaphors cause problems in the argumentative process. \"Distort\" matches the idea that such metaphors can skew the perception of argument, creating an adversarial environment. Finally, \"undermining\" fits because it suggests the process, ideally meant to resolve disagreements, is weakened or harmed by aggressive behavior.",
+                "runtime": 10.88,
+                "correct": false
+            },
+            {
+                "question_number": 20,
+                "expected": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "model_response": "make public, maladies, plague  \nExplanation: The Agriculture Department \"make public\" its dietary guidelines, meaning it released them to the public. The \"or else\" refers to a list of \"maladies,\" which are diseases or ailments, that \"plague\" the developed world, meaning they afflict or trouble it. This combination makes the sentence coherent and aligns with the context of health-related challenges.",
+                "runtime": 3.29,
+                "correct": true
+            },
+            {
+                "question_number": 21,
+                "expected": [
+                    "ambivalent about",
+                    "excited by",
+                    "At the same time"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "ambivalent about",
+                    "excited by",
+                    "at the same time"
+                ],
+                "model_response": "ambivalent about, excited by, At the same time  \nExplanation:  \n- In Blank(i), \"ambivalent about\" fits best because it conveys the mixed feelings that governments have toward the Internet. They see its potential but also fear its implications.\n- In Blank(ii), \"excited by\" fits because the passage suggests that governments see the opportunities the Internet offers, which are mostly positive (for business and education).\n- In Blank(iii), \"At the same time\" works because it highlights a contrasting perspective—while governments recognize the Internet's benefits, they also fear its implications, emphasizing the simultaneous nature of these feelings.",
+                "runtime": 7.49,
+                "correct": true
+            },
+            {
+                "question_number": 22,
+                "expected": [
+                    "less one-sided",
+                    "disputable",
+                    "credibility"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "nebulous at best",
+                    "disputable",
+                    "credibility"
+                ],
+                "model_response": "nebulous at best, disputable, credibility  \nExplanation: The relationship between theory and data is described as uncertain and not clear-cut, hence \"nebulous at best\" fits the first blank. The second blank suggests that empirical data may not always be straightforward or fixed, so \"disputable\" fits well. Finally, the third blank focuses on how conflicting findings may impact the theory, so \"credibility\" makes the most sense, as a new finding could undermine the credibility of a theory.",
+                "runtime": 45.36,
+                "correct": false
+            },
+            {
+                "question_number": 23,
+                "expected": [
+                    "originality",
+                    "conformity",
+                    "incremental"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "originality",
+                    "persuasion",
+                    "incremental"
+                ],
+                "model_response": "originality, persuasion, incremental\n\nExplanation: The sentence contrasts consumer ads with political ads. Consumer ads prize \"originality\" because they evolve and change, while political ads prize \"persuasion\" since they focus on convincing voters. Additionally, political ads are resistant to change, so the most \"incremental\" changes are seen, meaning small or gradual adjustments, not radical changes.",
+                "runtime": 5.2,
+                "correct": false
+            },
+            {
+                "question_number": 24,
+                "expected": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "model_response": "altruistic, illusory, contradicts\n\nExplanation: The first blank requires a word describing people who are concerned with the well-being of others, which is best filled by \"altruistic.\" The second blank involves the claim about differences being false or not real, which fits with \"illusory.\" The third blank suggests that the claim conflicts with everyday observations and moral evaluation, making \"contradicts\" the most appropriate choice.",
+                "runtime": 6.14,
+                "correct": true
+            },
+            {
+                "question_number": 25,
+                "expected": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "deemphasized",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "model_response": "deemphasized, can grow unchecked, doomed\n\nExplanation: The first blank implies that policies to limit population growth have been reduced in importance, so \"deemphasized\" fits. The second blank refers to human populations in remote areas where carnivores still exist, meaning they have the potential to grow unchecked due to isolation. Finally, the third blank indicates the negative impact on the South China tiger, suggesting that human pressure has \"doomed\" the species.",
+                "runtime": 4.1,
+                "correct": false
+            },
+            {
+                "question_number": 26,
+                "expected": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "model_response": "rationale for, mentioned, energizes  \nExplanation: The first blank requires a phrase that explains why public money is spent on scientific projects, so \"rationale for\" fits best. The second blank needs a word that indicates the idea of science strengthening democracy is rarely brought up, so \"mentioned\" is appropriate. The third blank should describe the relationship between scientific literacy and democracy, and \"energizes\" aligns with the idea that scientific literacy supports and invigorates democracy.",
+                "runtime": 4.05,
+                "correct": true
+            },
+            {
+                "question_number": 27,
+                "expected": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "model_response": "restrain, incursions of, corrupt\n\nExplanation: The passage discusses methods developed to remove distortions caused by the researcher. \"Restrain\" is the most appropriate word in Blank (i) because it suggests controlling or limiting the impact of the researcher’s influence. In Blank (ii), \"incursions of\" is the best fit as it refers to the intrusion or disruption of subjectivity in research. Finally, Blank (iii) requires a word that indicates something harmful or negative to research, and \"corrupt\" is the most fitting choice, implying that subjectivity can distort or damage research outcomes.",
+                "runtime": 6.12,
+                "correct": true
+            },
+            {
+                "question_number": 28,
+                "expected": [
+                    "surfeit",
+                    "virtue",
+                    "forgo"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "surfeit",
+                    "virtue",
+                    "forgo"
+                ],
+                "model_response": "surfeit, virtue, forgo\n\nExplanation: The first blank requires a word that conveys an overwhelming or excessive number of choices, which aligns with the idea of being \"paralyzing.\" \"Surfeit\" fits this meaning, while \"reduction\" and \"stabilization\" do not. For the second blank, the sentence suggests that a lack of flexibility might actually be a positive thing, making \"virtue\" the correct choice. \"Conundrum\" and \"revelation\" do not fit the context. For the third blank, the sentence implies that people willingly give up some advantages for peace of mind, making \"forgo\" the appropriate choice. \"Foresee\" and \"forestall\" do not align with this meaning.",
+                "runtime": 5.94,
+                "correct": true
+            },
+            {
+                "question_number": 29,
+                "expected": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "model_response": "unconnected, superficial, isolationism\n\nExplanation: The sentence suggests that political events in different countries were not closely related in the nineteenth century. \"Unconnected\" fits well here, indicating a lack of relationship. The second blank emphasizes a comparison with the present, where interdependence is much stronger, so \"superficial\" works best, indicating that the interrelationship was shallow or not deep in the past. Finally, the third blank suggests that due to the greater interdependence today, isolation is no longer a viable option, so \"isolationism\" is the most appropriate choice.",
+                "runtime": 3.45,
+                "correct": true
+            },
+            {
+                "question_number": 30,
+                "expected": [
+                    "inert",
+                    "wonderfully enriched",
+                    "circumvent"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "inert",
+                    "inevitably circumscribed",
+                    "circumvent"
+                ],
+                "model_response": "inert, inevitably circumscribed, circumvent  \nExplanation:  \n(i) \"inert\" fits best as it describes a quality that lacks energy or life, which aligns with the static and lifeless outcome when photography is used as a shortcut.  \n(ii) \"inevitably circumscribed\" suggests that photography limits or confines modern arts in a way that might not allow for full artistic expression, which fits the context of the passage.  \n(iii) \"circumvent\" means to bypass or avoid difficulties, which aligns with the idea of using photography to avoid the challenge of achieving accurate proportions in drawing.",
+                "runtime": 5.48,
+                "correct": false
+            },
+            {
+                "question_number": 31,
+                "expected": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "model_response": "master, deliberation, given import  \nExplanation: The passage praises Joanna Scott for her narrative skill, suggesting that she is a \"master\" of storytelling. \"Deliberation\" fits well as it implies thoughtful, careful narration, aligning with the idea of skillful writing. The third blank requires something that suggests a connection, where earlier details are revisited, so \"given import\" fits best, indicating that something introduced earlier in the story will become significant later.",
+                "runtime": 49.2,
+                "correct": true
+            },
+            {
+                "question_number": 32,
+                "expected": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "model_response": "made demands on, alien to, misunderstood  \nExplanation:  \n(i) \"made demands on\" fits because it suggests that the performances required effort or focus from the audience, which aligns with the description of them being dense and unpredictable.  \n(ii) \"alien to\" is appropriate because the techniques would be strange or unfamiliar to those not expecting a non-traditional play, such as critics or audience members accustomed to conventional theater.  \n(iii) \"misunderstood\" fits as the actors believe that critics’ negative reviews show a lack of understanding of the company’s unconventional approach.",
+                "runtime": 48.92,
+                "correct": true
+            },
+            {
+                "question_number": 33,
+                "expected": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "model_response": "lucrative, authoritative, a staleness  \nExplanation: The first blank refers to the financial success of the Review, so \"lucrative\" fits. The second blank describes the Review as \"erudite,\" which implies it is learned or scholarly, so \"authoritative\" is appropriate. The third blank mentions imperfections growing more pronounced, suggesting a lack of freshness or energy, so \"a staleness\" fits the context.",
+                "runtime": 7.77,
+                "correct": true
+            },
+            {
+                "question_number": 34,
+                "expected": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "model_response": "operate outside of, active, report  \nExplanation: The first blank requires a phrase that conveys how cultural influences can occur without conscious awareness or control, so \"operate outside of\" fits best. The second blank needs a word that contrasts with unconscious processes, and \"active\" is appropriate because it suggests deliberate participation. The third blank calls for a term indicating that individuals may not be able to articulate or recognize these subtle influences, making \"report\" the correct choice.",
+                "runtime": 3.62,
+                "correct": true
+            },
+            {
+                "question_number": 35,
+                "expected": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "model_response": "marketable artifacts, a commercial, consumption\n\nExplanation: \n- In Blank(i), \"marketable artifacts\" makes the most sense because anniversaries turn historical events into items that can be marketed or sold, fitting the context of publicists and broadcasters.\n- In Blank(ii), \"a commercial\" is the best choice since the passage emphasizes the commercialization of historical events, turning them into a form of cultural product.\n- In Blank(iii), \"consumption\" fits because it refers to the way the public absorbs or engages with the manufactured history for entertainment or national pride purposes.",
+                "runtime": 6.32,
+                "correct": true
+            },
+            {
+                "question_number": 36,
+                "expected": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "model_response": "languishing, extend, manages to thrive  \nExplanation: The sentence discusses two scenarios regarding creative work and intellectual property laws. In the first scenario, uncontrolled copying leads to certain forms of creative endeavor \"languishing,\" meaning they suffer or decline. This would prompt lawmakers to \"extend\" intellectual property law to protect such work. In the second scenario, creative work \"manages to thrive\" even without legal protection, suggesting that understanding how this flourishing occurs could be beneficial.",
+                "runtime": 24.5,
+                "correct": true
+            },
+            {
+                "question_number": 37,
+                "expected": [
+                    "collaborative",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "collaborative",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "model_response": "collaborative, contributions, remain overlooked\n\nExplanation: The first blank should be \"collaborative\" because it best describes the nature of contemporary science as being driven by teamwork and cooperation. The second blank should be \"contributions\" because it refers to the input or work of individuals in the field of science, which is being overlooked. The third blank should be \"remain overlooked\" because it indicates that the work of women and minority scientists has been ignored or not recognized in the historical record.",
+                "runtime": 43.06,
+                "correct": true
+            },
+            {
+                "question_number": 38,
+                "expected": [
+                    "an acquired",
+                    "advanced",
+                    "demands"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "an acquired",
+                    "mundane",
+                    "demands"
+                ],
+                "model_response": "an acquired, mundane, demands  \nExplanation:  \n(i) \"an acquired\" fits because truthfulness in children is something learned over time, not instinctive or automatic.  \n(ii) \"mundane\" works as it suggests that lying is more ordinary or commonly used, which contrasts with the assumption of truthfulness as a natural virtue.  \n(iii) \"demands\" fits because lying requires cognitive effort and social skills, which goes beyond mere honesty and involves more complex developmental processes.",
+                "runtime": 7.03,
+                "correct": false
+            },
+            {
+                "question_number": 39,
+                "expected": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "model_response": "celebrate, incommensurate with, stratification  \nExplanation: The first blank requires a word that aligns with the idea of promoting gender equality in traditional Vietnamese culture. \"Celebrate\" fits because founding myths would honor or highlight the equal division of labor. For the second blank, the phrase \"theoretical commitments are _____ actual processes\" suggests a mismatch between ideals and reality. \"Incommensurate with\" appropriately conveys this discrepancy. The third blank refers to the persistence of gender-based inequality, so \"stratification,\" which denotes hierarchical divisions, is the correct choice.",
+                "runtime": 5.55,
+                "correct": true
+            },
+            {
+                "question_number": 40,
+                "expected": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "model_response": "access to, spontaneously emerge, construct\n\nExplanation: \n(i) \"access to\" fits the context as the firms have financial and organizational resources that allow them to enter the region, implying that they have \"access to\" these resources.\n(ii) \"spontaneously emerge\" is correct because the firms could not assume that the markets would simply appear or function without effort, indicating that the markets needed to be developed.\n(iii) \"construct\" is appropriate because the firms needed to create or build strategies to shape the markets in a way that would work with the region's politics.",
+                "runtime": 47.96,
+                "correct": true
+            },
+            {
+                "question_number": 41,
+                "expected": [
+                    "peer",
+                    "cliquish social behavior",
+                    "clustering"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "peer",
+                    "cliquish social behavior",
+                    "clustering"
+                ],
+                "model_response": "peer, cliquish social behavior, clustering  \nExplanation: In adolescence, peer interactions are crucial for self-identity formation, as adolescents often rely on their peers to define themselves. This process frequently manifests as cliquish social behavior, where individuals form tight-knit groups to reinforce their sense of belonging and identity. The term \"clustering\" aptly describes the tendency to form these in-groups, which later mature into broader friendship patterns.",
+                "runtime": 7.99,
+                "correct": true
+            },
+            {
+                "question_number": 42,
+                "expected": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "model_response": "requires, debunked, predate that event  \nExplanation: The myth \"requires\" the assumption that pasta was unknown in Italy before Marco Polo's return, so \"requires\" fits Blank (i). The myth can be \"debunked\" by evidence contradicting it, making \"debunked\" the best choice for Blank (ii). Finally, Italian references to pasta that \"predate that event\" (Marco Polo's return) provide the necessary evidence, so \"predate that event\" is the correct choice for Blank (iii).",
+                "runtime": 2.46,
+                "correct": true
+            },
+            {
+                "question_number": 43,
+                "expected": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "model_response": "malady, healthful, funds  \nExplanation: The first blank requires a word that refers to a type of ailment or illness, as the therapies are for conditions ranging from broken bones to liver complaints. \"Malady\" fits this context. The second blank needs a word that reflects the positive view of the treatments by the German medical system, making \"healthful\" the best choice. For the third blank, the German medical system supports some of these treatments, so \"funds\" is the correct answer.",
+                "runtime": 42.99,
+                "correct": true
+            },
+            {
+                "question_number": 44,
+                "expected": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "model_response": "well-worked, find, new\n\nExplanation: The first blank refers to the ground Thaler is examining, and \"well-worked\" fits best because it implies that the area is already well-researched. The second blank requires a verb that suggests readers familiar with the field will not be surprised by Thaler's work, so \"find\" is the correct option. The third blank describes the novelty of Thaler's study, and \"new\" is the most fitting word, suggesting that there is nothing groundbreaking in Thaler's work.",
+                "runtime": 28.24,
+                "correct": true
+            },
+            {
+                "question_number": 45,
+                "expected": [
+                    "compunction about",
+                    "sociability",
+                    "cooperate"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "consensus regarding",
+                    "sociability",
+                    "cooperate"
+                ],
+                "model_response": "consensus regarding, sociability, cooperate  \nExplanation: The phrase \"biologists have little _____ drawing the link\" suggests a lack of disagreement or doubt, so \"consensus regarding\" is the best fit. \"Sociability\" fits because it refers to the human tendency to form groups and cooperate, which is linked to success. \"Cooperate\" is the correct verb in this context, referring to the ability to work together for the greater good.",
+                "runtime": 4.92,
+                "correct": false
+            },
+            {
+                "question_number": 46,
+                "expected": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "model_response": "even more troubling, vanished, rapid  \nExplanation: The text suggests that the ethical implications of neuroscience may be more concerning than those of genetics, making \"even more troubling\" the best fit for Blank (i). For Blank (ii), the sentence implies that ethical and practical constraints on genetic experimentation might disappear, so \"vanished\" is appropriate. Finally, for Blank (iii), altering brain functioning is described as producing immediate effects, making \"rapid\" the correct choice.",
+                "runtime": 4.96,
+                "correct": true
+            },
+            {
+                "question_number": 47,
+                "expected": [
+                    "unclear",
+                    "has little effect on",
+                    "enhance"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "unclear",
+                    "tends to accentuate",
+                    "enhance"
+                ],
+                "model_response": "unclear, tends to accentuate, enhance\n\nExplanation: \n- Blank (i) \"unclear\" fits best because the sentence suggests that the effects of laughter on humor perception are not fully understood or determined.\n- Blank (ii) \"tends to accentuate\" is the correct choice as it conveys that laughter generally enhances or highlights the humor in the program.\n- Blank (iii) \"enhance\" is appropriate since the context implies that laughter at specific points can improve or intensify the humor and comic appeal of the program.",
+                "runtime": 7.52,
+                "correct": false
+            },
+            {
+                "question_number": 48,
+                "expected": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "model_response": "adapted to, in the water, clumsy for\n\nExplanation: The first blank refers to the land animal being suited for a new environment, so \"adapted to\" is correct. The second blank is about the animal's probable behavior, and \"in the water\" makes the most sense given the context of whale ancestors. The third blank is describing the animal's movement, and \"clumsy for\" fits the idea that its flipper-like feet weren't ideal for walking.",
+                "runtime": 48.62,
+                "correct": true
+            },
+            {
+                "question_number": 49,
+                "expected": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "model_response": "misconstrued, acquiescence, detestation\n\nExplanation: In this context, \"misconstrued\" fits as it suggests that others misunderstood Clark's behavior, thinking he was obsequious when, in fact, his behavior was misunderstood. The second blank requires a word that contrasts with \"obsequiousness,\" and \"acquiescence\" fits, meaning passive agreement or submission. The third blank calls for a word that reflects an opposite feeling to \"veneration\" (respect), and \"detestation\" (strong dislike or hatred) fits here, given Clark’s subtle resistance to authority.",
+                "runtime": 26.42,
+                "correct": true
+            },
+            {
+                "question_number": 50,
+                "expected": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "model_response": "caused, feedback between, self-perpetuating  \nExplanation:  \n- In Blank(i), \"caused\" is the correct choice because the sentence suggests a causal relationship between mountain building and global cooling.  \n- In Blank(ii), \"feedback between\" is the best option because the theory explains how mountain building and climate interact in a reinforcing manner.  \n- In Blank(iii), \"self-perpetuating\" fits best since mountain glaciers are described as increasing surface reflectivity, leading to a continuous cycle of cooling and ice formation.",
+                "runtime": 4.69,
+                "correct": true
+            }
+        ]
+    },
+    "five-shot": {
+        "accuracy": 0.84,
+        "correct_count": 42,
+        "total_questions_processed": 50,
+        "details": [
+            {
+                "question_number": 1,
+                "expected": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "model_response": "origin, produce, eaten",
+                "runtime": 2.83,
+                "correct": true
+            },
+            {
+                "question_number": 2,
+                "expected": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "model_response": "competitive, wide-ranging, comprehensive",
+                "runtime": 1.48,
+                "correct": true
+            },
+            {
+                "question_number": 3,
+                "expected": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "model_response": "rich, problem, augmented",
+                "runtime": 5.17,
+                "correct": true
+            },
+            {
+                "question_number": 4,
+                "expected": [
+                    "an honorific",
+                    "established",
+                    "disputed"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "an honorific",
+                    "established",
+                    "disputed"
+                ],
+                "model_response": "an honorific, established, disputed",
+                "runtime": 2.22,
+                "correct": true
+            },
+            {
+                "question_number": 5,
+                "expected": [
+                    "slowdown",
+                    "gloomy",
+                    "temporary"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "slowdown",
+                    "gloomy",
+                    "temporary"
+                ],
+                "model_response": "slowdown, gloomy, temporary",
+                "runtime": 3.1,
+                "correct": true
+            },
+            {
+                "question_number": 6,
+                "expected": [
+                    "censure",
+                    "demanding",
+                    "sifted from"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "censure",
+                    "demanding",
+                    "sifted from"
+                ],
+                "model_response": "censure, demanding, sifted from",
+                "runtime": 5.99,
+                "correct": true
+            },
+            {
+                "question_number": 7,
+                "expected": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "model_response": "comprehend, allure, valid",
+                "runtime": 54.72,
+                "correct": true
+            },
+            {
+                "question_number": 8,
+                "expected": [
+                    "empowering",
+                    "surrendering to",
+                    "glean precisely what you want from it"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "empowering",
+                    "surrendering to",
+                    "glean precisely"
+                ],
+                "model_response": "empowering, surrendering to, glean precisely what you want from it",
+                "runtime": 2.92,
+                "correct": false
+            },
+            {
+                "question_number": 9,
+                "expected": [
+                    "now common",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "vulnerable",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "model_response": "vulnerable, obligatory, jettisoned",
+                "runtime": 42.62,
+                "correct": false
+            },
+            {
+                "question_number": 10,
+                "expected": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "model_response": "unavoidable, shy away, emerges victorious",
+                "runtime": 42.62,
+                "correct": true
+            },
+            {
+                "question_number": 11,
+                "expected": [
+                    "expensive",
+                    "useless",
+                    "serve no practical purpose"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "expensive",
+                    "useless",
+                    "serve no practical purpose"
+                ],
+                "model_response": "expensive, useless, serve no practical purpose",
+                "runtime": 5.33,
+                "correct": true
+            },
+            {
+                "question_number": 12,
+                "expected": [
+                    "profitable",
+                    "were suitable only for certain locations",
+                    "return on"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "profitable",
+                    "were",
+                    "suitable"
+                ],
+                "model_response": "profitable, were suitable only for certain locations, return on",
+                "runtime": 6.71,
+                "correct": false
+            },
+            {
+                "question_number": 13,
+                "expected": [
+                    "egalitarian",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "egalitarian",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "model_response": "egalitarian, aristocratic, atrophied into insignificance",
+                "runtime": 3.55,
+                "correct": true
+            },
+            {
+                "question_number": 14,
+                "expected": [
+                    "questionable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "reasonable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "model_response": "reasonable, inherently implausible about, conjecture",
+                "runtime": 2.0,
+                "correct": false
+            },
+            {
+                "question_number": 15,
+                "expected": [
+                    "astonished",
+                    "Buoyed",
+                    "alacrity"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "astonished",
+                    "buoyed",
+                    "alacrity"
+                ],
+                "model_response": "astonished, Buoyed, alacrity",
+                "runtime": 5.88,
+                "correct": true
+            },
+            {
+                "question_number": 16,
+                "expected": [
+                    "stranger in",
+                    "alienation",
+                    "birthplace"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "stranger in",
+                    "alienation",
+                    "birthplace"
+                ],
+                "model_response": "stranger in, alienation, birthplace",
+                "runtime": 22.01,
+                "correct": true
+            },
+            {
+                "question_number": 17,
+                "expected": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "model_response": "is interested in, document, aesthetics",
+                "runtime": 42.63,
+                "correct": true
+            },
+            {
+                "question_number": 18,
+                "expected": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "model_response": "physical activity, detract from, augmented",
+                "runtime": 2.66,
+                "correct": true
+            },
+            {
+                "question_number": 19,
+                "expected": [
+                    "breakdown",
+                    "promote",
+                    "undermining"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "breakdown",
+                    "promote",
+                    "undermining"
+                ],
+                "model_response": "breakdown, promote, undermining",
+                "runtime": 6.43,
+                "correct": true
+            },
+            {
+                "question_number": 20,
+                "expected": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "model_response": "make public, maladies, plague",
+                "runtime": 2.76,
+                "correct": true
+            },
+            {
+                "question_number": 21,
+                "expected": [
+                    "ambivalent about",
+                    "excited by",
+                    "At the same time"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "ambivalent about",
+                    "excited by",
+                    "at the same time"
+                ],
+                "model_response": "ambivalent about, excited by, At the same time",
+                "runtime": 3.59,
+                "correct": true
+            },
+            {
+                "question_number": 22,
+                "expected": [
+                    "less one-sided",
+                    "disputable",
+                    "credibility"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "less one-sided",
+                    "disputable",
+                    "credibility"
+                ],
+                "model_response": "less one-sided, disputable, credibility",
+                "runtime": 5.33,
+                "correct": true
+            },
+            {
+                "question_number": 23,
+                "expected": [
+                    "originality",
+                    "conformity",
+                    "incremental"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "originality",
+                    "conformity",
+                    "incremental"
+                ],
+                "model_response": "originality, conformity, incremental",
+                "runtime": 11.7,
+                "correct": true
+            },
+            {
+                "question_number": 24,
+                "expected": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "model_response": "altruistic, illusory, contradicts",
+                "runtime": 20.5,
+                "correct": true
+            },
+            {
+                "question_number": 25,
+                "expected": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "model_response": "implemented, can grow unchecked, doomed",
+                "runtime": 39.96,
+                "correct": true
+            },
+            {
+                "question_number": 26,
+                "expected": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "model_response": "rationale for, mentioned, energizes",
+                "runtime": 6.28,
+                "correct": true
+            },
+            {
+                "question_number": 27,
+                "expected": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "model_response": "restrain, incursions of, corrupt",
+                "runtime": 43.73,
+                "correct": true
+            },
+            {
+                "question_number": 28,
+                "expected": [
+                    "surfeit",
+                    "virtue",
+                    "forgo"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "surfeit",
+                    "virtue",
+                    "forgo"
+                ],
+                "model_response": "surfeit, virtue, forgo",
+                "runtime": 1.55,
+                "correct": true
+            },
+            {
+                "question_number": 29,
+                "expected": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "model_response": "unconnected, superficial, isolationism",
+                "runtime": 3.38,
+                "correct": true
+            },
+            {
+                "question_number": 30,
+                "expected": [
+                    "inert",
+                    "wonderfully enriched",
+                    "circumvent"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "inert",
+                    "inevitably circumscribed",
+                    "circumvent"
+                ],
+                "model_response": "inert, inevitably circumscribed, circumvent",
+                "runtime": 4.94,
+                "correct": false
+            },
+            {
+                "question_number": 31,
+                "expected": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "model_response": "master, deliberation, given import",
+                "runtime": 43.07,
+                "correct": true
+            },
+            {
+                "question_number": 32,
+                "expected": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "model_response": "made demands on, alien to, misunderstood",
+                "runtime": 5.79,
+                "correct": true
+            },
+            {
+                "question_number": 33,
+                "expected": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "model_response": "lucrative, authoritative, a staleness",
+                "runtime": 45.45,
+                "correct": true
+            },
+            {
+                "question_number": 34,
+                "expected": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "model_response": "operate outside of, active, report",
+                "runtime": 43.91,
+                "correct": true
+            },
+            {
+                "question_number": 35,
+                "expected": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "model_response": "marketable artifacts, a commercial, consumption",
+                "runtime": 40.8,
+                "correct": true
+            },
+            {
+                "question_number": 36,
+                "expected": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "model_response": "languishing, extend, manages to thrive",
+                "runtime": 4.6,
+                "correct": true
+            },
+            {
+                "question_number": 37,
+                "expected": [
+                    "collaborative",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "sophisticated",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "model_response": "sophisticated, contributions, remain overlooked",
+                "runtime": 2.15,
+                "correct": false
+            },
+            {
+                "question_number": 38,
+                "expected": [
+                    "an acquired",
+                    "advanced",
+                    "demands"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "an acquired",
+                    "practical",
+                    "demands"
+                ],
+                "model_response": "an acquired, practical, demands",
+                "runtime": 40.73,
+                "correct": false
+            },
+            {
+                "question_number": 39,
+                "expected": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "model_response": "celebrate, incommensurate with, stratification",
+                "runtime": 7.05,
+                "correct": true
+            },
+            {
+                "question_number": 40,
+                "expected": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "model_response": "access to, spontaneously emerge, construct",
+                "runtime": 1.33,
+                "correct": true
+            },
+            {
+                "question_number": 41,
+                "expected": [
+                    "peer",
+                    "cliquish social behavior",
+                    "clustering"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "peer",
+                    "cliquish social behavior",
+                    "clustering"
+                ],
+                "model_response": "peer, cliquish social behavior, clustering",
+                "runtime": 6.1,
+                "correct": true
+            },
+            {
+                "question_number": 42,
+                "expected": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "model_response": "requires, debunked, predate that event",
+                "runtime": 42.11,
+                "correct": true
+            },
+            {
+                "question_number": 43,
+                "expected": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "model_response": "malady, healthful, funds",
+                "runtime": 4.24,
+                "correct": true
+            },
+            {
+                "question_number": 44,
+                "expected": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "model_response": "well-worked, find, new",
+                "runtime": 1.81,
+                "correct": true
+            },
+            {
+                "question_number": 45,
+                "expected": [
+                    "compunction about",
+                    "sociability",
+                    "cooperate"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "compunction about",
+                    "sociability",
+                    "cooperate"
+                ],
+                "model_response": "compunction about, sociability, cooperate",
+                "runtime": 6.05,
+                "correct": true
+            },
+            {
+                "question_number": 46,
+                "expected": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "model_response": "even more troubling, vanished, rapid",
+                "runtime": 40.47,
+                "correct": true
+            },
+            {
+                "question_number": 47,
+                "expected": [
+                    "unclear",
+                    "has little effect on",
+                    "enhance"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "measurable",
+                    "tends to accentuate",
+                    "enhance"
+                ],
+                "model_response": "measurable, tends to accentuate, enhance",
+                "runtime": 42.99,
+                "correct": false
+            },
+            {
+                "question_number": 48,
+                "expected": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "model_response": "adapted to, in the water, clumsy for",
+                "runtime": 40.21,
+                "correct": true
+            },
+            {
+                "question_number": 49,
+                "expected": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "model_response": "misconstrued, acquiescence, detestation",
+                "runtime": 43.1,
+                "correct": true
+            },
+            {
+                "question_number": 50,
+                "expected": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "model_response": "caused, feedback between, self-perpetuating",
+                "runtime": 5.75,
+                "correct": true
+            }
+        ]
+    },
+    "chain-of-thought": {
+        "accuracy": 0.44,
+        "correct_count": 22,
+        "total_questions_processed": 50,
+        "details": [
+            {
+                "question_number": 1,
+                "expected": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "origin",
+                    "produce",
+                    "eaten"
+                ],
+                "model_response": "origin, produce, eaten\n\nExplanation:  \n1. In the first blank, \"origin\" fits best because the passage discusses the mystery of where the toxins come from, which is described as an enigma. \"Origin\" refers to the source, which is the central idea.  \n2. In the second blank, \"produce\" makes the most sense because the passage suggests that the frog does not create the toxins itself, and \"produce\" indicates the act of creating or generating something.  \n3. For the third blank, \"eaten\" fits best because the passage suggests that the beetles are the source of the toxins, implying that the frogs acquire the toxins by consuming the beetles. \"Eaten\" logically explains how the frogs obtain the toxins.",
+                "runtime": 7.26,
+                "correct": true
+            },
+            {
+                "question_number": 2,
+                "expected": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "competitive",
+                    "wide-ranging",
+                    "comprehensive"
+                ],
+                "model_response": "competitive, wide-ranging, comprehensive\n\nExplanation: \n- In the first blank, \"competitive\" fits because the passage mentions that auctions are becoming more frequent or intense as photographic prints gain popularity, which implies an increase in competition among collectors.\n- In the second blank, \"wide-ranging\" works because it suggests that collectors’ interests are broadening, expanding beyond specific types of photography, aligning with the passage’s mention of collectors' evolving tastes.\n- For the third blank, \"comprehensive\" fits best, as the passage implies that collectors are now interested in having diverse, well-rounded collections, rather than focusing on one specific era or style.",
+                "runtime": 3.34,
+                "correct": true
+            },
+            {
+                "question_number": 3,
+                "expected": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "rich",
+                    "problem",
+                    "augmented"
+                ],
+                "model_response": "rich, problem, augmented\n\nExplanation: \n1. **Blank (i)**: The phrase \"difficult for researchers to tease apart the meanings\" implies that the repertoire is complex and varied. The word \"rich\" fits this context, as it suggests a variety or abundance of signals.\n2. **Blank (ii)**: The passage discusses the difficulty in interpreting the signals, which indicates a challenge. \"Problem\" is the best word, as it aligns with the idea of difficulty or obstacle.\n3. **Blank (iii)**: The phrase \"shift in meaning\" and the overall difficulty in interpretation suggest that this situation is made worse or more complicated. \"Augmented\" means \"increased or made worse,\" which fits the context of making the problem more difficult.",
+                "runtime": 8.75,
+                "correct": true
+            },
+            {
+                "question_number": 4,
+                "expected": [
+                    "an honorific",
+                    "established",
+                    "disputed"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "honorific",
+                    "established",
+                    "disputed"
+                ],
+                "model_response": "honorific, established, disputed\n\nExplanation: The passage talks about the success of the natural sciences and how the term \"scientific\" is often used. The first blank should describe how the word “scientific” is used positively or with respect, hence “honorific” fits. The second blank requires a word that implies that the reliability of the subject is strengthened or confirmed, making “established” the correct choice. The third blank requires a word that indicates the results of scientific methods are not open to reasonable questioning, so “disputed” fits logically.",
+                "runtime": 46.42,
+                "correct": false
+            },
+            {
+                "question_number": 5,
+                "expected": [
+                    "slowdown",
+                    "gloomy",
+                    "temporary"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "slowdown",
+                    "gloomy",
+                    "temporary"
+                ],
+                "model_response": "slowdown, gloomy, temporary  \nExplanation: The passage discusses a decrease in atmospheric methane growth and its implications. For Blank (i), \"slowdown\" fits because it aligns with the idea of a reduction in growth. For Blank (ii), \"gloomy\" fits because the scenarios for global warming were overly pessimistic. For Blank (iii), \"temporary\" fits because the declines in emissions were not permanent, as suggested by the premature celebration.",
+                "runtime": 43.77,
+                "correct": true
+            },
+            {
+                "question_number": 6,
+                "expected": [
+                    "censure",
+                    "demanding",
+                    "sifted from"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 40.77,
+                "correct": false
+            },
+            {
+                "question_number": 7,
+                "expected": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "comprehend",
+                    "allure",
+                    "valid"
+                ],
+                "model_response": "comprehend, allure, valid  \nExplanation: The passage contrasts unambiguous texts, which are easy to understand, with ambiguous texts, which are appealing due to their multiple interpretations. For Blank (i), \"comprehend\" fits logically as unambiguous texts allow readers to understand them quickly. For Blank (ii), \"allure\" captures the attractive quality of ambiguous texts. For Blank (iii), \"valid\" aligns with the idea that multiple interpretations can be equally acceptable or legitimate.",
+                "runtime": 45.1,
+                "correct": true
+            },
+            {
+                "question_number": 8,
+                "expected": [
+                    "empowering",
+                    "surrendering to",
+                    "glean precisely what you want from it"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.12,
+                "correct": false
+            },
+            {
+                "question_number": 9,
+                "expected": [
+                    "now common",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "now common",
+                    "obligatory",
+                    "jettisoned"
+                ],
+                "model_response": "now common, obligatory, jettisoned  \nExplanation: The passage discusses the increasing threats to biodiversity due to human activity and climate change. For Blank (i), \"now common\" fits because even species that are currently abundant may become endangered. For Blank (ii), \"obligatory\" fits as the passage emphasizes the necessity of conservation management. For Blank (iii), \"jettisoned\" fits because the responsibilities of managing nature cannot be discarded or abandoned.",
+                "runtime": 8.57,
+                "correct": true
+            },
+            {
+                "question_number": 10,
+                "expected": [
+                    "unavoidable",
+                    "shy away",
+                    "emerges victorious"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.87,
+                "correct": false
+            },
+            {
+                "question_number": 11,
+                "expected": [
+                    "expensive",
+                    "useless",
+                    "serve no practical purpose"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "expensive",
+                    "useless",
+                    "serve no practical purpose"
+                ],
+                "model_response": "expensive, useless, serve no practical purpose  \nExplanation: The passage discusses jewelry-grade diamonds and suggests they are purchased either due to extreme wealth or the desire to appear wealthy. For Blank (i), \"expensive\" fits because the argument hinges on the high cost of diamonds. For Blank (ii), \"useless\" aligns with the idea that diamonds lack practical utility, supporting the argument about wealth or appearances. For Blank (iii), \"serve no practical purpose\" logically completes the sentence, emphasizing the lack of functional value in such purchases.",
+                "runtime": 4.71,
+                "correct": true
+            },
+            {
+                "question_number": 12,
+                "expected": [
+                    "profitable",
+                    "were suitable only for certain locations",
+                    "return on"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 2.29,
+                "correct": false
+            },
+            {
+                "question_number": 13,
+                "expected": [
+                    "egalitarian",
+                    "aristocratic",
+                    "atrophied into insignificance"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 3.53,
+                "correct": false
+            },
+            {
+                "question_number": 14,
+                "expected": [
+                    "questionable",
+                    "inherently implausible about",
+                    "conjecture"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 40.27,
+                "correct": false
+            },
+            {
+                "question_number": 15,
+                "expected": [
+                    "astonished",
+                    "Buoyed",
+                    "alacrity"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "astonished",
+                    "buoyed",
+                    "alacrity"
+                ],
+                "model_response": "astonished, Buoyed, alacrity  \nExplanation: The passage describes the enthusiastic and speedy participation of volunteers in Galaxy Zoo, which surprised and motivated the organizers. For Blank (i), \"astonished\" fits as the volunteers exceeded expectations. For Blank (ii), \"Buoyed\" fits because the organizers were uplifted and inspired by the volunteers' efforts. For Blank (iii), \"alacrity\" fits as it conveys the volunteers' eagerness and promptness in their work.",
+                "runtime": 3.97,
+                "correct": true
+            },
+            {
+                "question_number": 16,
+                "expected": [
+                    "stranger in",
+                    "alienation",
+                    "birthplace"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "stranger in",
+                    "alienation",
+                    "birthplace"
+                ],
+                "model_response": "stranger in, alienation, birthplace  \nExplanation: The passage discusses Hamilton being labeled a foreigner due to his birthplace and his eventual belief that he was a \"stranger in\" the United States. His \"alienation\" arose from his confrontation with American democracy, not his \"birthplace.\" This fits the logical flow and meaning of the text.",
+                "runtime": 4.78,
+                "correct": true
+            },
+            {
+                "question_number": 17,
+                "expected": [
+                    "is interested in",
+                    "document",
+                    "aesthetics"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 1.61,
+                "correct": false
+            },
+            {
+                "question_number": 18,
+                "expected": [
+                    "physical activity",
+                    "detract from",
+                    "augmented"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 1.24,
+                "correct": false
+            },
+            {
+                "question_number": 19,
+                "expected": [
+                    "breakdown",
+                    "promote",
+                    "undermining"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 2.81,
+                "correct": false
+            },
+            {
+                "question_number": 20,
+                "expected": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "make public",
+                    "maladies",
+                    "plague"
+                ],
+                "model_response": "make public, maladies, plague  \nExplanation: The Agriculture Department is likely to \"make public\" its dietary guidelines, which fits the context of introducing a challenge. The second blank refers to a list of health issues, so \"maladies\" is appropriate as it refers to diseases. The third blank needs a verb that indicates these issues affect the developed world, and \"plague\" fits well as it means to trouble or afflict persistently.",
+                "runtime": 43.32,
+                "correct": true
+            },
+            {
+                "question_number": 21,
+                "expected": [
+                    "ambivalent about",
+                    "excited by",
+                    "At the same time"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.79,
+                "correct": false
+            },
+            {
+                "question_number": 22,
+                "expected": [
+                    "less one-sided",
+                    "disputable",
+                    "credibility"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 39.79,
+                "correct": false
+            },
+            {
+                "question_number": 23,
+                "expected": [
+                    "originality",
+                    "conformity",
+                    "incremental"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 21.48,
+                "correct": false
+            },
+            {
+                "question_number": 24,
+                "expected": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "altruistic",
+                    "illusory",
+                    "contradicts"
+                ],
+                "model_response": "altruistic, illusory, contradicts  \nExplanation: The passage discusses the idea that some people are more selfless (altruistic) than others, and it challenges the claim that such differences are not real (illusory). The final blank indicates that this claim goes against (contradicts) our observations and moral practices.",
+                "runtime": 2.14,
+                "correct": true
+            },
+            {
+                "question_number": 25,
+                "expected": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "implemented",
+                    "can grow unchecked",
+                    "doomed"
+                ],
+                "model_response": "implemented, can grow unchecked, doomed  \nExplanation: The passage discusses China's population growth and its impact on large carnivores. For Blank (i), \"implemented\" fits because policies aimed at limiting population growth are being put into action. For Blank (ii), despite these policies, human populations in certain areas \"can grow unchecked\" due to the country's vast size and isolation of regions. For Blank (iii), the human pressure has negatively impacted the South China tiger, so \"doomed\" is the appropriate choice.",
+                "runtime": 6.48,
+                "correct": true
+            },
+            {
+                "question_number": 26,
+                "expected": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "rationale for",
+                    "mentioned",
+                    "energizes"
+                ],
+                "model_response": "rationale for, mentioned, energizes  \nExplanation: The passage discusses the justification for spending public money on scientific projects. For Blank (i), \"rationale for\" fits because it refers to the reasoning behind such spending. For Blank (ii), \"mentioned\" fits because the passage states that the idea of science promoting democracy is \"hardly ever\" brought up. For Blank (iii), \"energizes\" fits because scientific literacy is described as something that supports and strengthens democracy.",
+                "runtime": 6.25,
+                "correct": true
+            },
+            {
+                "question_number": 27,
+                "expected": [
+                    "restrain",
+                    "incursions of",
+                    "corrupt"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.92,
+                "correct": false
+            },
+            {
+                "question_number": 28,
+                "expected": [
+                    "surfeit",
+                    "virtue",
+                    "forgo"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "surfeit",
+                    "virtue",
+                    "forgo"
+                ],
+                "model_response": "surfeit, virtue, forgo  \nExplanation: The passage discusses how an excess of choices can be overwhelming (\"paralyzing\"), making \"surfeit\" (an overabundance) the best fit for Blank (i). It then suggests that limited flexibility might actually be beneficial, making \"virtue\" the logical choice for Blank (ii). Finally, people are described as willingly giving up certain advantages for peace of mind, making \"forgo\" the appropriate choice for Blank (iii).",
+                "runtime": 43.15,
+                "correct": true
+            },
+            {
+                "question_number": 29,
+                "expected": [
+                    "unconnected",
+                    "superficial",
+                    "isolationism"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 3.64,
+                "correct": false
+            },
+            {
+                "question_number": 30,
+                "expected": [
+                    "inert",
+                    "wonderfully enriched",
+                    "circumvent"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "inert",
+                    "wonderfully enriched",
+                    "circumvent"
+                ],
+                "model_response": "inert, wonderfully enriched, circumvent  \nExplanation: The passage criticizes the use of photography as a shortcut in drawing, leading to art that feels \"static and lifeless.\" For Blank (i), \"inert\" fits because it aligns with \"static and lifeless.\" For Blank (ii), \"wonderfully enriched\" fits because the passage acknowledges photography's positive impact on modern arts before critiquing its misuse. For Blank (iii), \"circumvent\" fits because it means to bypass or avoid, which aligns with the idea of avoiding the difficulties of achieving correct proportion.",
+                "runtime": 2.61,
+                "correct": true
+            },
+            {
+                "question_number": 31,
+                "expected": [
+                    "master",
+                    "deliberation",
+                    "given import"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.88,
+                "correct": false
+            },
+            {
+                "question_number": 32,
+                "expected": [
+                    "made demands on",
+                    "alien to",
+                    "misunderstood"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.93,
+                "correct": false
+            },
+            {
+                "question_number": 33,
+                "expected": [
+                    "lucrative",
+                    "authoritative",
+                    "a staleness"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.08,
+                "correct": false
+            },
+            {
+                "question_number": 34,
+                "expected": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "operate outside of",
+                    "active",
+                    "report"
+                ],
+                "model_response": "operate outside of, active, report  \nExplanation: The passage discusses how cultures influence individuals in ways that are not consciously controlled or recognized. For Blank (i), \"operate outside of\" fits because it aligns with the idea of unconscious influence. For Blank (ii), \"active\" fits because the processes do not require deliberate or active participation. For Blank (iii), \"report\" fits because individuals may not be able to articulate or recognize these subtle cultural influences.",
+                "runtime": 4.04,
+                "correct": true
+            },
+            {
+                "question_number": 35,
+                "expected": [
+                    "marketable artifacts",
+                    "a commercial",
+                    "consumption"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 41.58,
+                "correct": false
+            },
+            {
+                "question_number": 36,
+                "expected": [
+                    "languishing",
+                    "extend",
+                    "manages to thrive"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.08,
+                "correct": false
+            },
+            {
+                "question_number": 37,
+                "expected": [
+                    "collaborative",
+                    "contributions",
+                    "remain overlooked"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 42.78,
+                "correct": false
+            },
+            {
+                "question_number": 38,
+                "expected": [
+                    "an acquired",
+                    "advanced",
+                    "demands"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "an acquired",
+                    "advanced",
+                    "demands"
+                ],
+                "model_response": "an acquired, advanced, demands  \nExplanation: The passage discusses how lying requires complex cognitive and social skills, implying that truthfulness is not innate but learned (\"an acquired\" virtue). Lying is described as requiring advanced intellectual abilities, making \"advanced\" the best fit. Finally, lying \"demands\" cognitive development and social skills, as it involves creating and presenting an alternate reality convincingly.",
+                "runtime": 3.53,
+                "correct": true
+            },
+            {
+                "question_number": 39,
+                "expected": [
+                    "celebrate",
+                    "incommensurate with",
+                    "stratification"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 1.78,
+                "correct": false
+            },
+            {
+                "question_number": 40,
+                "expected": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "access to",
+                    "spontaneously emerge",
+                    "construct"
+                ],
+                "model_response": "access to, spontaneously emerge, construct  \nExplanation: The passage discusses how pulp and paper firms had significant resources (\"superior financial and organizational resources\"), so \"access to\" fits for Blank (i). The firms could not assume markets would naturally form, so \"spontaneously emerge\" fits for Blank (ii). Finally, the firms had to actively create markets, making \"construct\" the best choice for Blank (iii).",
+                "runtime": 41.26,
+                "correct": true
+            },
+            {
+                "question_number": 41,
+                "expected": [
+                    "peer",
+                    "cliquish social behavior",
+                    "clustering"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "peer",
+                    "cliquish social behavior",
+                    "clustering"
+                ],
+                "model_response": "peer, cliquish social behavior, clustering  \nExplanation: The passage discusses adolescence and the development of self-identity through social interactions. For Blank (i), \"peer\" fits best because it refers to interactions with people of the same age group, which is crucial during adolescence. For Blank (ii), \"cliquish social behavior\" aligns with the idea of adolescents forming tight-knit groups to define their identity. For Blank (iii), \"clustering\" fits as it describes the grouping behavior that evolves into mature friendships over time.",
+                "runtime": 43.6,
+                "correct": true
+            },
+            {
+                "question_number": 42,
+                "expected": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "requires",
+                    "debunked",
+                    "predate that event"
+                ],
+                "model_response": "requires, debunked, predate that event  \nExplanation: The passage discusses a myth about Marco Polo introducing pasta to Italy. For Blank (i), \"requires\" fits because the myth necessitates the idea that pasta was unknown in Italy before 1295. For Blank (ii), \"debunked\" fits because the myth can be disproven by evidence. For Blank (iii), \"predate that event\" fits because Italian references to pasta existed before Marco Polo's return.",
+                "runtime": 5.1,
+                "correct": true
+            },
+            {
+                "question_number": 43,
+                "expected": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "malady",
+                    "healthful",
+                    "funds"
+                ],
+                "model_response": "malady, healthful, funds  \nExplanation: The passage discusses therapies provided on the German island of Sylt for various health issues. For Blank (i), \"malady\" fits as it means an illness or ailment, aligning with the context of treatments for health problems. For Blank (ii), \"healthful\" is appropriate because the therapies are described as beneficial and approved by the German medical system. For Blank (iii), \"funds\" is the logical choice since the medical system supports these treatments financially, leading to their widespread use.",
+                "runtime": 46.38,
+                "correct": true
+            },
+            {
+                "question_number": 44,
+                "expected": [
+                    "well-worked",
+                    "find",
+                    "new"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 4.45,
+                "correct": false
+            },
+            {
+                "question_number": 45,
+                "expected": [
+                    "compunction about",
+                    "sociability",
+                    "cooperate"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.08,
+                "correct": false
+            },
+            {
+                "question_number": 46,
+                "expected": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "even more troubling",
+                    "vanished",
+                    "rapid"
+                ],
+                "model_response": "even more troubling, vanished, rapid  \nExplanation: The passage discusses the ethical implications of neuroscience compared to genetics, emphasizing that neuroscience's effects are more predictable and immediate. For Blank (i), \"even more troubling\" fits because it aligns with the ethical concerns raised. For Blank (ii), \"vanished\" makes sense because the constraints on genetic experimentation are hypothetically removed. For Blank (iii), \"rapid\" aligns with the contrast between the immediate effects of brain manipulation and the delayed outcomes of genetic experiments.",
+                "runtime": 44.23,
+                "correct": true
+            },
+            {
+                "question_number": 47,
+                "expected": [
+                    "unclear",
+                    "has little effect on",
+                    "enhance"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.08,
+                "correct": false
+            },
+            {
+                "question_number": 48,
+                "expected": [
+                    "adapted to",
+                    "in the water",
+                    "clumsy for"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 21.66,
+                "correct": false
+            },
+            {
+                "question_number": 49,
+                "expected": [
+                    "misconstrued",
+                    "acquiescence",
+                    "detestation"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.07,
+                "correct": false
+            },
+            {
+                "question_number": 50,
+                "expected": [
+                    "caused",
+                    "feedback between",
+                    "self-perpetuating"
+                ],
+                "models_tried": [
+                    "gpt-4"
+                ],
+                "model_used": "gpt-4",
+                "model_answer": [
+                    "https",
+                    "aichatos",
+                    "xyz"
+                ],
+                "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+                "runtime": 0.09,
+                "correct": false
+            }
+        ]
+    }
+}

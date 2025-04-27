@@ -1,0 +1,267 @@
+{
+  "timestamp": "20250422_143030",
+  "models_tested": [
+    "gpt-4"
+  ],
+  "strategies_tested": [
+    "zero-shot",
+    "five-shot",
+    "chain-of-thought"
+  ],
+  "skill_types": [
+    "Cross-Text Connections",
+    "Text Structure and Purpose",
+    "Words in Context"
+  ],
+  "questions_per_type": 20,
+  "model_summaries": {
+    "gpt-4": {
+      "zero-shot": {
+        "overall": {
+          "accuracy": 0.7090909090909091,
+          "correct": 39,
+          "total": 55
+        },
+        "by_skill": {
+          "Cross-Text Connections": {
+            "accuracy": 0.55,
+            "correct": 11,
+            "total": 20,
+            "by_difficulty": {
+              "Medium": {
+                "total": 5,
+                "correct": 2,
+                "accuracy": 0.4
+              },
+              "Easy": {
+                "total": 6,
+                "correct": 4,
+                "accuracy": 0.6666666666666666
+              },
+              "Hard": {
+                "total": 9,
+                "correct": 5,
+                "accuracy": 0.5555555555555556
+              }
+            }
+          },
+          "Text Structure and Purpose": {
+            "accuracy": 0.5625,
+            "correct": 9,
+            "total": 16,
+            "by_difficulty": {
+              "Medium": {
+                "total": 5,
+                "correct": 2,
+                "accuracy": 0.4
+              },
+              "Hard": {
+                "total": 4,
+                "correct": 3,
+                "accuracy": 0.75
+              },
+              "Easy": {
+                "total": 7,
+                "correct": 4,
+                "accuracy": 0.5714285714285714
+              }
+            }
+          },
+          "Words in Context": {
+            "accuracy": 1.0,
+            "correct": 19,
+            "total": 19,
+            "by_difficulty": {
+              "Medium": {
+                "total": 19,
+                "correct": 19,
+                "accuracy": 1.0
+              }
+            }
+          }
+        },
+        "by_difficulty": {
+          "Medium": {
+            "accuracy": 0.7931034482758621,
+            "correct": 23,
+            "total": 29
+          },
+          "Easy": {
+            "accuracy": 0.6153846153846154,
+            "correct": 8,
+            "total": 13
+          },
+          "Hard": {
+            "accuracy": 0.6153846153846154,
+            "correct": 8,
+            "total": 13
+          }
+        }
+      },
+      "five-shot": {
+        "overall": {
+          "accuracy": 1.0,
+          "correct": 55,
+          "total": 55
+        },
+        "by_skill": {
+          "Cross-Text Connections": {
+            "accuracy": 1.0,
+            "correct": 20,
+            "total": 20,
+            "by_difficulty": {
+              "Medium": {
+                "total": 5,
+                "correct": 5,
+                "accuracy": 1.0
+              },
+              "Easy": {
+                "total": 6,
+                "correct": 6,
+                "accuracy": 1.0
+              },
+              "Hard": {
+                "total": 9,
+                "correct": 9,
+                "accuracy": 1.0
+              }
+            }
+          },
+          "Text Structure and Purpose": {
+            "accuracy": 1.0,
+            "correct": 16,
+            "total": 16,
+            "by_difficulty": {
+              "Medium": {
+                "total": 5,
+                "correct": 5,
+                "accuracy": 1.0
+              },
+              "Hard": {
+                "total": 4,
+                "correct": 4,
+                "accuracy": 1.0
+              },
+              "Easy": {
+                "total": 7,
+                "correct": 7,
+                "accuracy": 1.0
+              }
+            }
+          },
+          "Words in Context": {
+            "accuracy": 1.0,
+            "correct": 19,
+            "total": 19,
+            "by_difficulty": {
+              "Medium": {
+                "total": 19,
+                "correct": 19,
+                "accuracy": 1.0
+              }
+            }
+          }
+        },
+        "by_difficulty": {
+          "Medium": {
+            "accuracy": 1.0,
+            "correct": 29,
+            "total": 29
+          },
+          "Easy": {
+            "accuracy": 1.0,
+            "correct": 13,
+            "total": 13
+          },
+          "Hard": {
+            "accuracy": 1.0,
+            "correct": 13,
+            "total": 13
+          }
+        }
+      },
+      "chain-of-thought": {
+        "overall": {
+          "accuracy": 0.5818181818181818,
+          "correct": 32,
+          "total": 55
+        },
+        "by_skill": {
+          "Cross-Text Connections": {
+            "accuracy": 0.6,
+            "correct": 12,
+            "total": 20,
+            "by_difficulty": {
+              "Medium": {
+                "total": 5,
+                "correct": 3,
+                "accuracy": 0.6
+              },
+              "Easy": {
+                "total": 6,
+                "correct": 4,
+                "accuracy": 0.6666666666666666
+              },
+              "Hard": {
+                "total": 9,
+                "correct": 5,
+                "accuracy": 0.5555555555555556
+              }
+            }
+          },
+          "Text Structure and Purpose": {
+            "accuracy": 0.5625,
+            "correct": 9,
+            "total": 16,
+            "by_difficulty": {
+              "Medium": {
+                "total": 5,
+                "correct": 2,
+                "accuracy": 0.4
+              },
+              "Hard": {
+                "total": 4,
+                "correct": 3,
+                "accuracy": 0.75
+              },
+              "Easy": {
+                "total": 7,
+                "correct": 4,
+                "accuracy": 0.5714285714285714
+              }
+            }
+          },
+          "Words in Context": {
+            "accuracy": 0.5789473684210527,
+            "correct": 11,
+            "total": 19,
+            "by_difficulty": {
+              "Medium": {
+                "total": 19,
+                "correct": 11,
+                "accuracy": 0.5789473684210527
+              }
+            }
+          }
+        },
+        "by_difficulty": {
+          "Medium": {
+            "accuracy": 0.5517241379310345,
+            "correct": 16,
+            "total": 29
+          },
+          "Easy": {
+            "accuracy": 0.6153846153846154,
+            "correct": 8,
+            "total": 13
+          },
+          "Hard": {
+            "accuracy": 0.6153846153846154,
+            "correct": 8,
+            "total": 13
+          }
+        }
+      }
+    }
+  }
+}

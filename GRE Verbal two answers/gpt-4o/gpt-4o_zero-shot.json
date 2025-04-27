@@ -1,0 +1,947 @@
+{
+    "accuracy": 0.68,
+    "total_questions": 50,
+    "correct_count": 34,
+    "details": [
+        {
+            "question_number": 1,
+            "expected": [
+                "detection",
+                "an unambiguous"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "detection",
+                "anunambiguous"
+            ],
+            "model_explanation": "Explanation: The sentence suggests that the presence of molecular oxygen is relevant, and thus “detection” fits best as it relates directly to identifying molecular oxygen. The second part of the sentence indicates that this detection wouldn’t necessarily guarantee life, which corresponds with “an unambiguous” since it implies there could still be ambiguity regarding its significance.",
+            "model_response": "detection, an unambiguous  \nExplanation: The sentence suggests that the presence of molecular oxygen is relevant, and thus “detection” fits best as it relates directly to identifying molecular oxygen. The second part of the sentence indicates that this detection wouldn’t necessarily guarantee life, which corresponds with “an unambiguous” since it implies there could still be ambiguity regarding its significance.",
+            "runtime": 8.46,
+            "correct": true
+        },
+        {
+            "question_number": 2,
+            "expected": [
+                "sterling reputation of",
+                "exhaustive"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "sterlingreputationof",
+                "exhaustive"
+            ],
+            "model_explanation": "Explanation: The sentence suggests that the committees have a well-established and respected reputation, which makes it difficult to dispute their conclusions without significant evidence. The word \"exhaustive\" complements this by indicating that the investigation was thorough, further supporting the notion that the conclusions are credible.",
+            "model_response": "sterling reputation of, exhaustive  \nExplanation: The sentence suggests that the committees have a well-established and respected reputation, which makes it difficult to dispute their conclusions without significant evidence. The word \"exhaustive\" complements this by indicating that the investigation was thorough, further supporting the notion that the conclusions are credible.",
+            "runtime": 5.74,
+            "correct": true
+        },
+        {
+            "question_number": 3,
+            "expected": [
+                "feeble",
+                "robust"
+            ],
+            "models_tried": [
+                "gpt-4o",
+                "gpt-4",
+                "gpt-3.5-turbo"
+            ],
+            "model_used": "gpt-4o-mini",
+            "model_answer": [],
+            "model_explanation": "",
+            "model_response": "swift, robust  \nExplanation: The sentence describes an economic recovery that was uneven. \"Swift\" in the first blank suggests a rapid recovery in some industrial economies, while \"robust\" in the second blank indicates a strong and healthy recovery in others, creating a contrast in the recovery's pace and strength.",
+            "runtime": 0.0,
+            "correct": false
+        },
+        {
+            "question_number": 4,
+            "expected": [
+                "efficiently",
+                "vacant"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "efficiently",
+                "vacant"
+            ],
+            "model_explanation": "Explanation: The first blank needs a word that compares the energy use of trains to that of automobiles, indicating that trains use energy in a better or more effective manner. \"Efficiently\" fits this context perfectly. The second blank describes railway carriages running without any occupants, so \"vacant\" is the correct choice as it refers to being empty or unoccupied.",
+            "model_response": "efficiently, vacant  \nExplanation: The first blank needs a word that compares the energy use of trains to that of automobiles, indicating that trains use energy in a better or more effective manner. \"Efficiently\" fits this context perfectly. The second blank describes railway carriages running without any occupants, so \"vacant\" is the correct choice as it refers to being empty or unoccupied.",
+            "runtime": 2.45,
+            "correct": true
+        },
+        {
+            "question_number": 5,
+            "expected": [
+                "limitation",
+                "objectivity"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "limitation",
+                "objectivity"
+            ],
+            "model_explanation": "Explanation: The sentence suggests that many books examining the American presidency are flawed due to their ideological bias, implying that they have a limitation. The second part indicates that this particular volume stands out by being objective rather than biased, meaning it maintains a degree of objectivity.",
+            "model_response": "limitation, objectivity  \nExplanation: The sentence suggests that many books examining the American presidency are flawed due to their ideological bias, implying that they have a limitation. The second part indicates that this particular volume stands out by being objective rather than biased, meaning it maintains a degree of objectivity.",
+            "runtime": 6.49,
+            "correct": true
+        },
+        {
+            "question_number": 6,
+            "expected": [
+                "favor",
+                "loath"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "favor",
+                "loath"
+            ],
+            "model_explanation": "Explanation: In the context of the sentence, towns are voting to keep incinerators not because they favor them (indicating support), but rather because they are loath to narrow their waste-disposal options, which means they are unwilling or hesitant to limit their choices.",
+            "model_response": "favor, loath  \nExplanation: In the context of the sentence, towns are voting to keep incinerators not because they favor them (indicating support), but rather because they are loath to narrow their waste-disposal options, which means they are unwilling or hesitant to limit their choices.",
+            "runtime": 5.05,
+            "correct": true
+        },
+        {
+            "question_number": 7,
+            "expected": [
+                "decisive",
+                "vacillation"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "decisive",
+                "vacillation"
+            ],
+            "model_explanation": "Explanation: In the context of the sentence, the first blank (i) is looking for a word that describes the type of leadership Tanaka is capable of, which should be a positive attribute contrasting with the negative implications regarding Williamson. \"Decisive\" fits well as it suggests strong and effective leadership. For the second blank (ii), the word should suggest a flaw or weakness in Williamson's leadership. \"Vacillation\" implies indecisiveness or a lack of firmness, which aligns with the negative tone of the sentence about Williamson's term in contrast to Tanaka's decisive leadership.",
+            "model_response": "decisive, vacillation  \nExplanation: In the context of the sentence, the first blank (i) is looking for a word that describes the type of leadership Tanaka is capable of, which should be a positive attribute contrasting with the negative implications regarding Williamson. \"Decisive\" fits well as it suggests strong and effective leadership. For the second blank (ii), the word should suggest a flaw or weakness in Williamson's leadership. \"Vacillation\" implies indecisiveness or a lack of firmness, which aligns with the negative tone of the sentence about Williamson's term in contrast to Tanaka's decisive leadership.",
+            "runtime": 6.95,
+            "correct": true
+        },
+        {
+            "question_number": 8,
+            "expected": [
+                "delightful",
+                "contagious"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "delightful",
+                "contagious"
+            ],
+            "model_explanation": "Explanation: The first blank describes the type of dance students toddlers make, and \"delightful\" fits best as it conveys their joy in movement. The second blank describes their joy's nature, and \"contagious\" suggests that their joy spreads to others, which aligns with the overall positive sentiment in the sentence.",
+            "model_response": "delightful, contagious  \nExplanation: The first blank describes the type of dance students toddlers make, and \"delightful\" fits best as it conveys their joy in movement. The second blank describes their joy's nature, and \"contagious\" suggests that their joy spreads to others, which aligns with the overall positive sentiment in the sentence.",
+            "runtime": 7.56,
+            "correct": true
+        },
+        {
+            "question_number": 9,
+            "expected": [
+                "aimlessness",
+                "discursions"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "flippancy",
+                "discursions"
+            ],
+            "model_explanation": "Explanation: The first blank requires a word that suggests something that might annoy or upset readers at first, which \"flippancy\" fits. It indicates a lack of seriousness that could irk readers. The second blank needs a word that implies a certain quality of the work that becomes valuable upon deeper engagement, and \"discursions\" (meaning lengthy, rambling discussions) can be seen as a unique attribute that readers might appreciate over time.",
+            "model_response": "flippancy, discursions  \nExplanation: The first blank requires a word that suggests something that might annoy or upset readers at first, which \"flippancy\" fits. It indicates a lack of seriousness that could irk readers. The second blank needs a word that implies a certain quality of the work that becomes valuable upon deeper engagement, and \"discursions\" (meaning lengthy, rambling discussions) can be seen as a unique attribute that readers might appreciate over time.",
+            "runtime": 4.73,
+            "correct": false
+        },
+        {
+            "question_number": 10,
+            "expected": [
+                "inversely related",
+                "unfeeling"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "mutuallyreinforcing",
+                "unfeeling"
+            ],
+            "model_explanation": "Explanation: The context of the sentence suggests that when people perceive someone as competent, they automatically assume that the person lacks warmth or kindness, indicating a belief that competence and warmth are not equally valued but rather mutually reinforcing. Therefore, the person seen as capable is inferred to be unfeeling.",
+            "model_response": "mutually reinforcing, unfeeling  \nExplanation: The context of the sentence suggests that when people perceive someone as competent, they automatically assume that the person lacks warmth or kindness, indicating a belief that competence and warmth are not equally valued but rather mutually reinforcing. Therefore, the person seen as capable is inferred to be unfeeling.",
+            "runtime": 4.83,
+            "correct": false
+        },
+        {
+            "question_number": 11,
+            "expected": [
+                "an anomalous",
+                "embodies"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "ananomalous",
+                "embodies"
+            ],
+            "model_explanation": "Explanation: The first blank should be filled with \"an anomalous,\" as it suggests that home schooling is not a typical or conventional philosophy. The second blank should use \"embodies,\" indicating that home schooling incorporates or represents widely accepted educational ideas about individual treatment and smaller teaching groups.",
+            "model_response": "an anomalous, embodies  \nExplanation: The first blank should be filled with \"an anomalous,\" as it suggests that home schooling is not a typical or conventional philosophy. The second blank should use \"embodies,\" indicating that home schooling incorporates or represents widely accepted educational ideas about individual treatment and smaller teaching groups.",
+            "runtime": 6.31,
+            "correct": true
+        },
+        {
+            "question_number": 12,
+            "expected": [
+                "impetuous",
+                "circumspect"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "impetuous",
+                "circumspect"
+            ],
+            "model_explanation": "Explanation: The sentence suggests that the subject was not reckless or hasty (implying he was deliberate), so \"impetuous\" fits well in the first blank. The phrase \"nothing if not\" indicates that he was indeed careful or cautious, making \"circumspect\" the ideal choice for the second blank.",
+            "model_response": "impetuous, circumspect  \nExplanation: The sentence suggests that the subject was not reckless or hasty (implying he was deliberate), so \"impetuous\" fits well in the first blank. The phrase \"nothing if not\" indicates that he was indeed careful or cautious, making \"circumspect\" the ideal choice for the second blank.",
+            "runtime": 5.84,
+            "correct": true
+        },
+        {
+            "question_number": 13,
+            "expected": [
+                "virtue",
+                "derive from"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "drawback",
+                "derivefrom"
+            ],
+            "model_explanation": "Explanation: The first blank requires a word that indicates a negative aspect of the method mentioned. \"Drawback\" fits well as it highlights a limitation of the prediction method. For the second blank, \"derive from\" suggests that the predictions are based on actual observations, which aligns with the context of the sentence that critiques the method's assumption about the future resembling the present.",
+            "model_response": "drawback, derive from  \nExplanation: The first blank requires a word that indicates a negative aspect of the method mentioned. \"Drawback\" fits well as it highlights a limitation of the prediction method. For the second blank, \"derive from\" suggests that the predictions are based on actual observations, which aligns with the context of the sentence that critiques the method's assumption about the future resembling the present.",
+            "runtime": 6.18,
+            "correct": false
+        },
+        {
+            "question_number": 14,
+            "expected": [
+                "persistent",
+                "corruption"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "discouraging",
+                "corruption"
+            ],
+            "model_explanation": "Explanation: The sentence suggests that the police force has a negative reputation, which aligns with \"discouraging\" for the first blank. The second blank requires a term that matches this negative reputation, and \"corruption\" fits best, indicating that the police force is known for unethical behavior.",
+            "model_response": "discouraging, corruption  \nExplanation: The sentence suggests that the police force has a negative reputation, which aligns with \"discouraging\" for the first blank. The second blank requires a term that matches this negative reputation, and \"corruption\" fits best, indicating that the police force is known for unethical behavior.",
+            "runtime": 5.68,
+            "correct": false
+        },
+        {
+            "question_number": 15,
+            "expected": [
+                "nearly infinite",
+                "eliminated"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "nearlyinfinite",
+                "eliminated"
+            ],
+            "model_explanation": "Explanation: In the context of the sentence, cosmology had \"an abundance of theories, but almost no data,\" suggesting that the ratio of theory to data was very high, or \"nearly infinite.\" The second part indicates that a large amount of data has \"eliminated all theories but one,\" which fits with the idea that the data has challenged the existing theories.",
+            "model_response": "nearly infinite, eliminated  \nExplanation: In the context of the sentence, cosmology had \"an abundance of theories, but almost no data,\" suggesting that the ratio of theory to data was very high, or \"nearly infinite.\" The second part indicates that a large amount of data has \"eliminated all theories but one,\" which fits with the idea that the data has challenged the existing theories.",
+            "runtime": 6.16,
+            "correct": true
+        },
+        {
+            "question_number": 16,
+            "expected": [
+                "erudition",
+                "scarce"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "erudition",
+                "scarce"
+            ],
+            "model_explanation": "Explanation: The first blank describes a quality of Shakespeare's works that would be impressive given the context of his time. \"Erudition,\" which means a great knowledge or learning, fits this description well. The second blank must indicate something that would make such broad learning remarkable; hence, \"scarce\" fits perfectly, as it highlights that books were not widely available during Shakespeare's era.",
+            "model_response": "erudition, scarce  \nExplanation: The first blank describes a quality of Shakespeare's works that would be impressive given the context of his time. \"Erudition,\" which means a great knowledge or learning, fits this description well. The second blank must indicate something that would make such broad learning remarkable; hence, \"scarce\" fits perfectly, as it highlights that books were not widely available during Shakespeare's era.",
+            "runtime": 6.05,
+            "correct": true
+        },
+        {
+            "question_number": 17,
+            "expected": [
+                "precipitate",
+                "forbore"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "precipitate",
+                "forbore"
+            ],
+            "model_explanation": "Explanation: The first blank needs a word that indicates a lack of rashness or impulsiveness. \"Precipitate\" fits well, as it means acting suddenly or rashly. The second blank requires a word that suggests restraint or holding back, making \"forbore\" the appropriate choice, as it means to refrain from doing something. Thus, the sentence suggests that she was never impulsive and chose to hold back from declaring her passion.",
+            "model_response": "precipitate, forbore  \nExplanation: The first blank needs a word that indicates a lack of rashness or impulsiveness. \"Precipitate\" fits well, as it means acting suddenly or rashly. The second blank requires a word that suggests restraint or holding back, making \"forbore\" the appropriate choice, as it means to refrain from doing something. Thus, the sentence suggests that she was never impulsive and chose to hold back from declaring her passion.",
+            "runtime": 8.49,
+            "correct": true
+        },
+        {
+            "question_number": 18,
+            "expected": [
+                "too harshly judged",
+                "judicious"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "franklyacknowledged",
+                "judicious"
+            ],
+            "model_explanation": "Explanation: The phrase \"except for a few passages\" suggests that the subject's flaws are only mentioned in a limited way. The word \"frankly\" indicates an honest acknowledgment of those flaws. The author's treatment being \"judicious\" implies that it is fair and measured throughout the majority of the biography, aligning with the idea that the author does not excessively criticize or dwell on those flaws.",
+            "model_response": "frankly acknowledged, judicious  \nExplanation: The phrase \"except for a few passages\" suggests that the subject's flaws are only mentioned in a limited way. The word \"frankly\" indicates an honest acknowledgment of those flaws. The author's treatment being \"judicious\" implies that it is fair and measured throughout the majority of the biography, aligning with the idea that the author does not excessively criticize or dwell on those flaws.",
+            "runtime": 4.27,
+            "correct": false
+        },
+        {
+            "question_number": 19,
+            "expected": [
+                "abundance",
+                "rapacious depletion"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "abundance",
+                "rapaciousdepletion"
+            ],
+            "model_explanation": "Explanation: The sentence describes a transition from a situation where the region had plenty of natural resources (abundance) to one where these resources are being exploited excessively (rapacious depletion), resulting in a shift from a resource-rich to a resource-dependent economy.",
+            "model_response": "abundance, rapacious depletion  \nExplanation: The sentence describes a transition from a situation where the region had plenty of natural resources (abundance) to one where these resources are being exploited excessively (rapacious depletion), resulting in a shift from a resource-rich to a resource-dependent economy.",
+            "runtime": 5.73,
+            "correct": true
+        },
+        {
+            "question_number": 20,
+            "expected": [
+                "neglects",
+                "problematic"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "neglects",
+                "underappreciated"
+            ],
+            "model_explanation": "Explanation: The first blank requires a word that indicates a failure to give proper attention to the bebop and free jazz movements, making \"neglects\" the most suitable choice. For the second blank, \"underappreciated\" fits best because it suggests that accounts that overlook this influential African American music are not given the recognition they deserve, aligning with the context of its importance in experimental music following the Second World War.",
+            "model_response": "neglects, underappreciated  \nExplanation: The first blank requires a word that indicates a failure to give proper attention to the bebop and free jazz movements, making \"neglects\" the most suitable choice. For the second blank, \"underappreciated\" fits best because it suggests that accounts that overlook this influential African American music are not given the recognition they deserve, aligning with the context of its importance in experimental music following the Second World War.",
+            "runtime": 7.0,
+            "correct": false
+        },
+        {
+            "question_number": 21,
+            "expected": [
+                "ancestry",
+                "obvious"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "ancestry",
+                "obvious"
+            ],
+            "model_explanation": "Explanation: The sentence discusses the biological origin of maize, implying that what is being referred to in the first blank is its lineage or genetic background, which makes \"ancestry\" the most fitting choice. For the second blank, the context suggests that the statement about maize's origin is not clearly understood, thus \"obvious\" aligns well with the idea that its origin is a mystery.",
+            "model_response": "ancestry, obvious  \nExplanation: The sentence discusses the biological origin of maize, implying that what is being referred to in the first blank is its lineage or genetic background, which makes \"ancestry\" the most fitting choice. For the second blank, the context suggests that the statement about maize's origin is not clearly understood, thus \"obvious\" aligns well with the idea that its origin is a mystery.",
+            "runtime": 5.39,
+            "correct": true
+        },
+        {
+            "question_number": 22,
+            "expected": [
+                "derivative",
+                "remarkably pioneering"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "derivative",
+                "remarkablypioneering"
+            ],
+            "model_explanation": "Explanation: The word \"derivative\" suggests that Green's scholarship is unoriginal, which aligns with the idea that her research is \"not especially novel.\" The contrasting phrase in the second blank, \"remarkably pioneering,\" suggests that despite her research not being novel, her conclusions are innovative and original, hence providing a striking contrast to the first blank.",
+            "model_response": "derivative, remarkably pioneering  \nExplanation: The word \"derivative\" suggests that Green's scholarship is unoriginal, which aligns with the idea that her research is \"not especially novel.\" The contrasting phrase in the second blank, \"remarkably pioneering,\" suggests that despite her research not being novel, her conclusions are innovative and original, hence providing a striking contrast to the first blank.",
+            "runtime": 8.93,
+            "correct": true
+        },
+        {
+            "question_number": 23,
+            "expected": [
+                "clandestine",
+                "open"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "clandestine",
+                "open"
+            ],
+            "model_explanation": "Explanation: The first blank suggests that people are being secretive or hidden in their approach to workplace frustrations, which aligns with \"clandestine.\" The second blank indicates a need for better communication, which is best captured by \"open,\" suggesting a willingness to engage in transparent and honest dialogue.",
+            "model_response": "clandestine, open  \nExplanation: The first blank suggests that people are being secretive or hidden in their approach to workplace frustrations, which aligns with \"clandestine.\" The second blank indicates a need for better communication, which is best captured by \"open,\" suggesting a willingness to engage in transparent and honest dialogue.",
+            "runtime": 14.64,
+            "correct": true
+        },
+        {
+            "question_number": 24,
+            "expected": [
+                "churlish",
+                "admire"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "churlish",
+                "admire"
+            ],
+            "model_explanation": "Explanation: The sentence suggests that it would be inappropriate or rude (churlish) to not admire these tabloid journalists for their success during difficult times. The word \"admire\" fits well in the context, indicating that they deserve recognition for their achievements despite the challenges in their profession.",
+            "model_response": "churlish, admire  \nExplanation: The sentence suggests that it would be inappropriate or rude (churlish) to not admire these tabloid journalists for their success during difficult times. The word \"admire\" fits well in the context, indicating that they deserve recognition for their achievements despite the challenges in their profession.",
+            "runtime": 5.41,
+            "correct": true
+        },
+        {
+            "question_number": 25,
+            "expected": [
+                "arcane",
+                "obscure"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "arcane",
+                "obscure"
+            ],
+            "model_explanation": "Explanation: The first blank requires a term that suggests a lack of clarity or accessibility, making \"arcane\" a fitting choice because it implies something that is understood by only a few. The second blank needs a word that reinforces the idea of clarity in her conclusions, so \"obscure\" fits well as it indicates something that is not clear or easy to understand. Thus, the sentence conveys that while her discussion may be complex, her conclusions are clear and not obscure.",
+            "model_response": "arcane, obscure  \nExplanation: The first blank requires a term that suggests a lack of clarity or accessibility, making \"arcane\" a fitting choice because it implies something that is understood by only a few. The second blank needs a word that reinforces the idea of clarity in her conclusions, so \"obscure\" fits well as it indicates something that is not clear or easy to understand. Thus, the sentence conveys that while her discussion may be complex, her conclusions are clear and not obscure.",
+            "runtime": 6.22,
+            "correct": true
+        },
+        {
+            "question_number": 26,
+            "expected": [
+                "unethical",
+                "skullduggery"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "unethical",
+                "skullduggery"
+            ],
+            "model_explanation": "Explanation: The context suggests that the behaviors acknowledged by the Prime Minister were morally questionable, which aligns with \"unethical.\" The term \"skullduggery\" relates to dishonest or unscrupulous behavior, fitting the idea that some politicians viewed this questionable conduct as justified for the sake of necessary reforms.",
+            "model_response": "unethical, skullduggery  \nExplanation: The context suggests that the behaviors acknowledged by the Prime Minister were morally questionable, which aligns with \"unethical.\" The term \"skullduggery\" relates to dishonest or unscrupulous behavior, fitting the idea that some politicians viewed this questionable conduct as justified for the sake of necessary reforms.",
+            "runtime": 10.22,
+            "correct": true
+        },
+        {
+            "question_number": 27,
+            "expected": [
+                "fervor",
+                "indiscriminate"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "fervor",
+                "indiscriminate"
+            ],
+            "model_explanation": "Explanation: The context implies that the sociologist engages passionately with any question that arises, suggesting a strong enthusiasm or \"fervor.\" This energetic approach is further described as \"indiscriminate,\" indicating that the sociologist does not selectively address questions, but rather engages with them all equally.",
+            "model_response": "fervor, indiscriminate  \nExplanation: The context implies that the sociologist engages passionately with any question that arises, suggesting a strong enthusiasm or \"fervor.\" This energetic approach is further described as \"indiscriminate,\" indicating that the sociologist does not selectively address questions, but rather engages with them all equally.",
+            "runtime": 8.35,
+            "correct": true
+        },
+        {
+            "question_number": 28,
+            "expected": [
+                "challenged",
+                "maintaining"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [],
+            "model_explanation": "",
+            "model_response": "",
+            "runtime": 5.45,
+            "correct": false
+        },
+        {
+            "question_number": 29,
+            "expected": [
+                "naysayer",
+                "absorbing"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [],
+            "model_explanation": "",
+            "model_response": "",
+            "runtime": 3.48,
+            "correct": false
+        },
+        {
+            "question_number": 30,
+            "expected": [
+                "complicated by",
+                "obscured"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [],
+            "model_explanation": "",
+            "model_response": "",
+            "runtime": 3.26,
+            "correct": false
+        },
+        {
+            "question_number": 31,
+            "expected": [
+                "limits",
+                "lay outside"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "limits",
+                "layoutside"
+            ],
+            "model_explanation": "Explanation: Tagore's perspective on scientific inquiry suggests that he recognized its boundaries or constraints in addressing moral questions, which he believed necessitated definitive answers rather than the uncertainties associated with scientific reasoning. Thus, \"limits\" fits well in the first blank, indicating a clear distinction in scope. The second blank, \"lay outside,\" aligns with the idea that moral questions are not encompassed by scientific inquiry, reinforcing Tagore's view that they exist beyond the reach of probabilistic science.",
+            "model_response": "limits, lay outside  \nExplanation: Tagore's perspective on scientific inquiry suggests that he recognized its boundaries or constraints in addressing moral questions, which he believed necessitated definitive answers rather than the uncertainties associated with scientific reasoning. Thus, \"limits\" fits well in the first blank, indicating a clear distinction in scope. The second blank, \"lay outside,\" aligns with the idea that moral questions are not encompassed by scientific inquiry, reinforcing Tagore's view that they exist beyond the reach of probabilistic science.",
+            "runtime": 6.35,
+            "correct": true
+        },
+        {
+            "question_number": 32,
+            "expected": [
+                "interpreting",
+                "education"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "interpreting",
+                "education"
+            ],
+            "model_explanation": "Explanation: The context of the sentence indicates that cinema archives need to provide more than just a storage function; they should also help the public understand the significance of films. \"Interpreting\" fits well in the first blank as it implies making sense of or providing meaning to the films. In the second blank, \"education\" is appropriate because it suggests that by interpreting films, archives can offer educational value, enhancing viewers' understanding and appreciation of cinema.",
+            "model_response": "interpreting, education  \nExplanation: The context of the sentence indicates that cinema archives need to provide more than just a storage function; they should also help the public understand the significance of films. \"Interpreting\" fits well in the first blank as it implies making sense of or providing meaning to the films. In the second blank, \"education\" is appropriate because it suggests that by interpreting films, archives can offer educational value, enhancing viewers' understanding and appreciation of cinema.",
+            "runtime": 6.01,
+            "correct": true
+        },
+        {
+            "question_number": 33,
+            "expected": [
+                "mercurial",
+                "inconstancy"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "garrulous",
+                "partiality"
+            ],
+            "model_explanation": "Explanation: The first blank describes a quality that Professor Pearson's colleagues complained about, which suggests it is something annoying or excessive. \"Garrulous\" (talkative) fits this context as it can be seen as a negative trait in a professional setting. The second blank refers to the charge being defended against; \"partiality\" (favoritism) is a charge that could be understood in the context of friends defending someone, indicating that his friends see him as fair rather than biased.",
+            "model_response": "garrulous, partiality  \nExplanation: The first blank describes a quality that Professor Pearson's colleagues complained about, which suggests it is something annoying or excessive. \"Garrulous\" (talkative) fits this context as it can be seen as a negative trait in a professional setting. The second blank refers to the charge being defended against; \"partiality\" (favoritism) is a charge that could be understood in the context of friends defending someone, indicating that his friends see him as fair rather than biased.",
+            "runtime": 6.19,
+            "correct": false
+        },
+        {
+            "question_number": 34,
+            "expected": [
+                "laboratory",
+                "tried"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "laboratory",
+                "tried"
+            ],
+            "model_explanation": "Explanation: In the context of the sentence, \"laboratory\" fits well into the first blank because it suggests a setting where experiments or new ideas can be tested on a smaller scale before national implementation. The second blank requires a term that indicates the process of assessing or experimenting with those ideas, which \"tried\" captures effectively, as it implies that new ideas are evaluated or tested. The other options do not fit the context as well—\"catalyst\" implies a more active role that doesn’t connect to the idea of a smaller-scale experimentation, and \"dispersed\" or \"undermined\" do not reflect the supportive connotation needed here.",
+            "model_response": "laboratory, tried  \nExplanation: In the context of the sentence, \"laboratory\" fits well into the first blank because it suggests a setting where experiments or new ideas can be tested on a smaller scale before national implementation. The second blank requires a term that indicates the process of assessing or experimenting with those ideas, which \"tried\" captures effectively, as it implies that new ideas are evaluated or tested. The other options do not fit the context as well—\"catalyst\" implies a more active role that doesn’t connect to the idea of a smaller-scale experimentation, and \"dispersed\" or \"undermined\" do not reflect the supportive connotation needed here.",
+            "runtime": 7.48,
+            "correct": true
+        },
+        {
+            "question_number": 35,
+            "expected": [
+                "generated in",
+                "never leaves"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "generatedin",
+                "rarelystays"
+            ],
+            "model_explanation": "Explanation: In the context of the sentence, the phrase \"far-traveled hydrocarbons\" suggests that these hydrocarbons were produced in a deeper source rock, making \"generated in\" the most appropriate choice for blank (i). For blank (ii), the sentence indicates that shale gas does not leave its source, which aligns with \"rarely stays in,\" suggesting that it remains in the source bed more than conventional oil and gas.",
+            "model_response": "generated in, rarely stays in  \nExplanation: In the context of the sentence, the phrase \"far-traveled hydrocarbons\" suggests that these hydrocarbons were produced in a deeper source rock, making \"generated in\" the most appropriate choice for blank (i). For blank (ii), the sentence indicates that shale gas does not leave its source, which aligns with \"rarely stays in,\" suggesting that it remains in the source bed more than conventional oil and gas.",
+            "runtime": 4.15,
+            "correct": false
+        },
+        {
+            "question_number": 36,
+            "expected": [
+                "intransigent",
+                "uncompromising"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "intransigent",
+                "uncompromising"
+            ],
+            "model_explanation": "Explanation: The sentence indicates that despite the ongoing dispute between the sisters, Megan remained firm and not willing to compromise (intransigent), while Lauren showed a similar strong stance (uncompromising). Both words convey a sense of unwillingness to change one's views or positions, fitting the context of the sentence.",
+            "model_response": "intransigent, uncompromising  \nExplanation: The sentence indicates that despite the ongoing dispute between the sisters, Megan remained firm and not willing to compromise (intransigent), while Lauren showed a similar strong stance (uncompromising). Both words convey a sense of unwillingness to change one's views or positions, fitting the context of the sentence.",
+            "runtime": 5.92,
+            "correct": true
+        },
+        {
+            "question_number": 37,
+            "expected": [
+                "slowed",
+                "drag on"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "slowed",
+                "dragon"
+            ],
+            "model_explanation": "Explanation: The first blank requires a word that indicates a decrease or reduction in oil consumption; \"slowed\" fits this context well, indicating that the increase in demand has lessened due to a decrease in consumption. The second blank needs a term that describes a negative impact on the economy; \"drag on\" aptly describes something that hinders or slows economic growth, aligning with the context of high oil prices dampening demand.",
+            "model_response": "slowed, drag on  \nExplanation: The first blank requires a word that indicates a decrease or reduction in oil consumption; \"slowed\" fits this context well, indicating that the increase in demand has lessened due to a decrease in consumption. The second blank needs a term that describes a negative impact on the economy; \"drag on\" aptly describes something that hinders or slows economic growth, aligning with the context of high oil prices dampening demand.",
+            "runtime": 6.17,
+            "correct": true
+        },
+        {
+            "question_number": 38,
+            "expected": [
+                "familiar",
+                "revisionist"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "familiar",
+                "revisionist"
+            ],
+            "model_explanation": "Explanation: The sentence suggests that the book does not truly offer a new or revolutionary perspective on the conflict, as it ultimately presents a more traditional or well-known view (familiar) rather than a restrictive or limited analysis. The comparison indicates that the book is more orthodox in its identification of causes, which aligns with the term \"revisionist\" for the second blank, as it implies a departure from traditional views.",
+            "model_response": "familiar, revisionist  \nExplanation: The sentence suggests that the book does not truly offer a new or revolutionary perspective on the conflict, as it ultimately presents a more traditional or well-known view (familiar) rather than a restrictive or limited analysis. The comparison indicates that the book is more orthodox in its identification of causes, which aligns with the term \"revisionist\" for the second blank, as it implies a departure from traditional views.",
+            "runtime": 5.95,
+            "correct": true
+        },
+        {
+            "question_number": 39,
+            "expected": [
+                "trivial",
+                "importance"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "trivial",
+                "banality"
+            ],
+            "model_explanation": "Explanation: The use of \"seemingly\" indicates that the artifacts appear to be of little value or importance initially; thus, \"trivial\" fits best in blank (i). In blank (ii), \"banality\" reflects a state of being unremarkable or ordinary, which aligns with the transformation of these artifacts by Hiller, making their commonplace nature the focal point of her work.",
+            "model_response": "trivial, banality  \nExplanation: The use of \"seemingly\" indicates that the artifacts appear to be of little value or importance initially; thus, \"trivial\" fits best in blank (i). In blank (ii), \"banality\" reflects a state of being unremarkable or ordinary, which aligns with the transformation of these artifacts by Hiller, making their commonplace nature the focal point of her work.",
+            "runtime": 10.34,
+            "correct": false
+        },
+        {
+            "question_number": 40,
+            "expected": [
+                "obeisance",
+                "mixed"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "obeisance",
+                "mixed"
+            ],
+            "model_explanation": "Explanation: Pauline Kael's need for \"obeisance\" aligns with her conflicting feelings about sycophancy, suggesting she wanted recognition or respect while disliking flattery. This juxtaposition leads to her sending \"mixed\" signals, as she is torn between expressing her disdain for sycophancy and a desire for acknowledgment from others.",
+            "model_response": "obeisance, mixed  \nExplanation: Pauline Kael's need for \"obeisance\" aligns with her conflicting feelings about sycophancy, suggesting she wanted recognition or respect while disliking flattery. This juxtaposition leads to her sending \"mixed\" signals, as she is torn between expressing her disdain for sycophancy and a desire for acknowledgment from others.",
+            "runtime": 5.23,
+            "correct": true
+        },
+        {
+            "question_number": 41,
+            "expected": [
+                "wide-ranging",
+                "mimic"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "debilitating",
+                "mimic"
+            ],
+            "model_explanation": "Explanation: The symptoms of fibromyalgia are often severe and can negatively impact daily life, which aligns with \"debilitating.\" Additionally, these symptoms can resemble those of other disorders, making \"mimic\" the appropriate choice for the second blank.",
+            "model_response": "debilitating, mimic  \nExplanation: The symptoms of fibromyalgia are often severe and can negatively impact daily life, which aligns with \"debilitating.\" Additionally, these symptoms can resemble those of other disorders, making \"mimic\" the appropriate choice for the second blank.",
+            "runtime": 5.58,
+            "correct": false
+        },
+        {
+            "question_number": 42,
+            "expected": [
+                "decline",
+                "health"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "decline",
+                "health"
+            ],
+            "model_explanation": "Explanation: The first blank requires a word that implies a negative condition associated with urban areas, which \"decline\" fits. The second blank needs a term that suggests something positive about urban life, which \"health\" fits, as it indicates vitality and well-being in an urban context. Thus, the sentence contrasts the misunderstanding of congestion as a sign of deterioration with its actual role in enhancing urban life.",
+            "model_response": "decline, health  \nExplanation: The first blank requires a word that implies a negative condition associated with urban areas, which \"decline\" fits. The second blank needs a term that suggests something positive about urban life, which \"health\" fits, as it indicates vitality and well-being in an urban context. Thus, the sentence contrasts the misunderstanding of congestion as a sign of deterioration with its actual role in enhancing urban life.",
+            "runtime": 6.22,
+            "correct": true
+        },
+        {
+            "question_number": 43,
+            "expected": [
+                "an anonymous",
+                "confessional"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "anevenhanded",
+                "confessional"
+            ],
+            "model_explanation": "Explanation: The first blank (i) should indicate the type of enterprise that many professional book reviewers would agree criticism should be. \"An evenhanded\" approach suggests neutrality and fairness, which is generally accepted in professional criticism. The second blank (ii) should indicate the type of reviews that have been on the rise, which is characterized as \"confessional.\" This suggests a personal narrative style that some reviewers adopt, mistakenly believing it enhances their uniqueness. Thus, the completed sentence indicates a contrast between the ideal of evenhanded criticism and the trend towards more personal, confessional reviews.",
+            "model_response": "an evenhanded, confessional  \nExplanation: The first blank (i) should indicate the type of enterprise that many professional book reviewers would agree criticism should be. \"An evenhanded\" approach suggests neutrality and fairness, which is generally accepted in professional criticism. The second blank (ii) should indicate the type of reviews that have been on the rise, which is characterized as \"confessional.\" This suggests a personal narrative style that some reviewers adopt, mistakenly believing it enhances their uniqueness. Thus, the completed sentence indicates a contrast between the ideal of evenhanded criticism and the trend towards more personal, confessional reviews.",
+            "runtime": 6.31,
+            "correct": false
+        },
+        {
+            "question_number": 44,
+            "expected": [
+                "secondhand testimony",
+                "anecdote"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "secondhandtestimony",
+                "anecdote"
+            ],
+            "model_explanation": "Explanation: The phrase \"unusual behaviors attributed to crows\" suggests that the information is based on personal accounts or observations rather than systematic studies. \"Secondhand testimony\" indicates that the behaviors are reported rather than scientifically verified, while \"anecdote\" refers to personal stories or observations that lack rigorous scientific basis.",
+            "model_response": "secondhand testimony, anecdote  \nExplanation: The phrase \"unusual behaviors attributed to crows\" suggests that the information is based on personal accounts or observations rather than systematic studies. \"Secondhand testimony\" indicates that the behaviors are reported rather than scientifically verified, while \"anecdote\" refers to personal stories or observations that lack rigorous scientific basis.",
+            "runtime": 5.66,
+            "correct": true
+        },
+        {
+            "question_number": 45,
+            "expected": [
+                "relish",
+                "insufferable"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "relish",
+                "insufferable"
+            ],
+            "model_explanation": "Explanation: The context of the sentence suggests that despite the scathing criticism of social aspirants and the wealthy, the writer has a certain appreciation or enjoyment for this world, which fits the word \"relish.\" The second blank describes this world as \"insufferable,\" which highlights the sharp criticism while acknowledging that the writer still engages with it.",
+            "model_response": "relish, insufferable  \nExplanation: The context of the sentence suggests that despite the scathing criticism of social aspirants and the wealthy, the writer has a certain appreciation or enjoyment for this world, which fits the word \"relish.\" The second blank describes this world as \"insufferable,\" which highlights the sharp criticism while acknowledging that the writer still engages with it.",
+            "runtime": 6.33,
+            "correct": true
+        },
+        {
+            "question_number": 46,
+            "expected": [
+                "diminish",
+                "supplanted by"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "diminish",
+                "supplantedby"
+            ],
+            "model_explanation": "Explanation: The first blank requires a word that conveys the idea that information technology does not reduce the necessity for individual reasoning; \"diminish\" fits this context well as it implies that individual reasoning remains crucial despite the presence of technology. For the second blank, \"supplanted by\" indicates that the reasoning process should not be replaced by mere accumulation of raw data, suggesting that reasoning is more important than just gathering data.",
+            "model_response": "diminish, supplanted by  \nExplanation: The first blank requires a word that conveys the idea that information technology does not reduce the necessity for individual reasoning; \"diminish\" fits this context well as it implies that individual reasoning remains crucial despite the presence of technology. For the second blank, \"supplanted by\" indicates that the reasoning process should not be replaced by mere accumulation of raw data, suggesting that reasoning is more important than just gathering data.",
+            "runtime": 5.94,
+            "correct": true
+        },
+        {
+            "question_number": 47,
+            "expected": [
+                "inadequacies",
+                "debunking"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "abstractions",
+                "debunking"
+            ],
+            "model_explanation": "Explanation: The context of the sentence suggests that the book examines various ideas or concepts that are prevalent in contemporary thought, which aligns with \"abstractions.\" The second part of the sentence indicates that the writing critiques or challenges these ideas, which fits with \"debunking.\" The other options do not appropriately match the context of the sentence.",
+            "model_response": "abstractions, debunking  \nExplanation: The context of the sentence suggests that the book examines various ideas or concepts that are prevalent in contemporary thought, which aligns with \"abstractions.\" The second part of the sentence indicates that the writing critiques or challenges these ideas, which fits with \"debunking.\" The other options do not appropriately match the context of the sentence.",
+            "runtime": 5.75,
+            "correct": false
+        },
+        {
+            "question_number": 48,
+            "expected": [
+                "liberalization",
+                "abnegation"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "liberalization",
+                "abnegation"
+            ],
+            "model_explanation": "Explanation: The minister recognizes that the government's control leads to disastrous developments, indicating that a reduction in such control is necessary. Therefore, \"liberalization\" is appropriate for the first blank as it refers to loosening government controls. For the second blank, \"abnegation\" fits well since it means the rejection of responsibility, aligning with the idea that the state should not completely give up its role in regulating building affairs.",
+            "model_response": "liberalization, abnegation  \nExplanation: The minister recognizes that the government's control leads to disastrous developments, indicating that a reduction in such control is necessary. Therefore, \"liberalization\" is appropriate for the first blank as it refers to loosening government controls. For the second blank, \"abnegation\" fits well since it means the rejection of responsibility, aligning with the idea that the state should not completely give up its role in regulating building affairs.",
+            "runtime": 6.07,
+            "correct": true
+        },
+        {
+            "question_number": 49,
+            "expected": [
+                "apologies",
+                "awry in"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "apologies",
+                "awryin"
+            ],
+            "model_explanation": "Explanation: The first blank is best filled with \"apologies,\" as scholarly works often begin by acknowledging or apologizing for the stigma associated with reading detective stories. The second blank fits with \"awry in,\" indicating a critique of the perceived issues with adults engaging in such literature and its analysis.",
+            "model_response": "apologies, awry in  \nExplanation: The first blank is best filled with \"apologies,\" as scholarly works often begin by acknowledging or apologizing for the stigma associated with reading detective stories. The second blank fits with \"awry in,\" indicating a critique of the perceived issues with adults engaging in such literature and its analysis.",
+            "runtime": 6.78,
+            "correct": true
+        },
+        {
+            "question_number": 50,
+            "expected": [
+                "defensive",
+                "an enhanced"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "defensive",
+                "anenhanced"
+            ],
+            "model_explanation": "Explanation: The term \"defensive\" indicates that British business owners were in a position where they had to protect their interests due to outside pressures, which fits the context of \"extraordinary circumstances\" during the war. The phrase \"acquiesce to an enhanced role for labor unions\" suggests that labor unions gained more power and influence in negotiations during this time, aligning with the concept of increased interference and involvement from the government.",
+            "model_response": "defensive, an enhanced  \nExplanation: The term \"defensive\" indicates that British business owners were in a position where they had to protect their interests due to outside pressures, which fits the context of \"extraordinary circumstances\" during the war. The phrase \"acquiesce to an enhanced role for labor unions\" suggests that labor unions gained more power and influence in negotiations during this time, aligning with the concept of increased interference and involvement from the government.",
+            "runtime": 5.54,
+            "correct": true
+        }
+    ]
+}

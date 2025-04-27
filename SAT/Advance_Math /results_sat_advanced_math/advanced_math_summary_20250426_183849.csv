@@ -1,0 +1,10 @@
+Model,Strategy,Overall Accuracy,Equivalent expressions Accuracy,Simplifying algebraic expressions Accuracy,Nonlinear equations in one variable and systems of equations in two variables Accuracy,Nonlinear functions Accuracy
+llama-3.1-8b,zero-shot,59.26%,60.00%,0.00%,60.00%,66.67%
+llama-3.1-8b,five-shot,81.48%,70.00%,100.00%,90.00%,83.33%
+llama-3.1-8b,chain-of-thought,88.89%,80.00%,100.00%,100.00%,83.33%
+llama-3.1-70b,zero-shot,59.26%,60.00%,100.00%,60.00%,50.00%
+llama-3.1-70b,five-shot,62.96%,50.00%,100.00%,50.00%,100.00%
+llama-3.1-70b,chain-of-thought,85.19%,80.00%,100.00%,90.00%,83.33%
+llama-3.1-405b,zero-shot,59.26%,70.00%,100.00%,40.00%,66.67%
+llama-3.1-405b,five-shot,66.67%,50.00%,100.00%,80.00%,66.67%
+llama-3.1-405b,chain-of-thought,88.89%,80.00%,100.00%,100.00%,83.33%

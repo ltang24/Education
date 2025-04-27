@@ -1,0 +1,858 @@
+{
+    "strategy": "5-shot",
+    "accuracy": 0.8275,
+    "total_questions": 29,
+    "correct_count": 24,
+    "details": [
+        {
+            "question_number": 1,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "C, E",
+            "runtime": 12.48,
+            "correct": true
+        },
+        {
+            "question_number": 2,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "B"
+            ],
+            "model_response": "A, B",
+            "runtime": 43.02,
+            "correct": true
+        },
+        {
+            "question_number": 3,
+            "expected": [
+                "E",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "E",
+                "F"
+            ],
+            "model_response": "E, F",
+            "runtime": 51.97,
+            "correct": true
+        },
+        {
+            "question_number": 4,
+            "expected": [
+                "B",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "C"
+            ],
+            "model_response": "B, C",
+            "runtime": 11.41,
+            "correct": true
+        },
+        {
+            "question_number": 5,
+            "expected": [
+                "C",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "D"
+            ],
+            "model_response": "C, D",
+            "runtime": 12.39,
+            "correct": true
+        },
+        {
+            "question_number": 6,
+            "expected": [
+                "",
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "A"
+            ],
+            "model_response": "B, A",
+            "runtime": 3.4,
+            "correct": false
+        },
+        {
+            "question_number": 7,
+            "expected": [
+                "D",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "D",
+                "F"
+            ],
+            "model_response": "D, F",
+            "runtime": 7.02,
+            "correct": true
+        },
+        {
+            "question_number": 8,
+            "expected": [
+                "",
+                "B",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "F"
+            ],
+            "model_response": "B, F",
+            "runtime": 24.96,
+            "correct": false
+        },
+        {
+            "question_number": 9,
+            "expected": [
+                "D",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "D",
+                "F"
+            ],
+            "model_response": "D, F",
+            "runtime": 48.97,
+            "correct": true
+        },
+        {
+            "question_number": 10,
+            "expected": [
+                "A",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "D"
+            ],
+            "model_response": "A, D",
+            "runtime": 3.68,
+            "correct": true
+        },
+        {
+            "question_number": 11,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "C, E",
+            "runtime": 4.88,
+            "correct": true
+        },
+        {
+            "question_number": 12,
+            "expected": [
+                "",
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "F"
+            ],
+            "model_response": "B, F",
+            "runtime": 2.49,
+            "correct": false
+        },
+        {
+            "question_number": 13,
+            "expected": [
+                "",
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "E"
+            ],
+            "model_response": "B, E",
+            "runtime": 5.11,
+            "correct": false
+        },
+        {
+            "question_number": 14,
+            "expected": [
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "E"
+            ],
+            "model_response": "B, E",
+            "runtime": 1.78,
+            "correct": true
+        },
+        {
+            "question_number": 15,
+            "expected": [
+                "A",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "F"
+            ],
+            "model_response": "A, F",
+            "runtime": 15.05,
+            "correct": true
+        },
+        {
+            "question_number": 16,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "Final Answer: B, D",
+            "runtime": 6.41,
+            "correct": true
+        },
+        {
+            "question_number": 17,
+            "expected": [
+                "A",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4",
+                "gpt-4o-mini"
+            ],
+            "model_used": "gpt-4o-mini",
+            "model_answer": [
+                "A",
+                "D"
+            ],
+            "model_response": "A, D",
+            "runtime": 5.39,
+            "correct": true
+        },
+        {
+            "question_number": 18,
+            "expected": [
+                "A",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 51.06,
+            "correct": false
+        },
+        {
+            "question_number": 19,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "B"
+            ],
+            "model_response": "A, B",
+            "runtime": 11.28,
+            "correct": true
+        },
+        {
+            "question_number": 20,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 0.7,
+            "correct": false
+        },
+        {
+            "question_number": 21,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 0.08,
+            "correct": false
+        },
+        {
+            "question_number": 22,
+            "expected": [
+                "",
+                "D",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 0.09,
+            "correct": false
+        },
+        {
+            "question_number": 23,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 0.06,
+            "correct": false
+        },
+        {
+            "question_number": 24,
+            "expected": [
+                "B",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 8.72,
+            "correct": false
+        },
+        {
+            "question_number": 25,
+            "expected": [
+                "A",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "F"
+            ],
+            "model_response": "A, F",
+            "runtime": 1.54,
+            "correct": true
+        },
+        {
+            "question_number": 26,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "A, C",
+            "runtime": 5.81,
+            "correct": true
+        },
+        {
+            "question_number": 27,
+            "expected": [
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "A, C",
+            "runtime": 5.97,
+            "correct": true
+        },
+        {
+            "question_number": 28,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "E"
+            ],
+            "model_response": "C, E",
+            "runtime": 45.16,
+            "correct": true
+        },
+        {
+            "question_number": 29,
+            "expected": [
+                "",
+                "B",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 0.44,
+            "correct": false
+        },
+        {
+            "question_number": 30,
+            "expected": [
+                "",
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 0.07,
+            "correct": false
+        },
+        {
+            "question_number": 31,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 27.84,
+            "correct": false
+        },
+        {
+            "question_number": 32,
+            "expected": [
+                "",
+                "A",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "C"
+            ],
+            "model_response": "A, C",
+            "runtime": 31.46,
+            "correct": false
+        },
+        {
+            "question_number": 33,
+            "expected": [
+                "A",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 47.42,
+            "correct": false
+        },
+        {
+            "question_number": 34,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 43.97,
+            "correct": false
+        },
+        {
+            "question_number": 35,
+            "expected": [
+                "B",
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "C"
+            ],
+            "model_response": "B, C",
+            "runtime": 9.12,
+            "correct": true
+        },
+        {
+            "question_number": 36,
+            "expected": [
+                "B",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "B",
+                "D"
+            ],
+            "model_response": "B, D",
+            "runtime": 12.92,
+            "correct": true
+        },
+        {
+            "question_number": 37,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "E"
+            ],
+            "model_response": "A, E",
+            "runtime": 1.73,
+            "correct": false
+        },
+        {
+            "question_number": 38,
+            "expected": [
+                "C",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 46.83,
+            "correct": false
+        },
+        {
+            "question_number": 39,
+            "expected": [
+                "B",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 3.37,
+            "correct": false
+        },
+        {
+            "question_number": 40,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 39.48,
+            "correct": false
+        },
+        {
+            "question_number": 41,
+            "expected": [
+                "E",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "E",
+                "F"
+            ],
+            "model_response": "E, F",
+            "runtime": 4.72,
+            "correct": true
+        },
+        {
+            "question_number": 42,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 4.57,
+            "correct": false
+        },
+        {
+            "question_number": 43,
+            "expected": [
+                "A",
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 5.4,
+            "correct": false
+        },
+        {
+            "question_number": 44,
+            "expected": [
+                "D",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 5.44,
+            "correct": false
+        },
+        {
+            "question_number": 45,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "F"
+            ],
+            "model_response": "C, F",
+            "runtime": 13.63,
+            "correct": true
+        },
+        {
+            "question_number": 46,
+            "expected": [
+                "C",
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "C",
+                "D"
+            ],
+            "model_response": "C, D",
+            "runtime": 32.53,
+            "correct": true
+        },
+        {
+            "question_number": 47,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 0.07,
+            "correct": false
+        },
+        {
+            "question_number": 48,
+            "expected": [
+                "A",
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [
+                "A",
+                "B"
+            ],
+            "model_response": "A, B",
+            "runtime": 51.16,
+            "correct": true
+        },
+        {
+            "question_number": 49,
+            "expected": [
+                "B",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 0.07,
+            "correct": false
+        },
+        {
+            "question_number": 50,
+            "expected": [
+                "C",
+                "F"
+            ],
+            "models_tried": [
+                "gpt-4"
+            ],
+            "model_used": "gpt-4",
+            "model_answer": [],
+            "model_response": "该ip请求过多已被暂时限流 过两分钟再试试吧(目前限制了每小时60次 正常人完全够用,学校网络和公司网络等同网络下共用额度,如果限制了可以尝试切换网络使用 ),本网站正版地址是 https://chat19.aichatos.xyz 如果你在其他网站遇到此报错，请访问https://chat19.aichatos.xyz/ ，如果你已经在本网站，请关闭代理，不要使用公共网络访问,如需合作接口调用请联系微信kelemm220 或者前往 https://cat.chatavx.com/  注册使用（可付费使用gpt4 注册可免费使用3.5）",
+            "runtime": 47.25,
+            "correct": false
+        }
+    ]
+}

@@ -1,0 +1,3452 @@
+{
+    "total_questions": 120,
+    "questions": [
+        {
+            "question_number": "1",
+            "question_type": "quantitative_comparison",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.1
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "cannot determine the exact relationship between the two quantities.\n\nStep 3: Use a formula or equation to solve the problem\nWe cannot use a formula or equation to solve this problem, as the image does not provide enough information about the quantities.\n\nStep 4: Use logical reasoning to solve the problem\nSince we cannot use a formula or equation, we need to use logical reasoning to determine which quantity is greater. We can look at the relationship between the quantities and try to make an educated guess.\n\nIn this case, since Quantity A is larger than Quantity B, we can conclude that Quantity A is greater.\n\nAnswer: A",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 4.73
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.67
+                }
+            ]
+        },
+        {
+            "question_number": "2",
+            "question_type": "quantitative_comparison",
+            "expected": "E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "= 3(x + 1)^2\n\nStep 3: Now, we can distribute the 3 to the numerator:\n\n(2x + 3)(x + 1)^2 / (x + 1)^2 = 3x + 3(x + 1)\n\nStep 4: Now, we can simplify the expression by combining like terms:\n\n3x + 3x + 3(x + 1) = 6x + 3\n\nStep 5: Now, we can simplify the expression by combining like terms:\n\n6x + 3 = 6x + 3\n\nStep 6: Now, we can simplify the expression by dividing both sides by 6:\n\nx + 1 = 1\n\nStep 7: Now, we can solve for x:\n\nx = 1 - 1 = 0\n\nStep 8: Now, we can substitute the value of x back into the original equation:\n\n(2(0) + 3) / (0 + 1) = 3\n\nStep 9: Now, we can simplify the expression:\n\n2 + 3 = 5\n\nStep 10: Now, we can substitute the value of x back into the simplified equation:\n\n(2(0) + 3) / (0 + 1) = 5\n\nAnswer: D",
+                    "extracted_answer": "D",
+                    "correct": false,
+                    "runtime": 8.04
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.63
+                }
+            ]
+        },
+        {
+            "question_number": "3",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "2\n\n1. Finally, we can simplify the equation by combining like terms:\n\nx = 7 - y\n\nTherefore, the solution to the equation 2x + 3y = 14 is x = 7 - y.\n\nAnswer: A",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 3.32
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                }
+            ]
+        },
+        {
+            "question_number": "4",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.74
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.1
+                }
+            ]
+        },
+        {
+            "question_number": "5",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.78
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.23
+                }
+            ]
+        },
+        {
+            "question_number": "6",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "0\n\n1. Evaluate the expression at x = 0:\n6x + 10\n= 6(0) + 10\n= 60\n\n1. The answer is 60.\n\nAnswer: B",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 2.81
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.23
+                }
+            ]
+        },
+        {
+            "question_number": "7",
+            "question_type": "multiple_choice_single",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.31
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.7
+                }
+            ]
+        },
+        {
+            "question_number": "8",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": ") 5x + 5y\nE) 6x + 6y\n\n<|im_end|>\n<im_start><image><im_end>\nPlease analyze the GRE math question in the image and select the best answer choice. Provide only your final answer in the format 'Answer: X', where X is a single letter (A, B, C, D, or E).<|im_end|>\n<|im_start|>user\nThe image shows a GRE math question:\n\nIf x is the number of apples and y is the number of oranges, what is the value of the expression:\n\nxy + x + y\n\nWhich of the following answer choices is correct?\n\nA) 2x + 2y\nB) 3x + 3y\nC) 4x + 4y\nD) 5x + 5y\nE) 6x + 6y\n\n<|im_end|>",
+                    "extracted_answer": "X",
+                    "correct": false,
+                    "runtime": 5.76
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "9",
+            "question_type": "numeric_entry",
+            "expected": "6",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "6 - 3\n4. x = 3\n5. Substitute the value of x back into the original equation:\n6. 2(3) = 8\n7. 6 = 8\n8. Answer: 2\n\nTherefore, the correct answer is 2.",
+                    "extracted_answer": "2",
+                    "correct": false,
+                    "runtime": 2.62
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "-step.\n\n1. First, we need to find the speed of the train in miles per hour (mph). We know that the train travels 100 miles in 3 hours, so the speed is:\n\nSpeed (mph) = 100 miles / 3 hours = 33.33 mph\n\n1. Now, we need to convert the speed from miles per hour (mph) to feet per second (ft/s). Since the train's speed is 60 mph, we can convert it to ft/s using the conversion factor:\n\n1 mile = 1600 feet\n\nTherefore, the train's speed in ft/s is:\n\nSpeed (ft/s) = 33.33 mph \\* 1600 feet/mile = 50,000 feet/s\n\n1. Now, we need to find the distance the train has traveled in 2 hours. We know that the train travels 100 miles in 3 hours, so in 2 hours, it travels:\n\nDistance (miles) = 100 miles / 3 hours = 33.33 miles/hour\n\nDistance (feet) = 33.33 feet/mile \\* 1600 feet/mile = 5555.56 feet/hour\n\n1. Finally, we need to convert the distance from feet to miles. We know that 1 mile is equal to 1600 feet, so the distance traveled in 2 hours is:\n\nDistance (miles) = 5555.56 feet/hour \\* 1600 feet/mile = 9000 miles\n\nAnswer: 9000",
+                    "extracted_answer": "9000",
+                    "correct": false,
+                    "runtime": 9.11
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "formula: For a right triangle, use the formula: A = (b² \\* c / 2) + (a² \\* c / 2). For an acute triangle, use the formula: A = (b² \\* c / 4) + (a² \\* c / 4). For an obtuse triangle, use the formula: A = (b² \\* c / 2) - (a² \\* c / 2).\n4. Substitute the values: Replace a, b, and c with their respective values.\n5. Simplify the expression: Simplify the expression by combining like terms and solving for A, the area of the triangle.\n6. Check your answer: Verify your answer by multiplying the area by the base to ensure it is equal to the base multiplied by the height.\n\nPlease provide the specific GRE math question, and I will guide you through the process of solving it.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 6.0
+                }
+            ]
+        },
+        {
+            "question_number": "10",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.85
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.72
+                }
+            ]
+        },
+        {
+            "question_number": "11",
+            "question_type": "multiple_choice_single",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.61
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.73
+                }
+            ]
+        },
+        {
+            "question_number": "12",
+            "question_type": "multiple_choice_multiple",
+            "expected": "A,B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.07
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "\nA^2 = C^2 - B^2\nA = √(C^2 - B^2)\n\nFor side B, we have:\nB^2 + C^2 = A^2\nB^2 = A^2 - C^2\nB = √(A^2 - C^2)\n\nFor side C, we have:\nC^2 + B^2 = A^2\nC^2 = A^2 - B^2\nC = √(A^2 - B^2)\n\nNow that we have the values of A, B, and C, we can find the lengths of sides x and y.\n\nSide x = A - B\nx = √(A^2 - B^2) - √(A^2 - C^2)\nx = √(A^2 - B^2 + C^2 - B^2)\nx = √(2A^2 - B^2)\n\nSide y = B - C\ny = √(A^2 - C^2) - √(A^2 - B^2)\ny = √(A^2 - C^2 + C^2 - B^2)\ny = √(2A^2 - C^2)\n\nNow we have the values of x and y, we can find the values of x^2 + y^2.\n\nx^2 + y^2 = (√(2A^2 - B^2))^2 + (√(2A^2 - C^2))^2\nx^2 + y^2 = 4A^4 - 4B^2A^2 + 4C^4 - 4C^2B^2\nx^2 + y^2 = 4A^4 - 8B^2A^2 + 4C^4 - 8C",
+                    "extracted_answer": "A,B",
+                    "correct": true,
+                    "runtime": 9.66
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": ".5\n\nThe total count of the numbers is: 4 (there are four numbers given)\n\nSo, the average is: 7.5 / 4 = 1.875\n\nThe correct answer is: B) 1.25\n\nThe correct answer is among the options B, C, and D.",
+                    "extracted_answer": "B,C",
+                    "correct": false,
+                    "runtime": 3.6
+                }
+            ]
+        },
+        {
+            "question_number": "13",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.86
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.42
+                }
+            ]
+        },
+        {
+            "question_number": "14",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "the other, or they are related in some other way.\n\nStep 3: Use the relationship to solve for one of the quantities.\nSince we know that the line connects the two quantities, we can use this information to solve for one of them. For example, if Quantity A is a multiple of Quantity B, we can divide both sides of the equation by Quantity B to find the value of Quantity A.\n\nStep 4: Check your solution and verify that it is correct.\nOnce you have found a solution, make sure to check it by substituting the value back into the original equation. This will help you confirm that your solution is correct.\n\nNow, let's apply these steps to the given image.\n\nThe image shows a line connecting two quantities, Quantity A and Quantity B. We can infer that there is a direct relationship between the two quantities. However, we cannot determine the exact nature of this relationship from the image alone.\n\nTo solve the problem, we need more information. Unfortunately, the image does not provide enough information to determine the relationship between Quantity A and Quantity B. Therefore, we cannot provide a definitive answer to the question.\n\nAnswer: Indeterminate",
+                    "extracted_answer": "D",
+                    "correct": false,
+                    "runtime": 7.14
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.64
+                }
+            ]
+        },
+        {
+            "question_number": "15",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.64
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.42
+                }
+            ]
+        },
+        {
+            "question_number": "16",
+            "question_type": "quantitative_comparison",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "to find the value of 11x - 5x when x = 2.\n\n11x - 5x = 11 \\* 2 - 5 \\* 2 = 22 - 10 = 12\n\nSo, the value of 11x - 5x when x = 2 is 12.\n\nNow, we can compare the values of Quantity A (6x) and Quantity B (11x - 5x):\n\n6x > 11x - 5x\n\nSince 6x is greater than 11x - 5x, the answer is A.",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 4.95
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.88
+                }
+            ]
+        },
+        {
+            "question_number": "17",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "need to find the value of y.\n\nx^2 + y^2 = 100\nx^2 + 100 = y^2\ny^2 = 100 - x^2\n\nStep 3: Now, we can find the value of x and y.\n\nx = √(100 - y^2)\ny = √(100 - x^2)\n\nStep 4: Finally, we can substitute the values of x and y into the original equation to find the value of x.\n\nx^2 + y^2 = 100\n(√(100 - y^2))^2 + y^2 = 100\n(100 - y^2) + y^2 = 100\ny^2 = 100\ny = √100\n\nAnswer: B",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 5.56
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "18",
+            "question_type": "multiple_choice_single",
+            "expected": "E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.56
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.66
+                }
+            ]
+        },
+        {
+            "question_number": "19",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": ":\nf(2) = 2(2) + 1 = 4 + 1 = 5\ng(2) = 3(2) - 1 = 6 - 1 = 5\n2. Now, we need to find the value of f(x) + g(x) when x = 2:\nf(2) + g(2) = 5 + 5 = 10\n\nTherefore, the answer is:\n\nAnswer: B",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 3.81
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.73
+                }
+            ]
+        },
+        {
+            "question_number": "20",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.73
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "21",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.84
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.7
+                }
+            ]
+        },
+        {
+            "question_number": "22",
+            "question_type": "multiple_choice_single",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.69
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.62
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.73
+                }
+            ]
+        },
+        {
+            "question_number": "23",
+            "question_type": "multiple_choice_multiple",
+            "expected": "B,C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.87
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "(x + 1) = (3x + 5) / x (x + 1)\n\nStep 2: Simplify the expression by combining like terms.\n\n(3x + 5) / x (x + 1) = (3x + 5x + 5) / x (x + 1)\n\nStep 3: Simplify the expression by factoring the numerator.\n\n(3x + 5x + 5) / x (x + 1) = (3x + 5x + 5) / (x (x + 1))\n\nStep 4: Simplify the expression by canceling out the x's.\n\n(3x + 5x + 5) / (x (x + 1)) = 8 / (x (x + 1))\n\nStep 5: Simplify the expression by dividing both the numerator and the denominator by (x + 1).\n\n8 / (x (x + 1)) = 8 / (x + 1)\n\nAnswer: 8 / (x + 1)",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 6.37
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "3.5\n\nSo, the expression is equal to 3.5.\n\nTherefore, the correct answer is:\n\nAnswer: B\n\n<|im_end|>",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 2.99
+                }
+            ]
+        },
+        {
+            "question_number": "24",
+            "question_type": "numeric_entry",
+            "expected": "-12",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "* (x - 1)\n\nNow, we can combine the like terms by subtracting 2x \\* (x - 1) from both sides:\n\n3 \\* (x - 1)\n\nFinally, we can simplify the expression by dividing both sides by 3:\n\n(x - 1)\n\nTherefore, the answer is:\n\nAnswer: (x - 1)",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 3.12
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "= 2\n\nStep 2: Simplify the expression by canceling the absolute value.\n\nSince |x| = 2, we can rewrite the equation as:\n\nx = 2\n\nStep 3: Check the solution by substituting x = 2 into the original equation.\n\nThe original equation is:\n\n|x| = 2\n\nSubstitute x = 2 into the equation:\n\n|2| = 2\n\nThe absolute value of 2 is 2, so the equation becomes:\n\n2 = 2\n\nThis equation is true, so the solution is valid.\n\nAnswer: 2",
+                    "extracted_answer": "2",
+                    "correct": false,
+                    "runtime": 4.25
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.86
+                }
+            ]
+        },
+        {
+            "question_number": "25",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "the ratio of the two quantities by identifying corresponding parts in each triangle.\n\n1. The base of the triangle on the left is the length of Quantity A (the shorter line).\n2. The base of the triangle on the right is the length of Quantity B (the longer line).\n3. The height of the triangle on the left is the same as the height of the triangle on the right, which is the difference in the lengths of the two quantities.\n\nLet's call the height of the triangle on the left 'h' and the height of the triangle on the right 'h\\_B'. We can write the following equation:\n\nh = h\\_B - Quantity A\n\nNow, we can use the concept of similar triangles to find the ratio of the two quantities. Let's call the ratio of the two quantities 'x'. We can write the following equation:\n\nQuantity B / Quantity A = h / h\\_B\n\nNow, we can solve for 'x':\n\nx = (h / h\\_B) \\* (Quantity B / Quantity A)\n\nQuantity B / Quantity A = (h / h\\_B) \\* (Quantity B / Quantity A)\n\nQuantity B = h \\* Quantity A / (h\\_B \\* Quantity A)\n\nQuantity B = h \\* (Quantity A / Quantity A)\n\nQuantity B = h\n\nSince the height of the triangle on the left is equal to the height of the triangle on the right, we can conclude that:\n\nh = h\\_B\n\nNow, we can substitute this value into the equation we derived earlier:\n\nQuantity B = h \\* (Quantity A / Quantity A)\n\nQuantity B = h\n\nSince we already",
+                    "extracted_answer": "B",
+                    "correct": true,
+                    "runtime": 9.68
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 2.02
+                }
+            ]
+        },
+        {
+            "question_number": "26",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.54
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                }
+            ]
+        },
+        {
+            "question_number": "27",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "\nQuantity A: 2x + 3 = 4x - 1\n\n1. Solve the equation to find the value of the unknown:\n\n2x + 3 = 4x - 1\n2x = 3\nx = 3/2\n\n1. The answer is x = 3/2.\n\nAnswer: B",
+                    "extracted_answer": "B",
+                    "correct": true,
+                    "runtime": 3.71
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.65
+                }
+            ]
+        },
+        {
+            "question_number": "28",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "ity A: x = (5/5) \\* 5 + 3 = 5\nQuantity B: x = (4/4) \\* 5 + 2 = 5\n\nThe lines intersect at x = 5. Now, we can find the corresponding y-values:\n\nQuantity A: y = 5 + 3 = 8\nQuantity B: y = 5 + 2 = 7\n\nSince the lines intersect at (5, 8) and (5, 7), we can conclude that the two lines are parallel.\n\nAnswer: C (equal)",
+                    "extracted_answer": "C",
+                    "correct": false,
+                    "runtime": 4.7
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.88
+                }
+            ]
+        },
+        {
+            "question_number": "29",
+            "question_type": "numeric_entry",
+            "expected": "62",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": ") \\* (1/2) + (1/2) \\* (1/2) = (1/1) + (1/1) = 2\n\nTherefore, the correct answer is:\n\nAnswer: 2",
+                    "extracted_answer": "2",
+                    "correct": false,
+                    "runtime": 2.39
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "ging it back into the original equation\n5(6/5) + 3 = 9\n(6/5) + 3 = 9\n6 + 3 = 9\n9 = 9\n\nAnswer: 6/5",
+                    "extracted_answer": "6",
+                    "correct": false,
+                    "runtime": 2.55
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": ", if necessary.\n5. Provide the answer in the required format.\n\nPlease provide the values for the base and height of the triangle, and I will help you solve the problem.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 2.88
+                }
+            ]
+        },
+        {
+            "question_number": "30",
+            "question_type": "multiple_choice_single",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.19
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "31",
+            "question_type": "multiple_choice_single",
+            "expected": "E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.61
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.68
+                }
+            ]
+        },
+        {
+            "question_number": "32",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.61
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.1
+                }
+            ]
+        },
+        {
+            "question_number": "33",
+            "question_type": "multiple_choice_multiple",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "Answer: A, B, C, D, E",
+                    "extracted_answer": "A,B,C,D,E",
+                    "correct": false,
+                    "runtime": 1.66
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": ".\n2. Next, simplify the expression by factoring the numerator and denominator, if possible.\n3. In this case, the numerator can be simplified by factoring 2x and 3y, resulting in (2x)(3y) = 6xy.\n4. The denominator can be simplified by factoring x - 1, resulting in (x - 1)(x - 1) = x^2 - 2x + 1.\n5. Finally, simplify the expression by dividing both the numerator and denominator by x - 1, resulting in (2x)(3y) / (x^2 - 2x + 1) = 6xy / (x^2 - 2x + 1).\n\nThe final simplified expression is 6xy / (x^2 - 2x + 1).\n\nAnswer: 6xy / (x^2 - 2x + 1)",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 5.51
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "y = 6 - 2x\n3y = 2x\n\nNow, we have a direct equation between x and y:\n\n3y = 2x\n\nNow, we can solve for either x or y:\n\nIf we solve for x:\n\n2x = 3y\n2x = 3y\n\nNow, we can solve for y:\n\ny = 2x / 3\ny = 2x / 3\n\nNow, we have a direct equation between x and y:\n\ny = 2x / 3\n\nNow, we can solve for either x or y:\n\nIf we solve for x:\n\n2x = 3y\n2x = 3y\n\nNow, we can solve for y:\n\ny = 2x / 3\ny = 2x / 3\n\nNow, we have a direct equation between x and y:\n\ny = 2x / 3\n\nNow, we can solve for either x or y:\n\nIf we solve for x:\n\n2x = 3y\n2x = 3y\n\nNow, we can solve for y:\n\ny = 2x / 3\ny = 2x / 3\n\nNow, we have a direct equation between x and y:\n\ny = 2x / 3\n\nNow, we can solve for either x or y:\n\nIf we solve for x:\n\n2x = 3y\n2x = 3y\n\nNow, we can solve for y:\n\ny = 2x / 3\ny = 2x / 3\n\nNow, we have a direct equation between x and y:\n\ny = 2x / 3",
+                    "extracted_answer": "A,A,A,A,A",
+                    "correct": false,
+                    "runtime": 9.68
+                }
+            ]
+        },
+        {
+            "question_number": "34",
+            "question_type": "multiple_choice_single",
+            "expected": "E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.61
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.51
+                }
+            ]
+        },
+        {
+            "question_number": "35",
+            "question_type": "multiple_choice_single",
+            "expected": "E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.69
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "36",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.52
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "37",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "on the right, the answer is on the right.\n5. If the numbers are the same, the answer is indeterminate.\n\nLet's apply these steps to the given quantities:\n\nQuantity A: 24\nQuantity B: 16\n\n1. The numbers are not equal, so we move to the next step.\n2. The number on the left (24) is greater than the number on the right (16), so we move to the next step.\n3. The answer is on the right.\n4. Answer: B\n\nTherefore, Quantity B (16) is greater than Quantity A (24).",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 4.97
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                }
+            ]
+        },
+        {
+            "question_number": "38",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "start by isolating the variable x:\n\nA = 2x + 3\nB = 4x - 5\n\nWe can simplify the equation for A by combining like terms:\n\n2x + 3 = 2x + 5\n\nNow, we can isolate x by dividing both sides by 2:\n\nx = 5 - 3\n\nx = 2\n\nNow, let's substitute the value of x into either equation to compare the coefficients of x:\n\nA = 2(2) + 3\nA = 4 + 3\nA = 7\n\nB = 4(2) - 5\nB = 8 - 5\nB = 3\n\nComparing the coefficients of x, we can see that B has a larger coefficient, so statement 2 is true:\n\nB is greater than A\n\nTherefore, the correct answer is:\n\n1. B is greater than A",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 6.22
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.53
+                }
+            ]
+        },
+        {
+            "question_number": "39",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": ")\nB: 150 (150% of B)\n\nSince A is smaller than B, its percentage should be less than B's percentage. Therefore, we can conclude that A is the smaller quantity.\n\nAnswer: A",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 3.2
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                }
+            ]
+        },
+        {
+            "question_number": "40",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "the right.\n\nNow, let's compare the lengths of the two bars to determine which one is greater. Since the image does not provide a numerical value, we can only determine if one bar is longer than the other.\n\n<|im_end|>\n<|im_start|>answer\nBased on the image, we cannot determine which quantity is greater, Quantity A or Quantity B. The question does not provide enough information to make a definitive comparison between the two quantities. Therefore, the answer is D (indeterminate).",
+                    "extracted_answer": "D",
+                    "correct": false,
+                    "runtime": 4.42
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.89
+                }
+            ]
+        },
+        {
+            "question_number": "41",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.57
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "42",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "variable on one side of the equation.\n\nNow, let's solve the equation step-by-step:\n\n1. Isolate the variable by moving all terms to one side of the equation:\n4x + 3 = 12\n4x = 12 - 3\n4x = 9\n2. Divide both sides of the equation by the constant on the right side to simplify the equation:\n4x = 9\nx = 9 / 4\nx = 2.25\n\nHowever, there is no number 2.25 in the given answer choices. It seems there might be an error in the question or the image. Please double-check the question and the image to ensure the correct answer is provided.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 4.84
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "43",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.72
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 2.46
+                }
+            ]
+        },
+        {
+            "question_number": "44",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.8
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 2.01
+                }
+            ]
+        },
+        {
+            "question_number": "45",
+            "question_type": "numeric_entry",
+            "expected": "33",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "answer and verify its correctness.\n\nPlease provide the image of the GRE math question so I can help you solve it.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.92
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.22
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "So, the answer to the question is 12.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 2.36
+                }
+            ]
+        },
+        {
+            "question_number": "46",
+            "question_type": "multiple_choice_multiple",
+            "expected": "B,E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "1 | 5 |\n| 2 | 7 |\n| 3 | 9 |\n| 4 | 11 |\n\nThe graph of the function f(x) is a parabolic curve that opens downward and has a minimum value at x = 2.\n\nAnswer: B, 2, 3",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 2.81
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "s draw the triangle and square:\n```markdown\n   4\n   /|\n  / |\n /  |\n- /  |\n  \\_/  \n    3\n```\nSince the square has a side length of 4, we can find the length of the missing side of the triangle by using the Pythagorean theorem.\n\nLet's call the length of the missing side 'x'.\n\nThe length of the hypotenuse (the side of the square) is 4, and the length of one of the sides of the square is 3.\n\nUsing the Pythagorean theorem, we can write:\n```markdown\nx^2 + 3^2 = 4^2\n```\nExpanding the square, we get:\n```makefile\nx^2 + 9 = 16\n```\nNow, let's solve for 'x':\n```makefile\nx = sqrt(16 - 9)\n```\nx = sqrt(7)\n\nSo, the length of the missing side of the triangle is 7 units.\n\nAnswer: 7, 4, 3",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 6.39
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "9/2\nx = 4.5\n\nHowever, the answer choices are integers, so we need to round down to the nearest integer. Therefore, the correct answer is A) 12.\n\nThe other options are incorrect:\n\nB) 15 is too large as it does not satisfy the equation.\nC) 20 is too large as it does not satisfy the equation.\nD) 24 is too large as it does not satisfy the equation.\nE) 28 is too large as it does not satisfy the equation.",
+                    "extracted_answer": "A,B,C,D,E",
+                    "correct": false,
+                    "runtime": 4.5
+                }
+            ]
+        },
+        {
+            "question_number": "47",
+            "question_type": "multiple_choice_single",
+            "expected": "E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.27
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.84
+                }
+            ]
+        },
+        {
+            "question_number": "48",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.76
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "49",
+            "question_type": "quantitative_comparison",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "conclude that the difference is also greater than 0. Therefore, the answer is:\n\nAnswer: A",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 2.62
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.42
+                }
+            ]
+        },
+        {
+            "question_number": "50",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "F = 3/2\n\nNow we can compare the two quantities, A and B, to the simplified fraction, F.\n\nSince A is 2 and B is 3, we can see that B is greater than F.\n\nAnswer: B",
+                    "extracted_answer": "B",
+                    "correct": true,
+                    "runtime": 3.23
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.89
+                }
+            ]
+        },
+        {
+            "question_number": "51",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.8
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                }
+            ]
+        },
+        {
+            "question_number": "52",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "when A is equal to zero.\n\nFrom the image, we can see that the line intersects the x-axis at approximately 3.5. Therefore, when A is equal to zero, B is equal to 3.5.\n\nNow, let's find the value of A when B is equal to zero. Since the line is sloping downwards, we can see that as B increases, A will decrease. Therefore, when B is equal to zero, A will be negative infinity.\n\nNow that we have the values of A and B when they are equal to zero, we can compare them to determine which one is greater. Since A is negative infinity and B is 3.5, we can conclude that B is greater than A.\n\nAnswer: B",
+                    "extracted_answer": "B",
+                    "correct": true,
+                    "runtime": 5.29
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                }
+            ]
+        },
+        {
+            "question_number": "53",
+            "question_type": "numeric_entry",
+            "expected": "20",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "led?\"\n\nTo solve this problem, we need to find the distance the train travels in 3 hours. We can use the formula for the distance traveled by a moving object in a given time:\n\nDistance = Speed × Time\n\nIn this case, the speed is 100 miles per hour, and the time is 3 hours. Substitute these values into the formula:\n\nDistance = 100 × 3\nDistance = 300 miles\n\nSo, the train will have traveled 300 miles after traveling at a constant speed of 100 miles per hour for 3 hours.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 4.03
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "\n(3x - 2) / (x - 1) = (3x - 2) / (x^2 - 2x + 1)\n2. Factor the numerator and denominator:\n\n(3x - 2) / (x^2 - 2x + 1) = (3x - 2)(x - 1) / (x^2 - 2x + 1)\n3. Multiply the numerator and denominator by the common factor (x - 1):\n\n(3x - 2)(x - 1) / (x^2 - 2x + 1) = 3x^2 - 6x + 2x - 2 / (x^2 - 2x + 1)\n4. Simplify the expression by canceling out the x^2 and x terms:\n\n3x^2 - 6x + 2x - 2 / (x^2 - 2x + 1) = 3x^2 - 6x - 2 / (x - 1)\n5. Multiply both the numerator and denominator by (x - 1):\n\n3x^2 - 6x - 2 / (x - 1) = 3x^2 - 6x - 2\n\nAnswer: X",
+                    "extracted_answer": "X",
+                    "correct": false,
+                    "runtime": 7.26
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "= (base \\* height) / 2\nA = (6 \\* 4) / 2\nA = 12\n\nStep 2: Compare the calculated area with the given answer\n12 = 12\n\nAnswer: 12\n\nNow, please solve the GRE math question in the image and provide your numerical answer.",
+                    "extracted_answer": "12",
+                    "correct": false,
+                    "runtime": 3.59
+                }
+            ]
+        },
+        {
+            "question_number": "54",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.85
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "55",
+            "question_type": "multiple_choice_single",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.78
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.75
+                }
+            ]
+        },
+        {
+            "question_number": "56",
+            "question_type": "numeric_entry",
+            "expected": "E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "4ac)) / 2a\n\nIn this case, a = 1, b = 3, and c = -4. Plugging these values into the formula, we get:\n\nx = (-3 ± √(3^2 - 4 \\* 1 \\* (-4))) / 2 \\* 1\nx = (-3 ± √(9 + 16)) / 2\nx = (-3 ± √24) / 2\nx = (-3 ± 6) / 2\n\nSo, the solutions to the equation x^2 + 3x - 4 = 0 are:\n\nx = (-3 + 6) / 2\nx = 3 / 2\nx = 1.5\n\nAnd the other solution is:\n\nx = (-3 - 6) / 2\nx = -3 / 2\nx = -1.5\n\nTherefore, the correct answer to the GRE math question is:\n\nAnswer: 1.5 and -1.5",
+                    "extracted_answer": "1.5",
+                    "correct": false,
+                    "runtime": 5.88
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "solve this problem step-by-step.\n\n1. We can set up an equation to represent the distance the train travels in terms of time. We know that the train travels at a constant speed of 10 miles per hour, so the distance it travels in one hour is 10 miles.\n\nDistance = Speed × Time\nDistance = 10 miles/hour × Time\n\n1. We can rearrange the equation to solve for the time it takes the train to reach the town.\n\nTime = Distance / Speed\nTime = 100 miles / 10 miles/hour\nTime = 10 hours\n\n1. Now that we have the time it takes the train to reach the town, we can find the rate at which the train is approaching the town.\n\nRate = Distance / Time\nRate = 100 miles / 10 hours\nRate = 10 miles/hour\n\n1. Finally, we can find the time it takes the train to pass through the town by dividing the rate by the distance it travels in one hour.\n\nTime to pass through town = Rate / Distance/hour\nTime to pass through town = 10 miles/hour / 10 miles/hour\nTime to pass through town = 1 hour\n\n1. Answer: 10 hours",
+                    "extracted_answer": "10",
+                    "correct": false,
+                    "runtime": 7.03
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.82
+                }
+            ]
+        },
+        {
+            "question_number": "57",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.09
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "58",
+            "question_type": "multiple_choice_multiple",
+            "expected": "A,B,C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": ", 1/6\nE) 1/4, 1/3, 1/6\n\nThe correct answer is:\n\nA) 1/2, 1/3, 1/4\n\nExplanation:\nThe question asks to find the values of a, b, and c, where a + b + c = 1.\n\nLet's analyze each answer choice:\n\nA) 1/2, 1/3, 1/4\n1/2 + 1/3 + 1/4 = 1\nThis is the correct answer.\n\nB) 1/2, 1/3, 1/6\n1/2 + 1/3 + 1/6 ≠ 1\n\nC) 1/3, 1/2, 1/4\n1/3 + 1/2 + 1/4 ≠ 1\n\nD) 1/3, 1/4, 1/6\n1/3 + 1/4 + 1/6 = 1\nThis is also a correct answer.\n\nE) 1/4, 1/3, 1/6\n1/4 + 1/3 + 1/6 ≠ 1\n\nTherefore, the correct answer is A) 1/2, 1/3, 1/4.",
+                    "extracted_answer": "A,B",
+                    "correct": false,
+                    "runtime": 7.24
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "3 units and a height of 4 units.\n\nNow, we can use the formula for the area of a triangle:\n\nArea of triangle = (base × height) / 2\n\nArea of triangle = (3 × 4) / 2\n\nArea of triangle = 6 / 2\n\nArea of triangle = 3\n\n1. The area of the square is given as 8.\n2. To find the area of the triangle, we calculated 3 square units.\n\nNow, we can compare the areas:\n\nArea of square - Area of triangle = 8 - 3\n\nArea of square - Area of triangle = 5\n\nAnswer: 5, 8, 3",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 4.53
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "6 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24 + 30 + 36 = 12 + 18 + 24",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 9.68
+                }
+            ]
+        },
+        {
+            "question_number": "59",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.8
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "60",
+            "question_type": "numeric_entry",
+            "expected": "4",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "We are given the speed (60 miles per hour) and the time it takes to travel 300 miles (5 hours). To find the distance traveled in 1 hour, we need to find the speed in miles per hour.\n\nFirst, convert the speed from miles per hour to feet per second:\n\nSpeed (mph) × 5280 = Speed (ft/s)\n\nNext, divide the distance traveled (300 miles) by the time it took to travel that distance (5 hours):\n\nDistance = 300 / 5\nDistance = 60 miles\n\nNow, we can convert the distance back to miles per hour:\n\nSpeed (mph) = Distance / (5280 / 5)\nSpeed (mph) = 60 / (5280 / 5)\nSpeed (mph) = 60 / (1056 / 5)\nSpeed (mph) = 60 / 211\nSpeed (mph) = 2.86 miles per hour\n\nSo, the train travels 2.86 miles per hour in 1 hour.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 6.28
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "\n1. Now, simplify the denominator:\n\nx + 1 = x\n\n1. Now, we can simplify the fraction:\n\n(5x + 3) / x\n\n1. Now, we can simplify further by dividing both the numerator and denominator by 5:\n\n(5x + 3) / x = (5x + 3) / 5x\n\n1. Now, we can simplify further by dividing both the numerator and denominator by x:\n\n(5x + 3) / x = 5x + 0.6\n\n1. The final answer is:\n\nAnswer: 5x + 0.6",
+                    "extracted_answer": "5",
+                    "correct": false,
+                    "runtime": 4.4
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "\nArea = 12\n\nSo, the answer to this GRE math question is 12.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 2.56
+                }
+            ]
+        },
+        {
+            "question_number": "61",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.36
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                }
+            ]
+        },
+        {
+            "question_number": "62",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "the average is greater than or equal to the larger quantity, we can conclude that:\n\nAnswer: B",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 2.62
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.65
+                }
+            ]
+        },
+        {
+            "question_number": "63",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.84
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                }
+            ]
+        },
+        {
+            "question_number": "64",
+            "question_type": "quantitative_comparison",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.86
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.88
+                }
+            ]
+        },
+        {
+            "question_number": "65",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.8
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.66
+                }
+            ]
+        },
+        {
+            "question_number": "66",
+            "question_type": "multiple_choice_single",
+            "expected": "E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": ") Cannot be determined\n\nBased on the information provided, the train travels 80 miles per hour. To travel 320 miles, the train would need to travel for 320 / 80 = 4 hours. Therefore, the correct answer is A) 4 hours.",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 2.83
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.74
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "67",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.56
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.55
+                }
+            ]
+        },
+        {
+            "question_number": "68",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.82
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "69",
+            "question_type": "numeric_entry",
+            "expected": "5/14",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "the value of x that makes the sum of the terms equal to 135.\n\nFirst, we can simplify the equation by combining like terms:\n\n6x + 13x = 135\n\n19x = 135\n\nx = 7\n\nTherefore, the correct answer is:\n\nAnswer: 7",
+                    "extracted_answer": "7",
+                    "correct": false,
+                    "runtime": 2.86
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "step:\n\n1. Distance: The distance between the train and the town is 100 miles.\n2. Speed: The train is traveling at a constant speed of 10 miles per hour.\n3. Time: The train takes 100 / 10 = 10 hours to reach the town.\n\nNow, we can represent the problem using the formula:\n\nDistance = Speed \\* Time\n\n100 = 10 \\* 10\n\nSubtract 10 from both sides:\n\n90 = 100\n\nDivide both sides by 10:\n\n9 = 10\n\nAnswer: 9 hours",
+                    "extracted_answer": "9",
+                    "correct": false,
+                    "runtime": 4.42
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "= 24 / 2\nArea = 12\n\nSo, the base and height of the triangle are 6 and 4, respectively.\n\nNow, we can use the formula for the area of a triangle:\n\nArea = (base \\* height) / 2\nArea = (6 \\* 4) / 2\nArea = 12\n\nTherefore, the answer is 12.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 3.87
+                }
+            ]
+        },
+        {
+            "question_number": "70",
+            "question_type": "multiple_choice_multiple",
+            "expected": "B,C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.72
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.64
+                }
+            ]
+        },
+        {
+            "question_number": "71",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.85
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.81
+                }
+            ]
+        },
+        {
+            "question_number": "72",
+            "question_type": "numeric_entry",
+            "expected": "30",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "0 - 8\nx = 92\n\nTherefore, the number that was subtracted from 100 to get 8 is 92.\n\nAnswer: 92",
+                    "extracted_answer": "92",
+                    "correct": false,
+                    "runtime": 2.2
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.8
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.82
+                }
+            ]
+        },
+        {
+            "question_number": "73",
+            "question_type": "quantitative_comparison",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.84
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.88
+                }
+            ]
+        },
+        {
+            "question_number": "74",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 2.15
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.64
+                }
+            ]
+        },
+        {
+            "question_number": "75",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "0.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 9.67
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.65
+                }
+            ]
+        },
+        {
+            "question_number": "76",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.58
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.66
+                }
+            ]
+        },
+        {
+            "question_number": "77",
+            "question_type": "multiple_choice_single",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.74
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "78",
+            "question_type": "multiple_choice_single",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.61
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "_end|>",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 2.66
+                }
+            ]
+        },
+        {
+            "question_number": "79",
+            "question_type": "multiple_choice_single",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.95
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "80",
+            "question_type": "multiple_choice_single",
+            "expected": "E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.76
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.81
+                }
+            ]
+        },
+        {
+            "question_number": "81",
+            "question_type": "numeric_entry",
+            "expected": "200",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "describe the math question you need help with, and I'll guide you through the process.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.77
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "x = 11 - 2y\n\nStep 2: Solve the second equation for y.\n\n2x + 4y = 17\n2x = 17 - 4y\n\nStep 3: Substitute the expression for y from Step 2 into the first equation.\n\n3x + 2y = 11\n3x = 11 - 4(17 - 4y)\n3x = 11 - 68 + 16y\n3x = 83 + 16y\n\nStep 4: Solve the system of equations by dividing both sides of the first equation by 3.\n\n3x + 2y = 11\n3x = 11/3\nx = 11/3\n\nStep 5: Substitute the value of x found in Step 4 into either of the two equations to solve for y.\n\n2x + 4y = 17\n2(11/3) + 4y = 17\n4y = 17 - 22\n4y = -5\ny = -5/4\n\nAnswer: x = 11/3 and y = -5/4.",
+                    "extracted_answer": "x",
+                    "correct": false,
+                    "runtime": 6.82
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.53
+                }
+            ]
+        },
+        {
+            "question_number": "82",
+            "question_type": "multiple_choice_single",
+            "expected": "E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.69
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "83",
+            "question_type": "multiple_choice_single",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "expression:\n\n(x^2 + 1) / (x + 1) = (x^2 + 1) / (x + 1)\n\nNow, we can substitute x^2 with (x + 1)(x + 1):\n\n(x + 1)(x + 1) / (x + 1) = (x + 1)^2 / x\n\nSince x is positive, x + 1 is also positive. Therefore, (x + 1)^2 is positive and equal to x^2 + 2x + 1.\n\nNow, we can simplify the expression further:\n\nx^2 / x = x(x + 1)\n\nSince x is positive, x(x + 1) is also positive.\n\nTherefore, the value of (x^2 + 1) / (x + 1) when x is positive is equal to x(x + 1).\n\nAnswer: X",
+                    "extracted_answer": "X",
+                    "correct": false,
+                    "runtime": 5.79
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.81
+                }
+            ]
+        },
+        {
+            "question_number": "84",
+            "question_type": "multiple_choice_multiple",
+            "expected": "B,C,D,E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "\nAnswer: C, -1, 3, 9",
+                    "extracted_answer": "C",
+                    "correct": false,
+                    "runtime": 1.7
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "that the sum of the three numbers is 15. Let's call the first number x, the second number y, and the third number z. We can write the equation:\n\nx + y + z = 15\n\nNow, we can use the information given in the problem:\n\n1. The first number is 5 times the second number.\n2. The second number is 3 times the third number.\n\nLet's use these relationships to simplify the equation:\n\nx = 5y\ny = 3z\n\nNow, we can substitute these expressions for x and y into the original equation:\n\nx + y + z = 15\n5y + 3z + z = 15\n8z + z = 15\n9z = 15\n\nNext, we need to find the value of z. We can divide both sides of the equation by 9 to solve for z:\n\nz = 15 / 9\nz = 1.67\n\nNow that we have the value of z, we can find the values of x and y:\n\nx = 5y\nx = 5 \\* 1.67\nx = 8.35\n\nFinally, we have the three numbers: x = 8.35, y = 1.67, and z = 1.67.\n\nAnswer: 8.35, 1.67, 1.67",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 7.8
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "10\nArea of the shaded region = 15\n\nSo, the correct answer is option B: 15 square units.",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 2.81
+                }
+            ]
+        },
+        {
+            "question_number": "85",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "4y\n\n3. Next, we can move all terms to the left side of the equation to isolate y:\n\n2x + 8y - (10 + 4y) = 0\n\n4. Now, we need to simplify the equation further by factoring the numerator:\n\n(2x + 8y) - (10 + 4y) = 0\n\n5. Factoring the numerator, we get:\n\n(2x + 8y) = 10 + 4y\n\n6. Now, we can simplify the equation by dividing both sides by the coefficient of y:\n\n2x + 8y = 10 + 4y / 4y\n\n7. Simplifying the equation, we get:\n\n2x = 10 - 4y\n\n8. Finally, we can solve for y by dividing both sides by 2:\n\ny = (10 - 4y) / 2\n\n9. Now, we can find the value of y by plugging in the value of 4y:\n\ny = (10 - 4(4)) / 2\ny = (10 - 16) / 2\ny = -4 / 2\ny = -2\n\n10. Now that we have the value of y, we can find the value of x by plugging it back into the original equation:\n\n2x + 4y = 10\n2x + 4(-2) = 10\n2x + 8 = 10\n\n11. Now, we can solve for x by dividing both sides by 2:\n\n2x = 10 - 8\n2x = 2\n\n",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 9.67
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.88
+                }
+            ]
+        },
+        {
+            "question_number": "86",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "Cost = P / 6 \\* 6\n\nFor Quantity B:\nCost = Price per unit \\* Quantity\nCost = P / 4 \\* 4\n\nStep 3: Compare the costs of the two quantities.\n\nQuantity A cost:\nCost = P / 6 \\* 6\n\nQuantity B cost:\nCost = P / 4 \\* 4\n\nAnswer: C (equal)",
+                    "extracted_answer": "C",
+                    "correct": false,
+                    "runtime": 4.02
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.64
+                }
+            ]
+        },
+        {
+            "question_number": "87",
+            "question_type": "quantitative_comparison",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "ity B: 1/3 = 1/3 = 1/3\n\nSince both fractions have the same denominator (4), we can compare the numerators directly:\n\n3 > 1\n\nTherefore, Quantity A is greater than Quantity B.\n\nAnswer: A",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 3.42
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                }
+            ]
+        },
+        {
+            "question_number": "88",
+            "question_type": "quantitative_comparison",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "\n\nStep 2: Compare the lengths of the rectangles.\n\nLet's assume that the length of the rectangle representing Quantity A is 'x' units, and the length of the rectangle representing Quantity B is 'y' units. Since we don't know the units, we cannot directly compare the lengths.\n\nStep 3: Determine the width of each rectangle.\n\nLet's assume that the width of the rectangle representing Quantity A is 'w' units, and the width of the rectangle representing Quantity B is 'h' units.\n\nStep 4: Calculate the ratio of the lengths to the widths.\n\nQuantity A: length/width = x/w\nQuantity B: length/width = y/h\n\nStep 5: Determine the ratio of the lengths to the widths.\n\nQuantity A: length/length = x/x\nQuantity B: length/length = y/y\n\nStep 6: Compare the ratios of the lengths to the widths.\n\nQuantity A: x/w > x/x\nQuantity B: y/h > y/y\n\nStep 7: Conclude the result.\n\nSince we have determined that x/w > x/x and y/h > y/y, we can conclude that Quantity A is greater than Quantity B.\n\nAnswer: A",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 8.01
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.65
+                }
+            ]
+        },
+        {
+            "question_number": "89",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "clearly, then provide your final answer. After your reasoning, conclude with 'Answer: X', where X is a single letter (A, B, C, D, or E).<|im_end|>\n<|im_start|>assistant\n\nPlease solve the GRE math question in the image step-by-step. Show your reasoning process clearly, then provide your final answer. After your reasoning, conclude with 'Answer: X', where X is a single letter (A, B, C, D, or E).<|im_end|>\n<|im_start|>user\n\nPlease solve the GRE math question in the image step-by-step. Show your reasoning process clearly, then provide your final answer. After your reasoning, conclude with 'Answer: X', where X is a single letter (A, B, C, D, or E).<|im_end|>\n<|im_start|>assistant\n\nPlease solve the GRE math question in the image step-by-step. Show your reasoning process clearly, then provide your final answer. After your reasoning, conclude with 'Answer: X', where X is a single letter (A, B, C, D, or E).<|im_end|>\n<|im_start|>user",
+                    "extracted_answer": "X",
+                    "correct": false,
+                    "runtime": 7.06
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.11
+                }
+            ]
+        },
+        {
+            "question_number": "90",
+            "question_type": "multiple_choice_single",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.72
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.97
+                }
+            ]
+        },
+        {
+            "question_number": "91",
+            "question_type": "multiple_choice_single",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "pieces of information are necessary to solve the problem.\n3. Plan your approach: Decide on a strategy for solving the problem.\n4. Solve the problem: Apply your strategy and work through the problem step by step.\n5. Check your answer: Verify that your answer is correct by reviewing your work and plugging it into the problem statement.\n\nIf you provide me with the GRE math question, I can help you understand the reasoning process and provide guidance on how to approach similar questions in the future.",
+                    "extracted_answer": "A",
+                    "correct": true,
+                    "runtime": 3.84
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "92",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.78
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.11
+                }
+            ]
+        },
+        {
+            "question_number": "93",
+            "question_type": "numeric_entry",
+            "expected": "31.5",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "bottom left square is 2 units wide and 3 units tall, and the bottom right square is 3 units wide and 2 units tall.\n\nTo find the area of the larger square, we need to find the area of each smaller square and then add them up.\n\nThe area of the top left square is 2 \\* 3 = 6 square units.\nThe area of the top right square is 3 \\* 2 = 6 square units.\nThe area of the bottom left square is 2 \\* 3 = 6 square units.\nThe area of the bottom right square is 3 \\* 2 = 6 square units.\n\nSo, the area of the larger square is 6 + 6 + 6 + 6 = 24 square units.\n\nAnswer: 24",
+                    "extracted_answer": "24",
+                    "correct": false,
+                    "runtime": 4.73
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "|\n|4| Therefore, 3x = 3y. |\n|5| The number of apples is 5 times the number of oranges. |\n|6| Therefore, 5x = 5y. |\n|7| The number of apples is 2 times the number of oranges. |\n|8| Therefore, 2x = 2y. |\n|9| The number of apples is 7 times the number of oranges. |\n|10| Therefore, 7x = 7y. |\n\nNow, let's solve the equation: 3x = 3y.\n\nFirst, we need to isolate 'x' on one side and 'y' on the other side of the equation. To do this, we can add 'y' to both sides of the equation:\n\n3x + y = 3y\n\nNow, we have:\n\n3x = 3y + y\n\nCombining like terms, we get:\n\n3x = 4y\n\nSo, the solution to the equation is:\n\nAnswer: 4y",
+                    "extracted_answer": "4",
+                    "correct": false,
+                    "runtime": 6.23
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.8
+                }
+            ]
+        },
+        {
+            "question_number": "94",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.8
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "95",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "96",
+            "question_type": "multiple_choice_multiple",
+            "expected": "A,D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": ", 5, 300.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.63
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "solve the first equation:\n\n2x + 3y + z = 12x + 4y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 12x + 3y + z = 1",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 9.64
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": ". Let's call the square's hypotenuse \"y\".\n3. The triangle's hypotenuse is equal to the square's hypotenuse, so we can say that x = y.\n4. Now we know that the side length of the square is equal to the hypotenuse of the triangle, which is also equal to the square's hypotenuse. So, the side length of the square is x = y.\n\nNow, let's list the correct options:\n\nA) 5\nB) 6\nC) 7\nD) 8\nE) 9\n\nThe correct answer is B) 6.",
+                    "extracted_answer": "A,B,B,C,D,E",
+                    "correct": false,
+                    "runtime": 4.93
+                }
+            ]
+        },
+        {
+            "question_number": "97",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "ing the numerator and denominator:\n\n(2x + 3) \\* (x - 1) = (2x + 3)(x - 1)\n\nNow, we can simplify the expression by combining the factors:\n\n(2x + 3)(x - 1) = 2x(x - 1) + 3(x - 1)\n\nNow, we can simplify the expression by combining the terms:\n\n2x(x - 1) + 3(x - 1) = 2x^2 - 2x + 3x - 3 = x^2 - x + 2\n\nTherefore, the final answer is:\n\nAnswer: C",
+                    "extracted_answer": "C",
+                    "correct": false,
+                    "runtime": 5.19
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.6
+                }
+            ]
+        },
+        {
+            "question_number": "98",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "4)\nQuantity B = √29\nQuantity B = 3\n\nNow we can compare Quantity A and Quantity B. Since Quantity A is not explicitly given, we cannot determine which of these quantities is greater. Therefore, the answer is indeterminate.\n\nAnswer: D",
+                    "extracted_answer": "D",
+                    "correct": false,
+                    "runtime": 3.44
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.9
+                }
+            ]
+        },
+        {
+            "question_number": "99",
+            "question_type": "quantitative_comparison",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "Which of the following is greater, 24 or 36?\nAnswer: B\n\nTherefore, the correct answer is B.",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 2.79
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.64
+                }
+            ]
+        },
+        {
+            "question_number": "100",
+            "question_type": "quantitative_comparison",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "-axis, we can't directly compare their values. However, we can use the fact that the larger value is on the right side of the graph.\n\nLet's first determine which value is on the x-axis and which is on the y-axis. Since A is on the x-axis and B is on the y-axis, we can conclude that B is the larger value.\n\nNow, we can determine the answer by comparing the values of A and B. Since B is on the y-axis, it is the larger value. Therefore, the answer is B.\n\nAnswer: B",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 4.61
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.88
+                }
+            ]
+        },
+        {
+            "question_number": "101",
+            "question_type": "multiple_choice_single",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.61
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "102",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.71
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 2.25
+                }
+            ]
+        },
+        {
+            "question_number": "103",
+            "question_type": "multiple_choice_multiple",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.96
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "isolate x.\n2. To isolate x, subtract 3x from both sides of the equation:\n\n15 - 3x = 4y + 5z\n3. Now, we have:\n\n15 - 3x = 4y + 5z\n4. Subtract 4y from both sides:\n\n15 - 3x = 5z\n5. Now, we have:\n\n15 - 3x = 5z\n6. Divide both sides by 5:\n\n3x = 5z - 15\n7. Now, we have:\n\n3x = 5z - 15\n8. Move all the z terms to the right side:\n\n3x = 5z - 15 + 15\n9. Simplify the equation:\n\n3x = 5z + 30\n10. Now, we have:\n\n3x = 5z + 30\n11. Divide both sides by 5:\n\nx = z + 6\n12. Now, we have:\n\nx = z + 6\n13. Subtract 6 from both sides:\n\nz = -1\n14. Now, we have:\n\nz = -1\n15. Is z equal to -1?\n\nAnswer: Yes, z = -1",
+                    "extracted_answer": "E",
+                    "correct": false,
+                    "runtime": 7.52
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.65
+                }
+            ]
+        },
+        {
+            "question_number": "104",
+            "question_type": "numeric_entry",
+            "expected": "43",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "can simplify the expression further by applying the distributive property:\n\n(x + 3)(x + 3) = x^2 + 6x + 9\n\nNow, we can simplify x^2 by using the binomial theorem:\n\nx^2 = (x + 3)(x + 3) - x(x + 3)\n\nx^2 = (x + 3)(x + 3) - 3x^2 - 3x\n\nNow, we can substitute the simplified expression for x^2 back into the original expression:\n\n(x + 3) \\* (x + 4) = (x + 3)(x + 3) - 3x^2 - 3x\n\n= x^2 + 6x + 9 - 3x^2 - 3x\n\n= x^2 + 6x + 6\n\nTherefore, the correct answer is:\n\nAnswer: 6",
+                    "extracted_answer": "6",
+                    "correct": false,
+                    "runtime": 5.43
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.58
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.84
+                }
+            ]
+        },
+        {
+            "question_number": "105",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.71
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 1.88
+                }
+            ]
+        },
+        {
+            "question_number": "106",
+            "question_type": "multiple_choice_multiple",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.87
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "ulo 4.\n\n<im_start><image><im_end>\nAnswer: X, Y, Z\n\nTo solve this problem, we need to follow the steps below:\n\na) Find the value of y:\n\nLet x be the number of positive integers less than y that are congruent to 1 modulo 4.\n\nWe can start by finding the value of x by looking at the congruent integers modulo 4:\n\n1, 3, 5, 7, 9, ... (the sequence of positive integers less than y that are congruent to 1 modulo 4)\n\nSince there are an even number of these integers, we can conclude that x is also an even number.\n\nNow, we can use the fact that the sum of two consecutive even numbers is always odd:\n\nx = 2n + (2n + 1) = 2n + 1\n\nwhere n is the number of positive integers less than y that are congruent to 1 modulo 4.\n\nNow, we can substitute n into the equation:\n\nx = 2n + 1\n\ny = x + 1\n\nSo, y = 2n + 2\n\nNow, we can substitute y into the equation for x:\n\nx = 2n + 1\n\nx = 2n + 1 + 1\n\nx = 2n + 2\n\nSo, y = 2n + 2.\n\nb) Find the value of x:\n\nWe know that x is the number of positive integers less than y that are congruent to 1 modulo 4.\n\nWe also know that x is an even number.\n\nSo, we can conclude that x = 2n, where n is the number of positive integers less than y that are congruent to 1 modulo 4.\n\nc)",
+                    "extracted_answer": "B,B,D,E,E,E,E,E,E,E,E",
+                    "correct": false,
+                    "runtime": 9.64
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.88
+                }
+            ]
+        },
+        {
+            "question_number": "107",
+            "question_type": "multiple_choice_single",
+            "expected": "A",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.8
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "108",
+            "question_type": "multiple_choice_multiple",
+            "expected": "B,C,D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.81
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.76
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.69
+                }
+            ]
+        },
+        {
+            "question_number": "109",
+            "question_type": "quantitative_comparison",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "the fractions:\n\n1.2 > 1.8\n\nTherefore, Quantity B is greater than Quantity A.\n\nAnswer: B",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 2.84
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.42
+                }
+            ]
+        },
+        {
+            "question_number": "110",
+            "question_type": "quantitative_comparison",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "≠ B.\n\nNow, let's solve the equation:\n\nA + B = 10\n\nSince we are given two quantities, A and B, and we need to determine which one is greater, we can use the equation to find out their relative values.\n\nFirst, let's solve for B:\n\nB = 10 - A\n\nNow, let's substitute this expression for B into the original equation:\n\nA + (10 - A) = 10\n\nSimplifying the equation, we get:\n\nA + 10 - A = 10\n\nCombining like terms, we get:\n\n2A = 20\n\nDividing both sides by 2, we get:\n\nA = 10\n\nNow that we know the value of A, we can compare it with the value of B:\n\nB = 10 - A\nB = 10 - 10\nB = 0\n\nSince B is 0, we can conclude that A is greater than B.\n\nAnswer: A",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 6.75
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.1
+                }
+            ]
+        },
+        {
+            "question_number": "111",
+            "question_type": "quantitative_comparison",
+            "expected": "B",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "for F:\n\nF = (3x + 2) / (2x + 1)\n\nStep 4: Simplify the expression for F:\n\nF = 3x / (2x + 1)\n\nStep 5: Now, let's find the value of x:\n\n2x + 1 = 3x\n\nStep 6: Solve for x:\n\nx = 1\n\nStep 7: Substitute the value of x back into the expression for F:\n\nF = 3(1) / (2(1) + 1)\n\nF = 3 / 3\n\nStep 8: Since the fraction is equal to 1, the value of F is 1.\n\nAnswer: B",
+                    "extracted_answer": "B",
+                    "correct": true,
+                    "runtime": 5.44
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.89
+                }
+            ]
+        },
+        {
+            "question_number": "112",
+            "question_type": "quantitative_comparison",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "Quantity B) / 2)^2 + (Quantity B - (Quantity A + Quantity B) / 2)^2] / 2\n\nStandard deviation = sqrt(Variance)\n\nNow, we can find the z-score for each quantity relative to the average. We can do this by subtracting the average from each quantity and dividing by the standard deviation:\n\nZ-score for Quantity A = (Quantity A - (Quantity A + Quantity B) / 2) / sqrt(Variance)\nZ-score for Quantity B = (Quantity B - (Quantity A + Quantity B) / 2) / sqrt(Variance)\n\nNext, we can determine which quantity has a higher z-score. If the z-score for Quantity A is greater than the z-score for Quantity B, then Quantity A is greater. If the z-score for Quantity B is greater, then Quantity B is greater. If the z-scores are equal, then the quantities are equal.\n\nNow, let's solve the problem step-by-step:\n\n(Quantity A + Quantity B) / 2 = 20\nQuantity A = 10\nQuantity B = 10\n\nVariance = [(10 - (10 + 10))^2 + (10 - (10 + 10))^2] / 2 = 20\nStandard deviation = sqrt(20) = 4\n\nZ-score for Quantity A = (10 - (10 + 10) / 2) / sqrt(20) = 0 / 4 = 0\nZ-score for Quantity B = (10 - (10 +",
+                    "extracted_answer": "B",
+                    "correct": false,
+                    "runtime": 9.67
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.1
+                }
+            ]
+        },
+        {
+            "question_number": "113",
+            "question_type": "numeric_entry",
+            "expected": "12",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "to eliminate the 3 on the left side:\n2x + 3 = 23\n3. Divide both sides by 2 to solve for x:\n2x = 11.5\n4. Take the square root of both sides to find the value of x:\nx = √11.5 ≈ 3.48\n\nSo, the answer to the GRE math question is:\n\nAnswer: 3.48",
+                    "extracted_answer": "3.48",
+                    "correct": false,
+                    "runtime": 3.27
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "2: Factor out the common factor of x and y\n\nx² + 2xy + y² = (x + y)(x + y)\n\nStep 3: Solve for x and y\n\n(x + y)(x + y) = x² + 2xy + y²\n\nStep 4: Substitute the given values for x and y\n\n(3 + 4)(3 + 4) = 3² + 2(3)(4) + 4²\n\nStep 5: Simplify the right side\n\n3² + 8 + 16 = 9 + 24 = 33\n\nAnswer: 33",
+                    "extracted_answer": "33",
+                    "correct": false,
+                    "runtime": 4.4
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.53
+                }
+            ]
+        },
+        {
+            "question_number": "114",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.58
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.11
+                }
+            ]
+        },
+        {
+            "question_number": "115",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "x + 3) / x (x + 1)\n\nStep 2: Multiply the numerator and the denominator by x to eliminate the fraction.\n\n(2x + 3) / x (x + 1) = 2x + 3 (x + 1)\n\nStep 3: Move all terms to the right side of the equation.\n\n2x + 3 = x + 1\n\nStep 4: Solve for x by dividing both sides by x.\n\nx = 1\n\nAnswer: A",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 4.11
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.55
+                }
+            ]
+        },
+        {
+            "question_number": "116",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.62
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "117",
+            "question_type": "numeric_entry",
+            "expected": "-81",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "root of that area. The area of the square can be calculated by multiplying the length of one side by the width of the other side.\n\nLet's assume that the length of one side is 'x' and the width of the other side is 'y'. Then, the area of the square would be 'x*y'.\n\nNow, we need to find the value of 'x' and 'y' to solve the problem. Unfortunately, I cannot see the image, so I cannot provide the exact values of 'x' and 'y'. However, I can guide you through the process of solving the problem.\n\nFirst, we need to find the value of 'x' by dividing the length of the square into four equal parts. Let's assume that the length of the square is '4x'. Then, the width of the square would be '4x/2' or '2x'.\n\nNext, we need to find the value of 'y' by dividing the width of the square into four equal parts. Let's assume that the width of the square is '2y'. Then, the length of the square would be '2y/2' or 'y'.\n\nNow, we can calculate the area of the square by multiplying the length and width of the square. The area would be 'x*y = 4x*2y = 8y'.\n\nFinally, we need to find the square root of the area to get the value of 'x'. The square root of 8y would be 'sqrt(8y) = 2\\*sqrt(y) = 2y'.\n\nTherefore, the final answer is 'Answer: 2y'.",
+                    "extracted_answer": "2",
+                    "correct": false,
+                    "runtime": 8.26
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "3x + C\n= 2x^2 + 3x + 3\n= 2x^2 + 3x + 3\n= 2x^2 + 3x + 3\n\nAnswer: X",
+                    "extracted_answer": "X",
+                    "correct": false,
+                    "runtime": 2.51
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "12.",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 2.19
+                }
+            ]
+        },
+        {
+            "question_number": "118",
+            "question_type": "multiple_choice_single",
+            "expected": "C",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.08
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.74
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.24
+                }
+            ]
+        },
+        {
+            "question_number": "119",
+            "question_type": "multiple_choice_multiple",
+            "expected": "C,F,E",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "14\nD) 2, 4, 6, 8, 10, 12, 14, 16\nE) 2, 4, 6, 8, 10, 12, 14, 16, 18\n\nThe correct answer is:\n\nAnswer: A, B, C, D, E",
+                    "extracted_answer": "A,B,C,D,E",
+                    "correct": false,
+                    "runtime": 3.07
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "z that satisfy all three equations.\n\nStep 1: 3x - 5 = 2\nWe can simplify this equation by subtracting 5 from both sides:\n3x = 7\nNow, divide by 3 to find x:\nx = 2\n\nStep 2: 2x + 4y - 12 = 0\nTo solve for y, we can use the method of substitution. First, we'll solve for x in terms of y:\nx = 2 + 4y - 12\nNow, substitute this expression for x into the original equation:\n3(2 + 4y - 12) - 5 = 2\nSimplify:\n12 + 12y - 15 = 0\n14y = 27\nNow, divide by 14 to find y:\ny = 2\n\nStep 3: 3x + 2y + z = 6\nWe have already found the values of x and y, so we can substitute those values into the last equation:\n3(2) + 2(2) + z = 6\n6 + 4 + z = 6\nz = 0\n\nNow we have the values of x, y, and z:\nx = 2\ny = 2\nz = 0\n\nAnswer: 2, 2, 0",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 7.44
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "Then, we can simplify the numerators by dividing each term by 2 and the denominator by 20.\n\n2(x + 3) / (x - 4) = 1\n\n2(x + 3) = 20(x - 4)\n\n2x + 6 = 20x - 8\n\nCombining like terms, we get:\n\n3x = 12\n\nx = 4\n\nNow, we can plug x = 4 into the original equation to find the value of 2(x + 3):\n\n2(4 + 3) = 2(7) = 14\n\nSo, the correct answer is A) 0.5.",
+                    "extracted_answer": "A",
+                    "correct": false,
+                    "runtime": 5.32
+                }
+            ]
+        },
+        {
+            "question_number": "120",
+            "question_type": "multiple_choice_single",
+            "expected": "D",
+            "results": [
+                {
+                    "prompt_style": "zeroshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.09
+                },
+                {
+                    "prompt_style": "cot",
+                    "response": "x by applying the quadratic formula.\n\nUsing the quadratic formula, we get:\n\nx = (-b ± √(b^2 - 4ac)) / 2a\n\nPlugging in the values, we get:\n\nx = (-3 ± √(3^2 - 4 \\* 1 \\* 2)) / 2 \\* 1\n\nx = (-3 ± √(9 - 8)) / 2\n\nx = (-3 ± √1) / 2\n\nx = (-3 ± 1) / 2\n\nx = (-2) / 2 or x = 2 / 2\n\nStep 3: Check the solutions by plugging them back into the original equation.\n\nPlugging x = (-2) / 2 into the original equation, we get:\n\n(-2 / 2)^2 + 3(-2 / 2) + 2 = 0\n\n(-2 + 3 + 2) = 0\n\n(-2 + 5) = 0\n\n(-2) = 5\n\nThis solution is not valid, so we must have tried the other solution.\n\nPlugging x = 2 / 2 into the original equation, we get:\n\n(2 / 2)^2 + 3(2 / 2) + 2 = 0\n\n(2 + 6 + 2) = 0\n\n(2 + 8) = 0\n\n(2) = 8\n\nThis solution is not valid either.\n\nTherefore, there is no solution to the equation x^2 + 3x + 2 = 0.\n\nAnswer: None of the above",
+                    "extracted_answer": "E",
+                    "correct": false,
+                    "runtime": 9.07
+                },
+                {
+                    "prompt_style": "fiveshot",
+                    "response": "",
+                    "extracted_answer": "",
+                    "correct": false,
+                    "runtime": 0.68
+                }
+            ]
+        }
+    ],
+    "accuracy": {
+        "quantitative_comparison": {
+            "zeroshot": {
+                "correct": 0,
+                "total": 40,
+                "accuracy": 0.0
+            },
+            "cot": {
+                "correct": 5,
+                "total": 40,
+                "accuracy": 12.5
+            },
+            "fiveshot": {
+                "correct": 0,
+                "total": 40,
+                "accuracy": 0.0
+            }
+        },
+        "multiple_choice_single": {
+            "zeroshot": {
+                "correct": 0,
+                "total": 54,
+                "accuracy": 0.0
+            },
+            "cot": {
+                "correct": 1,
+                "total": 54,
+                "accuracy": 1.85
+            },
+            "fiveshot": {
+                "correct": 0,
+                "total": 54,
+                "accuracy": 0.0
+            }
+        },
+        "multiple_choice_multiple": {
+            "zeroshot": {
+                "correct": 0,
+                "total": 12,
+                "accuracy": 0.0
+            },
+            "cot": {
+                "correct": 1,
+                "total": 12,
+                "accuracy": 8.33
+            },
+            "fiveshot": {
+                "correct": 0,
+                "total": 12,
+                "accuracy": 0.0
+            }
+        },
+        "numeric_entry": {
+            "zeroshot": {
+                "correct": 0,
+                "total": 14,
+                "accuracy": 0.0
+            },
+            "cot": {
+                "correct": 0,
+                "total": 14,
+                "accuracy": 0.0
+            },
+            "fiveshot": {
+                "correct": 0,
+                "total": 14,
+                "accuracy": 0.0
+            }
+        }
+    },
+    "overall_accuracy": {
+        "zeroshot": {
+            "correct": 0,
+            "total": 120,
+            "accuracy": 0.0
+        },
+        "cot": {
+            "correct": 7,
+            "total": 120,
+            "accuracy": 5.83
+        },
+        "fiveshot": {
+            "correct": 0,
+            "total": 120,
+            "accuracy": 0.0
+        }
+    }
+}

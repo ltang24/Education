@@ -1,0 +1,2550 @@
+{
+    "Word Problem": {
+        "zero-shot": {
+            "overall_accuracy": 0.5833333333333334,
+            "total_questions_processed": 12,
+            "details": [
+                {
+                    "question_id": 1,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.43,
+                    "correct": true
+                },
+                {
+                    "question_id": 4,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 0.78,
+                    "correct": true
+                },
+                {
+                    "question_id": 47,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.93,
+                    "correct": true
+                },
+                {
+                    "question_id": 60,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 61,
+                    "expected": "A",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 2.19,
+                    "correct": false
+                },
+                {
+                    "question_id": 63,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 1.15,
+                    "correct": true
+                },
+                {
+                    "question_id": 79,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.7,
+                    "correct": false
+                },
+                {
+                    "question_id": 81,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.81,
+                    "correct": false
+                },
+                {
+                    "question_id": 84,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.17,
+                    "correct": true
+                },
+                {
+                    "question_id": 93,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 0.88,
+                    "correct": true
+                },
+                {
+                    "question_id": 100,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.92,
+                    "correct": true
+                },
+                {
+                    "question_id": 101,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.26,
+                    "correct": false
+                }
+            ]
+        },
+        "five-shot": {
+            "overall_accuracy": 0.3333333333333333,
+            "total_questions_processed": 12,
+            "details": [
+                {
+                    "question_id": 1,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.84,
+                    "correct": true
+                },
+                {
+                    "question_id": 4,
+                    "expected": "D",
+                    "model_answer": "**FINAL ANSWER:** D",
+                    "model_response": "**Final Answer:** D",
+                    "runtime": 1.0,
+                    "correct": false
+                },
+                {
+                    "question_id": 47,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 1.16,
+                    "correct": true
+                },
+                {
+                    "question_id": 60,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.91,
+                    "correct": true
+                },
+                {
+                    "question_id": 61,
+                    "expected": "A",
+                    "model_answer": "**FINAL ANSWER:** D",
+                    "model_response": "**Final Answer:** D",
+                    "runtime": 1.23,
+                    "correct": false
+                },
+                {
+                    "question_id": 63,
+                    "expected": "D",
+                    "model_answer": "**FINAL ANSWER:** B",
+                    "model_response": "**Final Answer:** B",
+                    "runtime": 1.21,
+                    "correct": false
+                },
+                {
+                    "question_id": 79,
+                    "expected": "D",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 1.22,
+                    "correct": false
+                },
+                {
+                    "question_id": 81,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.99,
+                    "correct": false
+                },
+                {
+                    "question_id": 84,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.8,
+                    "correct": false
+                },
+                {
+                    "question_id": 93,
+                    "expected": "D",
+                    "model_answer": "**FINAL ANSWER:** D",
+                    "model_response": "**Final Answer:** D",
+                    "runtime": 1.11,
+                    "correct": false
+                },
+                {
+                    "question_id": 100,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.95,
+                    "correct": true
+                },
+                {
+                    "question_id": 101,
+                    "expected": "B",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 1.2,
+                    "correct": false
+                }
+            ]
+        },
+        "chain-of-thought": {
+            "overall_accuracy": 0.5833333333333334,
+            "total_questions_processed": 12,
+            "details": [
+                {
+                    "question_id": 1,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.88,
+                    "correct": true
+                },
+                {
+                    "question_id": 4,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 0.97,
+                    "correct": true
+                },
+                {
+                    "question_id": 47,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.82,
+                    "correct": true
+                },
+                {
+                    "question_id": 60,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.86,
+                    "correct": false
+                },
+                {
+                    "question_id": 61,
+                    "expected": "A",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 0.89,
+                    "correct": false
+                },
+                {
+                    "question_id": 63,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 1.13,
+                    "correct": true
+                },
+                {
+                    "question_id": 79,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.89,
+                    "correct": false
+                },
+                {
+                    "question_id": 81,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.9,
+                    "correct": false
+                },
+                {
+                    "question_id": 84,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.14,
+                    "correct": true
+                },
+                {
+                    "question_id": 93,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 0.93,
+                    "correct": true
+                },
+                {
+                    "question_id": 100,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.71,
+                    "correct": true
+                },
+                {
+                    "question_id": 101,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.91,
+                    "correct": false
+                }
+            ]
+        }
+    },
+    "Arithmetic": {
+        "zero-shot": {
+            "overall_accuracy": 0.3,
+            "total_questions_processed": 20,
+            "details": [
+                {
+                    "question_id": 2,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.85,
+                    "correct": false
+                },
+                {
+                    "question_id": 44,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.82,
+                    "correct": false
+                },
+                {
+                    "question_id": 45,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.83,
+                    "correct": true
+                },
+                {
+                    "question_id": 49,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.72,
+                    "correct": false
+                },
+                {
+                    "question_id": 53,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.96,
+                    "correct": true
+                },
+                {
+                    "question_id": 58,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.92,
+                    "correct": false
+                },
+                {
+                    "question_id": 59,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.98,
+                    "correct": false
+                },
+                {
+                    "question_id": 64,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.02,
+                    "correct": false
+                },
+                {
+                    "question_id": 65,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.04,
+                    "correct": true
+                },
+                {
+                    "question_id": 66,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.96,
+                    "correct": false
+                },
+                {
+                    "question_id": 68,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.91,
+                    "correct": false
+                },
+                {
+                    "question_id": 69,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 1.05,
+                    "correct": true
+                },
+                {
+                    "question_id": 70,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 1.35,
+                    "correct": true
+                },
+                {
+                    "question_id": 71,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 74,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.99,
+                    "correct": false
+                },
+                {
+                    "question_id": 80,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.11,
+                    "correct": true
+                },
+                {
+                    "question_id": 82,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.95,
+                    "correct": false
+                },
+                {
+                    "question_id": 83,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 4.86,
+                    "correct": false
+                },
+                {
+                    "question_id": 89,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.75,
+                    "correct": false
+                },
+                {
+                    "question_id": 95,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.95,
+                    "correct": false
+                }
+            ]
+        },
+        "five-shot": {
+            "overall_accuracy": 0.2,
+            "total_questions_processed": 20,
+            "details": [
+                {
+                    "question_id": 2,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.96,
+                    "correct": true
+                },
+                {
+                    "question_id": 44,
+                    "expected": "D",
+                    "model_answer": "**FINAL ANSWER:** B",
+                    "model_response": "**Final Answer:** B",
+                    "runtime": 1.14,
+                    "correct": false
+                },
+                {
+                    "question_id": 45,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.77,
+                    "correct": false
+                },
+                {
+                    "question_id": 49,
+                    "expected": "E",
+                    "model_answer": "TO SOLVE THE GIVEN PROBLEM, WE NEED TO CALCULATE THE SELLING PRICES AND MARK-UP PRICES OF BOTH ARTICLES.\n\n**CALCULATING SELLING PRICE OF THE FIRST ARTICLE:**\n\n- **WHOLESALE PRICE:** $75\n- **PROFIT:** 33.3% OF $75 = $25\n- **SELLING PRICE:** $75 + $25 = $100\n\n**CALCULATING SELLING PRICE AFTER DISCOUNTS:**\n\n- **FIRST DISCOUNT (20%):** \n  - DISCOUNT AMOUNT = 20% OF $100 = $20\n  - PRICE AFTER FIRST DISCOUNT = $100 - $20 = $80\n\n- **SECOND DISCOUNT (16.67%):**\n  - DISCOUNT AMOUNT = 16.67% OF $80 = $13.34\n  - SELLING PRICE AFTER SECOND DISCOUNT = $80 - $13.34 = $66.66\n\n**CALCULATING MARK-UP PRICE OF THE FIRST ARTICLE:**\n\n- **MARK-UP PRICE:** SELLING PRICE = $100\n\n**CALCULATING SELLING PRICE OF THE SECOND ARTICLE:**\n\n- **LOSS:** 33.3% OF $75 = $25\n- **SELLING PRICE:** $75 - $25 = $50\n\n**CALCULATING MARK-UP PRICE OF THE SECOND ARTICLE:**\n\n- **MARK-UP OF 200% OVER SELLING PRICE:**\n  - MARK-UP PRICE = SELLING PRICE + (200% OF SELLING PRICE)\n  - MARK-UP PRICE = $50 + (2 * $50) = $50 + $100 = $150\n\n**CALCULATING PERCENTAGE DIFFERENCE IN MARK-UP PRICES:**\n\n- **MARK-UP PRICE OF FIRST ARTICLE:** $100\n- **MARK-UP PRICE OF SECOND ARTICLE:** $150\n\n- **DIFFERENCE:** $150 - $100 = $50\n\n- **PERCENTAGE INCREASE:** \n  - \\(\\FRAC{50}{100} \\TIMES 100 = 50\\%\\)\n\n**FINAL ANSWER:**\n\nA: 50",
+                    "model_response": "To solve the given problem, we need to calculate the selling prices and mark-up prices of both articles.\n\n**Calculating Selling Price of the First Article:**\n\n- **Wholesale Price:** $75\n- **Profit:** 33.3% of $75 = $25\n- **Selling Price:** $75 + $25 = $100\n\n**Calculating Selling Price After Discounts:**\n\n- **First Discount (20%):** \n  - Discount Amount = 20% of $100 = $20\n  - Price After First Discount = $100 - $20 = $80\n\n- **Second Discount (16.67%):**\n  - Discount Amount = 16.67% of $80 = $13.34\n  - Selling Price After Second Discount = $80 - $13.34 = $66.66\n\n**Calculating Mark-Up Price of the First Article:**\n\n- **Mark-Up Price:** Selling Price = $100\n\n**Calculating Selling Price of the Second Article:**\n\n- **Loss:** 33.3% of $75 = $25\n- **Selling Price:** $75 - $25 = $50\n\n**Calculating Mark-Up Price of the Second Article:**\n\n- **Mark-Up of 200% over Selling Price:**\n  - Mark-Up Price = Selling Price + (200% of Selling Price)\n  - Mark-Up Price = $50 + (2 * $50) = $50 + $100 = $150\n\n**Calculating Percentage Difference in Mark-Up Prices:**\n\n- **Mark-Up Price of First Article:** $100\n- **Mark-Up Price of Second Article:** $150\n\n- **Difference:** $150 - $100 = $50\n\n- **Percentage Increase:** \n  - \\(\\frac{50}{100} \\times 100 = 50\\%\\)\n\n**Final Answer:**\n\nA: 50",
+                    "runtime": 6.46,
+                    "correct": false
+                },
+                {
+                    "question_id": 53,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.76,
+                    "correct": false
+                },
+                {
+                    "question_id": 58,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.76,
+                    "correct": false
+                },
+                {
+                    "question_id": 59,
+                    "expected": "A",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.86,
+                    "correct": false
+                },
+                {
+                    "question_id": 64,
+                    "expected": "B",
+                    "model_answer": "**FINAL ANSWER:** C",
+                    "model_response": "**Final Answer:** C",
+                    "runtime": 1.45,
+                    "correct": false
+                },
+                {
+                    "question_id": 65,
+                    "expected": "C",
+                    "model_answer": "**FINAL ANSWER:** C",
+                    "model_response": "**Final Answer:** C",
+                    "runtime": 0.91,
+                    "correct": false
+                },
+                {
+                    "question_id": 66,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.79,
+                    "correct": false
+                },
+                {
+                    "question_id": 68,
+                    "expected": "B",
+                    "model_answer": "E",
+                    "model_response": "Final Answer: E",
+                    "runtime": 0.91,
+                    "correct": false
+                },
+                {
+                    "question_id": 69,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.15,
+                    "correct": false
+                },
+                {
+                    "question_id": 70,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.01,
+                    "correct": true
+                },
+                {
+                    "question_id": 71,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.7,
+                    "correct": false
+                },
+                {
+                    "question_id": 74,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.96,
+                    "correct": true
+                },
+                {
+                    "question_id": 80,
+                    "expected": "C",
+                    "model_answer": "TO SOLVE THE PROBLEM, WE NEED TO CALCULATE THE INTEREST EARNED FROM BOTH INVESTMENTS AND SET THEM EQUAL TO EACH OTHER.\n\n**INVESTMENT 1: SIMPLE INTEREST**\n\n- PRINCIPAL = $5,000\n- RATE = X%\n- TIME = 2 YEARS\n\nTHE FORMULA FOR SIMPLE INTEREST IS:\n\n\\[ \\TEXT{INTEREST} = P \\TIMES R \\TIMES T \\]\n\nWHERE:\n- \\( P \\) = PRINCIPAL\n- \\( R \\) = RATE (AS A DECIMAL)\n- \\( T \\) = TIME IN YEARS\n\nSO, FOR THE FIRST INVESTMENT:\n\n\\[ \\TEXT{INTEREST}_1 = 5000 \\TIMES \\FRAC{X}{100} \\TIMES 2 = 100 \\TIMES X \\]\n\n**INVESTMENT 2: COMPOUND INTEREST**\n\n- PRINCIPAL = $3,000\n- RATE = 8% (QUARTERLY COMPOUNDED)\n- TIME = 2 YEARS\n\nTHE FORMULA FOR COMPOUND INTEREST IS:\n\n\\[ A = P \\LEFT(1 + \\FRAC{R}{N}\\RIGHT)^{NT} \\]\n\nWHERE:\n- \\( A \\) = THE AMOUNT OF MONEY ACCUMULATED AFTER N YEARS, INCLUDING INTEREST.\n- \\( P \\) = PRINCIPAL AMOUNT ($3,000)\n- \\( R \\) = ANNUAL INTEREST RATE (DECIMAL)\n- \\( N \\) = NUMBER OF TIMES THAT INTEREST IS COMPOUNDED PER YEAR\n- \\( T \\) = THE NUMBER OF YEARS THE MONEY IS INVESTED FOR\n\nFOR THIS INVESTMENT:\n\n- \\( R = 0.08 \\)\n- \\( N = 4 \\) (QUARTERLY)\n- \\( T = 2 \\)\n\nCALCULATING THE TOTAL AMOUNT:\n\n\\[ A = 3000 \\LEFT(1 + \\FRAC{0.08}{4}\\RIGHT)^{4 \\TIMES 2} \\]\n\n\\[ A = 3000 \\LEFT(1 + 0.02\\RIGHT)^{8} \\]\n\n\\[ A = 3000 \\LEFT(1.02\\RIGHT)^{8} \\]\n\nCALCULATING \\( (1.02)^{8} \\):\n\n\\[ (1.02)^{8} \\APPROX 1.171659 \\]\n\nSO,\n\n\\[ A \\APPROX 3000 \\TIMES 1.171659 \\APPROX 3514.977 \\]\n\nNOW, THE INTEREST EARNED FROM THE SECOND INVESTMENT:\n\n\\[ \\TEXT{INTEREST}_2 = A - P = 3514.977 - 3000 \\APPROX 514.977 \\]\n\n**SETTING THE INTERESTS EQUAL:**\n\nNOW WE SET THE INTEREST FROM BOTH INVESTMENTS EQUAL TO EACH OTHER:\n\n\\[ 100X = 514.977 \\]\n\nSOLVING FOR \\( X \\):\n\n\\[ X \\APPROX \\FRAC{514.977}{100} \\APPROX 5.14977 \\]\n\n**FINAL ANSWER:**\n\nC: 5%",
+                    "model_response": "To solve the problem, we need to calculate the interest earned from both investments and set them equal to each other.\n\n**Investment 1: Simple Interest**\n\n- Principal = $5,000\n- Rate = x%\n- Time = 2 years\n\nThe formula for simple interest is:\n\n\\[ \\text{Interest} = P \\times r \\times t \\]\n\nWhere:\n- \\( P \\) = Principal\n- \\( r \\) = Rate (as a decimal)\n- \\( t \\) = Time in years\n\nSo, for the first investment:\n\n\\[ \\text{Interest}_1 = 5000 \\times \\frac{x}{100} \\times 2 = 100 \\times x \\]\n\n**Investment 2: Compound Interest**\n\n- Principal = $3,000\n- Rate = 8% (quarterly compounded)\n- Time = 2 years\n\nThe formula for compound interest is:\n\n\\[ A = P \\left(1 + \\frac{r}{n}\\right)^{nt} \\]\n\nWhere:\n- \\( A \\) = the amount of money accumulated after n years, including interest.\n- \\( P \\) = Principal amount ($3,000)\n- \\( r \\) = annual interest rate (decimal)\n- \\( n \\) = number of times that interest is compounded per year\n- \\( t \\) = the number of years the money is invested for\n\nFor this investment:\n\n- \\( r = 0.08 \\)\n- \\( n = 4 \\) (quarterly)\n- \\( t = 2 \\)\n\nCalculating the total amount:\n\n\\[ A = 3000 \\left(1 + \\frac{0.08}{4}\\right)^{4 \\times 2} \\]\n\n\\[ A = 3000 \\left(1 + 0.02\\right)^{8} \\]\n\n\\[ A = 3000 \\left(1.02\\right)^{8} \\]\n\nCalculating \\( (1.02)^{8} \\):\n\n\\[ (1.02)^{8} \\approx 1.171659 \\]\n\nSo,\n\n\\[ A \\approx 3000 \\times 1.171659 \\approx 3514.977 \\]\n\nNow, the interest earned from the second investment:\n\n\\[ \\text{Interest}_2 = A - P = 3514.977 - 3000 \\approx 514.977 \\]\n\n**Setting the Interests Equal:**\n\nNow we set the interest from both investments equal to each other:\n\n\\[ 100x = 514.977 \\]\n\nSolving for \\( x \\):\n\n\\[ x \\approx \\frac{514.977}{100} \\approx 5.14977 \\]\n\n**Final Answer:**\n\nC: 5%",
+                    "runtime": 10.28,
+                    "correct": false
+                },
+                {
+                    "question_id": 82,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 2.86,
+                    "correct": false
+                },
+                {
+                    "question_id": 83,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.88,
+                    "correct": true
+                },
+                {
+                    "question_id": 89,
+                    "expected": "A",
+                    "model_answer": "TO SOLVE THE PROBLEM, WE CAN BREAK IT DOWN AS FOLLOWS:\n\n**UNDERSTANDING THE PROBLEM**\n\n- THE CIGARETTE IS 6 CM LONG AND BURNS COMPLETELY IN 15 MINUTES WITHOUT ANY PUFFS.\n- THE BURNING RATE WITHOUT PUFFS IS \\( \\FRAC{6 \\TEXT{ CM}}{15 \\TEXT{ MIN}} = 0.4 \\TEXT{ CM/MIN} \\).\n- IF A PUFF IS TAKEN, THE BURNING RATE DURING THAT PUFF IS THREE TIMES FASTER, WHICH IS \\( 1.2 \\TEXT{ CM/MIN} \\).\n- THE TOTAL TIME TAKEN TO BURN THE CIGARETTE IS 13 MINUTES.\n\n**CALCULATING THE TOTAL BURNED LENGTH**\n\n- IN 13 MINUTES, THE TOTAL LENGTH BURNED IS 6 CM.\n- LET \\( P \\) BE THE NUMBER OF PUFFS TAKEN, AND EACH PUFF LASTS 3 SECONDS (OR \\( \\FRAC{1}{20} \\) MINUTES).\n\n**SETTING UP THE EQUATION**\n\n- THE TIME SPENT PUFFING IS \\( \\FRAC{P}{20} \\) MINUTES.\n- THE REMAINING TIME SPENT BURNING WITHOUT PUFFS IS \\( 13 - \\FRAC{P}{20} \\) MINUTES.\n- THE LENGTH BURNED DURING PUFFS IS \\( 1.2 \\TIMES \\FRAC{P}{20} \\) CM.\n- THE LENGTH BURNED WITHOUT PUFFS IS \\( 0.4 \\TIMES \\LEFT( 13 - \\FRAC{P}{20} \\RIGHT) \\) CM.\n\n**CREATING THE EQUATION**\n\nTHE TOTAL LENGTH BURNED IS EQUAL TO THE LENGTH OF THE CIGARETTE:\n\n\\[\n1.2 \\TIMES \\FRAC{P}{20} + 0.4 \\TIMES \\LEFT( 13 - \\FRAC{P}{20} \\RIGHT) = 6\n\\]\n\n**SOLVING THE EQUATION**\n\n1. MULTIPLY THROUGH BY 20 TO ELIMINATE THE FRACTION:\n   \\[\n   1.2P + 8 - 0.02P = 120\n   \\]\n\n2. COMBINE LIKE TERMS:\n   \\[\n   1.18P + 8 = 120\n   \\]\n\n3. SUBTRACT 8 FROM BOTH SIDES:\n   \\[\n   1.18P = 112\n   \\]\n\n4. DIVIDE BY 1.18:\n   \\[\n   P \\APPROX 94.915\n   \\]\n\nSINCE \\( P \\) MUST BE A WHOLE NUMBER, WE ROUND TO THE NEAREST WHOLE NUMBER.\n\n**FINAL ANSWER**\n\nAFTER CHECKING THE OPTIONS, THE CLOSEST WHOLE NUMBER THAT FITS THE CONTEXT OF THE PROBLEM IS:\n\nFINAL ANSWER: **50**",
+                    "model_response": "To solve the problem, we can break it down as follows:\n\n**Understanding the Problem**\n\n- The cigarette is 6 cm long and burns completely in 15 minutes without any puffs.\n- The burning rate without puffs is \\( \\frac{6 \\text{ cm}}{15 \\text{ min}} = 0.4 \\text{ cm/min} \\).\n- If a puff is taken, the burning rate during that puff is three times faster, which is \\( 1.2 \\text{ cm/min} \\).\n- The total time taken to burn the cigarette is 13 minutes.\n\n**Calculating the Total Burned Length**\n\n- In 13 minutes, the total length burned is 6 cm.\n- Let \\( p \\) be the number of puffs taken, and each puff lasts 3 seconds (or \\( \\frac{1}{20} \\) minutes).\n\n**Setting Up the Equation**\n\n- The time spent puffing is \\( \\frac{p}{20} \\) minutes.\n- The remaining time spent burning without puffs is \\( 13 - \\frac{p}{20} \\) minutes.\n- The length burned during puffs is \\( 1.2 \\times \\frac{p}{20} \\) cm.\n- The length burned without puffs is \\( 0.4 \\times \\left( 13 - \\frac{p}{20} \\right) \\) cm.\n\n**Creating the Equation**\n\nThe total length burned is equal to the length of the cigarette:\n\n\\[\n1.2 \\times \\frac{p}{20} + 0.4 \\times \\left( 13 - \\frac{p}{20} \\right) = 6\n\\]\n\n**Solving the Equation**\n\n1. Multiply through by 20 to eliminate the fraction:\n   \\[\n   1.2p + 8 - 0.02p = 120\n   \\]\n\n2. Combine like terms:\n   \\[\n   1.18p + 8 = 120\n   \\]\n\n3. Subtract 8 from both sides:\n   \\[\n   1.18p = 112\n   \\]\n\n4. Divide by 1.18:\n   \\[\n   p \\approx 94.915\n   \\]\n\nSince \\( p \\) must be a whole number, we round to the nearest whole number.\n\n**Final Answer**\n\nAfter checking the options, the closest whole number that fits the context of the problem is:\n\nFinal Answer: **50**",
+                    "runtime": 15.79,
+                    "correct": false
+                },
+                {
+                    "question_id": 95,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.75,
+                    "correct": false
+                }
+            ]
+        },
+        "chain-of-thought": {
+            "overall_accuracy": 0.2,
+            "total_questions_processed": 20,
+            "details": [
+                {
+                    "question_id": 2,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.04,
+                    "correct": false
+                },
+                {
+                    "question_id": 44,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.93,
+                    "correct": false
+                },
+                {
+                    "question_id": 45,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.93,
+                    "correct": true
+                },
+                {
+                    "question_id": 49,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.87,
+                    "correct": false
+                },
+                {
+                    "question_id": 53,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.01,
+                    "correct": true
+                },
+                {
+                    "question_id": 58,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 1.42,
+                    "correct": false
+                },
+                {
+                    "question_id": 59,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.93,
+                    "correct": false
+                },
+                {
+                    "question_id": 64,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.06,
+                    "correct": false
+                },
+                {
+                    "question_id": 65,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.89,
+                    "correct": true
+                },
+                {
+                    "question_id": 66,
+                    "expected": "E",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 1.02,
+                    "correct": false
+                },
+                {
+                    "question_id": 68,
+                    "expected": "B",
+                    "model_answer": "E",
+                    "model_response": "E",
+                    "runtime": 0.91,
+                    "correct": false
+                },
+                {
+                    "question_id": 69,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.17,
+                    "correct": false
+                },
+                {
+                    "question_id": 70,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 71,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.86,
+                    "correct": false
+                },
+                {
+                    "question_id": 74,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.87,
+                    "correct": false
+                },
+                {
+                    "question_id": 80,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.96,
+                    "correct": true
+                },
+                {
+                    "question_id": 82,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.98,
+                    "correct": false
+                },
+                {
+                    "question_id": 83,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.91,
+                    "correct": false
+                },
+                {
+                    "question_id": 89,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.96,
+                    "correct": false
+                },
+                {
+                    "question_id": 95,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.01,
+                    "correct": false
+                }
+            ]
+        }
+    },
+    "Number Properties": {
+        "zero-shot": {
+            "overall_accuracy": 0.2,
+            "total_questions_processed": 40,
+            "details": [
+                {
+                    "question_id": 3,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.08,
+                    "correct": false
+                },
+                {
+                    "question_id": 7,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 0.85,
+                    "correct": true
+                },
+                {
+                    "question_id": 8,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.34,
+                    "correct": false
+                },
+                {
+                    "question_id": 9,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.98,
+                    "correct": true
+                },
+                {
+                    "question_id": 10,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.88,
+                    "correct": true
+                },
+                {
+                    "question_id": 12,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.96,
+                    "correct": false
+                },
+                {
+                    "question_id": 13,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 14,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 1.15,
+                    "correct": false
+                },
+                {
+                    "question_id": 15,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.81,
+                    "correct": false
+                },
+                {
+                    "question_id": 16,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.87,
+                    "correct": false
+                },
+                {
+                    "question_id": 17,
+                    "expected": "B",
+                    "model_answer": "**E**",
+                    "model_response": "**E**",
+                    "runtime": 1.39,
+                    "correct": false
+                },
+                {
+                    "question_id": 18,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.54,
+                    "correct": false
+                },
+                {
+                    "question_id": 19,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.14,
+                    "correct": false
+                },
+                {
+                    "question_id": 20,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.79,
+                    "correct": false
+                },
+                {
+                    "question_id": 21,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "To solve the equation \\( \\frac{1}{3} = \\frac{1}{m} + \\frac{1}{n} \\), we can first find a common denominator for the right side:\n\n1. Rewrite the equation:\n   \\[\n   \\frac{1}{3} = \\frac{n + m}{mn}\n   \\]\n\n2. Cross-multiply to eliminate the fractions:\n   \\[\n   mn = 3(n + m)\n   \\]\n\n3. Rearranging gives:\n   \\[\n   mn - 3m - 3n = 0\n   \\]\n\n4. To factor this, we can add \\( 9 \\) to both sides:\n   \\[\n   mn - 3m - 3n + 9 = 9\n   \\]\n\n5. This can be factored as:\n   \\[\n   (m - 3)(n - 3) = 9\n   \\]\n\n6. Now we find pairs of factors of \\( 9 \\):\n   - \\( (1, 9) \\)\n   - \\( (3, 3) \\)\n   - \\( (9, 1) \\)\n\n7. From these pairs, we can find values for \\( m \\) and \\( n \\):\n   - For \\( (1, 9) \\): \n     - \\( m - 3 = 1 \\) → \\( m = 4 \\)\n     - \\( n - 3 = 9 \\) → \\( n = 12 \\) \n     - \\( m + n = 4 + 12 = 16 \\)\n   - For \\( (9, 1) \\):\n     - \\( m - 3 = 9 \\) → \\( m = 12 \\)\n     - \\( n - 3 = 1 \\) → \\( n = 4 \\) \n     - \\( m + n = 12 + 4 = 16 \\)\n\n8. The only valid solution with different positive integers \\( m \\) and \\( n \\) is \\( m = 4 \\) and \\( n = 12 \\) (or vice versa).\n\nThus, the value of \\( m+n \\) is \\( 16 \\).\n\n**Final Answer: C**",
+                    "runtime": 8.9,
+                    "correct": true
+                },
+                {
+                    "question_id": 22,
+                    "expected": "D",
+                    "model_answer": "E",
+                    "model_response": "E",
+                    "runtime": 0.93,
+                    "correct": false
+                },
+                {
+                    "question_id": 23,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.99,
+                    "correct": false
+                },
+                {
+                    "question_id": 23,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 24,
+                    "expected": "E",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.94,
+                    "correct": false
+                },
+                {
+                    "question_id": 25,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.84,
+                    "correct": true
+                },
+                {
+                    "question_id": 26,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.62,
+                    "correct": false
+                },
+                {
+                    "question_id": 27,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.94,
+                    "correct": false
+                },
+                {
+                    "question_id": 28,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.82,
+                    "correct": true
+                },
+                {
+                    "question_id": 29,
+                    "expected": "E",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.93,
+                    "correct": false
+                },
+                {
+                    "question_id": 30,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 31,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.04,
+                    "correct": true
+                },
+                {
+                    "question_id": 32,
+                    "expected": "E",
+                    "model_answer": "A",
+                    "model_response": "A",
+                    "runtime": 0.99,
+                    "correct": false
+                },
+                {
+                    "question_id": 33,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.51,
+                    "correct": false
+                },
+                {
+                    "question_id": 36,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.98,
+                    "correct": false
+                },
+                {
+                    "question_id": 38,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.97,
+                    "correct": false
+                },
+                {
+                    "question_id": 41,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.32,
+                    "correct": false
+                },
+                {
+                    "question_id": 46,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.65,
+                    "correct": false
+                },
+                {
+                    "question_id": 48,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.14,
+                    "correct": false
+                },
+                {
+                    "question_id": 55,
+                    "expected": "B",
+                    "model_answer": "A",
+                    "model_response": "A",
+                    "runtime": 0.85,
+                    "correct": false
+                },
+                {
+                    "question_id": 56,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.91,
+                    "correct": false
+                },
+                {
+                    "question_id": 57,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.81,
+                    "correct": true
+                },
+                {
+                    "question_id": 62,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 75,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 1.4,
+                    "correct": false
+                },
+                {
+                    "question_id": 98,
+                    "expected": "C",
+                    "model_answer": "**ANSWER: B**",
+                    "model_response": "**Answer: B**",
+                    "runtime": 3.14,
+                    "correct": false
+                },
+                {
+                    "question_id": 99,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.88,
+                    "correct": false
+                }
+            ]
+        },
+        "five-shot": {
+            "overall_accuracy": 0.175,
+            "total_questions_processed": 40,
+            "details": [
+                {
+                    "question_id": 3,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.9,
+                    "correct": true
+                },
+                {
+                    "question_id": 7,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.83,
+                    "correct": true
+                },
+                {
+                    "question_id": 8,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.98,
+                    "correct": false
+                },
+                {
+                    "question_id": 9,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.75,
+                    "correct": false
+                },
+                {
+                    "question_id": 10,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.07,
+                    "correct": false
+                },
+                {
+                    "question_id": 12,
+                    "expected": "E",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.96,
+                    "correct": false
+                },
+                {
+                    "question_id": 13,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.2,
+                    "correct": false
+                },
+                {
+                    "question_id": 14,
+                    "expected": "C",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 0.92,
+                    "correct": false
+                },
+                {
+                    "question_id": 15,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.24,
+                    "correct": false
+                },
+                {
+                    "question_id": 16,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.21,
+                    "correct": false
+                },
+                {
+                    "question_id": 17,
+                    "expected": "B",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 0.86,
+                    "correct": false
+                },
+                {
+                    "question_id": 18,
+                    "expected": "E",
+                    "model_answer": "E",
+                    "model_response": "To find the least possible number of 0s at the end of the integer \\( k \\) in the expression \\( (0.0025)(0.025)(0.00025) \\times 10^k \\), we first need to convert the decimal numbers into fractions and then analyze how many factors of 10 are present in the product.\n\n**Step 1: Convert decimals to fractions**\n\n- \\( 0.0025 = \\frac{25}{10000} = \\frac{1}{4000} \\)\n- \\( 0.025 = \\frac{25}{1000} = \\frac{1}{40} \\)\n- \\( 0.00025 = \\frac{25}{100000} = \\frac{1}{4000} \\)\n\n**Step 2: Multiply the fractions**\n\nNow we multiply these fractions together:\n\n\\[\n(0.0025)(0.025)(0.00025) = \\left(\\frac{1}{4000}\\right) \\times \\left(\\frac{1}{40}\\right) \\times \\left(\\frac{1}{4000}\\right)\n\\]\n\nCalculating the product:\n\n\\[\n= \\frac{1}{4000 \\times 40 \\times 4000} = \\frac{1}{640000000}\n\\]\n\n**Step 3: Determine the number of trailing zeros**\n\nThe number of trailing zeros in a number is determined by the number of factors of 10 in that number. Each factor of 10 is made up of one factor of 2 and one factor of 5.\n\n**Step 4: Factorization of \\( 640000000 \\)**\n\nWe can factor \\( 640000000 \\) as follows:\n\n\\[\n640000000 = 64 \\times 10^6 = 2^6 \\times (2 \\times 5)^6 = 2^{12} \\times 5^6\n\\]\n\n**Step 5: Calculate the number of trailing zeros**\n\nThe number of trailing zeros is determined by the minimum of the powers of 2 and 5:\n\n- Power of 2: 12\n- Power of 5: 6\n\nThus, the number of trailing zeros in \\( 640000000 \\) is 6.\n\n**Step 6: Adjust for \\( 10^k \\)**\n\nTo make \\( (0.0025)(0.025)(0.00025) \\times 10^k \\) an integer, we need to ensure that the total number of factors of 10 is sufficient. Since we already have 6 factors of 10 from \\( 640000000 \\), we can set \\( k \\) such that:\n\n\\[\nk + 6 \\geq 0\n\\]\n\nThe least value for \\( k \\) that satisfies this is \\( k = 0 \\).\n\n**Final Answer:**\n\nThus, the least possible number of 0s at the end of integer \\( k \\) is:\n\n**Final Answer: E**",
+                    "runtime": 11.06,
+                    "correct": true
+                },
+                {
+                    "question_id": 19,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.71,
+                    "correct": false
+                },
+                {
+                    "question_id": 20,
+                    "expected": "B",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 1.58,
+                    "correct": false
+                },
+                {
+                    "question_id": 21,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.75,
+                    "correct": false
+                },
+                {
+                    "question_id": 22,
+                    "expected": "D",
+                    "model_answer": "E",
+                    "model_response": "Final Answer: E",
+                    "runtime": 0.84,
+                    "correct": false
+                },
+                {
+                    "question_id": 23,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.96,
+                    "correct": false
+                },
+                {
+                    "question_id": 23,
+                    "expected": "A",
+                    "model_answer": "E",
+                    "model_response": "Final Answer: E",
+                    "runtime": 0.72,
+                    "correct": false
+                },
+                {
+                    "question_id": 24,
+                    "expected": "E",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 25,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.93,
+                    "correct": false
+                },
+                {
+                    "question_id": 26,
+                    "expected": "D",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 0.87,
+                    "correct": false
+                },
+                {
+                    "question_id": 27,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.27,
+                    "correct": false
+                },
+                {
+                    "question_id": 28,
+                    "expected": "C",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 0.76,
+                    "correct": false
+                },
+                {
+                    "question_id": 29,
+                    "expected": "E",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.99,
+                    "correct": false
+                },
+                {
+                    "question_id": 30,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.24,
+                    "correct": true
+                },
+                {
+                    "question_id": 31,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.78,
+                    "correct": true
+                },
+                {
+                    "question_id": 32,
+                    "expected": "E",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 1.48,
+                    "correct": false
+                },
+                {
+                    "question_id": 33,
+                    "expected": "B",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 1.3,
+                    "correct": false
+                },
+                {
+                    "question_id": 36,
+                    "expected": "B",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 1.56,
+                    "correct": false
+                },
+                {
+                    "question_id": 38,
+                    "expected": "E",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.06,
+                    "correct": false
+                },
+                {
+                    "question_id": 41,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.82,
+                    "correct": false
+                },
+                {
+                    "question_id": 46,
+                    "expected": "E",
+                    "model_answer": "TO SOLVE THE PROBLEM, WE NEED TO EXPRESS \\( (2^3)(3^4)(5^7) \\) IN THE FORM \\( A^3B \\) WHERE \\( A \\) AND \\( B \\) ARE POSITIVE INTEGERS. \n\n### STEP-BY-STEP BREAKDOWN:\n\n1. **FACTORIZATION**:\n   - THE EXPRESSION CAN BE REWRITTEN AS:\n   \\[\n   (2^3)(3^4)(5^7) = A^3B\n   \\]\n\n2. **IDENTIFYING \\( A \\)**:\n   - LET \\( A = 2^X \\CDOT 3^Y \\CDOT 5^Z \\).\n   - THEN, \\( A^3 = 2^{3X} \\CDOT 3^{3Y} \\CDOT 5^{3Z} \\).\n\n3. **SETTING UP THE EQUATION**:\n   - WE CAN EQUATE THE POWERS OF THE PRIME FACTORS:\n   \\[\n   3X + K_1 = 3 \\QUAD (FOR \\, 2)\n   \\]\n   \\[\n   3Y + K_2 = 4 \\QUAD (FOR \\, 3)\n   \\]\n   \\[\n   3Z + K_3 = 7 \\QUAD (FOR \\, 5)\n   \\]\n   WHERE \\( K_1, K_2, K_3 \\) ARE THE POWERS OF \\( 2, 3, 5 \\) IN \\( B \\).\n\n4. **FINDING POSSIBLE VALUES**:\n   - FOR \\( 2 \\):\n     - \\( K_1 = 3 - 3X \\) MUST BE NON-NEGATIVE, SO \\( X \\) CAN BE \\( 0, 1 \\).\n   - FOR \\( 3 \\):\n     - \\( K_2 = 4 - 3Y \\) MUST BE NON-NEGATIVE, SO \\( Y \\) CAN BE \\( 0, 1 \\).\n   - FOR \\( 5 \\):\n     - \\( K_3 = 7 - 3Z \\) MUST BE NON-NEGATIVE, SO \\( Z \\) CAN BE \\( 0, 1, 2 \\).\n\n5. **CALCULATING COMBINATIONS**:\n   - POSSIBLE VALUES FOR \\( X \\): 2 CHOICES (0, 1)\n   - POSSIBLE VALUES FOR \\( Y \\): 2 CHOICES (0, 1)\n   - POSSIBLE VALUES FOR \\( Z \\): 3 CHOICES (0, 1, 2)\n\n6. **TOTAL COMBINATIONS**:\n   - THE TOTAL NUMBER OF COMBINATIONS OF \\( (X, Y, Z) \\) GIVES US THE NUMBER OF DIFFERENT POSSIBLE VALUES FOR \\( B \\):\n   \\[\n   2 \\TIMES 2 \\TIMES 3 = 12\n   \\]\n\n### FINAL ANSWER:\n\n**E: 12**",
+                    "model_response": "To solve the problem, we need to express \\( (2^3)(3^4)(5^7) \\) in the form \\( a^3b \\) where \\( a \\) and \\( b \\) are positive integers. \n\n### Step-by-step Breakdown:\n\n1. **Factorization**:\n   - The expression can be rewritten as:\n   \\[\n   (2^3)(3^4)(5^7) = a^3b\n   \\]\n\n2. **Identifying \\( a \\)**:\n   - Let \\( a = 2^x \\cdot 3^y \\cdot 5^z \\).\n   - Then, \\( a^3 = 2^{3x} \\cdot 3^{3y} \\cdot 5^{3z} \\).\n\n3. **Setting up the equation**:\n   - We can equate the powers of the prime factors:\n   \\[\n   3x + k_1 = 3 \\quad (for \\, 2)\n   \\]\n   \\[\n   3y + k_2 = 4 \\quad (for \\, 3)\n   \\]\n   \\[\n   3z + k_3 = 7 \\quad (for \\, 5)\n   \\]\n   where \\( k_1, k_2, k_3 \\) are the powers of \\( 2, 3, 5 \\) in \\( b \\).\n\n4. **Finding possible values**:\n   - For \\( 2 \\):\n     - \\( k_1 = 3 - 3x \\) must be non-negative, so \\( x \\) can be \\( 0, 1 \\).\n   - For \\( 3 \\):\n     - \\( k_2 = 4 - 3y \\) must be non-negative, so \\( y \\) can be \\( 0, 1 \\).\n   - For \\( 5 \\):\n     - \\( k_3 = 7 - 3z \\) must be non-negative, so \\( z \\) can be \\( 0, 1, 2 \\).\n\n5. **Calculating combinations**:\n   - Possible values for \\( x \\): 2 choices (0, 1)\n   - Possible values for \\( y \\): 2 choices (0, 1)\n   - Possible values for \\( z \\): 3 choices (0, 1, 2)\n\n6. **Total combinations**:\n   - The total number of combinations of \\( (x, y, z) \\) gives us the number of different possible values for \\( b \\):\n   \\[\n   2 \\times 2 \\times 3 = 12\n   \\]\n\n### Final Answer:\n\n**E: 12**",
+                    "runtime": 10.8,
+                    "correct": false
+                },
+                {
+                    "question_id": 48,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 1.08,
+                    "correct": false
+                },
+                {
+                    "question_id": 55,
+                    "expected": "B",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 1.42,
+                    "correct": false
+                },
+                {
+                    "question_id": 56,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 1.32,
+                    "correct": false
+                },
+                {
+                    "question_id": 57,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.85,
+                    "correct": true
+                },
+                {
+                    "question_id": 62,
+                    "expected": "E",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.22,
+                    "correct": false
+                },
+                {
+                    "question_id": 75,
+                    "expected": "A",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 0.84,
+                    "correct": true
+                },
+                {
+                    "question_id": 98,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.76,
+                    "correct": false
+                },
+                {
+                    "question_id": 99,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.94,
+                    "correct": false
+                }
+            ]
+        },
+        "chain-of-thought": {
+            "overall_accuracy": 0.225,
+            "total_questions_processed": 40,
+            "details": [
+                {
+                    "question_id": 3,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.84,
+                    "correct": false
+                },
+                {
+                    "question_id": 7,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 0.9,
+                    "correct": true
+                },
+                {
+                    "question_id": 8,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.64,
+                    "correct": false
+                },
+                {
+                    "question_id": 9,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 0.92,
+                    "correct": false
+                },
+                {
+                    "question_id": 10,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.81,
+                    "correct": true
+                },
+                {
+                    "question_id": 12,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.88,
+                    "correct": false
+                },
+                {
+                    "question_id": 13,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.79,
+                    "correct": false
+                },
+                {
+                    "question_id": 14,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 3.89,
+                    "correct": true
+                },
+                {
+                    "question_id": 15,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.66,
+                    "correct": false
+                },
+                {
+                    "question_id": 16,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 1.12,
+                    "correct": false
+                },
+                {
+                    "question_id": 17,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.25,
+                    "correct": false
+                },
+                {
+                    "question_id": 18,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.09,
+                    "correct": false
+                },
+                {
+                    "question_id": 19,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.79,
+                    "correct": false
+                },
+                {
+                    "question_id": 20,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.71,
+                    "correct": false
+                },
+                {
+                    "question_id": 21,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.11,
+                    "correct": true
+                },
+                {
+                    "question_id": 22,
+                    "expected": "D",
+                    "model_answer": "E",
+                    "model_response": "E",
+                    "runtime": 1.18,
+                    "correct": false
+                },
+                {
+                    "question_id": 23,
+                    "expected": "C",
+                    "model_answer": "A",
+                    "model_response": "A",
+                    "runtime": 0.81,
+                    "correct": false
+                },
+                {
+                    "question_id": 23,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.84,
+                    "correct": false
+                },
+                {
+                    "question_id": 24,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.35,
+                    "correct": false
+                },
+                {
+                    "question_id": 25,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.87,
+                    "correct": true
+                },
+                {
+                    "question_id": 26,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.91,
+                    "correct": false
+                },
+                {
+                    "question_id": 27,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.89,
+                    "correct": false
+                },
+                {
+                    "question_id": 28,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.81,
+                    "correct": true
+                },
+                {
+                    "question_id": 29,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.82,
+                    "correct": false
+                },
+                {
+                    "question_id": 30,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.2,
+                    "correct": false
+                },
+                {
+                    "question_id": 31,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 0.71,
+                    "correct": false
+                },
+                {
+                    "question_id": 32,
+                    "expected": "E",
+                    "model_answer": "A",
+                    "model_response": "A",
+                    "runtime": 0.94,
+                    "correct": false
+                },
+                {
+                    "question_id": 33,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.17,
+                    "correct": false
+                },
+                {
+                    "question_id": 36,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.92,
+                    "correct": false
+                },
+                {
+                    "question_id": 38,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.06,
+                    "correct": false
+                },
+                {
+                    "question_id": 41,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 1.94,
+                    "correct": true
+                },
+                {
+                    "question_id": 46,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.31,
+                    "correct": false
+                },
+                {
+                    "question_id": 48,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.98,
+                    "correct": false
+                },
+                {
+                    "question_id": 55,
+                    "expected": "B",
+                    "model_answer": "A",
+                    "model_response": "A",
+                    "runtime": 4.76,
+                    "correct": false
+                },
+                {
+                    "question_id": 56,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.21,
+                    "correct": false
+                },
+                {
+                    "question_id": 57,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.04,
+                    "correct": true
+                },
+                {
+                    "question_id": 62,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.8,
+                    "correct": false
+                },
+                {
+                    "question_id": 75,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 1.11,
+                    "correct": false
+                },
+                {
+                    "question_id": 98,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.83,
+                    "correct": true
+                },
+                {
+                    "question_id": 99,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.16,
+                    "correct": false
+                }
+            ]
+        }
+    },
+    "Algebra": {
+        "zero-shot": {
+            "overall_accuracy": 0.6,
+            "total_questions_processed": 10,
+            "details": [
+                {
+                    "question_id": 5,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.19,
+                    "correct": true
+                },
+                {
+                    "question_id": 34,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 40,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.02,
+                    "correct": true
+                },
+                {
+                    "question_id": 52,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.94,
+                    "correct": true
+                },
+                {
+                    "question_id": 67,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.23,
+                    "correct": false
+                },
+                {
+                    "question_id": 76,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.88,
+                    "correct": true
+                },
+                {
+                    "question_id": 86,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.19,
+                    "correct": false
+                },
+                {
+                    "question_id": 87,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.19,
+                    "correct": false
+                },
+                {
+                    "question_id": 88,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.9,
+                    "correct": true
+                },
+                {
+                    "question_id": 97,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.99,
+                    "correct": true
+                }
+            ]
+        },
+        "five-shot": {
+            "overall_accuracy": 0.3,
+            "total_questions_processed": 10,
+            "details": [
+                {
+                    "question_id": 5,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 1.42,
+                    "correct": true
+                },
+                {
+                    "question_id": 34,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.61,
+                    "correct": false
+                },
+                {
+                    "question_id": 40,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 1.15,
+                    "correct": true
+                },
+                {
+                    "question_id": 52,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.86,
+                    "correct": false
+                },
+                {
+                    "question_id": 67,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.68,
+                    "correct": false
+                },
+                {
+                    "question_id": 76,
+                    "expected": "C",
+                    "model_answer": "**FINAL ANSWER:** B",
+                    "model_response": "**Final Answer:** B",
+                    "runtime": 1.4,
+                    "correct": false
+                },
+                {
+                    "question_id": 86,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.79,
+                    "correct": false
+                },
+                {
+                    "question_id": 87,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.79,
+                    "correct": true
+                },
+                {
+                    "question_id": 88,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.8,
+                    "correct": false
+                },
+                {
+                    "question_id": 97,
+                    "expected": "C",
+                    "model_answer": "E",
+                    "model_response": "Final Answer: E",
+                    "runtime": 0.97,
+                    "correct": false
+                }
+            ]
+        },
+        "chain-of-thought": {
+            "overall_accuracy": 0.5,
+            "total_questions_processed": 10,
+            "details": [
+                {
+                    "question_id": 5,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.74,
+                    "correct": true
+                },
+                {
+                    "question_id": 34,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.95,
+                    "correct": false
+                },
+                {
+                    "question_id": 40,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.74,
+                    "correct": true
+                },
+                {
+                    "question_id": 52,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.05,
+                    "correct": true
+                },
+                {
+                    "question_id": 67,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.68,
+                    "correct": false
+                },
+                {
+                    "question_id": 76,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.81,
+                    "correct": true
+                },
+                {
+                    "question_id": 86,
+                    "expected": "A",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.88,
+                    "correct": false
+                },
+                {
+                    "question_id": 87,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.02,
+                    "correct": false
+                },
+                {
+                    "question_id": 88,
+                    "expected": "C",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.89,
+                    "correct": false
+                },
+                {
+                    "question_id": 97,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.8,
+                    "correct": true
+                }
+            ]
+        }
+    },
+    "Statistics": {
+        "zero-shot": {
+            "overall_accuracy": 0.3,
+            "total_questions_processed": 20,
+            "details": [
+                {
+                    "question_id": 6,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.08,
+                    "correct": false
+                },
+                {
+                    "question_id": 35,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.87,
+                    "correct": true
+                },
+                {
+                    "question_id": 37,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.85,
+                    "correct": false
+                },
+                {
+                    "question_id": 39,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.75,
+                    "correct": false
+                },
+                {
+                    "question_id": 42,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.87,
+                    "correct": true
+                },
+                {
+                    "question_id": 43,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.01,
+                    "correct": false
+                },
+                {
+                    "question_id": 50,
+                    "expected": "C",
+                    "model_answer": "A",
+                    "model_response": "A",
+                    "runtime": 0.92,
+                    "correct": false
+                },
+                {
+                    "question_id": 51,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.83,
+                    "correct": true
+                },
+                {
+                    "question_id": 54,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 1.18,
+                    "correct": false
+                },
+                {
+                    "question_id": 72,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.93,
+                    "correct": true
+                },
+                {
+                    "question_id": 73,
+                    "expected": "D",
+                    "model_answer": "A",
+                    "model_response": "A",
+                    "runtime": 0.8,
+                    "correct": false
+                },
+                {
+                    "question_id": 77,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.97,
+                    "correct": false
+                },
+                {
+                    "question_id": 78,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.9,
+                    "correct": false
+                },
+                {
+                    "question_id": 85,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.93,
+                    "correct": true
+                },
+                {
+                    "question_id": 90,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.91,
+                    "correct": true
+                },
+                {
+                    "question_id": 91,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.82,
+                    "correct": false
+                },
+                {
+                    "question_id": 92,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 5.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 94,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.14,
+                    "correct": false
+                },
+                {
+                    "question_id": 96,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.19,
+                    "correct": false
+                },
+                {
+                    "question_id": 102,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.95,
+                    "correct": false
+                }
+            ]
+        },
+        "five-shot": {
+            "overall_accuracy": 0.45,
+            "total_questions_processed": 20,
+            "details": [
+                {
+                    "question_id": 6,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 1.41,
+                    "correct": false
+                },
+                {
+                    "question_id": 35,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 0.86,
+                    "correct": false
+                },
+                {
+                    "question_id": 37,
+                    "expected": "D",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 1.99,
+                    "correct": true
+                },
+                {
+                    "question_id": 39,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.83,
+                    "correct": false
+                },
+                {
+                    "question_id": 42,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.8,
+                    "correct": true
+                },
+                {
+                    "question_id": 43,
+                    "expected": "E",
+                    "model_answer": "**FINAL ANSWER:** B",
+                    "model_response": "**Final Answer:** B",
+                    "runtime": 1.13,
+                    "correct": false
+                },
+                {
+                    "question_id": 50,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.89,
+                    "correct": true
+                },
+                {
+                    "question_id": 51,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 3.99,
+                    "correct": true
+                },
+                {
+                    "question_id": 54,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "Final Answer: D",
+                    "runtime": 1.24,
+                    "correct": false
+                },
+                {
+                    "question_id": 72,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 1.11,
+                    "correct": true
+                },
+                {
+                    "question_id": 73,
+                    "expected": "D",
+                    "model_answer": "A",
+                    "model_response": "Final Answer: A",
+                    "runtime": 1.34,
+                    "correct": false
+                },
+                {
+                    "question_id": 77,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 1.32,
+                    "correct": false
+                },
+                {
+                    "question_id": 78,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.91,
+                    "correct": false
+                },
+                {
+                    "question_id": 85,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.84,
+                    "correct": true
+                },
+                {
+                    "question_id": 90,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "Final Answer: C",
+                    "runtime": 0.7,
+                    "correct": true
+                },
+                {
+                    "question_id": 91,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.82,
+                    "correct": true
+                },
+                {
+                    "question_id": 92,
+                    "expected": "E",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.77,
+                    "correct": false
+                },
+                {
+                    "question_id": 94,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.83,
+                    "correct": true
+                },
+                {
+                    "question_id": 96,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.73,
+                    "correct": false
+                },
+                {
+                    "question_id": 102,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "Final Answer: B",
+                    "runtime": 0.73,
+                    "correct": false
+                }
+            ]
+        },
+        "chain-of-thought": {
+            "overall_accuracy": 0.3,
+            "total_questions_processed": 20,
+            "details": [
+                {
+                    "question_id": 6,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.33,
+                    "correct": false
+                },
+                {
+                    "question_id": 35,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.9,
+                    "correct": true
+                },
+                {
+                    "question_id": 37,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.89,
+                    "correct": false
+                },
+                {
+                    "question_id": 39,
+                    "expected": "A",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.82,
+                    "correct": false
+                },
+                {
+                    "question_id": 42,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 1.13,
+                    "correct": true
+                },
+                {
+                    "question_id": 43,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.18,
+                    "correct": false
+                },
+                {
+                    "question_id": 50,
+                    "expected": "C",
+                    "model_answer": "A",
+                    "model_response": "A",
+                    "runtime": 0.99,
+                    "correct": false
+                },
+                {
+                    "question_id": 51,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.06,
+                    "correct": true
+                },
+                {
+                    "question_id": 54,
+                    "expected": "C",
+                    "model_answer": "D",
+                    "model_response": "D",
+                    "runtime": 1.22,
+                    "correct": false
+                },
+                {
+                    "question_id": 72,
+                    "expected": "B",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 1.07,
+                    "correct": true
+                },
+                {
+                    "question_id": 73,
+                    "expected": "D",
+                    "model_answer": "A",
+                    "model_response": "A",
+                    "runtime": 1.11,
+                    "correct": false
+                },
+                {
+                    "question_id": 77,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.93,
+                    "correct": false
+                },
+                {
+                    "question_id": 78,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.87,
+                    "correct": false
+                },
+                {
+                    "question_id": 85,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.84,
+                    "correct": true
+                },
+                {
+                    "question_id": 90,
+                    "expected": "C",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.88,
+                    "correct": true
+                },
+                {
+                    "question_id": 91,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 1.22,
+                    "correct": false
+                },
+                {
+                    "question_id": 92,
+                    "expected": "E",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.95,
+                    "correct": false
+                },
+                {
+                    "question_id": 94,
+                    "expected": "B",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.99,
+                    "correct": false
+                },
+                {
+                    "question_id": 96,
+                    "expected": "D",
+                    "model_answer": "C",
+                    "model_response": "C",
+                    "runtime": 0.85,
+                    "correct": false
+                },
+                {
+                    "question_id": 102,
+                    "expected": "D",
+                    "model_answer": "B",
+                    "model_response": "B",
+                    "runtime": 0.99,
+                    "correct": false
+                }
+            ]
+        }
+    }
+}

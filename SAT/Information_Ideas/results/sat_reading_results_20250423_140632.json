@@ -1,0 +1,5504 @@
+{
+  "llama-3.1-8b": {
+    "zero-shot": {
+      "total": 60,
+      "correct": 49,
+      "by_skill": {
+        "Central Ideas and Details": {
+          "total": 20,
+          "correct": 20,
+          "acc": 100,
+          "by_difficulty": {
+            "Medium": {
+              "total": 8,
+              "correct": 8
+            },
+            "Hard": {
+              "total": 7,
+              "correct": 7
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5
+            }
+          }
+        },
+        "Command of Evidence": {
+          "total": 20,
+          "correct": 12,
+          "acc": 60,
+          "by_difficulty": {
+            "Hard": {
+              "total": 8,
+              "correct": 4
+            },
+            "Medium": {
+              "total": 10,
+              "correct": 6
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 2
+            }
+          }
+        },
+        "Inferences": {
+          "total": 20,
+          "correct": 17,
+          "acc": 85,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 17
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 38,
+          "correct": 31
+        },
+        "Hard": {
+          "total": 15,
+          "correct": 11
+        },
+        "Easy": {
+          "total": 7,
+          "correct": 7
+        }
+      },
+      "details": [
+        {
+          "num": 1,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 3.48
+        },
+        {
+          "num": 2,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.7
+        },
+        {
+          "num": 3,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 1.31
+        },
+        {
+          "num": 4,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 15.7
+        },
+        {
+          "num": 5,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.82
+        },
+        {
+          "num": 6,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 17.09
+        },
+        {
+          "num": 7,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.98
+        },
+        {
+          "num": 8,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.48
+        },
+        {
+          "num": 9,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.66
+        },
+        {
+          "num": 10,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 1.17
+        },
+        {
+          "num": 11,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.89
+        },
+        {
+          "num": 12,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.93
+        },
+        {
+          "num": 13,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 24.78
+        },
+        {
+          "num": 14,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 24.08
+        },
+        {
+          "num": 15,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 1.21
+        },
+        {
+          "num": 16,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.49
+        },
+        {
+          "num": 17,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 1.15
+        },
+        {
+          "num": 18,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 21.25
+        },
+        {
+          "num": 19,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 18.37
+        },
+        {
+          "num": 20,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 2.15
+        },
+        {
+          "num": 21,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 1.22
+        },
+        {
+          "num": 22,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 20.1
+        },
+        {
+          "num": 23,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 30.02
+        },
+        {
+          "num": 24,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "C",
+          "ok": false,
+          "rt": 29.96
+        },
+        {
+          "num": 25,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 24.02
+        },
+        {
+          "num": 26,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.61
+        },
+        {
+          "num": 27,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 8.05
+        },
+        {
+          "num": 28,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "A",
+          "model": "D",
+          "ok": false,
+          "rt": 1.38
+        },
+        {
+          "num": 29,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "C",
+          "ok": false,
+          "rt": 1.33
+        },
+        {
+          "num": 30,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 1.04
+        },
+        {
+          "num": 31,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 2.58
+        },
+        {
+          "num": 32,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 0.94
+        },
+        {
+          "num": 33,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.57
+        },
+        {
+          "num": 34,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.58
+        },
+        {
+          "num": 35,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "B",
+          "ok": false,
+          "rt": 0.93
+        },
+        {
+          "num": 36,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.92
+        },
+        {
+          "num": 37,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 1.05
+        },
+        {
+          "num": 38,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.48
+        },
+        {
+          "num": 39,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "C",
+          "ok": false,
+          "rt": 0.54
+        },
+        {
+          "num": 40,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.63
+        },
+        {
+          "num": 41,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 0.74
+        },
+        {
+          "num": 42,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.58
+        },
+        {
+          "num": 43,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.83
+        },
+        {
+          "num": 44,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.5
+        },
+        {
+          "num": 45,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.54
+        },
+        {
+          "num": 46,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 17.14
+        },
+        {
+          "num": 47,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 0.69
+        },
+        {
+          "num": 48,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.48
+        },
+        {
+          "num": 49,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.73
+        },
+        {
+          "num": 50,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.75
+        },
+        {
+          "num": 51,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 27.35
+        },
+        {
+          "num": 52,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 18.06
+        },
+        {
+          "num": 53,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.85
+        },
+        {
+          "num": 54,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.79
+        },
+        {
+          "num": 55,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.41
+        },
+        {
+          "num": 56,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.74
+        },
+        {
+          "num": 57,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 27.23
+        },
+        {
+          "num": 58,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.58
+        },
+        {
+          "num": 59,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "B",
+          "ok": false,
+          "rt": 23.53
+        },
+        {
+          "num": 60,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.64
+        }
+      ]
+    },
+    "five-shot": {
+      "total": 60,
+      "correct": 52,
+      "by_skill": {
+        "Central Ideas and Details": {
+          "total": 20,
+          "correct": 20,
+          "acc": 100,
+          "by_difficulty": {
+            "Medium": {
+              "total": 8,
+              "correct": 8
+            },
+            "Hard": {
+              "total": 7,
+              "correct": 7
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5
+            }
+          }
+        },
+        "Command of Evidence": {
+          "total": 20,
+          "correct": 15,
+          "acc": 75,
+          "by_difficulty": {
+            "Hard": {
+              "total": 8,
+              "correct": 5
+            },
+            "Medium": {
+              "total": 10,
+              "correct": 9
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 1
+            }
+          }
+        },
+        "Inferences": {
+          "total": 20,
+          "correct": 17,
+          "acc": 85,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 17
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 38,
+          "correct": 34
+        },
+        "Hard": {
+          "total": 15,
+          "correct": 12
+        },
+        "Easy": {
+          "total": 7,
+          "correct": 6
+        }
+      },
+      "details": [
+        {
+          "num": 1,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 2.01
+        },
+        {
+          "num": 2,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.57
+        },
+        {
+          "num": 3,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 26.73
+        },
+        {
+          "num": 4,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 17.99
+        },
+        {
+          "num": 5,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.88
+        },
+        {
+          "num": 6,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.78
+        },
+        {
+          "num": 7,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.66
+        },
+        {
+          "num": 8,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.49
+        },
+        {
+          "num": 9,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.76
+        },
+        {
+          "num": 10,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.54
+        },
+        {
+          "num": 11,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 1.29
+        },
+        {
+          "num": 12,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 24.46
+        },
+        {
+          "num": 13,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.8
+        },
+        {
+          "num": 14,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.5
+        },
+        {
+          "num": 15,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.41
+        },
+        {
+          "num": 16,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.95
+        },
+        {
+          "num": 17,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 1.28
+        },
+        {
+          "num": 18,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.77
+        },
+        {
+          "num": 19,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.81
+        },
+        {
+          "num": 20,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.72
+        },
+        {
+          "num": 21,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.88
+        },
+        {
+          "num": 22,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.95
+        },
+        {
+          "num": 23,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "D",
+          "ok": false,
+          "rt": 1.0
+        },
+        {
+          "num": 24,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "A",
+          "ok": false,
+          "rt": 0.25
+        },
+        {
+          "num": 25,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 19.62
+        },
+        {
+          "num": 26,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.27
+        },
+        {
+          "num": 27,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 24.06
+        },
+        {
+          "num": 28,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 23.85
+        },
+        {
+          "num": 29,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.83
+        },
+        {
+          "num": 30,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 23.03
+        },
+        {
+          "num": 31,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 29.96
+        },
+        {
+          "num": 32,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 0.27
+        },
+        {
+          "num": 33,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.23
+        },
+        {
+          "num": 34,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.79
+        },
+        {
+          "num": 35,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.24
+        },
+        {
+          "num": 36,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.78
+        },
+        {
+          "num": 37,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 1.74
+        },
+        {
+          "num": 38,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.55
+        },
+        {
+          "num": 39,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.73
+        },
+        {
+          "num": 40,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 17.88
+        },
+        {
+          "num": 41,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 0.46
+        },
+        {
+          "num": 42,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 23.55
+        },
+        {
+          "num": 43,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.39
+        },
+        {
+          "num": 44,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 29.98
+        },
+        {
+          "num": 45,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 71.13
+        },
+        {
+          "num": 46,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 30.38
+        },
+        {
+          "num": 47,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 5.69
+        },
+        {
+          "num": 48,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 1.0
+        },
+        {
+          "num": 49,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 23.28
+        },
+        {
+          "num": 50,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 23.98
+        },
+        {
+          "num": 51,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 2.6
+        },
+        {
+          "num": 52,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 15.56
+        },
+        {
+          "num": 53,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.68
+        },
+        {
+          "num": 54,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 23.38
+        },
+        {
+          "num": 55,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.99
+        },
+        {
+          "num": 56,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.78
+        },
+        {
+          "num": 57,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 0.53
+        },
+        {
+          "num": 58,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.93
+        },
+        {
+          "num": 59,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.86
+        },
+        {
+          "num": 60,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.87
+        }
+      ]
+    },
+    "chain-of-thought": {
+      "total": 60,
+      "correct": 48,
+      "by_skill": {
+        "Central Ideas and Details": {
+          "total": 20,
+          "correct": 19,
+          "acc": 95,
+          "by_difficulty": {
+            "Medium": {
+              "total": 8,
+              "correct": 8
+            },
+            "Hard": {
+              "total": 7,
+              "correct": 7
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 4
+            }
+          }
+        },
+        "Command of Evidence": {
+          "total": 20,
+          "correct": 13,
+          "acc": 65,
+          "by_difficulty": {
+            "Hard": {
+              "total": 8,
+              "correct": 5
+            },
+            "Medium": {
+              "total": 10,
+              "correct": 7
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 1
+            }
+          }
+        },
+        "Inferences": {
+          "total": 20,
+          "correct": 16,
+          "acc": 80,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 16
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 38,
+          "correct": 31
+        },
+        "Hard": {
+          "total": 15,
+          "correct": 12
+        },
+        "Easy": {
+          "total": 7,
+          "correct": 5
+        }
+      },
+      "details": [
+        {
+          "num": 1,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 8.69
+        },
+        {
+          "num": 2,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 19.16
+        },
+        {
+          "num": 3,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 25.36
+        },
+        {
+          "num": 4,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 21.89
+        },
+        {
+          "num": 5,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 9.18
+        },
+        {
+          "num": 6,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 14.84
+        },
+        {
+          "num": 7,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 9.76
+        },
+        {
+          "num": 8,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 9.3
+        },
+        {
+          "num": 9,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 8.5
+        },
+        {
+          "num": 10,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 10.55
+        },
+        {
+          "num": 11,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 24.4
+        },
+        {
+          "num": 12,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 9.46
+        },
+        {
+          "num": 13,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 25.42
+        },
+        {
+          "num": 14,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 30.11
+        },
+        {
+          "num": 15,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "B",
+          "ok": false,
+          "rt": 4.53
+        },
+        {
+          "num": 16,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 10.38
+        },
+        {
+          "num": 17,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 26.74
+        },
+        {
+          "num": 18,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 15.57
+        },
+        {
+          "num": 19,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 3.06
+        },
+        {
+          "num": 20,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 13.79
+        },
+        {
+          "num": 21,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 2.51
+        },
+        {
+          "num": 22,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 4.05
+        },
+        {
+          "num": 23,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "D",
+          "ok": false,
+          "rt": 6.72
+        },
+        {
+          "num": 24,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "A",
+          "ok": false,
+          "rt": 8.25
+        },
+        {
+          "num": 25,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "B",
+          "ok": false,
+          "rt": 13.7
+        },
+        {
+          "num": 26,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 7.66
+        },
+        {
+          "num": 27,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 3.65
+        },
+        {
+          "num": 28,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 3.56
+        },
+        {
+          "num": 29,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 3.47
+        },
+        {
+          "num": 30,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 7.93
+        },
+        {
+          "num": 31,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 8.56
+        },
+        {
+          "num": 32,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 3.39
+        },
+        {
+          "num": 33,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 11.22
+        },
+        {
+          "num": 34,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 7.0
+        },
+        {
+          "num": 35,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 7.17
+        },
+        {
+          "num": 36,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 11.29
+        },
+        {
+          "num": 37,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 7.34
+        },
+        {
+          "num": 38,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 15.1
+        },
+        {
+          "num": 39,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 6.81
+        },
+        {
+          "num": 40,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 4.02
+        },
+        {
+          "num": 41,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "C",
+          "ok": false,
+          "rt": 16.66
+        },
+        {
+          "num": 42,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 29.87
+        },
+        {
+          "num": 43,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 5.82
+        },
+        {
+          "num": 44,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 11.88
+        },
+        {
+          "num": 45,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 7.11
+        },
+        {
+          "num": 46,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 35.65
+        },
+        {
+          "num": 47,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 7.31
+        },
+        {
+          "num": 48,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 28.9
+        },
+        {
+          "num": 49,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 17.87
+        },
+        {
+          "num": 50,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "B",
+          "ok": false,
+          "rt": 3.32
+        },
+        {
+          "num": 51,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 3.52
+        },
+        {
+          "num": 52,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 12.09
+        },
+        {
+          "num": 53,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 8.66
+        },
+        {
+          "num": 54,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 12.24
+        },
+        {
+          "num": 55,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 19.98
+        },
+        {
+          "num": 56,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 14.51
+        },
+        {
+          "num": 57,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "D",
+          "ok": false,
+          "rt": 9.49
+        },
+        {
+          "num": 58,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 17.95
+        },
+        {
+          "num": 59,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 6.6
+        },
+        {
+          "num": 60,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 3.24
+        }
+      ]
+    }
+  },
+  "llama-3.1-70b": {
+    "zero-shot": {
+      "total": 60,
+      "correct": 53,
+      "by_skill": {
+        "Central Ideas and Details": {
+          "total": 20,
+          "correct": 20,
+          "acc": 100,
+          "by_difficulty": {
+            "Medium": {
+              "total": 8,
+              "correct": 8
+            },
+            "Hard": {
+              "total": 7,
+              "correct": 7
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5
+            }
+          }
+        },
+        "Command of Evidence": {
+          "total": 20,
+          "correct": 15,
+          "acc": 75,
+          "by_difficulty": {
+            "Hard": {
+              "total": 8,
+              "correct": 5
+            },
+            "Medium": {
+              "total": 10,
+              "correct": 9
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 1
+            }
+          }
+        },
+        "Inferences": {
+          "total": 20,
+          "correct": 18,
+          "acc": 90,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 18
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 38,
+          "correct": 35
+        },
+        "Hard": {
+          "total": 15,
+          "correct": 12
+        },
+        "Easy": {
+          "total": 7,
+          "correct": 6
+        }
+      },
+      "details": [
+        {
+          "num": 1,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.37
+        },
+        {
+          "num": 2,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 3,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.27
+        },
+        {
+          "num": 4,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.76
+        },
+        {
+          "num": 5,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.51
+        },
+        {
+          "num": 6,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.62
+        },
+        {
+          "num": 7,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.54
+        },
+        {
+          "num": 8,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.38
+        },
+        {
+          "num": 9,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.73
+        },
+        {
+          "num": 10,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.71
+        },
+        {
+          "num": 11,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.48
+        },
+        {
+          "num": 12,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.72
+        },
+        {
+          "num": 13,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.59
+        },
+        {
+          "num": 14,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.45
+        },
+        {
+          "num": 15,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.56
+        },
+        {
+          "num": 16,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.73
+        },
+        {
+          "num": 17,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.51
+        },
+        {
+          "num": 18,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.66
+        },
+        {
+          "num": 19,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.72
+        },
+        {
+          "num": 20,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.64
+        },
+        {
+          "num": 21,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.76
+        },
+        {
+          "num": 22,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.54
+        },
+        {
+          "num": 23,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "D",
+          "ok": false,
+          "rt": 0.68
+        },
+        {
+          "num": 24,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 0.54
+        },
+        {
+          "num": 25,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.32
+        },
+        {
+          "num": 26,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.76
+        },
+        {
+          "num": 27,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.52
+        },
+        {
+          "num": 28,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.58
+        },
+        {
+          "num": 29,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.26
+        },
+        {
+          "num": 30,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.4
+        },
+        {
+          "num": 31,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 0.55
+        },
+        {
+          "num": 32,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 0.48
+        },
+        {
+          "num": 33,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.94
+        },
+        {
+          "num": 34,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "A",
+          "ok": false,
+          "rt": 0.47
+        },
+        {
+          "num": 35,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.5
+        },
+        {
+          "num": 36,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.53
+        },
+        {
+          "num": 37,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.68
+        },
+        {
+          "num": 38,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.5
+        },
+        {
+          "num": 39,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.57
+        },
+        {
+          "num": 40,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.7
+        },
+        {
+          "num": 41,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 0.51
+        },
+        {
+          "num": 42,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.65
+        },
+        {
+          "num": 43,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.82
+        },
+        {
+          "num": 44,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.48
+        },
+        {
+          "num": 45,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.51
+        },
+        {
+          "num": 46,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.66
+        },
+        {
+          "num": 47,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 1.56
+        },
+        {
+          "num": 48,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.67
+        },
+        {
+          "num": 49,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.3
+        },
+        {
+          "num": 50,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 1.04
+        },
+        {
+          "num": 51,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.4
+        },
+        {
+          "num": 52,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.76
+        },
+        {
+          "num": 53,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.72
+        },
+        {
+          "num": 54,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.52
+        },
+        {
+          "num": 55,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.59
+        },
+        {
+          "num": 56,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.04
+        },
+        {
+          "num": 57,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.65
+        },
+        {
+          "num": 58,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.55
+        },
+        {
+          "num": 59,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.66
+        },
+        {
+          "num": 60,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.59
+        }
+      ]
+    },
+    "five-shot": {
+      "total": 60,
+      "correct": 53,
+      "by_skill": {
+        "Central Ideas and Details": {
+          "total": 20,
+          "correct": 20,
+          "acc": 100,
+          "by_difficulty": {
+            "Medium": {
+              "total": 8,
+              "correct": 8
+            },
+            "Hard": {
+              "total": 7,
+              "correct": 7
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5
+            }
+          }
+        },
+        "Command of Evidence": {
+          "total": 20,
+          "correct": 16,
+          "acc": 80,
+          "by_difficulty": {
+            "Hard": {
+              "total": 8,
+              "correct": 6
+            },
+            "Medium": {
+              "total": 10,
+              "correct": 9
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 1
+            }
+          }
+        },
+        "Inferences": {
+          "total": 20,
+          "correct": 17,
+          "acc": 85,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 17
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 38,
+          "correct": 34
+        },
+        "Hard": {
+          "total": 15,
+          "correct": 13
+        },
+        "Easy": {
+          "total": 7,
+          "correct": 6
+        }
+      },
+      "details": [
+        {
+          "num": 1,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.94
+        },
+        {
+          "num": 2,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.51
+        },
+        {
+          "num": 3,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.59
+        },
+        {
+          "num": 4,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.76
+        },
+        {
+          "num": 5,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.87
+        },
+        {
+          "num": 6,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.82
+        },
+        {
+          "num": 7,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.8
+        },
+        {
+          "num": 8,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.63
+        },
+        {
+          "num": 9,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.91
+        },
+        {
+          "num": 10,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.82
+        },
+        {
+          "num": 11,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.84
+        },
+        {
+          "num": 12,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.69
+        },
+        {
+          "num": 13,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.53
+        },
+        {
+          "num": 14,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 1.13
+        },
+        {
+          "num": 15,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.84
+        },
+        {
+          "num": 16,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.57
+        },
+        {
+          "num": 17,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.71
+        },
+        {
+          "num": 18,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.34
+        },
+        {
+          "num": 19,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.95
+        },
+        {
+          "num": 20,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.54
+        },
+        {
+          "num": 21,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.65
+        },
+        {
+          "num": 22,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.88
+        },
+        {
+          "num": 23,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "D",
+          "ok": false,
+          "rt": 0.39
+        },
+        {
+          "num": 24,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 0.82
+        },
+        {
+          "num": 25,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.85
+        },
+        {
+          "num": 26,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.62
+        },
+        {
+          "num": 27,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.95
+        },
+        {
+          "num": 28,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.55
+        },
+        {
+          "num": 29,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.55
+        },
+        {
+          "num": 30,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.97
+        },
+        {
+          "num": 31,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 0.95
+        },
+        {
+          "num": 32,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 0.84
+        },
+        {
+          "num": 33,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 34,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.64
+        },
+        {
+          "num": 35,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.45
+        },
+        {
+          "num": 36,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.66
+        },
+        {
+          "num": 37,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 38,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.72
+        },
+        {
+          "num": 39,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.37
+        },
+        {
+          "num": 40,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.64
+        },
+        {
+          "num": 41,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 0.76
+        },
+        {
+          "num": 42,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.64
+        },
+        {
+          "num": 43,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.35
+        },
+        {
+          "num": 44,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.57
+        },
+        {
+          "num": 45,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.66
+        },
+        {
+          "num": 46,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.61
+        },
+        {
+          "num": 47,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 0.64
+        },
+        {
+          "num": 48,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.53
+        },
+        {
+          "num": 49,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.52
+        },
+        {
+          "num": 50,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.54
+        },
+        {
+          "num": 51,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.65
+        },
+        {
+          "num": 52,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.53
+        },
+        {
+          "num": 53,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.57
+        },
+        {
+          "num": 54,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.56
+        },
+        {
+          "num": 55,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.48
+        },
+        {
+          "num": 56,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.58
+        },
+        {
+          "num": 57,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 3.5
+        },
+        {
+          "num": 58,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.65
+        },
+        {
+          "num": 59,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.68
+        },
+        {
+          "num": 60,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.84
+        }
+      ]
+    },
+    "chain-of-thought": {
+      "total": 60,
+      "correct": 49,
+      "by_skill": {
+        "Central Ideas and Details": {
+          "total": 20,
+          "correct": 19,
+          "acc": 95,
+          "by_difficulty": {
+            "Medium": {
+              "total": 8,
+              "correct": 7
+            },
+            "Hard": {
+              "total": 7,
+              "correct": 7
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5
+            }
+          }
+        },
+        "Command of Evidence": {
+          "total": 20,
+          "correct": 13,
+          "acc": 65,
+          "by_difficulty": {
+            "Hard": {
+              "total": 8,
+              "correct": 6
+            },
+            "Medium": {
+              "total": 10,
+              "correct": 6
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 1
+            }
+          }
+        },
+        "Inferences": {
+          "total": 20,
+          "correct": 17,
+          "acc": 85,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 17
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 38,
+          "correct": 30
+        },
+        "Hard": {
+          "total": 15,
+          "correct": 13
+        },
+        "Easy": {
+          "total": 7,
+          "correct": 6
+        }
+      },
+      "details": [
+        {
+          "num": 1,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 7.69
+        },
+        {
+          "num": 2,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.24
+        },
+        {
+          "num": 3,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 3.54
+        },
+        {
+          "num": 4,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "B",
+          "ok": false,
+          "rt": 2.4
+        },
+        {
+          "num": 5,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 8.92
+        },
+        {
+          "num": 6,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 2.62
+        },
+        {
+          "num": 7,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 12.6
+        },
+        {
+          "num": 8,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 13.29
+        },
+        {
+          "num": 9,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 1.23
+        },
+        {
+          "num": 10,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 8.44
+        },
+        {
+          "num": 11,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 3.98
+        },
+        {
+          "num": 12,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 8.19
+        },
+        {
+          "num": 13,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 6.56
+        },
+        {
+          "num": 14,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 5.93
+        },
+        {
+          "num": 15,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 5.42
+        },
+        {
+          "num": 16,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.25
+        },
+        {
+          "num": 17,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 8.23
+        },
+        {
+          "num": 18,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 8.41
+        },
+        {
+          "num": 19,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 1.11
+        },
+        {
+          "num": 20,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 1.08
+        },
+        {
+          "num": 21,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 10.18
+        },
+        {
+          "num": 22,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 1.25
+        },
+        {
+          "num": 23,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "D",
+          "ok": false,
+          "rt": 18.85
+        },
+        {
+          "num": 24,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "A",
+          "ok": false,
+          "rt": 3.75
+        },
+        {
+          "num": 25,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 8.65
+        },
+        {
+          "num": 26,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 3.23
+        },
+        {
+          "num": 27,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 3.67
+        },
+        {
+          "num": 28,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 9.83
+        },
+        {
+          "num": 29,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 10.51
+        },
+        {
+          "num": 30,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 4.33
+        },
+        {
+          "num": 31,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 2.07
+        },
+        {
+          "num": 32,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 11.31
+        },
+        {
+          "num": 33,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 3.41
+        },
+        {
+          "num": 34,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 7.47
+        },
+        {
+          "num": 35,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 5.0
+        },
+        {
+          "num": 36,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 4.12
+        },
+        {
+          "num": 37,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "B",
+          "ok": false,
+          "rt": 2.62
+        },
+        {
+          "num": 38,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 10.5
+        },
+        {
+          "num": 39,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 3.24
+        },
+        {
+          "num": 40,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 1.07
+        },
+        {
+          "num": 41,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 9.68
+        },
+        {
+          "num": 42,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 8.49
+        },
+        {
+          "num": 43,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 1.1
+        },
+        {
+          "num": 44,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 1.14
+        },
+        {
+          "num": 45,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 5.9
+        },
+        {
+          "num": 46,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 8.33
+        },
+        {
+          "num": 47,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 3.29
+        },
+        {
+          "num": 48,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "B",
+          "ok": false,
+          "rt": 3.19
+        },
+        {
+          "num": 49,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 1.07
+        },
+        {
+          "num": 50,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 5.82
+        },
+        {
+          "num": 51,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.96
+        },
+        {
+          "num": 52,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 9.38
+        },
+        {
+          "num": 53,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 9.65
+        },
+        {
+          "num": 54,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 8.09
+        },
+        {
+          "num": 55,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 1.33
+        },
+        {
+          "num": 56,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 10.32
+        },
+        {
+          "num": 57,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 3.24
+        },
+        {
+          "num": 58,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 1.16
+        },
+        {
+          "num": 59,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 7.67
+        },
+        {
+          "num": 60,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.18
+        }
+      ]
+    }
+  },
+  "llama-3.1-405b": {
+    "zero-shot": {
+      "total": 60,
+      "correct": 54,
+      "by_skill": {
+        "Central Ideas and Details": {
+          "total": 20,
+          "correct": 20,
+          "by_difficulty": {
+            "Medium": {
+              "total": 8,
+              "correct": 8
+            },
+            "Hard": {
+              "total": 7,
+              "correct": 7
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5
+            }
+          }
+        },
+        "Command of Evidence": {
+          "total": 20,
+          "correct": 15,
+          "by_difficulty": {
+            "Hard": {
+              "total": 8,
+              "correct": 6
+            },
+            "Medium": {
+              "total": 10,
+              "correct": 8
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 1
+            }
+          }
+        },
+        "Inferences": {
+          "total": 20,
+          "correct": 19,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 19
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 38,
+          "correct": 35
+        },
+        "Hard": {
+          "total": 15,
+          "correct": 13
+        },
+        "Easy": {
+          "total": 7,
+          "correct": 6
+        }
+      },
+      "details": [
+        {
+          "num": 1,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.55
+        },
+        {
+          "num": 2,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.07
+        },
+        {
+          "num": 3,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.83
+        },
+        {
+          "num": 4,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.68
+        },
+        {
+          "num": 5,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.64
+        },
+        {
+          "num": 6,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.68
+        },
+        {
+          "num": 7,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.98
+        },
+        {
+          "num": 8,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.76
+        },
+        {
+          "num": 9,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 1.15
+        },
+        {
+          "num": 10,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.55
+        },
+        {
+          "num": 11,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.61
+        },
+        {
+          "num": 12,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.76
+        },
+        {
+          "num": 13,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 14,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.67
+        },
+        {
+          "num": 15,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.56
+        },
+        {
+          "num": 16,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.61
+        },
+        {
+          "num": 17,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.73
+        },
+        {
+          "num": 18,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.67
+        },
+        {
+          "num": 19,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.7
+        },
+        {
+          "num": 20,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.63
+        },
+        {
+          "num": 21,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.68
+        },
+        {
+          "num": 22,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.54
+        },
+        {
+          "num": 23,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "D",
+          "ok": false,
+          "rt": 0.72
+        },
+        {
+          "num": 24,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "A",
+          "ok": false,
+          "rt": 0.62
+        },
+        {
+          "num": 25,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.61
+        },
+        {
+          "num": 26,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.77
+        },
+        {
+          "num": 27,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.55
+        },
+        {
+          "num": 28,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.67
+        },
+        {
+          "num": 29,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.61
+        },
+        {
+          "num": 30,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.59
+        },
+        {
+          "num": 31,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 0.99
+        },
+        {
+          "num": 32,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 0.68
+        },
+        {
+          "num": 33,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.72
+        },
+        {
+          "num": 34,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.65
+        },
+        {
+          "num": 35,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "C",
+          "ok": false,
+          "rt": 0.67
+        },
+        {
+          "num": 36,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.63
+        },
+        {
+          "num": 37,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 38,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 39,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.73
+        },
+        {
+          "num": 40,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.66
+        },
+        {
+          "num": 41,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 1.16
+        },
+        {
+          "num": 42,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.68
+        },
+        {
+          "num": 43,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.63
+        },
+        {
+          "num": 44,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.55
+        },
+        {
+          "num": 45,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.73
+        },
+        {
+          "num": 46,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.48
+        },
+        {
+          "num": 47,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 1.24
+        },
+        {
+          "num": 48,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 1.07
+        },
+        {
+          "num": 49,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.66
+        },
+        {
+          "num": 50,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.58
+        },
+        {
+          "num": 51,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.61
+        },
+        {
+          "num": 52,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.48
+        },
+        {
+          "num": 53,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.64
+        },
+        {
+          "num": 54,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 55,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.54
+        },
+        {
+          "num": 56,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.8
+        },
+        {
+          "num": 57,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 58,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 59,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.69
+        },
+        {
+          "num": 60,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.6
+        }
+      ]
+    },
+    "five-shot": {
+      "total": 60,
+      "correct": 54,
+      "by_skill": {
+        "Central Ideas and Details": {
+          "total": 20,
+          "correct": 20,
+          "acc": 100,
+          "by_difficulty": {
+            "Medium": {
+              "total": 8,
+              "correct": 8
+            },
+            "Hard": {
+              "total": 7,
+              "correct": 7
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5
+            }
+          }
+        },
+        "Command of Evidence": {
+          "total": 20,
+          "correct": 16,
+          "acc": 80,
+          "by_difficulty": {
+            "Hard": {
+              "total": 8,
+              "correct": 6
+            },
+            "Medium": {
+              "total": 10,
+              "correct": 9
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 1
+            }
+          }
+        },
+        "Inferences": {
+          "total": 20,
+          "correct": 18,
+          "acc": 90,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 18
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 38,
+          "correct": 35
+        },
+        "Hard": {
+          "total": 15,
+          "correct": 13
+        },
+        "Easy": {
+          "total": 7,
+          "correct": 6
+        }
+      },
+      "details": [
+        {
+          "num": 1,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.71
+        },
+        {
+          "num": 2,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.65
+        },
+        {
+          "num": 3,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.83
+        },
+        {
+          "num": 4,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.65
+        },
+        {
+          "num": 5,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.67
+        },
+        {
+          "num": 6,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.65
+        },
+        {
+          "num": 7,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 8,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.7
+        },
+        {
+          "num": 9,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.72
+        },
+        {
+          "num": 10,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.63
+        },
+        {
+          "num": 11,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.67
+        },
+        {
+          "num": 12,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.65
+        },
+        {
+          "num": 13,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.54
+        },
+        {
+          "num": 14,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.61
+        },
+        {
+          "num": 15,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.85
+        },
+        {
+          "num": 16,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.86
+        },
+        {
+          "num": 17,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.88
+        },
+        {
+          "num": 18,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.62
+        },
+        {
+          "num": 19,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.88
+        },
+        {
+          "num": 20,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.59
+        },
+        {
+          "num": 21,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.7
+        },
+        {
+          "num": 22,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.69
+        },
+        {
+          "num": 23,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "D",
+          "ok": false,
+          "rt": 1.02
+        },
+        {
+          "num": 24,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 0.54
+        },
+        {
+          "num": 25,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.64
+        },
+        {
+          "num": 26,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.61
+        },
+        {
+          "num": 27,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.64
+        },
+        {
+          "num": 28,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.91
+        },
+        {
+          "num": 29,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.07
+        },
+        {
+          "num": 30,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.65
+        },
+        {
+          "num": 31,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 0.68
+        },
+        {
+          "num": 32,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 0.68
+        },
+        {
+          "num": 33,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 1.15
+        },
+        {
+          "num": 34,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.92
+        },
+        {
+          "num": 35,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.79
+        },
+        {
+          "num": 36,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.76
+        },
+        {
+          "num": 37,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.84
+        },
+        {
+          "num": 38,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.8
+        },
+        {
+          "num": 39,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.56
+        },
+        {
+          "num": 40,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.88
+        },
+        {
+          "num": 41,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 1.06
+        },
+        {
+          "num": 42,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 1.11
+        },
+        {
+          "num": 43,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.71
+        },
+        {
+          "num": 44,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.59
+        },
+        {
+          "num": 45,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.87
+        },
+        {
+          "num": 46,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.62
+        },
+        {
+          "num": 47,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 0.75
+        },
+        {
+          "num": 48,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 2.59
+        },
+        {
+          "num": 49,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.49
+        },
+        {
+          "num": 50,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.75
+        },
+        {
+          "num": 51,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.64
+        },
+        {
+          "num": 52,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.74
+        },
+        {
+          "num": 53,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.81
+        },
+        {
+          "num": 54,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.68
+        },
+        {
+          "num": 55,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 0.58
+        },
+        {
+          "num": 56,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.6
+        },
+        {
+          "num": 57,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 0.7
+        },
+        {
+          "num": 58,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 0.74
+        },
+        {
+          "num": 59,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 0.62
+        },
+        {
+          "num": 60,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 0.63
+        }
+      ]
+    },
+    "chain-of-thought": {
+      "total": 60,
+      "correct": 54,
+      "by_skill": {
+        "Central Ideas and Details": {
+          "total": 20,
+          "correct": 20,
+          "acc": 100,
+          "by_difficulty": {
+            "Medium": {
+              "total": 8,
+              "correct": 8
+            },
+            "Hard": {
+              "total": 7,
+              "correct": 7
+            },
+            "Easy": {
+              "total": 5,
+              "correct": 5
+            }
+          }
+        },
+        "Command of Evidence": {
+          "total": 20,
+          "correct": 16,
+          "acc": 80,
+          "by_difficulty": {
+            "Hard": {
+              "total": 8,
+              "correct": 6
+            },
+            "Medium": {
+              "total": 10,
+              "correct": 9
+            },
+            "Easy": {
+              "total": 2,
+              "correct": 1
+            }
+          }
+        },
+        "Inferences": {
+          "total": 20,
+          "correct": 18,
+          "acc": 90,
+          "by_difficulty": {
+            "Medium": {
+              "total": 20,
+              "correct": 18
+            }
+          }
+        }
+      },
+      "by_difficulty": {
+        "Medium": {
+          "total": 38,
+          "correct": 35
+        },
+        "Hard": {
+          "total": 15,
+          "correct": 13
+        },
+        "Easy": {
+          "total": 7,
+          "correct": 6
+        }
+      },
+      "details": [
+        {
+          "num": 1,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 7.72
+        },
+        {
+          "num": 2,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 7.37
+        },
+        {
+          "num": 3,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 9.67
+        },
+        {
+          "num": 4,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 7.76
+        },
+        {
+          "num": 5,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 7.86
+        },
+        {
+          "num": 6,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 7.91
+        },
+        {
+          "num": 7,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 9.66
+        },
+        {
+          "num": 8,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 8.23
+        },
+        {
+          "num": 9,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 6.88
+        },
+        {
+          "num": 10,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 7.64
+        },
+        {
+          "num": 11,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 9.69
+        },
+        {
+          "num": 12,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 7.11
+        },
+        {
+          "num": 13,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 9.61
+        },
+        {
+          "num": 14,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 7.46
+        },
+        {
+          "num": 15,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 7.97
+        },
+        {
+          "num": 16,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 11.24
+        },
+        {
+          "num": 17,
+          "skill": "Central Ideas and Details",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 10.81
+        },
+        {
+          "num": 18,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 9.42
+        },
+        {
+          "num": 19,
+          "skill": "Central Ideas and Details",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 8.71
+        },
+        {
+          "num": 20,
+          "skill": "Central Ideas and Details",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 12.79
+        },
+        {
+          "num": 21,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 8.32
+        },
+        {
+          "num": 22,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 12.73
+        },
+        {
+          "num": 23,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "C",
+          "model": "D",
+          "ok": false,
+          "rt": 10.57
+        },
+        {
+          "num": 24,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "C",
+          "ok": false,
+          "rt": 12.69
+        },
+        {
+          "num": 25,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 14.5
+        },
+        {
+          "num": 26,
+          "skill": "Command of Evidence",
+          "diff": "Easy",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 9.64
+        },
+        {
+          "num": 27,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 8.82
+        },
+        {
+          "num": 28,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 15.89
+        },
+        {
+          "num": 29,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 8.22
+        },
+        {
+          "num": 30,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 12.3
+        },
+        {
+          "num": 31,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "B",
+          "model": "A",
+          "ok": false,
+          "rt": 7.51
+        },
+        {
+          "num": 32,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "B",
+          "ok": false,
+          "rt": 11.24
+        },
+        {
+          "num": 33,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 12.64
+        },
+        {
+          "num": 34,
+          "skill": "Command of Evidence",
+          "diff": "Hard",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 9.35
+        },
+        {
+          "num": 35,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 7.68
+        },
+        {
+          "num": 36,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 10.49
+        },
+        {
+          "num": 37,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 7.65
+        },
+        {
+          "num": 38,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 9.33
+        },
+        {
+          "num": 39,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 9.0
+        },
+        {
+          "num": 40,
+          "skill": "Command of Evidence",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 10.01
+        },
+        {
+          "num": 41,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 10.83
+        },
+        {
+          "num": 42,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 9.1
+        },
+        {
+          "num": 43,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 9.39
+        },
+        {
+          "num": 44,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 9.17
+        },
+        {
+          "num": 45,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 9.21
+        },
+        {
+          "num": 46,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 11.17
+        },
+        {
+          "num": 47,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "A",
+          "ok": false,
+          "rt": 10.9
+        },
+        {
+          "num": 48,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 10.61
+        },
+        {
+          "num": 49,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 17.75
+        },
+        {
+          "num": 50,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 8.58
+        },
+        {
+          "num": 51,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 8.36
+        },
+        {
+          "num": 52,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 7.54
+        },
+        {
+          "num": 53,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 8.28
+        },
+        {
+          "num": 54,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 10.11
+        },
+        {
+          "num": 55,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "B",
+          "model": "B",
+          "ok": true,
+          "rt": 7.83
+        },
+        {
+          "num": 56,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 9.08
+        },
+        {
+          "num": 57,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "D",
+          "ok": false,
+          "rt": 10.54
+        },
+        {
+          "num": 58,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "C",
+          "model": "C",
+          "ok": true,
+          "rt": 8.34
+        },
+        {
+          "num": 59,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "A",
+          "model": "A",
+          "ok": true,
+          "rt": 8.6
+        },
+        {
+          "num": 60,
+          "skill": "Inferences",
+          "diff": "Medium",
+          "correct": "D",
+          "model": "D",
+          "ok": true,
+          "rt": 9.95
+        }
+      ]
+    }
+  }
+}

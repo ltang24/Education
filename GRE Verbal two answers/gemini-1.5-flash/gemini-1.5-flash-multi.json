@@ -1,0 +1,2873 @@
+{
+    "zero-shot": {
+        "accuracy": 0.74,
+        "correct_count": 37,
+        "total_questions_processed": 50,
+        "details": [
+            {
+                "question_number": 1,
+                "expected": [
+                    "detection",
+                    "an unambiguous"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "detection",
+                    "anunambiguous"
+                ],
+                "model_explanation": "Explanation: The context of the sentence discusses the presence of molecular oxygen on Earth-sized planets and its implications for life. The word \"detection\" fits well in the first blank as it refers to the act of discovering or identifying molecular oxygen. In the second blank, \"an unambiguous\" is appropriate because it indicates that the presence of molecular oxygen would not clearly indicate life, aligning with the explanation provided in the sentence about the dual nature of molecular oxygen's origins.",
+                "model_response": "detection, an unambiguous  \nExplanation: The context of the sentence discusses the presence of molecular oxygen on Earth-sized planets and its implications for life. The word \"detection\" fits well in the first blank as it refers to the act of discovering or identifying molecular oxygen. In the second blank, \"an unambiguous\" is appropriate because it indicates that the presence of molecular oxygen would not clearly indicate life, aligning with the explanation provided in the sentence about the dual nature of molecular oxygen's origins.",
+                "runtime": 5.78,
+                "correct": true
+            },
+            {
+                "question_number": 2,
+                "expected": [
+                    "sterling reputation of",
+                    "exhaustive"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "sterlingreputationof",
+                    "exhaustive"
+                ],
+                "model_explanation": "Explanation: The phrase suggests that the committees have a strong credibility (\"sterling reputation of\") and that their investigation is thorough (\"exhaustive\"). This combination implies that it would be unreasonable to dispute their conclusions without careful consideration.",
+                "model_response": "sterling reputation of, exhaustive\n\nExplanation: The phrase suggests that the committees have a strong credibility (\"sterling reputation of\") and that their investigation is thorough (\"exhaustive\"). This combination implies that it would be unreasonable to dispute their conclusions without careful consideration.",
+                "runtime": 1.89,
+                "correct": true
+            },
+            {
+                "question_number": 3,
+                "expected": [
+                    "feeble",
+                    "robust"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "swift",
+                    "robust"
+                ],
+                "model_explanation": "Explanation: The sentence describes an economic recovery that is uneven across different industrial economies. \"Swift\" in the first blank suggests a rapid recovery in some economies, while \"robust\" in the second blank indicates a strong recovery in others, creating a contrast that fits the context of a lopsided recovery.",
+                "model_response": "swift, robust  \nExplanation: The sentence describes an economic recovery that is uneven across different industrial economies. \"Swift\" in the first blank suggests a rapid recovery in some economies, while \"robust\" in the second blank indicates a strong recovery in others, creating a contrast that fits the context of a lopsided recovery.",
+                "runtime": 2.28,
+                "correct": false
+            },
+            {
+                "question_number": 4,
+                "expected": [
+                    "efficiently",
+                    "vacant"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "efficiently",
+                    "vacant"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that describes how trains use energy compared to automobiles. \"Efficiently\" fits well, as it suggests that trains use energy in a more effective manner. The second blank needs a word that indicates the state of railway carriages when they are not carrying passengers. \"Vacant\" is appropriate here, as it means empty or unoccupied, which aligns with the idea that railway carriages spend time running without passengers.",
+                "model_response": "efficiently, vacant  \nExplanation: The first blank requires a word that describes how trains use energy compared to automobiles. \"Efficiently\" fits well, as it suggests that trains use energy in a more effective manner. The second blank needs a word that indicates the state of railway carriages when they are not carrying passengers. \"Vacant\" is appropriate here, as it means empty or unoccupied, which aligns with the idea that railway carriages spend time running without passengers.",
+                "runtime": 2.15,
+                "correct": true
+            },
+            {
+                "question_number": 5,
+                "expected": [
+                    "limitation",
+                    "objectivity"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "limitation",
+                    "objectivity"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that many books on the American presidency have a bias, indicating that their ideological bias is a drawback or limitation. The second part of the sentence states that the volume being discussed maintains an impressive degree of something positive, which aligns with \"objectivity,\" as it implies a lack of bias.",
+                "model_response": "limitation, objectivity  \nExplanation: The sentence suggests that many books on the American presidency have a bias, indicating that their ideological bias is a drawback or limitation. The second part of the sentence states that the volume being discussed maintains an impressive degree of something positive, which aligns with \"objectivity,\" as it implies a lack of bias.",
+                "runtime": 1.32,
+                "correct": true
+            },
+            {
+                "question_number": 6,
+                "expected": [
+                    "favor",
+                    "loath"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "favor",
+                    "loath"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that towns are not voting to keep incinerators because they support them, but rather because they are reluctant to limit their waste-disposal options. \"Favor\" fits the first blank as it indicates support, while \"loath\" fits the second blank as it conveys an unwillingness or reluctance.",
+                "model_response": "favor, loath  \nExplanation: The sentence suggests that towns are not voting to keep incinerators because they support them, but rather because they are reluctant to limit their waste-disposal options. \"Favor\" fits the first blank as it indicates support, while \"loath\" fits the second blank as it conveys an unwillingness or reluctance.",
+                "runtime": 1.58,
+                "correct": true
+            },
+            {
+                "question_number": 7,
+                "expected": [
+                    "decisive",
+                    "vacillation"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "decisive",
+                    "vacillation"
+                ],
+                "model_explanation": "Explanation: The context suggests that Tanaka is seen as a strong candidate for leadership, which aligns with \"decisive\" as it implies a clear and effective leadership style. In contrast, Williamson's term is described as being marred by \"vacillation,\" which refers to indecision or inconsistency, further emphasizing the contrast between the two candidates.",
+                "model_response": "decisive, vacillation  \nExplanation: The context suggests that Tanaka is seen as a strong candidate for leadership, which aligns with \"decisive\" as it implies a clear and effective leadership style. In contrast, Williamson's term is described as being marred by \"vacillation,\" which refers to indecision or inconsistency, further emphasizing the contrast between the two candidates.",
+                "runtime": 2.19,
+                "correct": true
+            },
+            {
+                "question_number": 8,
+                "expected": [
+                    "delightful",
+                    "contagious"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "skilled",
+                    "contagious"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that indicates toddlers are good dance students despite their recent learning. \"Skilled\" fits this context. The second blank needs a word that describes their joy in movement, which is best captured by \"contagious,\" as it suggests that their joy can spread to others.",
+                "model_response": "skilled, contagious  \nExplanation: The first blank requires a word that indicates toddlers are good dance students despite their recent learning. \"Skilled\" fits this context. The second blank needs a word that describes their joy in movement, which is best captured by \"contagious,\" as it suggests that their joy can spread to others.",
+                "runtime": 1.78,
+                "correct": false
+            },
+            {
+                "question_number": 9,
+                "expected": [
+                    "aimlessness",
+                    "discursions"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "aimlessness",
+                    "discursions"
+                ],
+                "model_explanation": "Explanation: The word \"aimlessness\" suggests a lack of direction that could initially irk readers, while \"discursions\" refers to digressions or deviations from the main topic, which can be seen as an asset once readers become engaged with the author's style.",
+                "model_response": "aimlessness, discursions  \nExplanation: The word \"aimlessness\" suggests a lack of direction that could initially irk readers, while \"discursions\" refers to digressions or deviations from the main topic, which can be seen as an asset once readers become engaged with the author's style.",
+                "runtime": 1.78,
+                "correct": true
+            },
+            {
+                "question_number": 10,
+                "expected": [
+                    "inversely related",
+                    "unfeeling"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "mutuallyreinforcing",
+                    "unfeeling"
+                ],
+                "model_explanation": "Explanation: The context suggests that people associate competence with warmth, implying that they see these traits as positively correlated. Therefore, \"mutually reinforcing\" fits in the first blank. In the second blank, \"unfeeling\" aligns with the idea that if someone is perceived as highly capable, they may be assumed to lack warmth or empathy, which is a common stereotype.",
+                "model_response": "mutually reinforcing, unfeeling  \nExplanation: The context suggests that people associate competence with warmth, implying that they see these traits as positively correlated. Therefore, \"mutually reinforcing\" fits in the first blank. In the second blank, \"unfeeling\" aligns with the idea that if someone is perceived as highly capable, they may be assumed to lack warmth or empathy, which is a common stereotype.",
+                "runtime": 2.07,
+                "correct": false
+            },
+            {
+                "question_number": 11,
+                "expected": [
+                    "an anomalous",
+                    "embodies"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "ananomalous",
+                    "embodies"
+                ],
+                "model_explanation": "Explanation: The context suggests that home schooling does not align with traditional educational philosophies, indicating that it is unusual or \"anomalous.\" Additionally, the phrase \"some of the most widely accepted education ideas\" implies that home schooling actually \"embodies\" these ideas rather than overcoming or anticipating them.",
+                "model_response": "an anomalous, embodies  \nExplanation: The context suggests that home schooling does not align with traditional educational philosophies, indicating that it is unusual or \"anomalous.\" Additionally, the phrase \"some of the most widely accepted education ideas\" implies that home schooling actually \"embodies\" these ideas rather than overcoming or anticipating them.",
+                "runtime": 2.41,
+                "correct": true
+            },
+            {
+                "question_number": 12,
+                "expected": [
+                    "impetuous",
+                    "circumspect"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "impetuous",
+                    "circumspect"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that the person was not impulsive (impetuous) and was instead careful and prudent (circumspect) in his actions, as he chose to hold back his feelings for the time being.",
+                "model_response": "impetuous, circumspect  \nExplanation: The sentence suggests that the person was not impulsive (impetuous) and was instead careful and prudent (circumspect) in his actions, as he chose to hold back his feelings for the time being.",
+                "runtime": 2.09,
+                "correct": true
+            },
+            {
+                "question_number": 13,
+                "expected": [
+                    "virtue",
+                    "derive from"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "drawback",
+                    "derivefrom"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that indicates a negative aspect of the method, making \"drawback\" the best fit. The second blank needs a word that suggests the predictions are based on or come from actual observations, which aligns with \"derive from.\"",
+                "model_response": "drawback, derive from  \nExplanation: The first blank requires a word that indicates a negative aspect of the method, making \"drawback\" the best fit. The second blank needs a word that suggests the predictions are based on or come from actual observations, which aligns with \"derive from.\"",
+                "runtime": 5.58,
+                "correct": false
+            },
+            {
+                "question_number": 14,
+                "expected": [
+                    "persistent",
+                    "corruption"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "discouraging",
+                    "corruption"
+                ],
+                "model_explanation": "Explanation: The context of the sentence suggests that the reputation of the city's police force is negative, which aligns with \"discouraging.\" The second blank should reflect a negative aspect of the police force, and \"corruption\" fits this context as it indicates wrongdoing or unethical behavior, which would prompt a new police chief to promise reforms.",
+                "model_response": "discouraging, corruption  \nExplanation: The context of the sentence suggests that the reputation of the city's police force is negative, which aligns with \"discouraging.\" The second blank should reflect a negative aspect of the police force, and \"corruption\" fits this context as it indicates wrongdoing or unethical behavior, which would prompt a new police chief to promise reforms.",
+                "runtime": 3.18,
+                "correct": false
+            },
+            {
+                "question_number": 15,
+                "expected": [
+                    "nearly infinite",
+                    "eliminated"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "nearlyinfinite",
+                    "eliminated"
+                ],
+                "model_explanation": "Explanation: The first blank describes the ratio of theory to data in cosmology, indicating that there are many theories but little data, which aligns with \"nearly infinite.\" The second blank indicates that the data has significantly impacted the theories, and \"eliminated\" fits best as it suggests that all theories except one have been discarded due to the new data.",
+                "model_response": "nearly infinite, eliminated  \nExplanation: The first blank describes the ratio of theory to data in cosmology, indicating that there are many theories but little data, which aligns with \"nearly infinite.\" The second blank indicates that the data has significantly impacted the theories, and \"eliminated\" fits best as it suggests that all theories except one have been discarded due to the new data.",
+                "runtime": 1.87,
+                "correct": true
+            },
+            {
+                "question_number": 16,
+                "expected": [
+                    "erudition",
+                    "scarce"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "erudition",
+                    "scarce"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that reflects the extensive knowledge and learning that Shakespeare exhibits in his works, which is best captured by \"erudition.\" The second blank needs a word that indicates the limited availability of books during Shakespeare's time, making \"scarce\" the appropriate choice. Together, these words highlight the contrast between Shakespeare's vast knowledge and the rarity of books in his era.",
+                "model_response": "erudition, scarce  \nExplanation: The first blank requires a word that reflects the extensive knowledge and learning that Shakespeare exhibits in his works, which is best captured by \"erudition.\" The second blank needs a word that indicates the limited availability of books during Shakespeare's time, making \"scarce\" the appropriate choice. Together, these words highlight the contrast between Shakespeare's vast knowledge and the rarity of books in his era.",
+                "runtime": 2.3,
+                "correct": true
+            },
+            {
+                "question_number": 17,
+                "expected": [
+                    "precipitate",
+                    "forbore"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "precipitate",
+                    "forbore"
+                ],
+                "model_explanation": "Explanation: The first blank needs a word that indicates she was not hasty or rash, which aligns with \"precipitate.\" The second blank requires a word that suggests she refrained from declaring her passion, which fits \"forbore.\" Thus, the sentence conveys that she was not impulsive and chose to hold back her feelings.",
+                "model_response": "precipitate, forbore  \nExplanation: The first blank needs a word that indicates she was not hasty or rash, which aligns with \"precipitate.\" The second blank requires a word that suggests she refrained from declaring her passion, which fits \"forbore.\" Thus, the sentence conveys that she was not impulsive and chose to hold back her feelings.",
+                "runtime": 1.83,
+                "correct": true
+            },
+            {
+                "question_number": 18,
+                "expected": [
+                    "too harshly judged",
+                    "judicious"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "franklyacknowledged",
+                    "judicious"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that the biography mostly presents the subject positively, except for a few passages where the flaws are acknowledged. \"Frankly acknowledged\" fits well in the first blank as it implies that the flaws are recognized honestly. In the second blank, \"judicious\" indicates that the author's treatment is thoughtful and balanced, aligning with the idea that the overall portrayal is not overly critical or harsh.",
+                "model_response": "frankly acknowledged, judicious  \nExplanation: The sentence suggests that the biography mostly presents the subject positively, except for a few passages where the flaws are acknowledged. \"Frankly acknowledged\" fits well in the first blank as it implies that the flaws are recognized honestly. In the second blank, \"judicious\" indicates that the author's treatment is thoughtful and balanced, aligning with the idea that the overall portrayal is not overly critical or harsh.",
+                "runtime": 2.27,
+                "correct": false
+            },
+            {
+                "question_number": 19,
+                "expected": [
+                    "abundance",
+                    "rapacious depletion"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "abundance",
+                    "rapaciousdepletion"
+                ],
+                "model_explanation": "Explanation: The sentence describes a transition from a resource-rich economy to a resource-dependent one, suggesting that initially there was an abundance of natural resources (first blank), which was then followed by rapacious depletion (second blank), indicating over-exploitation of those resources.",
+                "model_response": "abundance, rapacious depletion  \nExplanation: The sentence describes a transition from a resource-rich economy to a resource-dependent one, suggesting that initially there was an abundance of natural resources (first blank), which was then followed by rapacious depletion (second blank), indicating over-exploitation of those resources.",
+                "runtime": 2.46,
+                "correct": true
+            },
+            {
+                "question_number": 20,
+                "expected": [
+                    "neglects",
+                    "problematic"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "neglects",
+                    "underappreciated"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that indicates a lack of acknowledgment of the bebop and free jazz movements, which were significant in experimental music. \"Neglects\" fits this context. The second blank needs a word that suggests the account is not given enough value or recognition, making \"underappreciated\" the appropriate choice.",
+                "model_response": "neglects, underappreciated  \nExplanation: The first blank requires a word that indicates a lack of acknowledgment of the bebop and free jazz movements, which were significant in experimental music. \"Neglects\" fits this context. The second blank needs a word that suggests the account is not given enough value or recognition, making \"underappreciated\" the appropriate choice.",
+                "runtime": 1.92,
+                "correct": false
+            },
+            {
+                "question_number": 21,
+                "expected": [
+                    "ancestry",
+                    "obvious"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "ancestry",
+                    "obvious"
+                ],
+                "model_explanation": "Explanation: The sentence discusses the mystery surrounding the biological origin of maize, which suggests that the first blank should refer to its origin or lineage, making \"ancestry\" the most fitting choice. The second blank implies that this origin is not easily understood or clear, so \"obvious\" aligns well with the context of the sentence.",
+                "model_response": "ancestry, obvious  \nExplanation: The sentence discusses the mystery surrounding the biological origin of maize, which suggests that the first blank should refer to its origin or lineage, making \"ancestry\" the most fitting choice. The second blank implies that this origin is not easily understood or clear, so \"obvious\" aligns well with the context of the sentence.",
+                "runtime": 2.81,
+                "correct": true
+            },
+            {
+                "question_number": 22,
+                "expected": [
+                    "derivative",
+                    "remarkably pioneering"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "derivative",
+                    "remarkablypioneering"
+                ],
+                "model_explanation": "Explanation: The first blank needs a word that indicates that Green's scholarship is not original or innovative, which fits with \"derivative.\" The second blank requires a word that contrasts with the idea of her research being unoriginal; \"remarkably pioneering\" suggests that while her research may not be novel, her conclusions are groundbreaking, creating a contrast that aligns with the sentence's structure.",
+                "model_response": "derivative, remarkably pioneering  \nExplanation: The first blank needs a word that indicates that Green's scholarship is not original or innovative, which fits with \"derivative.\" The second blank requires a word that contrasts with the idea of her research being unoriginal; \"remarkably pioneering\" suggests that while her research may not be novel, her conclusions are groundbreaking, creating a contrast that aligns with the sentence's structure.",
+                "runtime": 1.86,
+                "correct": true
+            },
+            {
+                "question_number": 23,
+                "expected": [
+                    "clandestine",
+                    "open"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "clandestine",
+                    "open"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that describes the secretive nature of the comments made around the water cooler, which aligns with \"clandestine.\" For the second blank, \"open\" fits well as it suggests a more transparent and honest dialogue, which would help in resolving workplace frustrations.",
+                "model_response": "clandestine, open  \nExplanation: The first blank requires a word that describes the secretive nature of the comments made around the water cooler, which aligns with \"clandestine.\" For the second blank, \"open\" fits well as it suggests a more transparent and honest dialogue, which would help in resolving workplace frustrations.",
+                "runtime": 1.84,
+                "correct": true
+            },
+            {
+                "question_number": 24,
+                "expected": [
+                    "churlish",
+                    "admire"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "churlish",
+                    "admire"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that it would be ungracious or rude (churlish) not to admire these tabloid journalists for their success in difficult circumstances. The context indicates that they should be recognized positively, which aligns with the word \"admire.\"",
+                "model_response": "churlish, admire  \nExplanation: The sentence suggests that it would be ungracious or rude (churlish) not to admire these tabloid journalists for their success in difficult circumstances. The context indicates that they should be recognized positively, which aligns with the word \"admire.\"",
+                "runtime": 1.21,
+                "correct": true
+            },
+            {
+                "question_number": 25,
+                "expected": [
+                    "arcane",
+                    "obscure"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "arcane",
+                    "obscure"
+                ],
+                "model_explanation": "Explanation: The first blank needs a word that suggests her scholarship is not merely difficult to understand, but rather specialized or esoteric, which fits \"arcane.\" The second blank requires a word that indicates her conclusions are clear and not difficult to grasp, which aligns with \"obscure.\" Thus, the sentence suggests that while her discussion may be complex, her conclusions are straightforward.",
+                "model_response": "arcane, obscure  \nExplanation: The first blank needs a word that suggests her scholarship is not merely difficult to understand, but rather specialized or esoteric, which fits \"arcane.\" The second blank requires a word that indicates her conclusions are clear and not difficult to grasp, which aligns with \"obscure.\" Thus, the sentence suggests that while her discussion may be complex, her conclusions are straightforward.",
+                "runtime": 1.97,
+                "correct": true
+            },
+            {
+                "question_number": 26,
+                "expected": [
+                    "unethical",
+                    "skullduggery"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "unethical",
+                    "skullduggery"
+                ],
+                "model_explanation": "Explanation: The behaviors of the Prime Minister to remain in office are likely to be viewed negatively, hence \"unethical\" fits well in the first blank. The term \"skullduggery\" refers to underhanded or unscrupulous behavior, which aligns with the idea of questionable actions taken to maintain power.",
+                "model_response": "unethical, skullduggery  \nExplanation: The behaviors of the Prime Minister to remain in office are likely to be viewed negatively, hence \"unethical\" fits well in the first blank. The term \"skullduggery\" refers to underhanded or unscrupulous behavior, which aligns with the idea of questionable actions taken to maintain power.",
+                "runtime": 2.37,
+                "correct": true
+            },
+            {
+                "question_number": 27,
+                "expected": [
+                    "fervor",
+                    "indiscriminate"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "fervor",
+                    "indiscriminate"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that conveys a sense of enthusiasm or passion towards questions, which \"fervor\" provides. The second blank needs a word that suggests a lack of discrimination or selectivity in approach, which \"indiscriminate\" fits well. Together, they describe the sociologist's energetic and non-selective engagement with questions.",
+                "model_response": "fervor, indiscriminate  \nExplanation: The first blank requires a word that conveys a sense of enthusiasm or passion towards questions, which \"fervor\" provides. The second blank needs a word that suggests a lack of discrimination or selectivity in approach, which \"indiscriminate\" fits well. Together, they describe the sociologist's energetic and non-selective engagement with questions.",
+                "runtime": 1.77,
+                "correct": true
+            },
+            {
+                "question_number": 28,
+                "expected": [
+                    "challenged",
+                    "maintaining"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "challenged",
+                    "conceding"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that indicates a critical stance towards the argument for hands-on learning, which \"challenged\" fits well. The second blank needs a word that suggests acknowledging the validity of the opposing view, which \"conceding\" does. Together, they convey that researchers and educators have questioned hands-on learning while recognizing the merits of direct instruction.",
+                "model_response": "challenged, conceding  \nExplanation: The first blank requires a word that indicates a critical stance towards the argument for hands-on learning, which \"challenged\" fits well. The second blank needs a word that suggests acknowledging the validity of the opposing view, which \"conceding\" does. Together, they convey that researchers and educators have questioned hands-on learning while recognizing the merits of direct instruction.",
+                "runtime": 2.22,
+                "correct": false
+            },
+            {
+                "question_number": 29,
+                "expected": [
+                    "naysayer",
+                    "absorbing"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "naysayer",
+                    "perplexing"
+                ],
+                "model_explanation": "Explanation: The context suggests that Mr. Billington is critical of the Royal Shakespeare Company's version of Nicholas Nickelby, indicating he is a naysayer. The word \"deplores\" reinforces his negative stance. The second blank describes the version as something many found perplexing, which aligns with the idea that it was difficult to understand or appreciate, fitting the criticism implied by Mr. Billington's viewpoint.",
+                "model_response": "naysayer, perplexing  \nExplanation: The context suggests that Mr. Billington is critical of the Royal Shakespeare Company's version of Nicholas Nickelby, indicating he is a naysayer. The word \"deplores\" reinforces his negative stance. The second blank describes the version as something many found perplexing, which aligns with the idea that it was difficult to understand or appreciate, fitting the criticism implied by Mr. Billington's viewpoint.",
+                "runtime": 1.51,
+                "correct": false
+            },
+            {
+                "question_number": 30,
+                "expected": [
+                    "complicated by",
+                    "obscured"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "complicatedby",
+                    "obscured"
+                ],
+                "model_explanation": "Explanation: The context suggests that the task of separating grinding tools is made more difficult (complicated) by the ancient practice of recycling, which makes it hard to see (obscured) their original use.",
+                "model_response": "complicated by, obscured  \nExplanation: The context suggests that the task of separating grinding tools is made more difficult (complicated) by the ancient practice of recycling, which makes it hard to see (obscured) their original use.",
+                "runtime": 1.76,
+                "correct": true
+            },
+            {
+                "question_number": 31,
+                "expected": [
+                    "limits",
+                    "lay outside"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "limits",
+                    "layoutside"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that conveys Tagore's understanding of the boundaries or constraints of scientific inquiry, which is best captured by \"limits.\" The second blank needs a phrase that indicates moral questions do not fit within the realm of scientific inquiry, which is aptly described by \"lay outside.\" Together, they convey that Tagore saw a clear distinction between the realm of science and the realm of moral questions.",
+                "model_response": "limits, lay outside  \nExplanation: The first blank requires a word that conveys Tagore's understanding of the boundaries or constraints of scientific inquiry, which is best captured by \"limits.\" The second blank needs a phrase that indicates moral questions do not fit within the realm of scientific inquiry, which is aptly described by \"lay outside.\" Together, they convey that Tagore saw a clear distinction between the realm of science and the realm of moral questions.",
+                "runtime": 1.85,
+                "correct": true
+            },
+            {
+                "question_number": 32,
+                "expected": [
+                    "interpreting",
+                    "education"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "interpreting",
+                    "education"
+                ],
+                "model_explanation": "Explanation: The context suggests that cinema archives should analyze and explain important films, which aligns with \"interpreting.\" Additionally, by providing insights and commentary, they would also serve an educational purpose, making \"education\" the best fit for the second blank.",
+                "model_response": "interpreting, education  \nExplanation: The context suggests that cinema archives should analyze and explain important films, which aligns with \"interpreting.\" Additionally, by providing insights and commentary, they would also serve an educational purpose, making \"education\" the best fit for the second blank.",
+                "runtime": 1.53,
+                "correct": true
+            },
+            {
+                "question_number": 33,
+                "expected": [
+                    "mercurial",
+                    "inconstancy"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "garrulous",
+                    "inconstancy"
+                ],
+                "model_explanation": "Explanation: The first blank describes a negative trait that colleagues might complain about, and \"garrulous\" (excessively talkative) fits this context. The second blank refers to a charge that friends defend him against, and \"inconstancy\" (lack of stability or consistency) aligns with the idea of being overly talkative leading to perceived unreliability.",
+                "model_response": "garrulous, inconstancy  \nExplanation: The first blank describes a negative trait that colleagues might complain about, and \"garrulous\" (excessively talkative) fits this context. The second blank refers to a charge that friends defend him against, and \"inconstancy\" (lack of stability or consistency) aligns with the idea of being overly talkative leading to perceived unreliability.",
+                "runtime": 1.84,
+                "correct": false
+            },
+            {
+                "question_number": 34,
+                "expected": [
+                    "laboratory",
+                    "tried"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "laboratory",
+                    "tried"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that suggests a place where experiments or new ideas can be tested, which fits the word \"laboratory.\" The second blank needs a word that indicates the process of testing these ideas, which is best represented by \"tried.\" Together, they convey the concept of a regional government serving as a testing ground for new ideas before they are implemented nationally.",
+                "model_response": "laboratory, tried  \nExplanation: The first blank requires a word that suggests a place where experiments or new ideas can be tested, which fits the word \"laboratory.\" The second blank needs a word that indicates the process of testing these ideas, which is best represented by \"tried.\" Together, they convey the concept of a regional government serving as a testing ground for new ideas before they are implemented nationally.",
+                "runtime": 1.84,
+                "correct": true
+            },
+            {
+                "question_number": 35,
+                "expected": [
+                    "generated in",
+                    "never leaves"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "generatedin",
+                    "neverleaves"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that indicates where the hydrocarbons originated, and \"generated in\" fits this context as it suggests that the hydrocarbons were formed in deeper source beds. The second blank needs a word that indicates the relationship of shale gas to its source bed, and \"never leaves\" accurately describes how shale gas remains in the source bed where it was produced.",
+                "model_response": "generated in, never leaves  \nExplanation: The first blank requires a word that indicates where the hydrocarbons originated, and \"generated in\" fits this context as it suggests that the hydrocarbons were formed in deeper source beds. The second blank needs a word that indicates the relationship of shale gas to its source bed, and \"never leaves\" accurately describes how shale gas remains in the source bed where it was produced.",
+                "runtime": 1.56,
+                "correct": true
+            },
+            {
+                "question_number": 36,
+                "expected": [
+                    "intransigent",
+                    "uncompromising"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "intransigent",
+                    "uncompromising"
+                ],
+                "model_explanation": "Explanation: The context of the sentence suggests that despite the ongoing dispute, Megan remained steadfast in her position (i), which aligns with \"intransigent\" and \"uncompromising\" as both imply a refusal to change one's views or position.",
+                "model_response": "intransigent, uncompromising  \nExplanation: The context of the sentence suggests that despite the ongoing dispute, Megan remained steadfast in her position (i), which aligns with \"intransigent\" and \"uncompromising\" as both imply a refusal to change one's views or position.",
+                "runtime": 1.8,
+                "correct": true
+            },
+            {
+                "question_number": 37,
+                "expected": [
+                    "slowed",
+                    "drag on"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "slowed",
+                    "dragon"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that indicates a decrease in oil consumption, and \"slowed\" fits this context. The second blank needs a term that describes a negative impact on the economy, and \"drag on\" conveys that meaning effectively.",
+                "model_response": "slowed, drag on  \nExplanation: The first blank requires a word that indicates a decrease in oil consumption, and \"slowed\" fits this context. The second blank needs a term that describes a negative impact on the economy, and \"drag on\" conveys that meaning effectively.",
+                "runtime": 1.32,
+                "correct": true
+            },
+            {
+                "question_number": 38,
+                "expected": [
+                    "familiar",
+                    "revisionist"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "familiar",
+                    "revisionist"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that the book, despite its promise of a new perspective, presents a view that is more traditional or conventional (hence \"familiar\") in its identification of causes. The second blank should contrast with this idea, and \"revisionist\" fits well as it implies a departure from traditional views, aligning with the notion of a complete rethinking.",
+                "model_response": "familiar, revisionist  \nExplanation: The sentence suggests that the book, despite its promise of a new perspective, presents a view that is more traditional or conventional (hence \"familiar\") in its identification of causes. The second blank should contrast with this idea, and \"revisionist\" fits well as it implies a departure from traditional views, aligning with the notion of a complete rethinking.",
+                "runtime": 1.97,
+                "correct": true
+            },
+            {
+                "question_number": 39,
+                "expected": [
+                    "trivial",
+                    "importance"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "trivial",
+                    "banality"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that Susan Hiller is taking seemingly insignificant or unimportant artifacts (postcards, clippings, etc.) and elevating them in her art. \"Trivial\" fits well in the first blank as it implies that these artifacts are of little value or importance. In the second blank, \"banality\" aligns with the idea that these artifacts, while transformed, still retain a sense of ordinariness or lack of uniqueness, which is consistent with the context of the sentence.",
+                "model_response": "trivial, banality  \nExplanation: The sentence suggests that Susan Hiller is taking seemingly insignificant or unimportant artifacts (postcards, clippings, etc.) and elevating them in her art. \"Trivial\" fits well in the first blank as it implies that these artifacts are of little value or importance. In the second blank, \"banality\" aligns with the idea that these artifacts, while transformed, still retain a sense of ordinariness or lack of uniqueness, which is consistent with the context of the sentence.",
+                "runtime": 2.36,
+                "correct": false
+            },
+            {
+                "question_number": 40,
+                "expected": [
+                    "obeisance",
+                    "mixed"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "obeisance",
+                    "mixed"
+                ],
+                "model_explanation": "Explanation: Pauline Kael's distaste for sycophancy suggests she resented excessive flattery or submission to authority, yet her need for \"obeisance\" indicates she still desired some level of respect or deference from others. This internal conflict would lead her to send \"mixed\" signals, reflecting the inconsistency between her disdain for sycophancy and her need for acknowledgment from her peers.",
+                "model_response": "obeisance, mixed  \nExplanation: Pauline Kael's distaste for sycophancy suggests she resented excessive flattery or submission to authority, yet her need for \"obeisance\" indicates she still desired some level of respect or deference from others. This internal conflict would lead her to send \"mixed\" signals, reflecting the inconsistency between her disdain for sycophancy and her need for acknowledgment from her peers.",
+                "runtime": 2.02,
+                "correct": true
+            },
+            {
+                "question_number": 41,
+                "expected": [
+                    "wide-ranging",
+                    "mimic"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "wide-ranging",
+                    "mimic"
+                ],
+                "model_explanation": "Explanation: The word \"wide-ranging\" fits in the first blank as it suggests that fibromyalgia's symptoms can vary greatly, which aligns with the context of the sentence. The word \"mimic\" fits in the second blank because it indicates that fibromyalgia's symptoms can resemble those of other disorders, which is relevant to the discussion of diagnosis.",
+                "model_response": "wide-ranging, mimic  \nExplanation: The word \"wide-ranging\" fits in the first blank as it suggests that fibromyalgia's symptoms can vary greatly, which aligns with the context of the sentence. The word \"mimic\" fits in the second blank because it indicates that fibromyalgia's symptoms can resemble those of other disorders, which is relevant to the discussion of diagnosis.",
+                "runtime": 2.28,
+                "correct": true
+            },
+            {
+                "question_number": 42,
+                "expected": [
+                    "decline",
+                    "health"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "decline",
+                    "health"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that indicates a negative state of urban development, which \"decline\" fits. The second blank needs a word that suggests a positive aspect of urban life, and \"health\" aligns with the idea that congestion can promote community and engagement, thus contributing to the vitality of the city.",
+                "model_response": "decline, health  \nExplanation: The first blank requires a word that indicates a negative state of urban development, which \"decline\" fits. The second blank needs a word that suggests a positive aspect of urban life, and \"health\" aligns with the idea that congestion can promote community and engagement, thus contributing to the vitality of the city.",
+                "runtime": 3.05,
+                "correct": true
+            },
+            {
+                "question_number": 43,
+                "expected": [
+                    "an anonymous",
+                    "confessional"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "evenhanded",
+                    "confessional"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that describes the ideal nature of criticism, which should be fair and impartial, making \"evenhanded\" the best choice. The second blank needs a word that reflects the tendency of reviewers to include personal details, which aligns with \"confessional.\" Together, these choices highlight the contrast between the ideal of objective criticism and the trend toward personal storytelling in reviews.",
+                "model_response": "evenhanded, confessional  \nExplanation: The first blank requires a word that describes the ideal nature of criticism, which should be fair and impartial, making \"evenhanded\" the best choice. The second blank needs a word that reflects the tendency of reviewers to include personal details, which aligns with \"confessional.\" Together, these choices highlight the contrast between the ideal of objective criticism and the trend toward personal storytelling in reviews.",
+                "runtime": 1.88,
+                "correct": false
+            },
+            {
+                "question_number": 44,
+                "expected": [
+                    "secondhand testimony",
+                    "anecdote"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "secondhandtestimony",
+                    "anecdote"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that the behaviors attributed to crows are not scientifically validated but rather based on informal or unverified accounts, which aligns with \"secondhand testimony.\" This type of information is typically categorized as \"anecdote,\" which refers to personal stories or observations rather than rigorous scientific evidence.",
+                "model_response": "secondhand testimony, anecdote  \nExplanation: The sentence suggests that the behaviors attributed to crows are not scientifically validated but rather based on informal or unverified accounts, which aligns with \"secondhand testimony.\" This type of information is typically categorized as \"anecdote,\" which refers to personal stories or observations rather than rigorous scientific evidence.",
+                "runtime": 3.01,
+                "correct": true
+            },
+            {
+                "question_number": 45,
+                "expected": [
+                    "relish",
+                    "insufferable"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "relish",
+                    "insufferable"
+                ],
+                "model_explanation": "Explanation: The writer satirizes social aspirants and moneyed folk with precision, suggesting a critical view. However, the use of \"relish\" indicates that she enjoys or takes pleasure in being part of that world, which contrasts with the negative portrayal. The term \"insufferable\" fits well as it describes the lives of those she critiques, aligning with her critical yet engaged perspective.",
+                "model_response": "relish, insufferable  \nExplanation: The writer satirizes social aspirants and moneyed folk with precision, suggesting a critical view. However, the use of \"relish\" indicates that she enjoys or takes pleasure in being part of that world, which contrasts with the negative portrayal. The term \"insufferable\" fits well as it describes the lives of those she critiques, aligning with her critical yet engaged perspective.",
+                "runtime": 2.01,
+                "correct": true
+            },
+            {
+                "question_number": 46,
+                "expected": [
+                    "diminish",
+                    "supplanted by"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "diminish",
+                    "supplantedby"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that the benefits of information technology do not reduce the importance of individual reasoning. Therefore, \"diminish\" fits the first blank as it means to lessen or reduce. For the second blank, \"supplanted by\" indicates that reasoning should not be replaced by just accumulating raw data, which aligns with the context of the sentence.",
+                "model_response": "diminish, supplanted by  \nExplanation: The sentence suggests that the benefits of information technology do not reduce the importance of individual reasoning. Therefore, \"diminish\" fits the first blank as it means to lessen or reduce. For the second blank, \"supplanted by\" indicates that reasoning should not be replaced by just accumulating raw data, which aligns with the context of the sentence.",
+                "runtime": 1.96,
+                "correct": true
+            },
+            {
+                "question_number": 47,
+                "expected": [
+                    "inadequacies",
+                    "debunking"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "abstractions",
+                    "debunking"
+                ],
+                "model_explanation": "Explanation: The first blank refers to concepts that are examined in contemporary thinking, which aligns with \"abstractions\" as they are often theoretical and not concrete. The second blank describes the quality of the writing, which is characterized by \"debunking\" as it critiques and challenges the misconceptions mentioned in the first part.",
+                "model_response": "abstractions, debunking  \nExplanation: The first blank refers to concepts that are examined in contemporary thinking, which aligns with \"abstractions\" as they are often theoretical and not concrete. The second blank describes the quality of the writing, which is characterized by \"debunking\" as it critiques and challenges the misconceptions mentioned in the first part.",
+                "runtime": 1.76,
+                "correct": false
+            },
+            {
+                "question_number": 48,
+                "expected": [
+                    "liberalization",
+                    "abnegation"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "liberalization",
+                    "abnegation"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that indicates a significant change from the current system of government control to a more open market approach, which \"liberalization\" fits. The second blank needs a word that conveys the idea of the government completely relinquishing its responsibilities, which \"abnegation\" captures well.",
+                "model_response": "liberalization, abnegation  \nExplanation: The first blank requires a word that indicates a significant change from the current system of government control to a more open market approach, which \"liberalization\" fits. The second blank needs a word that conveys the idea of the government completely relinquishing its responsibilities, which \"abnegation\" captures well.",
+                "runtime": 1.51,
+                "correct": true
+            },
+            {
+                "question_number": 49,
+                "expected": [
+                    "apologies",
+                    "awry in"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "apologies",
+                    "awryin"
+                ],
+                "model_explanation": "Explanation: The context suggests that scholarly works on detective stories often start with a negative tone towards adults who read such fiction, implying a need for an apology. The second blank indicates that there is something wrong or unusual about those who analyze such fiction, which aligns with the phrase \"awry in.\"",
+                "model_response": "apologies, awry in  \nExplanation: The context suggests that scholarly works on detective stories often start with a negative tone towards adults who read such fiction, implying a need for an apology. The second blank indicates that there is something wrong or unusual about those who analyze such fiction, which aligns with the phrase \"awry in.\"",
+                "runtime": 1.68,
+                "correct": true
+            },
+            {
+                "question_number": 50,
+                "expected": [
+                    "defensive",
+                    "an enhanced"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "defensive",
+                    "anenhanced"
+                ],
+                "model_explanation": "Explanation: The context of the sentence suggests that British business owners were in a vulnerable or protective position due to extraordinary circumstances during the war, which aligns with \"defensive.\" Additionally, the phrase \"to acquiesce to (ii)_____ role for labor unions\" implies that labor unions had a more significant or influential role in negotiations, which fits with \"an enhanced.\"",
+                "model_response": "defensive, an enhanced  \nExplanation: The context of the sentence suggests that British business owners were in a vulnerable or protective position due to extraordinary circumstances during the war, which aligns with \"defensive.\" Additionally, the phrase \"to acquiesce to (ii)_____ role for labor unions\" implies that labor unions had a more significant or influential role in negotiations, which fits with \"an enhanced.\"",
+                "runtime": 2.13,
+                "correct": true
+            }
+        ]
+    },
+    "three-shot": {
+        "accuracy": 0.72,
+        "correct_count": 36,
+        "total_questions_processed": 50,
+        "details": [
+            {
+                "question_number": 1,
+                "expected": [
+                    "detection",
+                    "an unambiguous"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "detection",
+                    "anunambiguous"
+                ],
+                "model_explanation": "",
+                "model_response": "detection, an unambiguous",
+                "runtime": 0.78,
+                "correct": true
+            },
+            {
+                "question_number": 2,
+                "expected": [
+                    "sterling reputation of",
+                    "exhaustive"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "sterlingreputationof",
+                    "exhaustive"
+                ],
+                "model_explanation": "",
+                "model_response": "sterling reputation of, exhaustive",
+                "runtime": 0.75,
+                "correct": true
+            },
+            {
+                "question_number": 3,
+                "expected": [
+                    "feeble",
+                    "robust"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "feeble",
+                    "robust"
+                ],
+                "model_explanation": "",
+                "model_response": "feeble, robust",
+                "runtime": 1.16,
+                "correct": true
+            },
+            {
+                "question_number": 4,
+                "expected": [
+                    "efficiently",
+                    "vacant"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "efficiently",
+                    "vacant"
+                ],
+                "model_explanation": "",
+                "model_response": "efficiently, vacant",
+                "runtime": 0.57,
+                "correct": true
+            },
+            {
+                "question_number": 5,
+                "expected": [
+                    "limitation",
+                    "objectivity"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "limitation",
+                    "objectivity"
+                ],
+                "model_explanation": "",
+                "model_response": "limitation, objectivity",
+                "runtime": 0.85,
+                "correct": true
+            },
+            {
+                "question_number": 6,
+                "expected": [
+                    "favor",
+                    "loath"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "favor",
+                    "loath"
+                ],
+                "model_explanation": "",
+                "model_response": "favor, loath",
+                "runtime": 0.82,
+                "correct": true
+            },
+            {
+                "question_number": 7,
+                "expected": [
+                    "decisive",
+                    "vacillation"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "decisive",
+                    "vacillation"
+                ],
+                "model_explanation": "",
+                "model_response": "decisive, vacillation",
+                "runtime": 1.13,
+                "correct": true
+            },
+            {
+                "question_number": 8,
+                "expected": [
+                    "delightful",
+                    "contagious"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "delightful",
+                    "contagious"
+                ],
+                "model_explanation": "",
+                "model_response": "delightful, contagious",
+                "runtime": 0.75,
+                "correct": true
+            },
+            {
+                "question_number": 9,
+                "expected": [
+                    "aimlessness",
+                    "discursions"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "flippancy",
+                    "subtlety"
+                ],
+                "model_explanation": "",
+                "model_response": "flippancy, subtlety",
+                "runtime": 0.78,
+                "correct": false
+            },
+            {
+                "question_number": 10,
+                "expected": [
+                    "inversely related",
+                    "unfeeling"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "mutuallyreinforcing",
+                    "unfeeling"
+                ],
+                "model_explanation": "",
+                "model_response": "mutually reinforcing, unfeeling",
+                "runtime": 1.08,
+                "correct": false
+            },
+            {
+                "question_number": 11,
+                "expected": [
+                    "an anomalous",
+                    "embodies"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "anorthodox",
+                    "embodies"
+                ],
+                "model_explanation": "",
+                "model_response": "an orthodox, embodies",
+                "runtime": 0.74,
+                "correct": false
+            },
+            {
+                "question_number": 12,
+                "expected": [
+                    "impetuous",
+                    "circumspect"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "thoughtful",
+                    "circumspect"
+                ],
+                "model_explanation": "",
+                "model_response": "thoughtful, circumspect",
+                "runtime": 0.87,
+                "correct": false
+            },
+            {
+                "question_number": 13,
+                "expected": [
+                    "virtue",
+                    "derive from"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "drawback",
+                    "derivefrom"
+                ],
+                "model_explanation": "",
+                "model_response": "drawback, derive from",
+                "runtime": 0.57,
+                "correct": false
+            },
+            {
+                "question_number": 14,
+                "expected": [
+                    "persistent",
+                    "corruption"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "persistent",
+                    "corruption"
+                ],
+                "model_explanation": "",
+                "model_response": "persistent, corruption",
+                "runtime": 1.09,
+                "correct": true
+            },
+            {
+                "question_number": 15,
+                "expected": [
+                    "nearly infinite",
+                    "eliminated"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "nearlyinfinite",
+                    "eliminated"
+                ],
+                "model_explanation": "",
+                "model_response": "nearly infinite, eliminated",
+                "runtime": 1.23,
+                "correct": true
+            },
+            {
+                "question_number": 16,
+                "expected": [
+                    "erudition",
+                    "scarce"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "erudition",
+                    "scarce"
+                ],
+                "model_explanation": "",
+                "model_response": "erudition, scarce",
+                "runtime": 0.73,
+                "correct": true
+            },
+            {
+                "question_number": 17,
+                "expected": [
+                    "precipitate",
+                    "forbore"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "tactful",
+                    "forbore"
+                ],
+                "model_explanation": "",
+                "model_response": "tactful, forbore",
+                "runtime": 0.81,
+                "correct": false
+            },
+            {
+                "question_number": 18,
+                "expected": [
+                    "too harshly judged",
+                    "judicious"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "franklyacknowledged",
+                    "judicious"
+                ],
+                "model_explanation": "",
+                "model_response": "frankly acknowledged, judicious",
+                "runtime": 6.44,
+                "correct": false
+            },
+            {
+                "question_number": 19,
+                "expected": [
+                    "abundance",
+                    "rapacious depletion"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "disappointment",
+                    "rapaciousdepletion"
+                ],
+                "model_explanation": "",
+                "model_response": "disappointment, rapacious depletion",
+                "runtime": 1.07,
+                "correct": false
+            },
+            {
+                "question_number": 20,
+                "expected": [
+                    "neglects",
+                    "problematic"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "neglects",
+                    "underappreciated"
+                ],
+                "model_explanation": "",
+                "model_response": "neglects, underappreciated",
+                "runtime": 1.1,
+                "correct": false
+            },
+            {
+                "question_number": 21,
+                "expected": [
+                    "ancestry",
+                    "obvious"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "ancestry",
+                    "obvious"
+                ],
+                "model_explanation": "",
+                "model_response": "ancestry, obvious",
+                "runtime": 0.89,
+                "correct": true
+            },
+            {
+                "question_number": 22,
+                "expected": [
+                    "derivative",
+                    "remarkably pioneering"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "derivative",
+                    "remarkablypioneering"
+                ],
+                "model_explanation": "",
+                "model_response": "derivative, remarkably pioneering",
+                "runtime": 0.77,
+                "correct": true
+            },
+            {
+                "question_number": 23,
+                "expected": [
+                    "clandestine",
+                    "open"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "clandestine",
+                    "open"
+                ],
+                "model_explanation": "",
+                "model_response": "clandestine, open",
+                "runtime": 0.85,
+                "correct": true
+            },
+            {
+                "question_number": 24,
+                "expected": [
+                    "churlish",
+                    "admire"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "churlish",
+                    "admire"
+                ],
+                "model_explanation": "",
+                "model_response": "churlish, admire",
+                "runtime": 1.27,
+                "correct": true
+            },
+            {
+                "question_number": 25,
+                "expected": [
+                    "arcane",
+                    "obscure"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "arcane",
+                    "obscure"
+                ],
+                "model_explanation": "",
+                "model_response": "arcane, obscure",
+                "runtime": 0.69,
+                "correct": true
+            },
+            {
+                "question_number": 26,
+                "expected": [
+                    "unethical",
+                    "skullduggery"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "unethical",
+                    "skullduggery"
+                ],
+                "model_explanation": "",
+                "model_response": "unethical, skullduggery",
+                "runtime": 0.92,
+                "correct": true
+            },
+            {
+                "question_number": 27,
+                "expected": [
+                    "fervor",
+                    "indiscriminate"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "fervor",
+                    "indiscriminate"
+                ],
+                "model_explanation": "",
+                "model_response": "fervor, indiscriminate",
+                "runtime": 6.58,
+                "correct": true
+            },
+            {
+                "question_number": 28,
+                "expected": [
+                    "challenged",
+                    "maintaining"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "challenged",
+                    "maintaining"
+                ],
+                "model_explanation": "",
+                "model_response": "challenged, maintaining",
+                "runtime": 1.03,
+                "correct": true
+            },
+            {
+                "question_number": 29,
+                "expected": [
+                    "naysayer",
+                    "absorbing"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "naysayer",
+                    "perplexing"
+                ],
+                "model_explanation": "",
+                "model_response": "naysayer, perplexing",
+                "runtime": 0.91,
+                "correct": false
+            },
+            {
+                "question_number": 30,
+                "expected": [
+                    "complicated by",
+                    "obscured"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "complicatedby",
+                    "obscured"
+                ],
+                "model_explanation": "",
+                "model_response": "complicated by, obscured",
+                "runtime": 0.88,
+                "correct": true
+            },
+            {
+                "question_number": 31,
+                "expected": [
+                    "limits",
+                    "lay outside"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "limits",
+                    "layoutside"
+                ],
+                "model_explanation": "",
+                "model_response": "limits, lay outside",
+                "runtime": 0.88,
+                "correct": true
+            },
+            {
+                "question_number": 32,
+                "expected": [
+                    "interpreting",
+                    "education"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "interpreting",
+                    "education"
+                ],
+                "model_explanation": "",
+                "model_response": "interpreting, education",
+                "runtime": 0.74,
+                "correct": true
+            },
+            {
+                "question_number": 33,
+                "expected": [
+                    "mercurial",
+                    "inconstancy"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "importunate",
+                    "inconstancy"
+                ],
+                "model_explanation": "",
+                "model_response": "importunate, inconstancy",
+                "runtime": 0.87,
+                "correct": false
+            },
+            {
+                "question_number": 34,
+                "expected": [
+                    "laboratory",
+                    "tried"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "laboratory",
+                    "tried"
+                ],
+                "model_explanation": "",
+                "model_response": "laboratory, tried",
+                "runtime": 0.7,
+                "correct": true
+            },
+            {
+                "question_number": 35,
+                "expected": [
+                    "generated in",
+                    "never leaves"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "trappedin",
+                    "neverleaves"
+                ],
+                "model_explanation": "",
+                "model_response": "trapped in, never leaves",
+                "runtime": 0.63,
+                "correct": false
+            },
+            {
+                "question_number": 36,
+                "expected": [
+                    "intransigent",
+                    "uncompromising"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "intransigent",
+                    "uncompromising"
+                ],
+                "model_explanation": "",
+                "model_response": "intransigent, uncompromising",
+                "runtime": 1.1,
+                "correct": true
+            },
+            {
+                "question_number": 37,
+                "expected": [
+                    "slowed",
+                    "drag on"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "slowed",
+                    "dragon"
+                ],
+                "model_explanation": "",
+                "model_response": "slowed, drag on",
+                "runtime": 1.0,
+                "correct": true
+            },
+            {
+                "question_number": 38,
+                "expected": [
+                    "familiar",
+                    "revisionist"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "familiar",
+                    "revisionist"
+                ],
+                "model_explanation": "",
+                "model_response": "familiar, revisionist",
+                "runtime": 0.89,
+                "correct": true
+            },
+            {
+                "question_number": 39,
+                "expected": [
+                    "trivial",
+                    "importance"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "trivial",
+                    "importance"
+                ],
+                "model_explanation": "",
+                "model_response": "trivial, importance",
+                "runtime": 0.84,
+                "correct": true
+            },
+            {
+                "question_number": 40,
+                "expected": [
+                    "obeisance",
+                    "mixed"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "obeisance",
+                    "mixed"
+                ],
+                "model_explanation": "",
+                "model_response": "obeisance, mixed",
+                "runtime": 0.84,
+                "correct": true
+            },
+            {
+                "question_number": 41,
+                "expected": [
+                    "wide-ranging",
+                    "mimic"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "wide-ranging",
+                    "mimic"
+                ],
+                "model_explanation": "",
+                "model_response": "wide-ranging, mimic",
+                "runtime": 0.85,
+                "correct": true
+            },
+            {
+                "question_number": 42,
+                "expected": [
+                    "decline",
+                    "health"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "decline",
+                    "health"
+                ],
+                "model_explanation": "",
+                "model_response": "decline, health",
+                "runtime": 0.8,
+                "correct": true
+            },
+            {
+                "question_number": 43,
+                "expected": [
+                    "an anonymous",
+                    "confessional"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "evenhanded",
+                    "confessional"
+                ],
+                "model_explanation": "",
+                "model_response": "evenhanded, confessional",
+                "runtime": 0.53,
+                "correct": false
+            },
+            {
+                "question_number": 44,
+                "expected": [
+                    "secondhand testimony",
+                    "anecdote"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "secondhandtestimony",
+                    "anecdote"
+                ],
+                "model_explanation": "",
+                "model_response": "secondhand testimony, anecdote",
+                "runtime": 1.29,
+                "correct": true
+            },
+            {
+                "question_number": 45,
+                "expected": [
+                    "relish",
+                    "insufferable"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "relish",
+                    "insufferable"
+                ],
+                "model_explanation": "",
+                "model_response": "relish, insufferable",
+                "runtime": 0.73,
+                "correct": true
+            },
+            {
+                "question_number": 46,
+                "expected": [
+                    "diminish",
+                    "supplanted by"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "diminish",
+                    "supplantedby"
+                ],
+                "model_explanation": "",
+                "model_response": "diminish, supplanted by",
+                "runtime": 4.55,
+                "correct": true
+            },
+            {
+                "question_number": 47,
+                "expected": [
+                    "inadequacies",
+                    "debunking"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "abstractions",
+                    "speculative"
+                ],
+                "model_explanation": "",
+                "model_response": "abstractions, speculative",
+                "runtime": 0.85,
+                "correct": false
+            },
+            {
+                "question_number": 48,
+                "expected": [
+                    "liberalization",
+                    "abnegation"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "liberalization",
+                    "abnegation"
+                ],
+                "model_explanation": "",
+                "model_response": "liberalization, abnegation",
+                "runtime": 0.74,
+                "correct": true
+            },
+            {
+                "question_number": 49,
+                "expected": [
+                    "apologies",
+                    "awry in"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "apologies",
+                    "awryin"
+                ],
+                "model_explanation": "",
+                "model_response": "apologies, awry in",
+                "runtime": 0.72,
+                "correct": true
+            },
+            {
+                "question_number": 50,
+                "expected": [
+                    "defensive",
+                    "an enhanced"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "defensive",
+                    "anenhanced"
+                ],
+                "model_explanation": "",
+                "model_response": "defensive, an enhanced",
+                "runtime": 0.7,
+                "correct": true
+            }
+        ]
+    },
+    "chain-of-thought": {
+        "accuracy": 0.68,
+        "correct_count": 34,
+        "total_questions_processed": 50,
+        "details": [
+            {
+                "question_number": 1,
+                "expected": [
+                    "detection",
+                    "an unambiguous"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "detection",
+                    "anunambiguous"
+                ],
+                "model_explanation": "Explanation: The passage discusses the presence of molecular oxygen on Earth-sized planets and suggests that its presence does not definitively indicate life. The first blank requires a word that conveys the idea of finding or identifying molecular oxygen, making \"detection\" the best choice. The second blank needs a word that emphasizes the certainty of the sign of life; \"an unambiguous\" fits well as it indicates that the presence of molecular oxygen is not a clear or definite sign of life.",
+                "model_response": "detection, an unambiguous  \nExplanation: The passage discusses the presence of molecular oxygen on Earth-sized planets and suggests that its presence does not definitively indicate life. The first blank requires a word that conveys the idea of finding or identifying molecular oxygen, making \"detection\" the best choice. The second blank needs a word that emphasizes the certainty of the sign of life; \"an unambiguous\" fits well as it indicates that the presence of molecular oxygen is not a clear or definite sign of life.",
+                "runtime": 1.77,
+                "correct": true
+            },
+            {
+                "question_number": 2,
+                "expected": [
+                    "sterling reputation of",
+                    "exhaustive"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "sterlingreputationof",
+                    "exhaustive"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that the committees have a strong credibility (\"sterling reputation of\") and that their investigation is thorough (\"exhaustive\"). This combination makes it unreasonable to dispute their conclusions at first glance, as both the reputation and the depth of the investigation support the validity of their findings. The other options do not fit logically with the context provided.",
+                "model_response": "sterling reputation of, exhaustive  \nExplanation: The sentence suggests that the committees have a strong credibility (\"sterling reputation of\") and that their investigation is thorough (\"exhaustive\"). This combination makes it unreasonable to dispute their conclusions at first glance, as both the reputation and the depth of the investigation support the validity of their findings. The other options do not fit logically with the context provided.",
+                "runtime": 1.95,
+                "correct": true
+            },
+            {
+                "question_number": 3,
+                "expected": [
+                    "feeble",
+                    "robust"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "feeble",
+                    "robust"
+                ],
+                "model_explanation": "Explanation: The sentence describes an uneven economic recovery, suggesting that it was weak (feeble) in some industrial economies and strong (robust) in others. The contrast between the two blanks indicates that while some economies experienced a lackluster recovery, others thrived, making \"feeble\" and \"robust\" the most coherent choices.",
+                "model_response": "feeble, robust  \nExplanation: The sentence describes an uneven economic recovery, suggesting that it was weak (feeble) in some industrial economies and strong (robust) in others. The contrast between the two blanks indicates that while some economies experienced a lackluster recovery, others thrived, making \"feeble\" and \"robust\" the most coherent choices.",
+                "runtime": 1.84,
+                "correct": true
+            },
+            {
+                "question_number": 4,
+                "expected": [
+                    "efficiently",
+                    "vacant"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "efficiently",
+                    "vacant"
+                ],
+                "model_explanation": "Explanation: The passage contrasts the energy use of trains and automobiles. The first blank needs a word that suggests trains use energy in a more effective manner, which is best captured by \"efficiently.\" The second blank describes railway carriages that often run without passengers, so \"vacant\" fits well, indicating they are empty during those times.",
+                "model_response": "efficiently, vacant  \nExplanation: The passage contrasts the energy use of trains and automobiles. The first blank needs a word that suggests trains use energy in a more effective manner, which is best captured by \"efficiently.\" The second blank describes railway carriages that often run without passengers, so \"vacant\" fits well, indicating they are empty during those times.",
+                "runtime": 2.04,
+                "correct": true
+            },
+            {
+                "question_number": 5,
+                "expected": [
+                    "limitation",
+                    "objectivity"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "limitation",
+                    "objectivity"
+                ],
+                "model_explanation": "Explanation: The passage discusses the ideological bias present in most books about the American presidency, indicating a negative aspect. The word \"limitation\" fits well in the first blank as it suggests a drawback or restriction, aligning with the idea of bias. For the second blank, \"objectivity\" is appropriate because it contrasts with the ideological bias mentioned, suggesting that this particular volume is free from such bias and maintains a neutral stance.",
+                "model_response": "limitation, objectivity  \nExplanation: The passage discusses the ideological bias present in most books about the American presidency, indicating a negative aspect. The word \"limitation\" fits well in the first blank as it suggests a drawback or restriction, aligning with the idea of bias. For the second blank, \"objectivity\" is appropriate because it contrasts with the ideological bias mentioned, suggesting that this particular volume is free from such bias and maintains a neutral stance.",
+                "runtime": 2.54,
+                "correct": true
+            },
+            {
+                "question_number": 6,
+                "expected": [
+                    "favor",
+                    "loath"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "favor",
+                    "loath"
+                ],
+                "model_explanation": "Explanation: The passage suggests that towns are not voting to keep incinerators because they support them (which would require \"favor\" in the first blank), but rather because they are reluctant or unwilling (which aligns with \"loath\" in the second blank) to limit their waste-disposal options. This creates a coherent understanding of the towns' motivations.",
+                "model_response": "favor, loath  \nExplanation: The passage suggests that towns are not voting to keep incinerators because they support them (which would require \"favor\" in the first blank), but rather because they are reluctant or unwilling (which aligns with \"loath\" in the second blank) to limit their waste-disposal options. This creates a coherent understanding of the towns' motivations.",
+                "runtime": 1.71,
+                "correct": true
+            },
+            {
+                "question_number": 7,
+                "expected": [
+                    "decisive",
+                    "vacillation"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "decisive",
+                    "partisanship"
+                ],
+                "model_explanation": "Explanation: The passage contrasts Tanaka with Williamson, indicating that Tanaka possesses a strong quality of leadership, which aligns with the word \"decisive.\" In contrast, Williamson's term is described as being marred by \"partisanship,\" suggesting a negative aspect of his leadership that contrasts with the positive quality attributed to Tanaka.",
+                "model_response": "decisive, partisanship  \nExplanation: The passage contrasts Tanaka with Williamson, indicating that Tanaka possesses a strong quality of leadership, which aligns with the word \"decisive.\" In contrast, Williamson's term is described as being marred by \"partisanship,\" suggesting a negative aspect of his leadership that contrasts with the positive quality attributed to Tanaka.",
+                "runtime": 1.74,
+                "correct": false
+            },
+            {
+                "question_number": 8,
+                "expected": [
+                    "delightful",
+                    "contagious"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "skilled",
+                    "contagious"
+                ],
+                "model_explanation": "Explanation: The passage suggests that toddlers, despite their recent ability to walk, excel as dance students due to their pure joy in movement. The first blank (i) should describe the type of dance students they are, and \"skilled\" fits best as it implies they are good at dancing. The second blank (ii) describes the nature of their joy in movement, and \"contagious\" is appropriate as it suggests that their joy can spread to others, enhancing the overall atmosphere of dance.",
+                "model_response": "skilled, contagious  \nExplanation: The passage suggests that toddlers, despite their recent ability to walk, excel as dance students due to their pure joy in movement. The first blank (i) should describe the type of dance students they are, and \"skilled\" fits best as it implies they are good at dancing. The second blank (ii) describes the nature of their joy in movement, and \"contagious\" is appropriate as it suggests that their joy can spread to others, enhancing the overall atmosphere of dance.",
+                "runtime": 2.1,
+                "correct": false
+            },
+            {
+                "question_number": 9,
+                "expected": [
+                    "aimlessness",
+                    "discursions"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "flippancy",
+                    "subtlety"
+                ],
+                "model_explanation": "Explanation: The passage suggests that readers may initially be annoyed by the book's superficial or dismissive tone (flippancy), but as they engage more deeply with the author's writing, they come to appreciate the nuanced and refined qualities of the work (subtlety) as beneficial.",
+                "model_response": "flippancy, subtlety  \nExplanation: The passage suggests that readers may initially be annoyed by the book's superficial or dismissive tone (flippancy), but as they engage more deeply with the author's writing, they come to appreciate the nuanced and refined qualities of the work (subtlety) as beneficial.",
+                "runtime": 2.24,
+                "correct": false
+            },
+            {
+                "question_number": 10,
+                "expected": [
+                    "inversely related",
+                    "unfeeling"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "mutuallyreinforcing",
+                    "unfeeling"
+                ],
+                "model_explanation": "Explanation: The passage suggests that people unconsciously associate competence with warmth. Therefore, the first blank should indicate that competence and warmth are positively correlated, which is best captured by \"mutually reinforcing.\" For the second blank, if someone is perceived as highly capable (competent), the inference that follows is likely to be negative regarding their warmth, leading to the choice of \"unfeeling.\" This aligns with the idea that high competence may lead to a perception of lacking warmth.",
+                "model_response": "mutually reinforcing, unfeeling  \nExplanation: The passage suggests that people unconsciously associate competence with warmth. Therefore, the first blank should indicate that competence and warmth are positively correlated, which is best captured by \"mutually reinforcing.\" For the second blank, if someone is perceived as highly capable (competent), the inference that follows is likely to be negative regarding their warmth, leading to the choice of \"unfeeling.\" This aligns with the idea that high competence may lead to a perception of lacking warmth.",
+                "runtime": 1.92,
+                "correct": false
+            },
+            {
+                "question_number": 11,
+                "expected": [
+                    "an anomalous",
+                    "embodies"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "anomalous",
+                    "embodies"
+                ],
+                "model_explanation": "Explanation: The passage suggests that home schooling does not conform to a typical or expected philosophy, which aligns with the word \"anomalous.\" The second blank requires a word that indicates home schooling represents or exemplifies widely accepted educational ideas, making \"embodies\" the best choice. Thus, the selected words maintain the logical coherence of the passage.",
+                "model_response": "anomalous, embodies\n\nExplanation: The passage suggests that home schooling does not conform to a typical or expected philosophy, which aligns with the word \"anomalous.\" The second blank requires a word that indicates home schooling represents or exemplifies widely accepted educational ideas, making \"embodies\" the best choice. Thus, the selected words maintain the logical coherence of the passage.",
+                "runtime": 2.22,
+                "correct": false
+            },
+            {
+                "question_number": 12,
+                "expected": [
+                    "impetuous",
+                    "circumspect"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "impetuous",
+                    "circumspect"
+                ],
+                "model_explanation": "Explanation: The passage suggests that the person in question is not impulsive (impetuous) and is instead careful and cautious (circumspect) in his actions, as indicated by his decision to refrain from declaring his passion. This creates a coherent meaning where he is characterized by restraint rather than recklessness.",
+                "model_response": "impetuous, circumspect  \nExplanation: The passage suggests that the person in question is not impulsive (impetuous) and is instead careful and cautious (circumspect) in his actions, as indicated by his decision to refrain from declaring his passion. This creates a coherent meaning where he is characterized by restraint rather than recklessness.",
+                "runtime": 5.58,
+                "correct": true
+            },
+            {
+                "question_number": 13,
+                "expected": [
+                    "virtue",
+                    "derive from"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "drawback",
+                    "derivefrom"
+                ],
+                "model_explanation": "Explanation: The passage discusses a method of predicting the effects of climate change and highlights a negative aspect of this method. The word \"drawback\" fits well in the first blank as it indicates a disadvantage or limitation of the method. For the second blank, \"derive from\" suggests that the predictions are based on actual observations, which aligns with the context of the passage. The other options do not fit the logical structure of the sentence.",
+                "model_response": "drawback, derive from  \nExplanation: The passage discusses a method of predicting the effects of climate change and highlights a negative aspect of this method. The word \"drawback\" fits well in the first blank as it indicates a disadvantage or limitation of the method. For the second blank, \"derive from\" suggests that the predictions are based on actual observations, which aligns with the context of the passage. The other options do not fit the logical structure of the sentence.",
+                "runtime": 2.34,
+                "correct": false
+            },
+            {
+                "question_number": 14,
+                "expected": [
+                    "persistent",
+                    "corruption"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "persistent",
+                    "corruption"
+                ],
+                "model_explanation": "Explanation: The sentence discusses the negative reputation of the city's police force, suggesting that it is consistently viewed poorly. The word \"persistent\" fits well as it implies that this negative reputation is ongoing. For the second blank, \"corruption\" aligns with the context of a police force that needs cleaning up, as it indicates wrongdoing or unethical behavior, which is a common issue in police departments. Thus, \"persistent\" and \"corruption\" together maintain the coherence of the passage.",
+                "model_response": "persistent, corruption  \nExplanation: The sentence discusses the negative reputation of the city's police force, suggesting that it is consistently viewed poorly. The word \"persistent\" fits well as it implies that this negative reputation is ongoing. For the second blank, \"corruption\" aligns with the context of a police force that needs cleaning up, as it indicates wrongdoing or unethical behavior, which is a common issue in police departments. Thus, \"persistent\" and \"corruption\" together maintain the coherence of the passage.",
+                "runtime": 2.29,
+                "correct": true
+            },
+            {
+                "question_number": 15,
+                "expected": [
+                    "nearly infinite",
+                    "eliminated"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "nearlyinfinite",
+                    "eliminated"
+                ],
+                "model_explanation": "Explanation: The first blank describes the initial state of cosmology, where there were many theories but little data, suggesting a situation where theories vastly outnumbered data, which aligns with \"nearly infinite.\" The second blank indicates that a large amount of new data has significantly impacted the theories, meaning it has likely \"eliminated\" all but one theory, as the passage states that almost all theories were affected by the new data.",
+                "model_response": "nearly infinite, eliminated  \nExplanation: The first blank describes the initial state of cosmology, where there were many theories but little data, suggesting a situation where theories vastly outnumbered data, which aligns with \"nearly infinite.\" The second blank indicates that a large amount of new data has significantly impacted the theories, meaning it has likely \"eliminated\" all but one theory, as the passage states that almost all theories were affected by the new data.",
+                "runtime": 3.65,
+                "correct": true
+            },
+            {
+                "question_number": 16,
+                "expected": [
+                    "erudition",
+                    "scarce"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "erudition",
+                    "scarce"
+                ],
+                "model_explanation": "Explanation: The passage discusses the impressive knowledge that Shakespeare exhibits in his works, which is indicated by the word \"marveled.\" The word \"erudition\" fits well in the first blank as it refers to extensive knowledge or learning. In the second blank, \"scarce\" is appropriate because it highlights the fact that books were not widely available during Shakespeare's time, making his broad learning even more remarkable. The combination of \"erudition\" and \"scarce\" maintains the logical coherence of the passage.",
+                "model_response": "erudition, scarce  \nExplanation: The passage discusses the impressive knowledge that Shakespeare exhibits in his works, which is indicated by the word \"marveled.\" The word \"erudition\" fits well in the first blank as it refers to extensive knowledge or learning. In the second blank, \"scarce\" is appropriate because it highlights the fact that books were not widely available during Shakespeare's time, making his broad learning even more remarkable. The combination of \"erudition\" and \"scarce\" maintains the logical coherence of the passage.",
+                "runtime": 4.19,
+                "correct": true
+            },
+            {
+                "question_number": 17,
+                "expected": [
+                    "precipitate",
+                    "forbore"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "precipitate",
+                    "forbore"
+                ],
+                "model_explanation": "Explanation: The first blank requires a word that indicates she was not hasty or rash, which aligns with \"precipitate.\" The second blank needs a word that suggests she refrained from declaring her passion, which is captured by \"forbore.\" Together, they maintain the coherence of the passage, emphasizing her discretion and restraint.",
+                "model_response": "precipitate, forbore  \nExplanation: The first blank requires a word that indicates she was not hasty or rash, which aligns with \"precipitate.\" The second blank needs a word that suggests she refrained from declaring her passion, which is captured by \"forbore.\" Together, they maintain the coherence of the passage, emphasizing her discretion and restraint.",
+                "runtime": 1.7,
+                "correct": true
+            },
+            {
+                "question_number": 18,
+                "expected": [
+                    "too harshly judged",
+                    "judicious"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "franklyacknowledged",
+                    "judicious"
+                ],
+                "model_explanation": "Explanation: The passage suggests that the author's treatment of the subject is generally positive, except for a few instances where the subject's flaws are recognized. \"Frankly acknowledged\" fits well in the first blank as it implies that the flaws are openly recognized without harsh judgment. For the second blank, \"judicious\" indicates a careful and wise treatment of the subject, which aligns with the overall positive tone of the author's approach.",
+                "model_response": "frankly acknowledged, judicious  \nExplanation: The passage suggests that the author's treatment of the subject is generally positive, except for a few instances where the subject's flaws are recognized. \"Frankly acknowledged\" fits well in the first blank as it implies that the flaws are openly recognized without harsh judgment. For the second blank, \"judicious\" indicates a careful and wise treatment of the subject, which aligns with the overall positive tone of the author's approach.",
+                "runtime": 1.99,
+                "correct": false
+            },
+            {
+                "question_number": 19,
+                "expected": [
+                    "abundance",
+                    "rapacious depletion"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "abundance",
+                    "rapaciousdepletion"
+                ],
+                "model_explanation": "Explanation: The passage describes a transition from a resource-rich economy to a resource-dependent one. The first blank should indicate a positive initial state, which \"abundance\" fits, while the second blank should indicate a negative outcome, which \"rapacious depletion\" captures, as it suggests excessive and unsustainable use of resources.",
+                "model_response": "abundance, rapacious depletion  \nExplanation: The passage describes a transition from a resource-rich economy to a resource-dependent one. The first blank should indicate a positive initial state, which \"abundance\" fits, while the second blank should indicate a negative outcome, which \"rapacious depletion\" captures, as it suggests excessive and unsustainable use of resources.",
+                "runtime": 1.89,
+                "correct": true
+            },
+            {
+                "question_number": 20,
+                "expected": [
+                    "neglects",
+                    "problematic"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "neglects",
+                    "underappreciated"
+                ],
+                "model_explanation": "Explanation: The passage discusses the importance of the African American bebop and free jazz movements in the context of experimental music in the United States. The first blank needs a word that indicates a failure to recognize or include these movements, which \"neglects\" fits perfectly. The second blank requires a word that suggests a lack of recognition or value, which \"underappreciated\" conveys, aligning with the idea that this music is significant yet not fully acknowledged.",
+                "model_response": "neglects, underappreciated  \nExplanation: The passage discusses the importance of the African American bebop and free jazz movements in the context of experimental music in the United States. The first blank needs a word that indicates a failure to recognize or include these movements, which \"neglects\" fits perfectly. The second blank requires a word that suggests a lack of recognition or value, which \"underappreciated\" conveys, aligning with the idea that this music is significant yet not fully acknowledged.",
+                "runtime": 2.72,
+                "correct": false
+            },
+            {
+                "question_number": 21,
+                "expected": [
+                    "ancestry",
+                    "obvious"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "ancestry",
+                    "obvious"
+                ],
+                "model_explanation": "Explanation: The passage discusses the mystery surrounding the biological origin of maize, indicating that its ancestry is unclear. The second part of the sentence suggests that this lack of clarity is not surprising, which aligns with the word \"obvious.\" Thus, \"ancestry\" fits the first blank as it relates to the origin, and \"obvious\" fits the second blank as it conveys that the situation is not surprising given the context.",
+                "model_response": "ancestry, obvious  \nExplanation: The passage discusses the mystery surrounding the biological origin of maize, indicating that its ancestry is unclear. The second part of the sentence suggests that this lack of clarity is not surprising, which aligns with the word \"obvious.\" Thus, \"ancestry\" fits the first blank as it relates to the origin, and \"obvious\" fits the second blank as it conveys that the situation is not surprising given the context.",
+                "runtime": 1.94,
+                "correct": true
+            },
+            {
+                "question_number": 22,
+                "expected": [
+                    "derivative",
+                    "remarkably pioneering"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "derivative",
+                    "dubiouslysupported"
+                ],
+                "model_explanation": "Explanation: The passage suggests that Green's scholarship is misleading because her research is not particularly original (hence \"derivative\" fits well in the first blank). The second part indicates that while her conclusions are drawn from her data, they are not strongly supported, which aligns with \"dubiously supported.\" This maintains the overall meaning that her work lacks novelty and is questionable in its conclusions.",
+                "model_response": "derivative, dubiously supported  \nExplanation: The passage suggests that Green's scholarship is misleading because her research is not particularly original (hence \"derivative\" fits well in the first blank). The second part indicates that while her conclusions are drawn from her data, they are not strongly supported, which aligns with \"dubiously supported.\" This maintains the overall meaning that her work lacks novelty and is questionable in its conclusions.",
+                "runtime": 1.72,
+                "correct": false
+            },
+            {
+                "question_number": 23,
+                "expected": [
+                    "clandestine",
+                    "open"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "clandestine",
+                    "open"
+                ],
+                "model_explanation": "Explanation: The passage discusses how people express their frustrations in a hidden or secretive manner (\"surreptitious comments\") and suggests that they would be better off addressing their issues more directly. For the first blank, \"clandestine\" fits well as it means secretive or hidden, which aligns with the idea of surreptitious comments. For the second blank, \"open\" is appropriate as it suggests a more transparent and honest dialogue, which would help in resolving resentment.",
+                "model_response": "clandestine, open  \nExplanation: The passage discusses how people express their frustrations in a hidden or secretive manner (\"surreptitious comments\") and suggests that they would be better off addressing their issues more directly. For the first blank, \"clandestine\" fits well as it means secretive or hidden, which aligns with the idea of surreptitious comments. For the second blank, \"open\" is appropriate as it suggests a more transparent and honest dialogue, which would help in resolving resentment.",
+                "runtime": 3.32,
+                "correct": true
+            },
+            {
+                "question_number": 24,
+                "expected": [
+                    "churlish",
+                    "admire"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "churlish",
+                    "admire"
+                ],
+                "model_explanation": "Explanation: The passage suggests that it would be inappropriate or rude (churlish) not to admire these tabloid journalists for their success in difficult times. The context implies that they should be recognized positively for their achievements, making \"admire\" the fitting choice for the second blank.",
+                "model_response": "churlish, admire  \nExplanation: The passage suggests that it would be inappropriate or rude (churlish) not to admire these tabloid journalists for their success in difficult times. The context implies that they should be recognized positively for their achievements, making \"admire\" the fitting choice for the second blank.",
+                "runtime": 1.53,
+                "correct": true
+            },
+            {
+                "question_number": 25,
+                "expected": [
+                    "arcane",
+                    "obscure"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "arcane",
+                    "obscure"
+                ],
+                "model_explanation": "Explanation: The passage suggests that while her etymological discussion is esoteric (meaning it is specialized and perhaps difficult to understand), the conclusions she draws from it are not unclear or difficult to grasp. Therefore, \"arcane\" fits in the first blank as it implies something that is understood by only a few, aligning with the idea of esoteric scholarship. In the second blank, \"obscure\" fits well because it indicates that her conclusions are not difficult to understand, contrasting with the esoteric nature of her discussion.",
+                "model_response": "arcane, obscure  \nExplanation: The passage suggests that while her etymological discussion is esoteric (meaning it is specialized and perhaps difficult to understand), the conclusions she draws from it are not unclear or difficult to grasp. Therefore, \"arcane\" fits in the first blank as it implies something that is understood by only a few, aligning with the idea of esoteric scholarship. In the second blank, \"obscure\" fits well because it indicates that her conclusions are not difficult to understand, contrasting with the esoteric nature of her discussion.",
+                "runtime": 2.48,
+                "correct": true
+            },
+            {
+                "question_number": 26,
+                "expected": [
+                    "unethical",
+                    "skullduggery"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "unethical",
+                    "skullduggery"
+                ],
+                "model_explanation": "Explanation: The passage suggests that the Prime Minister's actions to stay in office were questionable or morally wrong, which aligns with \"unethical\" for blank (i). The word \"skullduggery\" refers to deceitful or unscrupulous behavior, which fits the context of a small amount of questionable behavior that some politicians believed was justified. Thus, both words maintain the coherence of the passage.",
+                "model_response": "unethical, skullduggery  \nExplanation: The passage suggests that the Prime Minister's actions to stay in office were questionable or morally wrong, which aligns with \"unethical\" for blank (i). The word \"skullduggery\" refers to deceitful or unscrupulous behavior, which fits the context of a small amount of questionable behavior that some politicians believed was justified. Thus, both words maintain the coherence of the passage.",
+                "runtime": 2.75,
+                "correct": true
+            },
+            {
+                "question_number": 27,
+                "expected": [
+                    "fervor",
+                    "indiscriminate"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "fervor",
+                    "indiscriminate"
+                ],
+                "model_explanation": "Explanation: The passage describes the sociologist's approach to questions, indicating that it is energetic and engaged. \"Fervor\" fits well in the first blank as it suggests enthusiasm and passion, which aligns with the idea of attending to questions. For the second blank, \"indiscriminate\" suggests a lack of discrimination or selectivity, which complements the idea of an energetic approach that addresses all questions without bias.",
+                "model_response": "fervor, indiscriminate  \nExplanation: The passage describes the sociologist's approach to questions, indicating that it is energetic and engaged. \"Fervor\" fits well in the first blank as it suggests enthusiasm and passion, which aligns with the idea of attending to questions. For the second blank, \"indiscriminate\" suggests a lack of discrimination or selectivity, which complements the idea of an energetic approach that addresses all questions without bias.",
+                "runtime": 2.05,
+                "correct": true
+            },
+            {
+                "question_number": 28,
+                "expected": [
+                    "challenged",
+                    "maintaining"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "evaluated",
+                    "maintaining"
+                ],
+                "model_explanation": "Explanation: The passage discusses researchers and educators considering the argument for hands-on learning, suggesting they have critically assessed it, which aligns with \"evaluated.\" The second part contrasts this with direct instruction, indicating that they are still upholding or \"maintaining\" the value of direct instruction as a viable method, rather than conceding or pretending otherwise.",
+                "model_response": "evaluated, maintaining  \nExplanation: The passage discusses researchers and educators considering the argument for hands-on learning, suggesting they have critically assessed it, which aligns with \"evaluated.\" The second part contrasts this with direct instruction, indicating that they are still upholding or \"maintaining\" the value of direct instruction as a viable method, rather than conceding or pretending otherwise.",
+                "runtime": 1.6,
+                "correct": false
+            },
+            {
+                "question_number": 29,
+                "expected": [
+                    "naysayer",
+                    "absorbing"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "naysayer",
+                    "perplexing"
+                ],
+                "model_explanation": "Explanation: The passage suggests that Mr. Billington has a critical view, as indicated by his disapproval of the long version of Nicholas Nickelby. The word \"naysayer\" fits well in the first blank, as it describes someone who expresses negative opinions. In the second blank, \"perplexing\" aligns with the idea that many found the long version confusing or difficult to understand, which supports Mr. Billington's critical stance.",
+                "model_response": "naysayer, perplexing  \n\nExplanation: The passage suggests that Mr. Billington has a critical view, as indicated by his disapproval of the long version of Nicholas Nickelby. The word \"naysayer\" fits well in the first blank, as it describes someone who expresses negative opinions. In the second blank, \"perplexing\" aligns with the idea that many found the long version confusing or difficult to understand, which supports Mr. Billington's critical stance.",
+                "runtime": 1.98,
+                "correct": false
+            },
+            {
+                "question_number": 30,
+                "expected": [
+                    "complicated by",
+                    "obscured"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "complicatedby",
+                    "obscured"
+                ],
+                "model_explanation": "Explanation: The passage discusses the task of separating grinding tools from other excavated stone objects in the context of an ancient practice of recycling. The phrase \"complicated by\" suggests that the task is made more difficult due to the recycling practice. For the second blank, \"obscured\" fits well because it implies that the original use of the grinding tools is hidden or less clear due to their recycling into other materials. Together, these choices maintain the logical flow of the sentence.",
+                "model_response": "complicated by, obscured  \nExplanation: The passage discusses the task of separating grinding tools from other excavated stone objects in the context of an ancient practice of recycling. The phrase \"complicated by\" suggests that the task is made more difficult due to the recycling practice. For the second blank, \"obscured\" fits well because it implies that the original use of the grinding tools is hidden or less clear due to their recycling into other materials. Together, these choices maintain the logical flow of the sentence.",
+                "runtime": 2.21,
+                "correct": true
+            },
+            {
+                "question_number": 31,
+                "expected": [
+                    "limits",
+                    "lay outside"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "limits",
+                    "layoutside"
+                ],
+                "model_explanation": "Explanation: The passage discusses Tagore's perspective on the nature of scientific inquiry and its relationship to moral questions. For the first blank, \"limits\" fits well because it suggests that Tagore recognized the boundaries of what scientific inquiry could address, particularly in relation to moral questions. For the second blank, \"lay outside\" is appropriate as it indicates that moral questions do not fall within the realm of scientific inquiry, which aligns with Tagore's belief that moral questions require certainties rather than the probabilistic nature of science.",
+                "model_response": "limits, lay outside  \nExplanation: The passage discusses Tagore's perspective on the nature of scientific inquiry and its relationship to moral questions. For the first blank, \"limits\" fits well because it suggests that Tagore recognized the boundaries of what scientific inquiry could address, particularly in relation to moral questions. For the second blank, \"lay outside\" is appropriate as it indicates that moral questions do not fall within the realm of scientific inquiry, which aligns with Tagore's belief that moral questions require certainties rather than the probabilistic nature of science.",
+                "runtime": 2.48,
+                "correct": true
+            },
+            {
+                "question_number": 32,
+                "expected": [
+                    "interpreting",
+                    "education"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "interpreting",
+                    "education"
+                ],
+                "model_explanation": "Explanation: The passage discusses how cinema archives should enhance their role by selecting and commenting on important films, which aligns with the idea of \"interpreting\" films. This action suggests a deeper engagement with the films rather than just preserving them. The second blank requires a word that reflects the purpose of this engagement; \"education\" fits well as it implies that archives would provide knowledge and insight, which is a key function of both museums and educational institutions.",
+                "model_response": "interpreting, education  \nExplanation: The passage discusses how cinema archives should enhance their role by selecting and commenting on important films, which aligns with the idea of \"interpreting\" films. This action suggests a deeper engagement with the films rather than just preserving them. The second blank requires a word that reflects the purpose of this engagement; \"education\" fits well as it implies that archives would provide knowledge and insight, which is a key function of both museums and educational institutions.",
+                "runtime": 2.22,
+                "correct": true
+            },
+            {
+                "question_number": 33,
+                "expected": [
+                    "mercurial",
+                    "inconstancy"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "garrulous",
+                    "inconstancy"
+                ],
+                "model_explanation": "Explanation: The passage suggests that Professor Pearson's colleagues have a negative perception of him, which his friends defend against. The word \"garrulous\" (meaning excessively talkative) fits well in the first blank, as it implies a trait that could be criticized. The second blank requires a word that reflects a charge against him that his friends would defend him from; \"inconstancy\" (meaning unpredictability or inconsistency) aligns with the idea of being criticized for being unreliable or changeable, which his friends would counter. The other options do not fit as well in the context provided.",
+                "model_response": "garrulous, inconstancy  \nExplanation: The passage suggests that Professor Pearson's colleagues have a negative perception of him, which his friends defend against. The word \"garrulous\" (meaning excessively talkative) fits well in the first blank, as it implies a trait that could be criticized. The second blank requires a word that reflects a charge against him that his friends would defend him from; \"inconstancy\" (meaning unpredictability or inconsistency) aligns with the idea of being criticized for being unreliable or changeable, which his friends would counter. The other options do not fit as well in the context provided.",
+                "runtime": 7.14,
+                "correct": false
+            },
+            {
+                "question_number": 34,
+                "expected": [
+                    "laboratory",
+                    "tried"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "laboratory",
+                    "tried"
+                ],
+                "model_explanation": "Explanation: The passage describes a regional government functioning as a setting for experimentation with new ideas before they are implemented nationally. The word \"laboratory\" fits well as it suggests a place for experimentation. For the second blank, \"tried\" is appropriate because it indicates that these new ideas are tested or experimented with in that setting, aligning with the overall meaning of the passage.",
+                "model_response": "laboratory, tried  \nExplanation: The passage describes a regional government functioning as a setting for experimentation with new ideas before they are implemented nationally. The word \"laboratory\" fits well as it suggests a place for experimentation. For the second blank, \"tried\" is appropriate because it indicates that these new ideas are tested or experimented with in that setting, aligning with the overall meaning of the passage.",
+                "runtime": 2.22,
+                "correct": true
+            },
+            {
+                "question_number": 35,
+                "expected": [
+                    "generated in",
+                    "never leaves"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "generatedin",
+                    "neverleaves"
+                ],
+                "model_explanation": "Explanation: The passage discusses how conventional deposits of oil and gas originate from deeper source beds, indicating that hydrocarbons are formed or \"generated\" in those deeper layers. For the second blank, it states that shale gas remains in its source bed, which aligns with the idea that it \"never leaves\" its birthplace. Both selected words maintain the logical flow of the passage.",
+                "model_response": "generated in, never leaves  \nExplanation: The passage discusses how conventional deposits of oil and gas originate from deeper source beds, indicating that hydrocarbons are formed or \"generated\" in those deeper layers. For the second blank, it states that shale gas remains in its source bed, which aligns with the idea that it \"never leaves\" its birthplace. Both selected words maintain the logical flow of the passage.",
+                "runtime": 1.76,
+                "correct": true
+            },
+            {
+                "question_number": 36,
+                "expected": [
+                    "intransigent",
+                    "uncompromising"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "intransigent",
+                    "uncompromising"
+                ],
+                "model_explanation": "Explanation: The sentence indicates that despite the ongoing dispute between the sisters, Megan remained steadfast in her position, which suggests a strong, unyielding attitude. The word \"intransigent\" fits this meaning. Similarly, since Lauren is described as being equally something, \"uncompromising\" aligns well with the idea of maintaining a firm stance in the face of conflict. Both words convey a sense of rigidity and refusal to yield, which is consistent with the context of a dispute.",
+                "model_response": "intransigent, uncompromising  \nExplanation: The sentence indicates that despite the ongoing dispute between the sisters, Megan remained steadfast in her position, which suggests a strong, unyielding attitude. The word \"intransigent\" fits this meaning. Similarly, since Lauren is described as being equally something, \"uncompromising\" aligns well with the idea of maintaining a firm stance in the face of conflict. Both words convey a sense of rigidity and refusal to yield, which is consistent with the context of a dispute.",
+                "runtime": 2.03,
+                "correct": true
+            },
+            {
+                "question_number": 37,
+                "expected": [
+                    "slowed",
+                    "drag on"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "slowed",
+                    "dragon"
+                ],
+                "model_explanation": "Explanation: The passage indicates that world demand for oil intensified but then slackened due to a change in China's oil consumption. The word \"slowed\" fits logically in the first blank, as it suggests a decrease in the rate of consumption. In the second blank, \"drag on\" is appropriate because it implies that high oil prices are negatively impacting the global economy, which aligns with the context of dampening demand.",
+                "model_response": "slowed, drag on  \nExplanation: The passage indicates that world demand for oil intensified but then slackened due to a change in China's oil consumption. The word \"slowed\" fits logically in the first blank, as it suggests a decrease in the rate of consumption. In the second blank, \"drag on\" is appropriate because it implies that high oil prices are negatively impacting the global economy, which aligns with the context of dampening demand.",
+                "runtime": 2.18,
+                "correct": true
+            },
+            {
+                "question_number": 38,
+                "expected": [
+                    "familiar",
+                    "revisionist"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "familiar",
+                    "revisionist"
+                ],
+                "model_explanation": "Explanation: The passage suggests that the book claims to offer a new perspective on the conflict but ultimately presents a view that is more traditional or conventional (hence \"familiar\") in its identification of causes. The second blank should contrast with \"familiar,\" indicating that the book does not take a novel or unconventional approach, which aligns with \"revisionist\" as it implies a departure from traditional views.",
+                "model_response": "familiar, revisionist  \nExplanation: The passage suggests that the book claims to offer a new perspective on the conflict but ultimately presents a view that is more traditional or conventional (hence \"familiar\") in its identification of causes. The second blank should contrast with \"familiar,\" indicating that the book does not take a novel or unconventional approach, which aligns with \"revisionist\" as it implies a departure from traditional views.",
+                "runtime": 2.0,
+                "correct": true
+            },
+            {
+                "question_number": 39,
+                "expected": [
+                    "trivial",
+                    "importance"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "trivial",
+                    "banality"
+                ],
+                "model_explanation": "Explanation: The passage discusses how Susan Hiller transforms seemingly insignificant or unimportant items (postcards, clippings, wallpaper patterns) into something more meaningful. The word \"trivial\" fits well in the first blank as it suggests that these artifacts are often seen as unimportant. In the second blank, \"banality\" aligns with the idea that these artifacts, while initially trivial, are made to appear more significant through Hiller's work, contrasting their original perceived lack of importance.",
+                "model_response": "trivial, banality  \nExplanation: The passage discusses how Susan Hiller transforms seemingly insignificant or unimportant items (postcards, clippings, wallpaper patterns) into something more meaningful. The word \"trivial\" fits well in the first blank as it suggests that these artifacts are often seen as unimportant. In the second blank, \"banality\" aligns with the idea that these artifacts, while initially trivial, are made to appear more significant through Hiller's work, contrasting their original perceived lack of importance.",
+                "runtime": 2.29,
+                "correct": false
+            },
+            {
+                "question_number": 40,
+                "expected": [
+                    "obeisance",
+                    "mixed"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "obeisance",
+                    "mixed"
+                ],
+                "model_explanation": "Explanation: The passage indicates that Pauline Kael had a distaste for sycophancy, which implies she disliked excessive flattery or submission to authority. However, her need for \"obeisance\" suggests she still required some level of respect or deference from others, creating a conflict between her feelings. This conflict leads to her sending \"mixed\" signals, as she is torn between her disdain for sycophancy and her need for acknowledgment. Thus, \"obeisance\" fits the first blank, and \"mixed\" fits the second blank, as they both align with the overall meaning of the sentence.",
+                "model_response": "obeisance, mixed  \nExplanation: The passage indicates that Pauline Kael had a distaste for sycophancy, which implies she disliked excessive flattery or submission to authority. However, her need for \"obeisance\" suggests she still required some level of respect or deference from others, creating a conflict between her feelings. This conflict leads to her sending \"mixed\" signals, as she is torn between her disdain for sycophancy and her need for acknowledgment. Thus, \"obeisance\" fits the first blank, and \"mixed\" fits the second blank, as they both align with the overall meaning of the sentence.",
+                "runtime": 2.54,
+                "correct": true
+            },
+            {
+                "question_number": 41,
+                "expected": [
+                    "wide-ranging",
+                    "mimic"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "debilitating",
+                    "mimic"
+                ],
+                "model_explanation": "Explanation: The passage discusses fibromyalgia's symptoms and their impact, suggesting that they can be severe or debilitating. The second blank requires a word that indicates the symptoms can resemble or mimic those of other disorders, which fits the context of diagnosis being reliant on patient descriptions. Thus, \"debilitating\" and \"mimic\" are the most coherent choices.",
+                "model_response": "debilitating, mimic  \nExplanation: The passage discusses fibromyalgia's symptoms and their impact, suggesting that they can be severe or debilitating. The second blank requires a word that indicates the symptoms can resemble or mimic those of other disorders, which fits the context of diagnosis being reliant on patient descriptions. Thus, \"debilitating\" and \"mimic\" are the most coherent choices.",
+                "runtime": 2.11,
+                "correct": false
+            },
+            {
+                "question_number": 42,
+                "expected": [
+                    "decline",
+                    "health"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "decline",
+                    "health"
+                ],
+                "model_explanation": "Explanation: The passage suggests that traffic congestion is not a negative aspect of urban life but rather a positive one that contributes to the city's purpose. Therefore, for blank (i), \"decline\" fits as it indicates a negative state that congestion is being contrasted against. For blank (ii), \"health\" aligns with the idea that congestion promotes contemplation and shared experiences, suggesting that it contributes positively to the vitality of urban life.",
+                "model_response": "decline, health  \nExplanation: The passage suggests that traffic congestion is not a negative aspect of urban life but rather a positive one that contributes to the city's purpose. Therefore, for blank (i), \"decline\" fits as it indicates a negative state that congestion is being contrasted against. For blank (ii), \"health\" aligns with the idea that congestion promotes contemplation and shared experiences, suggesting that it contributes positively to the vitality of urban life.",
+                "runtime": 1.96,
+                "correct": true
+            },
+            {
+                "question_number": 43,
+                "expected": [
+                    "an anonymous",
+                    "confessional"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "evenhanded",
+                    "confessional"
+                ],
+                "model_explanation": "Explanation: The passage discusses the ideal nature of criticism and contrasts it with the trend of writing reviews that focus on personal details. \"Evenhanded\" fits well in the first blank as it suggests a balanced and fair approach to criticism, which many reviewers would agree is important. In the second blank, \"confessional\" aligns with the idea of sharing personal details, indicating a shift towards more personal and subjective reviews, which is described as a rising tendency.",
+                "model_response": "evenhanded, confessional  \nExplanation: The passage discusses the ideal nature of criticism and contrasts it with the trend of writing reviews that focus on personal details. \"Evenhanded\" fits well in the first blank as it suggests a balanced and fair approach to criticism, which many reviewers would agree is important. In the second blank, \"confessional\" aligns with the idea of sharing personal details, indicating a shift towards more personal and subjective reviews, which is described as a rising tendency.",
+                "runtime": 2.26,
+                "correct": false
+            },
+            {
+                "question_number": 44,
+                "expected": [
+                    "secondhand testimony",
+                    "anecdote"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "secondhandtestimony",
+                    "anecdote"
+                ],
+                "model_explanation": "Explanation: The passage discusses behaviors attributed to crows that are not scientifically validated, suggesting they are based on informal or unverified sources. \"Secondhand testimony\" fits as it implies information that is not directly observed, aligning with the idea that these behaviors are not scientifically proven. For the second blank, \"anecdote\" is appropriate as it refers to personal accounts or stories rather than systematic scientific evidence, which matches the context of the passage.",
+                "model_response": "secondhand testimony, anecdote  \nExplanation: The passage discusses behaviors attributed to crows that are not scientifically validated, suggesting they are based on informal or unverified sources. \"Secondhand testimony\" fits as it implies information that is not directly observed, aligning with the idea that these behaviors are not scientifically proven. For the second blank, \"anecdote\" is appropriate as it refers to personal accounts or stories rather than systematic scientific evidence, which matches the context of the passage.",
+                "runtime": 2.02,
+                "correct": true
+            },
+            {
+                "question_number": 45,
+                "expected": [
+                    "relish",
+                    "insufferable"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "relish",
+                    "insufferable"
+                ],
+                "model_explanation": "Explanation: The passage indicates that the writer satirizes social aspirants and moneyed folk with \"scathing precision,\" suggesting a critical view. However, the use of \"appears to\" implies a contrast, indicating that she might actually enjoy or take pleasure in this world, which aligns with \"relish.\" For the second blank, the word \"insufferable\" fits well as it describes a negative quality of the world she presents, which she might still enjoy despite its flaws.",
+                "model_response": "relish, insufferable  \n\nExplanation: The passage indicates that the writer satirizes social aspirants and moneyed folk with \"scathing precision,\" suggesting a critical view. However, the use of \"appears to\" implies a contrast, indicating that she might actually enjoy or take pleasure in this world, which aligns with \"relish.\" For the second blank, the word \"insufferable\" fits well as it describes a negative quality of the world she presents, which she might still enjoy despite its flaws.",
+                "runtime": 2.4,
+                "correct": true
+            },
+            {
+                "question_number": 46,
+                "expected": [
+                    "diminish",
+                    "supplanted by"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "diminish",
+                    "supplantedby"
+                ],
+                "model_explanation": "Explanation: The sentence suggests that the benefits of information technology do not reduce or lessen the need for individual reasoning (hence \"diminish\" fits well in the first blank). The second part indicates that users should not let their reasoning be replaced by just gathering data, making \"supplanted by\" the appropriate choice for the second blank.",
+                "model_response": "diminish, supplanted by  \nExplanation: The sentence suggests that the benefits of information technology do not reduce or lessen the need for individual reasoning (hence \"diminish\" fits well in the first blank). The second part indicates that users should not let their reasoning be replaced by just gathering data, making \"supplanted by\" the appropriate choice for the second blank.",
+                "runtime": 1.79,
+                "correct": true
+            },
+            {
+                "question_number": 47,
+                "expected": [
+                    "inadequacies",
+                    "debunking"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "abstractions",
+                    "debunking"
+                ],
+                "model_explanation": "Explanation: The passage discusses a book that examines various ideas encountered in contemporary thinking, suggesting that the focus is on abstract concepts rather than concrete issues. The second blank describes the quality of the writing, which is characterized as having a \"debunking\" quality, as it critiques exaggerated beliefs and pseudoscience without being overly scolding. Thus, \"abstractions\" fits well for the first blank, and \"debunking\" fits well for the second.",
+                "model_response": "abstractions, debunking  \nExplanation: The passage discusses a book that examines various ideas encountered in contemporary thinking, suggesting that the focus is on abstract concepts rather than concrete issues. The second blank describes the quality of the writing, which is characterized as having a \"debunking\" quality, as it critiques exaggerated beliefs and pseudoscience without being overly scolding. Thus, \"abstractions\" fits well for the first blank, and \"debunking\" fits well for the second.",
+                "runtime": 2.69,
+                "correct": false
+            },
+            {
+                "question_number": 48,
+                "expected": [
+                    "liberalization",
+                    "abnegation"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "liberalization",
+                    "abnegation"
+                ],
+                "model_explanation": "Explanation: The passage discusses the minister's recognition of issues with the current planning system and her proposal for a complete opposite approach. The first blank requires a word that indicates a removal of government control, which \"liberalization\" fits as it suggests opening up the market. The second blank needs a word that indicates a complete relinquishing of responsibility, which \"abnegation\" means, as it refers to the act of rejecting or giving up responsibility.",
+                "model_response": "liberalization, abnegation  \nExplanation: The passage discusses the minister's recognition of issues with the current planning system and her proposal for a complete opposite approach. The first blank requires a word that indicates a removal of government control, which \"liberalization\" fits as it suggests opening up the market. The second blank needs a word that indicates a complete relinquishing of responsibility, which \"abnegation\" means, as it refers to the act of rejecting or giving up responsibility.",
+                "runtime": 1.81,
+                "correct": true
+            },
+            {
+                "question_number": 49,
+                "expected": [
+                    "apologies",
+                    "awry in"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "apologies",
+                    "awryin"
+                ],
+                "model_explanation": "Explanation: The passage suggests a negative view of adults who read detective stories, indicating that scholarly works may start with a sense of regret or justification for this behavior, which aligns with \"apologies.\" The second blank implies a negative judgment about those who analyze such fiction, which fits with \"awry in,\" suggesting something is wrong with them as well.",
+                "model_response": "apologies, awry in  \nExplanation: The passage suggests a negative view of adults who read detective stories, indicating that scholarly works may start with a sense of regret or justification for this behavior, which aligns with \"apologies.\" The second blank implies a negative judgment about those who analyze such fiction, which fits with \"awry in,\" suggesting something is wrong with them as well.",
+                "runtime": 3.06,
+                "correct": true
+            },
+            {
+                "question_number": 50,
+                "expected": [
+                    "defensive",
+                    "an enhanced"
+                ],
+                "models_tried": [
+                    "gemini-1.5-flash"
+                ],
+                "model_used": "gemini-1.5-flash",
+                "model_answer": [
+                    "defensive",
+                    "anenhanced"
+                ],
+                "model_explanation": "Explanation: The passage describes British business owners during the Second World War as being in a challenging situation where they had to accept government interference. The word \"defensive\" fits this context, indicating that they were in a position of having to protect their interests against external pressures. For the second blank, \"an enhanced\" role for labor unions suggests that unions were given more power or influence in negotiations, which aligns with the idea of increased government involvement during extraordinary circumstances. Thus, \"defensive\" and \"an enhanced\" are the best choices.",
+                "model_response": "defensive, an enhanced  \nExplanation: The passage describes British business owners during the Second World War as being in a challenging situation where they had to accept government interference. The word \"defensive\" fits this context, indicating that they were in a position of having to protect their interests against external pressures. For the second blank, \"an enhanced\" role for labor unions suggests that unions were given more power or influence in negotiations, which aligns with the idea of increased government involvement during extraordinary circumstances. Thus, \"defensive\" and \"an enhanced\" are the best choices.",
+                "runtime": 4.17,
+                "correct": true
+            }
+        ]
+    }
+}

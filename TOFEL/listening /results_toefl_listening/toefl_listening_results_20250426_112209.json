@@ -1,0 +1,1654 @@
+{
+  "gemini-1.5-flash": {
+    "zero-shot": {
+      "total": 25,
+      "correct": 17,
+      "by_conversation": {
+        "12": {
+          "title": "Confirming the Steps for Transferring Credits",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "12-1",
+              "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 6.4
+            },
+            {
+              "index": 0,
+              "question_id": "12-2",
+              "question_text": "How long does Mr. Thompson say the credit transfer process typically takes? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.03
+            },
+            {
+              "index": 0,
+              "question_id": "12-3",
+              "question_text": "What does Mr. Thompson mean when he says, “It helps the committee make a more informed decision”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.88
+            },
+            {
+              "index": 0,
+              "question_id": "12-4",
+              "question_text": "What is Mr. Thompson's attitude towards James's inquiries about the credit transfer process?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.07
+            },
+            {
+              "index": 0,
+              "question_id": "12-5",
+              "question_text": "Who should James contact if he has questions about the courses that didn’t transfer?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.02
+            }
+          ],
+          "accuracy": 1.0
+        },
+        "11": {
+          "title": "Confirming Dates for Upcoming Campus Networking Events",
+          "total": 5,
+          "correct": 3,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "11-1",
+              "question_text": "What is the main purpose of Oliver's conversation with James? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.08
+            },
+            {
+              "index": 1,
+              "question_id": "11-2",
+              "question_text": "According to James, what is the dress code for the networking events? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.2
+            },
+            {
+              "index": 1,
+              "question_id": "11-3",
+              "question_text": "What does Oliver mean when he says, “I want to make sure I’m dressed appropriately”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.86
+            },
+            {
+              "index": 1,
+              "question_id": "11-4",
+              "question_text": "How does James feel about the upcoming panel discussion featuring alumni?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.87
+            },
+            {
+              "index": 1,
+              "question_id": "11-5",
+              "question_text": "When is the first networking event scheduled to take place?",
+              "correct_answer": "A",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.04
+            }
+          ],
+          "accuracy": 0.6
+        },
+        "4": {
+          "title": "Transcript of the Audio of Library Orientation",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "4-1",
+              "question_text": "Why does the student visit the library?",
+              "correct_answer": "A",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.12
+            },
+            {
+              "index": 2,
+              "question_id": "4-2",
+              "question_text": "Why does the librarian direct the student to the history section?",
+              "correct_answer": "B",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.79
+            },
+            {
+              "index": 2,
+              "question_id": "4-3",
+              "question_text": "What inference does the student make about the interlibrary loan service at his previous school?",
+              "correct_answer": "C",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 2.73
+            },
+            {
+              "index": 2,
+              "question_id": "4-4",
+              "question_text": "What does the student need to do before accessing any rare books? Select 2 options.",
+              "correct_answer": "B, C",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.29
+            },
+            {
+              "index": 2,
+              "question_id": "4-5",
+              "question_text": "Which sentence best expresses what the librarian means when she says this: Librarian: Yup, that’s the idea!",
+              "correct_answer": "D",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.85
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "7": {
+          "title": "Conversation on Tips for Managing Academic Stress with a Wellness Coach",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "7-1",
+              "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.17
+            },
+            {
+              "index": 3,
+              "question_id": "7-2",
+              "question_text": "According to Mr. Thompson, what is one effective strategy to combat procrastination? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.03
+            },
+            {
+              "index": 3,
+              "question_id": "7-3",
+              "question_text": "What does Mr. Thompson mean when he says, “Just make sure to take those breaks seriously—step away from your desk and do something relaxing”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.02
+            },
+            {
+              "index": 3,
+              "question_id": "7-4",
+              "question_text": "What is Mr. Thompson’s attitude towards socialising while studying?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.08
+            },
+            {
+              "index": 3,
+              "question_id": "7-5",
+              "question_text": "What relaxation technique does Mr. Thompson suggest to James?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.01
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "6": {
+          "title": "Clarifying Group Project Roles with Classmates - TOEFL Listening Practice Test",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "6-1",
+              "question_text": "What is the main purpose of Ethan and Jake's conversation?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.02
+            },
+            {
+              "index": 4,
+              "question_id": "6-2",
+              "question_text": "What section does Jake plan to cover in the project?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.04
+            },
+            {
+              "index": 4,
+              "question_id": "6-3",
+              "question_text": "What does Ethan mean when he says, “we should also have a cohesive introduction and conclusion to tie everything together”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.01
+            },
+            {
+              "index": 4,
+              "question_id": "6-4",
+              "question_text": "How does Ethan feel about the division of roles in the project?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.08
+            },
+            {
+              "index": 4,
+              "question_id": "6-5",
+              "question_text": "By when do Ethan and Jake aim to have a rough outline of their project?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.03
+            }
+          ],
+          "accuracy": 0.8
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "12-1",
+          "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.4
+        },
+        {
+          "index": 0,
+          "question_id": "12-2",
+          "question_text": "How long does Mr. Thompson say the credit transfer process typically takes? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.03
+        },
+        {
+          "index": 0,
+          "question_id": "12-3",
+          "question_text": "What does Mr. Thompson mean when he says, “It helps the committee make a more informed decision”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.88
+        },
+        {
+          "index": 0,
+          "question_id": "12-4",
+          "question_text": "What is Mr. Thompson's attitude towards James's inquiries about the credit transfer process?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.07
+        },
+        {
+          "index": 0,
+          "question_id": "12-5",
+          "question_text": "Who should James contact if he has questions about the courses that didn’t transfer?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.02
+        },
+        {
+          "index": 1,
+          "question_id": "11-1",
+          "question_text": "What is the main purpose of Oliver's conversation with James? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.08
+        },
+        {
+          "index": 1,
+          "question_id": "11-2",
+          "question_text": "According to James, what is the dress code for the networking events? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.2
+        },
+        {
+          "index": 1,
+          "question_id": "11-3",
+          "question_text": "What does Oliver mean when he says, “I want to make sure I’m dressed appropriately”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.86
+        },
+        {
+          "index": 1,
+          "question_id": "11-4",
+          "question_text": "How does James feel about the upcoming panel discussion featuring alumni?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.87
+        },
+        {
+          "index": 1,
+          "question_id": "11-5",
+          "question_text": "When is the first networking event scheduled to take place?",
+          "correct_answer": "A",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.04
+        },
+        {
+          "index": 2,
+          "question_id": "4-1",
+          "question_text": "Why does the student visit the library?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.12
+        },
+        {
+          "index": 2,
+          "question_id": "4-2",
+          "question_text": "Why does the librarian direct the student to the history section?",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.79
+        },
+        {
+          "index": 2,
+          "question_id": "4-3",
+          "question_text": "What inference does the student make about the interlibrary loan service at his previous school?",
+          "correct_answer": "C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 2.73
+        },
+        {
+          "index": 2,
+          "question_id": "4-4",
+          "question_text": "What does the student need to do before accessing any rare books? Select 2 options.",
+          "correct_answer": "B, C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.29
+        },
+        {
+          "index": 2,
+          "question_id": "4-5",
+          "question_text": "Which sentence best expresses what the librarian means when she says this: Librarian: Yup, that’s the idea!",
+          "correct_answer": "D",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.85
+        },
+        {
+          "index": 3,
+          "question_id": "7-1",
+          "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.17
+        },
+        {
+          "index": 3,
+          "question_id": "7-2",
+          "question_text": "According to Mr. Thompson, what is one effective strategy to combat procrastination? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.03
+        },
+        {
+          "index": 3,
+          "question_id": "7-3",
+          "question_text": "What does Mr. Thompson mean when he says, “Just make sure to take those breaks seriously—step away from your desk and do something relaxing”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.02
+        },
+        {
+          "index": 3,
+          "question_id": "7-4",
+          "question_text": "What is Mr. Thompson’s attitude towards socialising while studying?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.08
+        },
+        {
+          "index": 3,
+          "question_id": "7-5",
+          "question_text": "What relaxation technique does Mr. Thompson suggest to James?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.01
+        },
+        {
+          "index": 4,
+          "question_id": "6-1",
+          "question_text": "What is the main purpose of Ethan and Jake's conversation?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.02
+        },
+        {
+          "index": 4,
+          "question_id": "6-2",
+          "question_text": "What section does Jake plan to cover in the project?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.04
+        },
+        {
+          "index": 4,
+          "question_id": "6-3",
+          "question_text": "What does Ethan mean when he says, “we should also have a cohesive introduction and conclusion to tie everything together”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.01
+        },
+        {
+          "index": 4,
+          "question_id": "6-4",
+          "question_text": "How does Ethan feel about the division of roles in the project?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.08
+        },
+        {
+          "index": 4,
+          "question_id": "6-5",
+          "question_text": "By when do Ethan and Jake aim to have a rough outline of their project?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.03
+        }
+      ],
+      "accuracy": 0.68,
+      "summary_text": "gemini-1.5-flash with zero-shot strategy summary:\nOverall accuracy: 68.00% (17/25)\n\n  Conversation 4 - Transcript of the Audio of Library Orientation: 20.00% (1/5)\n  Conversation 6 - Clarifying Group Project Roles with Classmates - TOEFL Listening Practice Test: 80.00% (4/5)\n  Conversation 7 - Conversation on Tips for Managing Academic Stress with a Wellness Coach: 80.00% (4/5)\n  Conversation 11 - Confirming Dates for Upcoming Campus Networking Events: 60.00% (3/5)\n  Conversation 12 - Confirming the Steps for Transferring Credits: 100.00% (5/5)"
+    },
+    "five-shot": {
+      "total": 25,
+      "correct": 17,
+      "by_conversation": {
+        "12": {
+          "title": "Confirming the Steps for Transferring Credits",
+          "total": 5,
+          "correct": 5,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "12-1",
+              "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.95
+            },
+            {
+              "index": 0,
+              "question_id": "12-2",
+              "question_text": "How long does Mr. Thompson say the credit transfer process typically takes? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.17
+            },
+            {
+              "index": 0,
+              "question_id": "12-3",
+              "question_text": "What does Mr. Thompson mean when he says, “It helps the committee make a more informed decision”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.02
+            },
+            {
+              "index": 0,
+              "question_id": "12-4",
+              "question_text": "What is Mr. Thompson's attitude towards James's inquiries about the credit transfer process?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.85
+            },
+            {
+              "index": 0,
+              "question_id": "12-5",
+              "question_text": "Who should James contact if he has questions about the courses that didn’t transfer?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.1
+            }
+          ],
+          "accuracy": 1.0
+        },
+        "11": {
+          "title": "Confirming Dates for Upcoming Campus Networking Events",
+          "total": 5,
+          "correct": 3,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "11-1",
+              "question_text": "What is the main purpose of Oliver's conversation with James? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.91
+            },
+            {
+              "index": 1,
+              "question_id": "11-2",
+              "question_text": "According to James, what is the dress code for the networking events? ",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.93
+            },
+            {
+              "index": 1,
+              "question_id": "11-3",
+              "question_text": "What does Oliver mean when he says, “I want to make sure I’m dressed appropriately”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.93
+            },
+            {
+              "index": 1,
+              "question_id": "11-4",
+              "question_text": "How does James feel about the upcoming panel discussion featuring alumni?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.8
+            },
+            {
+              "index": 1,
+              "question_id": "11-5",
+              "question_text": "When is the first networking event scheduled to take place?",
+              "correct_answer": "A",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.06
+            }
+          ],
+          "accuracy": 0.6
+        },
+        "4": {
+          "title": "Transcript of the Audio of Library Orientation",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "4-1",
+              "question_text": "Why does the student visit the library?",
+              "correct_answer": "A",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.13
+            },
+            {
+              "index": 2,
+              "question_id": "4-2",
+              "question_text": "Why does the librarian direct the student to the history section?",
+              "correct_answer": "B",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.01
+            },
+            {
+              "index": 2,
+              "question_id": "4-3",
+              "question_text": "What inference does the student make about the interlibrary loan service at his previous school?",
+              "correct_answer": "C",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.15
+            },
+            {
+              "index": 2,
+              "question_id": "4-4",
+              "question_text": "What does the student need to do before accessing any rare books? Select 2 options.",
+              "correct_answer": "B, C",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.94
+            },
+            {
+              "index": 2,
+              "question_id": "4-5",
+              "question_text": "Which sentence best expresses what the librarian means when she says this: Librarian: Yup, that’s the idea!",
+              "correct_answer": "D",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.93
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "7": {
+          "title": "Conversation on Tips for Managing Academic Stress with a Wellness Coach",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "7-1",
+              "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.82
+            },
+            {
+              "index": 3,
+              "question_id": "7-2",
+              "question_text": "According to Mr. Thompson, what is one effective strategy to combat procrastination? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.67
+            },
+            {
+              "index": 3,
+              "question_id": "7-3",
+              "question_text": "What does Mr. Thompson mean when he says, “Just make sure to take those breaks seriously—step away from your desk and do something relaxing”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.1
+            },
+            {
+              "index": 3,
+              "question_id": "7-4",
+              "question_text": "What is Mr. Thompson’s attitude towards socialising while studying?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.94
+            },
+            {
+              "index": 3,
+              "question_id": "7-5",
+              "question_text": "What relaxation technique does Mr. Thompson suggest to James?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 0.96
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "6": {
+          "title": "Clarifying Group Project Roles with Classmates - TOEFL Listening Practice Test",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "6-1",
+              "question_text": "What is the main purpose of Ethan and Jake's conversation?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.2
+            },
+            {
+              "index": 4,
+              "question_id": "6-2",
+              "question_text": "What section does Jake plan to cover in the project?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 1.14
+            },
+            {
+              "index": 4,
+              "question_id": "6-3",
+              "question_text": "What does Ethan mean when he says, “we should also have a cohesive introduction and conclusion to tie everything together”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.84
+            },
+            {
+              "index": 4,
+              "question_id": "6-4",
+              "question_text": "How does Ethan feel about the division of roles in the project?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 1.18
+            },
+            {
+              "index": 4,
+              "question_id": "6-5",
+              "question_text": "By when do Ethan and Jake aim to have a rough outline of their project?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 0.87
+            }
+          ],
+          "accuracy": 0.8
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "12-1",
+          "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.95
+        },
+        {
+          "index": 0,
+          "question_id": "12-2",
+          "question_text": "How long does Mr. Thompson say the credit transfer process typically takes? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.17
+        },
+        {
+          "index": 0,
+          "question_id": "12-3",
+          "question_text": "What does Mr. Thompson mean when he says, “It helps the committee make a more informed decision”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.02
+        },
+        {
+          "index": 0,
+          "question_id": "12-4",
+          "question_text": "What is Mr. Thompson's attitude towards James's inquiries about the credit transfer process?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.85
+        },
+        {
+          "index": 0,
+          "question_id": "12-5",
+          "question_text": "Who should James contact if he has questions about the courses that didn’t transfer?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.1
+        },
+        {
+          "index": 1,
+          "question_id": "11-1",
+          "question_text": "What is the main purpose of Oliver's conversation with James? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.91
+        },
+        {
+          "index": 1,
+          "question_id": "11-2",
+          "question_text": "According to James, what is the dress code for the networking events? ",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.93
+        },
+        {
+          "index": 1,
+          "question_id": "11-3",
+          "question_text": "What does Oliver mean when he says, “I want to make sure I’m dressed appropriately”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.93
+        },
+        {
+          "index": 1,
+          "question_id": "11-4",
+          "question_text": "How does James feel about the upcoming panel discussion featuring alumni?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.8
+        },
+        {
+          "index": 1,
+          "question_id": "11-5",
+          "question_text": "When is the first networking event scheduled to take place?",
+          "correct_answer": "A",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.06
+        },
+        {
+          "index": 2,
+          "question_id": "4-1",
+          "question_text": "Why does the student visit the library?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.13
+        },
+        {
+          "index": 2,
+          "question_id": "4-2",
+          "question_text": "Why does the librarian direct the student to the history section?",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.01
+        },
+        {
+          "index": 2,
+          "question_id": "4-3",
+          "question_text": "What inference does the student make about the interlibrary loan service at his previous school?",
+          "correct_answer": "C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.15
+        },
+        {
+          "index": 2,
+          "question_id": "4-4",
+          "question_text": "What does the student need to do before accessing any rare books? Select 2 options.",
+          "correct_answer": "B, C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.94
+        },
+        {
+          "index": 2,
+          "question_id": "4-5",
+          "question_text": "Which sentence best expresses what the librarian means when she says this: Librarian: Yup, that’s the idea!",
+          "correct_answer": "D",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.93
+        },
+        {
+          "index": 3,
+          "question_id": "7-1",
+          "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.82
+        },
+        {
+          "index": 3,
+          "question_id": "7-2",
+          "question_text": "According to Mr. Thompson, what is one effective strategy to combat procrastination? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.67
+        },
+        {
+          "index": 3,
+          "question_id": "7-3",
+          "question_text": "What does Mr. Thompson mean when he says, “Just make sure to take those breaks seriously—step away from your desk and do something relaxing”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.1
+        },
+        {
+          "index": 3,
+          "question_id": "7-4",
+          "question_text": "What is Mr. Thompson’s attitude towards socialising while studying?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.94
+        },
+        {
+          "index": 3,
+          "question_id": "7-5",
+          "question_text": "What relaxation technique does Mr. Thompson suggest to James?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.96
+        },
+        {
+          "index": 4,
+          "question_id": "6-1",
+          "question_text": "What is the main purpose of Ethan and Jake's conversation?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.2
+        },
+        {
+          "index": 4,
+          "question_id": "6-2",
+          "question_text": "What section does Jake plan to cover in the project?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.14
+        },
+        {
+          "index": 4,
+          "question_id": "6-3",
+          "question_text": "What does Ethan mean when he says, “we should also have a cohesive introduction and conclusion to tie everything together”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.84
+        },
+        {
+          "index": 4,
+          "question_id": "6-4",
+          "question_text": "How does Ethan feel about the division of roles in the project?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.18
+        },
+        {
+          "index": 4,
+          "question_id": "6-5",
+          "question_text": "By when do Ethan and Jake aim to have a rough outline of their project?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.87
+        }
+      ],
+      "accuracy": 0.68,
+      "summary_text": "gemini-1.5-flash with five-shot strategy summary:\nOverall accuracy: 68.00% (17/25)\n\n  Conversation 4 - Transcript of the Audio of Library Orientation: 20.00% (1/5)\n  Conversation 6 - Clarifying Group Project Roles with Classmates - TOEFL Listening Practice Test: 80.00% (4/5)\n  Conversation 7 - Conversation on Tips for Managing Academic Stress with a Wellness Coach: 80.00% (4/5)\n  Conversation 11 - Confirming Dates for Upcoming Campus Networking Events: 60.00% (3/5)\n  Conversation 12 - Confirming the Steps for Transferring Credits: 100.00% (5/5)"
+    },
+    "chain-of-thought": {
+      "total": 25,
+      "correct": 13,
+      "by_conversation": {
+        "12": {
+          "title": "Confirming the Steps for Transferring Credits",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 0,
+              "question_id": "12-1",
+              "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 6.75
+            },
+            {
+              "index": 0,
+              "question_id": "12-2",
+              "question_text": "How long does Mr. Thompson say the credit transfer process typically takes? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 6.24
+            },
+            {
+              "index": 0,
+              "question_id": "12-3",
+              "question_text": "What does Mr. Thompson mean when he says, “It helps the committee make a more informed decision”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 9.93
+            },
+            {
+              "index": 0,
+              "question_id": "12-4",
+              "question_text": "What is Mr. Thompson's attitude towards James's inquiries about the credit transfer process?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.02
+            },
+            {
+              "index": 0,
+              "question_id": "12-5",
+              "question_text": "Who should James contact if he has questions about the courses that didn’t transfer?",
+              "correct_answer": "B",
+              "model_answer": "D, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 7.48
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "11": {
+          "title": "Confirming Dates for Upcoming Campus Networking Events",
+          "total": 5,
+          "correct": 2,
+          "questions": [
+            {
+              "index": 1,
+              "question_id": "11-1",
+              "question_text": "What is the main purpose of Oliver's conversation with James? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.23
+            },
+            {
+              "index": 1,
+              "question_id": "11-2",
+              "question_text": "According to James, what is the dress code for the networking events? ",
+              "correct_answer": "C",
+              "model_answer": "D, C",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 9.13
+            },
+            {
+              "index": 1,
+              "question_id": "11-3",
+              "question_text": "What does Oliver mean when he says, “I want to make sure I’m dressed appropriately”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 6.91
+            },
+            {
+              "index": 1,
+              "question_id": "11-4",
+              "question_text": "How does James feel about the upcoming panel discussion featuring alumni?",
+              "correct_answer": "B",
+              "model_answer": "D, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 14.51
+            },
+            {
+              "index": 1,
+              "question_id": "11-5",
+              "question_text": "When is the first networking event scheduled to take place?",
+              "correct_answer": "A",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 5.6
+            }
+          ],
+          "accuracy": 0.4
+        },
+        "4": {
+          "title": "Transcript of the Audio of Library Orientation",
+          "total": 5,
+          "correct": 1,
+          "questions": [
+            {
+              "index": 2,
+              "question_id": "4-1",
+              "question_text": "Why does the student visit the library?",
+              "correct_answer": "A",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 9.21
+            },
+            {
+              "index": 2,
+              "question_id": "4-2",
+              "question_text": "Why does the librarian direct the student to the history section?",
+              "correct_answer": "B",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 8.29
+            },
+            {
+              "index": 2,
+              "question_id": "4-3",
+              "question_text": "What inference does the student make about the interlibrary loan service at his previous school?",
+              "correct_answer": "C",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 7.0
+            },
+            {
+              "index": 2,
+              "question_id": "4-4",
+              "question_text": "What does the student need to do before accessing any rare books? Select 2 options.",
+              "correct_answer": "B, C",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 9.96
+            },
+            {
+              "index": 2,
+              "question_id": "4-5",
+              "question_text": "Which sentence best expresses what the librarian means when she says this: Librarian: Yup, that’s the idea!",
+              "correct_answer": "D",
+              "model_answer": "A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 10.27
+            }
+          ],
+          "accuracy": 0.2
+        },
+        "7": {
+          "title": "Conversation on Tips for Managing Academic Stress with a Wellness Coach",
+          "total": 5,
+          "correct": 4,
+          "questions": [
+            {
+              "index": 3,
+              "question_id": "7-1",
+              "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 8.25
+            },
+            {
+              "index": 3,
+              "question_id": "7-2",
+              "question_text": "According to Mr. Thompson, what is one effective strategy to combat procrastination? ",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 10.18
+            },
+            {
+              "index": 3,
+              "question_id": "7-3",
+              "question_text": "What does Mr. Thompson mean when he says, “Just make sure to take those breaks seriously—step away from your desk and do something relaxing”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.52
+            },
+            {
+              "index": 3,
+              "question_id": "7-4",
+              "question_text": "What is Mr. Thompson’s attitude towards socialising while studying?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 6.99
+            },
+            {
+              "index": 3,
+              "question_id": "7-5",
+              "question_text": "What relaxation technique does Mr. Thompson suggest to James?",
+              "correct_answer": "C",
+              "model_answer": "D, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 12.33
+            }
+          ],
+          "accuracy": 0.8
+        },
+        "6": {
+          "title": "Clarifying Group Project Roles with Classmates - TOEFL Listening Practice Test",
+          "total": 5,
+          "correct": 2,
+          "questions": [
+            {
+              "index": 4,
+              "question_id": "6-1",
+              "question_text": "What is the main purpose of Ethan and Jake's conversation?  ",
+              "correct_answer": "B",
+              "model_answer": "D, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 6.33
+            },
+            {
+              "index": 4,
+              "question_id": "6-2",
+              "question_text": "What section does Jake plan to cover in the project?",
+              "correct_answer": "C",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 8.2
+            },
+            {
+              "index": 4,
+              "question_id": "6-3",
+              "question_text": "What does Ethan mean when he says, “we should also have a cohesive introduction and conclusion to tie everything together”?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 8.7
+            },
+            {
+              "index": 4,
+              "question_id": "6-4",
+              "question_text": "How does Ethan feel about the division of roles in the project?",
+              "correct_answer": "B",
+              "model_answer": "B",
+              "model_full_response": "",
+              "is_correct": true,
+              "runtime": 7.48
+            },
+            {
+              "index": 4,
+              "question_id": "6-5",
+              "question_text": "By when do Ethan and Jake aim to have a rough outline of their project?",
+              "correct_answer": "B",
+              "model_answer": "D, A",
+              "model_full_response": "",
+              "is_correct": false,
+              "runtime": 9.57
+            }
+          ],
+          "accuracy": 0.4
+        }
+      },
+      "details": [
+        {
+          "index": 0,
+          "question_id": "12-1",
+          "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.75
+        },
+        {
+          "index": 0,
+          "question_id": "12-2",
+          "question_text": "How long does Mr. Thompson say the credit transfer process typically takes? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.24
+        },
+        {
+          "index": 0,
+          "question_id": "12-3",
+          "question_text": "What does Mr. Thompson mean when he says, “It helps the committee make a more informed decision”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.93
+        },
+        {
+          "index": 0,
+          "question_id": "12-4",
+          "question_text": "What is Mr. Thompson's attitude towards James's inquiries about the credit transfer process?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.02
+        },
+        {
+          "index": 0,
+          "question_id": "12-5",
+          "question_text": "Who should James contact if he has questions about the courses that didn’t transfer?",
+          "correct_answer": "B",
+          "model_answer": "D, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 7.48
+        },
+        {
+          "index": 1,
+          "question_id": "11-1",
+          "question_text": "What is the main purpose of Oliver's conversation with James? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.23
+        },
+        {
+          "index": 1,
+          "question_id": "11-2",
+          "question_text": "According to James, what is the dress code for the networking events? ",
+          "correct_answer": "C",
+          "model_answer": "D, C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 9.13
+        },
+        {
+          "index": 1,
+          "question_id": "11-3",
+          "question_text": "What does Oliver mean when he says, “I want to make sure I’m dressed appropriately”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.91
+        },
+        {
+          "index": 1,
+          "question_id": "11-4",
+          "question_text": "How does James feel about the upcoming panel discussion featuring alumni?",
+          "correct_answer": "B",
+          "model_answer": "D, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 14.51
+        },
+        {
+          "index": 1,
+          "question_id": "11-5",
+          "question_text": "When is the first networking event scheduled to take place?",
+          "correct_answer": "A",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 5.6
+        },
+        {
+          "index": 2,
+          "question_id": "4-1",
+          "question_text": "Why does the student visit the library?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.21
+        },
+        {
+          "index": 2,
+          "question_id": "4-2",
+          "question_text": "Why does the librarian direct the student to the history section?",
+          "correct_answer": "B",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 8.29
+        },
+        {
+          "index": 2,
+          "question_id": "4-3",
+          "question_text": "What inference does the student make about the interlibrary loan service at his previous school?",
+          "correct_answer": "C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 7.0
+        },
+        {
+          "index": 2,
+          "question_id": "4-4",
+          "question_text": "What does the student need to do before accessing any rare books? Select 2 options.",
+          "correct_answer": "B, C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 9.96
+        },
+        {
+          "index": 2,
+          "question_id": "4-5",
+          "question_text": "Which sentence best expresses what the librarian means when she says this: Librarian: Yup, that’s the idea!",
+          "correct_answer": "D",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 10.27
+        },
+        {
+          "index": 3,
+          "question_id": "7-1",
+          "question_text": "What is the main purpose of James's conversation with Mr. Thompson?  ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.25
+        },
+        {
+          "index": 3,
+          "question_id": "7-2",
+          "question_text": "According to Mr. Thompson, what is one effective strategy to combat procrastination? ",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 10.18
+        },
+        {
+          "index": 3,
+          "question_id": "7-3",
+          "question_text": "What does Mr. Thompson mean when he says, “Just make sure to take those breaks seriously—step away from your desk and do something relaxing”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.52
+        },
+        {
+          "index": 3,
+          "question_id": "7-4",
+          "question_text": "What is Mr. Thompson’s attitude towards socialising while studying?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.99
+        },
+        {
+          "index": 3,
+          "question_id": "7-5",
+          "question_text": "What relaxation technique does Mr. Thompson suggest to James?",
+          "correct_answer": "C",
+          "model_answer": "D, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 12.33
+        },
+        {
+          "index": 4,
+          "question_id": "6-1",
+          "question_text": "What is the main purpose of Ethan and Jake's conversation?  ",
+          "correct_answer": "B",
+          "model_answer": "D, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 6.33
+        },
+        {
+          "index": 4,
+          "question_id": "6-2",
+          "question_text": "What section does Jake plan to cover in the project?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 8.2
+        },
+        {
+          "index": 4,
+          "question_id": "6-3",
+          "question_text": "What does Ethan mean when he says, “we should also have a cohesive introduction and conclusion to tie everything together”?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.7
+        },
+        {
+          "index": 4,
+          "question_id": "6-4",
+          "question_text": "How does Ethan feel about the division of roles in the project?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.48
+        },
+        {
+          "index": 4,
+          "question_id": "6-5",
+          "question_text": "By when do Ethan and Jake aim to have a rough outline of their project?",
+          "correct_answer": "B",
+          "model_answer": "D, A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 9.57
+        }
+      ],
+      "accuracy": 0.52,
+      "summary_text": "gemini-1.5-flash with chain-of-thought strategy summary:\nOverall accuracy: 52.00% (13/25)\n\n  Conversation 4 - Transcript of the Audio of Library Orientation: 20.00% (1/5)\n  Conversation 6 - Clarifying Group Project Roles with Classmates - TOEFL Listening Practice Test: 40.00% (2/5)\n  Conversation 7 - Conversation on Tips for Managing Academic Stress with a Wellness Coach: 80.00% (4/5)\n  Conversation 11 - Confirming Dates for Upcoming Campus Networking Events: 40.00% (2/5)\n  Conversation 12 - Confirming the Steps for Transferring Credits: 80.00% (4/5)"
+    }
+  }
+}

@@ -1,0 +1,2313 @@
+{
+    "strategy": "5-shot with backup model",
+    "main_model": "gpt-4o",
+    "backup_model": "gpt-4",
+    "accuracy": 0.625,
+    "total_questions": 128,
+    "answered_questions": 128,
+    "correct_count": 80,
+    "valid_passages": 50,
+    "passage_accuracy": 0.625,
+    "passage_stats": {
+        "1": {
+            "total_questions": 3,
+            "answered_questions": 3,
+            "correct_count": 2
+        },
+        "2": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 1
+        },
+        "3": {
+            "total_questions": 1,
+            "answered_questions": 1,
+            "correct_count": 0
+        },
+        "4": {
+            "total_questions": 3,
+            "answered_questions": 3,
+            "correct_count": 3
+        },
+        "5": {
+            "total_questions": 3,
+            "answered_questions": 3,
+            "correct_count": 2
+        },
+        "6": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 0
+        },
+        "7": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 3
+        },
+        "8": {
+            "total_questions": 1,
+            "answered_questions": 1,
+            "correct_count": 1
+        },
+        "9": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 0
+        },
+        "10": {
+            "total_questions": 1,
+            "answered_questions": 1,
+            "correct_count": 1
+        },
+        "11": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 2
+        },
+        "12": {
+            "total_questions": 1,
+            "answered_questions": 1,
+            "correct_count": 1
+        },
+        "13": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 1
+        },
+        "14": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 1
+        },
+        "15": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 2
+        },
+        "16": {
+            "total_questions": 1,
+            "answered_questions": 1,
+            "correct_count": 0
+        },
+        "17": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 2
+        },
+        "18": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 1
+        },
+        "19": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 2
+        },
+        "20": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 3
+        },
+        "21": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 4
+        },
+        "22": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 4
+        },
+        "23": {
+            "total_questions": 5,
+            "answered_questions": 5,
+            "correct_count": 5
+        },
+        "24": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 3
+        },
+        "25": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 3
+        },
+        "26": {
+            "total_questions": 1,
+            "answered_questions": 1,
+            "correct_count": 0
+        },
+        "27": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 4
+        },
+        "28": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 2
+        },
+        "29": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 2
+        },
+        "30": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 1
+        },
+        "31": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 1
+        },
+        "32": {
+            "total_questions": 1,
+            "answered_questions": 1,
+            "correct_count": 1
+        },
+        "33": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 1
+        },
+        "34": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 1
+        },
+        "35": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 2
+        },
+        "36": {
+            "total_questions": 3,
+            "answered_questions": 3,
+            "correct_count": 1
+        },
+        "37": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 1
+        },
+        "38": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 2
+        },
+        "39": {
+            "total_questions": 1,
+            "answered_questions": 1,
+            "correct_count": 1
+        },
+        "40": {
+            "total_questions": 3,
+            "answered_questions": 3,
+            "correct_count": 0
+        },
+        "41": {
+            "total_questions": 4,
+            "answered_questions": 4,
+            "correct_count": 4
+        },
+        "42": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 1
+        },
+        "43": {
+            "total_questions": 3,
+            "answered_questions": 3,
+            "correct_count": 2
+        },
+        "44": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 0
+        },
+        "45": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 1
+        },
+        "46": {
+            "total_questions": 1,
+            "answered_questions": 1,
+            "correct_count": 0
+        },
+        "47": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 2
+        },
+        "48": {
+            "total_questions": 1,
+            "answered_questions": 1,
+            "correct_count": 1
+        },
+        "49": {
+            "total_questions": 3,
+            "answered_questions": 3,
+            "correct_count": 1
+        },
+        "50": {
+            "total_questions": 2,
+            "answered_questions": 2,
+            "correct_count": 1
+        }
+    },
+    "details": [
+        {
+            "question_number": "1. The primary purpose of the passage is to",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The primary purpose of the passage is to describe a particular scientific study conducted by Chapman, Ward, and Krause that investigates the effects of group density on foraging success in guppies. The passage outlines how the study was designed and what it found, particularly how guppies raised in smaller groups learned to locate food more quickly compared to those raised in larger groups. This focus on detailing the study's methodology and findings directly supports the option that the passage describes a particular scientific study.",
+            "runtime": 7.25,
+            "correct": true
+        },
+        {
+            "question_number": "2. Regarding research on fish, it can be inferred from the passage that",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage states that social learning is well documented among fish, indicating that it occurs in some species. However, it emphasizes that few studies have investigated the social learning process within a developmental context. This suggests that while social learning is recognized, the specific developmental conditions under which it takes place have not been thoroughly researched. Thus, option D accurately reflects the findings presented in the passage.",
+            "runtime": 6.86,
+            "correct": true
+        },
+        {
+            "question_number": "3. Which of the following can be inferred about the study by Chapman, Ward, and Krause?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage states that while social learning among fish is well documented, the study by Chapman, Ward, and Krause specifically aimed to investigate the role of group density during development in relation to foraging success, rather than focusing solely on social learning itself. This indicates that the study was designed with a broader scope than just social learning, focusing on developmental impacts instead.",
+            "runtime": 4.77,
+            "correct": false
+        },
+        {
+            "question_number": "1. Select the sentence that suggests a possible reason why Hurston wrote the version of Mules and Men that was published in 1935.",
+            "expected": [
+                "WHILEWECANNOTKNOWFORCERTAINWHYHURSTON'SORIGINALMANUSCRIPTWENTUNPUBLISHEDDURINGHERLIFETIME,ITMAYHAVEBEENBECAUSEPUBLISHERSWANTEDSOMETHINGMORETHANATRANSCRIPTIONOFTALES"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "While we cannot know for certain why Hurston’s original manuscript went unpublished during her lifetime, it may have been because publishers wanted something more than a transcription of tales."
+            ],
+            "model_response": "Selected Sentence: \"It may have been because publishers wanted something more than a transcription of tales.\"\n\nExplanation: This sentence suggests a possible reason why Hurston wrote the version of Mules and Men that was published in 1935, indicating that the publishers' preferences for a more interpretive work may have influenced her decision to create a different version for publication.",
+            "runtime": 5.58,
+            "correct": false
+        },
+        {
+            "question_number": "2. The passage suggests that Hurston may have done which of the following in preparing her original version?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The passage states that Hurston's original manuscript differed from \"Mules and Men\" in that it \"simply records stories, with no descriptive or interpretive information.\" This indicates that she chose not to include editorial commentary in her original version, aiming to present the stories on their own terms without a mediating voice. Therefore, option E accurately reflects this intention.",
+            "runtime": 6.79,
+            "correct": true
+        },
+        {
+            "question_number": "Which of the following is an assumption on which the argument depends?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The argument assumes that the increase in Internet use among participants is not influenced by other factors, specifically a prior reduction in face-to-face social opportunities. If the reason for doubling Internet use was due to a significant decrease in social contact, then the conclusion that increased Internet use causes higher depression rates would be less certain, as the lack of social interaction could be the primary factor leading to depression. The passage suggests a direct correlation between increased Internet use and depression but relies on the assumption that there are no other significant variables influencing this relationship.",
+            "runtime": 7.07,
+            "correct": false
+        },
+        {
+            "question_number": "1. Which of the following best states the central idea of the passage?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage discusses the historical dominance of naturalism in African American drama and how it limited expression to the \"plight of African American people,\" suggesting a mechanistic view of humanity. It highlights Adrienne Kennedy's surrealistic plays as a significant departure from this tradition, focusing instead on the inner worlds of the soul and spirit. Thus, the central idea conveyed is that Kennedy’s work marks a shift away from strict naturalism, allowing for a portrayal of African American identities that is not constrained by external realities.",
+            "runtime": 5.41,
+            "correct": true
+        },
+        {
+            "question_number": "2. According to the passage, Kennedy is concerned with depicting the",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage states that Adrienne Kennedy's work aims to \"depict the world of the soul and the spirit, not to mirror concrete reality,\" indicating her focus on the internal experiences of her characters rather than their external circumstances. This departure from naturalism allows her to portray \"African American minds and souls liberated from their connections to the external environment,\" further emphasizing the internal life of her characters.",
+            "runtime": 7.3,
+            "correct": true
+        },
+        {
+            "question_number": "3. Which of the following statements, if true, would most strengthen the authors assertion that Kennedy’s work marks a serious departure from the tradition described in the first paragraph?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage emphasizes that Adrienne Kennedy's work aims to portray the inner world of the soul and spirit, rather than adhering to the concrete reality depicted in the naturalistic tradition of African American drama. If Kennedy uses characters derived from ancient African legends and mythology, it would signify a clear departure from the mechanistic and materialistic views of naturalism, which tends to focus on realistic portrayals tied to the environment. This would strongly support the author's assertion that Kennedy's work represents a significant shift away from traditional naturalism, allowing for a deeper exploration of the African American experience that goes beyond mere survival in a harsh reality.",
+            "runtime": 8.28,
+            "correct": true
+        },
+        {
+            "question_number": "1. The passage is primarily concerned with",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage discusses the inconsistency in existing hypotheses regarding plant community invasibility by nonnative species and introduces a new theory based on fluctuating resource availability. It suggests that this theory could integrate previous ideas and resolve conflicting results, which implies that it is advocating a potential solution to the theoretical impasse surrounding the understanding of invasibility. The emphasis on proposing a new theory aligns with option C.",
+            "runtime": 3.54,
+            "correct": true
+        },
+        {
+            "question_number": "2. It can be inferred that the author would most likely agree with which of the following assessments of the results from field studies",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage suggests that a theory based on fluctuating resource availability could integrate existing hypotheses and help resolve the inconsistencies seen in field studies. The author implies that taking into account resource availability would clarify many ambiguities among the results. This is supported by the statement that the proposed theory could explain the conflicting results of previous studies, indicating that a consideration of fluctuating resources may lead to a better understanding of the patterns of invasibility.",
+            "runtime": 6.47,
+            "correct": true
+        },
+        {
+            "question_number": "3. According to the author, the theory based on fluctuating resource availability might resolve “apparently conflicting and ambiguous results” because",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The author suggests that the theory based on fluctuating resource availability can integrate existing hypotheses because it accounts for how variations in resource availability impact susceptibility to invasion. The phrase \"a plant community becomes more susceptible to invasion whenever there is an increase in the amount of unused resources\" indicates that different circumstances (i.e., varying levels of resource availability) can lead to differing effects on invasibility, allowing the theory to resolve inconsistencies found in previous research.",
+            "runtime": 6.38,
+            "correct": false
+        },
+        {
+            "question_number": "1. Consider each of the choices separately and select all that apply. The passage mentions which of the following as factors that might lead to large temperature swings in Earth’s polar regions?",
+            "expected": [
+                "ABC"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A, B, C  \nExplanation: The passage identifies three factors that contribute to greater temperature swings in the Arctic: A. The passage mentions that \"less solar energy is lost in evaporation at the frigid poles than in the tropics,\" supporting option A. B. It states that \"if snow and ice melt, the exposed soil, which absorbs heat, serves to accelerate warming,\" which directly supports option B. C. The passage also notes that \"the polar atmosphere is thin, so little energy is required to warm it,\" confirming option C. Thus, all three options (A, B, and C) are mentioned as contributing factors.",
+            "runtime": 7.84,
+            "correct": false
+        },
+        {
+            "question_number": "2. In pointing to the apparent temperature change in the high latitudes of Greenland, the skeptics mentioned in the passage intend to raise as a question whether",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The skeptics are pointing to specific instances of temperature drops in Greenland as a means to question the overall trend of increasing temperatures in the Arctic. They suggest that these localized cooling events might indicate a significant trend or anomaly that is not considered when looking at the average temperature increases. This is supported by the statement that the skeptics \"point to Arctic places such as the high latitudes of Greenland, where temperatures seem to have fallen,\" which implies they believe these observations challenge or complicate the understanding of the broader warming trend.",
+            "runtime": 4.6,
+            "correct": false
+        },
+        {
+            "question_number": "1. The primary purpose of the passage is to",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage primarily aims to counter the view that Cotton Mather's biographies of Massachusetts Bay Colony settlers are purely hagiographical, suggesting instead that his work provides valuable historical insights. It highlights how critics overlook Mather's humor, critical observations, and concern for the settlers' material prosperity, arguing that this negative interpretation obscures the true value of his biographies as historical chronicles. The passage explicitly discusses the misconceptions surrounding Mather's intentions and contributions, supporting the idea that the primary purpose is to refute a specific critique of his work.",
+            "runtime": 5.6,
+            "correct": true
+        },
+        {
+            "question_number": "2. The author of the passage implies that an argument for the historical accuracy of Mather’s works is most strongly supported by which of the following?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The passage highlights that Mather amassed a variety of published and unpublished documents as sources for his biographies. This implies that the quantity and quality of these sources lend credibility to his works, supporting the argument for historical accuracy. The mention of his sensitivity to the colony's development further reinforces the notion that he carefully selected key events from a rich array of materials, thereby enhancing the historical integrity of his accounts.",
+            "runtime": 9.09,
+            "correct": true
+        },
+        {
+            "question_number": "3. Information in the passage best supports which of the following statements about Mather’s biographies of the settlers of the Massachusetts Bay Colony?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The passage mentions that Mather’s concern extends to the settlers' material prosperity, not just their spiritual piety. This indicates that Mather's writings reflect an interest in the economic success of the early Massachusetts Bay colonists, supporting the statement in option E. The other options either make unsupported claims or misinterpret Mather’s approach based on the text provided.",
+            "runtime": 2.79,
+            "correct": true
+        },
+        {
+            "question_number": "4. It can be inferred from the passage that many historians believe that Mather’s biographies primarily",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage states that many historians believe Cotton Mather's biographies are exercises in hagiography, which means they glorify or provide an idealized view of the subjects, particularly their saintly piety. This criticism implies that Mather's work primarily presents the early colonists of the Massachusetts Bay Colony in a very positive light, thereby supporting the idea that his biographies glorify these figures rather than offering an accurate historical representation. The passage mentions that the view of Mather's work as overly pious \"obscures\" his more nuanced contributions, but the primary criticism reflects the belief that he is elevating the colonists.",
+            "runtime": 6.75,
+            "correct": false
+        },
+        {
+            "question_number": "Which of the following, if true, provides additional evidence to support the conclusion?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage concludes that the deaths of the Mediterranean monk seals are more likely due to the bacterial toxin based on the presence of the known bacterial toxin and its high concentrations in seawater. Option D provides additional evidence because it indicates that young seals are more susceptible to viruses, while the recent deaths were primarily among adult seals. This suggests that if viruses were the primary cause of death, there would likely be more fatalities among the younger, more vulnerable population, which is not the case here. Therefore, the evidence supporting bacterial toxins as the more probable cause of death is strengthened by this information.",
+            "runtime": 5.92,
+            "correct": true
+        },
+        {
+            "question_number": "1. The passage is primarily concerned with",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage discusses the perception of the consumer boycott's origins and traces its evolution from Irish political discourse in the late seventeenth century to its later use in North America. It highlights how Irish advocacy was similar to the later American practices, indicating a historical development of the practice rather than just presenting competing views or advocating for action.",
+            "runtime": 4.82,
+            "correct": false
+        },
+        {
+            "question_number": "2. In the context of the passage, the highlighted sentence serves to",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The highlighted sentence provides evidence that supports the perception referenced in the opening sentence regarding the consumer boycott's origins. It aligns with the idea that the non-consumption of imported goods and support for home manufactures were present in Irish political discourse before the American example, thereby reinforcing the argument that the political use of consumer boycotts was not solely an American invention. This aligns with the perception that the boycott movement spread from North America to Ireland, which historians have generally agreed upon.",
+            "runtime": 7.42,
+            "correct": false
+        },
+        {
+            "question_number": "Which of the following, if true, provides the strongest support for the argument given?",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: This option provides strong support for the argument by suggesting that if the cargo box is covered, drivers of vehicles behind the truck may feel more secure and thus stay closer to it. This implies that the covering of the cargo box could paradoxically lead to a higher risk of damage, as drivers may not be taking the necessary caution when driving near the truck. Thus, even with the implementation of the law requiring tarpaulin covers, the actual risk of damage from flying gravel might not be significantly reduced, aligning with the passage's assertion that most damage comes from the tires rather than the cargo box.",
+            "runtime": 5.68,
+            "correct": true
+        },
+        {
+            "question_number": "1. The passage suggests which of the following about the contradiction mentioned in the highlighted sentence?",
+            "expected": [
+                "AC"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage explicitly states that \"most feminist scholars find it difficult to reconcile Fern’s sardonic social critiques with her effusive celebrations of many conventional values,\" indicating that this contradiction has been a challenge for many feminist critics studying Fern's work. This suggests that the contradiction is a significant issue within the feminist critical discourse surrounding Fern, thus supporting option C.",
+            "runtime": 6.68,
+            "correct": false
+        },
+        {
+            "question_number": "2. It can be inferred from the passage that Tompkins would be most likely to agree with which of the following about the critics mentioned in the passage?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage suggests that Tompkins has a view of sentimentality that contrasts with the critics' perception. He implies that sentimental writing, like that of Fanny Fern, can serve radical purposes and not just conservative ones. This suggests that the critics wrongly assume sentimentality is always negative or a limitation, which aligns with option D: \"They wrongly assume that sentimental must be a pejorative term.\" Tompkins' perspective implies that sentimental writing can be empowering and effective for social change, countering the critics' limited view of sentimentality.",
+            "runtime": 4.75,
+            "correct": true
+        },
+        {
+            "question_number": "3. It can be inferred that the author of the passage mentions Fern’s 'sharply humorous social criticism' primarily in order to",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The author mentions Fern’s 'sharply humorous social criticism' to highlight a characteristic of her writing that conflicts with her other traits, particularly the sentimental image most critics had of her prior to feminist literary criticism. This contrast is essential in illustrating the complexity of Fern's work, as it shows that while she outwardly conformed to conventional values, she simultaneously engaged in subversive critique. This observation supports the confusion among scholars regarding how to reconcile these differing aspects of her writing.",
+            "runtime": 6.36,
+            "correct": false
+        },
+        {
+            "question_number": "4. In the context in which it appears, 'reclamations' most nearly means",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: In the passage, \"feminist reclamations of Fern\" refers to the act of feminist scholars reassessing and reviving Fanny Fern's reputation and contributions, particularly highlighting her sharp humor and social criticism rather than the conventional \"weepy sentimentalism\" attributed to her in the past. The term \"rehabilitations\" effectively captures this idea of restoring Fern's image and recognizing the complexity of her work, which aligns well with the context in which 'reclamations' is used.",
+            "runtime": 5.43,
+            "correct": true
+        },
+        {
+            "question_number": "Which of the following is an assumption on which the argument relies?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The argument suggests that switching to the plant-based fuel will lead to reduced fuel expenses and less environmental damage. However, this assumption relies on the idea that drivers will not increase their driving due to the lower costs and environmental benefits of the new fuel. If drivers who switch to the plant-based fuel drive more as a result, the overall benefits of switching could be negated. Therefore, option D is a key assumption that underpins the argument presented in the passage.",
+            "runtime": 6.83,
+            "correct": true
+        },
+        {
+            "question_number": "1. The passage suggests that biologists who say egg production in birds is biologically highly costly would agree that clutch size is determined primarily by",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage discusses the debate among biologists regarding the costs of egg production. Those who view egg production as biologically costly would likely believe that clutch size is influenced by the nutritional and energy demands of laying eggs, as indicated by the mention of theorizing about the energetic or nutritional demands involved in egg production. This aligns with option A. The other options focus more on factors associated with rearing or environmental conditions rather than the biological costs of egg production itself.",
+            "runtime": 5.24,
+            "correct": true
+        },
+        {
+            "question_number": "2. The passage suggests that Lack would agree with which of the following statements about factors affecting clutch size in birds?",
+            "expected": [
+                "AC"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage indicates that Lack suggested clutch size is related to the capacity of parents to rear their young, which implies that in altricial species, factors affecting clutch size are linked primarily to chick rearing post-egg-laying. The passage notes that most studies have focused on limitations during the rearing of chicks, thereby supporting that in altricial species, clutch size is determined by factors acting after the eggs have been laid.",
+            "runtime": 5.75,
+            "correct": false
+        },
+        {
+            "question_number": "1. The passage indicates that Peterson identifies which of the following as obstacles faced by the women included in her study?",
+            "expected": [
+                "AB"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage mentions that Peterson views Black women as being estranged from the nation due to a \"dominant culture unsympathetic to Black women\" and also cites a \"Black intelligentsia whose male view of race concerns left little room for Black female intellect.\" This indicates that the attitudes of Black male intellectuals toward the intellectual work of Black women were an obstacle they faced, as highlighted in option A.",
+            "runtime": 6.16,
+            "correct": false
+        },
+        {
+            "question_number": "2. It can be inferred that Peterson’s study and Fosters study are similar with respect to which of the following?",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage states that both Carla L. Peterson’s and Frances Smith Foster’s studies focus on African American women speakers and writers from the nineteenth century. While their approaches differ, the writers they examine are the same—Black women who were emerging in the literary scene during this period. Peterson and Foster both highlight these women’s contributions, thus indicating that their studies share this commonality. The other options discuss differences in assumptions, influence, and interpretations, which are not supported by the passage.",
+            "runtime": 7.09,
+            "correct": true
+        },
+        {
+            "question_number": "1. The author of the passage implies which of the following about Belasco’s production of The Governors Lady?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage discusses the mixed reactions to David Belasco's production of The Governors Lady, highlighting how it created a sensation among the public due to its meticulous detail and realistic staging. However, progressive theater critics dismissed it, favoring the New Stagecraft approach that emphasized a more abstract and minimalistic theatrical expression. This contrast suggests a discrepancy between popular tastes, which appreciated Belasco's realism, and the tastes of the progressive critics, who saw his work as merely capturing surface realities. Thus, the implication is that Belasco's production elicited diverse responses based on differing views of what constituted modernity in theater.",
+            "runtime": 5.6,
+            "correct": true
+        },
+        {
+            "question_number": "2. It can be inferred that the theater critics would be most likely to agree with which of the following statements about the theatrical productions?",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage highlights the progressive theater critics' view that Belasco's detailed reproduction of everyday settings was inadequate. They believed that productions which faithfully recreate visual details are unlikely to effectively convey the central ideas of a good play. This is evident in the description of the critics' disdain for theatrical literalism and their preference for a more minimalist approach that captures the essence of the dramatic text rather than its surface realities. Thus, option B aligns closely with their perspective as it suggests that detailed recreations may obscure the deeper meanings intended in the theatrical work.",
+            "runtime": 5.43,
+            "correct": true
+        },
+        {
+            "question_number": "Which of the following is an assumption on which the argument depends?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The argument assumes that the political affiliations of current Sulandian television journalists will remain stable over time as they transition from students to professionals. It specifically relies on the idea that most of the current journalists who support the Blue Party did so during their time as students. If many of the journalists changed their political views, the predicted disparity between the political affiliations of journalists and the general population may not increase as the argument suggests. Therefore, option C is essential for the argument's validity, as it directly ties the political affiliations of current journalists to their student affiliations.",
+            "runtime": 6.83,
+            "correct": false
+        },
+        {
+            "question_number": "1. The passage provides support for which of the following statements about beaver dams?",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage states that dams are primarily a strategy for dealing with annual variations in water levels, and it explains that if water levels fall in summer, beavers' lodge entrances may be exposed, indicating that dams serve to protect their homes from fluctuating water levels.",
+            "runtime": 4.94,
+            "correct": true
+        },
+        {
+            "question_number": "2. The passage implies which of the following about beavers?",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage suggests that the differences in dam-building behavior among beavers do not necessarily indicate that there are multiple species. It highlights that while bank beavers may reside in burrows and are not primarily associated with dam building, they do possess the ability to build dams when necessary, especially if they need to relocate due to resource depletion. This implies that the distinction in their behavior is not a solid indicator of differing species but rather an adaptive response to their environment.",
+            "runtime": 6.16,
+            "correct": true
+        },
+        {
+            "question_number": "1. According to the passage, which of the following is true of the collisions mentioned in the highlighted sentence?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The passage explains that collisions between bodies of comparable size result in \"one or both bodies might be entirely smashed, with mass from one or both the bodies redistributed among new objects formed from the fragments.\" This indicates that such collisions lead to the redistribution of mass among newly formed objects, making option E the correct choice. Options A, B, C, and D are not supported by the passage details.",
+            "runtime": 7.08,
+            "correct": false
+        },
+        {
+            "question_number": "2. The author of the passage asserts which of the following about titanic collision models?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage discusses the effects of collisions between large and comparable-sized bodies, particularly highlighting that different types of collisions lead to varying outcomes. It suggests that while titanic collision models may be effective in explaining the formation of the Moon from a collision between Earth and a Mars-size impactor, there are likely numerous anomalies within the solar system that these models do not address. This is aligned with option A, which indicates that these models are conclusive regarding some anomalies but leave many others unexplained.",
+            "runtime": 4.81,
+            "correct": false
+        },
+        {
+            "question_number": "3. The passage suggests that which of the following is true of the cited compounds and elements?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage mentions that during collisions, \"the impactor is completely destroyed and its material is incorporated into the larger body.\" This implies that the compounds and elements referred to in the question were supplied by an impactor that collided with Earth. The reference to the titanic collision that may have given rise to Earth’s Moon supports the idea that materials from such an impact event contributed to the elements on Earth.",
+            "runtime": 7.61,
+            "correct": false
+        },
+        {
+            "question_number": "4. In the second paragraph, the author is primarily concerned with",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage discusses the phenomenon of massive projectiles colliding with larger bodies and suggests that such a collision between Earth and a Mars-size impactor may have led to the formation of the Moon. By stating this potential origin of the Earth-Moon system, the author supports a specific theory regarding its formation, indicating the author's primary concern with arguing in favor of this theory.",
+            "runtime": 5.28,
+            "correct": true
+        },
+        {
+            "question_number": "1. The passage is primarily concerned with which of the following?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage discusses the challenges and complexities associated with the study of the transmission of ancient Roman texts. It highlights how stemma codicum may offer distorted perceptions of textual relationships, and points out the difficulties in inferring the number of manuscripts that survived to various points in the Middle Ages. Additionally, it cautions against drawing conclusions that surpass the evidence available. Overall, the focus of the passage is on the difficulties in studying the context of ancient texts, making option C the most fitting choice.",
+            "runtime": 5.77,
+            "correct": true
+        },
+        {
+            "question_number": "2. As described in the passage, a stemma is most closely analogous to which of the following?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage describes a stemma as a diagram that depicts the genealogical relationships of surviving manuscripts, but it also notes that it may represent a distorted picture of reality because it only includes those manuscripts known or inferred at the time. This is analogous to a family tree in which some generations are not recorded, as both lack complete information about all relevant entities. The stemma may portray relationships between manuscripts that were not actually close in time or place, just as a family tree may leave out certain generations that could change the understanding of familial relationships.",
+            "runtime": 6.37,
+            "correct": true
+        },
+        {
+            "question_number": "3. In its discussion of external evidence, the passage suggests which of the following about manuscripts of ancient Roman texts during the Middle Ages?",
+            "expected": [
+                "AB"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage states that it is \"equally possible that the work survived far into the Middle Ages in numerous copies in monastic libraries but were unnoticed due to lack of interest,\" indicating that the destruction of manuscripts by barbarians may not have been as widespread as scholars assume. This supports option A, which suggests that fewer manuscripts were destroyed than frequently supposed.",
+            "runtime": 5.79,
+            "correct": false
+        },
+        {
+            "question_number": "4. Click on the sentence in the first paragraph that suggests that scholars might be led to underestimate the extent of the connection between certain manuscripts.",
+            "expected": [
+                "CONVERSELY,THESTEMMACANALSOBESTOWASEMBLANCEOFSEPARATIONONMANUSCRIPTSWRITTENWITHINAFEWMONTHSOFONEANOTHEROREVENINTHESAMEROOM"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "If surviving copies are few, the stemma perforce brings into proximity manuscripts that were widely separated in time and place of origin."
+            ],
+            "model_response": "Selected Sentence: \"If surviving copies are few, the stemma perforce brings into proximity manuscripts that were widely separated in time and place of origin.\"\n\nExplanation: This sentence suggests that when there are only a few surviving copies of manuscripts, the stemma may incorrectly group them together, leading scholars to underestimate the true extent of the connections between certain manuscripts. It highlights how limited evidence can distort the perception of relationships among texts.",
+            "runtime": 6.3,
+            "correct": false
+        },
+        {
+            "question_number": "1. The passage is primarily concerned with",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage primarily focuses on enumerating the conditions that were necessary for the development of Earth's biosphere and the unique characteristics of our solar system. It discusses specific factors, such as the precise orbital parameters required for a habitable climate and Jupiter's role in shielding Earth from frequent comet impacts. These points illustrate how different contingent events contributed to making Earth suitable for complex life, highlighting the unique set of circumstances that influenced this development.",
+            "runtime": 5.13,
+            "correct": true
+        },
+        {
+            "question_number": "2. It can be inferred from the passage that the planetary scientists would be most likely to agree with which of the following statements concerning the development of complex life forms on Earth?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The passage discusses how the development of Earth's biosphere was influenced by various contingent events beyond just Earth itself, particularly highlighting the role of Jupiter's gravitational shield in reducing cometary impacts that could have hindered complex life development. The statements in the passage emphasize that the unique characteristics of our solar system, including the presence of gas giants like Jupiter, have had a significant impact on the conditions necessary for life on Earth, suggesting that the development of complex life is contingent on both extraterrestrial and terrestrial factors.",
+            "runtime": 8.27,
+            "correct": true
+        },
+        {
+            "question_number": "3. The author of the passage most likely mentions Mars oscillating tilt primarily in order to",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage discusses how various planetary conditions, including the characteristics of different planets in our solar system, contribute to the development of life on Earth. By mentioning Mars, the author likely aims to illustrate the role of other planets in influencing Earth’s conditions and development. This is in line with the overall theme that planetary systems containing both terrestrial planets like Earth and gas giants like Jupiter are essential for sustaining complex life-forms. The focus on Mars's oscillating tilt further supports the argument about the dynamics among planets and their impact on Earth's biosphere.",
+            "runtime": 4.13,
+            "correct": false
+        },
+        {
+            "question_number": "4. The passage suggests each of the following about water on Earth EXCEPT:",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage does not explicitly mention the timing of the appearance of water on Earth in relation to carbon and nitrogen. It discusses the conditions necessary for liquid water to exist based on Earth's orbital parameters and suggests implications about how Jupiter's mass affects comets impacting Earth but does not state that water appeared on Earth earlier than these elements. Thus, option B is the only statement that is not supported by the passage.",
+            "runtime": 6.42,
+            "correct": true
+        },
+        {
+            "question_number": "1. It can be inferred that Rosalind Miles refers to the third millennium B.C. primarily in order to",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: Rosalind Miles refers to the third millennium B.C. to establish a contrast between men and women regarding the history of recording events. She notes that males have been recording history since that time, whereas women did not begin to do so until the nineteenth century. This contrast highlights the disparity in historical contributions between men and women throughout time, making option D the most accurate interpretation of her reference.",
+            "runtime": 6.61,
+            "correct": true
+        },
+        {
+            "question_number": "2. It can be inferred from the passage that the term herstory",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The term \"herstory\" was invented as a compensatory feminist practice to place women at the center of alternative narratives of past events, as noted in the passage. The passage states that \"herstory designated women’s place at the center of an alternative narrative,\" which indicates that it was created to help make a particular point about women's historical contributions and to correct the male-dominated perspective in historiography.",
+            "runtime": 6.73,
+            "correct": true
+        },
+        {
+            "question_number": "3. Mary Astell is discussed by the author as an example of an eighteenth-century feminist historian",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage discusses Mary Astell as an eighteenth-century feminist who believed that historians were predominantly male and thus did not recognize the contributions of women to historiography. The author notes that Astell protested this imbalance but made a \"mistaken assumption\" that only men recorded history. It explicitly mentions that Astell's judgment is \"inaccurate,\" aligning with option C, which states that she shared a mistaken assumption regarding the writing of history.",
+            "runtime": 5.09,
+            "correct": true
+        },
+        {
+            "question_number": "4. The author implies which of the following about Astell’s supposition?",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The author suggests that Astell's supposition—that historians were only male—may stem from her unawareness of the many historical works written by women. This is supported by the passage's comment that much historical writing by women of the late seventeenth century was not published until the nineteenth century, which implies that Astell couldn't have known about these contributions. Moreover, the author notes that Astell herself wrote a historical work, indicating that she was part of the historiography despite her belief. This demonstrates a gap in Astell's understanding of the presence of women in historical discourse, aligning with option A.",
+            "runtime": 7.0,
+            "correct": true
+        },
+        {
+            "question_number": "1. The primary purpose of the passage is to",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage traces the evolution of the historical study concerning Southern Unionists during the Civil War. It begins by noting how early historians overlooked this group until scholars like Lonn brought attention to them. It then discusses the shift in focus among historians from Confederate nationalism to understanding the dissent of Unionists, particularly in the context of the economic and social divides in the South. The reference to changes in historiography from the early twentieth century to the recent interest in local studies of dissent illustrates the progression and evolution of the field.",
+            "runtime": 7.39,
+            "correct": true
+        },
+        {
+            "question_number": "2. The passage suggests that 'some Civil War historians' would probably agree with which of the following statements about Southern Unionists?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage emphasizes that recent historians have made Unionists and their experiences the center of their inquiry, specifically focusing on community and local studies that consider a range of factors on the Southern home front. This indicates that these historians recognize the importance of specific local factors in understanding the political allegiance of Southern Unionists during the Civil War. The reference to intense studies of dissenting groups in particular counties or towns supports the idea that local circumstances played a crucial role in shaping Unionist dissent, contrary to merely being explained through broader economic or social categories.",
+            "runtime": 5.41,
+            "correct": true
+        },
+        {
+            "question_number": "3. The passage suggests which of the following about histories of the Civil War written before 1930?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage discusses how early historians of Southern dissent, until around 1930, often reproduced negative views of loyalists and tended to generalize their identities and experiences. It mentions that these historians, including Tatum, offered broad generalizations that ignored the particulars of Unionists' identities, thus indicating that most of these histories provided little analysis of the lives and motives of Southern Unionists. This supports option C as the correct answer.",
+            "runtime": 5.62,
+            "correct": true
+        },
+        {
+            "question_number": "4. Which of the following best describes the function of the highlighted sentence?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The highlighted sentence points out a trend in Civil War scholarship where earlier historians tended to view loyalist Southerners through the negative lens of Confederate authorities, and it emphasizes that this perspective has only recently been challenged by later scholarship that centers on the experiences of Unionists instead. This indicates a shift away from generalizations about loyalist motives and identities, illustrating how modern historians have moved towards a more nuanced understanding of Southern dissent. The phrase \"Only recently have some Civil War historians begun to make Unionists and their experiences, rather than the Confederate state, the center of inquiry\" reinforces this, highlighting the tendency of earlier scholarship that is now being reevaluated.",
+            "runtime": 12.02,
+            "correct": true
+        },
+        {
+            "question_number": "1. The passage is primarily concerned with",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage primarily discusses Louis Gerteis's arguments that reformulate the traditional interpretation of Northern reformers' opposition to slavery. It highlights how Gerteis revives the Growth of a Dissenting Minority interpretation and provides a new perspective on the unity and motivations of Northern reformers against slavery, contrasting it with earlier views that discounted this coalition. The passage emphasizes Gerteis's nuanced approach, where he recognizes the political diversity among reformers but asserts a unified commitment to utilitarian values that supported abolitionism. This focus on reformulating a traditional interpretation aligns with option C.",
+            "runtime": 5.13,
+            "correct": true
+        },
+        {
+            "question_number": "2. The author would be most likely to agree with which of the following about Gerteis formulation of the Growth interpretation?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The author indicates that Gerteis offers \"the most persuasive formulation to date of the Growth of a Dissenting Minority interpretation,\" suggesting that his version is more convincing than earlier interpretations. The passage elaborates on how Gerteis revitalizes the Growth framework while maintaining a nuanced view of the diversity among Northern reformers, which points to a stronger support for his argument. Therefore, option D, that Gerteis' formulation is more convincing than the traditional version, aligns with the author's perspective.",
+            "runtime": 5.32,
+            "correct": true
+        },
+        {
+            "question_number": "3. The passage supports which of the following statements about the Growth interpretation?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage indicates that the Growth of a Dissenting Minority interpretation was once influential in antislavery historiography and at one point was discounted by historians for specific reasons. However, Louis Gerteis revives this interpretation, asserting that the commitment of Northern reformers to utilitarian values galvanized support for abolitionism, thus reformulating the argument. The phrasing in the passage suggests the growth interpretation's initial influence and its recent reformulation rather than a rejection or a lack of debate.",
+            "runtime": 6.75,
+            "correct": true
+        },
+        {
+            "question_number": "4. Which of the following, if true, would provide the LEAST support for Gerteis arguments as they are discussed in the passage?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: Option E provides the least support for Gerteis' arguments because it suggests that differing party allegiances prevented Northern reformers from joining together in collective actions against slavery. This contradicts Gerteis' assertion that, despite their political differences, there was a unified commitment among Northern reformers to utilitarian values, which served to galvanize popular political support for abolitionism. The other options (A, B, C, D) all imply a level of unity or shared goals among reformers that aligns with Gerteis’ view that their commitment to individual autonomy and material gain played a crucial role in opposing slavery.",
+            "runtime": 5.6,
+            "correct": true
+        },
+        {
+            "question_number": "5. The author of the passage mentions 'emerging scholarship' most probably in order to",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The author mentions 'emerging scholarship' to highlight a challenge to the 'Growth' interpretation, specifically indicating that historians had discounted it for two reasons: the homogenization of Northern reformers and the perception that Northern abolitionists did not effectively mobilize public opinion. This contextualizes Gerteis's revival of the 'Growth' interpretation, as he addresses these critiques and emphasizes different aspects of Northern reformer unity without oversimplifying their diversity. Thus, option A correctly reflects this intention of illustrating an argument that has been advanced against the 'Growth' interpretation.",
+            "runtime": 6.55,
+            "correct": true
+        },
+        {
+            "question_number": "1. The primary purpose of the passage is to",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage primarily discusses the challenges to the orthodox view in historical explanation as posited by E.H. Carr. It presents competing interpretations of causation, particularly contrasting the Marxist perspective with the Weberian approach. Furthermore, it highlights the philosophical difficulties related to establishing hierarchies of causes and questions the possibility of universally applicable causative frameworks. Hence, the passage challenges the orthodox position concerning historical explanation by questioning how one cause could be deemed more significant than another while asserting that all contribute to an event's occurrence.",
+            "runtime": 7.9,
+            "correct": true
+        },
+        {
+            "question_number": "2. According to the passage, most historians share the assumption that",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage states that \"the true historian, as Carr puts it, will feel a professional obligation to place the multiple causes of a historical event in a hierarchy by means of which the primary or ultimate cause of the event can be identified.\" This indicates that most historians assume that ranking historical causes by importance is necessary for explaining historical events. The passage contrasts this uniform view with the challenges of creating absolute hierarchies of causes, but it primarily supports the idea that ranking is a shared assumption among historians.",
+            "runtime": 3.48,
+            "correct": true
+        },
+        {
+            "question_number": "3. In the second paragraph of the passage, the author uses the concept of an indispensable cause primarily in order to question which of the following claims?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: In the second paragraph of the passage, the author questions the validity of establishing a hierarchy of causes for historical events by discussing the philosophical difficulties involved in ranking causes that are all deemed indispensable. The text states that if an event is the product of multiple factors, then each factor is essential, leading to the conundrum of how one cause can be deemed more indispensable than another. This directly challenges the claim that \"a hierarchy of the causes of a historical event can be determined,\" as the author argues that the inability to differentiate the indispensability of causes undermines the feasibility of creating such a hierarchy.",
+            "runtime": 10.06,
+            "correct": true
+        },
+        {
+            "question_number": "4. Which of the following best describes the organization of the passage?",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage presents and compares two opposing views on the hierarchy of causes in historical explanations, namely the Marxist perspective, which posits a universal hierarchy where economic factors are always primary, and the Weberian alternative, which advocates for an empirically based approach to determine the primacy of causes in specific historical contexts. It highlights how each viewpoint leads to different conclusions regarding the identification of primary causes of historical events, especially in cases like the Peasants Revolt of 1381. This comparison and contrast between the two perspectives is the central organizational feature of the passage.",
+            "runtime": 6.53,
+            "correct": false
+        },
+        {
+            "question_number": "1. By quoting Burke’s defender in the highlighted phrase, the author of the passage most clearly succeeds in",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The author quotes Burke’s defender, who describes Wollstonecraft’s book as \"an incoherent mass of treacherous candour, interested generosity, and, if not false, at least unnecessary accusation.\" This quote illustrates the nature of the appeal of Burke's argument, as it encapsulates the counterarguments against Wollstonecraft's views and highlights the tension between her radical ideas and the traditionalist viewpoints represented by Burke and his supporters. By including this criticism, the author demonstrates how Wollstonecraft’s work challenged established norms and provoked a defensive response from proponents of the old order.",
+            "runtime": 3.4,
+            "correct": false
+        },
+        {
+            "question_number": "2. The author of the passage quotes Burke’s description of the queen of France most probably in order to",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The author quotes Burke’s description of the queen of France to illustrate Wollstonecraft's critique of the double standard in morality and how feminine virtues were romantically linked to aristocracy by Burke. By highlighting Burke's portrayal of the queen, the author shows how Wollstonecraft argued that such sentimental morality reinforced dangerous alliances between sympathy and power, thereby addressing the inadequacies in Burke's reasoning and its implications on both women and the aristocracy. This aligns with Wollstonecraft's perspective that both men and women should adhere to the same moral standards, making option A the most appropriate choice.",
+            "runtime": 7.79,
+            "correct": true
+        },
+        {
+            "question_number": "3. The passage suggests that which of the following is true concerning Virginia Woolf’s appraisal of A Vindication of the Rights of Men and A Vindication of the Rights of Woman?",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage indicates that Virginia Woolf thought Wollstonecraft's works contained ideas that were still powerful and relevant, which suggests that she favored Wollstonecraft’s advances but perceived them as now seemingly self-evident. Woolf’s statement that Wollstonecraft’s books felt \"so true that they seem now to contain nothing new\" implies a belief that the ideas had become accepted over time, which aligns with option B. The passage also emphasizes that Wollstonecraft's moral thinking continues to have the power to shock contemporary society, reinforcing Woolf's possible oversight regarding the originality of Wollstonecraft's ideas in her own time.",
+            "runtime": 7.42,
+            "correct": true
+        },
+        {
+            "question_number": "4. The author of the passage suggests that modern feminism has treated the writings of Mary Wollstonecraft in which of the following ways?",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage indicates that modern feminism has elevated Mary Wollstonecraft's reputation to its deserved status, suggesting a focus on her contributions rather than her scandalous personal life. It states that while she had some celebrity posthumously, much of her brilliance as a writer was overshadowed by her personal reputation, especially in the nineteenth century. This aligns with option A, as it highlights that modern feminism has emphasized the progressive aspects of Wollstonecraft's writings while separating her work from her personal reputation, which had previously been a hinderance to her recognition.",
+            "runtime": 3.36,
+            "correct": true
+        },
+        {
+            "question_number": "In the argument given, the two highlighted portions play which of the following roles?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The first highlighted portion discusses the traditional practice of using stitches to hold cuts closed, which the argument predicts will be replaced by the newly developed adhesive. The second highlighted portion presents a conclusion based on that prediction, indicating that the adhesive is more economical than stitches. Therefore, the first portion introduces a practice about which a prediction is made (the switch from stitches to adhesive), while the second portion draws a conclusion based on that prediction (the adhesive being more economical).",
+            "runtime": 5.05,
+            "correct": false
+        },
+        {
+            "question_number": "1. The passage is primarily concerned with",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage primarily discusses new research that challenges long-held assumptions about the climate during interglacial periods, particularly the Eemian interglacial. It describes how scientists' previous beliefs about the uniformity of interglacials have been put into question by findings from the Greenland Ice-Core Project (GRIP) and the Greenland Ice Sheet Project 2 (GISP2). The passage emphasizes the surprising climate fluctuations revealed by the GRIP core and notes the conflicting evidence from the GISP2 core, indicating that the research may redefine understanding of climatic history.",
+            "runtime": 6.73,
+            "correct": true
+        },
+        {
+            "question_number": "2. Which of the following describes research that is most clearly analogous to the testing done by GRIP scientists?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The research done by GRIP scientists involves analyzing ice cores to study past climatic conditions, specifically by measuring components trapped in the ice, such as gases, to understand historical temperature fluctuations. This is analogous to scientists plotting the fluctuations in rainfall in the early rain forests by measuring the presence of certain gases trapped in tree rings, which also involves retrieving and analyzing historical environmental data stored in natural records to infer past climatic conditions. Both studies aim to reconstruct and understand environmental changes over time using preserved evidence.",
+            "runtime": 6.26,
+            "correct": true
+        },
+        {
+            "question_number": "3. According to the passage, which of the following is the most accurate statement of what scientists believed, prior to the GRIP findings, about Earth’s climate?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: Prior to the GRIP findings, scientists assumed that during ice ages, the climate was highly variable, while during interglacials, like the present Holocene, it was mild and stable. The passage explicitly mentions that scientists believed interglacials were as mild and uniform as the Holocene has been. The new findings from GRIP challenged this assumption by showing that the climate during the Eemian interglacial fluctuated as wildly as during ice ages, but this was not the previously held belief. Thus, option D accurately reflects the past belief of scientists regarding climate stability during interglacial periods.",
+            "runtime": 8.16,
+            "correct": true
+        },
+        {
+            "question_number": "4. The passage suggests that which of the following is most likely to have been true of the oxygen-16 and oxygen-18 isotopes found in the lower sections of the GRIP core?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage discusses how the ratios of isotopes oxygen-16 and oxygen-18 preserved in the GRIP core indicate fluctuations in air temperatures over time. It suggests that during warmer periods, snow contains more oxygen-18, while colder periods yield snow with more oxygen-16. However, since the findings from the lower section of GRIP indicate significant climate swings, it implies that the ratios of the isotopes would have varied in the ice layers, reflecting these climatic changes. The passage indicates that the isotope ratios register temperature fluctuations, which supports option C.",
+            "runtime": 3.68,
+            "correct": true
+        },
+        {
+            "question_number": "1. The primary purpose of the passage is to",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage primarily explains the original function of life insurance agents, highlighting how they were selected to create personalized relationships with applicants and to assess their reliability. It underscores the agents' roles in evaluating candidates and ensuring trust within the life insurance process, which aligns with the original purpose of the agency system.",
+            "runtime": 4.82,
+            "correct": true
+        },
+        {
+            "question_number": "2. The author suggests which of the following about 'city neighborhoods'?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The author suggests that city neighborhoods provided a high degree of transparency regarding a resident's personal history and character, as indicated by the \"glass-bowl mentality\" which implies that everyone knew each other’s business. This transparency allowed insurers to evaluate the respectability of applicants and their references effectively.",
+            "runtime": 7.64,
+            "correct": true
+        },
+        {
+            "question_number": "1. The author of the passage implies which of the following about the release of water from glacial Lake Agassiz?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage states that evidence has emerged showing the Younger Dryas began long before the freshwater from Glacial Lake Agassiz flooded the North Atlantic. This implies that the timing of the release is such that it probably did not trigger the onset of the Younger Dryas, supporting option D. The other options do not accurately reflect the implications of the information presented in the passage regarding the relationship between the release of water and the event in question.",
+            "runtime": 4.61,
+            "correct": true
+        },
+        {
+            "question_number": "2. The passage is primarily concerned with",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage primarily presents evidence that undermines the longstanding theory regarding the cause of the Younger Dryas. It mentions that while the theory suggested that the release of freshwater from Glacial Lake Agassiz caused significant changes to ocean currents and led to the return of glacial conditions, new evidence indicates that the Younger Dryas began before this flooding occurred. Therefore, the passage is not just explaining the phenomenon or questioning timing but specifically challenging the validity of the prevailing theory.",
+            "runtime": 6.36,
+            "correct": true
+        },
+        {
+            "question_number": "1. According to the passage, scientists are able to discover weathered material on the Martian surface because they have benefited from which of the following?",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage states that \"New high-resolution mapping data and close-up surface studies have revealed clays and other hydrated minerals in many regions.\" This suggests that researchers have improved their ability to detect hydrated materials on Mars, leading to the discovery of weathered material. Options A, C, D, and E do not accurately reflect the improvements mentioned in the passage that enabled the scientists to find the hydrated minerals.",
+            "runtime": 7.84,
+            "correct": true
+        },
+        {
+            "question_number": "2. It can be inferred from the passage that the author would agree with which of the following statements regarding the reasoning discussed in the highlighted sentence?",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage indicates that researchers initially believed Mars did not have an extensive history of warm and wet climate based on their observations of unweathered material on the surface. However, it later reveals that they had not examined the data thoroughly enough and that clays and hydrated minerals do exist in various regions of Mars. This suggests that the original reasoning relied on a false assumption regarding the relationship between water and volcanic materials on Mars, leading to the conclusion that their prior understanding was flawed.",
+            "runtime": 4.54,
+            "correct": false
+        },
+        {
+            "question_number": "1. Which of the following best describes the function of the highlighted sentence?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The highlighted sentence suggests that human agricultural activities had an impact on Earth's climate much earlier than the industrialization period, which challenges the assumption that human activity began to affect the climate only after industrialization. The mention of a rise in CO2 concentrations about 8000 years ago indicates that human actions were influencing greenhouse gas levels long before the coal-burning factories and motor vehicles were introduced in the last century.",
+            "runtime": 5.74,
+            "correct": true
+        },
+        {
+            "question_number": "2. The author mentions “natural trends” most likely in order to",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The author mentions “natural trends” to indicate that, without human influence, CO2 levels should have been decreasing, and thus the observed rise in CO2 levels suggests an anomaly caused by human activities. This supports the idea that the current temperatures in northern parts of North America and Europe are warmer than they would naturally be, specifically by three to four degrees Celsius. This degree of warming would significantly impact agriculture and prevent the onset of an ice age, thereby providing a possible explanation for why temperatures are not as low as they might otherwise be.",
+            "runtime": 6.36,
+            "correct": false
+        },
+        {
+            "question_number": "Which of the following, if true, most seriously weaken the argument given?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The argument states that the divers’ activities do not result in serious harm to populations of princessfish due to their careful practices and limited catch. However, if it is true that traces of the poison damage the corals which are essential for the reef ecosystem where princessfish live, this could lead to significant habitat destruction. This habitat decline can negatively impact princessfish populations, thus weakening the argument that divers’ actions are harmless to the fish's populations.",
+            "runtime": 6.08,
+            "correct": true
+        },
+        {
+            "question_number": "1. Which of the following best states the central idea of the passage?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage discusses how Renaissance architects utilized a variety of building materials in innovative ways, leading to contrasting architectural styles. It emphasizes that while these architects had access to materials that suited the massive Etruscan style, they instead created delicate and graceful designs, demonstrating their ability to adapt materials for different stylistic expressions. This aligns with option C, which states that Renaissance architects used the same materials in different ways to produce contrasting architectural styles.",
+            "runtime": 6.48,
+            "correct": false
+        },
+        {
+            "question_number": "2. It can be inferred from the passage that the author believes that which of the following is true of painting and architecture of the Baroque era?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage implies that the emphasis on \"truth to materials\" in early twentieth-century Modernist architectural theory contrasts with the approaches of earlier architectural styles, such as those of the Renaissance. This suggests that the Baroque era, which followed the Renaissance, might also not align with the Modernist ideology and could have been overlooked by Modernists, similar to how Renaissance architects were viewed as focusing less on the materials. The passage does not provide evidence supporting a connection between Baroque and Renaissance styles (B), common visual features (D), or a degeneration of style (E). Therefore, the most plausible inference is that both painting and architecture of the Baroque era have been overlooked by twentieth-century Modernists.",
+            "runtime": 5.84,
+            "correct": false
+        },
+        {
+            "question_number": "3. The author’s mention of Florentine Renaissance painting serves in the context of the passage to support which of the following assertions?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage highlights that the design of Renaissance architecture, particularly in the case of the Pitti Palace, was not limited by the materials used, such as Tuscan stone, but instead transcended those materials to create a delicate and graceful architectural style. This supports the assertion that the Florentine architectural style was not determined by the nature of the available marble, as the architects were able to employ these materials to achieve a style that diverged from the characteristics associated with the materials themselves.",
+            "runtime": 7.78,
+            "correct": false
+        },
+        {
+            "question_number": "Select the sentence in the passage that best illustrates the idea that Renaissance architects used materials in ways not dictated by their natural characteristics.",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The sentence \"Instead, these same materials were effectively used to create the most delicate and graceful of styles\" illustrates that Renaissance architects manipulated and transformed the inherent characteristics of materials to achieve a style that was not dictated by those natural characteristics. This contrasts with the idea of \"truth to materials\" in Modernist architecture, highlighting that Renaissance architects did not merely replicate styles based on the materials themselves. Rather, they showcased their creativity by using the same materials to produce a graceful architectural style.",
+            "runtime": 4.83,
+            "correct": true
+        },
+        {
+            "question_number": "1. The author of the passage mentions Crown and Wills primarily in order to",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The author mentions Crown and Wills to highlight their skepticism regarding the idea that alterations to the pots were made to correct design errors. The passage states that \"Crown and Wills doubt that the alterations were made to correct design errors\" and points out that many pots with design errors were left unaltered. This suggests that their perspective discounts the correction explanation, making option C the correct choice.",
+            "runtime": 5.13,
+            "correct": true
+        },
+        {
+            "question_number": "2. According to the passage, which of the following is true of Bonito phase Chaco pots?",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage mentions that many pots had been altered after firing, but it also implies that relatively few pots had their designs left unaltered, especially in the context of design errors that were corrected before firing. Therefore, the statement \"relatively few of them were altered after firing\" aligns with the provided information, indicating that while alterations occurred, they were not the majority, which corresponds to option B.",
+            "runtime": 6.54,
+            "correct": false
+        },
+        {
+            "question_number": "1. The passage is primarily concerned with",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The passage primarily focuses on architectural morphology in the context of mission churches in New Mexico, examining how cultural and environmental conditions influenced the architectural form. While it does touch on various architectural influences, the correct answer reflects the passage's exploration of how the design and structure of these churches were rooted in a blend of indigenous and Spanish colonial influences, rather than just dealing with traditional Italian architectural attitudes. Specifically, it discusses the adaptation of European church design through the lens of local cultural practices and materials, hinting at a more complex relationship than merely demonstrating a singular attitude towards building materials, as seen in the historical context of the mission churches and their relation to the kiva. Therefore, while the passage contrasts influences on architecture, it does not focus significantly on the attitudes of Renaissance architects towards materials, which is what option E implies.",
+            "runtime": 8.85,
+            "correct": false
+        },
+        {
+            "question_number": "2. It can be inferred from the passage that the author believes that which of the following is true of painting and architecture of the Baroque era?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage discusses the transformation of architectural form in the mission churches of New Mexico, indicating that although practical factors contributed to their design, cultural forces played a significant role in shaping the architecture. This suggests that both painting and architecture of the Baroque era likely share common visual features that express cultural and religious themes. The author highlights the connections between the mission churches and indigenous kivas, indicating an intertwining of cultural artistic expressions, which can be interpreted as visual features having certain similarities. Thus, it can be inferred that the author believes painting and architecture of the Baroque era have certain visual features in common, paralleling the melding of forms seen in the context of mission churches.",
+            "runtime": 4.97,
+            "correct": false
+        },
+        {
+            "question_number": "3. Which of the following, if true, would most strengthen the argument about the Spanish missionaries’ attitude toward the kiva?",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage discusses the conciliatory attitude of Spanish missionaries toward the kiva, particularly noting that missionaries arrived with little or no military support and initially adopted a more accommodating stance. Historical records indicating that Spanish missionaries consistently expressed a conciliatory attitude toward indigenous religious practices would provide strong evidence supporting the argument that their interactions with the kiva were respectful and integrated rather than dominating. This aligns with the passage’s emphasis on the coexistence of the mission churches and kivas, suggesting that missionaries recognized and valued the cultural significance of the kiva to the Native American communities.",
+            "runtime": 5.32,
+            "correct": true
+        },
+        {
+            "question_number": "4. According to the passage, the building techniques prevailing in the Southwest during the seventeenth and eighteenth centuries played a role in which of the following?",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage discusses how the limitations imposed by manual labor and locally available materials necessitated a divergence from the original European church model. Specifically, it states that these limitations were significant enough to prevent missionaries from duplicating traditional European churches, thus influencing the design and form of the mission churches in the Southwest. The passage highlights that the transformation in architectural form was influenced not only by material and technique but also by cultural forces, ultimately preventing a straightforward replication of European styles.",
+            "runtime": 5.91,
+            "correct": true
+        },
+        {
+            "question_number": "1. The author of the passage mentions “Earth” primarily in order to",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The author mentions \"Earth\" to highlight the contrasting orbital distances of hot Jupiters compared to both Earth and Jupiter. The passage describes how hot Jupiters orbit their parent stars at a much closer distance than Earth does from the Sun, making the point that such massive planets cannot form that close to a star according to standard planetary formation theories. This comparison underscores the differences in orbital distances among these celestial bodies.",
+            "runtime": 6.0,
+            "correct": false
+        },
+        {
+            "question_number": "2. Which of the following elements is part of one but not both of the hypotheses discussed in the passage?",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The second hypothesis specifically mentions that the planet's gravitational field creates a groove in the protoplanetary disk, which partitions it into inner and outer regions. This element—\"a protoplanetary disk divided into two regions\"—is not part of the first hypothesis, which only discusses the interplay of gravitational forces without mentioning the division of the disk. Thus, option D is part of one hypothesis but not both.",
+            "runtime": 5.7,
+            "correct": true
+        },
+        {
+            "question_number": "3. It can be inferred from the passage that the “attempts” share which of the following goals?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage discusses how hot Jupiters, which resemble Jupiter in mass but orbit much closer to their parent stars than is standard in the solar-system-based theory of planetary formation, pose a dilemma for astronomers. The \"attempts\" referred to in the passage aim to explain how such massive planets could form at such close distances to their stars, which contradicts traditional theories. This goal is reinforced by the mention of hypotheses regarding the gravitational interactions and migrations of these planets from farther away in the protoplanetary disk. Therefore, option A accurately reflects the primary aim shared by the attempts mentioned in the passage.",
+            "runtime": 10.27,
+            "correct": false
+        },
+        {
+            "question_number": "1. The author of the passage suggests that applying the term “confessional” to the work of the poets discussed",
+            "expected": [
+                "AB"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The author argues that the term \"confessional\" is flawed because the poets' motivations were rooted in aesthetics rather than in a desire for therapeutic confession. The passage emphasizes that these poets approached their writing with an artistic aim, intending to create effective art rather than to alleviate personal guilt or suffering. The author's use of phrases like \"confession is a bad metaphor\" and stating that applying the term to their work diminishes their achievement supports the conclusion that it is mistaken in implying a penitential motive.",
+            "runtime": 4.29,
+            "correct": false
+        },
+        {
+            "question_number": "2. The passage implies that the poets discussed did NOT",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage indicates that these poets had a unanimous disdain for the label of \"confessional poetry\" applied to their work, suggesting that they did not accept or apply that label to their own writings. They viewed their motivations as artistic rather than confessional, which contrasts with how their work was later categorized.",
+            "runtime": 5.54,
+            "correct": true
+        },
+        {
+            "question_number": "1. According to the passage, astronomers recognize which of the following as being liable to cause changes to comets?",
+            "expected": [
+                "ABC"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage states that laboratory simulations revealed there was sufficient ultraviolet radiation reaching comets to darken their surfaces and that cosmic rays could alter chemical bonds or even molecular structure near the surface. While radioactive decay is mentioned in the context of warming cometary interiors, the question specifically asks about what is liable to cause changes to comets, which corresponds to cosmic rays (option A) as they are explicitly stated to alter chemical bonds near the surface of comets.",
+            "runtime": 8.35,
+            "correct": false
+        },
+        {
+            "question_number": "2. According to the passage, astronomers’ belief that comets are pristine relics was",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage states that astronomers once believed comets to be pristine relics because they are found in the distant Oort cloud where temperatures are close to absolute zero. This belief was based on the consideration of the conditions that prevail in that region, which supports option C. The passage also discusses how this belief began to change due to new findings in the 1970s regarding the effects of ultraviolet radiation and cosmic rays on comets, indicating that their pristine nature was questioned rather than supported.",
+            "runtime": 7.53,
+            "correct": true
+        },
+        {
+            "question_number": "The author suggests that the realization described in the final sentence of the passage had which of the following effects?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The author indicates that the realization about decaying radioactive isotopes warming cometary interiors challenged the assumption that comets remain unaltered in the Oort cloud. This is evident in the phrase \"scientists realized comets might contain decaying radioactive isotopes that could have warmed cometary interiors,\" which implies that previous beliefs about the state of comets were questioned as a result of this discovery.",
+            "runtime": 4.46,
+            "correct": true
+        },
+        {
+            "question_number": "Which of the following best summarizes the impact of the laboratory simulations on astronomers’ views of comets?",
+            "expected": [
+                "AC"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage explains that the laboratory simulations conducted in the 1970s led to a conceptual shift in how astronomers view comets. They revealed that comets are not unaltered remnants of the material that formed the outer planets, but have their surfaces darkened and molecular structures affected by ultraviolet radiation and cosmic rays. This directly undermines the belief that comets are pristine relics, making option C the best summary of the impact of these laboratory simulations.",
+            "runtime": 8.59,
+            "correct": false
+        },
+        {
+            "question_number": "Which of the following is an assumption on which the argument depends?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The argument hinges on the assumption that researchers can accurately associate hair samples collected from the habitat of wild monkeys with the individual monkeys they originated from. This is crucial because if the hairs cannot be linked back to specific monkeys, then the DNA extracted from them would not provide reliable information about parentage. The passage discusses the new method of obtaining DNA from hair instead of blood, but does not provide evidence that these hair samples can be uniquely identified to individual monkeys. Therefore, option C is the correct assumption the argument depends on.",
+            "runtime": 5.03,
+            "correct": true
+        },
+        {
+            "question_number": "1. According to the passage, village sketches written by women in the United States in the 1830s and 1840s typically reflected",
+            "expected": [
+                "BC"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The passage states that women's sketches \"typically depicted the diversity that increasingly characterized actual village communities at that time\" and that they portray \"differences among community members,\" including differences among men and women and cultural diversity. This indicates that the sketches reflected the plurality of experiences and ideas that existed among the residents of a village, making option C the correct answer.",
+            "runtime": 5.48,
+            "correct": false
+        },
+        {
+            "question_number": "2. Select the sentence in the passage that contrasts how men and women depicted life in village communities.",
+            "expected": [
+                "BUELL’SSTUDYOFVILLAGESKETCHESPROVIDESAVALUABLESUMMARYOFSKETCHESTHATPORTRAYTHECOMMUNITYASHOMOGENEOUSANDFIXED,BUTITIGNORESTHOSEBYWOMENWRITERS,WHICHTYPICALLYDEPICTEDTHEDIVERSITYTHATINCREASINGLYCHARACTERIZEDACTUALVILLAGECOMMUNITIESATTHATTIME"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "These women’s geographical mobility was restricted (although women writers of the time were not uniformly circumscribed in this way), and their subject matter reflected this fact."
+            ],
+            "model_response": "Selected Sentence: \"These women’s geographical mobility was restricted (although women writers of the time were not uniformly circumscribed in this way), and their subject matter reflected this fact.\"\n\nExplanation: This sentence highlights the contrast between men's and women's depictions of life in village communities by mentioning the restrictions on women's geographical mobility and how that influenced their subject matter. It emphasizes that while men may have depicted a more homogeneous view of communities, women writers reflected the diversity and differences within those communities due to their limited mobility. This comparison underscores the differing perspectives on community representation between men and women.",
+            "runtime": 7.64,
+            "correct": false
+        },
+        {
+            "question_number": "3. The passage indicates that when Gilligan spoke of 'the ability to attend to voices other than one’s own,' she",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage suggests that women writers depicted diversity in their village sketches, emphasizing differences among community members. Gilligan's reference to \"the ability to attend to voices other than one’s own\" implies that good writers, particularly those depicting the complexities of community life, are able to represent diverse characters and perspectives. Since the women’s sketches reflect the varied experiences within their communities, it aligns with the idea that effective writers must engage with and portray diverse voices and experiences.",
+            "runtime": 4.36,
+            "correct": false
+        },
+        {
+            "question_number": "1. The passage is primarily concerned with",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage focuses on a specific genre of literature known as \"woman's fiction,\" written by, for, and about women between 1820 and 1870. It discusses the characteristics of these novels, their popularity, the mixed critical reception they received, and their significance in the context of American literature. Nina Baym’s insights highlight the contributions of these works to social life and their authors’ professional identities as writers rather than artists. The overall concern of the passage is to describe and comment on this group of literary works and their impact, making option B the most appropriate choice.",
+            "runtime": 5.65,
+            "correct": true
+        },
+        {
+            "question_number": "2. The author of the passage cites Susan Warner’s Wide, Wide World most probably as an example of a woman’s novel that",
+            "expected": [
+                "D"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "D"
+            ],
+            "model_response": "Answer: D  \nExplanation: The passage mentions that Susan Warner's \"Wide, Wide World\" (1850) manifested itself as the best-selling reading matter of the American public, indicating its significance as an indicator of the genre's popularity. This aligns with the observation that the novel was a part of a body of literature that claimed a place for women in the writing profession, emphasizing its popularity during that time. The reference to its unprecedented sales supports the idea that it was significant in demonstrating the appeal of women's novels.",
+            "runtime": 6.63,
+            "correct": true
+        },
+        {
+            "question_number": "3. The author of the passage implies which of the following about the members of the clergy mentioned in the first paragraph?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The passage mentions that clerical opponents of woman’s fiction believed that women were attempting to take over the clergy’s functions, which implies that their critiques primarily targeted works by women rather than extending to novels written by male authors. This indicates that their attacks were specifically focused on the genre of woman’s fiction, without a noted opposition to male writers’ contributions.",
+            "runtime": 5.3,
+            "correct": true
+        },
+        {
+            "question_number": "4. Which of the following can be inferred from the passage concerning the majority of the nineteenth-century reviewers of woman’s fiction?",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage states that \"on the whole, however, even these laudatory critics showed themselves uninterested in the stories that this fiction told, or in their significance.\" This indicates that the majority of the nineteenth-century reviewers of woman's fiction did not make fine distinctions between different authors and were generally uninterested in the content or narratives of the stories. This supports the inference that they did not appreciate the individual merits of different authors, aligning with option B.",
+            "runtime": 6.76,
+            "correct": true
+        },
+        {
+            "question_number": "1. According to the passage, Carolina Hospital, as presented in the passage, would probably agree with which of the following statements about Cuban-American writing?",
+            "expected": [
+                "AC"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage states that Carolina Hospital argues Cuban-American writers who write in English should not be dismissed as they were born in Cuba and consider themselves Cuban writers. This indicates that she believes writing in English is not irreconcilable with Cuban identity. The passage does not support options B or C, as it focuses on the inclusion of writers rather than general recognition in anthologies or the appropriateness of anthologies including both Spanish and English works.",
+            "runtime": 6.3,
+            "correct": false
+        },
+        {
+            "question_number": "2. In the context in which it appears, 'comfortable' most nearly means",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: In the passage, 'comfortable' refers to the language in which Cuban-American writers express their identity and experiences. The context suggests that these writers use English as their primary language because it is the one they feel most at ease with, allowing them to articulate their thoughts and cultural identity effectively. The use of 'comfortable' indicates a sense of agreeableness and familiarity with English, making option C the most appropriate choice.",
+            "runtime": 4.76,
+            "correct": true
+        },
+        {
+            "question_number": "1. The primary purpose of the passage is to discuss which of the following?",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage primarily discusses the different ways of storing solar energy as heat, specifically contrasting latent heat and sensible heat. It explains how latent heat is associated with phase changes in materials, while sensible heat allows for storage at various temperatures, emphasizing the features of different materials used for energy storage in solar energy systems.",
+            "runtime": 8.61,
+            "correct": true
+        },
+        {
+            "question_number": "2. According to the passage, solar-energy systems located on Earth must store energy for which of the following reasons?",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage states that \"constant variations in the amount of sunlight available on Earth at any given location make energy storage a necessary design feature of terrestrial solar-energy systems.\" This indicates that the primary reason for energy storage in solar-energy systems is the frequent changes in sunlight availability at different locations, which supports option A as the correct answer. Options B and C are not mentioned or implied in the passage.",
+            "runtime": 4.77,
+            "correct": true
+        },
+        {
+            "question_number": "3. The author suggests that which of the following constitutes a potential disadvantage of using latent heat for energy storage?",
+            "expected": [
+                "AC"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage indicates that latent heat storage is associated with phase transitions that occur at unique fixed temperatures, which can limit its versatility as a storage method. The author notes that materials with these phase transitions are often corrosive at the temperatures encountered in terrestrial solar-energy systems, highlighting a limitation inherent to the use of latent heat for energy storage.",
+            "runtime": 5.04,
+            "correct": false
+        },
+        {
+            "question_number": "1. The passage mentions which of the following as effects of exotic pests on forest ecosystems?",
+            "expected": [
+                "ABC"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A, B, C  \nExplanation: The passage outlines both short-term and long-term effects of exotic insect pests on forest ecosystems. It specifically mentions that short-term effects include \"defoliation, loss of vigor, or death of trees,\" supporting options A and B. Additionally, it states that long-term effects involve \"changes in tree species composition and the consequent alterations of forest structure, productivity, and nutrient uptake,\" which supports option C. Therefore, all three options correctly describe the effects of exotic pests as mentioned in the passage.",
+            "runtime": 8.46,
+            "correct": false
+        },
+        {
+            "question_number": "2. The author of the passage mentions the “unique properties” of tree species primarily in order to help explain",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The author mentions the “unique properties” of tree species to explain how the specific characteristics of different tree species can lead to significant long-term effects on forest ecosystems when exotic insect pests alter the species composition. The passage states that these pests target specific tree species, and once established, they can produce permanent changes in the ecosystem; thus, understanding the unique properties of these species helps to clarify why pests can have lasting impacts on entire ecosystems, influencing forest structure, productivity, and nutrient uptake.",
+            "runtime": 7.25,
+            "correct": false
+        },
+        {
+            "question_number": "1. It can be inferred from the passage that an advantage of teak over mahogany is that teak is:",
+            "expected": [
+                "AB"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: The passage highlights that teak is \"unmatched in its resistance to rot and pests,\" which directly indicates that an advantage of teak over mahogany is its superior durability against deterioration. This specific characteristic positions teak as a more advantageous material for shipbuilding than mahogany, particularly in terms of longevity and maintenance.",
+            "runtime": 2.87,
+            "correct": false
+        },
+        {
+            "question_number": "2. In the context in which it appears, 'turned to' most nearly means",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "B"
+            ],
+            "model_response": "Answer: B  \nExplanation: In the passage, \"turned to\" refers to British shipbuilders seeking an alternative wood due to the scarcity of oak supplies. The phrase indicates that they resorted to using teak as a substitute, which aligns with option B. The context shows a shift in choice rather than a physical rotation or deflection, making \"resorted to\" the most appropriate synonym.",
+            "runtime": 5.91,
+            "correct": true
+        },
+        {
+            "question_number": "Which of the following most logically completes the argument given?",
+            "expected": [
+                "B"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "C"
+            ],
+            "model_response": "Answer: C  \nExplanation: The argument highlights that the lack of interest from university biologists in the funding opportunity does not necessarily imply that only those employed by the space program are interested in space-related biological research. Option C logically completes the argument, suggesting that other scientists, beyond biologists within the space program, may also be interested in research that could benefit from conducting experiments in space. The premise of the passage emphasizes a limitation of conclusions based on the observed lack of interest from a specific group, and option C provides an alternative perspective that broadens the scope of potential interest in the research opportunity.",
+            "runtime": 8.32,
+            "correct": false
+        },
+        {
+            "question_number": "1. Which of the following does the passage cite as an explanation for historians’ traditional analysis of the Japanese textile industry?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The passage states that historians have traditionally analyzed the branches of the textile industry separately because \"the branches were highly diverse—in scale, skill requirements, and technology.\" This indicates that the differences in the technology used across the three major branches (silk reeling, cotton spinning, and weaving) are a contributing factor to why historians focused on them individually.",
+            "runtime": 3.25,
+            "correct": true
+        },
+        {
+            "question_number": "2. It can be inferred that Hunter regards which of the following to be a shortcoming of historians’ traditional analyses discussed in the passage?",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: Hunter considers the separation of the three branches of textile production to be a shortcoming because it overlooks the commonalities among them, particularly regarding the demographic of the workforce, which consists mainly of young rural women. The passage states that historians have traditionally analyzed the branches separately and suggests that examining them together may help identify gender-based factors affecting the labor market. This indicates that Hunter believes a failure to examine the common factors is a significant oversight in the traditional analyses.",
+            "runtime": 7.64,
+            "correct": true
+        },
+        {
+            "question_number": "Which of the following best describes the function of the highlighted sentence?",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "E"
+            ],
+            "model_response": "Answer: E  \nExplanation: The highlighted sentence supports the explanation for seasonal breeding observed among shrimp species living near hydro-thermal vents by stating that the larvae of these shrimp need to feed during their drift to colonize new vents, and their springtime release coincides with a peak in algae. This seasonal timing of reproduction allows the offspring to take advantage of the abundant food source (algae) available during specific times, which aligns with the proposed explanation in the passage for why shrimp reproduce seasonally despite the seemingly constant conditions around hydro-thermal vents.",
+            "runtime": 5.47,
+            "correct": true
+        },
+        {
+            "question_number": "1. The author of the passage cites 'evidence from the past' in order to",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The author references 'evidence from the past' to support the explanation that cycles of elevated landslide activity correlated with climate fluctuations have occurred historically. This indicates that past events provide a context for understanding current changes in landslide frequency and magnitude, showing how historical patterns can help explain contemporary observations related to climate change.",
+            "runtime": 11.98,
+            "correct": true
+        },
+        {
+            "question_number": "2. The passage makes which of the following claims?",
+            "expected": [
+                "C"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage indicates that there is evidence of changing frequency and magnitude of landsliding in response to climate change, specifically highlighting that increased precipitation, often linked to human-caused factors, is one of the key external triggering mechanisms. This claim is supported by the context that human factors, like deforestation and land-use changes, directly affect vegetation attributes that influence slope stability, thus likely contributing to the increased landslide activity.",
+            "runtime": 5.31,
+            "correct": false
+        },
+        {
+            "question_number": "3. The author of the passage suggests which of the following about the role of human factors in landsliding activity?",
+            "expected": [
+                "AC"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage states that \"the likely influence of anthropogenic factors, either acting alone or in concert with climate,\" can modify the process of landsliding. This suggests that human factors can indeed intensify or alter the effects of climate change on landsliding activity, aligning with option A. The author emphasizes the role of human-influenced factors such as deforestation and land-use change in affecting vegetation attributes that influence slope stability, which supports this answer. Options B and C are not supported by the evidence presented in the passage.",
+            "runtime": 6.31,
+            "correct": false
+        },
+        {
+            "question_number": "1. The passage is concerned primarily with",
+            "expected": [
+                "A"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The passage primarily points out that very few extinctions of indigenous species can be attributed to competition from introduced species, despite the high number of non-indigenous plants introduced into North America. The mention of \"surprisingly few extinctions of indigenous species can be attributed to competition from introduced species\" emphasizes that this specific type of extinction is rarely known to occur. Additionally, the discussion about possible reasons, such as extinctions taking longer or being rare due to competition, further supports the focus on the rarity of such extinctions rather than resolving a debate or proposing an explanation.",
+            "runtime": 8.14,
+            "correct": true
+        },
+        {
+            "question_number": "2. The author introduces statistics about North America’s non-indigenous plant species primarily in order to",
+            "expected": [
+                "E"
+            ],
+            "models_tried": [
+                "gpt-4o"
+            ],
+            "model_used": "gpt-4o",
+            "model_answer": [
+                "A"
+            ],
+            "model_response": "Answer: A  \nExplanation: The author presents statistics about the introduction of non-indigenous plant species in North America to challenge the explanation for the lack of evidence regarding extinctions of indigenous plant species due to competition. By highlighting that 4,000 plant species have been introduced with no documented extinctions resulting from competition, the author undermines the idea that competition from non-indigenous species is a significant factor in the extinction of indigenous plants. This suggests that either such extinctions take longer to occur than expected or are infrequent, thus reinforcing the primary argument of the passage.",
+            "runtime": 4.03,
+            "correct": false
+        }
+    ]
+}
