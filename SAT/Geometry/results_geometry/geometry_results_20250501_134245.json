@@ -1,0 +1,629 @@
+{
+  "gemini-1.5-flash": {
+    "zero-shot": {
+      "total": 20,
+      "correct": 11,
+      "by_difficulty": {
+        "Medium": {
+          "total": 9,
+          "correct": 6,
+          "accuracy": 0.6666666666666666
+        },
+        "Hard": {
+          "total": 8,
+          "correct": 3,
+          "accuracy": 0.375
+        },
+        "Easy": {
+          "total": 3,
+          "correct": 2,
+          "accuracy": 0.6666666666666666
+        }
+      },
+      "details": [
+        {
+          "number": 7,
+          "difficulty": "Medium",
+          "question": "What is the volume, in cubic centimeters, of a right rectangular prism that has a length of 4 centimeters, a width of 9 centimeters, and a height of 10 centimeters?",
+          "correct_answer": 360,
+          "model_answer": "360",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 2.94
+        },
+        {
+          "number": 11,
+          "difficulty": "Medium",
+          "question": "A manufacturing company produces two sizes of cylindrical containers that each have a height of 50 centimeters. The radius of container A is 16 centimeters, and the radius of container B is 25% longer than the radius of container A. What is the volume, in cubic centimeters, of container B?",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.88
+        },
+        {
+          "number": 51,
+          "difficulty": "Hard",
+          "question": "An isosceles right triangle has a hypotenuse of length 58 inches. What is the perimeter, in inches, of this triangle?",
+          "correct_answer": "58 + 58√2",
+          "model_answer": "174",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.89
+        },
+        {
+          "number": 1,
+          "difficulty": "Medium",
+          "question": "A right circular cylinder has a volume of 45π. If the height of the cylinder is 5, what is the radius of the cylinder?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.88
+        },
+        {
+          "number": 16,
+          "difficulty": "Hard",
+          "question": "A manufacturer determined that right cylindrical containers with a height that is 4 inches longer than the radius offer the optimal number of containers to be displayed on a shelf. Which of the following expresses the volume, V, in cubic inches, of such containers, where r is the radius, in inches?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.08
+        },
+        {
+          "number": 2,
+          "difficulty": "Hard",
+          "question": "Square A has side lengths that are 166 times the side lengths of square B. The area of square A is k times the area of square B. What is the value of k?",
+          "correct_answer": 27556,
+          "model_answer": "27656",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.07
+        },
+        {
+          "number": 37,
+          "difficulty": "Hard",
+          "question": "Triangle XYZ is similar to triangle RST such that X, Y, and Z correspond to R, S, and T, respectively. The measure of ∠Z is 20° and 2XY = RS. What is the measure of ∠T?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.03
+        },
+        {
+          "number": 32,
+          "difficulty": "Medium",
+          "question": "Two nearby trees are perpendicular to the ground, which is flat. One of these trees is 10 feet tall and has a shadow that is 5 feet long. At the same time, the shadow of the other tree is 2 feet long. How tall, in feet, is the other tree?",
+          "correct_answer": "B",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.88
+        },
+        {
+          "number": 3,
+          "difficulty": "Easy",
+          "question": "The side length of a square is 55 centimeters (cm). What is the area, in cm², of the square?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.87
+        },
+        {
+          "number": 31,
+          "difficulty": "Easy",
+          "question": "In triangle XYZ, the measure of angle X is 24° and the measure of angle Y is 98°. What is the measure of angle Z?",
+          "correct_answer": "A",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.96
+        },
+        {
+          "number": 17,
+          "difficulty": "Easy",
+          "question": "Triangle ABC and triangle DEF are similar triangles, where AB and DE are corresponding sides. If DE = 2AB and the perimeter of triangle ABC is 20, what is the perimeter of triangle DEF?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.95
+        },
+        {
+          "number": 15,
+          "difficulty": "Medium",
+          "question": "A circle has a circumference of 31π centimeters. What is the diameter, in centimeters, of the circle?",
+          "correct_answer": 31,
+          "model_answer": "31",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.82
+        },
+        {
+          "number": 30,
+          "difficulty": "Hard",
+          "question": "In triangle ABC, the measure of angle B is 90° and BD is an altitude of the triangle. The length of AB is 15 and the length of AC is 23 greater than the length of AB. What is the value of BC/BD?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.04
+        },
+        {
+          "number": 10,
+          "difficulty": "Medium",
+          "question": "A cylinder has a diameter of 8 inches and a height of 12 inches. What is the volume, in cubic inches, of the cylinder?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.81
+        },
+        {
+          "number": 34,
+          "difficulty": "Hard",
+          "question": "In triangles LMN and RST, angles L and R each have measure 60°, LN = 10, and RT = 30. Which additional piece of information is sufficient to prove that triangle LMN is similar to triangle RST?",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.72
+        },
+        {
+          "number": 33,
+          "difficulty": "Hard",
+          "question": "In triangles ABC and DEF, angles B and E each have measure 27° and angles C and F each have measure 41°. Which additional piece of information is sufficient to determine whether triangle ABC is congruent to triangle DEF?",
+          "correct_answer": "C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.92
+        },
+        {
+          "number": 13,
+          "difficulty": "Hard",
+          "question": "A cube has a volume of 474,552 cubic units. What is the surface area, in square units, of the cube?",
+          "correct_answer": 36504,
+          "model_answer": "1",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.89
+        },
+        {
+          "number": 39,
+          "difficulty": "Medium",
+          "question": "Triangle ABC is similar to triangle XYZ, such that A, B, and C correspond to X, Y, and Z respectively. The length of each side of triangle XYZ is 2 times the length of its corresponding side in triangle ABC. The measure of side AB is 16. What is the measure of side XY?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.18
+        },
+        {
+          "number": 4,
+          "difficulty": "Medium",
+          "question": "What is the length of one side of a square that has the same area as a circle with radius 2?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.24
+        },
+        {
+          "number": 5,
+          "difficulty": "Medium",
+          "question": "Square X has a side length of 12 centimeters. The perimeter of square Y is 2 times the perimeter of square X. What is the length, in centimeters, of one side of square Y?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.06
+        }
+      ],
+      "accuracy": 0.55,
+      "summary_text": "gemini-1.5-flash with zero-shot strategy summary:\nOverall accuracy: 55.00% (11/20)\n\n  Easy difficulty: 66.67% (2/3)\n  Hard difficulty: 37.50% (3/8)\n  Medium difficulty: 66.67% (6/9)\n"
+    },
+    "five-shot": {
+      "total": 15,
+      "correct": 10,
+      "by_difficulty": {
+        "Medium": {
+          "total": 6,
+          "correct": 6,
+          "accuracy": 1.0
+        },
+        "Hard": {
+          "total": 6,
+          "correct": 1,
+          "accuracy": 0.16666666666666666
+        },
+        "Easy": {
+          "total": 3,
+          "correct": 3,
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "number": 7,
+          "difficulty": "Medium",
+          "question": "What is the volume, in cubic centimeters, of a right rectangular prism that has a length of 4 centimeters, a width of 9 centimeters, and a height of 10 centimeters?",
+          "correct_answer": 360,
+          "model_answer": "360",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.38
+        },
+        {
+          "number": 51,
+          "difficulty": "Hard",
+          "question": "An isosceles right triangle has a hypotenuse of length 58 inches. What is the perimeter, in inches, of this triangle?",
+          "correct_answer": "58 + 58√2",
+          "model_answer": "116",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.12
+        },
+        {
+          "number": 1,
+          "difficulty": "Medium",
+          "question": "A right circular cylinder has a volume of 45π. If the height of the cylinder is 5, what is the radius of the cylinder?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 5.36
+        },
+        {
+          "number": 16,
+          "difficulty": "Hard",
+          "question": "A manufacturer determined that right cylindrical containers with a height that is 4 inches longer than the radius offer the optimal number of containers to be displayed on a shelf. Which of the following expresses the volume, V, in cubic inches, of such containers, where r is the radius, in inches?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 3.66
+        },
+        {
+          "number": 32,
+          "difficulty": "Medium",
+          "question": "Two nearby trees are perpendicular to the ground, which is flat. One of these trees is 10 feet tall and has a shadow that is 5 feet long. At the same time, the shadow of the other tree is 2 feet long. How tall, in feet, is the other tree?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 4.99
+        },
+        {
+          "number": 3,
+          "difficulty": "Easy",
+          "question": "The side length of a square is 55 centimeters (cm). What is the area, in cm², of the square?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 0.91
+        },
+        {
+          "number": 31,
+          "difficulty": "Easy",
+          "question": "In triangle XYZ, the measure of angle X is 24° and the measure of angle Y is 98°. What is the measure of angle Z?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 2.57
+        },
+        {
+          "number": 17,
+          "difficulty": "Easy",
+          "question": "Triangle ABC and triangle DEF are similar triangles, where AB and DE are corresponding sides. If DE = 2AB and the perimeter of triangle ABC is 20, what is the perimeter of triangle DEF?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.46
+        },
+        {
+          "number": 15,
+          "difficulty": "Medium",
+          "question": "A circle has a circumference of 31π centimeters. What is the diameter, in centimeters, of the circle?",
+          "correct_answer": 31,
+          "model_answer": "31",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.33
+        },
+        {
+          "number": 30,
+          "difficulty": "Hard",
+          "question": "In triangle ABC, the measure of angle B is 90° and BD is an altitude of the triangle. The length of AB is 15 and the length of AC is 23 greater than the length of AB. What is the value of BC/BD?",
+          "correct_answer": "D",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 11.18
+        },
+        {
+          "number": 34,
+          "difficulty": "Hard",
+          "question": "In triangles LMN and RST, angles L and R each have measure 60°, LN = 10, and RT = 30. Which additional piece of information is sufficient to prove that triangle LMN is similar to triangle RST?",
+          "correct_answer": "D",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 0.94
+        },
+        {
+          "number": 33,
+          "difficulty": "Hard",
+          "question": "In triangles ABC and DEF, angles B and E each have measure 27° and angles C and F each have measure 41°. Which additional piece of information is sufficient to determine whether triangle ABC is congruent to triangle DEF?",
+          "correct_answer": "C",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 1.65
+        },
+        {
+          "number": 13,
+          "difficulty": "Hard",
+          "question": "A cube has a volume of 474,552 cubic units. What is the surface area, in square units, of the cube?",
+          "correct_answer": 36504,
+          "model_answer": "4",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 2.34
+        },
+        {
+          "number": 39,
+          "difficulty": "Medium",
+          "question": "Triangle ABC is similar to triangle XYZ, such that A, B, and C correspond to X, Y, and Z respectively. The length of each side of triangle XYZ is 2 times the length of its corresponding side in triangle ABC. The measure of side AB is 16. What is the measure of side XY?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 1.02
+        },
+        {
+          "number": 5,
+          "difficulty": "Medium",
+          "question": "Square X has a side length of 12 centimeters. The perimeter of square Y is 2 times the perimeter of square X. What is the length, in centimeters, of one side of square Y?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 4.39
+        }
+      ],
+      "accuracy": 0.6666666666666666,
+      "summary_text": "gemini-1.5-flash with five-shot strategy summary:\nOverall accuracy: 66.67% (10/15)\n\n  Easy difficulty: 100.00% (3/3)\n  Hard difficulty: 16.67% (1/6)\n  Medium difficulty: 100.00% (6/6)\n"
+    },
+    "chain-of-thought": {
+      "total": 20,
+      "correct": 16,
+      "by_difficulty": {
+        "Medium": {
+          "total": 9,
+          "correct": 9,
+          "accuracy": 1.0
+        },
+        "Hard": {
+          "total": 8,
+          "correct": 4,
+          "accuracy": 0.5
+        },
+        "Easy": {
+          "total": 3,
+          "correct": 3,
+          "accuracy": 1.0
+        }
+      },
+      "details": [
+        {
+          "number": 7,
+          "difficulty": "Medium",
+          "question": "What is the volume, in cubic centimeters, of a right rectangular prism that has a length of 4 centimeters, a width of 9 centimeters, and a height of 10 centimeters?",
+          "correct_answer": 360,
+          "model_answer": "360",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.1
+        },
+        {
+          "number": 11,
+          "difficulty": "Medium",
+          "question": "A manufacturing company produces two sizes of cylindrical containers that each have a height of 50 centimeters. The radius of container A is 16 centimeters, and the radius of container B is 25% longer than the radius of container A. What is the volume, in cubic centimeters, of container B?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 10.06
+        },
+        {
+          "number": 51,
+          "difficulty": "Hard",
+          "question": "An isosceles right triangle has a hypotenuse of length 58 inches. What is the perimeter, in inches, of this triangle?",
+          "correct_answer": "58 + 58√2",
+          "model_answer": "140",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 9.21
+        },
+        {
+          "number": 1,
+          "difficulty": "Medium",
+          "question": "A right circular cylinder has a volume of 45π. If the height of the cylinder is 5, what is the radius of the cylinder?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.99
+        },
+        {
+          "number": 16,
+          "difficulty": "Hard",
+          "question": "A manufacturer determined that right cylindrical containers with a height that is 4 inches longer than the radius offer the optimal number of containers to be displayed on a shelf. Which of the following expresses the volume, V, in cubic inches, of such containers, where r is the radius, in inches?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.69
+        },
+        {
+          "number": 2,
+          "difficulty": "Hard",
+          "question": "Square A has side lengths that are 166 times the side lengths of square B. The area of square A is k times the area of square B. What is the value of k?",
+          "correct_answer": 27556,
+          "model_answer": "27556",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 10.26
+        },
+        {
+          "number": 37,
+          "difficulty": "Hard",
+          "question": "Triangle XYZ is similar to triangle RST such that X, Y, and Z correspond to R, S, and T, respectively. The measure of ∠Z is 20° and 2XY = RS. What is the measure of ∠T?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.51
+        },
+        {
+          "number": 32,
+          "difficulty": "Medium",
+          "question": "Two nearby trees are perpendicular to the ground, which is flat. One of these trees is 10 feet tall and has a shadow that is 5 feet long. At the same time, the shadow of the other tree is 2 feet long. How tall, in feet, is the other tree?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 9.79
+        },
+        {
+          "number": 3,
+          "difficulty": "Easy",
+          "question": "The side length of a square is 55 centimeters (cm). What is the area, in cm², of the square?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 12.38
+        },
+        {
+          "number": 31,
+          "difficulty": "Easy",
+          "question": "In triangle XYZ, the measure of angle X is 24° and the measure of angle Y is 98°. What is the measure of angle Z?",
+          "correct_answer": "A",
+          "model_answer": "A",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.45
+        },
+        {
+          "number": 17,
+          "difficulty": "Easy",
+          "question": "Triangle ABC and triangle DEF are similar triangles, where AB and DE are corresponding sides. If DE = 2AB and the perimeter of triangle ABC is 20, what is the perimeter of triangle DEF?",
+          "correct_answer": "B",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.08
+        },
+        {
+          "number": 15,
+          "difficulty": "Medium",
+          "question": "A circle has a circumference of 31π centimeters. What is the diameter, in centimeters, of the circle?",
+          "correct_answer": 31,
+          "model_answer": "31",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.72
+        },
+        {
+          "number": 30,
+          "difficulty": "Hard",
+          "question": "In triangle ABC, the measure of angle B is 90° and BD is an altitude of the triangle. The length of AB is 15 and the length of AC is 23 greater than the length of AB. What is the value of BC/BD?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 13.56
+        },
+        {
+          "number": 10,
+          "difficulty": "Medium",
+          "question": "A cylinder has a diameter of 8 inches and a height of 12 inches. What is the volume, in cubic inches, of the cylinder?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.8
+        },
+        {
+          "number": 34,
+          "difficulty": "Hard",
+          "question": "In triangles LMN and RST, angles L and R each have measure 60°, LN = 10, and RT = 30. Which additional piece of information is sufficient to prove that triangle LMN is similar to triangle RST?",
+          "correct_answer": "D",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 10.73
+        },
+        {
+          "number": 33,
+          "difficulty": "Hard",
+          "question": "In triangles ABC and DEF, angles B and E each have measure 27° and angles C and F each have measure 41°. Which additional piece of information is sufficient to determine whether triangle ABC is congruent to triangle DEF?",
+          "correct_answer": "C",
+          "model_answer": "B",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 12.78
+        },
+        {
+          "number": 13,
+          "difficulty": "Hard",
+          "question": "A cube has a volume of 474,552 cubic units. What is the surface area, in square units, of the cube?",
+          "correct_answer": 36504,
+          "model_answer": "36",
+          "model_full_response": "",
+          "is_correct": false,
+          "runtime": 13.11
+        },
+        {
+          "number": 39,
+          "difficulty": "Medium",
+          "question": "Triangle ABC is similar to triangle XYZ, such that A, B, and C correspond to X, Y, and Z respectively. The length of each side of triangle XYZ is 2 times the length of its corresponding side in triangle ABC. The measure of side AB is 16. What is the measure of side XY?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 8.8
+        },
+        {
+          "number": 4,
+          "difficulty": "Medium",
+          "question": "What is the length of one side of a square that has the same area as a circle with radius 2?",
+          "correct_answer": "C",
+          "model_answer": "C",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 7.5
+        },
+        {
+          "number": 5,
+          "difficulty": "Medium",
+          "question": "Square X has a side length of 12 centimeters. The perimeter of square Y is 2 times the perimeter of square X. What is the length, in centimeters, of one side of square Y?",
+          "correct_answer": "D",
+          "model_answer": "D",
+          "model_full_response": "",
+          "is_correct": true,
+          "runtime": 6.69
+        }
+      ],
+      "accuracy": 0.8,
+      "summary_text": "gemini-1.5-flash with chain-of-thought strategy summary:\nOverall accuracy: 80.00% (16/20)\n\n  Easy difficulty: 100.00% (3/3)\n  Hard difficulty: 50.00% (4/8)\n  Medium difficulty: 100.00% (9/9)\n"
+    }
+  }
+}

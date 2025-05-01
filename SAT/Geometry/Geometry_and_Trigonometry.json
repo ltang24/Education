@@ -1,0 +1,672 @@
+[
+    {
+      "number": 1,
+      "question": "A right circular cylinder has a volume of 45π. If the height of the cylinder is 5, what is the radius of the cylinder?",
+      "options": {
+        "A": 3,
+        "B": 4.5,
+        "C": 9,
+        "D": 40
+      },
+      "correct_answer": "A",
+      "rationale": "Choice A is correct. The volume of a right circular cylinder is given by the formula V = πr²h. Given V = 45π and h = 5, substitute into the formula: 45π = πr² × 5. Divide both sides by 5π to get r² = 9. Taking the square root of both sides gives r = 3. Since radius cannot be negative, the radius is 3. Other answer choices result from incorrect interpretations or missteps in solving the equation.",
+      "difficulty": "Medium",
+      "skill" :"Area and volume"
+    },
+    {
+      "number": 2,
+      "question": "Square A has side lengths that are 166 times the side lengths of square B. The area of square A is k times the area of square B. What is the value of k?",
+      "Options": "No options",
+      "correct_answer": 27556,
+      "rationale": "The area of a square is s². Let x represent the side length of square B. Then the area of square B is x². Since square A’s side is 166x, its area is (166x)² = 27,556x². Since square A’s area is k times that of square B, we set up the equation 27,556x² = kx². Dividing both sides by x² yields k = 27,556.",
+      "difficulty": "Hard"
+    },
+    {
+        "number": 3,
+        "question": "The side length of a square is 55 centimeters (cm). What is the area, in cm², of the square?",
+        "options": {
+          "A": 110,
+          "B": 220,
+          "C": 3025,
+          "D": 12100
+        },
+        "correct_answer": "C",
+        "rationale": "Choice C is correct. The area of a square is given by the formula A = s². Since the side length s is 55 cm, the area is 55² = 3,025 cm². Choice A is incorrect and likely comes from a conceptual or arithmetic error. Choice B is the perimeter, not the area. Choice D is also incorrect and likely a result of miscalculation.",
+        "difficulty": "Easy",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 4,
+        "question": "What is the length of one side of a square that has the same area as a circle with radius 2?",
+        "options": {
+          "A": "2",
+          "B": "√(2π)",
+          "C": "2√π",
+          "D": "2π"
+        },
+        "correct_answer": "C",
+        "rationale": "Choice C is correct. The area of a circle with radius 2 is π × 2² = 4π. The area of a square with side length s is s². Setting these equal gives s² = 4π. Taking the square root of both sides yields s = √(4π) = 2√π. Thus, the side length of the square is 2√π. Choices A, B, and D result from conceptual or simplification errors.",
+        "difficulty": "Medium",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 5,
+        "question": "Square X has a side length of 12 centimeters. The perimeter of square Y is 2 times the perimeter of square X. What is the length, in centimeters, of one side of square Y?",
+        "options": {
+          "A": 6,
+          "B": 10,
+          "C": 14,
+          "D": 24
+        },
+        "correct_answer": "D",
+        "rationale": "Choice D is correct. The perimeter of square X is 4 × 12 = 48 cm. Since square Y’s perimeter is twice that, it's 2 × 48 = 96 cm. Using the formula P = 4s to solve for s: 96 = 4s, divide both sides by 4 to get s = 24. So one side of square Y is 24 cm.",
+        "difficulty": "Medium",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 6,
+        "question": "The area of a square is 64 square inches. What is the side length, in inches, of this square?",
+        "options": {
+          "A": 8,
+          "B": 16,
+          "C": 64,
+          "D": 128
+        },
+        "correct_answer": "A",
+        "rationale": "Choice A is correct. The area of a square is given by A = s². If the area is 64 square inches, then s² = 64. Taking the square root of both sides yields s = 8. Therefore, the side length of the square is 8 inches. Other choices result from misunderstanding the relationship between area and side length.",
+        "difficulty": "Easy",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 7,
+        "question": "What is the volume, in cubic centimeters, of a right rectangular prism that has a length of 4 centimeters, a width of 9 centimeters, and a height of 10 centimeters?",
+        "options": "no options",
+        "correct_answer": 360,
+        "rationale": "The correct answer is 360. The volume of a right rectangular prism is found by multiplying its length, width, and height. So, Volume = 4 × 9 × 10 = 360 cubic centimeters.",
+        "difficulty": "Medium",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 8,
+        "question": "A cube has an edge length of 68 inches. A solid sphere with a radius of 34 inches is inside the cube, such that the sphere touches the center of each face of the cube. To the nearest cubic inch, what is the volume of the space in the cube not taken up by the sphere?",
+        "options": {
+          "A": 149796,
+          "B": 164500,
+          "C": 190955,
+          "D": 310800
+        },
+        "correct_answer": "A",
+        "rationale": "Choice A is correct. Volume of the cube: 68³ = 314,432 cubic inches. Volume of the sphere: (4/3)π(34)³ ≈ 164,636 cubic inches. Subtracting gives the space not taken by the sphere: 314,432 - 164,636 = 149,796 cubic inches. Other answer choices stem from calculation or conceptual errors.",
+        "difficulty": "Hard",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 9,
+        "question": "A cube has an edge length of 41 inches. What is the volume, in cubic inches, of the cube?",
+        "options": {
+          "A": 164,
+          "B": 1681,
+          "C": 10086,
+          "D": 68921
+        },
+        "correct_answer": "D",
+        "rationale": "Choice D is correct. The volume of a cube is given by the formula V = s³, where s is the side length. Substituting s = 41, we get V = 41³ = 68,921 cubic inches. Choices A, B, and C correspond to the perimeter, face area, and surface area of the cube, respectively, not the volume.",
+        "difficulty": "Medium",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 10,
+        "question": "A cylinder has a diameter of 8 inches and a height of 12 inches. What is the volume, in cubic inches, of the cylinder?",
+        "options": {
+          "A": "16π",
+          "B": "96π",
+          "C": "192π",
+          "D": "768π"
+        },
+        "correct_answer": "C",
+        "rationale": "Choice C is correct. Radius is half the diameter, so r = 4. Area of the base = πr² = π(4²) = 16π. Volume of the cylinder = base area × height = 16π × 12 = 192π. Choices A, B, and D result from errors in calculating r² or using incorrect radius or height values.",
+        "difficulty": "Medium",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 11,
+        "question": "A manufacturing company produces two sizes of cylindrical containers that each have a height of 50 centimeters. The radius of container A is 16 centimeters, and the radius of container B is 25% longer than the radius of container A. What is the volume, in cubic centimeters, of container B?",
+        "options": {
+          "A": "16,000π",
+          "B": "20,000π",
+          "C": "25,000π",
+          "D": "31,250π"
+        },
+        "correct_answer": "B",
+        "rationale": "Choice B is correct. Radius of container A is 16 cm, so the radius of container B is 16 + 0.25×16 = 20 cm. Volume of a cylinder is πr²h. Substituting r = 20 and h = 50 gives π(20²)(50) = 20,000π. Other choices result from misusing radius values or misapplying the formula.",
+        "difficulty": "Medium",
+        "skill" :"Area and volume"
+      },
+      {
+       "number": 12,
+        "question": "A rectangle has an area of 63 square meters and a length of 9 meters. What is the width, in meters, of the rectangle?",
+        "options": {
+          "A": 7,
+          "B": 54,
+          "C": 81,
+          "D": 567
+        },
+        "correct_answer": "A",
+        "rationale": "Choice A is correct. Area of a rectangle is A = lw. Given A = 63 and l = 9, solve for w: 63 = 9w → w = 7. So the width is 7 meters. Other choices stem from misinterpretations of area-related operations (e.g., subtraction, squaring, or multiplying).",
+        "difficulty": "Easy",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 13,
+        "question": "A cube has a volume of 474,552 cubic units. What is the surface area, in square units, of the cube?",
+        "options": "no options",
+        "correct_answer": 36504,
+        "rationale": "The volume of the cube is V = s³. Solving 474,552 = s³ gives s = 78. The surface area of a cube is 6s². So surface area = 6 × 78² = 6 × 6,084 = 36,504 square units.",
+        "difficulty": "Hard",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 14,
+        "question": "A right circular cone has a height of 22 centimeters (cm) and a base with a diameter of 6 cm. The volume of this cone is nπ cm³. What is the value of n?",
+        "options": "no options",
+        "correct_answer": 66,
+        "rationale": "The formula for the volume of a right circular cone is V = (1/3)πr²h. The diameter is 6 cm, so the radius r = 3 cm, and the height h = 22 cm. Substituting gives V = (1/3)π(3²)(22) = (1/3)π(9)(22) = 66π. Therefore, the value of n is 66.",
+        "difficulty": "Hard",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 15,
+        "question": "A circle has a circumference of 31π centimeters. What is the diameter, in centimeters, of the circle?",
+        "options": "no options",
+        "correct_answer": 31,
+        "rationale": "The circumference of a circle is given by the formula C = 2πr, where r is the radius. Therefore, the diameter is 2r. Given 31π = 2πr, dividing both sides by π gives 31 = 2r, and solving for the diameter (2r) gives 31.",
+        "difficulty": "Medium",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 16,
+        "question": "A manufacturer determined that right cylindrical containers with a height that is 4 inches longer than the radius offer the optimal number of containers to be displayed on a shelf. Which of the following expresses the volume, V, in cubic inches, of such containers, where r is the radius, in inches?",
+        "options": {
+          "A": "V = 4πr³",
+          "B": "V = π(2r)³",
+          "C": "V = πr² + 4πr",
+          "D": "V = πr³ + 4πr²"
+        },
+        "correct_answer": "D",
+        "rationale": "The volume of a right cylinder is given by V = πr²h. Since the height is 4 inches more than the radius, we substitute h = r + 4 into the formula to get V = πr²(r + 4). Distributing yields V = πr³ + 4πr². Other choices misrepresent height or misapply the volume formula.",
+        "difficulty": "Hard",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 17,
+        "question": "Triangle ABC and triangle DEF are similar triangles, where AB and DE are corresponding sides. If DE = 2AB and the perimeter of triangle ABC is 20, what is the perimeter of triangle DEF?",
+        "options": {
+          "A": 10,
+          "B": 40,
+          "C": 80,
+          "D": 120
+        },
+        "correct_answer": "B",
+        "rationale": "Since the triangles are similar and DE = 2AB, all sides of triangle DEF are twice those of triangle ABC. Therefore, the perimeter of DEF is 2 × 20 = 40.",
+        "difficulty": "Easy",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 18,
+        "question": "A rectangular poster has an area of 360 square inches. A copy of the poster is made in which the length and width of the original poster are each increased by 20%. What is the area of the copy, in square inches?",
+        "options": "no options",
+        "correct_answer": 518.4,
+        "rationale": "Let l and w be the length and width of the original poster. Then lw = 360. A 20% increase in both dimensions makes the new dimensions 1.2l and 1.2w. The area of the copy is (1.2)(1.2)(lw) = 1.44 × 360 = 518.4 square inches.",
+        "difficulty": "Hard",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 19,
+        "question": "A right rectangular prism has a length of 28 centimeters (cm), a width of 15 cm, and a height of 16 cm. What is the surface area, in cm², of the right rectangular prism?",
+        "options": "no option",
+        "correct_answer": 2216,
+        "rationale": "The surface area of a right rectangular prism is the sum of the areas of all its six faces. With dimensions 28, 15, and 16 cm, the surface area is 2(lw + lh + wh) = 2(28×15 + 28×16 + 15×16) = 2216 cm².",
+        "difficulty": "Hard",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 20,
+        "question": "What is the area, in square centimeters, of a rectangle with a length of 34 centimeters (cm) and a width of 29 cm?",
+       "options": "no option",
+        "correct_answer": 986,
+        "rationale": "The area of a rectangle is given by A = lw, where l is the length and w is the width. Substituting l = 34 and w = 29 gives A = 34 × 29 = 986 square centimeters.",
+        "difficulty": "Easy",
+        "skill" :"Area and volume"
+      },
+      {
+        "number": 21,
+        "img":"img7.png",
+        "question": "In the figure, AC = CD. The measure of angle EBC is 45°, and the measure of angle ACD is 104°. What is the value of x?",
+        "options": "no option",
+        "correct_answer": 83,
+        "rationale": "Since AC = CD, triangle ACD is isosceles, and angles CAD and CDA are equal. The sum of angles in triangle ACD is 180°, so the two equal angles add up to 180° - 104° = 76°, and each is 38°. In triangle BDE, angle BDE is 38°, angle EBC is 45°, and angle DEB is found by 180° - 45° - 38° = 97°. Since angles DEB and AEB form a straight line (180°), we have 97° + x = 180°, so x = 83°.",
+        "difficulty": "Hard",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 22,
+        "img":"img8.png",
+        "question": "In the figure shown, points Q, R, S, and T lie on line segment PV, and line segment RU intersects line segment SX at point W. The measure of ∠SQX is 48°, the measure of ∠SXQ is 86°, the measure of ∠SWU is 85°, and the measure of ∠VTU is 162°. What is the measure, in degrees, of ∠TUR?",
+        "options": "no option",
+        "correct_answer": 123,
+        "rationale": "Using the triangle sum theorem and supplementary angles: ∠QSX = 180° - 48° - 86° = 46°. ∠SWR = 180° - 85° = 95°. In triangle RSW, ∠WRS = 180° - 46° - 95° = 39°. ∠STU = 180° - 162° = 18°. In triangle TUR, since ∠URT = ∠WRS, the measure of ∠TUR is 180° - 39° - 18° = 123°.",
+        "difficulty": "Hard",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 23,
+        "img":"img9.png",
+        "question": "What is the value of x?",
+        "options": "no option",
+        "correct_answer": 97,
+        "rationale": "The value of x is found using the exterior angle theorem. The two nonadjacent interior angles are 23° and 74°, where 74° is calculated as 180° - 106°. Thus, x = 23° + 74° = 97°.",
+        "difficulty": "Hard",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 24,
+        "img" :"img10",
+        "question": "In the figure, line m is parallel to line n. What is the value of w?",
+        "options": {
+          "A": 17,
+          "B": 30,
+          "C": 70,
+          "D": 170
+        },
+        "correct_answer": "D",
+        "rationale": "Since lines m and n are parallel and cut by a transversal, corresponding angles are congruent. Given that the corresponding angle is 170°, it follows that w° = 170°. Therefore, the value of w is 170.",
+        "difficulty": "Easy",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 25,
+        "img":"img15.png",
+        "question": "In the figure above, line segment MQ and line segment NR intersect at point P, NP equals QP, and MP equals PR. What is the measure, in degrees, of angle QMR? (Disregard the degree symbol when gridding your answer.)",
+        "options": "no option",
+        "correct_answer": 30,
+        "rationale": "The correct answer is 30. It is given that the measure of angle QPR is 60 degrees. Angle MPR and angle QPR are collinear and therefore supplementary, meaning they add up to 180 degrees. Thus, the measure of angle MPR is 120 degrees. In triangle MPR, the sum of angles must be 180 degrees. Subtracting 120 degrees from 180 degrees leaves 60 degrees. Since MP = PR, triangle MPR is isosceles, making angles QMR and NRM congruent. Therefore, each has a measure of 30 degrees.",
+        "difficulty": "Hard",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 26,
+        "img":"img16.png",
+        "question": "Right triangles PQR and STU are similar, where P corresponds to S. If the measure of angle Q is 18°, what is the measure of angle S?",
+        "Options": {
+          "A": "18°",
+          "B": "72°",
+          "C": "82°",
+          "D": "162°"
+        },
+        "correct_answer": "B",
+        "rationale": "Choice B is correct. In similar triangles, corresponding angles are congruent. Since P corresponds to S, angle P is congruent to angle S. Angles R and U are both right angles, so they are congruent. Angles Q and T correspond and are congruent too. Given that angle Q measures 18°, angle T also measures 18°. Since triangle STU is a triangle, the sum of the angles must be 180°. Let s represent the measure of angle S. Then, s + 18 + 90 = 180. Simplifying, s + 108 = 180, so s = 72. Thus, the measure of angle S is 72°.",
+        "difficulty": "Easy",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 27,
+        "img":"img17.png",
+        "question": "In the figure, line q is parallel to line r, and both lines are intersected by line s. If y = 2x + 8, what is the value of x?",
+        "options": "no options",
+        "correct_answer": "57",
+        "rationale": "The correct answer is 57. Based on the figure, the angle with measure y° and the angle vertical to the angle with measure 58° are same-side interior angles. Since vertical angles are congruent, the angle vertical to the angle with measure 58° also has measure 58°. Since lines q and r are parallel, same-side interior angles are supplementary. Thus, y + 58 = 180. Substituting y = 2x + 8 into the equation gives (2x + 8) + 58 = 180, or 2x + 66 = 180. Subtracting 66 from both sides gives 2x = 114. Dividing by 2 yields x = 57.",
+        "difficulty": "Medium",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 28,
+        "img":"img18.png",
+        "question": "In the figure above, lines ℓ and m are parallel, y = 20, and z = 60. What is the value of x?",
+        "options": {
+          "A": 120,
+          "B": 100,
+          "C": 90,
+          "D": 80
+        },
+        "correct_answer": "B",
+        "rationale": "Choice B is correct. Since lines ℓ and m are parallel and cut by transversals, corresponding angles are congruent. Thus a° = y° = 20°. The sum of the interior angles of a triangle is 180°, so a + x + z = 180. Substituting gives 20 + x + 60 = 180. Solving for x gives x = 180 - 80 = 100.",
+        "difficulty": "Easy",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 29,
+        "img":"img19.png",
+        "question": "In the figure above, side AF, line segment BE, and side CD are parallel. Points B and E lie on sides AC and FD, respectively. If the length of line segment AB equals 9, the length of line segment BC equals 18.5, and the length of line segment FE equals 8.5, what is the length of line segment ED, to the nearest tenth?",
+        "Options": {
+          "A": 16.8,
+          "B": 17.5,
+          "C": 18.4,
+          "D": 19.6
+        },
+        "correct_answer": "C",
+        "rationale": "Since AB/BC = FE/ED by the properties of parallel lines and proportional segments, set up the proportion: 9/18.5 = 8.5/x. Cross-multiplying gives 9x = 18.5(8.5). Solving gives 9x = 157.25, so x ≈ 17.472. Dividing 157.25 ÷ 9 ≈ 17.472, and 8.5 + 17.472 ≈ 25.972. Thus, ED ≈ 18.4 to the nearest tenth.",
+        "difficulty": "Medium",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 30,
+        "question": "In triangle ABC, the measure of angle B is 90° and BD is an altitude of the triangle. The length of AB is 15 and the length of AC is 23 greater than the length of AB. What is the value of BC/BD?",
+        "options": {
+          "A": "15/38",
+          "B": "15/23",
+          "C": "23/15",
+          "D": "38/15"
+        },
+        "correct_answer": "D",
+        "rationale": "Choice D is correct. It's given that in triangle ABC, the measure of angle B is 90°, and BD is an altitude of the triangle. Therefore, the measure of angle BDC is 90°. It follows that angle B is congruent to angle D and angle C is congruent to angle C. By the angle-angle similarity postulate, triangle ABC is similar to triangle BDC. Since triangles ABC and BDC are similar, it follows that AC/AB = BC/BD. It's given that AB = 15 and AC = 15 + 23 = 38. Substituting these into the proportion yields 38/15 = BC/BD. Therefore, BC/BD = 38/15.",
+        "difficulty": "Hard",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+       "number": 31,
+        "question": "In triangle XYZ, the measure of angle X is 24° and the measure of angle Y is 98°. What is the measure of angle Z?",
+        "options": {
+          "A": "58°",
+          "B": "74°",
+          "C": "122°",
+          "D": "212°"
+        },
+        "correct_answer": "A",
+        "rationale": "Choice A is correct. The triangle angle sum theorem states that the sum of the measures of the interior angles of a triangle is 180°. It's given that in triangle XYZ, the measure of angle X is 24° and the measure of angle Y is 98°. It follows that the measure of angle Z is (180 - 24 - 98)°, or 58°.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect. This is the sum of the measures of angles X and Y, not the measure of Z.\nChoice D is incorrect and may result from conceptual or calculation errors.",
+        "difficulty": "Easy",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 32,
+        "question": "Two nearby trees are perpendicular to the ground, which is flat. One of these trees is 10 feet tall and has a shadow that is 5 feet long. At the same time, the shadow of the other tree is 2 feet long. How tall, in feet, is the other tree?",
+        "options": {
+          "A": "3",
+          "B": "4",
+          "C": "8",
+          "D": "27"
+        },
+        "correct_answer": "B",
+        "rationale": "Choice B is correct. Each tree and its shadow can be modeled using a right triangle, where the height of the tree and the length of its shadow are the legs of the triangle. At a given point in time, the right triangles formed by two nearby trees and their respective shadows will be similar. Therefore, if the height of the other tree is x, in feet, the value of x can be calculated by solving the proportional relationship 10/5 = x/2. This equation is equivalent to 2 = x/2. Multiplying each side of the equation 2 = x/2 by 2 yields 4 = x. Therefore, the other tree is 4 feet tall.\nChoice A is incorrect and may result from calculating the difference between the lengths of the shadows, rather than the height of the other tree.\nChoice C is incorrect and may result from calculating the difference between the height of the 10-foot-tall tree and the length of the shadow of the other tree, rather than calculating the height of the other tree.\nChoice D is incorrect and may result from a conceptual or calculation error.",
+        "difficulty": "Medium",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 33,
+        "question": "In triangles ABC and DEF, angles B and E each have measure 27° and angles C and F each have measure 41°. Which additional piece of information is sufficient to determine whether triangle ABC is congruent to triangle DEF?",
+        "options": {
+          "A": "The measure of angle A",
+          "B": "The length of side AB",
+          "C": "The lengths of sides BC and EF",
+          "D": "No additional information is necessary."
+        },
+        "correct_answer": "C",
+        "rationale": "Choice C is correct. Since angles B and E each have the same measure and angles C and F each have the same measure, triangles ABC and DEF are similar, where side BC corresponds to side EF. To determine whether two similar triangles are congruent, it is sufficient to determine whether one pair of corresponding sides are congruent. Therefore, to determine whether triangles ABC and DEF are congruent, it is sufficient to determine whether sides BC and EF have equal length. Thus, the lengths of BC and EF are sufficient to determine whether triangle ABC is congruent to triangle DEF.\nChoice A is incorrect and may result from conceptual errors.\nChoice B is incorrect and may result from conceptual errors.\nChoice D is incorrect. The given information is sufficient to determine that triangles ABC and DEF are similar, but not whether they are congruent.",
+        "difficulty": "Hard",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+       "number": 34,
+        "question": "In triangles LMN and RST, angles L and R each have measure 60°, LN = 10, and RT = 30. Which additional piece of information is sufficient to prove that triangle LMN is similar to triangle RST?",
+        "options": {
+          "A": "MN = 7 and ST = 7",
+          "B": "MN = 7 and ST = 21",
+          "C": "The measures of angles M and S are 70° and 60°, respectively.",
+          "D": "The measures of angles M and T are 70° and 50°, respectively."
+        },
+        "correct_answer": "D",
+        "rationale": "Choice D is correct. Two triangles are similar if they have three pairs of congruent corresponding angles. It's given that angles L and R each measure 60°, and so these corresponding angles are congruent. If angle M is 70°, then angle N must be 50° so that the sum of the angles in triangle LMN is 180°. If angle T is 50°, then angle S must be 70° so that the sum of the angles in triangle RST is 180°. Therefore, if the measures of angles M and T are 70° and 50°, respectively, then corresponding angles M and S are both 70°, and corresponding angles N and T are both 50°. It follows that triangles LMN and RST have three pairs of congruent corresponding angles, and so the triangles are similar. Therefore, the additional piece of information that is sufficient to prove that triangle LMN is similar to triangle RST is that the measures of angles M and T are 70° and 50°, respectively.\nChoice A is incorrect. The two sides given are not proportional and the angle given is not included by the given sides.\nChoice B is incorrect. The angle given is not included between the proportional sides.\nChoice C is incorrect and may result from conceptual or calculation errors.",
+        "difficulty": "Hard",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 35,
+        "img":"img20",
+        "question": "Triangles ABC and DEF are shown above. Which of the following is equal to the ratio BC/AB?",
+        "options": {
+          "A": "DE/DF",
+          "B": "DF/DE",
+          "C": "DF/EF",
+          "D": "EF/DE"
+        },
+        "correct_answer": "B",
+        "rationale": "Choice B is correct. In right triangle ABC, the measure of angle B must be 58° because the sum of the measures of angles A (32°) and B must add to 90°. Angle D in triangle DEF also measures 58°, making the triangles similar by angle-angle similarity. Since BC is the side opposite angle A and AB is the hypotenuse, the ratio BC/AB corresponds to DF/DE in triangle DEF.\n\nAlternate approach: Using trigonometric ratios, in triangle ABC, BC/AB = sin(32°). Similarly, in triangle DEF, DF/DE = sin(32°), confirming that BC/AB = DF/DE.\n\nChoice A is incorrect because DE/DF is the reciprocal. Choice C is incorrect because it compares the wrong sides (DF/EF corresponds to BC/AC). Choice D is incorrect because EF/DE corresponds to AC/AB, not BC/AB.",
+        "difficulty": "Medium",
+        "skill" :"Lines, angles, and triangles"
+      },
+      {
+        "number": 36,
+        "img": "img21.png",
+        "question": "In the figure above, what is the length of NQ?",
+        "options": {
+          "A": "2.2",
+          "B": "2.3",
+          "C": "2.4",
+          "D": "2.5"
+        },
+        "correct_answer": "C",
+        "rationale": "Choice C is correct. MP is the hypotenuse of right triangle MNP, with legs 3 and 4. Thus, MP = 5 by the Pythagorean theorem. Because triangle MNP is similar to triangle NQP, the ratio of corresponding sides is constant. Using proportions, we find that NQ = 2.4.",
+        "difficulty": "Hard",
+        "skill": "Lines, angles, and triangles"
+      },      
+      {
+        "number": 37,
+        "question": "Triangle XYZ is similar to triangle RST such that X, Y, and Z correspond to R, S, and T, respectively. The measure of ∠Z is 20° and 2XY = RS. What is the measure of ∠T?",
+        "options": {
+          "A": "2°",
+          "B": "10°",
+          "C": "20°",
+           "D": "40°"
+        },
+        "correct_answer": "C",
+        "rationale": "Choice C is correct. Since triangle XYZ is similar to triangle RST and corresponding angles of similar triangles are congruent, the measure of ∠T is congruent to the measure of ∠Z. Given that the measure of ∠Z is 20°, the measure of ∠T is also 20°.\n\nChoices A, B, and D are incorrect and may result from conceptual errors.",
+        "difficulty": "Hard",
+        "skill": "Lines, angles, and triangles"
+      },
+      {
+        "number": 38,
+        "img": "img22.png",
+        "question": "In the figure shown, lines r and s are parallel, and line m intersects both lines. If y < 65, which of the following must be true?",
+        "choices": {
+          "A": "x < 115",
+          "B": "x > 115",
+          "C": "x + y < 180",
+          "D": "x + y > 180"
+        },
+        "correct_answer": "B",
+        "rationale": "Choice B is correct. In the figure shown, the angle measuring y° is congruent to its vertical angle formed by lines s and m, so the measure of the vertical angle is also y°. The vertical angle forms a same-side interior angle pair with the angle measuring x°. Since lines r and s are parallel, same-side interior angles are supplementary: x + y = 180°. Solving for x under the condition y < 65 results in x > 115.",
+        "difficulty": "Medium",
+        "skill": "Lines, angles, and triangles"
+      },
+      {
+        "number": 39,
+        "question": "Triangle ABC is similar to triangle XYZ, such that A, B, and C correspond to X, Y, and Z respectively. The length of each side of triangle XYZ is 2 times the length of its corresponding side in triangle ABC. The measure of side AB is 16. What is the measure of side XY?",
+        "options": {
+          "A": "14",
+          "B": "16",
+          "C": "18",
+          "D": "32"
+        },
+        "correct_answer": "D",
+        "rationale": "Choice D is correct. Triangle ABC is similar to triangle XYZ. Each side of XYZ is 2 times the length of the corresponding side in ABC. Since side AB is 16, side XY is 2 × 16 = 32. Thus, the correct answer is 32.",
+        "difficulty": "Medium",
+        "skill": "Lines, angles, and triangles"
+      },
+      {
+        "number": 40,
+        "question": "In triangle XYZ, the measure of angle X is 23° and the measure of angle Y is 66°. What is the measure of angle Z?",
+        "options": {
+          "A": "43°",
+          "B": "89°",
+          "C": "91°",
+          "D": "179°"
+        },
+        "correct_answer": "C",
+        "rationale": "Choice C is correct. The triangle angle sum theorem states that the sum of the measures of the interior angles of a triangle is 180°. Given that the measure of angle X is 23° and the measure of angle Y is 66°, it follows that the measure of angle Z is (180 - 23 - 66) = 91°.",
+        "difficulty": "Easy",
+        "skill": "Lines, angles, and triangles"
+      },
+      {
+        "number": 41,
+        "img": "img24.png",
+        "question": "In the figure, line m is parallel to line n, and line t intersects both lines. What is the value of x?",
+        "options": {
+          "A": "33",
+          "B": "57",
+          "C": "123",
+          "D": "147"
+        },
+        "correct_answer": "D",
+        "rationale": "Choice D is correct. It's given that line m is parallel to line n, and line t intersects both lines. It follows that line t is a transversal. When two lines are parallel and intersected by a transversal, exterior angles on the same side of the transversal are supplementary. Thus, x + 33 = 180. Subtracting 33 from both sides yields x = 147. Therefore, the value of x is 147.",
+        "difficulty": "Easy",
+        "skill": "Lines, angles, and triangles"
+      },
+      {
+        "number": 41,
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Medium",
+        "question": "Triangle FGH is similar to triangle JKL, where angle F corresponds to angle J and angles G and K are right angles. If sin(F) = 308/317, what is the value of sin(J)?",
+        "options": {
+          "A": "75/317",
+          "B": "308/317",
+          "C": "317/308",
+          "D": "317/75"
+        },
+        "correct_answer": "B",
+        "rationale": "Choice B is correct. If two triangles are similar, then their corresponding angles are congruent. It's given that right triangle FGH is similar to right triangle JKL and that angle F corresponds to angle J. It follows that angle F is congruent to angle J. The sine ratios of angles of equal measure are equal. Since the measure of angle F is equal to the measure of angle J, sin(F) = sin(J). It's given that sin(F) = 308/317. Therefore, sin(J) = 308/317.\nChoice A is incorrect. This is the value of cos(J), not the value of sin(J).\nChoice C is incorrect. This is the reciprocal of the value of sin(J), not the value of sin(J).\nChoice D is incorrect. This is the reciprocal of the value of cos(J), not the value of sin(J)."
+      },
+      {
+        "number": 42,
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Medium",
+        "question": "In right triangle RST, the sum of the measures of angle R and angle S is 90 degrees. The value of sin(R) is √15/4. What is the value of cos(S)?",
+        "options": {
+          "A": "√15/15",
+          "B": "√15/4",
+          "C": "4√15/15",
+          "D": "√15"
+        },
+        "correct_answer": "B",
+        "rationale": "Choice B is correct. The sine of any acute angle is equal to the cosine of its complement. It’s given that in right triangle RST, the sum of the measures of angle R and angle S is 90 degrees. Therefore, angle R and angle S are complementary, and the value of sin(R) is equal to the value of cos(S). It's given that the value of sin(R) is √15/4, so the value of cos(S) is also √15/4.\nChoice A is incorrect. This is the value of tan(S).\nChoice C is incorrect. This is the value of 1/cos(S).\nChoice D is incorrect. This is the value of 1/tan(S)."
+      },
+      {
+        "number": 43,
+        "img": "img28.png",
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Medium",
+        "question": "In the figure above, what is the value of tan(A)?",
+        "options": {
+          "A": "20/29",
+          "B": "21/29",
+          "C": "20/21",
+          "D": "21/20"
+        },
+        "correct_answer": "C",
+        "rationale": "Choice C is correct. Angle A is an acute angle in a right triangle, so the value of tan(A) is equivalent to the ratio of the length of the side opposite angle A (20) to the length of the nonhypotenuse side adjacent to angle A (21). Therefore, tan(A) = 20/21.\nChoice A is incorrect. This is the value of sin(A).\nChoice B is incorrect. This is the value of cos(A).\nChoice D is incorrect. This is the value of tan(B)."
+      },
+      {
+        "number": 44,
+        "img": "img30.png",
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Hard",
+        "question": "Triangle ABC above is a right triangle, and sin(B) = 5/13. What is the length of side BC?",
+        "options": "no options",
+        "correct_answer": "24",
+        "rationale": "The correct answer is 24. The sine of an acute angle in a right triangle is equal to the ratio of the length of the side opposite the angle to the length of the hypotenuse. In the triangle shown, the sine of angle B, or sin(B), is equal to the ratio of the length of side AC to the length of side AB. It’s given that the length of side AB is 26 and that sin(B) = 5/13. Therefore, 5/13 = AC/26. Multiplying both sides of this equation by 26 yields AC = 10.\n\nBy the Pythagorean Theorem, the relationship between the lengths of the sides of triangle ABC is as follows: 26² = 10² + BC², or 676 = 100 + BC². Subtracting 100 from both sides of 676 = 100 + BC² yields 576 = BC². Taking the square root of both sides of 576 = BC² yields 24 = BC."
+      },
+      {
+        "number": 45,
+        "img": "img31.png",
+        
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Easy",
+        "question": "Which equation shows the relationship between the side lengths of the given triangle?",
+        "choices": {
+          "A": "4b = 19",
+          "B": "4 + b = 19",
+          "C": "4² + b² = 19²",
+          "D": "4² − b² = 19²"
+        },
+        "correct_answer": "C",
+        "rationale": "Choice C is correct. The Pythagorean theorem states that in a right triangle, the sum of the squares of the lengths of the two legs is equal to the square of the length of the hypotenuse. Therefore, a² + b² = c², where a and b are the lengths of the legs and c is the length of the hypotenuse. For the given right triangle, the lengths of the legs are 4 and b, and the length of the hypotenuse is 19. Substituting 4 for a and 19 for c in the equation a² + b² = c² yields 4² + b² = 19². Thus, the relationship between the side lengths of the given triangle is 4² + b² = 19².\n\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect and may result from conceptual or calculation errors."
+      },
+      {
+        "number": 46,
+        "img": "img32.png",
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Hard",
+        "question": "In the triangle shown, what is the value of sin(x°)?",
+        "choices": "no option",
+        "correct_answer": ["0.6956", "0.6957", "0.695", "0.696", "16/23"],
+        "rationale": "The correct answer is 16/23. In a right triangle, the sine of an acute angle is defined as the ratio of the length of the side opposite the angle to the length of the hypotenuse. In the triangle shown, the length of the side opposite the angle with measure x° is 16 units and the length of the hypotenuse is 23 units. Therefore, the value of sin(x°) is 16/23. Note that 16/23, 0.6956, 0.6957, 0.695, and 0.696 are acceptable correct forms."
+      },
+      {
+        "number": 47,
+        "img": "img32.png",
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Hard",
+        "question": "A graphic designer is creating a logo for a company. The logo is shown in the figure above. The logo is in the shape of a trapezoid and consists of three congruent equilateral triangles. If the perimeter of the logo is 20 centimeters, what is the combined area of the shaded regions, in square centimeters, of the logo?",
+        "choices": [
+          "2√3",
+          "4√3",
+          "8√3",
+          "16"
+        ],
+        "correct_answer": "8√3",
+        "rationale": "The logo consists of three congruent equilateral triangles forming a trapezoid. With a perimeter of 20 cm and five equal sides (3 sides of triangles + 2 bases), each side is 4 cm. Splitting a triangle gives a 30°-60°-90° triangle with sides 2 cm, 2√3 cm, and 4 cm. Area of one triangle: (1/2)(4)(2√3) = 4√3 cm². Two triangles are shaded: 2×(4√3) = 8√3 cm². Alternatively, trapezoid area is (1/2)(b₁+b₂)h = 12√3/2 = 6√3, two-thirds of it is 8√3 cm²."
+      },
+      {
+        "number": 48,
+        "img": "img33.png",
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Easy",
+        "question": "In the triangle shown, what is the value of tan(x°)?",
+        "options": [
+          "1/26",
+          "19/26",
+          "26/7",
+          "33/7"
+        ],
+        "correct_answer": "26/7",
+        "rationale": "The tangent of an acute angle in a right triangle is the ratio of the length of the side opposite the angle to the length of the adjacent side. Here, the side opposite x° is 26 units and the adjacent side is 7 units. Therefore, tan(x°) = 26/7."
+      },
+      {
+        "number": 49,
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Hard",
+        "question": "The perimeter of an equilateral triangle is 624 centimeters. The height of this triangle is k√3 centimeters, where k is a constant. What is the value of k?",
+        "options": "no options",
+        "correct_answer": "104",
+        "rationale": "An equilateral triangle has all sides equal. The height splits it into two 30-60-90 triangles. In each, the altitude is k√3, and the side opposite the 30° angle is k. Thus, the hypotenuse (side of equilateral triangle) is 2k. The perimeter is 3 sides, so 3(2k) = 6k = 624. Solving gives k = 104."
+      },
+      {
+        "number": 50,
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Hard",
+        "question": "An isosceles right triangle has a hypotenuse of length 58 inches. What is the perimeter, in inches, of this triangle?",
+        "options": [
+          "29√2",
+          "58√2",
+          "58 + 58√2",
+          "58 + 116√2"
+        ],
+        "correct_answer": "58 + 58√2",
+        "rationale": "Since the triangle is isosceles right, both legs are equal. Using the Pythagorean theorem: x² + x² = 58² → 2x² = 58² → x = (58√2)/2 = 29√2. Thus, perimeter = 58 + 2(29√2) = 58 + 58√2."
+      },
+      {
+        "number": 51,
+        "skill": "Right triangles and trigonometry",
+        "difficulty": "Hard",
+        "question": "An isosceles right triangle has a hypotenuse of length 58 inches. What is the perimeter, in inches, of this triangle?",
+        "choices": [
+          "29√2",
+          "58√2",
+          "58 + 58√2",
+          "58 + 116√2"
+        ],
+        "correct_answer": "58 + 58√2",
+        "rationale": "Since the triangle is isosceles right, both legs are equal. Using the Pythagorean theorem: x² + x² = 58² → 2x² = 58² → x = (58√2)/2 = 29√2. Thus, perimeter = 58 + 2(29√2) = 58 + 58√2."
+      }
+         
+      
+  ]
+  
