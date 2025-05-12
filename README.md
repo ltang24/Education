@@ -27,8 +27,7 @@ The suite ships:
 ## 2 · Prerequisites
 
 * Python ≥ 3.10  
-* [g4f](https://pypi.org/project/g4f/) — an OpenAI-compatible, key-free wrapper  
-* (Optional) `llama-cpp-python`, Gemini SDK, etc. if you plan to run local/other models
+
 
 ##3 · Quick Start
 ```bash
@@ -40,7 +39,7 @@ cd Education
 # virtual environment
 python -m venv .venv && source .venv/bin/activate
 
-# run a dataset: GRE Math Medium with GPT-4-o (via g4f)
+# run a dataset: GRE Math Medium 
 cd "GRE Math Medium"
 python run_gpt4o.py          # ➜ gre_math_medium_gpt4o.json  ← already includes overall accuracy
 
