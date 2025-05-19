@@ -36,7 +36,7 @@ A 🚀 **single-stop repository** for evaluating **GPT-family**, **LLaMA**, **Ge
 ## ⚡ Quick Start
 
 ```bash
-pip install g4f
+
 
 # 📥 Clone the repository
 git clone https://github.com/<your-org>/Education.git
