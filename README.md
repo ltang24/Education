@@ -1,55 +1,74 @@
-# Educational Benchmarks & LLM-Evaluation Suite  
+# 🎓 Educational Benchmarks & LLM-Evaluation Suite
 
-A **single-stop repository** for evaluating GPT-family, LLaMA, Gemini and other large-language models on GRE, GMAT, SAT, TOEFL and IELTS style question sets.  
-The suite ships:
+A 🚀 **single-stop repository** for evaluating **GPT-family**, **LLaMA**, **Gemini**, and other large-language models on standardized tests such as **GRE**, **GMAT**, **SAT**, **TOEFL**, and **IELTS**.
 
-* Curated JSON datasets for each exam section  
-* One **Python driver per dataset per model**   
-* A generic **`runtime.py`** summariser that converts those JSON files into latency/accuracy CSV tables  
-* Utility scripts for cross-dataset accuracy aggregation and plotting
+## 📦 Features
 
----
-
-## 1 · Repository Layout
-
-### Folder Naming Rules
-
-| Prefix  | Contains                                |
-|---------|-----------------------------------------|
-| `GRE *` | Any GRE section (Math/RC/Verbal)        | 
-| `GMAT/` | Quant, Verbal, Data Insights            | 
-| `SAT/`  | Math & Reading subsections              | 
-| `TOFEL/`| TOEFL Reading & Listening               | 
-| `IELTS/`| IELTS Reading & Listening               |
+* 📁 **Curated JSON datasets** for each exam section
+* 🐍 One dedicated **Python driver per dataset per model**
+* 📊 Generic summarizer to convert JSON files into latency/accuracy CSV tables
+* 📈 Utility scripts for cross-dataset accuracy aggregation and plotting
 
 ---
 
-## 2 · Prerequisites
+## 📂 Repository Layout
 
-* Python ≥ 3.10  
+### 📌 Folder Naming Rules
 
+* `GRE*`: Math, RC, Verbal
+* `GMAT/`: Quant, Verbal, Data Insights
+* `SAT/`: Math & Reading
+* `TOFEL/`: Reading & Listening
+* `IELTS/`: Reading & Listening
 
-##3 · Quick Start
+---
+
+## 📝 Question Type Examples
+
+![Question Type Examples](example.jpg)
+
+## 🛠️ Prerequisites
+
+* 🐍 Python ≥ 3.10
+
+---
+
+## ⚡ Quick Start
+
 ```bash
 pip install g4f
-# clone
+
+# 📥 Clone the repository
 git clone https://github.com/<your-org>/Education.git
 cd Education
 
-# virtual environment
+# 🌱 Set up virtual environment
 python -m venv .venv && source .venv/bin/activate
 
-# run a dataset: GRE Math Medium 
+# ▶️ Run dataset example: GRE Math Medium 
 cd "GRE Math Medium"
-python run_gpt4o.py          # ➜ gre_math_medium_gpt4o.json  ← already includes overall accuracy
+python run_gpt4o.py   # ➜ gre_math_medium_gpt4o.json (includes overall accuracy)
 
-#Generate Latency CSV
+# 📋 Generate Latency CSV
 cd ../../tools
 python runtime.py ../GRE\ Math\ Medium/gre_math_medium_gpt4o.json \
                   --out ../runtime_gre/gre_math_medium_gpt4o.csv
+```
 
+---
 
+## 🤝 Contributing
 
+Your contributions are always welcome! Please:
 
+* Fork 🍴
+* Branch 🌿 (`git checkout -b feature/new-feature`)
+* Commit 💾 (`git commit -m 'Add awesome feature'`)
+* Push 🚀 (`git push origin feature/new-feature`)
+* Pull Request 🎉
 
+---
 
+## 📜 License
+
+Distributed under the MIT License 📄. See [`LICENSE`](LICENSE) for more information.
