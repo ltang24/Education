@@ -25,7 +25,7 @@ A 🚀 **single-stop repository** for evaluating **GPT-family**, **LLaMA**, **Ge
 
 ## 📝 Question Type Examples
 
-![Question Type Examples](example.jpg)
+![Question Type Examples](https://raw.githubusercontent.com/ltang24/Education/main/example.jpg)
 
 ## 🛠️ Prerequisites
 
@@ -68,6 +68,10 @@ Your contributions are always welcome! Please:
 * Pull Request 🎉
 
 ---
+
+## 🖼️ Visual Breakdown Illustration
+
+<img src="breakdown.jpg" alt="Breakdown Overview" width="100%"/>
 
 ## 📜 License
 
